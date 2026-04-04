@@ -69,6 +69,61 @@ in CLAUDE.md before going live.
 | Pagefind TASK-16 | `pagefind` **not** in `package.json`; no `src/pages/search/`; footer has **no** تلاش link | Open — matches |
 | AdSense / FTP | Placeholders `ca-pub-…`, `G-…` still in `Base.astro` | TASK-11 / TASK-22 Blocked — matches |
 
+---
+
+## Observations from Cursor — codebase audit (share across agents)
+
+> **Purpose:** Gap analysis toward becoming the most-visited Urdu destination for AI learners. Not a task list by itself — **agents should read this, then claim an explicit TASK-xx or propose a new task** in this file. Last updated: **2026-04-04** (Cursor).
+
+### Critical — discovery & trust (hurts rankings, CTR, bounce)
+
+| Gap | Repo / code evidence | Suggested direction |
+|-----|----------------------|---------------------|
+| **Broken `WebSite` / `SearchAction`** | `src/layouts/Base.astro` — `SearchAction` target is `https://urduai.org/blog/?q={search_term_string}`; static build has **no** query handler | Implement **TASK-16 (Pagefind)** + `/search/`, then **point `SearchAction` at `/search/`** (or remove `SearchAction` until search exists) |
+| **No on-site search** | No `pagefind` in `package.json`; no `src/pages/search/` | TASK-16 |
+| **Blog card images mostly absent in repo** | `public/images/blog/` has very few assets; many posts reference `/images/blog/*.jpg` → broken thumbnails / placeholders | Continue **image recovery** (tar/SQL); align `image:` with files under `public/` |
+| **App landing screenshots** | `/app/` references `/images/app/screenshot-0x.jpg` | Ensure real files exist in `public/images/app/` on deploy |
+
+### Revenue, measurement, deploy
+
+- **GA4 + AdSense** still placeholders → **TASK-11** (blocked on Qaisar IDs).
+- **Production host** — **TASK-22** FTP; until `urduai.org` is sole canonical with GSC, split signals vs GitHub Pages preview (`astro.config.mjs` `site` / `base`).
+
+### Learning product & SEO (retention, internal graph)
+
+- **No curated “start here” learner path** on homepage — only sections; consider a hub (even static) linking لغت → ہاؤ ٹو → ٹولز → پرامٹس.
+- **`/learn/` index** sorts by title (`localeCompare`) — beginners may want **priority / topic** order.
+- **TASK-20** — systematic internal links from high-traffic blog → `/learn/`, `/how-to/`, `/tools/`.
+- **Courses** — static shells; full sticky product per CLAUDE is Workers/D1 (future epic).
+
+### Technical SEO (quick wins)
+
+- Fix **SearchAction** ↔ real search (see above).
+- **`hreflang`**: optional if single-language; already `lang="ur"`, `og:locale` `ur_PK`.
+- **Pagination + schema + FAQ** — already strong; keep valid after edits.
+
+### UX / habit
+
+- **Newsletter** — page exists; consider **header nav** link to `/newsletter/` (not only footer).
+- **PWA / offline** — not present; optional for PK connectivity.
+- **App** — primary retention surface; reinforce CTAs on learn/how-to where editorial allows.
+
+### What the codebase already does well
+
+RTL + Nastaliq, breadcrumbs, share buttons, related posts, FAQ schema, blog pagination, category archives, `/tools/`, `/learn/`, RSS + `news.xml`, legacy comments, hamburger nav.
+
+### Collective “what’s next?” (pick one; don’t duplicate)
+
+1. **TASK-16 + SearchAction fix** — highest leverage for learners finding content.
+2. **Image pipeline** — unblock SERP/social quality for hundreds of posts.
+3. **TASK-20** — internal linking at scale.
+4. **TASK-11 / TASK-22** — unblock Qaisar for measure + revenue + canonical live site.
+5. **Homepage “شروع یہاں سے” hub** — new small task if agents agree.
+
+**Agents:** After you complete work driven by this section, add a one-line note under your task’s Completed note or here: `— Addressed: [date] [agent] [brief].`
+
+---
+
 ## Open Tasks — Pick One and Claim It
 
 > Before starting: read CLAUDE.md fully. Then read EDITORIAL-CLAUDE.md.
