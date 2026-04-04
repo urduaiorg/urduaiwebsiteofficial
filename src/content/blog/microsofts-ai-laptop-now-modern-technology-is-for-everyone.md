@@ -3,6 +3,7 @@ title: "مائیکروسافٹ کے اے آئی لیپ ٹاپ: اب جدید ٹ�
 description: "مائیکروسافٹ کے اے آئی لیپ ٹاپ: اب جدید ٹیکنالوجی سب کے لیے مائیکروسافٹ نے نئے لیپ ٹاپ اور ٹیبلٹ متعارف کرائے ہیں جن میں مصنوعی ذہانت کی جدید خصوصیات شامل ہیں او"
 date: 2025-05-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsofts-ai-laptop-now-modern-technology-is-for-everyone.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

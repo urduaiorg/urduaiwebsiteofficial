@@ -3,6 +3,7 @@ title: "GPT-4.1 کی آمد: پروگرامنگ کا نیا دور"
 description: "GPT-4.1 کی آمد: پروگرامنگ کا نیا دور مصنوعی ذہانت کی دنیا میں سرگرم ادارہ اوپن اے آئی نے اپنے نئے ماڈلز GPT-4.1، GPT-4.1 Mini اور GPT-4.1 Nano متعارف کرواتے ہو"
 date: 2025-04-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-arrival-of-gpt-4-1-a-new-era-of-programming.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "کیا چیٹ جی پی ٹی ہماری تنقیدی سوچ کی صلا�
 description: "کیا چیٹ جی پی ٹی ہماری تنقیدی سوچ کی صلاحیت کو ختم کر رہا ہے؟ نئی تحقیق نے کیا انکشاف کیا؟  کیا مصنوعی ذہانت کے ٹولز، خاص طور پر چیٹ جی پی ٹی، ہمارے سوچنے کی صل"
 date: 2025-08-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-chatgpt-destroying-our-critical-thinking-ability-what-did-new-research-reveal.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

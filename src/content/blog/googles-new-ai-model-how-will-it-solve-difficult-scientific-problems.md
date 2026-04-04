@@ -3,6 +3,7 @@ title: "گوگل کا نیا اے آئی ماڈل: مشکل سائنسی مسا�
 description: "گوگل کا نیا اے آئی ماڈل: مشکل سائنسی مسائل کیسے حل کرے گا؟ مصنوعی ذہانت کے میدان میں تیزی سے ہونے والی پیش رفت نے پچھلے چند برسوں میں کام، تحقیق اور سیکھنے کے ا"
 date: 2026-02-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-ai-model-how-will-it-solve-difficult-scientific-problems.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

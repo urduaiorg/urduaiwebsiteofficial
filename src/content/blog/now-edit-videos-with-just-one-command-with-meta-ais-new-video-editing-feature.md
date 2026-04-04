@@ -3,6 +3,7 @@ title: "اب ویڈیوز ایڈیٹ کریں صرف ایک کمانڈ پر می
 description: "اب ویڈیوز ایڈیٹ کریں صرف ایک کمانڈ پر میٹا اے آئی کی نئی ویڈیو ایڈیٹنگ خصوصیت ویڈیو ایڈیٹنگ اب سب کے لیے میٹا (Meta) نے مصنوعی ذہانت کے میدان میں ایک اور قدم آگ"
 date: 2025-06-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/now-edit-videos-with-just-one-command-with-meta-ais-new-video-editing-feature.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

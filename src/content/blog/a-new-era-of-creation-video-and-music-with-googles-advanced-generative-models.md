@@ -3,6 +3,7 @@ title: "گوگل کے جدید جنریٹیو ماڈلز کے ساتھ تخلی�
 description: "گوگل کے جدید جنریٹیو ماڈلز کے ساتھ تخلیق، ویڈیو اور موسیقی کا نیا دور دنیا کی تخلیقی قوت اب محض کینوس، ساز یا سکرپٹ تک محدود نہیں رہی۔ اب فنکار، ہدایتکار اور مو"
 date: 2025-06-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/a-new-era-of-creation-video-and-music-with-googles-advanced-generative-models.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

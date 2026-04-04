@@ -3,6 +3,7 @@ title: "سیم آلٹمین کا اعتراف: کیا مصنوعی ذہانت ک
 description: "سیم آلٹمین کا اعتراف: کیا مصنوعی ذہانت کے فوائد سب تک پہنچ پائیں گے؟  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کریں گے ایک ایسے موضوع پر جو"
 date: 2025-02-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/sam-altmans-admission-will-ai-benefits-reach-everyone.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

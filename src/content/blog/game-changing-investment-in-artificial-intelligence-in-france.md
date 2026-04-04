@@ -3,6 +3,7 @@ title: "فرانس میں مصنوعی ذہانت کی دنیا بدلنے وا�
 description: "فرانس میں مصنوعی ذہانت کی دنیا بدلنے والی سرمایہ کاری!  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک زبردست خبر پر بات کریں گے جو ٹیکنالوجی کی"
 date: 2025-02-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/game-changing-investment-in-artificial-intelligence-in-france.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

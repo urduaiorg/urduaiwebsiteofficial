@@ -3,6 +3,7 @@ title: "نسیم طالب کی پیشگوئی: اے آئی اسٹاکس کی گ�
 description: "یہ تو بس شروعات ہے نسیم طالب کی پیشگوئی: اے آئی اسٹاکس کی گراوٹ ابھی باقی ہے   دوستوں! کیا آپ نے بھی حالیہ دنوں میں Nvidia کے شیئرز کی قیمت میں زبردست کمی دیکھی"
 date: 2025-02-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/naseem-talebs-prediction-ai-stocks-are-still-down.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

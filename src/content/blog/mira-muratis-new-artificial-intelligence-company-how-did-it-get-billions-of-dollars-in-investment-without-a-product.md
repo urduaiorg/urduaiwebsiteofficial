@@ -3,6 +3,7 @@ title: "میرا مراتی کی نئی مصنوعی ذہانت کمپنی: بغ
 description: "میرا مراتی کی نئی مصنوعی ذہانت کمپنی: بغیر پراڈکٹ اربوں ڈالر کی سرمایہ کاری کیسے ملی؟                 جب سابق اوپن اے آئی CTO، میرا مراتی، نے ا"
 date: 2025-04-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

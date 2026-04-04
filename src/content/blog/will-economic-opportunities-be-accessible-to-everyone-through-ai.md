@@ -4,6 +4,7 @@ description: "کیا اے آئی کے ذریعے معاشی مواقع سب کو
 date: 2025-09-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/will-economic-opportunities-be-accessible-to-everyone-through-ai.jpg"
 adsense: true
 draft: false
 ---

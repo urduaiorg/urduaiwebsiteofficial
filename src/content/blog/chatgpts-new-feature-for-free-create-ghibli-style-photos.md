@@ -3,6 +3,7 @@ title: "گبلی اسٹائل کی تصاویر مفت میں بنائیں؟"
 description: "گبلی اسٹائل کی تصاویر مفت میں بنائیں؟  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے جا رہے ہیں ایک ایسی نئی خصوصیت کی جو آرٹس اور مصنوعی ذہ"
 date: 2025-03-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpts-new-feature-for-free-create-ghibli-style-photos.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

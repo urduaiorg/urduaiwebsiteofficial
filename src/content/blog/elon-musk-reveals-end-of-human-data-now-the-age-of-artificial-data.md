@@ -3,6 +3,7 @@ title: "ایلون مسک کا انکشاف: انسانی ڈیٹا ختم، اب
 description: "ایلون مسک کا انکشاف: انسانی ڈیٹا ختم، اب مصنوعی ڈیٹا کا دور  کیا آپ جانتے ہیں کہ ایلون مسک نے حال ہی میں دعویٰ کیا ہے کہ اے آئی ماڈلز کی تربیت کے لیے دستیاب تما"
 date: 2025-01-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/elon-musk-reveals-end-of-human-data-now-the-age-of-artificial-data.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

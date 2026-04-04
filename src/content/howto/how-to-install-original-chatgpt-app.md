@@ -4,9 +4,11 @@ description: "چیٹ جی پی ٹی کی اصلی ایپ کو کیسے انسٹ�
  آج کل کی ڈیجیٹل دنیا میں، چیٹ جی پی ٹی ایپ کمیونیکیشن، مسائل کے حل، اور تفریح کے لیے ایک طاقتور ٹول بن چکا ہے۔ لیک"
 date: 2025-01-03
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-01-03
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

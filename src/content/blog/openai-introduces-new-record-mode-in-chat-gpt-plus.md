@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا چیٹ جی پی ٹی پلس میں نیا ر�
 description: "اوپن اے آئی کا چیٹ جی پی ٹی پلس میں نیا ریکارڈ موڈ متعارف  اوپن اے آئی نے اپنے مشہور چیٹ جی پی ٹی پلس کے میک او ایس صارفین کے لیے ایک نیا اور جدید فیچر ریکارڈ م"
 date: 2025-07-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-introduces-new-record-mode-in-chat-gpt-plus.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

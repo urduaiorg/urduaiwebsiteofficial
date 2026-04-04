@@ -3,6 +3,7 @@ title: "جی پی ٹی 5.2 اور سائنس: کیا اے آئی نئی سائن
 description: "جی پی ٹی 5.2 اور سائنس: کیا اے آئی نئی سائنسی حقیقتیں دریافت کر سکتی ہے؟ سائنس کی دنیا میں اکثر نئی دریافتیں برسوں کی محنت، پیچیدہ حساب کتاب اور طویل مباحثے کے"
 date: 2026-02-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gpt-5-2-and-science-can-ai-discover-new-scientific-facts.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

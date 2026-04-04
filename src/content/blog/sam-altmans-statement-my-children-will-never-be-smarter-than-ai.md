@@ -3,6 +3,7 @@ title: "سیم آلٹمین کا بیان میرے بچے کبھی اے آئی 
 description: "سیم آلٹمین کا بیان میرے بچے کبھی اے آئی سے زیادہ ذہین نہیں ہوں گے۔  اوپن اے آئی کے سی ای او اور شریک بانی، سیم آلٹمین نے حال ہی میں کہا ہے کہ ان کے بچے مصنوعی ذ"
 date: 2025-07-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/sam-altmans-statement-my-children-will-never-be-smarter-than-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

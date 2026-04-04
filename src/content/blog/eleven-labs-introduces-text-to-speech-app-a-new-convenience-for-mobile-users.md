@@ -3,6 +3,7 @@ title: "الیون لیبز نے ٹیکسٹ ٹو اسپیچ ایپ متعارف 
 description: "الیون لیبز نے ٹیکسٹ ٹو اسپیچ ایپ متعارف کروا دی  موبائل صارفین کے لیے نئی سہولت مصنوعی ذہانت کی دنیا میں معروف کمپنی الیون لیبز نے اپنی نئی ٹیکسٹ ٹو اسپیچ ایپ م"
 date: 2025-07-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/eleven-labs-introduces-text-to-speech-app-a-new-convenience-for-mobile-users.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

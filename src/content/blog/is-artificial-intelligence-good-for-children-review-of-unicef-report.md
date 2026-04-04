@@ -3,6 +3,7 @@ title: "کیا مصنوعی ذہانت بچوں کے حق میں ہے؟ یونی
 description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی ذہانت اور بچے  حصہ اول: یہ مضمون مصنوعی ذہانت اور بچوں سے متعلق یونیسف کی عالمی رپورٹ کے تجزیے پر مبنی سیریز کا  حصہ اول ہے"
 date: 2026-01-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-artificial-intelligence-good-for-children-review-of-unicef-report.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

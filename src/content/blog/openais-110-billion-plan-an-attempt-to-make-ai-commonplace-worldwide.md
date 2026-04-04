@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا 110 ارب ڈالر کا منصوبہ: دنی�
 description: "اوپن اے آئی کا 110 ارب ڈالر کا منصوبہ: دنیا بھر میں اے آئی کو عام بنانے کی کوشش  دنیا بھر میں مصنوعی ذہانت یا اے آئی تیزی سے ہماری روزمرہ زندگی کا حصہ بنتی جا ر"
 date: 2026-03-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-110-billion-plan-an-attempt-to-make-ai-commonplace-worldwide.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "جی پی ٹی 5.3 کوڈیکس: کیا اے آئی اب مکمل ساف
 description: "جی پی ٹی 5.3 کوڈیکس: کیا اے آئی اب مکمل سافٹ ویئر پروجیکٹ خود سنبھال سکتی ہے؟ مصنوعی ذہانت کی دنیا میں ایک اور اہم پیش رفت سامنے آئی ہے جس نے سافٹ ویئر انجینئرز"
 date: 2026-02-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-ai-now-handle-entire-software-projects-on-its-own.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

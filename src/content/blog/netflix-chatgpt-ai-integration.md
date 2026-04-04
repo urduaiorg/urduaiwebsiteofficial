@@ -3,6 +3,7 @@ title: "نیٹ فلکس اور چیٹ جی پی ٹی کا اشتراک: دیکھ
 description: "نیٹ فلکس اور چیٹ جی پی ٹی کا اشتراک: دیکھنے کا انداز بدلنے کو تیار؟  کیا آپ بھی اُن لوگوں میں شامل ہیں جو نیٹ فلکس پر فلم یا سیریز ڈھونڈتے ڈھونڈتے تھک جاتے ہیں؟"
 date: 2025-05-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/netflix-chatgpt-ai-integration.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

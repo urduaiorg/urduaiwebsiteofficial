@@ -3,6 +3,7 @@ title: "مریخ پرمصنوعی ذہانت کا چار سو میٹر کا سف
 description: "مریخ پرمصنوعی ذہانت کا چار سو میٹر کا سفر؟؟ دسمبر 2025 میں مریخ پر ہونے والا ایک بظاہر چھوٹا سا سفر دراصل خلائی تحقیق کی تاریخ میں ایک بڑی پیش رفت ثابت ہوا۔ ناس"
 date: 2026-02-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/artificial-intelligences-four-hundred-meter-journey-on-mars.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

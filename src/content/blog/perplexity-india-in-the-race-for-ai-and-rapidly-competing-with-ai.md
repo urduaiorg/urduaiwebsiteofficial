@@ -3,6 +3,7 @@ title: "پرپلیکسیٹی: بھارت میں اے آئی کی دوڑ میں �
 description: "پرپلیکسیٹی: بھارت میں اے آئی کی دوڑ میں تیزی اور اوپن اے آئی سے مقابلہ جہاں اوپن اے آئی  نے امریکہ میں اپنی برتری قائم کر لی ہے۔ وہیں پرپلیکسیٹی ایک مختلف راستہ"
 date: 2025-07-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexity-india-in-the-race-for-ai-and-rapidly-competing-with-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

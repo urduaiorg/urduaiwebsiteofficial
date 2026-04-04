@@ -3,6 +3,7 @@ title: "ایپل کا اے آئی پن کیا ہے اور یہ کب متعارف
 description: "ایپل کا اے آئی پن کیا ہے اور یہ کب متعارف ہوسکتا ہے؟ یہ خبر بظاہر ایک سادہ سی ٹیکنالوجی اپ ڈیٹ لگتی ہے، لیکن درحقیقت یہ اس سمت کی نشاندہی کرتی ہے جس طرف ایپل او"
 date: 2026-01-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-apples-ai-pin-and-when-could-it-arrive.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

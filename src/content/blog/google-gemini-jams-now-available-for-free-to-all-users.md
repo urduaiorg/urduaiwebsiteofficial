@@ -3,6 +3,7 @@ title: "گوگل جیمینائی 'جیمز' اب سب صارفین کے لیے 
 description: "گوگل جیمینائی 'جیمز' اب سب صارفین کے لیے مفت دستیاب!  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک ایسی زبردست خبر پر بات کرنے والے ہیں جو خاص"
 date: 2025-04-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-gemini-jams-now-available-for-free-to-all-users.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

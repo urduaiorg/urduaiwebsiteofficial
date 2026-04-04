@@ -3,6 +3,7 @@ title: "کیا یہ اے آئی سٹیتھو سکوپ فالج اور ہارٹ �
 description: "کیا یہ اے آئی سٹیتھو سکوپ فالج اور ہارٹ فیلیر کی بروقت نشاندہی کر پائے گا؟  دنیا بھر میں دل کی بیماریاں اور فالج سب سے بڑی اموات کی وجوہات میں شمار ہوتی ہیں۔ ای"
 date: 2025-09-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-stethoscope-a-new-milestone-in-the-rapid-diagnosis-of-heart-diseases.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

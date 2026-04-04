@@ -3,6 +3,7 @@ title: "گوگل کی پاکستان میں اے آئی سرچ کی سہولت �
 description: "گوگل کی پاکستان میں اے آئی سرچ کی سہولت کا آغاز   گوگل نے پاکستان میں اپنی جدید ترین اے آئی سے چلنے والی سرچ کا باقاعدہ آغاز کر دیا ہے۔ یہ سروس جسے اے آئی موڈ ک"
 date: 2025-09-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-launches-ai-search-facility-in-pakistan.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

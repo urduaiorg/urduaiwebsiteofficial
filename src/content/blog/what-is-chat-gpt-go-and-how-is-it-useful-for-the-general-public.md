@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگوں ک�
 description: "چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگوں کے لیے کیسے مفید ہے؟  دنیا بھر میں ٹیکنالوجی کا استعمال تیزی سے بڑھ رہا ہے اور اب ہر فرد چاہتا ہے کہ وہ بھی جدید سمارٹ ٹ"
 date: 2026-01-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

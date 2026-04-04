@@ -3,6 +3,7 @@ title: "اے آئی سے چلنے والے براؤزرز: کیا مستقبل �
 description: "اے آئی سے چلنے والے براؤزرز: کیا مستقبل اب قریب ہے؟ جدید ٹیکنالوجی کی دنیا میں جہاں اے آئی (مصنوعی ذہانت) تیزی سے ہر شعبے میں اپنی جگہ بنا رہی ہے۔ وہیں انٹرنیٹ"
 date: 2025-07-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/are-ai-powered-browsers-the-future-now.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

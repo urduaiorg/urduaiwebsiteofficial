@@ -3,6 +3,7 @@ title: "کروم میں جیمنائی: آپ کا نیا ذاتی اسسٹنٹ"
 description: "کروم میں جیمنائی: آپ کا نیا ذاتی اسسٹنٹ  گوگل نے اپنے مشہور براؤزر کروم میں ایک بڑی اور دلچسپ تبدیلی کی ہے جو روزمرہ زندگی میں صارفین کے کام کرنے کے طریقے کو مک"
 date: 2026-02-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-in-chrome-your-new-personal-assistant.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

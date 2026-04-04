@@ -3,6 +3,7 @@ title: "وفاقی کابینہ نے نیشنل آرٹیفیشل انٹیلیج�
 description: "وفاقی کابینہ نے نیشنل آرٹیفیشل انٹیلیجنس پالیسی 2025 کی منظوری دے دی اسلام آباد میں بدھ کے روز وزیرِاعظم شہباز شریف کی زیرِ صدارت وفاقی کابینہ کے اجلاس میں پاکس"
 date: 2025-08-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/federal-cabinet-approves-national-artificial-intelligence-policy-2025.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

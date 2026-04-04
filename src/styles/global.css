@@ -253,8 +253,8 @@ pre code {
    Footer
    ============================================================ */
 .site-footer {
-  background: var(--navy);
-  border-block-start: 2px solid var(--gold);
+  background: linear-gradient(180deg, var(--navy) 0%, var(--navy-dark) 100%);
+  border-block-start: 3px solid var(--gold);
   padding-block: var(--space-2xl) var(--space-xl);
   margin-block-start: var(--space-2xl);
   font-size: var(--text-sm);
@@ -263,10 +263,12 @@ pre code {
 
 .site-footer a {
   color: var(--gold-light);
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 .site-footer a:hover {
   color: #ffffff;
+  opacity: 0.9;
 }
 
 .site-footer strong {
@@ -296,15 +298,16 @@ pre code {
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: var(--space-md) var(--space-md) var(--space-sm);
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   display: flex;
   flex-direction: column;
+  box-shadow: 0 2px 8px rgba(29, 85, 159, 0.04);
 }
 
 .card:hover {
   border-color: var(--gold);
-  box-shadow: 0 6px 24px rgba(29, 85, 159, 0.12);
-  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(29, 85, 159, 0.15);
+  transform: translateY(-4px);
 }
 
 .card__image-placeholder {
@@ -349,6 +352,7 @@ pre code {
   line-height: var(--lh-body);
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -416,27 +420,96 @@ blockquote strong {
 }
 
 /* ============================================================
-   Prompt gift block
+   Premium Prompt UI
    ============================================================ */
-.prompt-block {
-  background: var(--paper-warm);
-  border: 1px solid var(--border-dark);
+.prompt-ui-card {
+  background: var(--paper-card);
+  border: 1px solid var(--teal-light);
+  border-inline-start: 4px solid var(--teal);
   border-radius: 8px;
+  margin-block: var(--space-lg);
+  box-shadow: 0 4px 12px rgba(29, 85, 159, 0.05);
+  overflow: hidden;
+}
+
+.prompt-ui-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  background: var(--paper-warm);
+  padding: var(--space-sm) var(--space-md);
+  border-block-end: 1px solid var(--border);
+}
+
+.prompt-ui-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0;
+}
+
+.prompt-ui-copy-btn {
+  background: var(--paper-card);
+  border: 1px solid var(--border-dark);
+  color: var(--ink-soft);
+  padding: 0.3em 0.8em;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+  direction: rtl; /* For SVG and text alignment */
+}
+
+.prompt-ui-copy-btn:hover {
+  background: var(--teal);
+  color: white;
+  border-color: var(--teal);
+}
+
+.prompt-ui-copy-btn.copied {
+  background: var(--gold);
+  color: var(--ink);
+  border-color: var(--gold);
+  font-weight: 600;
+}
+
+.prompt-ui-copy-btn svg {
+  flex-shrink: 0;
+}
+
+.prompt-ui-body {
   padding: var(--space-md);
-  margin-block: var(--space-md);
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  line-height: var(--lh-prose);
+  color: var(--ink);
+  background: rgba(14, 107, 94, 0.03); /* Extremely soft teal hint */
+  position: relative;
+  white-space: pre-wrap; /* Preserve spaces if any */
 }
 
-.prompt-block__divider {
-  border: none;
-  border-block-start: 1px solid var(--border-dark);
-  margin-block: var(--space-xs);
+.prompt-ui-body > *:first-child { margin-block-start: 0; }
+.prompt-ui-body > *:last-child { margin-block-end: 0; }
+
+.prompt-ui-meta {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--paper);
+  border-block-start: 1px dashed var(--border);
+  font-size: 0.9rem;
+  color: var(--ink-soft);
 }
 
-.prompt-block__label {
-  font-size: var(--text-sm);
-  color: var(--ink-muted);
-  margin-block-start: var(--space-xs);
+.prompt-ui-meta div {
+  margin-block: 4px;
+}
+
+.prompt-ui-meta strong {
+  color: var(--ink);
 }
 
 /* ============================================================
@@ -560,11 +633,12 @@ blockquote strong {
    ============================================================ */
 .ad-slot {
   text-align: center;
-  margin-block: var(--space-sm);
   min-height: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Only add height when AdSense actually loads */
+/* Only add height and margin when AdSense actually loads */
 .ad-slot:has(.adsbygoogle[data-ad-status="filled"]) {
   min-height: 90px;
   margin-block: var(--space-lg);

@@ -3,9 +3,11 @@ title: "چیٹ جی پی ٹی کے مختلف ماڈلز کب اور کیسے ا
 description: "چیٹ جی پی ٹی کے مختلف ماڈلز کب اور کیسے استعمال کریں؟ اوپن اے آئی کی اہم رہنمائی  اوپن اے آئی کی جانب سے حالیہ ہفتوں میں جاری کی گئی ایک دستاویز نے چیٹ جی پی ٹی"
 date: 2025-05-21
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-05-21
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

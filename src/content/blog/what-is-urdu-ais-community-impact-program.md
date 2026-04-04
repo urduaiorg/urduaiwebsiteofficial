@@ -3,6 +3,7 @@ title: "اردو اے آئی کا کمیونٹی امپیکٹ پروگرام ک�
 description: "اردو اے آئی کا کمیونٹی امپیکٹ پروگرام کیا ہے؟  دنیا بھر میں اے آئی یعنی مصنوعی ذہانت اب کسی ایک شعبے تک محدود نہیں رہی۔ تعلیم ہو یا کاروبار، صحت ہو یا میڈیا، ہر"
 date: 2026-02-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-urdu-ais-community-impact-program.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

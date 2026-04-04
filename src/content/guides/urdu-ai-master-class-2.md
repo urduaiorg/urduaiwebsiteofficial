@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس ٢"
 description: "اردو اے آئی ماسٹر کلاس ٢  السلام علیکم دوستو! میرا نام قیصر رونجہ ہے۔ اور میں اردو اے آئی کی طرف سے عام فہم الفاظ میں مصنوعی ذہانت (آرٹیفیشل انٹیلیجنس) کو لوگوں"
 date: 2025-02-15
 category: "گائیڈ"
+tool: "Artificial Intelligence"
 level: "ابتدائی"
+image: "/images/guides/urdu-ai-master-class-2.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

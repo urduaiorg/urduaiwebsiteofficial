@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس ٤ مصنوعی ذہانت او
 description: "اردو اے آئی ماسٹر کلاس ٤ مصنوعی ذہانت اور مواد تخلیق کرنے کے جدید طریقے   السلام علیکم دوستو! میرا نام قیصر رونجہ ہے۔ اور میں اردو اے آئی کی طرف سے عام فہم الفا"
 date: 2025-03-04
 category: "گائیڈ"
+tool: "ChatGPT"
 level: "ابتدائی"
+image: "/images/guides/ai-content-creation-urdu-ai-master-class-4.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

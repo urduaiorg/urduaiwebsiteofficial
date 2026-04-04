@@ -3,9 +3,11 @@ title: "اوپن اے آئی کے چیف اکانومسٹ کے مطابق بچ
 description: "اوپن اے آئی کے چیف اکانومسٹ کے مطابق بچوں کو اے آئی کی دنیا کے لیے کیسے تیار کیا جائے؟  مستقبل میں مصنوعی ذہانت یعنی اے آئی کی دنیا میں کامیابی کے لیے اوپن ا"
 date: 2025-07-23
 category: "ہاؤ ٹو"
+tool: "Artificial Intelligence"
 last_verified: 2025-07-23
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

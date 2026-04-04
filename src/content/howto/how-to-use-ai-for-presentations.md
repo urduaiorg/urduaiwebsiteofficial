@@ -4,9 +4,11 @@ description: "صرف چند منٹ میں زبردست پریزنٹیشن کیس
  کیا آپ طالب علم ہیں، کسی کمپنی میں کام کرتے ہیں یا کسی این جی او کا حصہ ہیں جہاں وقتاً فوقتاً پریزنٹیشنز تیار کرن"
 date: 2025-04-20
 category: "ہاؤ ٹو"
+tool: "Gamma"
 last_verified: 2025-04-20
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

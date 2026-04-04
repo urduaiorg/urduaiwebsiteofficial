@@ -3,6 +3,7 @@ title: "مائیکروسافٹ 365 کوپائلٹ اب امریکی طلبہ ک�
 description: "مائیکروسافٹ 365 کوپائلٹ اب امریکی طلبہ کے لیے ایک سال کے لیے بالکل مفت  کیا آپ جانتے ہیں کہ اب امریکی کالج کے تمام طلبہ مائیکروسافٹ 365 پرسنل کوپائلٹ ایک سال کے"
 date: 2025-09-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-365-copilot-is-now-completely-free-for-one-year-for-us-students.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

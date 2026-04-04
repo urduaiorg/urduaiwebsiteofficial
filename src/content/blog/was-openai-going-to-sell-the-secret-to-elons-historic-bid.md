@@ -3,6 +3,7 @@ title: "کیا اوپن اے آئی بکنے والی تھی؟ ایلون کی �
 description: "کیا اوپن اے آئی بکنے والی تھی؟ ایلون کی تاریخی بولی کا راز میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے جا رہے ہیں اوپن اے آئی کی تاریخ کی سب سے بڑی ا"
 date: 2025-04-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/was-openai-going-to-sell-the-secret-to-elons-historic-bid.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

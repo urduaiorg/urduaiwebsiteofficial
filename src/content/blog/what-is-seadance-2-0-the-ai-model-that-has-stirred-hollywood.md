@@ -3,6 +3,7 @@ title: "سی ڈانس 2.0 کیا ہے؟ وہ اے آئی ماڈل جس نے ہا
 description: "سی ڈانس 2.0 کیا ہے؟ وہ اے آئی ماڈل جس نے ہالی وڈ میں ہلچل مچا دی  ہالی وڈ میں اس وقت جس موضوع پر سب سے زیادہ گفتگو ہو رہی ہے وہ کوئی نئی فلم، سپر اسٹار یا باکس"
 date: 2026-02-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-seadance-2-0-the-ai-model-that-has-stirred-hollywood.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

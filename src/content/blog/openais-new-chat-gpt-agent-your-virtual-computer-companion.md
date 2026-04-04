@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا نیا چیٹ جی پی ٹی ایجنٹ: آپ 
 description: "اوپن اے آئی کا نیا چیٹ جی پی ٹی ایجنٹ: آپ کا ورچوئل کمپیوٹر ساتھی  اوپن اے آئی (OpenAI) نے مصنوعی ذہانت (AI) کی دنیا میں ایک نئی پیش رفت کا اعلان کیا ہے: چیٹ جی"
 date: 2025-07-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-new-chat-gpt-agent-your-virtual-computer-companion.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

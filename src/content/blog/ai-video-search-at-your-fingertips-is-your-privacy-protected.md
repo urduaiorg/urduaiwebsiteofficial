@@ -3,6 +3,7 @@ title: "اے آئی ویڈیو سرچ: آپ کے سیکیورٹی کیمرے ا�
 description: "اے آئی ویڈیو سرچ: آپ کے سیکیورٹی کیمرے اے آئی کے نشانے پر! کیا آپ کی پرائیویسی محفوظ ہے؟  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے جا ر"
 date: 2025-03-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-video-search-at-your-fingertips-is-your-privacy-protected.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

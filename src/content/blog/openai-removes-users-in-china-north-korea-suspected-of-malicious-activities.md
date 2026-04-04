@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا بڑا اقدام: چین اور شمالی ک
 description: "اوپن اے آئی کا بڑا اقدام: چین اور شمالی کوریا کے مشتبہ صارفین پر پابندی!  دوستو! کیا آپ نے کبھی سوچا ہے کہ مصنوعی ذہانت کو غلط مقاصد کے لیے کیسے استعمال کیا جا"
 date: 2025-03-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-removes-users-in-china-north-korea-suspected-of-malicious-activities.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

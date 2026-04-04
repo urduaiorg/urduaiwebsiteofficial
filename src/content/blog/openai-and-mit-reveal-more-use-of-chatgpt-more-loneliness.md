@@ -3,6 +3,7 @@ title: "اوپن اے آئی اور ایم آئی ٹی کا انکشاف: چیٹ
 description: "اوپن اے آئی اور ایم آئی ٹی کا انکشاف: چیٹ جی پی ٹی کا زیادہ استعمال، زیادہ تنہائی؟  ہیلو دوستو! آج ہم ایک ایسی سوچ کے دروازے پر دستک دینے جا رہے ہیں جس پر شاید"
 date: 2025-03-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-and-mit-reveal-more-use-of-chatgpt-more-loneliness.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کے لیے درست اور غلط کا تعین
 description: "مصنوعی ذہانت کے لیے درست اور غلط کا تعین کیسے کیا جا رہا ہے  مصنوعی ذہانت اب محض ایک سافٹ ویئر یا کمپیوٹر پروگرام نہیں رہی بلکہ یہ آہستہ آہستہ انسانی زندگی کے ا"
 date: 2026-01-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-is-right-and-wrong-being-determined-for-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

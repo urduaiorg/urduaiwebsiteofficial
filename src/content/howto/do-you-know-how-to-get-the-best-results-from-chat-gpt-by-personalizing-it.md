@@ -7,9 +7,11 @@ description: "اے آئی کی طاقت سے چیٹ جی پی ٹی کو ذاتی
  ​اے آئی ٹیکنالوجی نے ہماری دنیا کو بدل دیا ہے۔ اور اب یہ آپ کے چیٹ جی پی ٹی کے تجربے کو بھی ذاتی نوعیت دے س"
 date: 2025-07-17
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-07-17
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

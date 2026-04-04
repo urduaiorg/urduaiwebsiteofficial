@@ -3,6 +3,7 @@ title: "کیا ہم اے جی آئی کے قریب ہیں؟ سیم آلٹمین�
 description: "کیا ہم اے جی آئی کے قریب ہیں؟ سیم آلٹمین، جی پی ٹی 5  اور سٹارگیٹ پر مکمل تفصیل  مصنوعی ذہانت کی دنیا تیزی سے بدل رہی ہے اور اس تبدیلی کا سب سے نمایاں نام ہے Op"
 date: 2025-06-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/are-we-close-to-agi-sam-altman-the-full-story-on-gpt5-and-stargate.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "سوفٹ بینک کی اوپن اے آئی میں تاریخی سرما
 description: "سوفٹ بینک کی اوپن اے آئی میں تاریخی سرمایہ کاری مکمل: اس معاہدے کی تفصیلات اور مستقبل کے اہداف کیا ہیں؟  ٹیکنالوجی کی دنیا میں ایک نیا باب رقم ہوا ہے جس نے مصنو"
 date: 2026-01-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/softbanks-historic-investment-in-openai-completes-what-are-the-details-of-the-deal-and-future-goals.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

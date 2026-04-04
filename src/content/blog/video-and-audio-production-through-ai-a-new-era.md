@@ -3,6 +3,7 @@ title: "ویڈیو اور آڈیو کی اے آئی کے ذریعے پروڈکش
 description: "ویڈیو اور آڈیو کی اے آئی کے ذریعے پروڈکشن: نیا دور  دوستوں، کیا آپ نے کبھی سوچا ہے کہ اے آئی کس طرح ویڈیو اور آڈیو پروڈکشن کے طریقوں میں انقلاب لا رہا ہے؟ آج کل"
 date: 2025-01-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/video-and-audio-production-through-ai-a-new-era.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

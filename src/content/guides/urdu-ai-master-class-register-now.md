@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس  ابھی رجسٹر کریں"
 description: "اردو اے آئی ماسٹر کلاس ابھی رجسٹر کریں    اگر 15 سال پہلے میرے پاس اے آئی ہوتی تو... اکثر دوست مجھ سے سوال پوچھتے ہیں کہ قیصر، تم اے آئی کو لے کر اتنے پُرجوش کی"
 date: 2025-02-13
 category: "گائیڈ"
+tool: "Artificial Intelligence"
 level: "ابتدائی"
+image: "/images/guides/urdu-ai-master-class-register-now.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

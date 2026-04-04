@@ -3,6 +3,7 @@ title: "اوپن اے آئی نے جی پی ٹی-5.3 اِن سٹنٹ متعار�
 description: "اوپن اے آئی نے جی پی ٹی-5.3 اِن سٹنٹ متعارف کرا دیا  ہے۔  اوپن اے آئی نے حال ہی میں اپنے چیٹ بوٹ چیٹ جی پی ٹی کے سب سے زیادہ استعمال ہونے والے ماڈل کی ایک نئی ا"
 date: 2026-03-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-has-introduced-gpt-5-3-in-an-instant.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

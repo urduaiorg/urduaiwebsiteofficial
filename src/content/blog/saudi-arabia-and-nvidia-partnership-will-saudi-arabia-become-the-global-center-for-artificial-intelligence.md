@@ -3,6 +3,7 @@ title: "سعودی عرب اور اینویڈیا کی شراکت: کیا سعو
 description: "سعودی عرب اور اینویڈیا کی شراکت: کیا سعودی عرب مصنوعی ذہانت کا عالمی مرکز بنے گا؟ مملکتِ سعودی عرب میں مصنوعی ذہانت (اے آئی) کو نئی جہت دینے کے لیے ایک بڑی پیش"
 date: 2025-05-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/saudi-arabia-and-nvidia-partnership-will-saudi-arabia-become-the-global-center-for-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

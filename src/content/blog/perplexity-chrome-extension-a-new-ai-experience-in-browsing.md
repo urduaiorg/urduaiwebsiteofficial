@@ -3,6 +3,7 @@ title: "پرپلیکسٹی کروم ایکسٹینشن: براؤزنگ میں �
 description: "پرپلیکسٹی کروم ایکسٹینشن: براؤزنگ میں اے آئی کا نیا تجربہ  دنیا بھر میں صارفین تیزی سے اے آئی ٹولز کو اپنی روزمرہ تحقیق اور براؤزنگ کا حصہ بنا رہے ہیں۔ مگر سوال"
 date: 2025-05-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexity-chrome-extension-a-new-ai-experience-in-browsing.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

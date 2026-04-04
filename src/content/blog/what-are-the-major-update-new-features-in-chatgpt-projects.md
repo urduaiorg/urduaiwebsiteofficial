@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی پروجیکٹس میں بڑی اپڈیٹ نئی �
 description: "چیٹ جی پی ٹی پروجیکٹس میں بڑی اپڈیٹ نئی خصوصیات کیا ہیں؟ چیٹ جی پی ٹی میں کام کرنے کا انداز بدلنے والا ہے۔چیٹ جی پی ٹی پروجیکٹس کی نئی اپڈیٹس نے اسے صرف ایک چیٹ"
 date: 2025-06-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-are-the-major-update-new-features-in-chatgpt-projects.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "دی ایلیون البم : فنکار مصنوعی ذہانت کے س�
 description: "دی ایلیون البم : فنکار مصنوعی ذہانت کے ساتھ کام کو کیسے دیکھتے ہیں؟ یہ وہ دور ہے جب موسیقی صرف سازوں اور آوازوں تک محدود نہیں رہی بلکہ ٹیکنالوجی بھی اس کے سفر ک"
 date: 2026-01-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-eleven-album-how-do-artists-view-working-with-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

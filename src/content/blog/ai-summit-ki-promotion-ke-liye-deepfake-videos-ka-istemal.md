@@ -3,6 +3,7 @@ title: "اے آئی سمٹ کی پروموشن کے لیے ڈیپ فیک ویڈ�
 description: "اے آئی سمٹ کی پروموشن کے لیے ڈیپ فیک ویڈیوز کا استعمال  ذرا تصور کریں، آپ کا پسندیدہ رہنما اچانک گانے لگے۔  ناچنے لگے، یا کسی فلمی کردار کی طرح ایکشن میں نظر آئ"
 date: 2025-02-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-summit-ki-promotion-ke-liye-deepfake-videos-ka-istemal.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

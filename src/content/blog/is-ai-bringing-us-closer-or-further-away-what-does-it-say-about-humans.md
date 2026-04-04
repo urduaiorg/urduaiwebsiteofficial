@@ -3,6 +3,7 @@ title: "اے آئی  ہمیں قریب لا رہا ہے یا دور؟ humans& �
 description: "اے آئی  ہمیں قریب لا رہا ہے یا دور؟ humans&amp; کیا کہتا ہے؟  دنیا میں مصنوعی ذہانت  کی ترقی بے مثال رفتار سے جاری ہے۔ آج کے دور میں مصنوعی ذہانت نہ صرف معلومات"
 date: 2026-01-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-ai-bringing-us-closer-or-further-away-what-does-it-say-about-humans.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

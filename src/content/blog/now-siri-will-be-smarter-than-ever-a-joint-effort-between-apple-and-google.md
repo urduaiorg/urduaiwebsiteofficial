@@ -3,6 +3,7 @@ title: "اب سری پہلے سے زیادہ ہوشیار ہوگی: ایپل ا�
 description: "اب سری پہلے سے زیادہ ہوشیار ہوگی: ایپل اور گوگل کی مشترکہ کوشش  ایپل اور گوگل نے ایک ایسا معاہدہ کیا ہے جو ٹیکنالوجی کی دنیا میں ایک نیا باب رقم کرے گا۔ یہ معاہ"
 date: 2026-01-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/now-siri-will-be-smarter-than-ever-a-joint-effort-between-apple-and-google.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

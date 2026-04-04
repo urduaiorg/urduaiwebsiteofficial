@@ -3,6 +3,7 @@ title: "گراک: ایلون مسک کا نیا پروجیکٹ اور اس کی 
 description: "گراک: ایلون مسک کا نیا پروجیکٹ اور اس کی اہمیت  ایلون مسک، جو ٹیسلا اور اسپیس ایکس جیسی کمپنیوں کے بانی ہیں، نے حال ہی میں ایک نئی ایپ 'گراک' کا اعلان کیا ہے۔ ی"
 date: 2025-01-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/grocc-elon-musks-new-project.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

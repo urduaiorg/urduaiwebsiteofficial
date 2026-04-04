@@ -3,6 +3,7 @@ title: "کیا واقعی اے آئی اتنا طاقتور ہے؟"
 description: "کیا واقعی اے آئی اتنا طاقتور ہے؟  دوستو! کیا آپ تصور کر سکتے ہیں کہ صرف تین سال پہلے جو کام لاکھوں روپے اور تین ماہ میں مکمل ہوتا تھا، آج وہی کام محض دس منٹ میں"
 date: 2025-05-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-ai-really-that-powerful.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

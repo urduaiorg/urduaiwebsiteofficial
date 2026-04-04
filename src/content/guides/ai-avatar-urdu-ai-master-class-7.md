@@ -3,7 +3,9 @@ title: "اے آئی اوتار  اردو اے آئی ماسٹر کلاس #7"
 description: "اے آئی اوتار اردو اے آئی ماسٹر کلاس #7  ہیلو دوستوں! آج میں آپ کو ایک ایسے سفر پر لے جانے والا ہوں جو آپ کے خیالات کو ہلا کر رکھ دے گا!  کیا آپ نے کبھی ایسا روب"
 date: 2025-03-15
 category: "گائیڈ"
+tool: "AI Avatar"
 level: "ابتدائی"
+image: "/images/guides/ai-avatar-urdu-ai-master-class-7.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

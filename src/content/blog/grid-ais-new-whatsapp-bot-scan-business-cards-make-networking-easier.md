@@ -3,6 +3,7 @@ title: "گرِڈ اے آئی کا نیا واٹس ایپ بوٹ: وزٹنگ ک
 description: "گرِڈ اے آئی کا نیا واٹس ایپ بوٹ: وزٹنگ کارڈ سکین کریں، نیٹ ورکنگ آسان بنائیں نیٹ ورکنگ اب پہلے سے کہیں زیادہ سہل ہو چکی ہے۔ گرِڈ اے آئی (Grid AI) نے ایک نیا"
 date: 2025-06-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/grid-ais-new-whatsapp-bot-scan-business-cards-make-networking-easier.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

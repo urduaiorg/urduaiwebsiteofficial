@@ -3,6 +3,7 @@ title: "جیمنی 2.5: جدید ترین آڈیو ڈائیلاگ اور آوا�
 description: "جیمنی 2.5: جدید ترین آڈیو ڈائیلاگ اورآواز کی تخلیق میں انقلاب مصنوعی ذہانت کے میدان میں گوگل کا نیا سنگِ میل جیمنی 2.5  اب نہ صرف پڑھتا اور لکھتا ہے بلکہ اب بول"
 date: 2025-06-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-2-5-a-revolution-in-cutting-edge-audio-dialogue-and-voice-creation.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

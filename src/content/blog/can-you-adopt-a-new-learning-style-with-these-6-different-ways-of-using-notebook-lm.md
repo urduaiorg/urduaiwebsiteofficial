@@ -3,6 +3,7 @@ title: "کیا آپ نوٹ بک ایل ایم کےان 6 مختلف طریقوں
 description: "کیا آپ نوٹ بک ایل ایم کےان 6 مختلف طریقوں سے سیکھنے کا نیا انداز اپنا سکتے ہیں؟  کیا آپ نے کبھی سوچا ہے کہ امتحان کی تیاری، کسی نئے منصوبے کا آغاز یا کسی دلچسپ"
 date: 2025-09-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-you-adopt-a-new-learning-style-with-these-6-different-ways-of-using-notebook-lm.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

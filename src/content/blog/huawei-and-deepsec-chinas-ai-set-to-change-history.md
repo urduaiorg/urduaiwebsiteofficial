@@ -3,6 +3,7 @@ title: "ہواوے اور ڈیپ سیک: چین کی اے آئی تاریخ بد
 description: "ہواوے اور ڈیپ سیک: چین کی اے آئی تاریخ بدلنے کو تیار  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، کیا آپ نے کبھی سوچا کہ چین کس طرح امریکی پابندیوں کے باوجو"
 date: 2025-02-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/huawei-and-deepsec-chinas-ai-set-to-change-history.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

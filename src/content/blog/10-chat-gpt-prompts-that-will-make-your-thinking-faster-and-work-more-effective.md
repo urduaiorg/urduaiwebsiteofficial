@@ -3,6 +3,7 @@ title: "10 چیٹ جی پی ٹی پرامپٹس جو آپ کی سوچ کو تی�
 description: "10 چیٹ جی پی ٹی پرامپٹس جو آپ کی سوچ کو تیز اور کام کو مؤثر بنائیں گے دنیا بھر میں چیٹ جی پی ٹی کے صارفین کی تعداد روز بروز بڑھ رہی ہے۔ لیکن اس کے زیادہ تر صارف"
 date: 2025-06-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/10-chat-gpt-prompts-that-will-make-your-thinking-faster-and-work-more-effective.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

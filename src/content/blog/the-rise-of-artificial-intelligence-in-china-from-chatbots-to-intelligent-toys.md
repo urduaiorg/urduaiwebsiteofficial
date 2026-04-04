@@ -3,6 +3,7 @@ title: "چین میں مصنوعی ذہانت کا عروج: چیٹ بوٹس س�
 description: "چین میں مصنوعی ذہانت کا عروج: چیٹ بوٹس سے ذہین کھلونوں تک  ہیلو دوستو!  کیا آپ نے کبھی سوچا ہے کہ اے آئی کس تیزی سے ہماری زندگیوں میں گھل مل رہی ہے؟ چین اس دوڑ"
 date: 2025-03-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-rise-of-artificial-intelligence-in-china-from-chatbots-to-intelligent-toys.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "گوگل کی نئی پالیسی:اے آئی، ہتھیار اور نگ
 description: "گوگل کی نئی پالیسی:اے آئی، ہتھیار اور نگرانی ایک نیا موڑ؟  یہ ایک عام دن تھا، لیکن پھر ایک ایسی خبر آئی جس نے ٹیکنالوجی کی دنیا میں ہلچل مچا دی۔ گوگل، جس نے 201"
 date: 2025-02-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-policy-ai-weapons-and-surveillance-a-new-twist.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

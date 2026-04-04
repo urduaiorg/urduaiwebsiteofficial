@@ -3,6 +3,7 @@ title: "جیمنائی میں اب ٹیمپرری چیٹس اور ڈیٹا کن�
 description: "جیمنائی میں اب ٹیمپرری چیٹس اور ڈیٹا کنٹرول کے نئے فیچرز    گوگل نے اپنے اےآئی اسسٹنٹ، جیمنائی کو مزید بہتر بنانے کا اعلان کیا ہے۔ اب جیمنائی ایپ میں ایسے نئے ف"
 date: 2025-08-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-now-has-new-features-for-temporary-chats-and-data-control.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "اینڈریو یانگ کی پیش گوئیاں مصنوعی ذہانت
 description: "اینڈریو یانگ کی پیش گوئیاں مصنوعی ذہانت سے ملازمتوں میں کیا تبدیلی آئے گی؟   دنیا ایک ایسے موڑ پر کھڑی ہے جہاں مصنوعی ذہانت ( اے آئی) صرف ایک سہولت نہیں بلکہ مل"
 date: 2025-06-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/andrew-yangs-predictions-how-will-artificial-intelligence-change-jobs.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

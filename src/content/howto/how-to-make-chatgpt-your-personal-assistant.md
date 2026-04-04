@@ -3,9 +3,11 @@ title: "چيٹ جی پی ٹی کو اپنا پرسنل اسسٹنٹ کیسے ب�
 description: "چيٹ جی پی ٹی کو اپنا پرسنل اسسٹنٹ کیسے بنائیں؟  کیا آپ نے کبھی سوچا ہے کہ ایک اے آئی  چیٹ بوٹ کو اپنی پیداواری صلاحیت کو بڑھانے کا ذریعہ بنایا جا سکتا ہے؟ چيٹ ج"
 date: 2025-08-29
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-08-29
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

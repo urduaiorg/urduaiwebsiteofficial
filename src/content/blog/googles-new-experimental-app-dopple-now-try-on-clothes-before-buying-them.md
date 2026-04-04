@@ -3,6 +3,7 @@ title: "گوگل کا نیا تجرباتی ایپ ڈوپل: اب کپڑے خر�
 description: "گوگل کا نیا تجرباتی ایپ ڈوپل: اب کپڑے خریدنے سے پہلے خود پر آزما کر دیکھیں  مصنوعی ذہانت کا استعمال اب فیشن کی دنیا میں بھی قدم جما رہا ہے۔ اور اس کی حالیہ مثال"
 date: 2025-07-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-experimental-app-dopple-now-try-on-clothes-before-buying-them.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

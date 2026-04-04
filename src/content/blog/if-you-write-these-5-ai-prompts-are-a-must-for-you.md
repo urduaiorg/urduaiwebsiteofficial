@@ -3,6 +3,7 @@ title: "اگر آپ تحریر لکھتے ہیں تو یہ 5  اے آئی پر�
 description: "اگر آپ تحریرلکھتے ہیں تو یہ 5  اے آئی پرامپٹس آپ کے لیے لازمی ہیں کیا آپ نے کبھی ایسا محسوس کیا ہے کہ آپ کے ذہن میں خیالات تو بہت ہیں، مگر جب لکھنے بیٹھتے ہی"
 date: 2025-05-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/if-you-write-these-5-ai-prompts-are-a-must-for-you.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

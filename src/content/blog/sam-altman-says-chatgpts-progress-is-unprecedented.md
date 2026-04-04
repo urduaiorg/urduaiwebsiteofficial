@@ -3,6 +3,7 @@ title: "سیم آلٹمین کا کہنا ہے کہ چیٹ جی پی ٹی کی �
 description: "سیم آلٹمین کا کہنا ہے کہ چیٹ جی پی ٹی کی ترقی بے مثال ہے  سیم آلٹمین، اوپن اے آئی کے سی ای او، نے حالیہ وائرل اے آئی لانچ کے بعد صارفین کی بڑھتی ہوئی مانگ کو 'ٹ"
 date: 2025-08-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/sam-altman-says-chatgpts-progress-is-unprecedented.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

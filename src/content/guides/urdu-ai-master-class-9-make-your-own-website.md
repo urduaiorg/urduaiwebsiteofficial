@@ -3,7 +3,9 @@ title: "اردو اےآئی ماسٹر کلاس9 اپنی ویب سائٹ بنا
 description: "اردو اےآئی ماسٹر کلاس 9 اپنی ویب سائٹ بنائیں  السلام علیکم دوستو! میں ہوں قیصر رونجھا، اور آج آپ کے ساتھ ماسٹر کلاس سیریز کی نویں کلاس میں موجود ہوں۔ سب سے پہلے"
 date: 2025-04-09
 category: "گائیڈ"
+tool: "AI Website Builder"
 level: "ابتدائی"
+image: "/images/guides/urdu-ai-master-class-9-make-your-own-website.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

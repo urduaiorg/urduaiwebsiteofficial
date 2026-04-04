@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ جی �
 description: "چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ جی پی ٹی کا نیا فیچر  کیا آپ نے کبھی سوچا ہے کہ چیٹ جی پی ٹی سے ایسے بات ہو جیسے کسی انسان سے فون پر بات کرتے ہیں؟ اب ی"
 date: 2025-06-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-now-available-on-call-1-800-chatgpt-new-feature.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

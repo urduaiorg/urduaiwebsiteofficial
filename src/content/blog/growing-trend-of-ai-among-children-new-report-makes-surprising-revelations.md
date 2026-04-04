@@ -3,6 +3,7 @@ title: "بچوں میں اے آئی کا بڑھتا رجحان: نئی رپور�
 description: "بچوں میں اے آئی کا بڑھتا رجحان: نئی رپورٹ میں حیران کن انکشافات   حال ہی میں جاری ہونے والی ایک رپورٹ کے مطابق گزشتہ ایک سال کے دوران بچوں میں مصنوعی ذہانت  ٹول"
 date: 2025-09-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/growing-trend-of-ai-among-children-new-report-makes-surprising-revelations.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

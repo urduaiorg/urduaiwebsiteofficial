@@ -3,6 +3,7 @@ title: "پاکستانی قانونی اے آئی پلیٹ فارم: قاضی ا
 description: "پاکستانی قانونی اے آئی پلیٹ فارم: قاضی اے آئی پر تفصیلات  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک زبردست ٹیکنالوجی کے بارے میں بات کرنے جا"
 date: 2025-03-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/pakistani-legal-ai-platform-details-on-qazi-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

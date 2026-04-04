@@ -3,6 +3,7 @@ title: "اردو اے آئی ماسٹر کلاس (کلاس نمبر 2): وائب
 description: "اردو اے آئی ماسٹر کلاس (کلاس نمبر 2): وائب کوڈنگ کے ذریعے اپنی پہلی ویب سائٹ کیسے بنائیں؟  آج کے دور میں ٹیکنالوجی تیزی سے بدل رہی ہے، اور جہاں پہلے ایک ویب سائ"
 date: 2026-04-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/class-2-your-first-vibe-coded-website.svg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

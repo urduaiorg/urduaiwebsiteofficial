@@ -3,6 +3,7 @@ title: "میٹا کی  اے آئی ویڈیو ایڈیٹنگ فیچرز  سال
 description: "میٹا کی  اے آئی ویڈیو ایڈیٹنگ فیچرز اگلے سال انسٹاگرام پر آ ئے گا۔ ٢٠٢٤  کے آغاز میں، میٹا نے 'مووی جن' کے نام سے ایک اے آئی ویڈیو ایڈیٹنگ ٹول پیش کیا تھا۔ جو"
 date: 2025-01-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/metas-ai-video-editing-features-are-coming-to-instagram-this-year.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "کیا واقعی آپ کی ملازمت کو مصنوعی ذہانت س
 description: "کیا واقعی آپ کی ملازمت کو مصنوعی ذہانت سے خطرہ ہے؟  کیا  اے آئی کے ہاتھوں ملازمتیں کس تیزی سے بدل رہی ہیں؟   مارچ میں شوپی فائے کے سی ای او نے اپنی کمپنی کے منی"
 date: 2025-06-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-your-job-really-threatened-by-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

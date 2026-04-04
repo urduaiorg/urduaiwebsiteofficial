@@ -3,6 +3,7 @@ title: "کیا آپ جانتے ہیں مائیکروسافٹ کا اے آئی ڈ
 description: "کیا آپ جانتے ہیں مائیکروسافٹ کا اے آئی ڈیٹا سینٹر کیسے کام کرتا ہے؟  مصنوعی ذہانت کی تیز رفتاری سے ترقی نے دنیا بھر میں ایسے انفراسٹرکچر کی ضرورت پیدا کر دی ہے"
 date: 2025-09-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/do-you-know-how-microsofts-ai-data-center-works.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "میٹا کا بڑا اعلان: دو سال میں  اے آئی کرد
 description: "میٹا کا بڑا اعلان: دو سال میں  اے آئی   کرداروں کا عالمی پھیلاؤ دنیا بدل رہی ہے، اور اس بار میٹا نے کچھ ایسا کرنے کا عزم کیا ہے جو آپ کے فیس بک اور انسٹاگرام ک"
 date: 2025-01-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

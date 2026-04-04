@@ -3,6 +3,7 @@ title: "اب چیٹ جی پی ٹی سرچ کے لیے اوپن اے آئی اک�
 description: "اب چیٹ جی پی ٹی سرچ کے لیے اوپن اے آئی اکاؤنٹ کی ضرورت نہیں  اوپن اے آئی ایک اور بڑی اپڈیٹ کے ساتھ سامنے آیا ہے۔ اب کوئی بھی شخص، بغیر کسی اکاؤنٹ یا سائن ان کے،"
 date: 2025-02-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-account-is-no-longer-required-for-chat-gpt-search.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

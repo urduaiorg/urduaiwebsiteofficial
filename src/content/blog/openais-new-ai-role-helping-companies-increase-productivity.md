@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا نیا اے آئی کردار: کمپنیوں 
 description: "اوپن اے آئی کا نیا اے آئی کردار: کمپنیوں کو پیداوار بڑھانے میں مدد اوپن اے آئی نے حال ہی میں ایک نئے انجینئرنگ کردار کا اعلان کیا ہے جس کا مقصد بڑی کمپنیوں کو ا"
 date: 2025-08-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-new-ai-role-helping-companies-increase-productivity.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

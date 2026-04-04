@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا منافع بخش کمپنی بننے کا م�
 description: "اوپن اے آئی کا منافع بخش کمپنی بننے کا منصوبہ: پبلک بینیفٹ کارپوریشن  مہینوں کی قیاس آرائیوں کے بعد، اوپن اے آئی نے بالآخر اعلان کیا کہ وہ 2025 تک اپنی منافع بخ"
 date: 2025-01-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-for-profit-plan-includes-a-public-benefit-corporation.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

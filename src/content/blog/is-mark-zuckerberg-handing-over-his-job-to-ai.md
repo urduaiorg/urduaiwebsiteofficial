@@ -3,6 +3,7 @@ title: "کیا مارک زکربرگ اپنا کام اے آئی کے حوالے
 description: "کیا مارک زکربرگ اپنا کام اے آئی کے حوالے کر رہے ہیں؟  آج کل ہر طرف اے آئی کی بات ہو رہی ہے، لیکن زیادہ تر لوگ اسے صرف موبائل ایپس یا چیٹ بوٹس تک ہی سمجھتے ہیں۔"
 date: 2026-04-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-mark-zuckerberg-handing-over-his-job-to-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

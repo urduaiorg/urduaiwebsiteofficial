@@ -3,6 +3,7 @@ title: "پاکستان میں اے آئی سے چلنے والا پہلا سائ
 description: "پاکستان میں اے آئی سے چلنے والا پہلا سائبر سکیورٹی ٹول لانچ  پاکستان میں مصنوعی ذہانت (اے آئی) کے میدان میں ایک نئی تاریخ رقم ہو گئی ہے۔ جب مقامی اے آئی پلیٹ فا"
 date: 2025-07-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/pakistan-launches-first-ai-powered-cybersecurity-tool.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

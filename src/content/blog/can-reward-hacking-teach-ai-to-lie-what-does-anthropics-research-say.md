@@ -3,6 +3,7 @@ title: "کیا ریوارڈ ہیکنگ اے آئی کو جھوٹ بولنا سک
 description: "کیا ریوارڈ ہیکنگ اے آئی کو جھوٹ بولنا سکھا سکتی ہے؟ اینتھروپِک کی تحقیق کیا کہتی ہے؟ کیا آپ نے کبھی سوچا ہے کہ اگر ہم کمپیوٹر یا مصنوعی ذہانت کو کوئی کام آسان ط"
 date: 2025-11-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-reward-hacking-teach-ai-to-lie-what-does-anthropics-research-say.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

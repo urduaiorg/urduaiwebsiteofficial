@@ -3,6 +3,7 @@ title: "گوگل کروم کو خریدنے کی پیشکش: کیا پرپلیک
 description: "گوگل کروم کو خریدنے کی پیشکش: کیا پرپلیکسیٹی اے آئی کا یہ خواب حقیقت بنے گا؟  فائدہ اے آئی کا، ارادہ بڑا آج کی جدید دنیا میں اے آئی (آرٹیفیشل انٹیلیجنس) ہر جگہ"
 date: 2025-08-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-chrome-acquisition-offer-will-this-dream-of-perplexity-ai-become-a-reality.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

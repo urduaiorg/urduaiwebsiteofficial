@@ -3,6 +3,7 @@ title: "پرپلیکسیٹی اے آئی کی نئی پیشکش ٹک ٹاک می
 description: "پرپلیکسیٹی اے آئی کی نئی پیشکش: ٹک ٹاک میں امریکی حکومت کے لیے 50 فیصد حصہ  ٹک ٹاک اور پرپلیکسیٹی اے آئی: مصنوعی ذہانت کا نیا موڑ  یہ بلاگ ٹیکنالوجی، سیاست، اور"
 date: 2025-02-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexity-ais-new-offer-50-percent-stake-in-tiktok-for-us-government.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

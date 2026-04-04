@@ -3,6 +3,7 @@ title: "ایم آئی ٹی کی نئی تحقیق: کیا مستقبل کی فل
 description: "ایم آئی ٹی کی نئی تحقیق: کیا مستقبل کی فلو ویکسین کا دارومدار اب اے آئی پر ہوگا؟ ہر سال دنیا بھر میں کروڑوں افراد فلو سے متاثر ہوتے ہیں، لیکن سوال یہ ہے کہ جب و"
 date: 2025-09-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-mit-research-will-the-future-flu-vaccine-now-depend-on-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

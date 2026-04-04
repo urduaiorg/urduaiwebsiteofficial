@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی فور او کا نیٹو امیج ماڈل: مک�
 description: "چیٹ جی پی ٹی فور او کا نیٹو امیج ماڈل: مکمل وضاحت  ہیلو دوستو! کیا کبھی آپ نے سوچا کہ اب ہم صرف لکھ کر ہی نہیں، بلکہ صرف بات کرکے تصویریں بنا سکتے ہیں؟ جی ہاں،"
 date: 2025-03-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-native-image-model-explained-with-demos-in-urdu.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

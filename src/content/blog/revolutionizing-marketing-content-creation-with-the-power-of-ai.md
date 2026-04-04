@@ -3,6 +3,7 @@ title: "اے آئی کی طاقت سے مارکیٹنگ مواد کی تخلیق
 description: "اے آئی کی طاقت سے مارکیٹنگ مواد کی تخلیق میں انقلاب   آج کی ڈیجیٹل دنیا میں، جہاں بصری مواد کی حکمرانی ہے۔ مارکیٹنگ کی ٹیمیں کم وقت اور بجٹ میں زیادہ سے زیادہ ت"
 date: 2025-07-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/revolutionizing-marketing-content-creation-with-the-power-of-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

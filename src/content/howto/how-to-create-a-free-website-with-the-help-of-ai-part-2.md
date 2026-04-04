@@ -3,9 +3,11 @@ title: "اے آئی کی مدد سے مفت ویب سائٹ کیسے بنائی�
 description: "اے آئی کی مدد سے مفت ویب سائٹ کیسے بنائیں؟ پاٹ 2  اگر آپ خود اپنی پروفیشنل ویب سائٹ بنانا چاہتے ہیں، بغیر کوڈنگ سیکھے، اور بالکل مفت، تو بلاگر اور مصنوعی ذہانت"
 date: 2025-10-27
 category: "ہاؤ ٹو"
+tool: "AI Website Builder"
 last_verified: 2025-10-27
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

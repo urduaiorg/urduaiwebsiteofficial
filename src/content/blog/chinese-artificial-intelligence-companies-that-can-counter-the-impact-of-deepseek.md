@@ -3,6 +3,7 @@ title: "چینی  اے آئی کمپنیاں جوڈیپ سیک کے اثرات 
 description: "چینی  اے آئی کمپنیاں جوڈیپ سیک کے اثرات کا مقابلہ کر سکتی ہیں  مصنوعی ذہانت کی دنیا میں حالیہ دنوں میں چینی کمپنی ڈیپ سیک کی جانب سے ایسا ماڈل پیش کیا گیا ہے۔ ج"
 date: 2025-02-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chinese-artificial-intelligence-companies-that-can-counter-the-impact-of-deepseek.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

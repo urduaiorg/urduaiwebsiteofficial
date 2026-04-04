@@ -3,6 +3,7 @@ title: "جیمنی سی ایل آئی: ڈیولپرز کے لیے کھلا ذر�
 description: "جیمنی سی ایل آئی: ڈیولپرز کے لیے کھلا ذریعہ مصنوعی ذہانت کا ساتھی ٹیکنالوجی کی دنیا میں جہاں ترقی کی رفتار برق رفتاری سے آگے بڑھ رہی ہے۔ وہیں کمانڈ لائن انٹرفیس"
 date: 2025-07-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-cli-an-open-source-artificial-intelligence-companion-for-developers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "اینتھروپک نے امریکی حکومت کے خلاف مقدمہ
 description: "اینتھروپک نے امریکی حکومت کے خلاف مقدمہ کیوں کیا؟  کبھی کبھی ٹیکنالوجی کی دنیا میں ایسی خبریں سامنے آتی ہیں جو صرف ایک کمپنی یا ایک فیصلے تک محدود نہیں ہوتیں، ب"
 date: 2026-03-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/why-did-anthropic-file-a-lawsuit-against-the-u-s-government.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

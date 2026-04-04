@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی سستا ہونے جا رہا ہے! جانیں ب�
 description: "چیٹ جی پی ٹی سستا ہونے جا رہا ہے! جانیں بھارت میں کیا چل رہا ہے  ہیلو دوستوں! آج ہم بات کرنے والے ہیں ایک ایسی بڑی تبدیلی کی جو بھارت میں مصنوعی ذہانت کے استعما"
 date: 2025-03-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chat-gpt-is-going-to-get-cheaper-know-whats-going-on-in-india.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

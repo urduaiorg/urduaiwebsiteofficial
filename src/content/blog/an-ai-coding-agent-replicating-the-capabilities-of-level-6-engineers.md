@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا نیا اے آئی کوڈنگ ایجنٹ"
 description: "نیا منصوبہ: لیول 6 انجینئرز کی صلاحیتوں کو نقل کرنے والا اے آئی کوڈنگ ایجنٹ  ہیلو دوستوں! آج ہم اوپن اے آئی کے ایک شاندار اور انقلابی منصوبے کے بارے میں بات کری"
 date: 2025-02-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/an-ai-coding-agent-replicating-the-capabilities-of-level-6-engineers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

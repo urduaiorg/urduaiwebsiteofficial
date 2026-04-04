@@ -3,6 +3,7 @@ title: "صحافیوں اور مصنفین کے لیے مصنوعی ذہانت: 
 description: "صحافیوں اور مصنفین کے لیے مصنوعی ذہانت: رپورٹ لکھنے کا نیا طریقہ  کیا آپ کو لمبی اور پیچیدہ رپورٹس پڑھنے میں مشکل ہوتی ہے؟  ہیلو دوستوں! میں ہوں قیصر رونجہ ، او"
 date: 2025-03-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-for-journalist-writers-for-writing-reports.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

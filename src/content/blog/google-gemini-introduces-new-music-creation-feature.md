@@ -3,6 +3,7 @@ title: "گوگل جیمنی نے موسیقی تخلیق کرنے کا نیا ف
 description: "گوگل جیمنی نے موسیقی تخلیق کرنے کا نیا فیچر متعارف کرا دیا  آج کل سوشل میڈیا پر گانا بنانا، ویڈیو میں میوزک شامل کرنا یا کسی خاص لمحے کے لیے ذاتی دھن تیار کرنا"
 date: 2026-02-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-gemini-introduces-new-music-creation-feature.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت: آسٹیوپوروسس اور دیگر بیما
 description: "مصنوعی ذہانت: آسٹیوپوروسس اور دیگر بیماریوں کی جلد تشخیص کا انقلابی حل  ہیلو دوستوں! امید ہے آپ سب خیریت سے ہوں گے۔ آج ہم بات کریں گے کہ مصنوعی ذہانت (AI) کیسے"
 date: 2025-01-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/artificial-intelligence-a-revolutionary-solution-for-early-diagnosis-of-osteoporosis-and-other-diseases.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

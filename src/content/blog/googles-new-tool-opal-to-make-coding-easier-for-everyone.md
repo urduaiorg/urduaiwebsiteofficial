@@ -3,6 +3,7 @@ title: "گوگل کا نیا ٹول: ’Opal‘ جو کوڈنگ کو سب کے �
 description: "گوگل کا نیا ٹول:’Opal‘ جو کوڈنگ کو سب کے لیے آسان بنائے گا  آج کی ڈیجیٹل دنیا میں ٹیکنالوجی کی برق رفتاری کسی سے ڈھکی چھپی نہیں۔ خاص طور پر مصنوعی ذہانت (AI) نے"
 date: 2025-08-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-tool-opal-to-make-coding-easier-for-everyone.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

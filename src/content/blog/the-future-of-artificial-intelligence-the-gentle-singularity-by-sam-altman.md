@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کا مستقبل: سیم آلٹمین کی نظ
 description: "مصنوعی ذہانت کا مستقبل: سیم آلٹمین کی نظر میں دی جینٹل سنگولیرٹی  دی جینٹل سنگولیرٹی کیا ہے؟  ایک وقت تھا جب مصنوعی ذہانت (AI) کو صرف فلموں، ناولوں یا سائنس فکش"
 date: 2025-06-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-future-of-artificial-intelligence-the-gentle-singularity-by-sam-altman.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "گوگل ڈرائیو میں جیمینی کی نئی سہولت’Catch
 description: "گوگل ڈرائیو میں جیمینی کی نئی سہولت’Catch me up‘آپ کی فائلز کا فوری خلاصہ مصنوعی ذہانت کے شعبے میں گوگل کی نئی پیشرفت کے طور پر جیمینی اب گوگل ڈرائیو میں ایک نہ"
 date: 2025-06-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-drive-gemini-catch-me-up-feature-overview.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

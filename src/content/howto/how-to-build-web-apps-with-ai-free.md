@@ -4,9 +4,11 @@ description: "مصنوعی ذہانت سے مفت ویب ایپ کیسے بنا�
  ٹیکنالوجی کی دنیا میں ایک عام تاثر یہ ہے کہ ویب ایپ یا سافٹ ویئر بنانا صرف اُنہی افراد کا کام ہے جنہیں کوڈنگ آتی ہو یا"
 date: 2025-04-27
 category: "ہاؤ ٹو"
+tool: "AI Coding"
 last_verified: 2025-04-27
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

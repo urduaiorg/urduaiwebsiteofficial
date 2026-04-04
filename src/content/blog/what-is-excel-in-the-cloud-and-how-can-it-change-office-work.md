@@ -3,6 +3,7 @@ title: "کلاوڈ اِن ایکسل کیا ہے اور یہ دفتر کے کا�
 description: "کلاوڈ اِن ایکسل کیا ہے اور یہ دفتر کے کام کو کیسے بدل سکتا ہے؟  یہ وہ وقت ہے جب دفتر کی میز پر کھلی ہوئی ایک عام سی ایکسل فائل بھی مصنوعی ذہانت کی مدد سے کہیں ز"
 date: 2026-02-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-excel-in-the-cloud-and-how-can-it-change-office-work.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

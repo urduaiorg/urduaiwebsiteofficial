@@ -3,6 +3,8 @@
 // Used by: blog/[slug].astro, guides/[slug].astro, prompts/[slug].astro
 
 import Base from './Base.astro';
+import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
+import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface Props {
   title: string;
@@ -31,7 +33,10 @@ const {
 } = Astro.props;
 
 const canonical = `https://urduai.org/${collection}/${slug}/`;
-const ogImage = image ?? `/og/${slug}.jpg`;
+const ogImage = image ?? `/og/default.jpg`;
+const legacyCommentsData = legacyCommentsPayload as {
+  commentsByCollection: Record<string, Record<string, unknown[]>>;
+};
 
 // Format date in Urdu-readable form
 const dateObj = new Date(date);
@@ -41,10 +46,17 @@ const formattedDate = dateObj.toLocaleDateString('ur-PK', {
   day: 'numeric',
 });
 
+const collectionComments = legacyCommentsData.commentsByCollection[collection] ?? {};
+const legacyComments = collectionComments[slug] ?? [];
+
 // Article schema
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonical,
+  },
   "headline": title,
   "description": description,
   "datePublished": date,
@@ -52,10 +64,12 @@ const articleSchema = {
   "author": {
     "@type": "Person",
     "name": author,
+    "url": "https://urduai.org/about/",
   },
   "publisher": {
     "@type": "Organization",
     "name": "اردو اے آئی",
+    "url": "https://urduai.org",
     "logo": {
       "@type": "ImageObject",
       "url": "https://urduai.org/images/logo.png",
@@ -63,7 +77,12 @@ const articleSchema = {
   },
   "inLanguage": "ur",
   "url": canonical,
-  ...(image ? { "image": `https://urduai.org${image}` } : {}),
+  ...(image ? { "image": {
+    "@type": "ImageObject",
+    "url": `https://urduai.org${image}`,
+    "width": 860,
+    "height": 480,
+  }} : {}),
 };
 
 // Breadcrumb schema
@@ -100,8 +119,14 @@ const combinedSchema = [articleSchema, breadcrumbSchema];
   description={description}
   canonical={canonical}
   ogImage={ogImage}
+  ogType="article"
   adsense={adsense}
   schema={combinedSchema}
+  articleMeta={{
+    publishedTime: date,
+    author: author,
+    section: category,
+  }}
 >
   <!-- Top banner ad -->
   {adsense && (
@@ -186,6 +211,8 @@ const combinedSchema = [articleSchema, breadcrumbSchema];
         </div>
       )}
 
+      <LegacyCommentsSection comments={legacyComments} />
+
       <!-- App CTA strip — shown after 70% scroll -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
         <p>يہ مضمون پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے مضامين پڑھيں</p>
@@ -211,6 +238,111 @@ const combinedSchema = [articleSchema, breadcrumbSchema];
     </aside>
   </div>
 </Base>
+
+<!-- Premium Prompt UI Enhancer -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const prose = document.getElementById('article-body');
+    if (!prose) return;
+
+    let rawHtml = prose.innerHTML;
+    // Early exit if no prompts
+    if (!rawHtml.includes('─────────────────────────────')) return;
+    
+    // Replace separators with a safe delimiter
+    const DELIM = '||PROMPT_SPLIT||';
+    rawHtml = rawHtml.replace(/─────────────────────────────/g, DELIM);
+    
+    const chunks = rawHtml.split(DELIM);
+    if (chunks.length >= 3) {
+        let newHtml = chunks[0];
+        
+        // Every chunk between dashes is a prompt block
+        for (let i = 1; i < chunks.length - 1; i++) {
+            let fullHtml = chunks[i];
+            
+            let title = 'مفید پرامٹ';
+            let tool = '';
+            let result = '';
+            
+            const titleMatch = fullHtml.match(/عنوان:\s*([^\n<]+)/);
+            if (titleMatch) {
+                title = titleMatch[1].trim();
+                fullHtml = fullHtml.replace(titleMatch[0], '');
+            }
+            
+            const toolMatch = fullHtml.match(/کہاں استعمال کریں:\s*([^\n<]+)/);
+            if (toolMatch) {
+                tool = toolMatch[1].trim();
+                fullHtml = fullHtml.replace(toolMatch[0], '');
+            }
+            
+            const resultSplit = fullHtml.split(/نتیجہ:/);
+            if (resultSplit.length > 1) {
+                result = resultSplit[1].replace(/<\/p>$/, '').replace(/<br\s*\/?>$/, '').trim();
+                fullHtml = resultSplit[0];
+            }
+            
+            fullHtml = fullHtml.replace(/پرامٹ:/, '');
+            fullHtml = fullHtml.replace(/^(<br\s*\/?>|\n|<p>|<\/p>|\s)+/, '');
+            fullHtml = fullHtml.replace(/(<br\s*\/?>|\n|<p>|<\/p>|\s)+$/, '');
+            
+            let tempDiv = document.createElement('div');
+            tempDiv.innerHTML = fullHtml;
+            let promptTextToCopy = tempDiv.innerText.trim();
+            
+            const btnId = 'copy-btn-' + i;
+            
+            let metaHtml = '';
+            if (tool || result) {
+                metaHtml = '<div class="prompt-ui-meta">';
+                if (tool) metaHtml += `<div><strong>کہاں استعمال کریں:</strong> ${tool}</div>`;
+                if (result) metaHtml += `<div><strong>نتیجہ:</strong> ${result}</div>`;
+                metaHtml += '</div>';
+            }
+
+            const cardHtml = `
+                <div class="prompt-ui-card">
+                    <div class="prompt-ui-header">
+                        <h3 class="prompt-ui-title">${title}</h3>
+                        <button class="prompt-ui-copy-btn" id="${btnId}" data-prompt="${encodeURIComponent(promptTextToCopy)}" title="پرامٹ کاپی کریں">
+                           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                           کاپی کریں
+                        </button>
+                    </div>
+                    <div class="prompt-ui-body">
+                        ${fullHtml}
+                    </div>
+                    ${metaHtml}
+                </div>
+            `;
+            newHtml += cardHtml;
+        }
+        
+        newHtml += chunks[chunks.length - 1]; // Append tail
+        prose.innerHTML = newHtml;
+        
+        // Attach click listeners to injected buttons
+        for (let i = 1; i < chunks.length - 1; i++) {
+            const btn = document.getElementById('copy-btn-' + i);
+            if (btn) {
+                btn.addEventListener('click', function() {
+                    const text = decodeURIComponent(this.getAttribute('data-prompt'));
+                    navigator.clipboard.writeText(text).then(() => {
+                        const originalSvg = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> ';
+                        this.innerHTML = '✔ کاپی ہو گیا';
+                        this.classList.add('copied');
+                        setTimeout(() => {
+                            this.innerHTML = originalSvg + 'کاپی کریں';
+                            this.classList.remove('copied');
+                        }, 2000);
+                    }).catch(err => console.error('Copy failed', err));
+                });
+            }
+        }
+    }
+  });
+</script>
 
 <!-- App CTA scroll trigger -->
 <script>

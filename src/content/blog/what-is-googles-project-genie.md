@@ -3,6 +3,7 @@ title: "گوگل کا پروجیکٹ جینی کیا ہے؟"
 description: "گوگل کا پروجیکٹ جینی کیا ہے؟  گوگل نے ایک ایسی ٹیکنالوجی متعارف کرائی ہے جو آپ کے تصور کو حقیقت میں بدل سکتی ہے۔ اب آپ اپنے ذہن میں کوئی بھی منظر سوچ کر اس میں"
 date: 2026-02-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-googles-project-genie.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

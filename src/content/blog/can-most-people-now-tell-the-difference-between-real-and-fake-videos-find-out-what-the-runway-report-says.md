@@ -3,6 +3,7 @@ title: "کیا زیادہ تر لوگ اب اصلی اور مصنوعی ویڈی
 description: "کیا زیادہ تر لوگ اب اصلی اور مصنوعی ویڈیو میں فرق کر پاتے ہیں؟ جانیے رن وے کی رپورٹ کے نتائج کیا کہتے ہیں۔  کیا آپ واقعی کسی ویڈیو کو دیکھ کر یہ یقین کے ساتھ کہ"
 date: 2026-02-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-most-people-now-tell-the-difference-between-real-and-fake-videos-find-out-what-the-runway-report-says.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

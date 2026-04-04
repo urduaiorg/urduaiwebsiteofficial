@@ -3,6 +3,7 @@ title: "میٹا کا 65 ارب ڈالر کا اے آئی منصوبہ مارک 
 description: "میٹا کا 65 ارب ڈالر کا اے آئی منصوبہ مارک زکربرگ کا بڑا اعلان  ہیلو دوستو! ایک وقت تھا جب میٹا صرف ایک سوشل میڈیا پلیٹ فارم کے طور پر جانا جاتا تھا۔ لیکن آج مار"
 date: 2025-02-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/meta-to-spend-up-to-65-billion-this-year-to-power-ai-goals.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی ایٹلس: ایک نیا براؤزر جو سوچ
 description: "چیٹ جی پی ٹی ایٹلس: ایک نیا براؤزر جو سوچتا ہے، سمجھتا ہے اور کام کرتا ہے  جب آپ روزانہ انٹرنیٹ پر بے شمار ٹیبز، لنکس، اور ویب سائٹس کے درمیان الجھتے ہیں تو ایک"
 date: 2025-10-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-atlas-a-new-browser-that-thinks-understands-and-acts.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

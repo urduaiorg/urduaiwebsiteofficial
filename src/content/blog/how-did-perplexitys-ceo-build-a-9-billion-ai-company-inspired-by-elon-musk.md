@@ -3,6 +3,7 @@ title: "پرپلیکسیٹی کے سی ای او نے ایلون مسک سے م�
 description: "پرپلیکسیٹی کے سی ای او نے ایلون مسک سے متاثر ہو کر 9 ارب ڈالر کی  اے آئی کمپنی کیسے بنائی؟ مصنوعی ذہانت کی دنیا میں ایک نئی آواز: پرپلیکسیٹی نوجوان کاروباری ش"
 date: 2025-05-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-did-perplexitys-ceo-build-a-9-billion-ai-company-inspired-by-elon-musk.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

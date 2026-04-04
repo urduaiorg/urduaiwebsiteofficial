@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی ہیلتھ: یہ کن لوگوں کے لیے ہے 
 description: "چیٹ جی پی ٹی ہیلتھ: یہ کن لوگوں کے لیے ہے اور کیسے کام کرتا ہے؟ آج کے زمانے میں صحت کا مسئلہ صرف بیماری تک محدود نہیں رہا بلکہ یہ اس بات سے بھی جُڑ گیا ہے کہ ان"
 date: 2026-01-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chat-gpt-health-who-is-it-for-and-how-does-it-work.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کی یادداشت اور کنٹرولز نئی �
 description: "چیٹ جی پی ٹی کی یادداشت اور کنٹرولز نئی حیران کن اپڈیٹس ہیلو دوستوں! کیا آپ نے کبھی یہ سوچا ہے کہ ایک کمپیوٹر صرف آپ کی بات سن کر اسے یاد رکھ سکتا ہے؟ اور وہ ب"
 date: 2025-04-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/does-chatgpt-now-remember-you-new-memory-and-surprising-updates-to-controls.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

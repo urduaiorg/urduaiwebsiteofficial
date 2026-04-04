@@ -3,6 +3,7 @@ title: "میٹا کی بڑی برطرفیاں: کیا مصنوعی ذہانت ا
 description: "میٹا کی بڑی برطرفیاں: کیا مصنوعی ذہانت انسانی ملازمتوں کی جگہ لے رہی ہے؟  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے والے ہیں ایک ایسے م"
 date: 2025-02-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/metas-big-layoff-is-artificial-intelligence-replacing-human-jobs.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

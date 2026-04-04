@@ -3,6 +3,7 @@ title: "واٹس ایپ نے پرائیویٹ اے آئی پیغامات کا خ
 description: "واٹس ایپ نے پرائیویٹ اے آئی پیغامات کا خلاصہ ایک نئے اے آئی فیچر متعارف کرا دیا مصروف زندگی میں ہر پیغام پڑھنا ممکن نہیں، خاص طور پر جب واٹس ایپ پر درجنوں میسجز"
 date: 2025-07-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/whatsapp-introduces-new-ai-feature-summarizing-private-ai-messages.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

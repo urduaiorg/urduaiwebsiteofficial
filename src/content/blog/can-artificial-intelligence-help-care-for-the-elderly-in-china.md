@@ -3,6 +3,7 @@ title: "چین میں بزرگوں کی دیکھ بھال کیا مصنوعی ذ
 description: "چین میں بزرگوں کی دیکھ بھال کیا مصنوعی ذہانت مدد کر سکتی ہے؟  ہیلو دوستو!  آج ہم ایک ایسے دلچسپ موضوع پر بات کریں گے جو چین ہی نہیں بلکہ پوری دنیا کے لیے اہم ہو"
 date: 2025-03-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-artificial-intelligence-help-care-for-the-elderly-in-china.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کا خود کو کلون کرنے کی صلاح
 description: "مصنوعی ذہانت کا خود کو کلون کرنے کی صلاحیت کا انکشاف  ہیلو دوستوں! کیا آپ نے کبھی سوچا ہے کہ مصنوعی ذہانت (AI) ایک دن خود کو آزادانہ طور پر دوبارہ تخلیق کر سکتی"
 date: 2025-02-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/revealing-the-ability-of-artificial-intelligence-to-clone-itself.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

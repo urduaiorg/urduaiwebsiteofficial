@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کے دور میں اداروں کے لیے سب
 description: "مصنوعی ذہانت کے دور میں اداروں کے لیے سب سے بڑا فیصلہ کیا ہے؟  مصنوعی ذہانت کے دور میں کاروبار کرنے کا انداز تیزی سے بدل رہا ہے، مگر اس تبدیلی کو سمجھنے کے لیے"
 date: 2026-02-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-the-biggest-decision-for-organizations-in-the-age-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

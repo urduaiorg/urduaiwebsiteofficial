@@ -3,6 +3,7 @@ title: "جیمنائی ایپ میں اب امیج ایڈیٹنگ کا نیا د
 description: "جیمنائی ایپ میں اب امیج ایڈیٹنگ کا نیا دور: نینو بنانا کیا کمال دکھا رہی ہے؟  حال ہی میں گوگل ڈیپ مائنڈ نے جیمنائی ایپ میں امیج ایڈیٹنگ کا ایک بالکل نیا ماڈل پی"
 date: 2025-08-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/a-new-era-of-image-editing-is-now-in-the-gemini-app-what-wonders-is-nano-making-showing.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

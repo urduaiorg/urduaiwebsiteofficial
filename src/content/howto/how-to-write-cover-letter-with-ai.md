@@ -4,9 +4,11 @@ description: "چیٹ جی پی ٹی کی مدد سے کَور لیٹر کیسے 
  اگر آپ نے حال ہی میں تعلیم مکمل کی ہے اور نوکری کی تلاش میں ہیں، تو یہ جان لینا ضروری ہے کہ صرف CV یا ریزیومے"
 date: 2025-04-20
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-04-20
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

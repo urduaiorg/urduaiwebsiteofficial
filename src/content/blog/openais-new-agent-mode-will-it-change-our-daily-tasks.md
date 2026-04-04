@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا نیا ایجنٹ موڈ: کیا یہ ہمار
 description: "اوپن اے آئی کا نیا ایجنٹ موڈ: کیا یہ ہمارے روزمرہ کے کاموں کو بدل دے گا؟  مصنوعی ذہانت (AI) کی دنیا میں اوپن اے آئی کی جانب سے ایک اور اہم پیش رفت سامنے آئی ہے"
 date: 2025-07-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-new-agent-mode-will-it-change-our-daily-tasks.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

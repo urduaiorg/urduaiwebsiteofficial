@@ -3,6 +3,7 @@ title: "کلاڈ اوپس 4.6: کیا مصنوعی ذہانت اب طویل او
 description: "کلاڈ اوپس 4.6: کیا مصنوعی ذہانت اب طویل اور پیچیدہ کام بہتر انداز میں سنبھال سکتی ہے؟ مصنوعی ذہانت کی دنیا میں مقابلہ تیزی سے بڑھ رہا ہے اور ہر چند ماہ بعد ایک"
 date: 2026-02-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-artificial-intelligence-now-handle-long-and-complex-tasks-better.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

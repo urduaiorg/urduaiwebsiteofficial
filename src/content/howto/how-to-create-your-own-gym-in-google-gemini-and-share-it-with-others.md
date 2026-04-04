@@ -3,9 +3,11 @@ title: "گوگل جیمینی میں اپنا جیم کیسے بنائیں او�
 description: "گوگل جیمینی میں اپنا جیم کیسے بنائیں اور دوسروں سے شیئر کریں؟  اگر آپ چاہتے ہیں کہ روزمرہ کے دہرائے جانے والے کام خودکار ہو جائیں اور بار بار ایک ہی پرامپٹ دینے"
 date: 2025-09-23
 category: "ہاؤ ٹو"
+tool: "Google Gemini"
 last_verified: 2025-09-23
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

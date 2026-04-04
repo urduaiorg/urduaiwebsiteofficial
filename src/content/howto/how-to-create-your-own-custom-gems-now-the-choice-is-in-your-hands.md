@@ -3,9 +3,11 @@ title: "اپنی مرضی کا جیم کیسے بنائیں؟ اب اختیار 
 description: "اپنی مرضی کا جیم کیسے بنائیں؟ اب اختیار آپ کے ہاتھ میں ہے  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے والے ہیں ایک ایسی شاندار ٹیکنالوجی"
 date: 2025-04-07
 category: "ہاؤ ٹو"
+tool: "Google Gemini"
 last_verified: 2025-04-07
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

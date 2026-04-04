@@ -3,6 +3,7 @@ title: "تعلیم میں مصنوعی ذہانت : اساتذہ کیوں تیا
 description: "عالمی تحقیقی رپورٹ  'Stop Throwing AI Tools at Teachers '  حصہ اول: یہ بلاگ ایک عالمی تحقیقی رپورٹ کے تجزیے پر مبنی تین حصوں پر مشتمل سیریز کا پہلا حصہ ہے، جس م"
 date: 2026-01-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/artificial-intelligence-in-education-why-arent-teachers-ready.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

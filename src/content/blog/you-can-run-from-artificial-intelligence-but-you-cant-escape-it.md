@@ -3,6 +3,7 @@ title: "آپ مصنوعی ذہانت سے بھاگ سکتے ہیں، مگر بچ
 description: "آپ مصنوعی ذہانت سے بھاگ سکتے ہیں، مگر بچ نہیں سکتے دنیا بھر میں مصنوعی ذہانت کے بڑھتے ہوئے استعمال نے صارفین کو دو بڑے رویوں میں تقسیم کر دیا ہے۔ کچھ افراد روز"
 date: 2025-04-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/you-can-run-from-artificial-intelligence-but-you-cant-escape-it.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "انتھروپک کی رپورٹ: کیا دنیا اے آئی کی دو�
 description: "انتھروپک کی رپورٹ: کیا دنیا اے آئی کی دوڑ میں برابر شریک ہے؟ صرف دو سال کے اندر اندر امریکہ میں چالیس فیصد ملازمین نے مصنوعی ذہانت کو اپنی روزمرہ کی ملازمتوں می"
 date: 2025-09-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/anthropic-report-is-the-world-an-equal-participant-in-the-ai-race.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

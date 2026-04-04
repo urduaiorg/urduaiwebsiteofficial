@@ -3,6 +3,7 @@ title: "اینویڈیا کے خلاف اوپن اے آئی کا بڑا چیلن
 description: "اینویڈیا کے خلاف اوپن اے آئی کا بڑا چیلنج کیا مصنوعی ذہانت کی دنیا میں نیا انقلاب آنے والا ہے  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک زبر"
 date: 2025-03-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-big-challenge-against-nvidia-is-a-new-revolution-in-the-world-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

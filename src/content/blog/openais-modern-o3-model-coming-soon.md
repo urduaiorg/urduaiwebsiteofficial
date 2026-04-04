@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا جدیدo3ماڈل:جلد آرہا ہے"
 description: "اوپن اے آئی کا جدید o3 ماڈل: جلد آرہا ہے اوپن اے آئی نے اپنے اگلے جدید AI ماڈل o3 کی جھلک پیش کی ہے،اس سال کے اوائل میں متوقع ہے۔ یہ اعلان اوپن اے آئی کی '12 ڈ"
 date: 2025-01-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-modern-o3-model-coming-soon.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

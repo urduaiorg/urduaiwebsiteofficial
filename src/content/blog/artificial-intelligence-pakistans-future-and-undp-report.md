@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت: پاکستان کا مستقبل اور اقو�
 description: "مصنوعی ذہانت: پاکستان کا مستقبل اور اقوام متحدہ کے ترقیاتی پروگرام UNDP  کی رپورٹ  اقوام متحدہ کے ترقیاتی پروگرام UNDP کی جانب سے ایک جامع رپورٹ میں پاکستان کے"
 date: 2025-08-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/artificial-intelligence-pakistans-future-and-undp-report.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

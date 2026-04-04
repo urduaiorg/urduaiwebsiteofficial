@@ -3,7 +3,9 @@ title: "مصنوعی ذہانت کے ذریعے آواز، موسیقی اور �
 description: "مصنوعی ذہانت کے ذریعے آواز، موسیقی اور نظم تخلیق اردو اے آئی ماسٹر کلاس نمبر 8  ہیلو دوستو! میں ہوں اردو اے آئی سے قیصر رونجہ، اور آج میں آپ کو ایک ایسے سفر پر"
 date: 2025-03-25
 category: "گائیڈ"
+tool: "ElevenLabs"
 level: "ابتدائی"
+image: "/images/guides/ai-for-voice-music-rhyme-generation-urdu-ai-master-class-8.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

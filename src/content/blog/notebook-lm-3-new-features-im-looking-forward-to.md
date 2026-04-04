@@ -3,6 +3,7 @@ title: "نوٹ بک ایل ایم: 3 نئے فیچرز جن کا مجھے بے �
 description: "نوٹ بک ایل ایم: 3 نئے فیچرز جن کا مجھے بے صبری سے انتظار ہے  گوگل نے 2023 میں اپنی مصنوعی ذہانت سے چلنے والی پرسنلائزڈ ریسرچ اسسٹنٹ، نوٹ بک ایل ایم، کو متعارف ک"
 date: 2025-07-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/notebook-lm-3-new-features-im-looking-forward-to.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

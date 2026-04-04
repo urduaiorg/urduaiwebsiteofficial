@@ -3,6 +3,7 @@ title: "اردو اے آئی وائب کوڈنگ ماسٹر کلاس (کلاس 1
 description: "اردو اے آئی وائب کوڈنگ ماسٹر کلاس (کلاس 1): کیا اور کیسے شروع کریں؟ اگر آپ نے کبھی دل میں یہ خواہش رکھی ہو کہ “کاش میں بھی اپنی کوئی ایپ یا ویب سائٹ بنا سکوں”،"
 date: 2026-04-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/class-1-urdu-ai-master-class-on-vibe-coding.svg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

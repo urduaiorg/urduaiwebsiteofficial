@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کا نیا طریقہ: ابتدائی مراح�
 description: "مصنوعی ذہانت کا نیا طریقہ: ابتدائی مراحل میں چھاتی کے کینسر کی تشخیص  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو ایک ایسی حیرت انگیز پیش ر"
 date: 2025-01-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-ai-method-improves-early-breast-cancer-detection.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

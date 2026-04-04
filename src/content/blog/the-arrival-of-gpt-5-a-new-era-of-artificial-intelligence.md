@@ -3,6 +3,7 @@ title: "جی پی ٹی-5 کی آمد: مصنوعی ذہانت کا نیا دور
 description: "جی پی ٹی-5 کی آمد: مصنوعی ذہانت کا نیا دور  اوپن اے آئی نے جی پی ٹی-5 کے تعارف کا اعلان کیا ہے۔ جسے کمپنی اب تک کا اپنا سب سے بہترین اے آئی سسٹم قرار دیتی ہے۔ ی"
 date: 2025-08-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-arrival-of-gpt-5-a-new-era-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

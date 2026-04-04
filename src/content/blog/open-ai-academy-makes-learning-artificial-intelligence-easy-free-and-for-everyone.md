@@ -3,6 +3,7 @@ title: "اوپن اے آئی اکیڈمی: مصنوعی ذہانت سیکھنا 
 description: "اوپن اے آئی اکیڈمی: مصنوعی ذہانت سیکھنا ہوا آسان، مفت اور سب کے لیے!  ہیلو دوستو! میں ہوں معراج احمد، اردو اے آئی سے۔ آج میں آپ کو بتاؤں گا کہ آپ مصنوعی ذہانت ج"
 date: 2025-04-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/open-ai-academy-makes-learning-artificial-intelligence-easy-free-and-for-everyone.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

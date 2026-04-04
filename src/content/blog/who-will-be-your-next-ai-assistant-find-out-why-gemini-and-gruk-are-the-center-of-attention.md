@@ -4,6 +4,7 @@ description: "آپ کا اگلا اے آئی اسسٹنٹ کون ہوگا؟ جا
 date: 2025-08-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/who-will-be-your-next-ai-assistant-find-out-why-gemini-and-gruk-are-the-center-of-attention.jpg"
 adsense: true
 draft: false
 ---

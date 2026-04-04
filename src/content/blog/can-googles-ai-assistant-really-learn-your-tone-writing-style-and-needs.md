@@ -3,6 +3,7 @@ title: "کیا گوگل جیم اے آئی اسسٹنٹ آپ کا لہجہ، ا�
 description: "کیا گوگل جیم اے آئی اسسٹنٹ آپ کا لہجہ، اندازِ تحریر اور ضروریات واقعی سیکھ سکتا ہے؟   اگر آپ بار بار ایک جیسے کام دہرانے سے تھک چکے ہیں اور چاہتے ہیں کہ کوئی ای"
 date: 2025-11-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-googles-ai-assistant-really-learn-your-tone-writing-style-and-needs.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

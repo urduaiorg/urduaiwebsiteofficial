@@ -4,6 +4,7 @@ description: "کیا انتھروپِک کلاؤڈ کا نیا میموری ف
 date: 2025-09-16
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/will-anthropic-clouds-new-memory-feature-make-ai-chat-always-rememberable.jpg"
 adsense: true
 draft: false
 ---

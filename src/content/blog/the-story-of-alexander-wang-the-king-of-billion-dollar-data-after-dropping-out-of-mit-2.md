@@ -3,6 +3,7 @@ title: "ایم آئی ٹی چھوڑنے سے اربوں ڈالر کے ڈیٹا 
 description: "ایم آئی ٹی چھوڑنے سے اربوں ڈالر کے ڈیٹا کا بادشاہ: الیگزینڈر وانگ کی کہانی دنیا بھر میں مصنوعی ذہانت کے بڑھتے ہوئے رجحان نے ٹیکنالوجی کی دنیا میں کئی نئے چہرے"
 date: 2025-04-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-story-of-alexander-wang-the-king-of-billion-dollar-data-after-dropping-out-of-mit-2.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

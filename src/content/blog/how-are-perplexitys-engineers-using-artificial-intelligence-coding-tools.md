@@ -3,6 +3,7 @@ title: "پرپلیکسیٹی کے انجینئرز مصنوعی ذہانت کے 
 description: "پرپلیکسیٹی کے انجینئرز مصنوعی ذہانت کے کوڈنگ ٹولز کیسے استعمال کر رہے ہیں؟   مصنوعی ذہانت (AI) کا دائرہ تیزی سے پھیل رہا ہے اور اب یہ کوڈ لکھنے کے عمل کو بھی تب"
 date: 2025-07-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-are-perplexitys-engineers-using-artificial-intelligence-coding-tools.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -4,9 +4,11 @@ description: "گوگل Gemini Advanced مفت میں کیسے استعمال ک�
  دنیا بھر میں مصنوعی ذہانت کے بڑھتے ہوئے رجحان کے ساتھ ہی مختلف کمپنیوں نے اپنے AI ٹولز متعارف کروائے ہیں۔ گوگل"
 date: 2025-04-19
 category: "ہاؤ ٹو"
+tool: "Google Gemini"
 last_verified: 2025-04-19
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

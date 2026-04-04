@@ -3,9 +3,11 @@ title: "اردواے آئی ورکشاپ اے آئی سے یوٹیوب پوڈک
 description: "اردواےآئی ورکشاپ اےآئی سے یوٹیوب پوڈکاسٹ کیسے بنائیں  کیا آپ نے کبھی سوچا ہے کہ آپ کی آواز ہزاروں لوگوں تک پہنچے اور آپ بغیر مہنگے کیمرے یا اسٹوڈیو کے اپنا شو ش"
 date: 2025-07-12
 category: "ہاؤ ٹو"
+tool: "ElevenLabs"
 last_verified: 2025-07-12
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

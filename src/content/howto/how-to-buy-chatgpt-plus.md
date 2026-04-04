@@ -5,9 +5,11 @@ description: "چٹ جی پی ٹی پلس خریدنے کا طریقہ  
   آپ میں سے بہت سارے دوست پوچھتے ہیں۔ کہ ہم چٹ جی پی ٹی کا پلس یا پیڈ ورژن کیسے خ"
 date: 2025-01-04
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-01-04
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

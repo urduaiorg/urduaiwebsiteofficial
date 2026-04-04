@@ -3,9 +3,11 @@ title: "مصنوعی ذہانت جھوٹ کیوں بولتی ہے اور اسے 
 description: "مصنوعی ذہانت جھوٹ کیوں بولتی ہے اور اسے سچ کیسے بولنا سکھایا جائے؟  اوپن اے آئی نے حال ہی میں ایک بہت دلچسپ تحقیق شائع کی ہے جس کا مقصد مصنوعی ذہانت کو زیادہ ای"
 date: 2025-12-07
 category: "ہاؤ ٹو"
+tool: "OpenAI"
 last_verified: 2025-12-07
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

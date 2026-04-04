@@ -3,6 +3,7 @@ title: "اے آئی سب کے لیے: خواب وسائل کے محتاج نہی
 description: "اے آئی سب کے لیے: خواب وسائل کے محتاج نہیں  دوستو! کچھ دن پہلے میں نے ایک ویڈیو اپلوڈ کی، جس میں بلوچستان کے ایک اسکول میں بچوں کو   UrduAi کے ذریعے مصنوعی ذہان"
 date: 2025-01-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-for-all-the-dream-doesnt-need-resources.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

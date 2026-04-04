@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کی پیش رفت اور سمارٹ فون کا
 description: "مصنوعی ذہانت کی پیش رفت اور سمارٹ فون کا زوال؟ ایلون مسک، گیٹس، زکربرگ کی پیش گوئی  دنیا کے معروف ٹیک رہنما اس بات پر متفق ہو رہے ہیں کہ سمارٹ فون جلد ماضی کا ح"
 date: 2025-05-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-rise-of-artificial-intelligence-and-the-decline-of-smartphones-predictions-from-elon-musk-gates-zuckerberg.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی تخلیق کاروں کے لیے"
 description: "چیٹ جی پی ٹی تخلیق کاروں کے لیے   کیا آپ کو آئیڈیا ہے کہ چیٹ جی پی ٹی  کا فری سرچ اور ریزن فنکشن آپ کو کس طرح فائدہ دے سکتا ہے؟ میرا نام قیصر رونجہ ہے اور میں ا"
 date: 2025-02-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-for-urdu-ai-writers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

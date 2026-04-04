@@ -3,6 +3,7 @@ title: "پاکستان میں اے آئی کی تربیت پر حکومتی تو
 description: "پاکستان میں اے آئی کی تربیت پر حکومتی توجہ: وزیر آئی ٹی کی گوگل سے اہم ملاقات   پاکستان میں مصنوعی ذہانت  کی بڑھتی ہوئی اہمیت کے پیشِ نظر، وزیر مملکت برائے انفا"
 date: 2025-09-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/government-focus-on-ai-training-in-pakistan-it-minister-holds-important-meeting-with-google.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

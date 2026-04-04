@@ -3,9 +3,11 @@ title: "کیمی اے آئی اور زیڈ اے آئی کے ذریعے کیسے 
 description: "کیمی اے آئی اور زیڈ اے آئی کے ذریعے کیسے پریزنٹیشنز اور ای بکس بنائیں؟  کیا آپ کبھی پریزنٹیشن بنانے یا ای بکس لکھنے میں وقت ضائع کر بیٹھے ہیں؟ اب یہ مسئلہ ختم ہ"
 date: 2025-09-08
 category: "ہاؤ ٹو"
+tool: "Kimi AI"
 last_verified: 2025-09-08
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

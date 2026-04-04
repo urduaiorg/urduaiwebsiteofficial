@@ -3,6 +3,7 @@ title: "عدالت کا راستہ ایلون مسک بمقابلہ اوپن ا�
 description: "عدالت کا راستہ ایلون مسک بمقابلہ اوپن اے آئی: 2026 میں کیا ہوگا؟  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک ایسے موڑ پر آ گئے ہیں جہاں صر"
 date: 2025-04-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-will-the-court-case-elon-musk-vs-openai-look-like-in-2026.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "نائٹروجن اے آئی ماڈل کیسے ویڈیو گیمز سی�
 description: "نائٹروجن اے آئی ماڈل کیسے ویڈیو گیمز سیکھے بغیر کھیلتا ہے؟  ٹیکنالوجی کی دنیا میں جیسے جیسے مصنوعی ذہانت (Artificial Intelligence) ترقی کر رہی ہے، ویسے ہی ایسے"
 date: 2025-12-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-does-the-nitrogen-ai-model-play-video-games-without-learning.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

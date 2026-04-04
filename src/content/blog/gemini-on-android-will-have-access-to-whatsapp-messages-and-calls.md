@@ -3,6 +3,7 @@ title: "اینڈرائیڈ پر جیمِنی کو واٹس ایپ، میسجز �
 description: "گوگل کا نیا اقدام: جیمِنی کو اینڈرائیڈ ایپس تک وسیع رسائی  اگر آپ گوگل کی مصنوعی ذہانت والی ایپ جیمِنی استعمال کرتے ہیں تو تیار ہو جائیں 7 جولائی 2025 سے یہ ایپ"
 date: 2025-07-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-on-android-will-have-access-to-whatsapp-messages-and-calls.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

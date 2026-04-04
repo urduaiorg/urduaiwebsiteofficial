@@ -1,8 +1,10 @@
 ---
 title: "Veo 3 vs Runway vs Sora : اے آئی ویڈیو کی دوڑ میں کون آگے؟"
-description: "Veo 3 vs Runway vs Sora : اے آئی ویڈیو کی دوڑ میں کون آگے؟ مصنوعی ذہانت کا استعمال اب صرف تصاویر یا تحریروں تک محدود نہیں رہا۔ بلکہ ویڈیو سازی میں بھی انقلاب ب"
+description: "Veo 3 vs Runway vs Sora : اے آئی ویڈیو کی دوڑ میں کون آگے؟
+ مصنوعی ذہانت کا استعمال اب صرف تصاویر یا تحریروں تک محدود نہیں رہا۔ بلکہ ویڈیو سازی میں بھی انقلاب ب"
 date: 2025-05-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/veo-3-vs-runway-vs-sora-whos-winning-the-ai-video-race.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

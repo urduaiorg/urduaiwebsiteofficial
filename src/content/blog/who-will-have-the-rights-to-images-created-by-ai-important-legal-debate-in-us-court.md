@@ -3,6 +3,7 @@ title: "اے آئی سے بنی تصاویر پر کس کا حق ہوگا؟ ام
 description: "اے آئی سے بنی تصاویر پر کس کا حق ہوگا؟ امریکی عدالت میں اہم قانونی بحث  دنیا بھر میں مصنوعی ذہانت یا اے آئی کی تیزی سے ترقی نے نہ صرف ٹیکنالوجی کی دنیا کو بدل د"
 date: 2026-03-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/who-will-have-the-rights-to-images-created-by-ai-important-legal-debate-in-us-court.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

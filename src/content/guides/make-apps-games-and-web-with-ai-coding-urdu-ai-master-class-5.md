@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس5 اے آئی کوڈنگ کے ذ
 description: "اردو اے آئی ماسٹر کلاس 5  اے آئی کوڈنگ کے ذریعے ایپس، گیمز اور ویب سائٹس بنائیں   اے آئی کوڈنگ کا نیا دور  السلام علیکم دوستو! میں ہوں قیصر رُونجہ اور آپ دیکھ ر"
 date: 2025-03-07
 category: "گائیڈ"
+tool: "AI Coding"
 level: "ابتدائی"
+image: "/images/guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

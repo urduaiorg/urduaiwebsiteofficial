@@ -3,6 +3,7 @@ title: "بدلتی مارکیٹنگ کا منظرنامہ: اے آئی کا بڑ
 description: "بدلتی مارکیٹنگ کا منظرنامہ: اے آئی کا بڑھتا کردار   آج مارکیٹنگ کے شعبے میں اے آئی کا کردار تیزی سے بڑھ رہا ہے۔ جانیے کیسے مصنوعی ذہانت صارفین کی مصروفیات، آپری"
 date: 2025-07-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-changing-marketing-landscape-the-growing-role-of-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

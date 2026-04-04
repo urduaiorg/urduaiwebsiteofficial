@@ -3,6 +3,7 @@ title: "کیا پاک ایجوکیٹ سکول کے تمام مسائل حل کر
 description: "کیا پاک ایجوکیٹ سکول کے تمام مسائل حل کر سکتا ہے؟  آج کے دور میں جب ہم تعلیم کے نظام کی بات کرتے ہیں تو ایک حقیقت بہت واضح ہو کر سامنے آتی ہے۔ اور وہ یہ ہے کہ س"
 date: 2026-04-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/pakistans-first-ai-supported-school-management-system.svg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

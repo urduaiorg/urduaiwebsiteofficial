@@ -3,6 +3,7 @@ title: "اے آئی اور کاپی رائٹ: تخلیق یا ملکیت؟"
 description: "اے آئی اور کاپی رائٹ: تخلیق یا ملکیت؟  تصور کریں، آپ ایک مصور ہیں۔ آپ نے برسوں کی محنت سے ایک منفرد انداز تخلیق کیا۔ اب، ایک AI ٹول آتا ہے، آپ کے اسٹائل کو سیکھ"
 date: 2025-02-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-and-copyright-creation-or-ownership.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

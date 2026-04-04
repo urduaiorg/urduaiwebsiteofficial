@@ -3,6 +3,7 @@ title: "کیا مرج لیبز اور اوپن اے آئی واقعی ایسی �
 description: "کیا مرج لیبز اور اوپن اے آئی واقعی ایسی اے آئی بنا رہے ہیں جو انسان کی سوچ کو سمجھ کر خود عمل کر سکے؟  چیٹ جی پی ٹی بنانے والی کمپنی اوپن اے آئی نے ایک ایسی کمپ"
 date: 2026-01-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/are-merge-labs-and-openai-really-creating-ai-that-can-understand-human-thought-and-act-on-its-own.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -5,6 +5,8 @@
 // HowTo schema with numbered steps fed via props.
 
 import Base from './Base.astro';
+import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
+import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface HowToStep {
   name: string;
@@ -41,7 +43,11 @@ const {
 } = Astro.props;
 
 const canonical = `https://urduai.org/how-to/${slug}/`;
-const ogImage = image ?? `/og/${slug}.jpg`;
+const ogImage = image ?? `/og/default.jpg`;
+const legacyCommentsData = legacyCommentsPayload as {
+  commentsByCollection: Record<string, Record<string, unknown[]>>;
+};
+const legacyComments = legacyCommentsData.commentsByCollection.howto?.[slug] ?? [];
 
 const dateObj = new Date(last_verified);
 const verifiedFormatted = dateObj.toLocaleDateString('ur-PK', {
@@ -95,8 +101,13 @@ const combinedSchema = [howtoSchema, breadcrumbSchema];
   description={description}
   canonical={canonical}
   ogImage={ogImage}
+  ogType="article"
   adsense={adsense}
   schema={combinedSchema}
+  articleMeta={{
+    publishedTime: date,
+    section: "ہاؤ ٹو",
+  }}
 >
   <!-- Top banner ad -->
   {adsense && (
@@ -203,6 +214,8 @@ const combinedSchema = [howtoSchema, breadcrumbSchema];
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       )}
+
+      <LegacyCommentsSection comments={legacyComments} />
 
       <!-- App CTA strip -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">

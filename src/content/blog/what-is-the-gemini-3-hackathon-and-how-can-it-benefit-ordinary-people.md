@@ -3,6 +3,7 @@ title: "جیمنی ۳ ہیکاتھون کیا ہے اور اس سے عام لو�
 description: "جیمنی ۳ ہیکاتھون کیا ہے اور اس سے عام لوگوں کو کیا فائدہ ہو سکتا ہے  مصنوعی ذہانت کا نام سنتے ہی بہت سے لوگوں کو لگتا ہے کہ یہ کوئی مشکل، بھاری اور صرف کمپیوٹر"
 date: 2026-01-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-the-gemini-3-hackathon-and-how-can-it-benefit-ordinary-people.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

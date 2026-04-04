@@ -3,6 +3,7 @@ title: "طبی ماہرین اے آئی کو کیسے اپنا رہے ہیں؟"
 description: "طبی ماہرین اے آئی کو کیسے اپنا رہے ہیں؟  نوٹ: یہ مضمون اوپن اے آئی کی جانب سے شائع کردہ صحت اور مصنوعی ذہانت سے متعلق ایک تحقیقی رپورٹ کی بنیاد پر لکھا گیا ہے،"
 date: 2026-01-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-are-medical-professionals-adopting-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

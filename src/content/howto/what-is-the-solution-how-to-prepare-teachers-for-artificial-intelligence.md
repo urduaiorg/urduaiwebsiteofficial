@@ -3,9 +3,11 @@ title: "حل کیا ہے؟ اساتذہ کو مصنوعی ذہانت کے لیے
 description: "عالمی تحقیقی رپورٹ  'Stop Throwing AI Tools at Teachers '  حصہ سوم:یہ بلاگ ایک عالمی تحقیقی رپورٹ کے تجزیے پر مبنی تین حصوں پر مشتمل سیریز کا آخری حصہ ہے۔ اس می"
 date: 2026-01-06
 category: "ہاؤ ٹو"
+tool: "Artificial Intelligence"
 last_verified: 2026-01-06
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

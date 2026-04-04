@@ -3,6 +3,7 @@ title: "اوٹر کا میٹنگ ایجنٹ آپ کے لیے کالز طے کر 
 description: "اوٹر کا میٹنگ ایجنٹ آپ کے لیے کالز طے کر سکتا ہے اور ای میلز بھی لکھ سکتا ہے  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو لے چلتا ہوں ایک ا"
 date: 2025-04-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/otters-meeting-agent-can-schedule-calls-and-even-write-emails-for-you.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

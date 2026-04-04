@@ -4,6 +4,7 @@ description: "کیا پاکستان کا نیا نیشنل سپر ایپ عوا�
 date: 2025-09-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/will-pakistans-new-national-super-app-provide-artificial-intelligence-powered-government-services-to-the-public.jpg"
 adsense: true
 draft: false
 ---

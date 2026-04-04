@@ -3,6 +3,7 @@ title: "پرپلکسٹی اب ٹریپ ایڈوائزر کی ہوٹل معلوم
 description: "Perplexity اب TripAdvisor کی ہوٹل معلومات دکھائے گا  ٹریپ ایڈوائزر نے پرپلکسٹی کے ساتھ ایک شراکت داری کی ہے۔ تاکہ ہوٹل کی معلومات میں انسانی عنصر شامل کیا جا سک"
 date: 2025-01-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexity-will-now-show-hotel-information-from-tripadvisor.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

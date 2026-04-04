@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا ٹول پریزم کیا ہے"
 description: "چیٹ جی پی ٹی کا نیا ٹول پریزم کیا ہے  سائنس ہماری روزمرہ زندگی کا ایک خاموش مگر طاقتور حصہ ہے۔ ہم جو دوائیں استعمال کرتے ہیں، جس بجلی سے ہمارے گھر روشن ہوتے ہیں"
 date: 2026-02-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-chatgpts-new-tool-prism.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

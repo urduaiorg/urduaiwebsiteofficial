@@ -3,9 +3,11 @@ title: "گوگل جیمینائی کی نئی شیڈولڈ ایکشنز خصوص
 description: "گوگل جیمینائی کی نئی شیڈولڈ ایکشنزخصوصیت: کیسے استعمال کریں اور کیا فائدہ اٹھائیں؟  مصنوعی ذہانت کے میدان میں گوگل کی پیش رفت کا ایک اور قدم، جیمینائی کی نئی خص"
 date: 2025-07-09
 category: "ہاؤ ٹو"
+tool: "Google Gemini"
 last_verified: 2025-07-09
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

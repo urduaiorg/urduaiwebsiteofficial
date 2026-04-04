@@ -3,6 +3,7 @@ title: "اوپن اے آئی کے جی پی ٹی-5 کا آغاز: گوگل کی 
 description: "اوپن اے آئی کے جی پی ٹی-5 کا آغاز: گوگل کی موجودگی اور مائیکروسافٹ کو سب سے بڑا فائدہ اوپن اے آئی نے اپنے نئے اور جدید ترین اےآئی ماڈل، جی پی ٹی-5 (GPT-5) کو با"
 date: 2025-08-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-gpt-5-launch-googles-presence-and-microsofts-biggest-benefit.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

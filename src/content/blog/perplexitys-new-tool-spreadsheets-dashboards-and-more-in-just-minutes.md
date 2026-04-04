@@ -3,6 +3,7 @@ title: "پرپلیکسٹی کا نیا ٹول: اسپریڈشیٹ، ڈیش بو�
 description: "پرپلیکسٹی کا نیا ٹول: اسپریڈشیٹ، ڈیش بورڈ اور مزید کچھ صرف چند منٹ میں مصنوعی ذہانت کے میدان میں روز بروز نئی ایجادات سامنے آ رہی ہیں۔ اور اب پرپلیکسٹی نے بھی"
 date: 2025-06-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexitys-new-tool-spreadsheets-dashboards-and-more-in-just-minutes.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

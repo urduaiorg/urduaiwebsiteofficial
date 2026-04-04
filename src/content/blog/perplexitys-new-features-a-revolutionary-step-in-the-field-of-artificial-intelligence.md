@@ -3,6 +3,7 @@ title: "پرپلکسٹی کے نئے فیچرز: مصنوعی ذہانت کے م
 description: "پرپلکسٹی کے نئے فیچرز: مصنوعی ذہانت کے میدان میں ایک انقلابی قدم  مصنوعی ذہانت کے بڑھتے ہوئے رجحان کے ساتھ، دنیا بھر میں متعدد ٹولز متعارف ہو رہے ہیں۔ جو ہماری"
 date: 2025-06-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/perplexitys-new-features-a-revolutionary-step-in-the-field-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

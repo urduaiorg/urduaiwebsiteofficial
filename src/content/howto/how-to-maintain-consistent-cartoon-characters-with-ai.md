@@ -3,9 +3,11 @@ title: "اے آئی کے ذریعے مستقل مزاج کارٹون کردار 
 description: "اے آئی کے ذریعے مستقل مزاج کارٹون کردار کیسے برقرار رکھیں؟  دوستوں! السلام علیکم! میں ہوں قیصر رونجہ، اور آج میں آپ کو اردو اے آئی کے ذریعے مستقل مزاج کارٹون کر"
 date: 2025-03-17
 category: "ہاؤ ٹو"
+tool: "AI Image Generator"
 last_verified: 2025-03-17
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

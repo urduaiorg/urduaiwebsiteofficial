@@ -4,6 +4,7 @@ description: "کومٹ براؤزر سے پہلے فائدہ اٹھانے وال
 date: 2025-09-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/who-are-the-first-students-to-benefit-from-the-comet-browser-can-you-join-in-too.jpg"
 adsense: true
 draft: false
 ---

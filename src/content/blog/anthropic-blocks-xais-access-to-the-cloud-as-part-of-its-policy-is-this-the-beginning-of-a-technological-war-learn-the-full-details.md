@@ -3,6 +3,7 @@ title: "ایلون مسک کی کمپنی ایکس اے آئی کو کلاؤڈ �
 description: "ایلون مسک کی کمپنی ایکس اے آئی کو کلاؤڈ تک رسائی کیوں نہیں ملی؟  مصنوعی ذہانت کی دنیا میں روز بروز نت نئی تبدیلیاں دیکھنے کو ملتی ہیں، لیکن بعض اوقات ان تبدیلیو"
 date: 2026-01-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/anthropic-blocks-xais-access-to-the-cloud-as-part-of-its-policy-is-this-the-beginning-of-a-technological-war-learn-the-full-details.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

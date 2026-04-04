@@ -3,6 +3,7 @@ title: "کیا گوگل میپس میں اے آئی اب ہمیں بہتر فی�
 description: "کیا گوگل میپس میں اے آئی اب ہمیں بہتر فیصلے لینے میں مدد دے گا؟  آج کے دور میں جب ہم کہیں جانے کا سوچتے ہیں تو سب سے پہلے جو چیز ذہن میں آتی ہے وہ گوگل میپس ہوت"
 date: 2026-03-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/will-ai-in-google-maps-now-help-us-make-better-decisions.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

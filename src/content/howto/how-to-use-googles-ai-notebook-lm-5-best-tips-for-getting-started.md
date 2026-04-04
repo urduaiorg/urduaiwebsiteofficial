@@ -3,9 +3,11 @@ title: "گوگل کے اے آئی نوٹ بک ایل ایم کا استعمال 
 description: "گوگل کے اے آئی نوٹ بک ایل ایم کا استعمال کیسے کریں آغاز کے لیے 5 بہترین مشورے گوگل نوٹ بک ایل ایم: ایک ذاتی علمی معاون اگر آپ مطالعے، تحقیق یا روزمرہ امور کی من"
 date: 2025-06-07
 category: "ہاؤ ٹو"
+tool: "NotebookLM"
 last_verified: 2025-06-07
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

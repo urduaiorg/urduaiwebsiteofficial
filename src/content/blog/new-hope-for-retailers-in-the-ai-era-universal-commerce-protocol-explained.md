@@ -3,6 +3,7 @@ title: "اے آئی دور میں ریٹیلرز کے لیے نئی امید: ی
 description: "اے آئی دور میں ریٹیلرز کے لیے نئی امید: یونیورسل کامرس پروٹوکول کی تفصیل  مصنوعی ذہانت کی دنیا میں ہونے والی پیش رفت اب صرف تصورات کی حد تک محدود نہیں رہی، بلکہ"
 date: 2026-01-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-hope-for-retailers-in-the-ai-era-universal-commerce-protocol-explained.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

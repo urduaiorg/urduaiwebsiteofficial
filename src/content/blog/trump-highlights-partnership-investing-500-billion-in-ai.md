@@ -3,6 +3,7 @@ title: "ٹرمپ کا اسٹار گیٹ منصوبہ اے آئی میں 500 ار
 description: "مصنوعی ذہانت میں 500 ارب ڈالر کی سرمایہ کاری کا شاندار منصوبہ  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کریں گے ایک ایسی خبر پر جو ٹیکنال"
 date: 2025-01-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/trump-highlights-partnership-investing-500-billion-in-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

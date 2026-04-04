@@ -3,6 +3,7 @@ title: "پاکستان کے نوجوانوں کے لیے گولڈن چانس: 70
 description: "مصنوعی ذہانت: پاکستان کا اگلا بڑا قدم  پاکستان میں مصنوعی ذہانت  انقلاب کا آغاز ہو چکا ہے  اور حکومت نے اس میں ایک اہم کردار ادا کرنے کا فیصلہ کیا ہے۔ حال ہی می"
 date: 2025-08-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/artificial-intelligence-pakistans-next-big-step.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "ڈیپ ایل  اے آئی ایجنٹ : کیا یہ اوپن اے آئ�
 description: "ڈیپ ایل  اے آئی ایجنٹ : کیا یہ اوپن اے آئی اور مائیکروسافٹ کے لیے چیلنج بنے گا؟  آج ہر کمپنی یہ سوچ رہی ہے کہ مصنوعی ذہانت ان کے کام اور ملازمین پر کیا اثر ڈالے"
 date: 2025-09-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/eep-ai-agent-will-it-be-a-challenge-for-openai-and-microsoft.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

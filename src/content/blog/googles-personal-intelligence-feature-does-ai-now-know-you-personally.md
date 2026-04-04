@@ -3,6 +3,7 @@ title: "گوگل جمنائی کا پرسنل انٹیلیجنس فیچر: کی�
 description: "گوگل جمنائی کا پرسنل انٹیلیجنس فیچر: کیا اے آئی اب آپ کو ذاتی طور پر جانتا ہے؟ گوگل جمنائی کا نیا پرسنل انٹیلیجنس فیچر مصنوعی ذہانت کو صرف ایک معلوماتی نظام کے"
 date: 2026-01-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-personal-intelligence-feature-does-ai-now-know-you-personally.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

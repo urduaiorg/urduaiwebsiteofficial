@@ -3,6 +3,7 @@ title: "جی پی ٹی-5 کی ممکنہ آمد: مصنوعی ذہانت کی د
 description: "مصنوعی ذہانت: جی پی ٹی-5 کی اگست میں ممکنہ آمد  مصنوعی ذہانت کی دنیا میں ایک بڑی خبر گردش کر رہی ہے: اوپن اے آئی کا اگلی نسل کا ماڈل،  جی پی ٹی-5 ، رواں سال اگس"
 date: 2025-08-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-possible-arrival-of-gpt-5-the-next-big-step-in-the-world-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

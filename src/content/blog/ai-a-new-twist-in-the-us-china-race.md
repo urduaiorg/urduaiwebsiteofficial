@@ -3,6 +3,7 @@ title: "امریکہ اور چین کی دوڑ میں اے آئی ایک نیا 
 description: "امریکہ اور چین کی دوڑ میں اے آئی ایک نیا موڑ   دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کریں گے امریکہ اور چین کے درمیان ٹیکنالوجی کی دوڑ کے بارے"
 date: 2025-02-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-a-new-twist-in-the-us-china-race.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

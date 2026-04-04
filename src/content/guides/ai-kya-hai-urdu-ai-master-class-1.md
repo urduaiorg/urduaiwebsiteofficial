@@ -3,7 +3,9 @@ title: "اے آئی کیا ہے اردو اے آئی ماسٹر کلاس ون"
 description: "اے آئی کیا ہے؟ اردو اے آئی ماسٹر کلاس 1  السلام علیکم دوستوں! مجھے آپ کو یہاں دیکھ کر بہت خوشی ہو رہی ہے۔ اور میں بہت زیادہ پرجوش ہوں کہ ہم سب مل کر اردو اے آئی"
 date: 2025-02-14
 category: "گائیڈ"
+tool: "Artificial Intelligence"
 level: "ابتدائی"
+image: "/images/guides/ai-kya-hai-urdu-ai-master-class-1.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا فیچر: اب مقامی تلاش پ�
 description: "چیٹ جی پی ٹی کا نیا فیچر: اب مقامی تلاش پہلے سے بہتر  کیا چیٹ جی پی ٹی گوگل کا متبادل بننے جا رہا ہے؟  کبھی آپ نے سوچا کہ اگر چیٹ جی پی ٹی سے آپ پوچھیں کہ “میرے"
 date: 2025-05-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpts-new-feature-local-search-just-got-better.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

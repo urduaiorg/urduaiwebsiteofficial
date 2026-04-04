@@ -3,6 +3,7 @@ title: "خلائی تحقیق میں نیا قدم: گوگل اور ناسا ک�
 description: "خلائی تحقیق میں نیا قدم: گوگل اور ناسا کا اے آئی پر مبنی میڈیکل سسٹم   انسانی تاریخ میں خلائی سفر ہمیشہ سے ایک پرجوش اور خطرناک مہم رہا ہے۔ جیسے جیسے ناسا اپنے"
 date: 2025-08-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-step-in-space-research-google-and-nasas-ai-based-medical-system.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

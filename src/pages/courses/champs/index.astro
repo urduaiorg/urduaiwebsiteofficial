@@ -1,5 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import LegacyCommentsSection from '../../../components/LegacyCommentsSection.astro';
+import legacyCommentsPayload from '../../../data/legacy-comments.json';
 
 const courseSchema = {
   "@context": "https://schema.org",
@@ -11,6 +13,11 @@ const courseSchema = {
   "isAccessibleForFree": true,
   "url": "https://urduai.org/courses/champs/",
 };
+const legacyCommentsData = legacyCommentsPayload as {
+  commentsByCollection: Record<string, Record<string, unknown[]>>;
+};
+const legacyChampsComments =
+  legacyCommentsData.commentsByCollection.pages?.['courses-champs'] ?? [];
 ---
 
 <Base
@@ -40,5 +47,7 @@ const courseSchema = {
     <a href="https://urduai.beehiiv.com/subscribe" class="btn-playstore">
       اطلاع کے لیے سبسکرائب کریں
     </a>
+
+    <LegacyCommentsSection comments={legacyChampsComments} />
   </div>
 </Base>

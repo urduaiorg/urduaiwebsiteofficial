@@ -3,6 +3,7 @@ title: "مائیکروسافٹ کا انکشاف: اے آئی سسٹم بیما�
 description: "مائیکروسافٹ کا انکشاف: اے آئی سسٹم بیماری کی پہچان میں ڈاکٹروں سے آگے نکل گیا  مائیکروسافٹ نے ایک نیا مصنوعی ذہانت پر مبنی سسٹم پیش کیا ہے جو پیچیدہ معاملات میں"
 date: 2025-07-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-reveals-ai-system-outperforms-doctors-in-disease-recognition.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

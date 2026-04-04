@@ -3,6 +3,7 @@ title: "ایلون مسک کی 97 بلین ڈالر کی بولی: اوپن اے
 description: "ایلون مسک کی 97 بلین ڈالر کی بولی: اوپن اے آئی کی دنیا بدلنے والی ہے؟  ایک لمحے کے لیے تصور کریں، دنیا کی سب سے بڑی مصنوعی ذہانت کمپنی، اوپن اے آئی، ایلون مسک ک"
 date: 2025-02-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/elon-musks-97-billion-bid-is-openais-world-about-to-change.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

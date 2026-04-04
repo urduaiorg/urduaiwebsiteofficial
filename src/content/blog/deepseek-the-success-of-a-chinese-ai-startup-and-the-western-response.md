@@ -3,6 +3,7 @@ title: "ڈیپ سیک: چینی اے آئی اسٹارٹ اپ کی کامیاب�
 description: "ڈیپ سیک: چینی اے آئی اسٹارٹ اپ کی کامیابی اور مغربی ممالک کا ردعمل  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو ایک ایسے حیرت انگیز انقلاب ک"
 date: 2025-02-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/deepseek-the-success-of-a-chinese-ai-startup-and-the-western-response.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

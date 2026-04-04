@@ -3,6 +3,7 @@ title: "ڈیپ سیک نے سیم آلٹمین کو غلط ثابت کر دیا!
 description: "ڈیپ سیک نے سیم آلٹمین کو غلط ثابت کر دیا!  سیم آلٹمین کے وہ بیانات، جن میں انہوں نے کم بجٹ والے اسٹارٹ اپس کے لیے مصنوعی ذہانت (AI) کی دنیا میں جگہ بنانے کو مکم"
 date: 2025-02-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/deepseek-proves-sam-altman-wrong.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

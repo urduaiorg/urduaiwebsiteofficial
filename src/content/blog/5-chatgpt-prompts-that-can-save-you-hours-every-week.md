@@ -3,6 +3,7 @@ title: "پانچ چیٹ جی پی ٹی پرامپٹس جو آپ کے ہر ہفت
 description: "پانچ چیٹ جی پی ٹی پرامپٹس جو آپ کے ہر ہفتے کئی گھنٹے بچا سکتے ہیں پرامپٹس وہ جملے یا ہدایات ہیں جو آپ چیٹ جی پی ٹی کو دیتے ہیں تاکہ وہ مخصوص انداز میں آپ کی مد"
 date: 2025-05-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/5-chatgpt-prompts-that-can-save-you-hours-every-week.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

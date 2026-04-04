@@ -3,9 +3,11 @@ title: "ویب سائٹ کے لیے نِچ کیسے تلاش کریں؟ مکمل
 description: "ویب سائٹ کے لیے نِچ کیسے تلاش کریں؟ مکمل رہنمائی نئے صارفین کے لیے   یہ تحریر اردو اے آئی کی مکمل رہنمائی ویڈیو سیریز کا تیسرا حصہ ہے۔ اس سے پہلے آپ ڈومین خریدن"
 date: 2025-11-14
 category: "ہاؤ ٹو"
+tool: "Website Strategy"
 last_verified: 2025-11-14
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

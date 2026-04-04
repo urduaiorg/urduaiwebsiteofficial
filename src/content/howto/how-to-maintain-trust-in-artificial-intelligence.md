@@ -3,9 +3,11 @@ title: "مصنوعی ذہانت پر اعتماد کیسے قائم رکھا ج�
 description: "مصنوعی ذہانت پر اعتماد کیسے قائم رکھا جائے؟ کلاؤڈ کا اشتہارات سے انکار مصنوعی ذہانت کے استعمال کے ساتھ ایک سوال بار بار سامنے آتا ہے کہ کیا یہ ٹیکنالوجی واقعی ص"
 date: 2026-02-12
 category: "ہاؤ ٹو"
+tool: "Claude"
 last_verified: 2026-02-12
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

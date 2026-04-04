@@ -3,6 +3,7 @@ title: "طلبہ کے لیے مفت اے آئی ٹولز: پرپلیکسیٹی �
 description: "طلبہ کے لیے مفت اے آئی ٹولز: پرپلیکسیٹی اور شیئر آئی ڈی کا عالمی اشتراک  ڈیجیٹل دنیا میں جہاں مصنوعی ذہانت (اے آئی)   ہر شعبے میں اپنی جگہ بنا رہی ہے۔ وہیں تعلی"
 date: 2025-07-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/free-ai-tools-for-students-perplexity-and-global-sharing-of-shareid.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

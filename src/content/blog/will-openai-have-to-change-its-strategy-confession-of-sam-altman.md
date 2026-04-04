@@ -3,6 +3,7 @@ title: "کیا اوپن اے آئی کو اپنی حکمت عملی بدلنی �
 description: "کیا اوپن اے آئی کو اپنی حکمت عملی بدلنی ہوگی؟ سیم آلٹمین کا اعتراف!  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک دلچسپ سوال پر بات کرنے جا رہے"
 date: 2025-02-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/will-openai-have-to-change-its-strategy-confession-of-sam-altman.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

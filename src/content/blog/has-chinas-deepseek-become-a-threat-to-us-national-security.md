@@ -3,6 +3,7 @@ title: "کیا چین کا ڈیپ سیک امریکی قومی سلامتی کے
 description: "کیا چین کا ڈیپ سیک امریکی قومی سلامتی کے لیے خطرہ بن چکا ہے؟  امریکی کانگریس کے دو اہم اراکین نے چین کے ڈیپ سیک  چیٹ بوٹ کو سرکاری ڈیوائسز پر پابندی لگانے کے لی"
 date: 2025-02-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/has-chinas-deepseek-become-a-threat-to-us-national-security.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

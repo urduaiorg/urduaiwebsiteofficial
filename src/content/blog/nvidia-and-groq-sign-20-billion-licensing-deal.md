@@ -3,6 +3,7 @@ title: "انویڈیا اور گروق کے درمیان 20 ارب ڈالر کا
 description: "انویڈیا اور گروق کے درمیان 20 ارب ڈالر کا لائسنس معاہدہ  2025 کا آخری ہفتہ تھا، دنیا کرسمس کی چھٹیوں میں مصروف تھی، اور بیشتر لوگ سمجھ رہے تھے کہ اس سال اب کچھ"
 date: 2025-12-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/nvidia-and-groq-sign-20-billion-licensing-deal.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

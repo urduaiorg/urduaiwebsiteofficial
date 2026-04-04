@@ -3,6 +3,7 @@ title: "واٹس ایپ کا زبردست نیا فیچرمیٹا اے آئی چ
 description: "واٹس ایپ کا زبردست نیا فیچرمیٹا اے آئی چیٹ بوٹ اب اور بھی قریب  ہیلو دوستوں! میں ہوں معراج احمد، اور آج ایک شاندار خبر لے کر آیا ہوں جو خاص طور پر ان لوگوں کے ل"
 date: 2025-03-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/whatsapp-bringing-new-change-to-meta-ai-chatbot.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی میں اشتہارات: کیا بدلے گا او
 description: "چیٹ جی پی ٹی میں اشتہارات: کیا بدلے گا اور صارفین کو کیا ملے گا؟  دنیا بھر میں مصنوعی ذہانت کی مقبولیت میں روز بروز اضافہ ہو رہا ہے اور چیٹ جی پی ٹی اس دوڑ میں"
 date: 2026-01-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ads-in-chatgpt-what-will-change-and-what-will-users-get.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

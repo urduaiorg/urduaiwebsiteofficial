@@ -3,6 +3,7 @@ title: "کیا چیٹ جی پی ٹی اب سوشل میڈیا کی طرح اشت
 description: "کیا چیٹ جی پی ٹی اب سوشل میڈیا کی طرح اشتہارات دکھانا شروع کر دیا ہے؟ مصنوعی ذہانت اب صرف ایک ٹیکنالوجی نہیں رہی بلکہ روزمرہ زندگی کا حصہ بن چکی ہے۔ طلبہ اس سے"
 date: 2026-02-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/has-chatgpt-now-started-showing-ads-like-social-media.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

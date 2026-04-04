@@ -3,6 +3,7 @@ title: "اوپن اے آئی کے حیرت انگیز منصوبے: روبوٹس
 description: "اوپن اے آئی کے حیرت انگیز منصوبے: روبوٹس، سمارٹ جیولری اور ایک نیا مستقبل!  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو لے چلتا ہوں ایک ایس"
 date: 2025-02-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-amazing-projects-robots-smart-jewelry-and-a-new-future.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

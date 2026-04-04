@@ -3,6 +3,7 @@ title: "میٹا کا نیا لاما ماڈل، کیا یہ واقعی سب س�
 description: "میٹا کا نیا لاما ماڈل، کیا یہ واقعی سب سے آگے ہے؟  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو لے جا رہا ہوں ایک ایسی دنیا میں جہاں مصنوعی"
 date: 2025-04-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/metas-new-llama-model-is-it-really-the-forefront.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

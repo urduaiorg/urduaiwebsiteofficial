@@ -3,6 +3,7 @@ title: "گوگل کا نوٹ بُک ایل ایم اپ گریڈ: کیا یہ چ�
 description: "گوگل کا نوٹ بُک ایل ایم اپ گریڈ: کیا یہ چیٹ جی پی ٹی سے بہتر ہے ٹیم ورک کے لیے؟ گوگل کی مصنوعی ذہانت پر مبنی نوٹ بُک سروس NotebookLM نے ایک نیا فیچر متعارف کرای"
 date: 2025-06-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-notebook-lm-upgrade-is-it-better-than-chat-gpt-for-teamwork.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

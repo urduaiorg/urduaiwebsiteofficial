@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا نیا فیچر ڈیپ ریسرچ  تحقیق
 description: "اوپن اے آئی کا نیا فیچرڈیپ ریسرچ تحقیق کا ایک نیا انداز  دوست، مصنوعی ذہانت (AI) کے میدان میں ہر روز کچھ نہ کچھ نیا سامنے آتا ہے۔ اوپن اے آئی نے حال ہی میں اپنا"
 date: 2025-02-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-new-feature-deep-research-a-new-way-of-doing-research.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

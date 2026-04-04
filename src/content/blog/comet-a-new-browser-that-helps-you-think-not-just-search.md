@@ -3,6 +3,7 @@ title: "کومٹ ایک نیا براؤزر جو صرف سرچ نہیں بلکہ
 description: "کومٹ ایک نیا براؤزر جو صرف سرچ نہیں بلکہ سوچنے میں مدد دیتا ہے انٹرنیٹ کے نئے دور کا آغاز آج پلیکسیٹی نے ایک نئے انقلابی ویب براؤزر' کومٹ' (Comet ) کی لانچ کا ا"
 date: 2025-07-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/comet-a-new-browser-that-helps-you-think-not-just-search.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

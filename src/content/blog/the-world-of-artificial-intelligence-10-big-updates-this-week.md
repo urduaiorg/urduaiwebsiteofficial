@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کی دنیا: اس ہفتے کی 10 بڑی اپ
 description: "مصنوعی ذہانت کی دنیا: اس ہفتے کی 10 بڑی اپڈیٹس  یہ ہفتہ مصنوعی ذہانت کی دنیا میں غیر معمولی پیش رفتوں سے بھرپور رہا۔ اوپن اے آئی، گوگل، میٹا، اور دیگر نمایاں ٹی"
 date: 2025-12-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-world-of-artificial-intelligence-10-big-updates-this-week.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

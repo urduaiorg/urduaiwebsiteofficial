@@ -3,9 +3,11 @@ title: "مصنوعی ذہانت کی مدد سے کاروباری منصوبے �
 description: "مصنوعی ذہانت کی مدد سے کاروباری منصوبے کیسے بنایا جائے؟  کیا آپ اپنا کاروبار شروع کرنا چاہتے ہیں لیکن سمجھ نہیں آ رہا کہ کہاں سے شروعات کریں؟ اسلام علیکم! میں ہ"
 date: 2025-04-12
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-04-12
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

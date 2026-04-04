@@ -3,6 +3,7 @@ title: "بل گیٹس: اے آئی اگلے 10 سال میں انسانوں کی
 description: "بل گیٹس: اے آئی اگلے 10 سال میں انسانوں کی جگہ لے لے گی!  ہیلو دوستوں! آج ہم بات کریں گے بل گیٹس کے حالیہ انٹرویو کی، جس میں انہوں نے ایک چونکا دینے والی پیشگوئ"
 date: 2025-04-01
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/bill-gates-ai-will-replace-humans-in-the-next-10-years.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چین کا جدید ترین مصنوعی ذہانت ایجنٹ 'مین
 description: "چین کا جدید ترین مصنوعی ذہانت ایجنٹ 'مینس' ایک انقلابی قدم!  ہیلو دوستو! چین کی ایک ٹیکنالوجی ٹیم نے دنیا کا پہلا مکمل خودمختار مصنوعی ذہانت ایجنٹ 'مینس' متعارف"
 date: 2025-03-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chinas-latest-artificial-intelligence-agent-manas-is-a-revolutionary-step.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

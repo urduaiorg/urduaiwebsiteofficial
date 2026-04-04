@@ -3,6 +3,7 @@ title: "گبلی طرز کی اے آئی  تصاویر کیا ہوتی ہیں�
 description: "گبلی طرز کی اے آئی  تصاویر کیا ہوتی ہیں؟  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک ایسے رجحان پر بات کرنے جا رہے ہیں جو انٹرنیٹ پر تیزی سے پ"
 date: 2025-03-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-are-ghibli-style-ai-images.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

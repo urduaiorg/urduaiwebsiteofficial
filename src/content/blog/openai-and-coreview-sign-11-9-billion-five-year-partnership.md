@@ -3,6 +3,7 @@ title: "اوپن اے آئی اور کورویو کا بڑا معاہدہ 11.9 �
 description: "اوپن اے آئی اور کور ویو کا بڑا معاہدہ  11.9 ارب ڈالر کی پانچ سالہ شراکت داری!  ہیلو دوستو! آج ہم ایک بڑی خبر پر بات کرنے جا رہے ہیں جو مصنوعی ذہانت (AI) کی دنیا"
 date: 2025-03-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openai-and-coreview-sign-11-9-billion-five-year-partnership.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

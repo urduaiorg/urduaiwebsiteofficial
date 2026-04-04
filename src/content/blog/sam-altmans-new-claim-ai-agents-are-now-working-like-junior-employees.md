@@ -3,6 +3,7 @@ title: "سیم آلٹمین کا نیا دعویٰ:AI agentsاب جونیئر م
 description: "سیم آلٹمین کا نیا دعویٰ:AI agentsاب جونیئر ملازمین کی طرح کام کر رہے ہیں  مصنوعی ذہانت کے میدان میں نمایاں کردار ادا کرنے والے اوپن اے آئی کے سی ای او سیم آلٹمی"
 date: 2025-06-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/sam-altmans-new-claim-ai-agents-are-now-working-like-junior-employees.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

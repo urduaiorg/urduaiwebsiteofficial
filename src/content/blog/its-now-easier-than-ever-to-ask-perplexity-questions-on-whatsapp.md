@@ -3,6 +3,7 @@ title: "واٹس ایپ پر اب پرپلیکسٹی سے سوال پوچھنا 
 description: "واٹس ایپ پر اب ’پرپلیکسٹی‘ سے سوال پوچھنا پہلے سے بھی آسان مصنوعی ذہانت کا میدان روز بروز وسعت اختیار کر رہا ہے۔ ابھی کل کی ہی بات ہے جب لوگ گوگل پر کچھ بھی تل"
 date: 2025-05-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

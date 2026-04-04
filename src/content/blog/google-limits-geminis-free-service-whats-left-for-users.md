@@ -3,6 +3,7 @@ title: "گوگل نے جیمنی کی مفت سروس محدود کر دی: صا
 description: "گوگل نے جیمنی کی مفت سروس محدود کر دی: صارفین کے لیے کیا بچا؟  گوگل نے حال ہی میں اپنے جدید مصنوعی ذہانت کے ماڈل جیمنی 3  پرو کی مفت سروس کے حوالے سے اہم تبدیلی"
 date: 2025-12-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-limits-geminis-free-service-whats-left-for-users.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

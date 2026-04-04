@@ -3,6 +3,7 @@ title: "جیمینی 2.5 پرو: ویب ایپلی کیشنز بنانے وال�
 description: "جیمینی 2.5 پرو: ویب ایپلی کیشنزبنانے والوں کے لیے گوگل کا نیا تحفہ  گوگل نے جیمینی 2.5 پرو کا نیا ورژن جاری کر دیا ہے جو خاص طور پر ویب ایپلی کیشنز بنانے والوں"
 date: 2025-05-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-2-5-pro-googles-new-gift-for-internet-application-developers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

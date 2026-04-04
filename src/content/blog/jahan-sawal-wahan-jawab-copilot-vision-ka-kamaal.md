@@ -3,6 +3,7 @@ title: "جہاں سوال، وہاں جواب: کوپائلٹ وژن کا کما
 description: "جہاں سوال، وہاں جواب: کوپائلٹ وژن کا کمال دوستو! اس مہینے دنیا بھر میں بہت سی نئی اے آئی ایجادات متعارف ہوں گی جو ہمارے کام کرنے، سیکھنے اور ٹیکنالوجی کے ساتھ"
 date: 2024-12-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/jahan-sawal-wahan-jawab-copilot-vision-ka-kamaal.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

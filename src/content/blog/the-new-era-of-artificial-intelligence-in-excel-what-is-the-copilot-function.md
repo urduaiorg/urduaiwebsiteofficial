@@ -3,6 +3,7 @@ title: "ایکسل میں مصنوعی ذہانت کا نیا دور:کو پائ
 description: "ایکسل میں مصنوعی ذہانت کا نیا دور:کو پائلٹ فنکشن کیا ہے؟ کیا کبھی آپ نے سوچا ہے کہ آپ کا ایکسل سپریڈ شیٹ آپ کے لیے خود سوچ سکتا ہے؟ مثال کے طور پر، آپ صرف یہ لک"
 date: 2025-08-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/the-new-era-of-artificial-intelligence-in-excel-what-is-the-copilot-function.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

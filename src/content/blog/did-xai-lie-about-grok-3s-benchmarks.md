@@ -3,6 +3,7 @@ title: "کیا ایکس اے آئی نے گروک٣ کے نتائج میں ہی�
 description: "کیا ایکس اے آئی نے گروک 3 کے نتائج میں ہیر پھیر کی؟  ہیلو دوستو! آج ہم ایک دلچسپ مگر متنازعہ بحث پر بات کرنے والے ہیں۔ مصنوعی ذہانت کی دنیا میں ہمیشہ کچھ نہ کچھ"
 date: 2025-03-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/did-xai-lie-about-grok-3s-benchmarks.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

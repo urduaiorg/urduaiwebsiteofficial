@@ -3,6 +3,7 @@ title: "کیا اے آئی استاد کا متبادل بن سکتی ہے؟ خ�
 description: "کیا اے آئی استاد کا متبادل بن سکتی ہے؟ خان اکیڈمی کے بانی سل خان کا مؤقف  استاد ایک ایسا لفظ ہے جس سے صرف تعلیمی رشتہ ہی نہیں، بلکہ ایک جذباتی اور معاشرتی بندھن"
 date: 2025-06-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-ai-replace-teachers-khan-academy-founder-sal-khans-stance.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

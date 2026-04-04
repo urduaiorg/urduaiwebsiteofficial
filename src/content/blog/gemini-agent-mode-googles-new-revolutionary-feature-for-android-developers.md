@@ -3,6 +3,7 @@ title: "جیمینی ایجنٹ موڈ: اینڈرائیڈ ڈویلپرز کے �
 description: "جیمینی ایجنٹ موڈ: اینڈرائیڈ ڈویلپرز کے لیے گوگل کا نیا انقلابی فیچر  گوگل نے حالیہ I/O 2025 کانفرنس میں ایک بڑی پیش رفت کا اعلان کیا، اور اب وہ اپنی AI ٹیکنالوج"
 date: 2025-06-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-agent-mode-googles-new-revolutionary-feature-for-android-developers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

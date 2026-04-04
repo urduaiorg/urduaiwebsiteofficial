@@ -3,6 +3,7 @@ title: "الیکسا اب براؤزر پر دستیاب ہے اے آئی سے �
 description: "الیکسا اب براؤزر پر دستیاب ہے اے آئی سے چلنے والا مکمل اسسٹنٹ ؟  تفصیل جانیں  جب ہم روزمرہ زندگی کے کاموں میں مصروف ہوتے ہیں اور وقت کی قلت ہمارے فیصلوں کو متاث"
 date: 2026-01-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/alexa-is-now-available-on-the-browser-a-full-fledged-ai-powered-assistant-learn-more.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کےدلچسپ حقائق جو آپ کو ابھ�
 description: "مصنوعی ذہانت کے دلچسپ حقائق جو آپ کو ابھی جاننے چاہییں!  ہیلو دوستوں! میں ہوں معراج احمد اردو اے آئی سے، اور آج ہم بات کرنے والے ہیں ایک ایسے موضوع پر جو ہر طرف"
 date: 2025-03-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/interesting-facts-about-artificial-intelligence-that-you-need-to-know-right-now.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "ایمیزون کا نیا مصنوعی ذہانت ایجنٹ: کیا ی
 description: "ایمیزون کا نیا مصنوعی ذہانت ایجنٹ: کیا یہ آپ کے روزمرہ کےکام سنبھالنے کے لیے تیار ہے؟ ایمیزون نے ایک نئی قسم کی مصنوعی ذہانت (AI) متعارف کروائی ہے۔ جس کا مقصد"
 date: 2025-04-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/amazons-new-artificial-intelligence-agent-is-it-ready-to-take-over-your-daily-tasks.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

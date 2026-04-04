@@ -3,6 +3,7 @@ title: "اے آئی امیج جنریٹر مارکیٹ کے اعداد و شما
 description: "اے آئی امیج جنریٹر مارکیٹ کے اعداد و شمار: ایک تجزیہ  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک ایسے موضوع پر بات کریں گے جو نہ صرف ٹیکنالوج"
 date: 2025-03-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-image-generator-market-statistics-an-analysis.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

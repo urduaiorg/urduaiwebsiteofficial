@@ -3,6 +3,7 @@ title: "گوگل نے جمینی 3.1 پرو نیا اے آئی ورژن متعا
 description: "گوگل نے جمینی 3.1 پرو نیا اے آئی ورژن متعارف کرا دیا مصنوعی ذہانت کی دنیا میں پیش رفت کی رفتار اس قدر تیز ہو چکی ہے کہ ہر چند ہفتوں بعد ایک نیا ماڈل سامنے آتا ہ"
 date: 2026-02-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-has-introduced-the-new-ai-version-gemini-3-1-pro.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

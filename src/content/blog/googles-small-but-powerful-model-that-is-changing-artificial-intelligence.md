@@ -3,6 +3,7 @@ title: "گوگل کا چھوٹا مگر طاقتور ماڈل جو مصنوعی 
 description: "گوگل کا چھوٹا مگر طاقتور ماڈل جو مصنوعی ذہانت کو بدل رہا ہے مصنوعی ذہانت کے میدان میں جب سب کی توجہ بڑے، مہنگے اور پیچیدہ ماڈلز پر مرکوز ہے۔ گوگل نے ایک الگ سمت"
 date: 2025-08-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-small-but-powerful-model-that-is-changing-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

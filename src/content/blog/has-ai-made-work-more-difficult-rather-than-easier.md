@@ -3,6 +3,7 @@ title: "کیا اے آئی نے کام آسان کرنے کے بجائے اسے 
 description: "کیا اے آئی نے کام آسان کرنے کے بجائے اسے زیادہ مشکل بنا دیا ہے؟ مصنوعی ذہانت کے بارے میں سب سے بڑی امید یہ رہی ہے کہ یہ انسانوں کا کام کم کرے گی۔ کمپنیوں کو بتا"
 date: 2026-02-18
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/has-ai-made-work-more-difficult-rather-than-easier.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

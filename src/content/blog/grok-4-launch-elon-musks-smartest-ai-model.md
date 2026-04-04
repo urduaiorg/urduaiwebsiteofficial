@@ -3,6 +3,7 @@ title: "گروک 4 کی لانچ: ایلون مسک کا سب سے ذہین اے
 description: "گروک 4 کی لانچ: ایلون مسک کا سب سے ذہین اے آئی ماڈل؟ ایلون مسک کی کمپنی کا نیا دعویٰ ایلون مسک کی مصنوعی ذہانت کی کمپنی ایکس اے آئی نے بدھ کی شب اپنا جدید ترین"
 date: 2025-07-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/grok-4-launch-elon-musks-smartest-ai-model.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

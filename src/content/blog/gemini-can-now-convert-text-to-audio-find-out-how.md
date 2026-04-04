@@ -3,6 +3,7 @@ title: "جمینی اب تحریر کو آڈیو میں بدل سکتا ہےجا
 description: "جمینی اب تحریر کو آڈیو میں بدل سکتا ہےجانیں کیسے گوگل کی جمینی ایپ نے اب ایک ایسا فیچر متعارف کروایا ہے جو آپ کی  تحریرکو آڈیو  کی شکل میں سنا سکتا ہے۔ یعنی اب"
 date: 2025-06-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-can-now-convert-text-to-audio-find-out-how.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -4,6 +4,7 @@ description: "اے آئی سیفٹی رپورٹ 2026: مصنوعی ذہانت آ
 date: 2026-02-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/ai-safety-report-2026.jpg"
 adsense: true
 draft: false
 ---

@@ -3,6 +3,7 @@ title: "گوگل کا نیا پرامپٹ انجینئرنگ پلے بُک: جی
 description: "گوگل کا نیا پرامپٹ انجینئرنگ پلے بُک: جیمینی اور اے آئی ٹولز کے لیے 10 سنہرے اصول چیٹ جی پی ٹی کی مقبولیت کے بعد جہاں دنیا بھر میں مصنوعی ذہانت کے ٹولز کا استع"
 date: 2025-04-28
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-prompt-engineering-playbook-10-golden-rules-for-gemini-and-ai-tools.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

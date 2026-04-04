@@ -3,6 +3,7 @@ title: "مائیکروسافٹ نے اوپن اے آئی کا نیا ماڈل و
 description: "مائیکروسافٹ نے اوپن اے آئی کا نیا ماڈل ونڈوز پر دستیاب کر دیا  مائیکروسافٹ نے حال ہی میں اوپن اے آئی کے ایک نئے اور بالکل مفت 'gpt-oss-20b' ماڈل کو ونڈوز صارفین"
 date: 2025-08-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-makes-new-model-of-openai-available-on-windows.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

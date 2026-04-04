@@ -3,6 +3,7 @@ title: "بچوں کے لیے محفوظ مصنوعی ذہانت کیسے ممک�
 description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی ذہانت اور بچے  حصہ سوم : یہ مضمون مصنوعی ذہانت اور بچوں سے متعلق یونیسف کی عالمی رپورٹ کے تجزیے پر مبنی سیریز کا حصہ سوم او"
 date: 2026-01-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/how-is-child-safe-artificial-intelligence-possible.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

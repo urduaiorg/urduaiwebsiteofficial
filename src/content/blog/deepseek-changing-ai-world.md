@@ -3,6 +3,7 @@ title: "ڈیپ سیک نے اے آئی  کی دنیا بدل دی"
 description: "ڈیپ سیک نے اے آئی  کی دنیا بدل دی   السلام علیکم دوستوں! مصنوعی ذہانت (AI) نے پچھلے ایک ہفتے میں کافی غیر معمولی تبدیلیاں دکھائی ہیں۔ جی ہاں! چینی کمپنی ڈیپ سیک"
 date: 2025-01-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/deepseek-changing-ai-world.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

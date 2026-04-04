@@ -3,6 +3,7 @@ title: "جیمینی ایپ: فری صارفین اور پرو سبسکرائب�
 description: "جیمینی ایپ: فری صارفین اور پرو سبسکرائبرز کے لیے کیا مختلف ہے؟  جون 2025 میں گوگل نے اپنی مشہور جیمینی ایپ کو تین درجات میں تقسیم کر دیا ہے۔  فری، گوگل AI پرو،"
 date: 2025-06-30
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-app-whats-different-for-free-users-and-pro-subscribers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

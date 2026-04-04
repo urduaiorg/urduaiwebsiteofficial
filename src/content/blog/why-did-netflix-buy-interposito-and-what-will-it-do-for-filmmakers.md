@@ -3,6 +3,7 @@ title: "نیٹ فلکس نے انٹرپازیٹو کیوں خریدا اور ی�
 description: "نیٹ فلکس نے انٹرپازیٹو کیوں خریدا اور یہ فلم سازوں کے لیے کیا کرے گا؟ نیٹ فلکس کی جانب سے انٹرپازیٹو کو اپنے ساتھ شامل کرنے کا اعلان بظاہر ایک سادہ کاروباری خبر"
 date: 2026-03-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/why-did-netflix-buy-interposito-and-what-will-it-do-for-filmmakers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

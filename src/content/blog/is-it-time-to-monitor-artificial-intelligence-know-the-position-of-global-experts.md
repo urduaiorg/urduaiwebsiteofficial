@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت پر نظر رکھنے کا وقت آ گیا؟ �
 description: "مصنوعی ذہانت پر نظر رکھنے کا وقت آ گیا؟ جانیں عالمی ماہرین کا مؤقف  مصنوعی ذہانت یعنی اے آئی کا شعبہ روز بروز ترقی کر رہا ہے، اور اب یہ صرف تجربہ گاہوں یا بڑی ٹ"
 date: 2026-01-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-it-time-to-monitor-artificial-intelligence-know-the-position-of-global-experts.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

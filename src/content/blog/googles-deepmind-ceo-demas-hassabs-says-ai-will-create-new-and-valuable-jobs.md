@@ -3,6 +3,7 @@ title: "گوگل کے ڈیپ مائنڈ سی ای او دیمس ہسابس کا 
 description: "گوگل کے ڈیپ مائنڈ سی ای او دیمس ہسابس کا کہنا ہے: اے آئی نئے اور قیمتی روزگار پیدا کرے گی دنیا تیزی سے بدل رہی ہے اور اب یہ تبدیلی محض سائنسی تصور نہیں بلکہ روز"
 date: 2025-06-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-deepmind-ceo-demas-hassabs-says-ai-will-create-new-and-valuable-jobs.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

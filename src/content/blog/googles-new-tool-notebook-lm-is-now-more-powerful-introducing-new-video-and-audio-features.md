@@ -3,6 +3,7 @@ title: "گوگل کا نیا ٹول نوٹ بک ایل ایم اب مزید طا
 description: "گوگل کا نیا ٹول نوٹ بک ایل ایم اب مزید طاقتور، ویڈیو اور آڈیو کے نئے فیچرز متعارف  گوگل نے اپنے اے آئی ریسرچ اسسٹنٹ نوٹ بک ایل ایم میں کئی نئی اور دلچسپ اپڈیٹس"
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-tool-notebook-lm-is-now-more-powerful-introducing-new-video-and-audio-features.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

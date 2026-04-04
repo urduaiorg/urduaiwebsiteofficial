@@ -3,6 +3,7 @@ title: "اسٹارگیٹ: ایک اے آئی منصوبہ جو پاکستان ک
 description: "دنیا کا سب سے بڑا اے آئی منصوبہ: اسٹارگیٹ کیا ہے؟  اس وقت دنیا جس سب سے بڑے اور حیران کن ٹیکنالوجی انقلاب کی جانب گامزن ہے۔ وہ محض ایک ایپ یا سافٹ ویئر نہیں بلک"
 date: 2025-07-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/stargate-an-ai-project-bigger-than-pakistans-electricity-and-budget.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

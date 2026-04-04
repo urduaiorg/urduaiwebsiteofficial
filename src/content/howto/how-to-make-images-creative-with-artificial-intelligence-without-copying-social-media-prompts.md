@@ -3,9 +3,11 @@ title: "سوشل میڈیا پرامپٹس کاپی کیے بغیر مصنوعی
 description: "سوشل میڈیا پرامپٹس کاپی کیے بغیر مصنوعی ذہانت سے تصاویر کیسے تخلیق کریں ؟  اکثر لوگ سوشل میڈیا پرامپٹس کاپی کر کے تصاویر بناتے ہیں مگر نتیجہ عام سا لگتا ہے۔ مسئ"
 date: 2025-09-18
 category: "ہاؤ ٹو"
+tool: "AI Image Generator"
 last_verified: 2025-09-18
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

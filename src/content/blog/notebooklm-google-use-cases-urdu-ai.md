@@ -3,6 +3,7 @@ title: "گوگل نوٹ بُک ایل ایم سے کیسے فائدا لے سک�
 description: "گوگل نوٹ بُک ایل ایم سے کیسے فائدا لے سکتے ہیں۔ گوگل کی جانب سے حال ہی میں متعارف کرایا جانے والا 'نوٹ بُک ایل ایم' اب دنیا کی پچاس زبانوں میں دستیاب ہے جن میں"
 date: 2025-05-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/notebooklm-google-use-cases-urdu-ai.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

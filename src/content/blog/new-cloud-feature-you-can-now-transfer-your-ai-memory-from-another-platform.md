@@ -3,6 +3,7 @@ title: "کلاوڈ کا نیا فیچر: اب آپ اپنی اے آئی میمو
 description: "کلاوڈ کا نیا فیچر: اب آپ اپنی اے آئی میموری دوسرے پلیٹ فارم سے منتقل کر سکتے ہیں  آج کل مصنوعی ذہانت یا اے آئی ہماری روزمرہ زندگی میں تیزی سے جگہ بنا رہی ہے۔ لو"
 date: 2026-03-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-cloud-feature-you-can-now-transfer-your-ai-memory-from-another-platform.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

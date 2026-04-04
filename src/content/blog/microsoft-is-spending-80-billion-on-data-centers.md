@@ -3,6 +3,7 @@ title: "مائیکروسافٹ کا بڑا قدم:  ٢٠٢٥  میں ڈیٹا س
 description: "مائیکروسافٹ کا بڑا قدم: 2025 میں ڈیٹا سینٹرز پر 80 بلین ڈالر کی سرمایہ کاری دوستوں،  مائیکروسافٹ نے  اے آئی   کے مستقبل کے لیے بڑا اعلان کیا ہے!جی ہاں، مائیکرو"
 date: 2025-01-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-is-spending-80-billion-on-data-centers.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

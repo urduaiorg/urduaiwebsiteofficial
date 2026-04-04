@@ -3,6 +3,7 @@ title: "کلاؤڈ اوپس 3 کا باضابطہ اختتام: کیا اے آ
 description: "کلاؤڈ اوپس 3 کا باضابطہ اختتام: کیا اے آئی ماڈلز کے لیے بھی باقاعدہ ریٹائرمنٹ پالیسی بنائی جا رہی ہے؟ مصنوعی ذہانت کی دنیا میں تبدیلی اب معمول بن چکی ہے۔ ہر چن"
 date: 2026-03-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-a-formal-retirement-policy-also-being-created-for-ai-models.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

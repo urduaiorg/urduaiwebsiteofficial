@@ -3,6 +3,7 @@ title: "کیا آپ اپنے سافٹ ویئر کی حفاظت مصنوعی ذہ
 description: "کیا آپ اپنے سافٹ ویئر کی حفاظت مصنوعی ذہانت پر چھوڑ سکتے ہیں؟  سافٹ ویئر سیکیورٹی آج کے ڈیجیٹل دور میں سب سے اہم شعبوں میں سے ایک بن چکا ہے۔ یہ صرف ایک تکنیکی م"
 date: 2025-11-16
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-you-leave-the-security-of-your-software-to-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "گوگل سرچ کا نیا فیچر:اے آئی کے ساتھ سوال�
 description: "گوگل سرچ کا نیا فیچر:اے آئی کے ساتھ سوالات کے جواب اب پہلے سے زیادہ آسان  گوگل نے بھارت میں ایک نیا تجرباتی فیچر اے آئی موڈ  متعارف کروایا ہے۔ جو پیچیدہ سوالات"
 date: 2025-07-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/new-google-search-feature-answering-questions-with-ai-is-now-easier-than-ever.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

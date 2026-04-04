@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس ٣"
 description: "اردو اے آئی ماسٹر کلاس ٣    السلام علیکم دوستو! یہ  اردو  اے آئی  ماسٹر کلاس٣ سیریز کی تیسری ویڈیو ہے۔ اس سے پہلے کی دو ویڈیوز میں ہم نے بنیادی طور پر یہ سمجھنے"
 date: 2025-03-02
 category: "گائیڈ"
+tool: "Artificial Intelligence"
 level: "ابتدائی"
+image: "/images/guides/urdu-ai-master-class-3.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

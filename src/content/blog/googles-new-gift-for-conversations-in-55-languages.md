@@ -3,6 +3,7 @@ title: "55 زبانوں میں بات چیت کے لیے گوگل کا نیا ت
 description: "55 زبانوں میں بات چیت کے لیے گوگل کا نیا تحفہ  گوگل نے ایک نیا ترجمے کا سافٹ ویئر متعارف کرایا ہے جو 55 مختلف زبانوں میں بات چیت کو آسان بنائے گا۔ اس نئے سافٹ و"
 date: 2026-01-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-new-gift-for-conversations-in-55-languages.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

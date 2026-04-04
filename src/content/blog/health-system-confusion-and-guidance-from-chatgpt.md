@@ -3,6 +3,7 @@ title: "نظام صحت کی الجھنیں اور چیٹ جی پی ٹی کی ر
 description: "نظام صحت کی الجھنیں اور چیٹ جی پی ٹی کی رہنمائی  یہ مضمون اوپن اے آئی کی جانب سے جنوری 2026 میں شائع ہونے والی رپورٹ 'AI as a Healthcare Ally' پر مبنی ہے، جس می"
 date: 2026-01-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/health-system-confusion-and-guidance-from-chatgpt.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

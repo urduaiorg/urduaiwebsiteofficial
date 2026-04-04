@@ -3,6 +3,7 @@ title: "اوپن اے آئی فرنٹیئر کیا ہے اور یہ کمپنیو
 description: "اوپن اے آئی فرنٹیئر کیا ہے اور یہ کمپنیوں کے کام کو کیسے آسان بنا رہا ہے؟ مصنوعی ذہانت پچھلے چند برسوں میں تیزی سے ترقی کر رہی ہے، لیکن زیادہ تر لوگوں کے لیے یہ"
 date: 2026-02-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-the-open-ai-frontier-and-how-is-it-making-things-easier-for-companies.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

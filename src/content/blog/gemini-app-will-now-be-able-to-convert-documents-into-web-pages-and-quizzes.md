@@ -3,6 +3,7 @@ title: "جیمنائی ایپ کا نیا فیچر اب دستاویزات کو 
 description: "جیمنائی ایپ کا نیا فیچراب دستاویزات کو ویب پیج اور کوئز میں بدل سکے گی گوگل کی جیمنائی ایپ، جو آج کل کے بہترین اے آئی ٹولز میں سے ایک ہے، میں ایک اور نیا فیچر ش"
 date: 2025-08-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-app-will-now-be-able-to-convert-documents-into-web-pages-and-quizzes.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

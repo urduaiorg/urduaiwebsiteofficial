@@ -3,6 +3,7 @@ title: "گوگل کا جیمنی ڈیپ ریسرچ ٹول: اب عالمی سط�
 description: "گوگل کا جیمنی ڈیپ ریسرچ ٹول: اب عالمی سطح پر دستیاب  گوگل نے اپنے جدید جیمنی ڈیپ ریسرچ ٹول کو دنیا بھر میں لانچ کر دیا ہے۔ کچھ دن قبل اس کے اعلان کے بعد، یہ فیچ"
 date: 2025-01-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-gemini-deep-research-tool-is-available-globally.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

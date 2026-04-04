@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کلاس روم میں، اساتذہ کو کن 
 description: "عالمی تحقیقی رپورٹ  'Stop Throwing AI Tools at Teachers '   حصہ دوم: یہ بلاگ ایک عالمی تحقیقی رپورٹ کے تجزیے پر مبنی تین حصوں پر مشتمل سیریز کا دوسرا حصہ ہے،اس"
 date: 2026-01-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/in-the-artificial-intelligence-classroom-what-difficulties-do-teachers-face.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "چین اور پاکستان کا مصنوعی ذہانت سے چلنے 
 description: "چین اور پاکستان کا مصنوعی ذہانت سے چلنے والی زرعی ایپ کی ترقی  فیصل آباد: یہ کوئی کہانی نہیں، بلکہ حقیقت ہے! پنجاب کے کھیتوں میں ایک نئی زرعی انقلاب کی ابتدا ہو"
 date: 2025-03-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/china-pakistan-develop-ai-powered-agricultural-app.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

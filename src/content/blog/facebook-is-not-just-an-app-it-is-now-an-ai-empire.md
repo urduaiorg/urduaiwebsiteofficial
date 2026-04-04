@@ -3,6 +3,7 @@ title: "فیس بک اب محض ایک سوشل ایپ نہیں رہا بلکہ 
 description: "فیس بک اب محض ایک سوشل ایپ نہیں رہا بلکہ مصنوعی ذہانت کا پلیٹ فارم بن چکا ہے۔ فیس بک اب رابطے نہیں، الگورتھم کی دنیا ہے مارک زکربرگ نے ایک عدالتی سماعت میں حیرا"
 date: 2025-05-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/facebook-is-not-just-an-app-it-is-now-an-ai-empire.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

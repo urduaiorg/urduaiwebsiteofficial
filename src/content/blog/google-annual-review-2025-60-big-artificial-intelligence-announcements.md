@@ -3,6 +3,7 @@ title: "گوگل کا سالانہ جائزہ 2025: مصنوعی ذہانت کے
 description: "گوگل کا سالانہ جائزہ 2025: مصنوعی ذہانت کے 60 بڑے اعلانات  سال 2025 کے اختتام پر جب گوگل نے اپنی ویب سائٹ پر سالانہ کارکردگی کا جائزہ شائع کیا، تو یہ محض اعداد"
 date: 2026-01-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-annual-review-2025-60-big-artificial-intelligence-announcements.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

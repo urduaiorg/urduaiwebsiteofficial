@@ -3,6 +3,7 @@ title: "ایپل انٹیلیجنس 2.0 کیا آنے والے مہینوں می
 description: "ایپل انٹیلیجنس 2.0: کیا آنے والے مہینوں میں آپ کا آئی فون بدلنے والا ہے؟           اب آپ اے آئیسے بھاگ تو سکتے ہیں، لیکن بچ نہیں سکتےیہ الفاظ آج ہر اس شخص کے لی"
 date: 2025-05-22
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/apple-intelligence-2-0-is-your-iphone-going-to-change-in-the-coming-months.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

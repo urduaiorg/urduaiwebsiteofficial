@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی نیا اسکرین شیئرنگ فنکشن"
 description: "چیٹ جی پی ٹی نیا اسکرین شیئرنگ فنکشن  ہیلو دوستوں! میں ہوں اردو اے آئی سے قیصر، اور آج ہم بات کریں گے۔ ایک ایسی زبردست خاصیت کی جو چیٹ جی پی ٹی میں شامل کی گئی"
 date: 2025-04-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chat-gpt-new-screen-sharing-function.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

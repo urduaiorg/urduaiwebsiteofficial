@@ -3,6 +3,7 @@ title: "گوگل اور میساچوسٹس اے آئی ہب کا نیا اقدا
 description: "گوگل اور میساچوسٹس اے آئی ہب کا نیا اقدام، ریاست بھر میں مفت اے آئی تربیت کا آغاز دنیا بھر میں مصنوعی ذہانت اب محض ایک تکنیکی اصطلاح نہیں رہی بلکہ روزگار، تعلیم"
 date: 2026-03-06
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-and-massachusetts-ai-hub-launch-new-initiative-free-ai-training-across-the-state.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

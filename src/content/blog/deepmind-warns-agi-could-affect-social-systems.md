@@ -3,6 +3,7 @@ title: "ڈیپ مائنڈ نےخبردار کیا اے جی آئی سے سماج
 description: "ڈیپ مائنڈ نے خبردار کیا اے جی آئی سے سماجی نظام متاثر ہو سکتا ہے سننے میں یہ عجیب لگے گا، لیکن یہ الفاظ دنیا کی سب سے بڑی ٹیکنالوجی کمپنیوں میں سے ایک، گوگل ڈیپ"
 date: 2025-05-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/deepmind-warns-agi-could-affect-social-systems.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

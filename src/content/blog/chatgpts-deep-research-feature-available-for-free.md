@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کا ڈیپ ریسرچ فیچراب فری میں 
 description: "چیٹ جی پی ٹی کا ڈیپ ریسرچ فیچراب فری میں دستیاب ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج کی خبر آپ کو چونکا دے گی! جی ہاں، چیٹ جی پی ٹی کا زبردست ف"
 date: 2025-04-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpts-deep-research-feature-available-for-free.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

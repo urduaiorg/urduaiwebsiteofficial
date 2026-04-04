@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا اسٹڈی موڈ"
 description: "چیٹ جی پی ٹی کا نیا اسٹڈی موڈ  آج کل ہر جگہ یہ بحث ہو رہی ہے کہ اے آئی لوگوں اور خاص طور پر طلباء کے پڑھنے کے طریقے کو بدل رہا ہے۔ لوگ سیکھنے کے بجائے شارٹ کٹ ا"
 date: 2025-08-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-study-mode-explained.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

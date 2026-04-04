@@ -3,6 +3,7 @@ title: "اے آئی کا تعلیم میں نیا کردار: اوپن اے آئ
 description: "اے آئی کا تعلیم میں نیا کردار: اوپن اے آئی اور انسٹرکچر کا اہم اشتراک  2023 میں جب چیٹ جی پی ٹی نے دنیا بھر میں دھوم مچائی تو اکثر طلبہ نے اسے ہوم ورک میں نقل ک"
 date: 2025-08-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ais-new-role-in-education-openai-and-instructables-important-collaboration.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

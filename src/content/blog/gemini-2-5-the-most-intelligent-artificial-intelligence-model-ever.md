@@ -3,6 +3,7 @@ title: "جیمنی 2.5، اب تک کا سب سے ذہین مصنوعی ذہان
 description: "جیمنی 2.5، اب تک کا سب سے ذہین مصنوعی ذہانت ماڈل  گوگل نے ایک بار پھر سب کو حیران کر دیا ہے۔ جی ہاں، گوگل نے اپنا نیا مصنوعی ذہانت ماڈل 'جیمنی 2.5' متعارف کروا"
 date: 2025-03-27
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

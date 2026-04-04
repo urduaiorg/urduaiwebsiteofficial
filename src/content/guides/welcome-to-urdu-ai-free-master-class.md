@@ -3,7 +3,9 @@ title: "اردو اے آئی فری ماسٹر کلاس میں خوش آمدید
 description: "اردو اے آئی فری ماسٹر کلاس میں خوش آمدید!   السلام علیکم دوستوں! میرا نام قیصر رونجہ ہے اور میں اردو اے آئی کی طرف سے آپ کو خوش آمدید کہتا ہوں۔ اگر یہ ویڈیو آپ"
 date: 2025-02-13
 category: "گائیڈ"
+tool: "Artificial Intelligence"
 level: "ابتدائی"
+image: "/images/guides/welcome-to-urdu-ai-free-master-class.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

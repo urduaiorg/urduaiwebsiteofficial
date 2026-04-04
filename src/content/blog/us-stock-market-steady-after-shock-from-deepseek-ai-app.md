@@ -3,6 +3,7 @@ title: "امریکی اسٹاک مارکیٹ ڈیپ سیک اے آئی ایپ ک
 description: "امریکی اسٹاک مارکیٹ ڈیپ سیک اے آئی ایپ کے جھٹکے کے بعد مستحکم  امریکی ٹیکنالوجی اسٹاک مارکیٹ منگل کے روز مستحکم رہیں، جب کہ پیر کے روز انہیں ایک بڑا دھچکا لگا ت"
 date: 2025-01-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/us-stock-market-steady-after-shock-from-deepseek-ai-app.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

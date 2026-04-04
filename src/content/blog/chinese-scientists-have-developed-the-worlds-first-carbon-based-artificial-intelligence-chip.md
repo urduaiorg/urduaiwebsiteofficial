@@ -3,6 +3,7 @@ title: "چینی سائنسدانوں نے دنیا کا پہلا کاربن پ�
 description: "چینی سائنسدانوں نے دنیا کا پہلا کاربن پر مبنی مصنوعی ذہانت چپ تیار کر لیا  جدید ٹیکنالوجی میں ایک بڑی پیش رفت کے طور پر، چینی سائنسدانوں نے دنیا کا پہلا کاربن پ"
 date: 2025-03-19
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chinese-scientists-have-developed-the-worlds-first-carbon-based-artificial-intelligence-chip.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

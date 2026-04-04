@@ -3,6 +3,7 @@ title: "کوڈیکس ایپ کیا ہے اور یہ سافٹ ویئر بنانے
 description: "کوڈیکس ایپ کیا ہے اور یہ سافٹ ویئر بنانے کا طریقہ کیسے بدل رہی ہے؟  اوپن اے آئی نے سافٹ ویئر ڈویلپمنٹ کی دنیا میں ایک اور اہم قدم اٹھاتے ہوئے macOS کے لیے کوڈیک"
 date: 2026-02-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/what-is-the-codex-app-and-how-is-it-changing-the-way-software-is-created.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

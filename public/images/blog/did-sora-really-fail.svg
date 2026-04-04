@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg6" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#1d559f"/>
+      <stop offset="100%" stop-color="#0d2850"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg6)"/>
+  <rect x="0" y="410" width="800" height="4" fill="#f1cc11"/>
+  <!-- Video play / film icon -->
+  <g transform="translate(310, 100)">
+    <!-- Film frame -->
+    <rect x="0" y="0" width="180" height="120" rx="8" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+    <!-- Film perforations -->
+    <g fill="#ffffff" opacity="0.15">
+      <rect x="-15" y="10" width="10" height="14" rx="2"/>
+      <rect x="-15" y="35" width="10" height="14" rx="2"/>
+      <rect x="-15" y="60" width="10" height="14" rx="2"/>
+      <rect x="-15" y="85" width="10" height="14" rx="2"/>
+      <rect x="185" y="10" width="10" height="14" rx="2"/>
+      <rect x="185" y="35" width="10" height="14" rx="2"/>
+      <rect x="185" y="60" width="10" height="14" rx="2"/>
+      <rect x="185" y="85" width="10" height="14" rx="2"/>
+    </g>
+    <!-- Play button -->
+    <circle cx="90" cy="60" r="28" fill="#f1cc11" opacity="0.2" stroke="#f1cc11" stroke-width="2"/>
+    <path d="M80 45 L108 60 L80 75z" fill="#f1cc11" opacity="0.7"/>
+    <!-- Glitch/break lines -->
+    <g stroke="#f1cc11" stroke-width="1" opacity="0.3">
+      <path d="M30 140 L50 140 L55 150 L65 130 L75 150 L85 140 L150 140"/>
+    </g>
+    <!-- Question mark -->
+    <text x="90" y="200" font-family="Inter, sans-serif" font-size="40" font-weight="800" fill="#f1cc11" text-anchor="middle" opacity="0.25">?</text>
+  </g>
+  <!-- Abstract wave -->
+  <path d="M0 350 Q200 310 400 350 Q600 390 800 350" fill="none" stroke="#f1cc11" stroke-width="1" opacity="0.1"/>
+  <path d="M0 370 Q200 330 400 370 Q600 410 800 370" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.05"/>
+  <!-- Category badge -->
+  <rect x="520" y="40" rx="4" width="240" height="36" fill="#f1cc11" opacity="0.15"/>
+  <text x="640" y="65" font-family="'Noto Nastaliq Urdu', serif" font-size="18" fill="#f1cc11" text-anchor="middle" direction="rtl">اے آئی اپڈیٹ</text>
+  <!-- Brand -->
+  <text x="60" y="420" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#ffffff" opacity="0.5">Urdu</text>
+  <text x="104" y="420" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#f1cc11" opacity="0.5">Ai</text>
+</svg>

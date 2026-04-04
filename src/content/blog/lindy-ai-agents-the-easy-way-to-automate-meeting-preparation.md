@@ -3,6 +3,7 @@ title: "لِنڈی اے آئی ایجنٹس: میٹنگ کی تیاری کو خ�
 description: "لِنڈی اے آئی ایجنٹس: میٹنگ کی تیاری کو خودکار بنانے کا آسان طریقہ   آج کے تیز رفتار دور میں، ہر پروفیشنل کے لیے وقت کی بچت بہت ضروری ہے۔ خاص طور پر جب بات میٹنگ"
 date: 2025-08-15
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/lindy-ai-agents-the-easy-way-to-automate-meeting-preparation.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

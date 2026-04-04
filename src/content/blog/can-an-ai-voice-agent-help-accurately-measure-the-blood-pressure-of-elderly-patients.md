@@ -3,6 +3,7 @@ title: "کیا اے آئی وائس ایجنٹ بزرگ مریضوں کے بلڈ
 description: "کیا اے آئی وائس ایجنٹ بزرگ مریضوں کے بلڈ پریشر کی درست پیمائش میں مددگار ثابت ہو سکتا ہے؟  کیا آپ نے کبھی سوچا ہے کہ گھروں میں بلڈ پریشر کی پیمائش کرتے وقت کتنے"
 date: 2025-09-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-an-ai-voice-agent-help-accurately-measure-the-blood-pressure-of-elderly-patients.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

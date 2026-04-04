@@ -3,6 +3,7 @@ title: "اے آئی اور بچے: تعلیم، تربیت، اور روشن ک�
 description: "اے آئی اور بچے: تعلیم، تربیت، اور روشن کل    دوستو، آج کی تیز رفتار دنیا میں مصنوعی ذہانت (AI) ہمارے مستقبل کی تشکیل کر رہی ہے۔ اگر آپ والدین ہیں اور اپنے بچوں"
 date: 2024-12-08
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-and-children-education-training-and-a-bright-future.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

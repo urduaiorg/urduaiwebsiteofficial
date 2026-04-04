@@ -3,6 +3,7 @@ title: "کیا این ویڈیا اور تھنکنگ مشینز کی شراکت 
 description: "کیا این ویڈیا اور تھنکنگ مشینز کی شراکت داری اے آئی کو انسان کے مطابق بنا دے گی؟  آج کل جب بھی مصنوعی ذہانت یعنی اے آئی کا ذکر ہوتا ہے تو ایک عجیب سا ملا جلا اح"
 date: 2026-03-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/will-the-partnership-between-nvidia-and-thinking-machines-make-ai-more-human-like.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

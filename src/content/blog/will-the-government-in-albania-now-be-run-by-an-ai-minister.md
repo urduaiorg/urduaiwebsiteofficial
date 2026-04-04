@@ -4,6 +4,7 @@ description: "کیا البانیہ میں حکومت اب اے آئی وزیر 
 date: 2025-09-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
+image: "/images/blog/will-the-government-in-albania-now-be-run-by-an-ai-minister.jpg"
 adsense: true
 draft: false
 ---

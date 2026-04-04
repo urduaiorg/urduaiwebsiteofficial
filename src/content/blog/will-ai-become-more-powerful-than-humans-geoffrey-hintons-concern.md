@@ -3,6 +3,7 @@ title: "کیا اے آئی انسانوں سے زیادہ طاقتور ہو جا
 description: "کیا اے آئی انسانوں سے زیادہ طاقتور ہو جائے گی؟ جیوفری ہنٹن کی فکرمندی مصنوعی ذہانت (AI) کے میدان میں اہم کردار ادا کرنے والے سائنسدان جیوفری ہنٹن نے کہا ہے کہ"
 date: 2025-05-03
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/will-ai-become-more-powerful-than-humans-geoffrey-hintons-concern.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

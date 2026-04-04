@@ -3,6 +3,7 @@ title: "بھارت میں اے آئی اور کلاؤڈ انفراسٹرکچر �
 description: "بھارت میں اے آئی    اور کلاؤڈ انفراسٹرکچر کے لیے مائیکروسافٹ کی 3 بلین ڈالر کی سرمایہ کاری بھارت مصنوعی ذہانت ( اے آئی) کے میدان میں عالمی توجہ حاصل کرنے والے"
 date: 2025-01-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-invests-3-billion-in-ai-and-cloud-infrastructure-in-india.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "جیمنائی لائیو: اینڈرائیڈ اور آئی او ایس 
 description: "جیمنائی لائیو: اینڈرائیڈ اور آئی او ایس پر کیپشنز کا نیا فیچر متعارف   گوگل نے اپنی مصنوعی ذہانت اسسٹنٹ 'جیمنائی لائیو' کے لیے اینڈرائیڈ اور آئی او ایس پر کیپشن"
 date: 2025-07-14
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-live-new-captions-feature-introduced-on-android-and-ios.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

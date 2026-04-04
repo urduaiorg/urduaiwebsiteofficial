@@ -3,6 +3,7 @@ title: "کیا مصنوعی ذہانت آپ کی شخصیت کو صرف دو گ�
 description: "کیا مصنوعی ذہانت آپ کی شخصیت کو صرف دو گھنٹوں میں جان سکتی ہے؟  ہیلو دوستو! کیا آپ نے کبھی سوچا ہے کہ مصنوعی ذہانت آپ کی شخصیت کی ایک درست عکاسی کر سکتی ہے؟ اور"
 date: 2025-02-07
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/can-artificial-intelligence-learn-your-personality-in-just-two-hours.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

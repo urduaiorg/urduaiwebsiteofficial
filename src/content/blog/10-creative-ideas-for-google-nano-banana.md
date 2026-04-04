@@ -3,6 +3,7 @@ title: "گوگل نینو بنانا ماڈل: 10 تخلیقی اور منفرد
 description: "گوگل نینو بنانا ماڈل: 10 تخلیقی اور منفرد استعمالات  گوگل کا نینو بنانا ماڈل منظرِ عام پر آتے ہی سوشل میڈیا اور انٹرنیٹ کی دنیا میں ایک انقلاب لے آیا۔ ہر جانب ل"
 date: 2025-12-29
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/10-creative-ideas-for-google-nano-banana.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

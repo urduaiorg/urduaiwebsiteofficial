@@ -3,6 +3,7 @@ title: "ایجنٹک اے آئی منصوبے ناکامی کی دہلیز پر�
 description: "ایجنٹک اے آئی منصوبے ناکامی کی دہلیز پر؟ گارٹنر کی تشویشناک پیشگوئی مصنوعی ذہانت کی دنیا میں جہاں ترقی کا سفر برق رفتاری سے جاری ہے۔ وہیں کچھ تشویشناک پیشگوئیاں"
 date: 2025-07-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/agentic-ai-projects-on-the-verge-of-failure-gartners-alarming-prediction.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

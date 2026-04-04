@@ -3,6 +3,7 @@ title: "کیا مصنوعی ذہانت اب انٹرنیٹ کو زیادہ مح�
 description: "کیا مصنوعی ذہانت اب انٹرنیٹ کو زیادہ محفوظ بنا رہا ہے؟ اگر آپ انٹرنیٹ براؤزر استعمال کرتے ہیں تو شاید آپ نے کبھی یہ نہیں سوچا ہوگا کہ اس کے اندر کتنی پیچیدہ سکی"
 date: 2026-03-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-artificial-intelligence-now-making-the-internet-more-secure.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

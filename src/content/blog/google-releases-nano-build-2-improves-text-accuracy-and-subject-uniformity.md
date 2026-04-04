@@ -3,6 +3,7 @@ title: "گوگل نے نینو بنانا 2 جاری کر دیا، متن کی �
 description: "گوگل نے نینو بنانا 2 جاری کر دیا، متن کی درستگی اور سبجیکٹ یکسانیت میں بہتری اگر آپ نے کبھی اے آئی سے تصویر بنوانے کی کوشش کی ہو تو شاید آپ نے یہ محسوس کیا ہو ک"
 date: 2026-03-04
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-releases-nano-build-2-improves-text-accuracy-and-subject-uniformity.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

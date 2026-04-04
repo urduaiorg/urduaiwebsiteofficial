@@ -3,6 +3,7 @@ title: "Veo 3.1 تصاویر کو ویڈیو میں بدلنے والی ٹیکن
 description: "Veo 3.1 تصاویر کو ویڈیو میں بدلنے والی ٹیکنالوجی میں بہتری  گوگل ڈیپ مائنڈ نے اپنی مصنوعی ذہانت پر مبنی ویڈیو بنانے والی ٹیکنالوجی میں نمایاں بہتری کا اعلان کیا"
 date: 2026-01-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/veo-3-1-improves-image-to-video-technology.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

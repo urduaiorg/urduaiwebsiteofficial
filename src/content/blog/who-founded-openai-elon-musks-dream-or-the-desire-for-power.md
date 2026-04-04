@@ -3,6 +3,7 @@ title: "ایلون مسک اور اوپن اے آئی: دو راستے، ایک 
 description: "ایلون مسک اور اوپن اے آئی: دو راستے، ایک سوال  السلام علیکم پیارے دوستو! امید ہے سب خیریت سے ہوں گے۔ تو چلیں آج بات کرتے ہیں ایک ایسی ٹیکنالوجی کی، جس نے دنیا ک"
 date: 2025-04-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/who-founded-openai-elon-musks-dream-or-the-desire-for-power.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

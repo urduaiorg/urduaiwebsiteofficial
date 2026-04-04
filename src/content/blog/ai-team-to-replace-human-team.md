@@ -3,6 +3,7 @@ title: "انسانی ٹیم کی جگہ اے آئی ٹیم؟؟"
 description: "انسانی ٹیم کی جگہ اے آئی ٹیم؟؟  دنیا تیزی سے بدل رہی ہے، اور ٹیکنالوجی اب ہماری زندگیوں کا ایک اہم حصہ بن چکی ہے۔ جہاں پہلے صرف ماہرین اور بڑی کمپنیاں ہی جدید ٹ"
 date: 2026-01-25
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-team-to-replace-human-team.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

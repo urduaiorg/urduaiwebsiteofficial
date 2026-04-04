@@ -3,6 +3,7 @@ title: "کیا اے آئی آپ کی نوکری لے جائے گا؟ اقوام 
 description: "کیا اے آئی آپ کی نوکری لے جائے گا؟ اقوام متحدہ نے خبردار کر دیا! اسلام وعلیکم دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج جو خبر میں آپ کے ساتھ شیئر کرنے و"
 date: 2025-04-10
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/will-ai-take-your-job-the-united-nations-has-warned.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

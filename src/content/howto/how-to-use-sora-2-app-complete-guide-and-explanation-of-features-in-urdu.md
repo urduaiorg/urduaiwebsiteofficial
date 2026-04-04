@@ -3,9 +3,11 @@ title: "Sora 2 ایپ کیسے استعمال کریں؟ اُردو میں مک�
 description: "Sora 2 ایپ کیسے استعمال کریں؟ اُردو میں مکمل رہنمائی اور فیچرز کی وضاحت  دنیا میں مصنوعی ذہانت کی رفتار حیران کن حد تک بڑھ چکی ہے اور اوپن اے آئی کا نیا ویڈیو ٹ"
 date: 2025-10-03
 category: "ہاؤ ٹو"
+tool: "Sora"
 last_verified: 2025-10-03
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

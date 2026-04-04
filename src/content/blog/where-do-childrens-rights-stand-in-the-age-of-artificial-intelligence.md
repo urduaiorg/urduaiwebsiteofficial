@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت کے دور میں بچوں کے حقوق کہا
 description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی ذہانت اور بچے  حصہ دوم: یہ مضمون مصنوعی ذہانت اور بچوں سے متعلق یونیسف کی عالمی رپورٹ کے تجزیے پر مبنی سیریز کا  حصہ دوم ہے"
 date: 2026-01-02
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/where-do-childrens-rights-stand-in-the-age-of-artificial-intelligence.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

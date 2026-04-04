@@ -3,6 +3,7 @@ title: "چَیٹ جی پی ٹی کو واٹس ایپ میں استعمال کر�
 description: "چَیٹ جی پی ٹی کو واٹس ایپ میں استعمال کریں کیا آپ نے کبھی سوچا ہے کہ آپ اپنے واٹس ایپ پر چیٹ جی پی ٹی سے اردو میں بات کر سکتے ہیں؟ جی ہاں، آپ نے بالکل صحیح سنا"
 date: 2025-01-05
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-ko-whatsapp-main-istemal-karain.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

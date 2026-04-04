@@ -3,6 +3,7 @@ title: "گوگل کلاس روم میں جیمِنائی: آڈیو اسباق ک
 description: "گوگل کلاس روم میں جیمِنائی: آڈیو اسباق کس طرح طلبہ کو بہتر سکھا سکتے ہیں؟ تعلیم ہمیشہ سے صرف کتابیں پڑھانے کا نام نہیں رہی، بلکہ اصل مقصد یہ رہا ہے کہ علم کو اس"
 date: 2026-01-12
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/gemini-in-google-classroom-how-can-audio-lessons-teach-students-better.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,7 +3,9 @@ title: "اردو اے آئی ماسٹر کلاس 6 : مصنوعی ذہانت ک�
 description: "اردو اے آئی ماسٹر کلاس 6: مصنوعی ذہانت کے ذریعے تحریر کیسے شاندار بنائیں؟  کیا آپ بھی اے آئی کے ذریعے تحریر لکھنا چاہتے ہیں؟  السلام علیکم دوستو! میں ہوں قیصررو"
 date: 2025-03-13
 category: "گائیڈ"
+tool: "ChatGPT"
 level: "ابتدائی"
+image: "/images/guides/how-to-write-with-ai-urdu-ai-master-class-6.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

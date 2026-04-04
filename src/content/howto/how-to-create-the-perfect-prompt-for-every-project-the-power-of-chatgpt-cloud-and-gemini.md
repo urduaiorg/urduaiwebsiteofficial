@@ -3,9 +3,11 @@ title: "ہر منصوبہ کے لیے بہترین پرامپٹ کیسے بنا�
 description: "اے آئی کے دور میں بہترین پرامپٹ کیسے بنائیں: چیٹ جی پی ٹی، کلاڈ اور جیمنی کا کمال  آج کے دور میں جہاں مصنوعی ذہانت ہماری روزمرہ کی زندگی کا حصہ بن چکی ہے۔ وہاں"
 date: 2025-07-28
 category: "ہاؤ ٹو"
+tool: "ChatGPT"
 last_verified: 2025-07-28
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

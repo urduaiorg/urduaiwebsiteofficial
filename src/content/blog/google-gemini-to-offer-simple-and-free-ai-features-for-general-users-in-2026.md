@@ -3,6 +3,7 @@ title: "عام صارفین کے لیے گوگل جیمنی کی 2026 میں آ�
 description: "عام صارفین کے لیے گوگل جیمنی کی 2026 میں آسان اور مفت اے آئی سہولتیں  گوگل جیمنی کی نئی اپ ڈیٹس نے روزمرہ کے کئی عام کاموں کو نہایت آسان اور تیز تر بنا دیا ہے۔"
 date: 2026-01-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-gemini-to-offer-simple-and-free-ai-features-for-general-users-in-2026.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

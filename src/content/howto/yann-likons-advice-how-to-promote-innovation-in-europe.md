@@ -3,9 +3,11 @@ title: "یان لیکون کا مشورہ: یورپ میں جدت کو کیسے 
 description: "یان لیکون کا مشورہ: یورپ میں جدت کو کیسے فروغ دیا جائے  میٹا کے چیف اے آئی سائنسدان یان لیکون نے ورلڈ اکنامک فورم (WEF) میں یورپ پر زور دیا کہ وہ مصنوعی ذہانت ("
 date: 2025-02-04
 category: "ہاؤ ٹو"
+tool: "Artificial Intelligence"
 last_verified: 2025-02-04
 difficulty: "آسان"
 time_required: "5 منٹ"
+screenshots: false
 author: "قیصر رونجھا"
 adsense: true
 draft: false

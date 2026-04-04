@@ -3,6 +3,7 @@ title: "دیہی علاقوں میں علاج کی تلاش: جہاں اسپتا
 description: "دیہی علاقوں میں علاج کی تلاش: جہاں اسپتال نہیں وہاں چیٹ جی پی ٹی ہے  نوٹ: یہ مضمون اوپن اے آئی کی جانب سے شائع کردہ صحت اور مصنوعی ذہانت سے متعلق ایک تحقیقی رپو"
 date: 2026-01-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/seeking-treatment-in-rural-areas-where-there-is-no-hospital-there-is-chat-gpt.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

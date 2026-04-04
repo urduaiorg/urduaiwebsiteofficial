@@ -3,6 +3,7 @@ title: "گوگل کی مصنوعی ذہانت 'کو-سائنٹسٹ' نے 10 سا
 description: "گوگل کی مصنوعی ذہانت 'کو-سائنٹسٹ' نے 10 سالہ سپر بگ مسئلہ صرف 2 دن میں حل کر دیا  ہیلو دوستو! ذرا سوچیں، وہ مسئلہ جسے دنیا کے بہترین سائنسدان 10 سال میں حل نہ ک"
 date: 2025-03-21
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/googles-artificial-intelligence-co-scientist-solved-a-10-year-old-superbug-problem-in-just-2-days.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

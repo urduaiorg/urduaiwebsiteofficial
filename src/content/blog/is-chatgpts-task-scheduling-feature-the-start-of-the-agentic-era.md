@@ -3,6 +3,7 @@ title: "کیا چیٹ جی پی ٹی کی 'ٹاسک شیڈولنگ' فیچر ا�
 description: "کیا چیٹ جی پی ٹی کی 'ٹاسک شیڈولنگ' فیچر ایجنٹک دور کا آغاز ہے؟  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک ایسے موضوع پر گفتگو کریں گے جو مصن"
 date: 2025-01-24
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/is-chatgpts-task-scheduling-feature-the-start-of-the-agentic-era.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

@@ -3,6 +3,7 @@ title: "مائیکروسافٹ کا نیا اے آئی ٹول: گیم ڈویلپ
 description: "مائیکروسافٹ کا نیا  اے آئی ٹول: گیم ڈویلپمنٹ میں انقلاب!  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو مائیکروسافٹ کے ایک ایسے جدید اے آئی ٹو"
 date: 2025-03-13
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/microsoft-is-making-game-development-easier-with-a-new-ai-bot.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

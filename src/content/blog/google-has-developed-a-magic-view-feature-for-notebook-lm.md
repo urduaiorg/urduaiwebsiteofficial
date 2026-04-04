@@ -3,6 +3,7 @@ title: "گوگل نے نوٹ بک ایل ایم کے لیے میجک ویو فی
 description: "گوگل نے نوٹ بک ایل ایم کے لیے میجک ویو فیچر تیار کر لیا   گوگل اپنے اےآئی سے چلنے والے نوٹ لینے والے ٹول، نوٹ بک ایل ایم کو مسلسل بہتر بنا رہا ہے۔ حال ہی میں، ا"
 date: 2025-08-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-has-developed-a-magic-view-feature-for-notebook-lm.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

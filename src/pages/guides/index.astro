@@ -1,5 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
+import LegacyCommentsSection from '../../components/LegacyCommentsSection.astro';
+import legacyCommentsPayload from '../../data/legacy-comments.json';
 import { getCollection } from 'astro:content';
 
 export const prerender = true;
@@ -8,6 +10,11 @@ const all = await getCollection('guides', ({ data }) => !data.draft);
 const guides = all.sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
+const legacyCommentsData = legacyCommentsPayload as {
+  commentsByCollection: Record<string, Record<string, unknown[]>>;
+};
+const legacyGuideHubComments =
+  legacyCommentsData.commentsByCollection.pages?.['guides-index'] ?? [];
 ---
 
 <Base
@@ -45,5 +52,7 @@ const guides = all.sort(
         </article>
       ))}
     </div>
+
+    <LegacyCommentsSection comments={legacyGuideHubComments} />
   </div>
 </Base>

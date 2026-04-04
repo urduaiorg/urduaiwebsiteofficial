@@ -3,6 +3,7 @@ title: "کیا آپ جانتے ہیں لوگ چیٹ جی پی ٹی کا استع
 description: "کیا آپ جانتے ہیں لوگ چیٹ جی پی ٹی کا استعمال کیسے کرتے ہیں؟  مصنوعی ذہانت کے بڑھتے استعمال نے دنیا بھر کے کروڑوں افراد کی زندگی بدل دی ہے۔ اور اس کا سب سے نمایا"
 date: 2025-09-17
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/do-you-know-how-people-use-chatgpt.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

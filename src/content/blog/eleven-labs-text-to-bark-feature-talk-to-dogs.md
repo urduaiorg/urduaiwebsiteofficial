@@ -3,6 +3,7 @@ title: "الیون لیبز کا فیچر اور اردو اے آئی کی جی�
 description: "الیون لیبز کا فیچر اور اردو اے آئی کی جیت سچ یا سرپرائز؟           ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو ایک ایسی کہانی سنانے جا رہا"
 date: 2025-04-09
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/eleven-labs-text-to-bark-feature-talk-to-dogs.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

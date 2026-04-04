@@ -3,6 +3,7 @@ title: "مصنوعی ذہانت ہم سے سب کچھ بہتر کرے گی تو 
 description: "مصنوعی ذہانت ہم سے سب کچھ بہتر کرے گی تو پھر کون سی مہارتیں اہم رہیں گی؟  جب ہم مصنوعی ذہانت  کے اثرات پر غور کرتے ہیں تو یہ سوال کہ 'کون سی نوکریاں ختم ہو جائی"
 date: 2025-03-20
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/if-artificial-intelligence-will-do-everything-better-than-us-then-which-skills-will-remain-important.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

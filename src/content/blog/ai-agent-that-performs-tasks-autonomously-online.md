@@ -3,6 +3,7 @@ title: "اوپن اے آئی کے نئے خود مختار اے آئی ایجن�
 description: "اوپن اے آئی کے نئے خود مختار اے آئی ایجنٹ آپریٹرکا آغاز  ہیلو دوستوں! کیا آپ نے سنا ہے کہ اوپن اے آئی نے آپریٹرنامی ایک نیا اے آئی ایجنٹ آپریٹرلانچ کیا ہے؟ یہ ا"
 date: 2025-01-31
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/ai-agent-that-performs-tasks-autonomously-online.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

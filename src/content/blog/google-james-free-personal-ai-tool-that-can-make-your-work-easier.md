@@ -3,6 +3,7 @@ title: "گوگل جیمز: مفت پرسنل اے آئی ٹول جو آپ کے �
 description: "گوگل جیمز: مفت پرسنل اے آئی ٹول جو آپ کے کام کو آسان بنا سکتا ہے  اگر آپ ہر بار ایک ہی انداز کی تحریر یا ہدایات اے آئی کو دے کر تھک گئے ہیں تو گوگل کا نیا فیچر"
 date: 2025-09-26
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/google-james-free-personal-ai-tool-that-can-make-your-work-easier.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

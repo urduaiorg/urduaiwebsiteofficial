@@ -3,6 +3,7 @@ title: "اوپن اے آئی کا ایلون مسک پرمقدمہ کیا یہ �
 description: "اوپن اے آئی کا ایلون مسک پرمقدمہ کیا یہ طاقت کی جنگ ہے؟ ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کرنے والے ہیں ایک ایسی کہانی کی جو نہ صرف"
 date: 2025-04-11
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/openais-lawsuit-against-elon-musk-is-this-is-a-battle-of-power.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false

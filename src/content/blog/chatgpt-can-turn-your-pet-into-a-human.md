@@ -3,6 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا تخلیقی انداز: جب جانو
 description: "چیٹ جی پی ٹی کا نیا تخلیقی انداز: جب جانور انسان جیسے نظر آئیں مصنوعی ذہانت کی دنیا میں روزانہ نت نئی ایجادات سامنے آ رہی ہیں۔ لیکن چیٹ جی پی ٹی کا ایک حالیہ ر"
 date: 2025-04-23
 category: "اے آئی اپڈیٹ"
+image: "/images/blog/chatgpt-can-turn-your-pet-into-a-human.jpg"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
