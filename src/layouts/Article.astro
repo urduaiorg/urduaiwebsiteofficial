@@ -1,0 +1,228 @@
+---
+// Article.astro — urduai.org
+// Used by: blog/[slug].astro, guides/[slug].astro, prompts/[slug].astro
+
+import Base from './Base.astro';
+
+export interface Props {
+  title: string;
+  description: string;
+  date: string;
+  author?: string;
+  category?: string;
+  tags?: string[];
+  image?: string;
+  adsense?: boolean;
+  slug: string;
+  collection: string; // 'blog' | 'guides' | 'prompts'
+}
+
+const {
+  title,
+  description,
+  date,
+  author = 'قیصر رونجھا',
+  category,
+  tags = [],
+  image,
+  adsense = true,
+  slug,
+  collection,
+} = Astro.props;
+
+const canonical = `https://urduai.org/${collection}/${slug}/`;
+const ogImage = image ?? `/og/${slug}.jpg`;
+
+// Format date in Urdu-readable form
+const dateObj = new Date(date);
+const formattedDate = dateObj.toLocaleDateString('ur-PK', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Article schema
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": date,
+  "dateModified": date,
+  "author": {
+    "@type": "Person",
+    "name": author,
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "اردو اے آئی",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://urduai.org/images/logo.png",
+    },
+  },
+  "inLanguage": "ur",
+  "url": canonical,
+  ...(image ? { "image": `https://urduai.org${image}` } : {}),
+};
+
+// Breadcrumb schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ہوم",
+      "item": "https://urduai.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": category ?? collection,
+      "item": `https://urduai.org/${collection}/`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": title,
+      "item": canonical
+    }
+  ]
+};
+
+const combinedSchema = [articleSchema, breadcrumbSchema];
+---
+
+<Base
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={ogImage}
+  adsense={adsense}
+  schema={combinedSchema}
+>
+  <!-- Top banner ad -->
+  {adsense && (
+    <div class="container ad-slot" aria-hidden="true">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+        data-ad-slot="TOP_BANNER_SLOT"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+      </ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  )}
+
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li><a href={`/${collection}/`}>{category ?? collection}</a></li>
+        <li aria-current="page">{title}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="article-layout container">
+    <!-- Main article -->
+    <article class="article-layout__main">
+      <header>
+        {category && <span class="badge">{category}</span>}
+        <h1>{title}</h1>
+        <div class="article-meta">
+          <time datetime={date}>{formattedDate}</time>
+          {author && <span>{author}</span>}
+          {tags.map(tag => <span class="badge badge--teal">{tag}</span>)}
+        </div>
+
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            width="860"
+            height="480"
+            loading="eager"
+            style="border-radius:8px; margin-block-end: var(--space-md);"
+          />
+        )}
+      </header>
+
+      <!-- In-article ad (after intro paragraph — injected by slot position) -->
+      <div class="prose" id="article-body">
+        <slot name="intro" />
+
+        {adsense && (
+          <div class="ad-slot" aria-hidden="true">
+            <ins class="adsbygoogle"
+              style="display:block; text-align:center;"
+              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+              data-ad-slot="IN_ARTICLE_SLOT"
+              data-ad-format="fluid"
+              data-ad-layout="in-article">
+            </ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+        )}
+
+        <slot />
+      </div>
+
+      <!-- Bottom ad -->
+      {adsense && (
+        <div class="ad-slot" aria-hidden="true">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="BOTTOM_SLOT"
+            data-ad-format="auto"
+            data-full-width-responsive="true">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      )}
+
+      <!-- App CTA strip — shown after 70% scroll -->
+      <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
+        <p>يہ مضمون پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے مضامين پڑھيں</p>
+        <a href="/app/" class="btn-playstore">مفت ڈاؤن لوڈ کريں</a>
+      </div>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="article-layout__sidebar">
+      <!-- Sidebar sticky ad -->
+      {adsense && (
+        <div class="ad-slot ad-slot--sidebar" aria-hidden="true">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="SIDEBAR_SLOT"
+            data-ad-format="auto"
+            data-full-width-responsive="false">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      )}
+    </aside>
+  </div>
+</Base>
+
+<!-- App CTA scroll trigger -->
+<script>
+  const cta = document.getElementById('app-cta');
+  if (cta) {
+    const onScroll = () => {
+      const scrolled = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+      if (scrolled > 0.7) {
+        cta.classList.add('is-visible');
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

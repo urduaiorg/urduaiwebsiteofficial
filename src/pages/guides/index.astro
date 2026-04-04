@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const all = await getCollection('guides', ({ data }) => !data.draft);
+const guides = all.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<Base
+  title="گائیڈز — اردو اے آئی | اے آئی ٹولز کی اردو گائیڈز"
+  description="اردو اے آئی گائیڈز میں ChatGPT، Claude، Gemini اور دیگر اے آئی ٹولز کو پاکستانی نقطہ نظر سے سمجھیں۔"
+  canonical="https://urduai.org/guides/"
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">گائیڈز</li>
+      </ol>
+    </nav>
+
+    <h1>گائیڈز</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      اے آئی ٹولز کو پاکستان میں استعمال کرنے کی مکمل اردو گائیڈز
+    </p>
+
+    <div class="post-grid">
+      {guides.map(g => (
+        <article class="card">
+          {g.data.image && (
+            <img src={g.data.image} alt={g.data.title} width="400" height="225" loading="lazy"
+              style="border-radius:6px; margin-block-end:var(--space-sm);" />
+          )}
+          <p class="card__meta">
+            <span class="badge badge--teal">{g.data.level}</span>
+            {g.data.tool && <span style="margin-inline-start:0.5em">{g.data.tool}</span>}
+          </p>
+          <h2 class="card__title"><a href={`/guides/${g.slug}/`}>{g.data.title}</a></h2>
+          <p class="card__excerpt">{g.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>

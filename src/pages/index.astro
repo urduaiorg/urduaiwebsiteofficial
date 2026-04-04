@@ -1,0 +1,179 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const recentPosts = allPosts
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 6);
+
+const allGuides = await getCollection('guides', ({ data }) => !data.draft);
+const recentGuides = allGuides
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+---
+
+<Base
+  title="اردو اے آئی — پاکستان کا سب سے بڑا اردو اے آئی پلیٹ فارم"
+  description="اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں مصنوعی ذہانت کا پلیٹ فارم ہے۔ اے آئی ٹولز، گائیڈز، ٹیوٹوریلز اور پرامٹس — سب اردو میں۔"
+  adsense={true}
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>اردو <span>اے آئی</span></h1>
+      <p>
+        مصنوعی ذہانت کو اردو میں سمجھیں، استعمال کریں، اور آگے بڑھیں۔
+        ۲۵ کروڑ اردو بولنے والوں کے لیے — بالکل مفت۔
+      </p>
+
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__stat-number" dir="ltr">50K+</span>
+          <span class="hero__stat-label">ایپ ڈاؤن لوڈز</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" dir="ltr">1M+</span>
+          <span class="hero__stat-label">آن لائن کمیونٹی</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__stat-number" dir="ltr">250M+</span>
+          <span class="hero__stat-label">اردو بولنے والے</span>
+        </div>
+      </div>
+
+      <a href="/app/" class="btn-playstore" style="font-size:1.1rem; padding: 0.7em 2em;">
+        مفت ایپ ڈاؤن لوڈ کریں
+      </a>
+    </div>
+  </section>
+
+  <!-- Top banner ad -->
+  <div class="container ad-slot" aria-hidden="true">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+      data-ad-slot="TOP_BANNER_SLOT"
+      data-ad-format="auto"
+      data-full-width-responsive="true">
+    </ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- Recent blog posts -->
+  <section class="container" style="margin-block-start: var(--space-2xl);">
+    <h2 class="section-heading">تازہ ترین خبریں</h2>
+    <div class="post-grid">
+      {recentPosts.map(post => (
+        <article class="card">
+          {post.data.image && (
+            <img
+              src={post.data.image}
+              alt={post.data.title}
+              width="400"
+              height="225"
+              loading="lazy"
+              style="border-radius:6px; margin-block-end:var(--space-sm);"
+            />
+          )}
+          <p class="card__meta">
+            <span class="badge">{post.data.category}</span>
+            &nbsp;
+            <time datetime={post.data.date}>
+              {new Date(post.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
+            </time>
+          </p>
+          <h3 class="card__title"><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h3>
+          <p class="card__excerpt">{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+    <p style="text-align:center; margin-block-start: var(--space-md);">
+      <a href="/blog/" style="color:var(--teal); font-weight:600;">تمام مضامین پڑھیں ←</a>
+    </p>
+  </section>
+
+  <!-- Mid-page ad -->
+  <div class="container ad-slot" aria-hidden="true">
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+      data-ad-slot="MID_PAGE_SLOT"
+      data-ad-format="auto"
+      data-full-width-responsive="true">
+    </ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- Guides section -->
+  {recentGuides.length > 0 && (
+    <section class="container" style="margin-block-start: var(--space-2xl);">
+      <h2 class="section-heading">تازہ گائیڈز</h2>
+      <div class="post-grid">
+        {recentGuides.map(guide => (
+          <article class="card">
+            <p class="card__meta">
+              <span class="badge badge--teal">{guide.data.level}</span>
+              {guide.data.tool && <span style="margin-inline-start:0.5em">{guide.data.tool}</span>}
+            </p>
+            <h3 class="card__title"><a href={`/guides/${guide.slug}/`}>{guide.data.title}</a></h3>
+            <p class="card__excerpt">{guide.data.description}</p>
+          </article>
+        ))}
+      </div>
+      <p style="text-align:center; margin-block-start: var(--space-md);">
+        <a href="/guides/" style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
+      </p>
+    </section>
+  )}
+
+  <!-- Newsletter strip -->
+  <section style="background:var(--ink); color:var(--paper); padding-block:var(--space-xl); margin-block-start:var(--space-2xl);">
+    <div class="container" style="text-align:center;">
+      <h2 style="color:var(--gold-light); margin-block-end:var(--space-sm);">اردو اے آئی نیوز لیٹر</h2>
+      <p style="color:var(--gold-pale); margin-block-end:var(--space-md);">
+        ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس — سیدھے آپ کی ای میل میں
+      </p>
+      <form
+        action="https://urduai.beehiiv.com/subscribe"
+        method="post"
+        style="display:flex; gap:var(--space-sm); justify-content:center; flex-wrap:wrap;"
+      >
+        <input
+          type="email"
+          name="email"
+          placeholder="آپ کی ای میل"
+          required
+          dir="ltr"
+          style="padding:0.6em 1em; border-radius:6px; border:none; min-width:240px; font-size:1rem;"
+        />
+        <button type="submit" class="btn-playstore" style="border:none; cursor:pointer;">
+          سبسکرائب کریں
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Content category quick links -->
+  <section class="container" style="margin-block-start:var(--space-2xl); margin-block-end:var(--space-2xl);">
+    <h2 class="section-heading">سیکھنے کے راستے</h2>
+    <div class="post-grid">
+      <a href="/how-to/" class="card" style="text-decoration:none;">
+        <h3 class="card__title">ہاؤ ٹو ٹیوٹوریلز</h3>
+        <p class="card__excerpt">قدم بقدم ہدایات — اسکرین شاٹس کے ساتھ</p>
+      </a>
+      <a href="/prompts/" class="card" style="text-decoration:none;">
+        <h3 class="card__title">اردو پرامٹس</h3>
+        <p class="card__excerpt">کاپی پیسٹ کے لیے تیار اردو پرامٹس</p>
+      </a>
+      <a href="/learn/" class="card" style="text-decoration:none;">
+        <h3 class="card__title">اردو اے آئی لغت</h3>
+        <p class="card__excerpt">اے آئی اصطلاحات آسان اردو میں</p>
+      </a>
+      <a href="/courses/" class="card" style="text-decoration:none;">
+        <h3 class="card__title">مفت کورسز</h3>
+        <p class="card__excerpt">مرحلہ وار اے آئی تعلیم — اردو میں</p>
+      </a>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "اردو اے آئی ماسٹرکلاس",
+  "description": "اے آئی کی بنیادی باتیں — بالکل شروع سے، اردو میں",
+  "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
+  "inLanguage": "ur",
+  "isAccessibleForFree": true,
+  "url": "https://urduai.org/courses/masterclass/",
+};
+---
+
+<Base
+  title="اے آئی ماسٹرکلاس — اردو اے آئی | مفت اے آئی کورس اردو میں"
+  description="اردو اے آئی ماسٹرکلاس میں اے آئی کی بنیادی باتیں بالکل شروع سے سیکھیں — مفت، اردو میں، سرٹیفکیٹ کے ساتھ۔"
+  canonical="https://urduai.org/courses/masterclass/"
+  adsense={false}
+  schema={courseSchema}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li><a href="/courses/">کورسز</a></li>
+        <li aria-current="page">ماسٹرکلاس</li>
+      </ol>
+    </nav>
+
+    <span class="badge badge--teal">ابتدائی</span>
+    <h1 style="margin-block-start:var(--space-xs);">اے آئی ماسٹرکلاس</h1>
+    <p class="text-muted">مفت · سرٹیفکیٹ · اردو میں</p>
+
+    <div class="note" style="margin-block:var(--space-lg);">
+      یہ کورس جلد شروع ہو رہا ہے۔ نیوز لیٹر سبسکرائب کریں تاکہ اطلاع ملے۔
+    </div>
+
+    <a href="https://urduai.beehiiv.com/subscribe" class="btn-playstore">
+      اطلاع کے لیے سبسکرائب کریں
+    </a>
+  </div>
+</Base>

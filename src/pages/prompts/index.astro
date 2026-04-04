@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const all = await getCollection('prompts', ({ data }) => !data.draft);
+const collections = all.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<Base
+  title="اردو پرامٹس — اردو اے آئی | کاپی پیسٹ کے لیے تیار پرامٹس"
+  description="اردو اے آئی پرامٹس کلیکشن میں ChatGPT، Claude اور Gemini کے لیے تیار اردو پرامٹس پائیں — ہر پیشے اور ضرورت کے لیے۔"
+  canonical="https://urduai.org/prompts/"
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">پرامٹس</li>
+      </ol>
+    </nav>
+
+    <h1>اردو پرامٹس</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      کاپی پیسٹ کے لیے تیار اردو پرامٹس — ہر پیشے اور ضرورت کے لیے
+    </p>
+
+    <div class="post-grid">
+      {collections.map(c => (
+        <article class="card">
+          <p class="card__meta">
+            {c.data.profession && <span class="badge">{c.data.profession}</span>}
+            {c.data.prompt_count > 0 && <span style="margin-inline-start:0.5em">{c.data.prompt_count} پرامٹس</span>}
+          </p>
+          <h2 class="card__title"><a href={`/prompts/${c.slug}/`}>{c.data.title}</a></h2>
+          <p class="card__excerpt">{c.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>

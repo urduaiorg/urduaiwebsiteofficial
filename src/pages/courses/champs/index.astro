@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "اردو اے آئی چیمپس",
+  "description": "پیشہ ورانہ سطح کی اے آئی مہارت — ماہر سطح",
+  "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
+  "inLanguage": "ur",
+  "isAccessibleForFree": true,
+  "url": "https://urduai.org/courses/champs/",
+};
+---
+
+<Base
+  title="اے آئی چیمپس — اردو اے آئی | ماہر سطح کا مفت اردو کورس"
+  description="اردو اے آئی چیمپس کورس میں پیشہ ورانہ سطح کی اے آئی مہارت حاصل کریں — مفت، اردو میں، سرٹیفکیٹ کے ساتھ۔"
+  canonical="https://urduai.org/courses/champs/"
+  adsense={false}
+  schema={courseSchema}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li><a href="/courses/">کورسز</a></li>
+        <li aria-current="page">چیمپس</li>
+      </ol>
+    </nav>
+
+    <span class="badge" style="background:var(--ink); color:var(--gold-light); border-color:var(--ink);">ماہر</span>
+    <h1 style="margin-block-start:var(--space-xs);">اے آئی چیمپس</h1>
+    <p class="text-muted">مفت · سرٹیفکیٹ · اردو میں</p>
+
+    <div class="note" style="margin-block:var(--space-lg);">
+      یہ کورس جلد شروع ہو رہا ہے۔ نیوز لیٹر سبسکرائب کریں تاکہ اطلاع ملے۔
+    </div>
+
+    <a href="https://urduai.beehiiv.com/subscribe" class="btn-playstore">
+      اطلاع کے لیے سبسکرائب کریں
+    </a>
+  </div>
+</Base>

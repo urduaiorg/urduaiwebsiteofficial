@@ -1,0 +1,122 @@
+---
+// /app/ — App landing page
+// NO ads. NO App CTA strip. This entire page IS the CTA.
+// Drives Play Store downloads.
+
+import Base from '../../layouts/Base.astro';
+
+const appSchema = {
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "اردو اے آئی",
+  "operatingSystem": "Android",
+  "applicationCategory": "EducationApplication",
+  "inLanguage": "ur",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "PKR",
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "500",
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=org.urduai.app",
+  "url": "https://urduai.org/app/",
+};
+---
+
+<Base
+  title="اردو اے آئی ایپ ڈاؤنلوڈ — مفت اردو اے آئی ایپ | 50 ہزار+ ڈاؤنلوڈز"
+  description="اردو اے آئی ایپ مفت ڈاؤنلوڈ کریں۔ پاکستان کی سب سے بڑی اردو اے آئی خواندگی ایپ — 50 ہزار سے زیادہ ڈاؤنلوڈز۔ Android پر دستیاب۔"
+  canonical="https://urduai.org/app/"
+  adsense={false}
+  schema={appSchema}
+>
+  <!-- Hero — Play Store button above fold -->
+  <section style="background:var(--ink); color:var(--paper); padding-block:var(--space-2xl); text-align:center;">
+    <div class="container">
+      <h1 style="color:var(--paper); font-size:2.5rem;">
+        اردو اے آئی <span style="color:var(--gold-light);">ایپ</span>
+      </h1>
+      <p style="font-size:1.15rem; color:var(--gold-pale); max-width:560px; margin-inline:auto; margin-block-end:var(--space-sm);">
+        پاکستان کی پہلی اردو اے آئی خواندگی ایپ — مفت، بغیر VPN، Android پر
+      </p>
+
+      <!-- Download count — prominent -->
+      <div style="margin-block: var(--space-md);">
+        <span style="font-size:3rem; font-weight:700; color:var(--gold-light);" dir="ltr">50,000+</span>
+        <p style="color:var(--gold-pale); margin-block-start:0;">ڈاؤنلوڈز</p>
+      </div>
+
+      <!-- Play Store CTA — above fold -->
+      <a
+        href="https://play.google.com/store/apps/details?id=org.urduai.app"
+        class="btn-playstore"
+        style="font-size:1.2rem; padding:0.8em 2.5em;"
+        rel="noopener"
+        target="_blank"
+      >
+        Google Play سے مفت ڈاؤنلوڈ کریں
+      </a>
+
+      <p style="color:var(--ink-muted); font-size:var(--text-sm); margin-block-start:var(--space-sm);">
+        صرف Android — iOS جلد آ رہا ہے
+      </p>
+    </div>
+  </section>
+
+  <!-- App screenshots -->
+  <section class="container" style="margin-block-start:var(--space-2xl);">
+    <h2 class="section-heading">ایپ کا نظارہ</h2>
+    <div style="display:flex; gap:var(--space-md); justify-content:center; flex-wrap:wrap; margin-block-top:var(--space-md);">
+      <img src="/images/app/screenshot-01.jpg" alt="اردو اے آئی ایپ — ہوم اسکرین" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+      <img src="/images/app/screenshot-02.jpg" alt="اردو اے آئی ایپ — مضامین" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+      <img src="/images/app/screenshot-03.jpg" alt="اردو اے آئی ایپ — گائیڈز" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+    </div>
+  </section>
+
+  <!-- Top 5 reasons -->
+  <section class="container" style="margin-block-start:var(--space-2xl);">
+    <h2 class="section-heading">ایپ کیوں ڈاؤنلوڈ کریں؟</h2>
+    <div class="post-grid" style="margin-block-top:var(--space-md);">
+      <div class="card">
+        <h3 class="card__title">مکمل اردو میں</h3>
+        <p class="card__excerpt">تمام مواد خالص اردو میں — کوئی انگریزی اصطلاح بغیر وضاحت کے نہیں</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">بغیر VPN کام کرتا ہے</h3>
+        <p class="card__excerpt">پاکستان میں براہ راست — کوئی VPN ضروری نہیں</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">مفت — کوئی سبسکرپشن نہیں</h3>
+        <p class="card__excerpt">تمام مضامین، گائیڈز اور پرامٹس بالکل مفت</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">آف لائن پڑھیں</h3>
+        <p class="card__excerpt">ایک بار لوڈ کریں، بغیر انٹرنیٹ پڑھتے رہیں</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">روزانہ اپڈیٹ</h3>
+        <p class="card__excerpt">تازہ ترین اے آئی خبریں ہر روز — سیدھے آپ کے فون پر</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Second CTA -->
+  <section style="background:var(--gold-pale); border-block:2px solid var(--gold); padding-block:var(--space-xl); margin-block-start:var(--space-2xl); text-align:center;">
+    <div class="container">
+      <h2 style="color:var(--ink);">ابھی ڈاؤنلوڈ کریں — بالکل مفت</h2>
+      <a
+        href="https://play.google.com/store/apps/details?id=org.urduai.app"
+        class="btn-playstore"
+        style="font-size:1.1rem; padding:0.7em 2em; margin-block-start:var(--space-md);"
+        rel="noopener"
+        target="_blank"
+      >
+        Google Play پر جائیں
+      </a>
+    </div>
+  </section>
+</Base>

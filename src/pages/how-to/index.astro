@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const all = await getCollection('howto', ({ data }) => !data.draft);
+const tutorials = all.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+---
+
+<Base
+  title="ہاؤ ٹو ٹیوٹوریلز — اردو اے آئی | مرحلہ وار اردو گائیڈز"
+  description="اردو اے آئی کے ہاؤ ٹو ٹیوٹوریلز میں اے آئی ٹولز استعمال کرنے کے مرحلہ وار طریقے سیکھیں — اسکرین شاٹس کے ساتھ۔"
+  canonical="https://urduai.org/how-to/"
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">ہاؤ ٹو</li>
+      </ol>
+    </nav>
+
+    <h1>ہاؤ ٹو ٹیوٹوریلز</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      مرحلہ وار ہدایات، اسکرین شاٹس کے ساتھ — پاکستانی صارفین کے لیے
+    </p>
+
+    <div class="post-grid">
+      {tutorials.map(t => (
+        <article class="card">
+          <p class="card__meta">
+            {t.data.tool && <span class="badge badge--teal">{t.data.tool}</span>}
+            &nbsp;
+            <span>{t.data.difficulty}</span>
+            {t.data.time_required && <span> · {t.data.time_required}</span>}
+          </p>
+          <h2 class="card__title"><a href={`/how-to/${t.slug}/`}>{t.data.title}</a></h2>
+          <p class="card__excerpt">{t.data.description}</p>
+          <p class="text-muted text-sm">
+            آخری تصدیق:
+            {new Date(t.data.last_verified).toLocaleDateString('ur-PK', { year:'numeric', month:'long' })}
+          </p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>

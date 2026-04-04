@@ -1,0 +1,206 @@
+---
+// Base.astro — urduai.org
+// All pages extend this layout.
+// lang="ur" dir="rtl" is set here — NEVER override.
+
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  adsense?: boolean;
+  schema?: object;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage = '/og/default.jpg',
+  adsense = false,
+  schema,
+} = Astro.props;
+
+const canonicalURL = canonical ?? new URL(Astro.url.pathname, 'https://urduai.org').href;
+const ogImageURL = new URL(ogImage, 'https://urduai.org').href;
+
+// Organization schema — present on every page
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "اردو اے آئی",
+  "alternateName": "Urdu AI",
+  "url": "https://urduai.org",
+  "logo": "https://urduai.org/images/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/urduaiorg",
+    "https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI",
+    "https://www.instagram.com/urduaiorg/",
+    "https://x.com/urduaiorg",
+    "http://www.tiktok.com/@urduaiorg"
+  ]
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://urduai.org",
+  "name": "اردو اے آئی",
+  "inLanguage": "ur",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://urduai.org/blog/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary meta -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ur_PK" />
+    <meta property="og:site_name" content="اردو اے آئی" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@urduaiorg" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <!-- Sitemap & RSS -->
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href="/rss.xml" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts — Noto Nastaliq Urdu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data — Organization (every page) -->
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+
+    <!-- Page-specific schema -->
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+
+    <!-- Google Analytics 4 — replace G-XXXXXXXXXX with real ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- AdSense — loads ONLY when adsense: true in frontmatter -->
+    {adsense && (
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+        crossorigin="anonymous"
+      ></script>
+    )}
+  </head>
+
+  <body>
+    <!-- Site header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a href="/" class="site-logo">اردو <span>اے آئی</span></a>
+          <nav aria-label="مرکزی نیویگیشن">
+            <ul class="site-nav">
+              <li><a href="/blog/">بلاگ</a></li>
+              <li><a href="/guides/">گائیڈز</a></li>
+              <li><a href="/how-to/">ہاؤ ٹو</a></li>
+              <li><a href="/prompts/">پرامٹس</a></li>
+              <li><a href="/learn/">اردو لغت</a></li>
+              <li><a href="/courses/">کورسز</a></li>
+              <li><a href="/app/">ایپ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__grid">
+          <div>
+            <p><strong>اردو اے آئی</strong></p>
+            <p>پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم</p>
+          </div>
+          <div>
+            <p><strong>مواد</strong></p>
+            <ul style="list-style:none">
+              <li><a href="/blog/">بلاگ</a></li>
+              <li><a href="/guides/">گائیڈز</a></li>
+              <li><a href="/how-to/">ہاؤ ٹو ٹیوٹوریلز</a></li>
+              <li><a href="/prompts/">پرامٹ کلیکشنز</a></li>
+              <li><a href="/learn/">اردو اے آئی لغت</a></li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>ادارہ</strong></p>
+            <ul style="list-style:none">
+              <li><a href="/about/">ہمارے بارے میں</a></li>
+              <li><a href="/team/">ٹیم</a></li>
+              <li><a href="/partners/">شراکت دار</a></li>
+              <li><a href="/advertise/">اشتہار دیں</a></li>
+              <li><a href="/contact/">رابطہ</a></li>
+            </ul>
+          </div>
+          <div>
+            <p><strong>سوشل میڈیا</strong></p>
+            <ul style="list-style:none">
+              <li><a href="https://www.facebook.com/urduaiorg" rel="noopener">فیس بک</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI" rel="noopener">یوٹیوب</a></li>
+              <li><a href="https://www.instagram.com/urduaiorg/" rel="noopener">انسٹاگرام</a></li>
+              <li><a href="https://x.com/urduaiorg" rel="noopener">X (ٹوئٹر)</a></li>
+              <li><a href="http://www.tiktok.com/@urduaiorg" rel="noopener">ٹک ٹاک</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <p>
+            &copy; {new Date().getFullYear()} اردو اے آئی — WALI PVT Limited |
+            <a href="/privacy/">پرائیویسی پالیسی</a> |
+            <a href="/terms/">شرائط</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

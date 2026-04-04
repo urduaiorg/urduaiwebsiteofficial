@@ -1,0 +1,58 @@
+---
+// Courses index — adsense: false — NEVER ads on course pages
+import Base from '../../layouts/Base.astro';
+
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "اردو اے آئی کورسز",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "url": "https://urduai.org/courses/masterclass/" },
+    { "@type": "ListItem", "position": 2, "url": "https://urduai.org/courses/automation/" },
+    { "@type": "ListItem", "position": 3, "url": "https://urduai.org/courses/champs/" },
+  ],
+};
+---
+
+<Base
+  title="اردو اے آئی کورسز — مفت اے آئی تعلیم اردو میں"
+  description="اردو اے آئی کے مفت کورسز میں اے آئی کی بنیادی سے لے کر پیشہ ورانہ تک تعلیم حاصل کریں — سرٹیفکیٹ کے ساتھ۔"
+  canonical="https://urduai.org/courses/"
+  adsense={false}
+  schema={courseSchema}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">کورسز</li>
+      </ol>
+    </nav>
+
+    <h1>اردو اے آئی کورسز</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      مفت — سرٹیفکیٹ کے ساتھ — مکمل اردو میں
+    </p>
+
+    <div class="post-grid">
+      <a href="/courses/masterclass/" class="card" style="text-decoration:none;">
+        <span class="badge badge--teal">ابتدائی</span>
+        <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی ماسٹرکلاس</h2>
+        <p class="card__excerpt">اے آئی کی بنیادی باتیں — بالکل شروع سے</p>
+        <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
+      </a>
+      <a href="/courses/automation/" class="card" style="text-decoration:none;">
+        <span class="badge">درمیانہ</span>
+        <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی آٹومیشن</h2>
+        <p class="card__excerpt">اے آئی سے اپنا کام خودکار بنائیں</p>
+        <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
+      </a>
+      <a href="/courses/champs/" class="card" style="text-decoration:none;">
+        <span class="badge" style="background:var(--ink); color:var(--gold-light); border-color:var(--ink);">ماہر</span>
+        <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی چیمپس</h2>
+        <p class="card__excerpt">پیشہ ورانہ سطح کی اے آئی مہارت</p>
+        <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
+      </a>
+    </div>
+  </div>
+</Base>

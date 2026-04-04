@@ -1,0 +1,245 @@
+---
+// HowTo.astro — urduai.org
+// Used by: how-to/[slug].astro
+// Living articles — last_verified date shown prominently.
+// HowTo schema with numbered steps fed via props.
+
+import Base from './Base.astro';
+
+export interface HowToStep {
+  name: string;
+  text: string;
+  image?: string;
+}
+
+export interface Props {
+  title: string;
+  description: string;
+  date: string;
+  last_verified: string;
+  tool?: string;
+  difficulty?: string;
+  time_required?: string;
+  image?: string;
+  adsense?: boolean;
+  slug: string;
+  steps?: HowToStep[];
+}
+
+const {
+  title,
+  description,
+  date,
+  last_verified,
+  tool,
+  difficulty = 'آسان',
+  time_required,
+  image,
+  adsense = true,
+  slug,
+  steps = [],
+} = Astro.props;
+
+const canonical = `https://urduai.org/how-to/${slug}/`;
+const ogImage = image ?? `/og/${slug}.jpg`;
+
+const dateObj = new Date(last_verified);
+const verifiedFormatted = dateObj.toLocaleDateString('ur-PK', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const publishedObj = new Date(date);
+const publishedFormatted = publishedObj.toLocaleDateString('ur-PK', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// HowTo schema
+const howtoSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": title,
+  "description": description,
+  "inLanguage": "ur",
+  "datePublished": date,
+  "dateModified": last_verified,
+  ...(tool ? { "tool": [{ "@type": "HowToTool", "name": tool }] } : {}),
+  ...(time_required ? { "totalTime": time_required } : {}),
+  "step": steps.map((step, i) => ({
+    "@type": "HowToStep",
+    "position": i + 1,
+    "name": step.name,
+    "text": step.text,
+    ...(step.image ? { "image": `https://urduai.org${step.image}` } : {}),
+  })),
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ہوم", "item": "https://urduai.org/" },
+    { "@type": "ListItem", "position": 2, "name": "ہاؤ ٹو", "item": "https://urduai.org/how-to/" },
+    { "@type": "ListItem", "position": 3, "name": title, "item": canonical },
+  ],
+};
+
+const combinedSchema = [howtoSchema, breadcrumbSchema];
+---
+
+<Base
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={ogImage}
+  adsense={adsense}
+  schema={combinedSchema}
+>
+  <!-- Top banner ad -->
+  {adsense && (
+    <div class="container ad-slot" aria-hidden="true">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+        data-ad-slot="TOP_BANNER_SLOT"
+        data-ad-format="auto"
+        data-full-width-responsive="true">
+      </ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+  )}
+
+  <div class="container">
+    <!-- Breadcrumb -->
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li><a href="/how-to/">ہاؤ ٹو</a></li>
+        <li aria-current="page">{title}</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="article-layout container">
+    <article class="article-layout__main">
+      <header>
+        <span class="badge">ہاؤ ٹو</span>
+        <h1>{title}</h1>
+
+        <!-- Freshness signal — prominently shown above fold -->
+        <div class="freshness-signal" style="margin-block: var(--space-sm);">
+          آخری اپڈیٹ: {verifiedFormatted} — تمام اسکرین شاٹس تازہ ہیں
+        </div>
+
+        <div class="article-meta">
+          <time datetime={date}>شائع: {publishedFormatted}</time>
+          {tool && <span class="badge badge--teal">{tool}</span>}
+          {difficulty && <span>مشکل: {difficulty}</span>}
+          {time_required && <span>وقت: {time_required}</span>}
+        </div>
+
+        <!-- Before you start summary box -->
+        <div class="card" style="margin-block: var(--space-md);">
+          <p class="card__meta">شروع کرنے سے پہلے</p>
+          <ul style="list-style:none; padding:0;">
+            {tool && <li>🔧 ٹول: {tool}</li>}
+            {time_required && <li>⏱️ وقت: {time_required}</li>}
+            {difficulty && <li>📊 مشکل: {difficulty}</li>}
+          </ul>
+        </div>
+
+        {image && (
+          <img
+            src={image}
+            alt={title}
+            width="860"
+            height="480"
+            loading="eager"
+            style="border-radius:8px; margin-block-end: var(--space-md);"
+          />
+        )}
+      </header>
+
+      <div class="prose">
+        <!-- Intro slot (first paragraph — AEO paragraph) -->
+        <slot name="intro" />
+
+        {adsense && (
+          <div class="ad-slot" aria-hidden="true">
+            <ins class="adsbygoogle"
+              style="display:block; text-align:center;"
+              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+              data-ad-slot="IN_ARTICLE_SLOT"
+              data-ad-format="fluid"
+              data-ad-layout="in-article">
+            </ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+        )}
+
+        <!-- Main content with steps -->
+        <slot />
+      </div>
+
+      <!-- Last verified note -->
+      <div class="last-verified">
+        آخری بار تصدیق: {verifiedFormatted}
+        — اگر اسکرین مختلف نظر آئے تو <a href="/contact/">یہاں بتائیں</a>
+      </div>
+
+      <!-- Bottom ad -->
+      {adsense && (
+        <div class="ad-slot" aria-hidden="true">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="BOTTOM_SLOT"
+            data-ad-format="auto"
+            data-full-width-responsive="true">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      )}
+
+      <!-- App CTA strip -->
+      <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
+        <p>يہ ٹيوٹوريل پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے گائيڈز پڑھيں</p>
+        <a href="/app/" class="btn-playstore">مفت ڈاؤن لوڈ کريں</a>
+      </div>
+    </article>
+
+    <!-- Sidebar -->
+    <aside class="article-layout__sidebar">
+      {adsense && (
+        <div class="ad-slot ad-slot--sidebar" aria-hidden="true">
+          <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="SIDEBAR_SLOT"
+            data-ad-format="auto"
+            data-full-width-responsive="false">
+          </ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      )}
+    </aside>
+  </div>
+</Base>
+
+<!-- App CTA scroll trigger -->
+<script>
+  const cta = document.getElementById('app-cta');
+  if (cta) {
+    const onScroll = () => {
+      const scrolled = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+      if (scrolled > 0.7) {
+        cta.classList.add('is-visible');
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

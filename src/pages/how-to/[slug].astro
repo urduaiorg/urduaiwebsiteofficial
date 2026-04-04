@@ -1,0 +1,32 @@
+---
+import HowTo from '../../layouts/HowTo.astro';
+import { getCollection, render } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const tutorials = await getCollection('howto', ({ data }) => !data.draft);
+  return tutorials.map(t => ({
+    params: { slug: t.id },
+    props: { tutorial: t },
+  }));
+}
+
+const { tutorial } = Astro.props;
+const { Content } = await render(tutorial);
+---
+
+<HowTo
+  title={tutorial.data.title}
+  description={tutorial.data.description}
+  date={tutorial.data.date}
+  last_verified={tutorial.data.last_verified}
+  tool={tutorial.data.tool}
+  difficulty={tutorial.data.difficulty}
+  time_required={tutorial.data.time_required}
+  image={tutorial.data.image ?? undefined}
+  adsense={tutorial.data.adsense}
+  slug={tutorial.id}
+>
+  <Content />
+</HowTo>

@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const all = await getCollection('learn', ({ data }) => !data.draft);
+const entries = all.sort((a, b) => a.data.title.localeCompare(b.data.title, 'ur'));
+---
+
+<Base
+  title="اردو اے آئی لغت — مصنوعی ذہانت کی اصطلاحات اردو میں"
+  description="اردو اے آئی لغت میں مشین لرننگ، ڈیپ لرننگ، لارج لینگویج ماڈل سمیت تمام اے آئی اصطلاحات آسان اردو میں پڑھیں۔"
+  canonical="https://urduai.org/learn/"
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">اردو اے آئی لغت</li>
+      </ol>
+    </nav>
+
+    <h1>اردو اے آئی لغت</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      مصنوعی ذہانت کی تمام اصطلاحات — آسان اردو میں، پاکستانی مثالوں کے ساتھ
+    </p>
+
+    <div class="post-grid">
+      {entries.map(e => (
+        <article class="card">
+          <p class="card__meta">
+            <span class="badge">{e.data.term_english}</span>
+          </p>
+          <h2 class="card__title"><a href={`/learn/${e.slug}/`}>{e.data.title}</a></h2>
+          <p class="card__excerpt">{e.data.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Base>

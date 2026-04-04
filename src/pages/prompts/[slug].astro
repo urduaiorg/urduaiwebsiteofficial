@@ -1,0 +1,29 @@
+---
+import Article from '../../layouts/Article.astro';
+import { getCollection, render } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const prompts = await getCollection('prompts', ({ data }) => !data.draft);
+  return prompts.map(p => ({
+    params: { slug: p.id },
+    props: { promptCollection: p },
+  }));
+}
+
+const { promptCollection } = Astro.props;
+const { Content } = await render(promptCollection);
+---
+
+<Article
+  title={promptCollection.data.title}
+  description={promptCollection.data.description}
+  date={promptCollection.data.date}
+  category={promptCollection.data.category}
+  adsense={promptCollection.data.adsense}
+  slug={promptCollection.id}
+  collection="prompts"
+>
+  <Content />
+</Article>
