@@ -16,7 +16,7 @@ draft: false
 ## ویڈیو کیوں بنائی گئی؟
 
 
-[" target="_new" rel="noopener" data-start="701" data-end="768">اردو اے آئی کی ویڈیو](
+[اردو اے آئی کی ویڈیو](https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI)
 
 
 قیسررونجھا کہتے ہیں: یہ ویڈیو ایک فوری رہنمائی ہے تاکہ آپ بغیر کسی پریشانی کے اردو اے آئی کی آٹومیشن ماسٹر کلاس میں شامل ہو سکیں۔

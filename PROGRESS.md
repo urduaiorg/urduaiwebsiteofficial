@@ -1217,6 +1217,25 @@ Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
 
 **Definition of done:** 10 selected posts rewritten, filenames listed under the task note, `npm run build` passes.
 
+**Claimed batch — 2026-04-04 (Codex):**
+- `ai-education-ka-future.md`
+- `ai-for-all-the-dream-doesnt-need-resources.md`
+- `chatgpt-for-urdu-ai-writers.md`
+- `easy-way-to-download-deepseek-ai-and-create-an-account.md`
+- `are-ai-powered-browsers-the-future-now.md`
+- `ai-video-search-at-your-fingertips-is-your-privacy-protected.md`
+- `artificial-intelligence-how-its-changing-the-future-of-jobs.md`
+- `deepseek-is-the-new-model.md`
+- `deepseek-proves-sam-altman-wrong.md`
+- `chat-gpt-new-screen-sharing-function.md`
+
+**Completed — 2026-04-04:**
+- Rewrote the body only for all 10 claimed descriptive-slug posts.
+- Fixed broken migrated phrasing, malformed inline fragments, generic AI-blog openings, and weak endings.
+- Every rewritten post now opens with a direct answer, includes clearer Pakistani relevance where appropriate, and ends with one clear takeaway sentence.
+- No decorative emoji were introduced in the rewrite batch.
+- Verification: `npm run build` passed and the site still builds `866` pages.
+
 ---
 
 ### TASK-27 — Legacy Internal Link Cleanup (`/apps/`, old Urdu slugs, brittle migrated URLs)
@@ -1254,6 +1273,19 @@ rg -n "urduai\\.org/apps|urduai\\.org/blogs|%d8|%DB" repo/src/content
 **Completed — batch 2, Cursor — 2026-04-04:**
 - Remaining `https://urduai.org/apps` → `/tools/` (`is-mark-zuckerberg-handing-over-his-job-to-ai.md`).
 - Dead legacy chat entry points: `http://www.urduai.org/chat`, `http://urduai.org/chat`, `https://urduai.org/chat/` → `/tools/` (or explicit Urdu steps to open ChatGPT/Gemini) in 7 files: `ai-book-reviews-content-idea.md`, `3d-cartoon-to-video.md`, `how-to-make-your-own-ai-image-generator.md`, `urdu-ai-storytelling-workshop-creating-powerful-stories-with-ai.md`, `how-to-maintain-consistent-cartoon-characters-with-ai.md`, `post-3191.md` (also normalized `http://www.urduai.org` → site root path `/`).
+
+**Completed — batch 3, Cursor — 2026-04-04 (how-to hygiene):**
+- Replaced brittle WordPress percent-encoded `urduai.org` URLs and one corrupted embed fragment in how-tos with stable routes: `/tools/`, `/blog/...`, `/how-to/...`, `/guides/`, `/search/?q=...`, and official YouTube playlist where video markup was broken (`how-to-write-cover-letter-with-ai.md`).
+- Fixed merged/broken markdown in `how-to-create-your-own-custom-gems-now-the-choice-is-in-your-hands.md` (ذاتی نوعیت bullet).
+- Replaced likely-dead `urduai-chatgpt` reference with `/tools/` (`how-to-maintain-consistent-cartoon-characters-with-ai.md`).
+- Normalised several full-domain internal links to root-relative paths in the same how-to set.
+
+**Completed — batch 4, Cursor — 2026-04-04 (blog broken `target="_new"` fragments):**
+- Replaced WordPress-export HTML-in-markdown tails (`[" target="_new" ...>text](`) with valid links in: `urdu-ai-master-class-on-automation-class-2-interface-google-app-script.md`, `learn-how-veo3-and-flow-are-changing-the-world-now-you-too-can-become-a-filmmaker-in-just-a-few-words.md`, `urdu-ai-automation-master-class-registration-and-learning-demos.md`, `ai-sekh-kay-kia-karain-urdu-ai-idea-bank.md`, `ai-is-an-opportunity-all-you-need-to-do-is-learn.md`, `will-the-ai-revolution-really-eradicate-diseases.md`, `tiktok-ai-alive-explained.md`.
+- Destinations: official Urdu AI YouTube playlist (`PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI`), `@urduaiorg` channel, or YouTube search for the 60 Minutes / Hassabis interview where no single stable video ID was asserted.
+- `ai-is-an-opportunity-all-you-need-to-do-is-learn.md`: master class link → `/guides/ai-kya-hai-urdu-ai-master-class-1/`.
+- `will-the-ai-revolution-really-eradicate-diseases.md`: internal blog link → `/blog/ai-agent-that-performs-tasks-autonomously-online/`.
+- Verified: `rg 'target="_new"' repo` returns no matches; `npm run build` passes.
 
 ---
 

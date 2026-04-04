@@ -44,7 +44,7 @@ draft: false
 **"اے آئی نے آپ کو سیکھ لیا ہے، اب وقت ہے کہ آپ بھی اے آئی کو سیکھیں۔"**
 
 
-[" target="_new" rel="noopener">چیٹ جی پی ٹی مظاہرہ](<iframe width=)
+[چیٹ جی پی ٹی مظاہرہ اور مزید ویڈیوز](https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI)
 
 ### مزید اپڈیٹس کے لیے اردو اے آئی جُڑے رہیے!
 دوستو!
