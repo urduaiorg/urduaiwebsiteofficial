@@ -15,3 +15,7 @@ draft: false
 
 
 [**چیٹ جی پی ٹی اردو گائیڈ**](https://drive.google.com/file/d/1GsuL7hutM2Hc-7aQKuvvXsRpfDQXMoih/view?usp=share_link)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

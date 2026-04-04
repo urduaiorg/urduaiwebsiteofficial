@@ -116,3 +116,8 @@ AI سے بنی ہر ویڈیو کے ہر فریم میں ایک خاص ڈیجی�
 
 
 یہ معلومات گوگل کی آفیشل بلاگ سے حاصل کی گئی ہیں۔ ماخذ: [Google Blog – Gemini Video Generation](https://blog.google/products/gemini/video-generation/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

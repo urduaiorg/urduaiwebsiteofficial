@@ -100,3 +100,8 @@ draft: false
 
 [میرا مراتی کی نئی اے آئی کمپنی کو اربوں ڈالر کیسے ملے؟
 ](https://urduai.org/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product/)
+
+## لغت میں اور پڑھیں
+
+- [اے جی آئی (AGI) کیا ہے؟](/learn/artificial-general-intelligence/)
+- [انفرنس کیا ہے؟](/learn/inference/)

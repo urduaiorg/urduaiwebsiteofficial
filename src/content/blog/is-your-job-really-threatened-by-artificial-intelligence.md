@@ -112,3 +112,7 @@ IT اسپیشلسٹس
 
 
 مزید اردو بلاگز کے لیے ملاحظہ کریں: [UrduAI.org](https://urduai.org)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

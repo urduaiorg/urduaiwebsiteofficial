@@ -38,3 +38,7 @@ draft: false
 
 
 یہ[ اپڈیٹ](https://www.androidpolice.com/google-gemini-can-now-see-hear-understand-video-clips/) اس جانب اشارہ کرتی ہے کہ اے آئی[ تعلیم کا مستقبل](https://urduai.org/ai-education-ka-future/) اب صرف تحریر پر نہیں بلکہ ویڈیو، آواز اور بصری مواد پر مبنی ہو گا۔ [اردو اے آئی ماسٹر کلاسز](https://urduai.org/urdu-ai-master-class-2/) جیسی تربیتی کوششیں اس نئی ٹیکنالوجی کو سمجھنے میں مدد فراہم کر رہی ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

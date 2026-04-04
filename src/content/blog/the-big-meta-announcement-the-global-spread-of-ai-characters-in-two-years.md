@@ -50,3 +50,7 @@ draft: false
 
 
 [میٹا  بارے میں مزید معلومات حاصل کریں](https://www.meta.com/)
+
+## لغت میں اور پڑھیں
+
+- [مشین لرننگ کیا ہے؟](/learn/machine-learning/)

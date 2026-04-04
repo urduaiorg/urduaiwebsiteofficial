@@ -54,3 +54,7 @@ draft: false
 
 
 یہ معلومات MIT کی آفیشل بلاگ سے حاصل کی گئی ہیں: [From MIT dropout to AI mogul – vnExpress](https://e.vnexpress.net/news/tech/tech-news/from-mit-dropout-to-ai-mogul-how-the-world-s-youngest-self-made-tech-billionaire-alexandr-wang-builds-data-empire-4873124.html)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

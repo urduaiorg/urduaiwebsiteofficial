@@ -144,3 +144,8 @@ draft: false
 
 
 بشکریہ:[اردو جیوٹی وی](https://urdu.geo.tv/latest/327207-)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [انفرنس کیا ہے؟](/learn/inference/)

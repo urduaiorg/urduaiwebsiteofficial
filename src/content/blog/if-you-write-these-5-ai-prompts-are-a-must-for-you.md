@@ -83,3 +83,7 @@ draft: false
 
 
 تحریر ایک فن ہے، اور  اے آئی اس فن کو سنوار سکتا ہے چھین نہیں سکتا۔ اب[  اے آئی سے بھاگنا ممکن نہیں](https://urduai.org/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/)۔ تو کیوں نہ اسے سمجھ کر اپنایا جائے؟ اب [وقت آ گیا ہے کہ  اے آئی کو ایک عام ٹیکنالوجی سمجھا جائے۔](https://urduai.org/is-it-time-for-us-to-consider-artificial-intelligence-as-a-normal-technology/) اور اگر آپ طالب علم یا استاد ہیں تو  اے آئی[ اور تعلیم کا مستقبل](https://urduai.org/ai-education-ka-future/) بھی آپ کے لیے پڑھنا ضروری ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

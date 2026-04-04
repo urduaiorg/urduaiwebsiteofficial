@@ -43,3 +43,8 @@ TikTok کا AI Alive فیچر ظاہر کرتا ہے کہ مصنوعی ذہان�
 
 
 یہ ویڈیو رپورٹ اردو اے آئی کے [یوٹیوب چینل](https://www.youtube.com/@urduaiorg) سے لی گئی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

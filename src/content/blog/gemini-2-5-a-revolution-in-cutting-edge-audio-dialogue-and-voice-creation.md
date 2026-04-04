@@ -60,3 +60,7 @@ draft: false
 
 
 اگر آپ جاننا چاہتے ہیں کہ یہ ماڈل گوگل کی اب تک کی سب سے ذہین اے آئی ہے یا نہیں، تو مکمل تجزیہ یہاں پڑھیں: [جیمنی 2.5: اب تک کا سب سے ذہین ماڈل؟](https://urduai.org/gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

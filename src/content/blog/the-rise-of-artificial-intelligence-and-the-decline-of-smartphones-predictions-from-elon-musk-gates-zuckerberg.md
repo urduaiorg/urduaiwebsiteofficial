@@ -52,3 +52,7 @@ draft: false
 
 
 [اصل رپورٹ ](https://glassalmanac.com/elon-musk-bill-gates-mark-zuckerberg-and-sam-altman-agree-the-days-of-smartphones-are-numbered-tim-cook-disagrees/)[Glass Almanac](https://glassalmanac.com/elon-musk-bill-gates-mark-zuckerberg-and-sam-altman-agree-the-days-of-smartphones-are-numbered-tim-cook-disagrees/) ملاحظہ کریں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

@@ -71,3 +71,8 @@ o3 اور o4-mini ماڈلز صرف ٹیکنالوجی نہیں بلکہ نئی 
 
 
 یہ معلومات اوپن اے آئی کی[ آفیشل بلاگ](https://openai.com/index/introducing-o3-and-o4-mini/) سے حاصل کی گئی ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

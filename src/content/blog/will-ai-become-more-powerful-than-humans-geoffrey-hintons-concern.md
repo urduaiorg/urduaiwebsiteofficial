@@ -54,3 +54,7 @@ draft: false
 
 
 اور کچھ ماہرین پر امید ہیں کہ شاید [اے آئی کا انقلاب بیماریوں کے خاتمے کا سبب بنے](https://urduai.org/will-the-ai-revolution-really-eradicate-diseases/)، لیکن ہنٹن جیسے سائنسدان زیادہ محتاط اور حقیقت پسند نظر آتے ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [مشین لرننگ کیا ہے؟](/learn/machine-learning/)

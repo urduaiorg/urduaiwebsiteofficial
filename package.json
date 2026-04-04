@@ -9,6 +9,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "postbuild": "pagefind --site dist",
+    "learn-links": "node scripts/add-blog-learn-links.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

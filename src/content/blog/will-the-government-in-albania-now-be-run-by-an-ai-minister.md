@@ -40,3 +40,7 @@ draft: false
 
 
 [helpie_faq group_id='2434'/]
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

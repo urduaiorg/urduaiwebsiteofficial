@@ -70,3 +70,7 @@ draft: false
     - [مصنوعی ذہانت: مواقع اور انقلاب](https://urduai.org/%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81%d8%a7%d9%86%d8%aa-%d9%85%d9%88%d8%a7%d9%82%d8%b9%d8%8c-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8/)
     - [سیم آلٹمن کا ہارورڈ خطاب](https://urduai.org/%d8%b3%db%8c%d9%85-%d8%a2%d9%84%d9%b9%d9%85%d9%86-%da%a9%d8%a7-%db%81%d8%a7%d8%b1%d9%88%d8%b1%da%88-%db%8c%d9%88%d9%86%db%8c%d9%88%d8%b1%d8%b3%d9%b9%db%8c-%d9%85%db%8c%da%ba-%d8%ae%d8%b7%d8%a7%d8%a8/)
     - [ویب ایپ بنانے کا دو قدمی عمل](https://urduai.org/2-step-process-make-your-web-app/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

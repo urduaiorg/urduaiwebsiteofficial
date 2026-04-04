@@ -130,3 +130,8 @@ draft: false
 
 
 [ OpenAI.com](https://openai.com/blog/missing-link-between-open-source-and-ai/)
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

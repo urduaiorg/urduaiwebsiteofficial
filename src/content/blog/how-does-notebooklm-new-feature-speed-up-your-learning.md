@@ -43,3 +43,7 @@ draft: false
 
 
 تو اگر آپ وقت بچانا چاہتے ہیں، معلومات جلدی سمجھنا چاہتے ہیں، یا اپنی [سیکھنے کی صلاحیت](https://urduai.org/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/) کو بصری انداز سے بہتر بنانا چاہتے ہیں۔ تو نوٹ بُک ایل ایم کا نیا ویڈیو اوور ویوز فیچر Nano Banana کے ساتھ آپ کے لیے بہترین ٹول بن سکتا ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

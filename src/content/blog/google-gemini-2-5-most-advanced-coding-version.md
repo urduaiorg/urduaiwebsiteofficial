@@ -76,3 +76,8 @@ draft: false
 
 
 اگر آپ ابھی تک جیمینائی کا استعمال نہیں کر رہے۔ تو یہ بہترین موقع ہے۔ جدید ٹیکنالوجی کو بروئے کار لائیں اور [گوگل کی پرامپٹ انجینئرنگ گائیڈ](https://urduai.org/googles-new-prompt-engineering-playbook-10-golden-rules-for-gemini-and-ai-tools/) سے سیکھیں کہ کیسے صرف الفاظ کے ذریعے بڑے سسٹمز تیار کیے جا سکتے ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [پرامٹ انجینئرنگ کیا ہے؟](/learn/prompt-engineering/)

@@ -79,3 +79,7 @@ draft: false
 
 
 یہ بلاگ [Forbes](https://www.forbes.com/sites/bernardmarr/2025/04/14/amazon-unleashes-new-ai-agents-ready-to-take-over-your-daily-tasks/) میں شائع شدہ ایک مضمون پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

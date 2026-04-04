@@ -48,3 +48,7 @@ draft: false
 
 
 یہ بلاگ [3DVF](https://3dvf.com/en/netflix-collaborates-with-chatgpt-creator-for-new-ai-enhanced-research/) میں شائع شدہ ایک مضمون پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

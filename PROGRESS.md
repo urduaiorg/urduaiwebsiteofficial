@@ -1190,7 +1190,7 @@ Replace title-based sorting on the Learn index with a curated beginner-first ord
 ---
 
 ### TASK-26 — Archive Quality Rescue Pass for 10 High-Value Blog Posts
-**Status:** Completed
+**Status:** In progress
 **Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** High — biggest editorial gain now comes from raising the archive quality floor
 
@@ -1235,6 +1235,18 @@ Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
 - Every rewritten post now opens with a direct answer, includes clearer Pakistani relevance where appropriate, and ends with one clear takeaway sentence.
 - No decorative emoji were introduced in the rewrite batch.
 - Verification: `npm run build` passed and the site still builds `866` pages.
+
+**Claimed batch 2 — 2026-04-04 (Codex):**
+- `ai-dunya-badal-rahi-hai-aur-aap.md`
+- `will-ai-take-your-job-the-united-nations-has-warned.md`
+- `why-is-the-urdu-ai-movement-gaining-popularity-despite-slow-internet.md`
+- `ai-team-to-replace-human-team.md`
+- `we-made-chatgpt-in-urdu.md`
+- `free-brand-promotion-marketing-and-storytelling-content.md`
+- `google-ai-new-updates-in-gemini-app.md`
+- `how-does-perplexitys-comet-browser-make-your-work-easier.md`
+- `metas-big-layoff-is-artificial-intelligence-replacing-human-jobs.md`
+- `ai-is-an-opportunity-all-you-need-to-do-is-learn.md`
 
 ---
 
@@ -1286,6 +1298,11 @@ rg -n "urduai\\.org/apps|urduai\\.org/blogs|%d8|%DB" repo/src/content
 - `ai-is-an-opportunity-all-you-need-to-do-is-learn.md`: master class link → `/guides/ai-kya-hai-urdu-ai-master-class-1/`.
 - `will-the-ai-revolution-really-eradicate-diseases.md`: internal blog link → `/blog/ai-agent-that-performs-tasks-autonomously-online/`.
 - Verified: `rg 'target="_new"' repo` returns no matches; `npm run build` passes.
+
+**Completed — batch 5, Cursor — 2026-04-04 (blog → `/learn/` internal links):**
+- Added end-of-article block `## لغت میں اور پڑھیں` to **613** blog posts that had no `/learn/` URL; **42** posts already had inline `/learn/` links and were left unchanged.
+- Implementation: `repo/scripts/add-blog-learn-links.mjs` scores body text against the 23 learn terms (regex on English/Urdu cues), appends up to **3** bullet links to `/learn/[slug]/`, or a single hub sentence linking `/learn/` when no term matched (**168** posts).
+- NPM: `npm run learn-links` (optional `--dry-run`). Re-runs are safe: files containing `/learn/` or the section heading are skipped.
 
 ---
 

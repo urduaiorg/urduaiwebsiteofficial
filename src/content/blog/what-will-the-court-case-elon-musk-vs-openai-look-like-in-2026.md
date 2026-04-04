@@ -115,3 +115,8 @@ draft: false
 
 
  اپنی رائے کمنٹس میں ضرور لکھیں!
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [اے جی آئی (AGI) کیا ہے؟](/learn/artificial-general-intelligence/)

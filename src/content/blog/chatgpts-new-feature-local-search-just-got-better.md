@@ -70,3 +70,7 @@ draft: false
 
 
   تفصیلی رپورٹ [search engine land](https://searchengineland.com/how-does-chatgpt-conduct-local-searches-454894) دیکھی جا سکتی ہے.
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

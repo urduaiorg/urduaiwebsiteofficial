@@ -89,3 +89,8 @@ OpenAI نے تسلیم کیا کہ [ChatGPT](https://chatgpt.com/g/g-pE1VKxczG-u
 
 
 شکریہ
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [اے آئی ہیلوسینیشن (غلط بیانی) کیا ہے؟](/learn/hallucination/)

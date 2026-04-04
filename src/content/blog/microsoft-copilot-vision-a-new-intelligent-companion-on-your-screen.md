@@ -57,3 +57,7 @@ draft: false
 فی الحال یہ فیچر صرف امریکہ میں ونڈوز 10 اور 11 صارفین کے لیے دستیاب ہے۔ تاہم مائیکروسافٹ نے اشارہ دیا ہے کہ جلد ہی یہ دیگر غیر یورپی ممالک میں بھی دستیاب ہوگا۔
 
 [ مزید پڑھیں](https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/06/12/copilot-vision-on-windows-with-highlights-is-now-available-in-the-u-s/) [مائیکروسافٹ کے بلاگ میں](https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/06/12/copilot-vision-on-windows-with-highlights-is-now-available-in-the-u-s/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

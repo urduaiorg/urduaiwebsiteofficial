@@ -74,3 +74,7 @@ draft: false
 
 
 یہ بلاگ[The Technology Review: Is AI Normal](https://www.technologyreview.com/2025/04/29/1115928/is-ai-normal/)میں شائع شدہ ایک مضمون پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

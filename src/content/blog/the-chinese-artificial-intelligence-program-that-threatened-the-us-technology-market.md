@@ -114,3 +114,7 @@ draft: false
 ###
 
 ###
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

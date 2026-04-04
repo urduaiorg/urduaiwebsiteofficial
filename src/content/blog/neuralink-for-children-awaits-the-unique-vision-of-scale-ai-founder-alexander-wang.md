@@ -52,3 +52,7 @@ draft: false
 
 
 [اردو اے آئی ماسٹر کلاس آٹومیشن ایڈیشن](https://urduai.org/urdu-ai-master-class-on-automation-class-1/) اور  [اے آئی سب کے لیے](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/) جیسے پلیٹ فارمز اس سوچ کو وسعت دیتے ہیں کہ ٹیکنالوجی کس طرح ہر طبقے کے بچوں کو بااختیار بنا سکتی ہے۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

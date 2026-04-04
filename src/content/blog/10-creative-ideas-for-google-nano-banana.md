@@ -49,3 +49,7 @@ draft: false
 
 
 یہ تھے نینو بنانا ماڈل کے وہ دس زبردست استعمالات جو نہ صرف آپ کی تخلیقی سوچ کو [نئی جہت](https://urduai.org/experts-surprising-stance-artificial-intelligence-a-threat-or-a-creative-partner-for-advertising-agencies/) دیتے ہیں بلکہ عملی زندگی میں بھی فائدہ مند ثابت ہو سکتے ہیں۔ اگر آپ کے پاس بھی کوئی نیا آئیڈیا ہو تو ضرور شیئر کیجیے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

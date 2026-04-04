@@ -142,3 +142,7 @@ draft: false
 
 
 بشکریہ: [بی بی سی اردو](https://www.bbc.com/urdu/articles/cx9pegj4lnzo?at_campaign_type=owned&at_link_id=DD5D4148-090B-11EE-9550-7F2BD99D5CC3&at_link_origin=BBC_URDU&at_ptr_name=facebook_page&at_link_type=web_link&at_medium=social&at_bbc_team=editorial&at_format=link&at_campaign=Social_Flow&fbclid=IwAR2n579UPyXdHdGn86vZNVfg6vcB4czv4tEPsMV8GheM4QbxVaeIOXcUKYo_aem_th_AcXzCR0tSCCXGCz2cBtQe9SAEtB7wNfMRsV-xHeNd3NGDyazwlW8LisrSyc806viTdQ&mibextid=Zxz2cZ)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

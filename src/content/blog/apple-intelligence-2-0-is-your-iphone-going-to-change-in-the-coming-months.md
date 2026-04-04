@@ -74,3 +74,8 @@ draft: false
 
 
 [اے آئی سب کچھ کرے گا؟ پھر کیا سیکھیں؟](https://urduai.org/if-artificial-intelligence-will-do-everything-better-than-us-then-which-skills-will-remain-important/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

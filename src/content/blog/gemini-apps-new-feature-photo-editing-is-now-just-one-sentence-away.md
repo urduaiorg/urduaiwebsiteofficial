@@ -40,3 +40,8 @@ draft: false
 
 
 اگر آپ سوچ رہے ہیں کہ یہ کیسے ممکن ہے تو [اس رپورٹ](https://bgr.com/tech/gemini-ai-app-can-now-edit-all-your-photos-and-thats-not-even-the-best-new-feature/) پر ایک نظر ضرور ڈالیں، جو اس نئی تبدیلی کی تفصیل بیان کرتی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

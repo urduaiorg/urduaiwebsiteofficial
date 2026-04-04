@@ -67,3 +67,8 @@ draft: false
 
 
 [Veo 2 کے ذریعے ویڈیو تخلیق](https://urduai.org/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/)
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

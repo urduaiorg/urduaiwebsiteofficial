@@ -63,3 +63,9 @@ draft: false
 
 
 اے آئی ہماری طرزِ زندگی، گورننس اور روزگار کے نظام کو بدل رہی ہے۔ اب وقت ہے کہ ہم بھی خود کو بدلیں۔ [اے آئی سیکھنا شروع کریں](https://urduai.org/ai-kya-hai-urdu-ai-master-class-1/)۔
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [انفرنس کیا ہے؟](/learn/inference/)

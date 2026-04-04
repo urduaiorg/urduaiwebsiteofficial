@@ -50,3 +50,7 @@ draft: false
 
 اروند سرنیواس کا پیغام سادہ ہے: خود پر یقین رکھیں، کام کریں، اور کبھی ہار نہ مانیں۔ مصنوعی ذہانت کی دنیا میں آج مقابلہ سخت ہے، مگر جذبے سے لبریز نوجوان بانی ہر حد پار کر رہے ہیں۔ [ایلون مسک کا اعلان: انسانوں کا ڈیٹا ختم، اب دور ہے مصنوعی ڈیٹا کا](https://urduai.org/elon-musk-reveals-end-of-human-data-now-the-age-of-artificial-data/) پر بھی ہماری مکمل رپورٹ ضرور دیکھیں۔
 یہ بلاگ [Fortune: Perplexity CEO and Elon Musk’s Inspiring Mantra](https://fortune.com/article/perplexity-ceo-aravind-srinivas-elon-musk-inspired-mantra-help-build-billion-dollar-openai-google-rival/) میں شائع شدہ ایک مضمون پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

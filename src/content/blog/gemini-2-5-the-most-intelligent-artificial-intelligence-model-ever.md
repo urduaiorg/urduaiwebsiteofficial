@@ -33,3 +33,9 @@ draft: false
 
 
 اگر آپ گوگل AI اسٹوڈیو استعمال کرتے ہیں یا[ جیمنی ایپ کے ایڈوانسڈ صارف ہیں](https://urduai.org/google-gemini-new-features-for-free-users/)۔ تو آپ آج ہی سے جیمنی 2.5 پرو کا تجربہ کر سکتے ہیں۔ گوگل جلد ہی اسے "[ورٹیکس AI](https://console.cloud.google.com/freetrial?redirectPath=/vertex-ai/studio)" پر بھی متعارف کرائے گا۔ تاکہ کمپنیاں اور ڈیویلپرز اسے بڑے پیمانے پر استعمال کر سکیں۔ گوگل کی جانب سے یہ بھی کہا گیا ہے کہ صارفین کی رائے کو سامنے رکھ کر ماڈل کو مسلسل بہتر بنایا جائے گا۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [ملٹی موڈل اے آئی کیا ہے؟](/learn/multimodal-ai/)
+- [ٹوکن کیا ہے؟](/learn/token/)

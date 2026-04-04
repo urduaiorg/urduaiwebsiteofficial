@@ -159,3 +159,7 @@ Rewrite this feedback message so it is constructive and motivating
 
 
 یہ 10 چیٹ جی پی ٹی پرامپٹس آپ کو دن بھر کے شور میں وضاحت، فوکس اور سمت فراہم کرتے ہیں۔ جب دماغ کئی باتیں سوچ رہا ہو، تو ان میں سے صرف ایک اچھا[ پرامپٹ](https://urduai.org/if-you-write-these-5-ai-prompts-are-a-must-for-you/) بھی سوچ اور کارکردگی میں نمایاں فرق لا سکتا ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

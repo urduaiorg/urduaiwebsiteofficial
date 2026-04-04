@@ -65,3 +65,7 @@ draft: false
 
 
 [اے آئی معمول کی ٹیکنالوجی؟](https://urduai.org/is-it-time-for-us-to-consider-artificial-intelligence-as-a-normal-technology/)
+
+## لغت میں اور پڑھیں
+
+- [مشین لرننگ کیا ہے؟](/learn/machine-learning/)

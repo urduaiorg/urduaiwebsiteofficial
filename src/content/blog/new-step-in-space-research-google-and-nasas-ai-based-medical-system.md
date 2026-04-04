@@ -42,3 +42,8 @@ CMO-DA کا یہ جدید ٹول خلائی مسافروں کو خود مختا�
 
 
 آپ [اردو اےآئی ](https://urduai.org/) پر مزید اے آئی پروجیکٹس کے بارے میں جان سکتے ہیں۔ اس طرح کی تحقیق کے لیے آپ کو مزید معلومات [NASA](https://www.nasa.gov/) کی آفیشل ویب سائٹ اور Google AI کے [بلاگ](https://ai.googleblog.com/) سے مل سکتی ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [مشین لرننگ کیا ہے؟](/learn/machine-learning/)
+- [قدرتی زبان کی پروسیسنگ (NLP) کیا ہے؟](/learn/natural-language-processing/)

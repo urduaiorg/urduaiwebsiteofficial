@@ -37,3 +37,7 @@ draft: false
 
 
 اس آٹومیشن سسٹم کو مکمل طور پر استعمال کرنے کے لیے [اردو اے آئی پلیٹ فارم](https://urduai.org/how-to-best-utilize-urdu-ai-platform/) سے بھرپور فائدہ اٹھائیں۔ مزید یہ کہ [GPT-4.1 کے آنے سے](https://urduai.org/the-arrival-of-gpt-4-1-a-new-era-of-programming/) کوڈنگ اور آٹو میشن میں انقلابی تبدیلیاں آ رہی ہیں ۔ جنہیں آپ ضرور جانیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

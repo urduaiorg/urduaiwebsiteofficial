@@ -47,3 +47,8 @@ draft: false
 
 
 [?si=AfAg7uQxatOSHlCk">ایڈوب فائرفلائی کی پریکٹیکل ویڈیو دیکھنے کیلے اس لینک پے کلیک کرکے دیکھے۔](<iframe width=)
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

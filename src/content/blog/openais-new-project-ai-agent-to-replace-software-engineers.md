@@ -43,3 +43,8 @@ draft: false
 
 
 یہ معلومات [PYMNTS](https://www.pymnts.com/credit-unions/2025/velera-to-provide-card-processing-support-to-vermont-based-802-credit-union/) کی آفیشل بلاگ سے حاصل کی گئی ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [اے آئی ایجنٹ کیا ہے؟](/learn/ai-agent/)

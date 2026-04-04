@@ -54,3 +54,7 @@ Gemini ٹیم کے لیڈ جوش ووڈورڈ نے اعلان کے موقع پر
 
 
 یہ صرف آغاز ہے۔ [مصنوعی ذہانت سے بھاگ سکتے ہیں مگر بچ نہیں سکتے](https://urduai.org/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/)  یہ سچائی جیمینی  جیسی ایپس کے فیچرز کے ساتھ اور نمایاں ہو گئی ہے۔ اسی تناظر میں Meta کی جانب سے بھی ایک نیا قدم اٹھایا گیا ہے جس میں [یورپ میں پبلک پوسٹس سے ماڈل ٹریننگ](https://urduai.org/metas-new-decision-to-train-models-from-public-posts-and-artificial-intelligence-conversations-in-europe/) شامل ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

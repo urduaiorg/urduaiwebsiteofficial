@@ -62,3 +62,7 @@ UNDP کی رپورٹ اس جانب توجہ دلاتی ہے کہ موجودہ ت
 
 
 یہ معلومات [UNDP](https://www.undp.org/press-releases/human-development-progress-slows-35-year-low-according-un-development-programme-report) کی آفیشل بلاگ رپوٹ سے حاصل کی گئی ہے۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

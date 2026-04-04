@@ -48,3 +48,7 @@ draft: false
 [اردواے آئی ٹک ٹاک](https://www.tiktok.com/@urduaiorg)
 
 شکریہ!
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

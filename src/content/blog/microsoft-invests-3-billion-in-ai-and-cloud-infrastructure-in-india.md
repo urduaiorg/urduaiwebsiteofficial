@@ -59,3 +59,7 @@ draft: false
  	- [اردو اے آئی فیس بک پیج](https://www.facebook.com/urduaiorg)
  	- [اردو اے آئی فیس بک گروپ](https://www.facebook.com/groups/188939843889289/?hoisted_section_header_type=recently_seen&multi_permalinks=500134459436491)
  	- [اردو اے آئی ٹک ٹاک](https://www.tiktok.com/@urduaiorg)
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

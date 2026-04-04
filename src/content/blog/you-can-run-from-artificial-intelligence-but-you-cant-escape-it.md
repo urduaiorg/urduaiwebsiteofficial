@@ -58,3 +58,8 @@ draft: false
 
 
 یہ معلومات techRadar کی آفیشل بلاگ سے حاصل کی گئی ہیں: [TechRadar – Avoiding ChatGPT won’t keep OpenAI from infusing its AI models into your life](https://www.techradar.com/computing/artificial-intelligence/avoiding-chatgpt-wont-keep-openai-from-infusing-its-ai-models-into-your-life)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

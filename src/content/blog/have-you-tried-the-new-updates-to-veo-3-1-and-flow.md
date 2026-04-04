@@ -32,3 +32,8 @@ Veo 3.1 اور Flow کی اپ ڈیٹس صرف نئے سین بنانے تک مح
 
 
 اگر آپ مصنوعی ذہانت پر مبنی فلم سازی میں دلچسپی رکھتے ہیں تو [مصنوعی ذہانت کی خبریں](https://urduai.org/) اور [VEO اور Flow کی پرانی ریلیزز](https://urduai.org/create-professional-videos-in-youtube-shorts-with-veo-3s-advanced-tools/) بھی ضرور ملاحظہ کریں۔ یہ معلومات آپ کو بہتر فیصلہ لینے اور نئی اپ ڈیٹس کو بہتر طور پر سمجھنے میں مدد دیں گی۔
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

@@ -71,3 +71,8 @@ Dictation Starter App ایک واضح مثال ہے کہ کس طرح جیمین�
 
 
 یہ معلومات [Google](https://developers.googleblog.com/en/gemini-2-5-pro-io-improved-coding-performance/) کی آفیشل رپوٹ سے حاصل کی گئی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

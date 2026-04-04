@@ -75,3 +75,7 @@ draft: false
 
 
 یہ بلاگ  [بزنس انسائیڈر](https://www.businessinsider.com/mira-murati-big-tech-put-thinking-machines-lab-venture-capital-2025-4) میں شائع شدہ ایک مضمون پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

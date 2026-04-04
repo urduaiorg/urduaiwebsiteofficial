@@ -33,3 +33,7 @@ draft: false
 
 
 نوٹ بک ایل ایم نے ثابت کر دیا ہے کہ سیکھنے اور مواد کی تیاری اب صرف چند کلکس کی دوری پر ہے۔ چاہے آپ طالب علم ہوں، استاد یا کوئی ادارہ، [اب ویڈیو اور آڈیو اوورویوز](https://urduai.org/googles-new-tool-notebook-lm-is-now-more-powerful-introducing-new-video-and-audio-features/) کے ذریعے علم کی ترسیل پہلے سے کہیں زیادہ آسان اور مؤثر ہو گئی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

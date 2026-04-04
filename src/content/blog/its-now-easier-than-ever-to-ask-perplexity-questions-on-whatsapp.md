@@ -61,3 +61,7 @@ draft: false
 
 
 یہ رپورٹ سب سے پہلے [lifehacker.com](https://lifehacker.com/tech/you-can-now-talk-to-perplexity-ai-directly-from-whatsapp) پر شائع ہوئی۔ جس میں اس سروس کے استعمال کا مکمل طریقہ بتایا گیا تھا۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

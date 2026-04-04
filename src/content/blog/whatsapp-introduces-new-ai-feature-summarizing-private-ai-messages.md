@@ -43,3 +43,7 @@ draft: false
 
 
 اگر آپ کو چیٹ اور خلاصے کے ساتھ نئی  اے آئی سہولیات کا تجربہ دلچسپ لگتا ہے تو [Perplexity کروم ایکسٹینشن](https://urduai.org/perplexity-chrome-extension-a-new-ai-experience-in-browsing/) اور [واٹس ایپ پر  اے آئی سوالات پوچھنے کی سہولت](https://urduai.org/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp/) بھی آپ کے لیے مفید ہو سکتی ہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

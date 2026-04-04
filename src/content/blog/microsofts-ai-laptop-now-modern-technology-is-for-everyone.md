@@ -55,3 +55,7 @@ draft: false
 
 
 یہ معلومات [Tribune](https://tribune.com.pk/story/2544317/microsoft-unveils-budget-ai-laptops-with-qualcomm-chips) کی آفیشل بلاگ رپوٹ سے حاصل کی گئی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

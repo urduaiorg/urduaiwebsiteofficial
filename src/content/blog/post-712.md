@@ -49,3 +49,7 @@ draft: false
 
 
 بشکریہ : [ ڈاون نیوز ٹی وی](https://www.dawnnews.tv/news/1179834)
+
+## لغت میں اور پڑھیں
+
+- [مشین لرننگ کیا ہے؟](/learn/machine-learning/)

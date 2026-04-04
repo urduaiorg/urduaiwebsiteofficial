@@ -47,3 +47,7 @@ draft: false
 
 
 یہ معلومات [بزنس انسائیڈر](https://www.businessinsider.com/ai-jobs-companies-tech-investor-replacing-people-lawyers-recruiters-2025-4) کی آفیشل بلاگ سے حاصل کی گئی ہیں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

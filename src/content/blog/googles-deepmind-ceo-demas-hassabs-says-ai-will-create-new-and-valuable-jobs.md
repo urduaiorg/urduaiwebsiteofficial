@@ -77,3 +77,8 @@ draft: false
 
 
 دیمس ہسابس کی گفتگو کا مرکزی نکتہ یہ ہے کہ ٹیکنالوجی سے ڈرنے کے بجائے، اسے سیکھا جائے۔ اپنایا جائے اور اپنے اندر ایسی قیمتی مہارتیں پیدا کی جائیں جو مستقبل میں انسان کی ضرورت رہیں گی۔ جیسا کہ اس بلاگ  [ا](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)[ے آئی سب کے لیے خواب کے لیے](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)[ و](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)[سائل](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)[ نہیں درکا](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)**[ر](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)** میں کہا گیا ہے۔ یہ ٹیکنالوجی صرف امیروں یا ماہرین کے لیے نہیں بلکہ ہر اس شخص کے لیے ہے جو سیکھنے کی جستجو رکھتا ہے۔
+
+## لغت میں اور پڑھیں
+
+- [اے جی آئی (AGI) کیا ہے؟](/learn/artificial-general-intelligence/)
+- [انفرنس کیا ہے؟](/learn/inference/)

@@ -233,3 +233,7 @@ Sources
 
 
 [Journal Every Pixel](https://journal.everypixel.com/ai-image-statistics)
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)

@@ -78,3 +78,8 @@ draft: false
 
 
 مصنوعی ذہانت کی دنیا سے فرار ممکن نہیں، جیسا کہ ہم نے پہلے بھی کہا: [آپ AI سے بھاگ تو سکتے ہیں، بچ نہیں سکتے](https://urduai.org/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/)۔
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

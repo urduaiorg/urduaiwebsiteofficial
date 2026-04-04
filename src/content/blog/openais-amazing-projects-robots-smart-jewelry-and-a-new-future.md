@@ -45,3 +45,7 @@ draft: false
 
 
 آپ کے خیال میں یہ [نئی](https://urduai.org/chatgpt-pro-version-copilot-vision/) ٹیکنالوجیز کتنی حقیقت کے قریب ہیں؟ کمنٹس میں اپنی رائے ضرور دیں!
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

@@ -69,3 +69,7 @@ draft: false
 
 
 اس فیچر سے متعلق مزید تفصیلات کے لیے [ٹامز گائیڈ](https://www.tomsguide.com/phones/iphones/gemini-can-turn-text-into-audio-overviews-heres-how-to-do-it) کی رپورٹ ملاحظہ کریں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

@@ -84,3 +84,8 @@ Microsoft کے Copilot+ پروگرام کے ساتھ AI پر مبنی لیپ ٹ�
 سی ای ایس 2025 ٹیکنالوجی کی دنیا کے لیے [ایک اہم ایونٹ ہے۔ نئی مصنوعات، تقاریر، اور](https://urduai.org/ریڈ-سی-وی-اور-پرپلکسٹی-ایک-نیا-ڈیجیٹل-آ/) ٹیکنالوجی کے رجحانات کے ساتھ یہ شو شائقین کو حیران کر رہا ہے۔ 
 
 **[سی ای ایس 2025](https://www.engadget.com/ces-2025-the-press-conferences-and-new-tech-were-expecting-to-see-from-samsung-nvidia-lg-and-more-200052126.html) کے لیے آپ سب سے زیادہ پرجوش کس کے بارے میں ہیں؟ اپنی رائے ہمیں ضرور بتائیں!**
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [انفرنس کیا ہے؟](/learn/inference/)

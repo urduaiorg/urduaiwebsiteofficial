@@ -53,3 +53,7 @@ draft: false
 
 
 یہ معلومات TechCrunch کی رپورٹ سے لی گئی ہیں، جسے آپ [اس لنک](https://techcrunch.com/2025/06/24/elevenlabs-releases-a-standalone-voice-generation-app/) پر مکمل طور پر پڑھ سکتے ہیں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

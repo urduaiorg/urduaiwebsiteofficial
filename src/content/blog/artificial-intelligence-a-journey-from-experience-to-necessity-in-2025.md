@@ -62,3 +62,7 @@ draft: false
 
 
 یہ تجزیہ [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge/download-guide-ai-in-2025?utm_source=google&utm_medium=cpc&utm_campaign=WK-Spring-2025-Demand-Gen-AA-BP&utm_content=742457349267&gad_source=1) کی شائع کردہ رپورٹ "AI in 2025: Promise and Limitations" پر مبنی ہے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

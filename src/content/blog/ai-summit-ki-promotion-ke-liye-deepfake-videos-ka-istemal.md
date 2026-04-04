@@ -85,3 +85,7 @@ draft: false
 
 
 [A post shared by Emmanuel Macron (@emmanuelmacron)](https://www.instagram.com/reel/DF2UJ3LNlb9/?utm_source=ig_embed&utm_campaign=loading)
+
+## لغت میں اور پڑھیں
+
+- [انفرنس کیا ہے؟](/learn/inference/)

@@ -72,3 +72,8 @@ AI agents کے کردار میں تیزی سے اضافہ ہمیں اس سمت �
 
 
 [Business Insider کی رپورٹ](https://www.businessinsider.com/sam-altman-betting-ai-agent-could-soon-become-your-coworker-2025-6) کے مطابق، سیم آلٹمین نے یہ بات Snowflake Summit 2025 کے دوران کہی، جہاں ان سے AI کے اثرات اور آئندہ امکانات پر گفتگو کی گئی۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [اے آئی ایجنٹ کیا ہے؟](/learn/ai-agent/)

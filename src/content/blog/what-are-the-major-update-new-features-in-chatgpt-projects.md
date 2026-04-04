@@ -87,3 +87,7 @@ faq:
 
 
 پروجیکٹس کی اپڈیٹس پر مکمل تکنیکی تجزیہ[Tom's Guide رپورٹ](https://www.tomsguide.com/ai/chatgpt-projects-just-got-a-big-upgrade-heres-whats-new) پڑھیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

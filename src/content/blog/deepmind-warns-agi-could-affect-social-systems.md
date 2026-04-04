@@ -56,3 +56,8 @@ draft: false
 
 
 اگر آپ جاننا چاہتے ہیں کہ اے آئی کیا ہے، تو اردو اے آئی کی [ماسٹر کلاس](https://urduai.org/ai-kya-hai-urdu-ai-master-class-1/) ضرور دیکھیے۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
+- [اے جی آئی (AGI) کیا ہے؟](/learn/artificial-general-intelligence/)

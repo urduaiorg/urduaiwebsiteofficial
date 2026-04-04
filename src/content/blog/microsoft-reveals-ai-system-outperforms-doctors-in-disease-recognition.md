@@ -48,3 +48,7 @@ draft: false
 
 
 یہ رپورٹ بنیادی طور پر [The Guardian](https://www.theguardian.com/technology/2025/jun/30/microsoft-ai-system-better-doctors-diagnosing-health-conditions-research) میں شائع شدہ معلومات پر مبنی ہے۔  جسے اردو میں عام فہم انداز میں پیش کیا گیا ہے تاکہ قارئین جدید ٹیکنالوجی کی دنیا سے باخبر رہ سکیں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

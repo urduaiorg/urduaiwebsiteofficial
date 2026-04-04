@@ -23,3 +23,7 @@ draft: false
 
 [https://wa.me/message/J4IS7PS3MEZHM1](https://wa.me/message/J4IS7PS3MEZHM1)
 ?si=aQ2ztYgC2uak2_1x
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

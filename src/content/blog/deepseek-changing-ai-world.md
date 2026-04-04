@@ -97,3 +97,7 @@ NVIDIA جیسے بڑے ادارے، OpenAI اور دیگر امریکی کمپن
 
 
 [آپ کی](https://urduai.org/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%d8%a8-%d8%a2%d9%be-%da%a9%db%8c-%d8%b2%d8%a8%d8%a7%d9%86-%d8%a8%d9%88%d9%84%db%92-%da%af%db%8c/) رائے کیا ہے؟ کیا DeepSeek واقعی OpenAI کو پیچھے چھوڑ سکتا ہے؟
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

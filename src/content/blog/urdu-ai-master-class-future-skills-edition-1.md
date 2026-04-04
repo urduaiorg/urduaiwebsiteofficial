@@ -48,3 +48,7 @@ draft: false
 
 
 اگر آپ سمجھنا چاہتے ہیں کہ [اے آئی ایک موقع کیسے ہے؟](https://urduai.org/ai-is-an-opportunity-all-you-need-to-do-is-learn/) یا یہ [وسائل کے بغیر خواب کیسے مکمل ہو سکتے ہیں](https://urduai.org/ai-for-all-the-dream-doesnt-need-resources/)۔ تو اُردو اے آئی کی ویب سائٹ کا وزٹ ضرور کریں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

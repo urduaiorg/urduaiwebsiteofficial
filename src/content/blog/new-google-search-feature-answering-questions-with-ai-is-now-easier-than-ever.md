@@ -42,3 +42,8 @@ draft: false
 
 
 یہ بلاگ بنیادی طور پر گوگل کے آفیشل بلاگ پر شائع شدہ معلومات پر مبنی ہے۔ اصل بلاگ یہاں پڑھا جا سکتا ہے: [Google Blog - AI Mode in India](https://blog.google/intl/en-in/products/google-search-introducing-ai-mode-in-india/)
+
+## لغت میں اور پڑھیں
+
+- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

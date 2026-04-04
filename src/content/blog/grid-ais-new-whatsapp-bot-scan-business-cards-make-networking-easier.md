@@ -115,3 +115,7 @@ draft: false
 
 
 [مزید تفصیل Indian Startup News پر پڑھیں](https://indianstartupnews.com/news/grid-ai-launches-whatsapp-bot-that-scans-paper-business-cards-and-streamlines-contacts-for-easy-networking-9330553)
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

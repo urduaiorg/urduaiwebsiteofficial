@@ -80,3 +80,7 @@ draft: false
 
 
 یہ معلومات[ reuters](https://www.reuters.com/technology/artificial-intelligence/meta-use-public-posts-ai-interactions-train-models-eu-2025-04-14/) کی آفیشل بلاگ سے حاصل کی گئی ہیں۔
+
+## لغت میں اور پڑھیں
+
+[اردو اے آئی لغت](/learn/) میں مصنوعی ذہانت کی اصطلاحات آسان اردو میں پڑھیں۔

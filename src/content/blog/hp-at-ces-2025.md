@@ -71,3 +71,7 @@ HP نے ابھی تک ان ماڈلز کی قیمت یا ریلیز ڈیٹ کے 
 
 
  مزید[ خبروں](https://urduai.org/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d8%af%d9%86%db%8c%d8%a7-%d9%85%db%8c%da%ba-%d8%af%d9%84%da%86%d8%b3%d9%be-%d8%ae%d8%a8%d8%b1%db%8c%da%ba-%d8%ad%db%8c%d8%b1%d8%a7%d9%86-%da%a9%d9%86/) کے  لیے [ اردو اے آئی](https://urduai.org/) جڑے رہیں۔
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)

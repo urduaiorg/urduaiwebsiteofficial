@@ -86,3 +86,7 @@ draft: false
 
 
 [جیمنی ۲.۵: اب تک کا سب سے جدید کوڈنگ ماڈل](https://urduai.org/google-gemini-2-5-most-advanced-coding-version/)
+
+## لغت میں اور پڑھیں
+
+- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
