@@ -3,27 +3,30 @@
    RTL Nastaliq — set once, never override
    ============================================================ */
 
-/* Google Fonts — Noto Nastaliq Urdu */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap');
+/* Google Fonts — Noto Nastaliq Urdu (body) + Inter (logo only) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Inter:wght@700;800&display=swap');
 
 /* ============================================================
    Design Tokens
    ============================================================ */
 :root {
-  /* Colour palette */
-  --ink:          #1a1207;
-  --ink-soft:     #3d3222;
-  --ink-muted:    #7a6a52;
-  --paper:        #fdfaf4;
-  --paper-warm:   #f5f0e8;
+  /* Colour palette — Urdu AI brand: #1d559f + #f1cc11 */
+  --ink:          #1a2236;
+  --ink-soft:     #2c3e5e;
+  --ink-muted:    #6078a0;
+  --paper:        #f8f9fc;
+  --paper-warm:   #eef1f7;
   --paper-card:   #ffffff;
-  --gold:         #b8860b;
-  --gold-light:   #e8c97a;
-  --gold-pale:    #fdf4d8;
+  --gold:         #f1cc11;
+  --gold-light:   #f5da4a;
+  --gold-pale:    #fef9e0;
   --teal:         #0e6b5e;
   --teal-light:   #d4edea;
-  --border:       #e2d9c8;
-  --border-dark:  #c4b89a;
+  --border:       #d0d7e2;
+  --border-dark:  #a8b3c4;
+  --navy:         #1d559f;
+  --navy-dark:    #153d75;
+  --navy-light:   #2968b8;
 
   /* Typography scale */
   --text-base:    1rem;       /* 18px */
@@ -197,13 +200,13 @@ pre code {
    Header
    ============================================================ */
 .site-header {
-  background: var(--paper-card);
+  background: var(--navy);
   border-block-end: 2px solid var(--gold);
   padding-block: var(--space-sm);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 8px rgba(26, 18, 7, 0.06);
+  box-shadow: 0 2px 8px rgba(29, 85, 159, 0.25);
 }
 
 .site-header__inner {
@@ -214,11 +217,14 @@ pre code {
 }
 
 .site-logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
   text-decoration: none;
   flex-shrink: 0;
+  direction: ltr;
+  unicode-bidi: embed;
 }
 
 .site-logo span {
@@ -233,26 +239,38 @@ pre code {
 }
 
 .site-nav a {
-  color: var(--ink-soft);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 0.92rem;
   padding-block: var(--space-xs);
 }
 
 .site-nav a:hover {
-  color: var(--teal);
+  color: var(--gold-light);
 }
 
 /* ============================================================
    Footer
    ============================================================ */
 .site-footer {
-  background: var(--paper-warm);
-  border-block-start: 1px solid var(--border);
+  background: var(--navy);
+  border-block-start: 2px solid var(--gold);
   padding-block: var(--space-xl);
   margin-block-start: var(--space-2xl);
   font-size: var(--text-sm);
-  color: var(--ink-muted);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.site-footer a {
+  color: var(--gold-light);
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+}
+
+.site-footer strong {
+  color: #ffffff;
 }
 
 .site-footer__grid {
@@ -263,7 +281,7 @@ pre code {
 }
 
 .site-footer__bottom {
-  border-block-start: 1px solid var(--border);
+  border-block-start: 1px solid rgba(255, 255, 255, 0.15);
   padding-block-start: var(--space-sm);
   text-align: center;
 }
@@ -283,21 +301,23 @@ pre code {
 
 .card:hover {
   border-color: var(--gold);
-  box-shadow: 0 6px 24px rgba(184, 134, 11, 0.12);
+  box-shadow: 0 6px 24px rgba(29, 85, 159, 0.12);
   transform: translateY(-2px);
 }
 
 .card__image-placeholder {
-  background: linear-gradient(135deg, var(--paper-warm), var(--gold-pale));
+  background: linear-gradient(135deg, var(--paper-warm), #d8e2f0);
   border-radius: 6px;
   height: 140px;
   margin-block-end: var(--space-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
-  color: var(--gold);
-  opacity: 0.5;
+  font-size: 1.2rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  color: var(--navy);
+  opacity: 0.3;
 }
 
 .card__meta {
@@ -735,7 +755,7 @@ img {
    Hero section (homepage)
    ============================================================ */
 .hero {
-  background: linear-gradient(160deg, var(--ink) 0%, #2a1f0e 50%, #1a2520 100%);
+  background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, #1a4a8a 100%);
   color: var(--paper);
   padding-block: var(--space-2xl) calc(var(--space-2xl) * 1.5);
   text-align: center;
@@ -747,8 +767,8 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 30% 80%, rgba(184, 134, 11, 0.08) 0%, transparent 60%),
-              radial-gradient(circle at 70% 20%, rgba(14, 107, 94, 0.06) 0%, transparent 60%);
+  background: radial-gradient(circle at 30% 80%, rgba(241, 204, 17, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at 70% 20%, rgba(41, 104, 184, 0.12) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -765,6 +785,19 @@ img {
 
 .hero h1 span {
   color: var(--gold-light);
+}
+
+.hero__brand {
+  font-family: 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+.hero__brand span {
+  color: var(--gold);
 }
 
 .hero p {
@@ -789,7 +822,7 @@ img {
   padding: var(--space-sm) var(--space-md);
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
-  border: 1px solid rgba(232, 201, 122, 0.15);
+  border: 1px solid rgba(241, 204, 17, 0.25);
   min-width: 120px;
 }
 
