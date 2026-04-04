@@ -122,6 +122,16 @@ RTL + Nastaliq, breadcrumbs, share buttons, related posts, FAQ schema, blog pagi
 
 **Agents:** After you complete work driven by this section, add a one-line note under your task’s Completed note or here: `— Addressed: [date] [agent] [brief].`
 
+### Observations from Codex — content quality review (2026-04-04)
+
+- **Archive quality is uneven.** The newer TASK-03 / TASK-04 / TASK-06 content is materially stronger than a large portion of the migrated WordPress blog archive. The site now has real topical coverage, but the editorial floor is still inconsistent.
+- **Main weakness is not missing volume anymore.** The bigger problem is that many older blog posts still read like lightly cleaned imports: odd spacing, translated-English sentence rhythm, malformed inline links, and generic or repetitive openings.
+- **Topical structure is now good enough to support stronger rewrites.** Guides, how-to pages, glossary terms, prompts, FAQ blocks, pagination, category archives, and internal linking are in place. That means the next content gains should come from improving quality, not just adding more URLs.
+- **Best editorial next move:** identify the highest-value weak blog posts and rewrite them properly instead of only expanding them. Priority should go to posts with real descriptive slugs, strong AI search intent, and obvious formatting or tone problems.
+- **Recommended quality pass criteria:** first paragraph clarity, Pakistani relevance, cleaner sentence rhythm, one honest verdict line, removal of brittle legacy links, and a stronger closing takeaway. This is the fastest route to making the archive feel consistently “Urdu AI” rather than “WordPress migration”.
+
+— Addressed: 2026-04-04 Codex Added TASK-20 internal links in 20 blog posts and appended editorial quality observations to guide the next cleanup pass.
+
 ---
 
 ## Open Tasks — Pick One and Claim It
@@ -1053,6 +1063,163 @@ Add these 3 secrets to the GitHub repo at:
 - [ ] Check Analytics shows live traffic
 
 **Definition of done:** Site loads on `https://urduai.org`. Google Search Console shows it as primary property.
+
+---
+
+### TASK-23 — Real Search Page + SearchAction Schema Fix
+**Status:** Open
+**Owner:** —
+**Priority:** High — current `SearchAction` advertises a search flow that does not exist
+
+**What to build:**
+Implement a real `/search/` page and point structured data to that route instead of the broken blog query pattern.
+
+**Files to touch:**
+- `repo/package.json`
+- `repo/src/pages/search/index.astro`
+- `repo/src/layouts/Base.astro`
+- `repo/astro.config.mjs` only if needed for Pagefind integration
+
+**Requirements:**
+- Install and wire `pagefind` for static search
+- Create `/search/` route that reads `?q=` from the URL and shows search results
+- Update `WebSite` / `SearchAction` in `Base.astro` so the target points to `/search/?q={search_term_string}`
+- If search is not working end-to-end, remove `SearchAction` until it is
+- Keep the page Urdu-first and RTL-safe; no generic English placeholder UI
+
+**Definition of done:** `/search/` builds, search works locally, `SearchAction` points to a real route, `npm run build` passes.
+
+---
+
+### TASK-24 — Homepage “شروع یہاں سے” Learner Path Section
+**Status:** Open
+**Owner:** —
+**Priority:** High — stronger learner path improves retention and reduces bounce
+
+**What to build:**
+Add a clear beginner path module on the homepage for first-time Urdu AI visitors.
+
+**Files to touch:**
+- `repo/src/pages/index.astro`
+- Optional new component if helpful: `repo/src/components/StartHerePath.astro`
+
+**Required content blocks:**
+1. `AI کیا ہے؟` → `/learn/`
+2. `پہلا ٹول کیسے استعمال کریں؟` → `/how-to/`
+3. `پاکستان میں چلنے والے ٹولز` → `/tools/`
+4. `کاپی پیسٹ پرامٹس` → `/prompts/`
+
+**Requirements:**
+- Short Urdu heading and one-sentence explanation
+- 4 clear links/cards in a deliberate order for absolute beginners
+- Must fit existing warm editorial design system; no dashboard/card spam
+- Must work cleanly on mobile RTL
+
+**Definition of done:** Homepage includes a visible “شروع یہاں سے” module with 4 working links, `npm run build` passes.
+
+---
+
+### TASK-25 — Reorder `/learn/` Index for Beginners
+**Status:** Open
+**Owner:** —
+**Priority:** Medium — current alphabetical ordering is not the best teaching order
+
+**What to build:**
+Replace title-based sorting on the Learn index with a curated beginner-first order.
+
+**Files to touch:**
+- `repo/src/pages/learn/index.astro`
+
+**Required ordering approach:**
+- First section: core beginner terms such as `generative-ai`, `machine-learning`, `large-language-model`, `prompt-engineering`, `ai-agent`, `hallucination`
+- Second section: deeper technical terms
+- Keep all current entries visible; only change presentation order and headings
+
+**Requirements:**
+- Add short Urdu section headings that make sense to first-time learners
+- Do not change individual term files or slugs
+- Preserve existing schema/meta behavior
+
+**Definition of done:** `/learn/` is no longer purely alphabetical, beginner terms appear first, `npm run build` passes.
+
+---
+
+### TASK-26 — Archive Quality Rescue Pass for 10 High-Value Blog Posts
+**Status:** Open
+**Owner:** —
+**Priority:** High — biggest editorial gain now comes from raising the archive quality floor
+
+**What to do:**
+Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
+
+**Files to touch:**
+- `repo/src/content/blog/*.md`
+
+**Selection rules:**
+- Real descriptive slug only; no `post-{ID}` files
+- Clear AI search intent or likely evergreen value
+- Obvious migrated issues: broken spacing, translated-English rhythm, malformed inline links, generic opening, weak closing
+- Before editing, add a one-line note under this task listing the 10 filenames you claimed
+
+**Rewrite requirements per post:**
+- Keep slug, title, date, category, and existing frontmatter fields unchanged unless a link is clearly broken in body text
+- Improve only the body
+- First paragraph must answer the main query clearly
+- Add or strengthen one Pakistani relevance paragraph where appropriate
+- End with one clear takeaway sentence
+- Remove brittle legacy phrasing and obvious formatting artifacts
+- No decorative emoji
+
+**Definition of done:** 10 selected posts rewritten, filenames listed under the task note, `npm run build` passes.
+
+---
+
+### TASK-27 — Legacy Internal Link Cleanup (`/apps/`, old Urdu slugs, brittle migrated URLs)
+**Status:** Open
+**Owner:** —
+**Priority:** High — many older markdown files still contain weak legacy URLs that hurt trust
+
+**What to do:**
+Audit and repair outdated internal links in content files, prioritising old `/apps/`, `/blogs/`, and brittle URL-encoded Urdu links where a stable current route exists.
+
+**Files to touch:**
+- `repo/src/content/blog/*.md`
+- `repo/src/content/guides/*.md`
+- `repo/src/content/howto/*.md`
+
+**Rules:**
+- Replace only when the correct modern route is known
+- Prefer stable routes like `/tools/`, `/blog/[slug]/`, `/guides/`, `/how-to/`
+- Do not mass-edit external source links
+- Do not invent new destinations; if uncertain, leave it unchanged
+
+**Suggested audit commands:**
+```bash
+rg -n "urduai\\.org/apps|urduai\\.org/blogs|%d8|%DB" repo/src/content
+```
+
+**Definition of done:** a meaningful batch of outdated internal links is repaired with no broken markdown, `npm run build` passes, and the completed note lists the main patterns fixed.
+
+---
+
+### TASK-28 — Add `/newsletter/` to Primary Navigation
+**Status:** Open
+**Owner:** —
+**Priority:** Medium — newsletter is live but under-exposed in primary navigation
+
+**What to build:**
+Expose the newsletter page in the main site navigation for both desktop and mobile.
+
+**Files to touch:**
+- `repo/src/layouts/Base.astro`
+- `repo/src/styles/global.css` only if spacing or mobile nav styling needs a small adjustment
+
+**Requirements:**
+- Add a clear Urdu nav label pointing to `/newsletter/`
+- Ensure the link appears in both desktop nav and hamburger/mobile nav
+- Keep nav balanced; do not overcrowd the header
+
+**Definition of done:** `/newsletter/` is reachable from primary nav on desktop and mobile, `npm run build` passes.
 
 ---
 
