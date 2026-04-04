@@ -149,23 +149,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <p style="color:var(--gold-pale); margin-block-end:var(--space-md);">
         ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس — سیدھے آپ کی ای میل میں
       </p>
-      <form
-        action="https://urduai.beehiiv.com/subscribe"
-        method="post"
-        style="display:flex; gap:var(--space-sm); justify-content:center; flex-wrap:wrap;"
-      >
-        <input
-          type="email"
-          name="email"
-          placeholder="آپ کی ای میل"
-          required
-          dir="ltr"
-          style="padding:0.6em 1em; border-radius:6px; border:none; min-width:240px; font-size:1rem;"
-        />
-        <button type="submit" class="btn-playstore" style="border:none; cursor:pointer;">
-          سبسکرائب کریں
-        </button>
-      </form>
+      <div style="display:flex; justify-content:center;">
+        <iframe
+          src="https://www.urduaiupdates.com/embed"
+          width="480"
+          height="320"
+          style="border:1px solid #EEE; background:white; border-radius:6px; max-width:100%;"
+          frameborder="0"
+          scrolling="no"
+          title="اردو اے آئی نیوز لیٹر سبسکرائب کریں"
+          loading="lazy"
+        ></iframe>
+      </div>
     </div>
   </section>
 

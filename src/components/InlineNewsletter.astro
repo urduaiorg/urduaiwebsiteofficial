@@ -1,31 +1,24 @@
 ---
 // InlineNewsletter.astro — urduai.org
-// Compact Beehiiv subscribe form — placed inside articles
+// Substack embed — placed inside articles after content
 ---
 
 <div class="inline-newsletter" aria-label="نیوز لیٹر">
   <div class="inline-newsletter__inner">
-    <div class="inline-newsletter__text">
-      <strong class="inline-newsletter__title">اردو اے آئی نیوز لیٹر</strong>
-      <p class="inline-newsletter__sub">ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس — سیدھے آپ کی ای میل میں</p>
+    <strong class="inline-newsletter__title">اردو اے آئی نیوز لیٹر</strong>
+    <p class="inline-newsletter__sub">ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس — سیدھے آپ کی ای میل میں</p>
+    <div class="inline-newsletter__embed">
+      <iframe
+        src="https://www.urduaiupdates.com/embed"
+        width="480"
+        height="320"
+        style="border:1px solid #EEE; background:white;"
+        frameborder="0"
+        scrolling="no"
+        title="اردو اے آئی نیوز لیٹر سبسکرائب کریں"
+        loading="lazy"
+      ></iframe>
     </div>
-    <form
-      action="https://urduai.beehiiv.com/subscribe"
-      method="post"
-      class="inline-newsletter__form"
-    >
-      <input
-        type="email"
-        name="email"
-        placeholder="آپ کی ای میل"
-        required
-        dir="ltr"
-        class="inline-newsletter__input"
-      />
-      <button type="submit" class="btn-playstore inline-newsletter__btn">
-        سبسکرائب کریں
-      </button>
-    </form>
   </div>
 </div>
 
@@ -35,13 +28,6 @@
     border-radius: 10px;
     padding: var(--space-lg);
     margin-block: var(--space-xl);
-  }
-
-  .inline-newsletter__inner {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-md);
-    align-items: center;
     text-align: center;
   }
 
@@ -55,41 +41,17 @@
   .inline-newsletter__sub {
     color: var(--gold-pale);
     font-size: var(--text-sm);
-    margin: 0;
+    margin: 0 0 var(--space-md);
     line-height: var(--lh-body);
   }
 
-  .inline-newsletter__form {
+  .inline-newsletter__embed {
     display: flex;
-    gap: var(--space-sm);
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
   }
 
-  .inline-newsletter__input {
-    padding: 0.6em 1em;
+  .inline-newsletter__embed iframe {
+    max-width: 100%;
     border-radius: 6px;
-    border: none;
-    min-width: 220px;
-    font-size: 1rem;
-    flex: 1;
-    max-width: 320px;
-  }
-
-  .inline-newsletter__btn {
-    border: none;
-    cursor: pointer;
-    font-size: 0.95rem;
-    white-space: nowrap;
-  }
-
-  @media (max-width: 480px) {
-    .inline-newsletter__input {
-      min-width: 100%;
-    }
-    .inline-newsletter__btn {
-      width: 100%;
-    }
   }
 </style>
