@@ -33,7 +33,7 @@ const entries = all.sort((a, b) => a.data.title.localeCompare(b.data.title, 'ur'
           <p class="card__meta">
             <span class="badge">{e.data.term_english}</span>
           </p>
-          <h2 class="card__title"><a href={`/learn/${e.slug}/`}>{e.data.title}</a></h2>
+          <h2 class="card__title"><a href={`/learn/${e.id}/`}>{e.data.title}</a></h2>
           <p class="card__excerpt">{e.data.description}</p>
         </article>
       ))}

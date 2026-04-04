@@ -274,14 +274,30 @@ pre code {
 .card {
   background: var(--paper-card);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: var(--space-md);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  border-radius: 10px;
+  padding: var(--space-md) var(--space-md) var(--space-sm);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
   border-color: var(--gold);
-  box-shadow: 0 4px 16px rgba(184, 134, 11, 0.1);
+  box-shadow: 0 6px 24px rgba(184, 134, 11, 0.12);
+  transform: translateY(-2px);
+}
+
+.card__image-placeholder {
+  background: linear-gradient(135deg, var(--paper-warm), var(--gold-pale));
+  border-radius: 6px;
+  height: 140px;
+  margin-block-end: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--gold);
+  opacity: 0.5;
 }
 
 .card__meta {
@@ -309,6 +325,10 @@ pre code {
   font-size: var(--text-sm);
   color: var(--ink-soft);
   line-height: var(--lh-body);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* ============================================================
@@ -518,8 +538,14 @@ blockquote strong {
    ============================================================ */
 .ad-slot {
   text-align: center;
-  margin-block: var(--space-lg);
+  margin-block: var(--space-sm);
+  min-height: 0;
+}
+
+/* Only add height when AdSense actually loads */
+.ad-slot:has(.adsbygoogle[data-ad-status="filled"]) {
   min-height: 90px;
+  margin-block: var(--space-lg);
 }
 
 .ad-slot--sidebar {
@@ -709,15 +735,31 @@ img {
    Hero section (homepage)
    ============================================================ */
 .hero {
-  background: var(--ink);
+  background: linear-gradient(160deg, var(--ink) 0%, #2a1f0e 50%, #1a2520 100%);
   color: var(--paper);
-  padding-block: var(--space-2xl);
+  padding-block: var(--space-2xl) calc(var(--space-2xl) * 1.5);
   text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 80%, rgba(184, 134, 11, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at 70% 20%, rgba(14, 107, 94, 0.06) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
   color: var(--paper);
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   margin-block-end: var(--space-sm);
 }
 
@@ -726,27 +768,33 @@ img {
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: var(--gold-pale);
   max-width: 600px;
   margin-inline: auto;
   margin-block-end: var(--space-lg);
+  line-height: 2.4;
 }
 
 .hero__stats {
   display: flex;
   justify-content: center;
-  gap: var(--space-lg);
+  gap: var(--space-xl);
   flex-wrap: wrap;
   margin-block-end: var(--space-lg);
 }
 
 .hero__stat {
   text-align: center;
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(232, 201, 122, 0.15);
+  min-width: 120px;
 }
 
 .hero__stat-number {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   color: var(--gold-light);
   display: block;
@@ -766,8 +814,43 @@ img {
   color: var(--ink);
   margin-block-end: var(--space-md);
   padding-block-end: var(--space-xs);
-  border-block-end: 2px solid var(--gold);
+  border-block-end: 3px solid var(--gold);
   display: inline-block;
+}
+
+/* Category link cards on homepage */
+.card--category {
+  border: 2px solid var(--border);
+  text-align: center;
+  padding: var(--space-lg) var(--space-md);
+  background: var(--paper-card);
+}
+
+.card--category:hover {
+  border-color: var(--teal);
+  background: var(--teal-light);
+}
+
+.card--category .card__icon {
+  font-size: 2rem;
+  margin-block-end: var(--space-xs);
+  display: block;
+}
+
+/* Supported by logos strip */
+.supported-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+  padding-block: var(--space-md);
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+.supported-by span {
+  opacity: 0.7;
 }
 
 /* ============================================================
