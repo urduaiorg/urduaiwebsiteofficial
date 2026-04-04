@@ -1,66 +1,106 @@
 ---
 import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
 ---
+
 <Base
-  title="ہمارے بارے میں — اردو اے آئی"
-  description="اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم ہے۔ اس کا وژن یہ ہے کہ ہر اردو بولنے والا اے آئی کو اعتماد کے ساتھ سمجھ اور استعمال کر سکے۔"
+  title="ہمارے بارے میں — اردو اے آئی | پاکستان کا سب سے بڑا اردو اے آئی پلیٹ فارم"
+  description="اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم ہے — 42,000+ نیوز لیٹر، 10 لاکھ+ کمیونٹی، 50,000+ ایپ ڈاؤنلوڈز۔ S&P Global Foundation ایوارڈ یافتہ۔"
   canonical="https://urduai.org/about/"
   adsense={false}
 >
-  <div class="container container--narrow" style="margin-block:var(--space-2xl);">
-    <nav aria-label="بریڈکرمب">
+  <!-- Hero -->
+  <section style="background:var(--ink); padding-block:var(--space-2xl); margin-block-end:var(--space-2xl);">
+    <div class="container" style="text-align:center;">
+      <h1 style="color:white; margin-block-end:var(--space-sm);">اردو اے آئی کے بارے میں</h1>
+      <p style="color:var(--gold-pale); max-width:600px; margin-inline:auto; line-height:var(--lh-prose);">
+        پاکستان کا سب سے بڑا اردو زبان میں مصنوعی ذہانت خواندگی پلیٹ فارم —
+        جو ۲۵ کروڑ اردو بولنے والوں کے لیے بنایا گیا ہے
+      </p>
+
+      <!-- Real numbers -->
+      <div style="display:flex; justify-content:center; gap:var(--space-xl); flex-wrap:wrap; margin-block-start:var(--space-xl);">
+        <div style="text-align:center;">
+          <span style="display:block; font-size:2.5rem; font-weight:800; color:var(--gold); font-family:'Inter',sans-serif; line-height:1;" dir="ltr">42,000+</span>
+          <span style="color:var(--gold-pale); font-size:var(--text-sm);">نیوز لیٹر سبسکرائبرز</span>
+        </div>
+        <div style="text-align:center;">
+          <span style="display:block; font-size:2.5rem; font-weight:800; color:var(--gold); font-family:'Inter',sans-serif; line-height:1;" dir="ltr">1M+</span>
+          <span style="color:var(--gold-pale); font-size:var(--text-sm);">آن لائن کمیونٹی</span>
+        </div>
+        <div style="text-align:center;">
+          <span style="display:block; font-size:2.5rem; font-weight:800; color:var(--gold); font-family:'Inter',sans-serif; line-height:1;" dir="ltr">50K+</span>
+          <span style="color:var(--gold-pale); font-size:var(--text-sm);">ایپ ڈاؤنلوڈز</span>
+        </div>
+        <div style="text-align:center;">
+          <span style="display:block; font-size:2.5rem; font-weight:800; color:var(--gold); font-family:'Inter',sans-serif; line-height:1;" dir="ltr">250M+</span>
+          <span style="color:var(--gold-pale); font-size:var(--text-sm);">اردو بولنے والے</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container container--narrow">
+    <nav aria-label="بریڈکرمب" style="margin-block-end:var(--space-lg);">
       <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">ہمارے بارے میں</li></ol>
     </nav>
-    <h1>اردو اے آئی کے بارے میں</h1>
+
     <div class="prose">
-      <p>
-        اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں مصنوعی ذہانت خواندگی پلیٹ فارم ہے۔
-        اس کا مقصد یہ ہے کہ اردو بولنے والے افراد، خاندان، اساتذہ، طلبہ، فری لانسرز اور
-        چھوٹے کاروبار اے آئی کو اپنی زبان میں سمجھ سکیں اور اسے اعتماد کے ساتھ استعمال کر سکیں۔
-      </p>
-      <p>
-        ہمارا بنیادی اصول سادہ ہے: ایک پہلی بار اسمارٹ فون استعمال کرنے والا پاکستانی
-        جو اردو بولتا ہے اور جس نے کبھی اے آئی کا نام نہیں سنا، وہ اس سائٹ کو کھولے
-        اور فوری محسوس کرے:
+      <h2>ایک جملے میں ہمارا مقصد</h2>
+      <blockquote>
+        ایک پہلی بار اسمارٹ فون استعمال کرنے والا پاکستانی جو اردو بولتا ہے اور جس نے کبھی
+        اے آئی کا نام نہیں سنا، وہ اس سائٹ کو کھولے اور فوری محسوس کرے:
         <strong>یہ میرے لیے بنا ہے۔</strong>
-      </p>
-      <h2>ہماری وژن</h2>
+      </blockquote>
+
       <p>
-        ہم ایک ایسے مستقبل پر یقین رکھتے ہیں جہاں اے آئی صرف انگریزی جاننے والے یا
-        بڑے شہروں تک محدود لوگوں کی ٹیکنالوجی نہ ہو، بلکہ ہر اردو بولنے والا شخص اسے
-        سیکھ سکے، اپنے کام میں لا سکے، اور اپنی زندگی کے بہتر فیصلوں میں استعمال کر سکے۔
+        اردو اے آئی کی بنیاد اسی سوچ پر ہے۔ دنیا میں ۲۵ کروڑ سے زیادہ اردو بولنے والے ہیں —
+        پاکستان، بھارت، خلیجی ممالک، برطانیہ اور امریکہ میں۔ ان میں سے زیادہ تر لوگوں کے لیے
+        اے آئی کی دنیا انگریزی اور مغربی اداروں تک محدود تھی۔ ہم نے یہ دیوار توڑنے کا فیصلہ کیا۔
       </p>
-      <p>
-        اردو اے آئی کا وژن یہ ہے کہ اے آئی کو مشکل، ڈراؤنی یا صرف ماہرین کی چیز سمجھنے
-        کے بجائے اسے عام فہم، باوقار اور مقامی ضرورتوں کے مطابق علم میں بدلا جائے۔
-      </p>
+
       <h2>ہم کیا کرتے ہیں</h2>
       <ul>
-        <li>اردو میں اے آئی گائیڈز، مضامین اور سادہ وضاحتیں فراہم کرتے ہیں</li>
-        <li>نئے سیکھنے والوں کے لیے مرحلہ وار کورسز اور رہنمائی تیار کرتے ہیں</li>
-        <li>اہم اے آئی ٹولز اور ان کے استعمال کو آسان زبان میں متعارف کرواتے ہیں</li>
-        <li>اردو بولنے والی کمیونٹی کو ایسی معلومات دیتے ہیں جو عملی زندگی میں کام آئیں</li>
+        <li>اردو میں اے آئی گائیڈز، مضامین، اور قدم بقدم ٹیوٹوریلز فراہم کرتے ہیں</li>
+        <li>ChatGPT، Gemini، Claude اور دیگر ٹولز کو اردو میں سمجھاتے ہیں</li>
+        <li>نئے سیکھنے والوں کے لیے مفت کورسز اور سرٹیفکیٹ پروگرام چلاتے ہیں</li>
+        <li>ہر پیشے کے لیے تیار اردو پرامٹس فراہم کرتے ہیں</li>
+        <li>ہر ہفتہ 42,000+ قارئین کو نیوز لیٹر کے ذریعے تازہ ترین اے آئی خبریں بھیجتے ہیں</li>
+        <li>اردو اے آئی لغت میں اے آئی کی تمام اہم اصطلاحات کو سادہ اردو میں بیان کرتے ہیں</li>
       </ul>
-      <h2>اثر اور اعتماد</h2>
+
+      <h2>اعتماد اور اعزازات</h2>
+      <p>
+        اردو اے آئی کو عالمی اداروں کا اعتماد اور اعزاز حاصل ہے:
+      </p>
       <ul>
-        <li>S&amp;P Global Foundation StepForward finalist</li>
-        <li>ElevenLabs official case study</li>
-        <li>Internet Society کی حمایت یافتہ</li>
-        <li>AVPN اور Google.org کی شراکت دار</li>
-        <li>50 ہزار سے زیادہ Android ایپ ڈاؤنلوڈز</li>
-        <li>10 لاکھ سے زیادہ آن لائن کمیونٹی</li>
+        <li><strong>S&amp;P Global Foundation StepForward Award</strong> — $200,000 — سماجی اثر کے لیے</li>
+        <li><strong>ElevenLabs</strong> — آفیشل کیس اسٹڈی — اردو زبان میں اے آئی آواز کے لیے</li>
+        <li><strong>Google.org</strong> — گرانٹ پارٹنر</li>
+        <li><strong>Internet Society</strong> — پارٹنر تنظیم</li>
+        <li><strong>AVPN</strong> — ایشیا وینچر فلینتھروپی نیٹ ورک — سپورٹڈ</li>
       </ul>
+
       <h2>ادارہ جاتی بنیاد</h2>
       <p>
-        اردو اے آئی، <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ اور
-        اقدام ہے۔ WALI ایک ایسا ادارہ ہے جو ٹیکنالوجی، جدت، تعلیم اور مقامی زبانوں میں
-        قابلِ رسائی علم کو فروغ دینے کے لیے کام کرتا ہے۔
+        اردو اے آئی، <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ اور اقدام ہے۔
+        WALI ٹیکنالوجی، جدت اور مقامی زبانوں میں علم کی فراہمی کے لیے کام کرتا ہے۔
+        یہی ادارہ جاتی بنیاد اردو اے آئی کو محض ایک ویب سائٹ سے بڑھ کر ایک طویل مدتی مشن بناتی ہے۔
       </p>
-      <p>
-        اسی ادارہ جاتی بنیاد کی وجہ سے اردو اے آئی صرف ایک ویب سائٹ نہیں بلکہ ایک طویل
-        مدتی وژن ہے: ایسا پلیٹ فارم جو اردو بولنے والی دنیا کو اے آئی کے دور میں پیچھے
-        نہ رہنے دے۔
-      </p>
+
+      <h2>ہمارا پلیٹ فارم</h2>
+      <ul>
+        <li><strong>ویب سائٹ:</strong> urduai.org — 655+ مضامین، گائیڈز اور ٹیوٹوریلز</li>
+        <li><strong>Android ایپ:</strong> 50,000+ ڈاؤنلوڈز — Google Play Store پر</li>
+        <li><strong>نیوز لیٹر:</strong> <a href="/newsletter/">Urdu AI Updates</a> — 42,000+ سبسکرائبرز</li>
+        <li><strong>سوشل میڈیا:</strong> 10 لاکھ+ کمیونٹی — فیس بک، انسٹاگرام، X، TikTok، یوٹیوب</li>
+      </ul>
+
+      <div style="margin-block-start:var(--space-xl); display:flex; gap:var(--space-md); flex-wrap:wrap;">
+        <a href="/newsletter/" class="btn-playstore">نیوز لیٹر سبسکرائب کریں</a>
+        <a href="/app/" style="padding:0.6em 1.5em; border:2px solid var(--navy); border-radius:6px; color:var(--navy); text-decoration:none; font-weight:600;">ایپ ڈاؤنلوڈ کریں</a>
+      </div>
     </div>
   </div>
 </Base>

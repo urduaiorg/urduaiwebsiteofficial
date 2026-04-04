@@ -102,6 +102,7 @@ const websiteSchema = {
     <!-- Sitemap & RSS -->
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی — اے آئی نیوز" href="/news.xml" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -154,8 +155,8 @@ const websiteSchema = {
       <div class="container">
         <div class="site-header__inner">
           <a href="/" class="site-logo">Urdu <span>Ai</span></a>
-          <nav aria-label="مرکزی نیویگیشن">
-            <ul class="site-nav">
+          <nav aria-label="مرکزی نیویگیشن" id="main-nav">
+            <ul class="site-nav" id="site-nav-list">
               <li><a href="/blog/">بلاگ</a></li>
               <li><a href="/guides/">گائیڈز</a></li>
               <li><a href="/how-to/">ہاؤ ٹو</a></li>
@@ -166,9 +167,49 @@ const websiteSchema = {
               <li><a href="/app/">ایپ</a></li>
             </ul>
           </nav>
+          <button
+            class="nav-hamburger"
+            id="nav-hamburger"
+            aria-label="نیویگیشن کھولیں"
+            aria-expanded="false"
+            aria-controls="site-nav-list"
+          >
+            <svg id="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 6h16M4 12h16M4 18h16" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <svg id="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="display:none;">
+              <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
+
+    <script>
+      const btn = document.getElementById('nav-hamburger');
+      const nav = document.getElementById('site-nav-list');
+      const openIcon = document.getElementById('hamburger-icon');
+      const closeIcon = document.getElementById('close-icon');
+
+      if (btn && nav) {
+        btn.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('site-nav--open');
+          btn.setAttribute('aria-expanded', String(isOpen));
+          if (openIcon) openIcon.style.display = isOpen ? 'none' : '';
+          if (closeIcon) closeIcon.style.display = isOpen ? '' : 'none';
+        });
+
+        // Close on outside click
+        document.addEventListener('click', (e) => {
+          if (!btn.contains(e.target) && !nav.contains(e.target)) {
+            nav.classList.remove('site-nav--open');
+            btn.setAttribute('aria-expanded', 'false');
+            if (openIcon) openIcon.style.display = '';
+            if (closeIcon) closeIcon.style.display = 'none';
+          }
+        });
+      }
+    </script>
 
     <!-- Page content -->
     <main>

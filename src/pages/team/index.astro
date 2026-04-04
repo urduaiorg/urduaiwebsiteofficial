@@ -1,40 +1,114 @@
 ---
 import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
 ---
+
 <Base
-  title="ٹیم — اردو اے آئی"
-  description="اردو اے آئی کی ادارہ جاتی بنیاد جانیے۔ یہ Wang Lab of Innovation (WALI) کی ایک پروڈکٹ ہے جو اردو بولنے والوں کے لیے اے آئی خواندگی کو آگے بڑھا رہی ہے۔"
+  title="ٹیم — اردو اے آئی | قیصر رونجھا اور WALI"
+  description="اردو اے آئی کی ٹیم — بانی قیصر رونجھا اور Wang Lab of Innovation (WALI) کے تحت پاکستان میں اردو زبان میں اے آئی خواندگی کا مشن۔"
   canonical="https://urduai.org/team/"
   adsense={false}
 >
-  <div class="container container--narrow" style="margin-block:var(--space-2xl);">
+  <div class="container" style="margin-block:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">ٹیم</li></ol>
     </nav>
-    <h1>ادارہ جاتی بنیاد</h1>
-    <div class="prose">
+
+    <h1>ہماری ٹیم</h1>
+    <p class="text-muted" style="margin-block-end:var(--space-xl);">
+      اردو اے آئی کے پیچھے وہ لوگ جو اے آئی کو اردو بولنے والوں تک پہنچانے کا کام کر رہے ہیں
+    </p>
+
+    <!-- Founder card -->
+    <div class="team-card team-card--founder">
+      <div class="team-card__avatar" aria-hidden="true">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="40" fill="#1d559f" fill-opacity="0.12"/>
+          <circle cx="40" cy="32" r="14" fill="#1d559f" fill-opacity="0.35"/>
+          <ellipse cx="40" cy="66" rx="22" ry="14" fill="#1d559f" fill-opacity="0.25"/>
+        </svg>
+      </div>
+      <div class="team-card__info">
+        <h2 class="team-card__name">قیصر رونجھا</h2>
+        <p class="team-card__role">بانی و ایڈیٹر — اردو اے آئی</p>
+        <p class="team-card__role" dir="ltr" style="font-family:'Inter',sans-serif; font-size:0.9rem; color:var(--ink-muted);">Qaisar Roonjha — Founder &amp; Editor, Urdu AI</p>
+
+        <div style="display:flex; gap:var(--space-xs); flex-wrap:wrap; margin-block:var(--space-sm);">
+          <span class="badge">S&P Global Foundation</span>
+          <span class="badge badge--teal">ElevenLabs Case Study</span>
+          <span class="badge">Google.org</span>
+          <span class="badge">AVPN</span>
+        </div>
+
+        <div class="prose" style="margin-block-start:var(--space-md);">
+          <p>
+            قیصر رونجھا نے اردو اے آئی قائم کی تاکہ ۲۵ کروڑ اردو بولنے والے اے آئی انقلاب سے
+            پیچھے نہ رہیں۔ انہوں نے ایک ایسا پلیٹ فارم بنایا جہاں اے آئی کو نہ صرف سمجھایا جاتا ہے
+            بلکہ اسے عملی، مقامی اور قابلِ استعمال بنایا جاتا ہے۔
+          </p>
+          <p>
+            آج اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں اے آئی پلیٹ فارم ہے —
+            42,000+ نیوز لیٹر سبسکرائبرز، 10 لاکھ+ کمیونٹی، اور 50,000+ ایپ ڈاؤنلوڈز کے ساتھ۔
+          </p>
+        </div>
+
+        <div style="display:flex; gap:var(--space-md); flex-wrap:wrap; margin-block-start:var(--space-md);">
+          <a href="/author/qaisar-roonjha/" style="color:var(--teal); font-size:var(--text-sm);">مضامین پڑھیں ←</a>
+          <a href="https://x.com/urduaiorg" rel="noopener noreferrer" style="color:var(--teal); font-size:var(--text-sm);" dir="ltr">@urduaiorg on X</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- WALI section -->
+    <div class="prose" style="margin-block-start:var(--space-2xl);">
+      <h2>ادارہ جاتی بنیاد</h2>
       <p>
-        اردو اے آئی کو ایک روایتی کارپوریٹ ٹیم پیج کے طور پر نہیں بلکہ ایک مشن پر مبنی
-        پلیٹ فارم کے طور پر سمجھنا زیادہ درست ہے۔ اس کا اصل زور افراد کی فہرست پر نہیں،
-        بلکہ اس وژن پر ہے جس کے تحت اردو بولنے والی کمیونٹی کے لیے اے آئی کو قابلِ فہم
-        اور قابلِ رسائی بنایا جا رہا ہے۔
+        اردو اے آئی <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ اور اقدام ہے۔
+        WALI ٹیکنالوجی، جدت اور مقامی زبانوں میں علم کی رسائی کے لیے کام کرتا ہے۔
+        یہ ادارہ پاکستان میں رجسٹرڈ ہے اور اردو اے آئی اس کا مرکزی عوامی پلیٹ فارم ہے۔
+      </p>
+
+      <h2>ہمارے ساتھ کام کریں</h2>
+      <p>
+        کیا آپ اردو زبان میں اے آئی تعلیم کے مشن میں حصہ لینا چاہتے ہیں؟
+        ہم مضمون نگاروں، مترجمین، ویڈیو بنانے والوں اور اردو AI کمیونٹی کے رضاکاروں کا خیرمقدم کرتے ہیں۔
       </p>
       <p>
-        اردو اے آئی، <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ اور
-        اقدام ہے۔ WALI ٹیکنالوجی، جدت، تعلیم اور مقامی زبانوں میں علم کی فراہمی کے لیے
-        کام کرتا ہے، اور اسی ادارہ جاتی بنیاد کے تحت اردو اے آئی اپنی عوامی خدمت جاری رکھتا ہے۔
-      </p>
-      <h2>ہماری ترجیح</h2>
-      <ul>
-        <li>اردو بولنے والوں کے لیے اے آئی تعلیم کو عام اور قابلِ رسائی بنانا</li>
-        <li>مشکل اصطلاحات کو عام فہم زبان میں بدلنا</li>
-        <li>ایسے رہنما مواد اور کورسز بنانا جو عملی زندگی میں کام آئیں</li>
-        <li>اردو کمیونٹی کو ٹیکنالوجی کے نئے دور میں پیچھے نہ رہنے دینا</li>
-      </ul>
-      <p>
-        اگر آپ اردو اے آئی کے مشن، شراکت داری، یا ادارہ جاتی تعاون کے بارے میں بات کرنا چاہتے ہیں
-        تو <a href="/contact/">رابطہ صفحہ</a> استعمال کریں۔
+        <a href="/contact/">رابطہ صفحہ</a> کے ذریعے ہم سے بات کریں۔
       </p>
     </div>
   </div>
 </Base>
+
+<style>
+  .team-card {
+    background: var(--paper-card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-xl);
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .team-card--founder {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(241, 204, 17, 0.12);
+  }
+
+  .team-card__avatar { flex-shrink: 0; }
+
+  .team-card__name {
+    font-size: var(--text-h2);
+    margin: 0 0 var(--space-xs);
+    color: var(--ink);
+  }
+
+  .team-card__role {
+    color: var(--navy);
+    margin: 0 0 0.2em;
+    font-size: var(--text-base);
+  }
+</style>

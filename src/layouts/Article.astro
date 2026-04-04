@@ -6,6 +6,7 @@ import Base from './Base.astro';
 import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
 import InlineNewsletter from '../components/InlineNewsletter.astro';
+import ShareButtons from '../components/ShareButtons.astro';
 import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface Props {
@@ -202,6 +203,9 @@ const combinedSchema = faqSchema
           />
         )}
       </header>
+
+      <!-- Share buttons — above article body -->
+      <ShareButtons title={title} url={canonical} />
 
       <!-- In-article ad (after intro paragraph — injected by slot position) -->
       <div class="prose" id="article-body">
