@@ -865,9 +865,9 @@ img {
 }
 
 .card--category .card__icon {
-  font-size: 2rem;
-  margin-block-end: var(--space-xs);
-  display: block;
+  margin-block-end: var(--space-sm);
+  display: flex;
+  justify-content: center;
 }
 
 /* Supported by logos strip */
