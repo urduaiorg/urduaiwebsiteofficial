@@ -106,13 +106,21 @@ const websiteSchema = {
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Google Fonts — Noto Nastaliq Urdu -->
+    <!-- Google Fonts — Noto Nastaliq Urdu — non-blocking preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Inter:wght@700;800&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Inter:wght@700;800&display=swap"
+      />
+    </noscript>
 
     <!-- Structured data — Organization (every page) -->
     <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />

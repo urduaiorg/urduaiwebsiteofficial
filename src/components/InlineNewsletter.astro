@@ -1,0 +1,95 @@
+---
+// InlineNewsletter.astro — urduai.org
+// Compact Beehiiv subscribe form — placed inside articles
+---
+
+<div class="inline-newsletter" aria-label="نیوز لیٹر">
+  <div class="inline-newsletter__inner">
+    <div class="inline-newsletter__text">
+      <strong class="inline-newsletter__title">اردو اے آئی نیوز لیٹر</strong>
+      <p class="inline-newsletter__sub">ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس — سیدھے آپ کی ای میل میں</p>
+    </div>
+    <form
+      action="https://urduai.beehiiv.com/subscribe"
+      method="post"
+      class="inline-newsletter__form"
+    >
+      <input
+        type="email"
+        name="email"
+        placeholder="آپ کی ای میل"
+        required
+        dir="ltr"
+        class="inline-newsletter__input"
+      />
+      <button type="submit" class="btn-playstore inline-newsletter__btn">
+        سبسکرائب کریں
+      </button>
+    </form>
+  </div>
+</div>
+
+<style>
+  .inline-newsletter {
+    background: var(--ink);
+    border-radius: 10px;
+    padding: var(--space-lg);
+    margin-block: var(--space-xl);
+  }
+
+  .inline-newsletter__inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    align-items: center;
+    text-align: center;
+  }
+
+  .inline-newsletter__title {
+    display: block;
+    font-size: var(--text-h3);
+    color: var(--gold-light);
+    margin-block-end: var(--space-xs);
+  }
+
+  .inline-newsletter__sub {
+    color: var(--gold-pale);
+    font-size: var(--text-sm);
+    margin: 0;
+    line-height: var(--lh-body);
+  }
+
+  .inline-newsletter__form {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .inline-newsletter__input {
+    padding: 0.6em 1em;
+    border-radius: 6px;
+    border: none;
+    min-width: 220px;
+    font-size: 1rem;
+    flex: 1;
+    max-width: 320px;
+  }
+
+  .inline-newsletter__btn {
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 480px) {
+    .inline-newsletter__input {
+      min-width: 100%;
+    }
+    .inline-newsletter__btn {
+      width: 100%;
+    }
+  }
+</style>

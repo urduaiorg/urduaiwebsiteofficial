@@ -1,0 +1,220 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const authorPosts = allPosts
+  .filter(p => p.data.author === 'قیصر رونجھا')
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 12);
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "قیصر رونجھا",
+  "alternateName": "Qaisar Roonjha",
+  "url": "https://urduai.org/author/qaisar-roonjha/",
+  "jobTitle": "بانی و ایڈیٹر — اردو اے آئی",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "اردو اے آئی",
+    "url": "https://urduai.org"
+  },
+  "sameAs": [
+    "https://x.com/urduaiorg",
+    "https://www.facebook.com/urduaiorg",
+    "https://www.instagram.com/urduaiorg/",
+    "https://www.linkedin.com/in/qaisarroonjha/"
+  ],
+  "knowsAbout": [
+    "Artificial Intelligence",
+    "Urdu Language Technology",
+    "AI Literacy",
+    "Pakistan Technology"
+  ],
+  "award": "S&P Global Foundation StepForward Award"
+};
+---
+
+<Base
+  title="قیصر رونجھا — بانی، اردو اے آئی"
+  description="قیصر رونجھا اردو اے آئی کے بانی اور ایڈیٹر ہیں — پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم۔ S&P Global Foundation ایوارڈ یافتہ۔"
+  canonical="https://urduai.org/author/qaisar-roonjha/"
+  schema={personSchema}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">قیصر رونجھا</li>
+      </ol>
+    </nav>
+
+    <div class="author-profile">
+      <div class="author-profile__header">
+        <div class="author-profile__avatar" aria-hidden="true">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="40" fill="#1d559f" fill-opacity="0.12"/>
+            <circle cx="40" cy="32" r="14" fill="#1d559f" fill-opacity="0.4"/>
+            <ellipse cx="40" cy="64" rx="22" ry="14" fill="#1d559f" fill-opacity="0.3"/>
+          </svg>
+        </div>
+        <div class="author-profile__info">
+          <h1 class="author-profile__name">قیصر رونجھا</h1>
+          <p class="author-profile__role">بانی و ایڈیٹر — اردو اے آئی</p>
+          <div class="author-profile__awards">
+            <span class="badge">S&P Global Foundation</span>
+            <span class="badge badge--teal">ElevenLabs Case Study</span>
+            <span class="badge">Google.org</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="author-profile__bio prose">
+        <p>
+          قیصر رونجھا پاکستان کے اے آئی خواندگی کے میدان میں ایک سرکردہ آواز ہیں۔ انہوں نے اردو اے آئی قائم کی تاکہ ۲۵ کروڑ اردو بولنے والے، جو اے آئی انقلاب تک رسائی سے محروم تھے، اس ٹیکنالوجی کو اپنی زبان میں سمجھ اور استعمال کر سکیں۔
+        </p>
+        <p>
+          اردو اے آئی آج پاکستان کا سب سے بڑا اردو زبان میں اے آئی پلیٹ فارم ہے۔ پلیٹ فارم کو S&P Global Foundation کا StepForward ایوارڈ، ElevenLabs کا کیس اسٹڈی اعزاز، اور Internet Society و Google.org کی حمایت حاصل ہے۔ ایپ کے ۵۰ ہزار سے زائد ڈاؤن لوڈز ہیں اور آن لائن کمیونٹی ۱۰ لاکھ سے تجاوز کر چکی ہے۔
+        </p>
+        <p dir="ltr" style="text-align:left; font-family: Inter, sans-serif; font-size: 0.9rem; color: var(--ink-soft);">
+          Qaisar Roonjha is the founder of Urdu AI — Pakistan's largest AI literacy platform in Urdu.
+          He builds bridges between 250M+ Urdu speakers and the global AI revolution, making AI
+          education accessible, practical, and free.
+        </p>
+      </div>
+
+      <div class="author-profile__social">
+        <a href="https://x.com/urduaiorg" rel="noopener noreferrer" class="author-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.63 5.905-5.63zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor"/>
+          </svg>
+          X (ٹوئٹر)
+        </a>
+        <a href="https://www.facebook.com/urduaiorg" rel="noopener noreferrer" class="author-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" fill="currentColor"/>
+          </svg>
+          فیس بک
+        </a>
+        <a href="https://www.instagram.com/urduaiorg/" rel="noopener noreferrer" class="author-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" fill="currentColor"/>
+          </svg>
+          انسٹاگرام
+        </a>
+      </div>
+    </div>
+
+    {authorPosts.length > 0 && (
+      <section style="margin-block-start: var(--space-2xl);">
+        <h2 class="section-heading">تازہ ترین مضامین</h2>
+        <div class="post-grid">
+          {authorPosts.map(post => (
+            <article class="card">
+              {post.data.image ? (
+                <img
+                  src={`${base}${post.data.image}`}
+                  alt={post.data.title}
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                  style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
+                />
+              ) : (
+                <div class="card__image-placeholder">
+                  <span>Urdu Ai</span>
+                </div>
+              )}
+              <p class="card__meta">
+                <span class="badge">{post.data.category}</span>
+                &nbsp;
+                <time datetime={post.data.date}>
+                  {new Date(post.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
+                </time>
+              </p>
+              <h3 class="card__title"><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+              <p class="card__excerpt">{post.data.description}</p>
+            </article>
+          ))}
+        </div>
+        <p style="text-align:center; margin-block-start: var(--space-md);">
+          <a href="/blog/" style="color:var(--teal); font-weight:600;">تمام مضامین پڑھیں ←</a>
+        </p>
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .author-profile {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-xl);
+    margin-block-start: var(--space-lg);
+    margin-block-end: var(--space-2xl);
+  }
+
+  .author-profile__header {
+    display: flex;
+    gap: var(--space-lg);
+    align-items: flex-start;
+    margin-block-end: var(--space-lg);
+    flex-wrap: wrap;
+  }
+
+  .author-profile__avatar {
+    flex-shrink: 0;
+  }
+
+  .author-profile__name {
+    font-size: var(--text-h1);
+    margin: 0 0 var(--space-xs);
+    color: var(--ink);
+  }
+
+  .author-profile__role {
+    color: var(--navy);
+    font-size: var(--text-base);
+    margin: 0 0 var(--space-sm);
+  }
+
+  .author-profile__awards {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+
+  .author-profile__bio {
+    border-block-start: 1px solid var(--border);
+    padding-block-start: var(--space-md);
+    margin-block-end: var(--space-md);
+  }
+
+  .author-profile__social {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+    border-block-start: 1px solid var(--border);
+    padding-block-start: var(--space-md);
+  }
+
+  .author-social-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    color: var(--teal);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    transition: color 0.2s;
+  }
+
+  .author-social-link:hover {
+    color: var(--navy);
+  }
+</style>

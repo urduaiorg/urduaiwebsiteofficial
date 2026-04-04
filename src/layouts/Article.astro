@@ -4,6 +4,8 @@
 
 import Base from './Base.astro';
 import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
+import RelatedPosts from '../components/RelatedPosts.astro';
+import InlineNewsletter from '../components/InlineNewsletter.astro';
 import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface Props {
@@ -17,6 +19,7 @@ export interface Props {
   adsense?: boolean;
   slug: string;
   collection: string; // 'blog' | 'guides' | 'prompts'
+  faq?: { question: string; answer: string }[];
 }
 
 const {
@@ -30,6 +33,7 @@ const {
   adsense = true,
   slug,
   collection,
+  faq = [],
 } = Astro.props;
 
 const canonical = `https://urduai.org/${collection}/${slug}/`;
@@ -50,10 +54,11 @@ const formattedDate = dateObj.toLocaleDateString('ur-PK', {
 const collectionComments = legacyCommentsData.commentsByCollection[collection] ?? {};
 const legacyComments = collectionComments[slug] ?? [];
 
-// Article schema
+// Article/NewsArticle schema — auto-switches type for اے آئی اپڈیٹ category
+const isNewsPost = category === 'اے آئی اپڈیٹ';
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": isNewsPost ? "NewsArticle" : "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": canonical,
@@ -62,10 +67,14 @@ const articleSchema = {
   "description": description,
   "datePublished": date,
   "dateModified": date,
+  ...(isNewsPost ? {
+    "articleSection": "اے آئی اپڈیٹ",
+    "dateline": "پاکستان",
+  } : {}),
   "author": {
     "@type": "Person",
     "name": author,
-    "url": "https://urduai.org/about/",
+    "url": "https://urduai.org/author/qaisar-roonjha/",
   },
   "publisher": {
     "@type": "Organization",
@@ -85,6 +94,20 @@ const articleSchema = {
     "height": 480,
   }} : {}),
 };
+
+// FAQPage schema — generated when faq array is present in frontmatter
+const faqSchema = faq.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faq.map(({ question, answer }) => ({
+    "@type": "Question",
+    "name": question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": answer,
+    },
+  })),
+} : null;
 
 // Breadcrumb schema
 const breadcrumbSchema = {
@@ -112,7 +135,9 @@ const breadcrumbSchema = {
   ]
 };
 
-const combinedSchema = [articleSchema, breadcrumbSchema];
+const combinedSchema = faqSchema
+  ? [articleSchema, breadcrumbSchema, faqSchema]
+  : [articleSchema, breadcrumbSchema];
 ---
 
 <Base
@@ -213,6 +238,12 @@ const combinedSchema = [articleSchema, breadcrumbSchema];
       )}
 
       <LegacyCommentsSection comments={legacyComments} />
+
+      <!-- Related posts — same category -->
+      {category && <RelatedPosts currentSlug={slug} category={category} />}
+
+      <!-- Inline newsletter — captures engaged readers -->
+      <InlineNewsletter />
 
       <!-- App CTA strip — shown after 70% scroll -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">

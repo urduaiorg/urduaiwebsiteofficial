@@ -1,0 +1,115 @@
+---
+// RelatedPosts.astro — urduai.org
+// Shows 3 posts from the same category below each article
+
+import { getCollection } from 'astro:content';
+
+export interface Props {
+  currentSlug: string;
+  category: string;
+}
+
+const { currentSlug, category } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const related = allPosts
+  .filter(p => p.id !== currentSlug && p.data.category === category)
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+---
+
+{related.length > 0 && (
+  <section class="related-posts" aria-label="متعلقہ مضامین">
+    <h3 class="related-posts__heading">متعلقہ مضامین</h3>
+    <div class="related-posts__grid">
+      {related.map(post => (
+        <a href={`/blog/${post.id}/`} class="related-card">
+          {post.data.image ? (
+            <img
+              src={`${base}${post.data.image}`}
+              alt={post.data.title}
+              width="280"
+              height="157"
+              loading="lazy"
+              class="related-card__img"
+            />
+          ) : (
+            <div class="related-card__placeholder">
+              <span>Urdu Ai</span>
+            </div>
+          )}
+          <span class="related-card__title">{post.data.title}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .related-posts {
+    margin-block-start: var(--space-xl);
+    padding-block-start: var(--space-lg);
+    border-block-start: 2px solid var(--border);
+  }
+
+  .related-posts__heading {
+    font-size: var(--text-h3);
+    color: var(--ink);
+    margin-block-end: var(--space-md);
+  }
+
+  .related-posts__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--space-md);
+  }
+
+  .related-card {
+    text-decoration: none;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .related-card:hover {
+    border-color: var(--navy);
+  }
+
+  .related-card__img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .related-card__placeholder {
+    width: 100%;
+    height: 130px;
+    background: var(--paper-warm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+  }
+
+  .related-card__title {
+    font-size: var(--text-sm);
+    line-height: var(--lh-h3);
+    padding: var(--space-xs) var(--space-sm) var(--space-sm);
+    color: var(--ink);
+  }
+
+  @media (max-width: 600px) {
+    .related-posts__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -20,6 +20,11 @@ const blog = defineCollection({
     author: z.string().default('قیصر رونجھا'),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
+    // Optional FAQ pairs — used to generate FAQPage schema for featured snippets
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 
