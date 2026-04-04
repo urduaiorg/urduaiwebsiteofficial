@@ -62,4 +62,4 @@ GPT-4.1 کی مکمل تکنیکی تفصیل، ابتدا اور تجزیہ آ�
  
 
 
-[web_stories title="true" excerpt="false" author="true" date="true" archive_link="true" archive_link_label="🔗https://urduai.org/openais-new-model-gpt-4-1-when-writing-code-was-also-entrusted-to-ai" circle_size="150" sharp_corners="true" image_alignment="left" number_of_columns="1" number_of_stories="10" order="DESC" orderby="post_title" view="carousel" /]
+[web_stories title="true" excerpt="false" author="true" date="true" archive_link="true" archive_link_label="https://urduai.org/openais-new-model-gpt-4-1-when-writing-code-was-also-entrusted-to-ai" circle_size="150" sharp_corners="true" image_alignment="left" number_of_columns="1" number_of_stories="10" order="DESC" orderby="post_title" view="carousel" /]
