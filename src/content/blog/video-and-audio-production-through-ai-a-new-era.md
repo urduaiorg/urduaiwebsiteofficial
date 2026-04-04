@@ -28,7 +28,7 @@ draft: false
 ### آڈیو پروڈکشن میں اے آئی کا کردار
 
 
-دوستوں، [آڈیو](https://elevenlabs.io/?pscd=try.elevenlabs.io&ps_partner_key=ZDMwYzIyOGYwOGZi&ps_xid=PMlOuwDovleoOE&gsxid=PMlOuwDovleoOE&gspk=ZDMwYzIyOGYwOGZi) پروڈکشن میں بھی اے آئی نے تبدیلی لا دی ہے۔ اے آئی[ موسیقی](https://suno.com/) بنانے، [وائس اوور](https://www.hedra.com/) کی تخلیق، اور آواز کو صاف کرنے کے عمل میں مدد فراہم کرتا ہے۔ یہ [ٹولز آڈیو](https://urduai.org/apps/) کو زیادہ واضح اور صاف بناتے ہیں اور شور کو ختم کرتے ہیں۔
+دوستوں، [آڈیو](https://elevenlabs.io/?pscd=try.elevenlabs.io&ps_partner_key=ZDMwYzIyOGYwOGZi&ps_xid=PMlOuwDovleoOE&gsxid=PMlOuwDovleoOE&gspk=ZDMwYzIyOGYwOGZi) پروڈکشن میں بھی اے آئی نے تبدیلی لا دی ہے۔ اے آئی[ موسیقی](https://suno.com/) بنانے، [وائس اوور](https://www.hedra.com/) کی تخلیق، اور آواز کو صاف کرنے کے عمل میں مدد فراہم کرتا ہے۔ یہ [ٹولز آڈیو](/tools/) کو زیادہ واضح اور صاف بناتے ہیں اور شور کو ختم کرتے ہیں۔
 
 ### اے آئی کی مدد سے آڈیو اور ویڈیو کی ہم آہنگی
 

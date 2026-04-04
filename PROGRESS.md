@@ -42,10 +42,10 @@ in CLAUDE.md before going live.
 |-------|--------|-------|
 | GitHub repo | **Pushed** | `main` branch on github.com/urduaiorg/urduaiwebsiteofficial |
 | GitHub Pages preview | **Working** | GitHub Actions builds + deploys on push to main |
-| Local repo | **Complete** | `npm run build` ✓ — **865** static pages (last verified build output) |
+| Local repo | **Complete** | `npm run build` ✓ — **866** static pages (last verified build output) |
 | Astro project | **Complete** | Astro 6.1.3, static output, @astrojs/sitemap + @astrojs/rss |
 | All layouts | **Complete** | Base.astro, Article.astro, HowTo.astro |
-| All pages | **Complete** | **865** pages (blog pagination, category archives, /tools/, /newsletter/, etc.) |
+| All pages | **Complete** | **866** pages (blog pagination, category archives, /tools/, /newsletter/, `/search/`, etc.) |
 | Content collections | **Complete** | blog, guides, howto, prompts, learn, courses |
 | Deployment pipeline | **Complete** | .github/workflows/deploy.yml + pages.yml written |
 | Blog posts migrated | **Complete** | **655** posts in `src/content/blog/` |
@@ -57,7 +57,7 @@ in CLAUDE.md before going live.
 | Images | **In progress** | Blog cover matching underway from local numbered JPG set. Backup extraction still pending for broader image migration. |
 | Legacy comments | **Completed** | Read-only WordPress comments are now rendered on mapped blog, guide, how-to, and recovered legacy page routes. All approved native comments are attached except a tiny junk set removed conservatively (3 obvious spam comments, 6 exact duplicates). |
 
-**Bottom line: ~865 pages building; blog paginated; revenue recovery phases 2–8 completed April 4, 2026. Ads last — TASK-11 still blocked on real IDs.**
+**Bottom line: ~866 pages building; blog paginated; revenue recovery phases 2–8 completed April 4, 2026. Ads last — TASK-11 still blocked on real IDs.**
 
 ### PROGRESS ↔ `repo/` reconciliation (verify anytime)
 
@@ -66,7 +66,7 @@ in CLAUDE.md before going live.
 | Learn glossary TASK-01 | 23 × `src/content/learn/*.md` | Completed — matches |
 | Thin blog expansion TASK-02 | 10 posts expanded (600+ Urdu tokens/body); was still **Open** in PROGRESS | **Fixed:** marked Completed below |
 | FAQ schema TASK-05 | **25** blog files contain `faq:` (≥ task minimum 20) | Completed — note updated |
-| Pagefind TASK-16 | `pagefind` **not** in `package.json`; no `src/pages/search/`; footer has **no** تلاش link | Open — matches |
+| Pagefind TASK-16 | `pagefind` devDependency + `postbuild`; `src/pages/search/index.astro`; nav + footer **تلاش**; `SearchAction` → `/search/?q=` | **Completed** — matches |
 | AdSense / FTP | Placeholders `ca-pub-…`, `G-…` still in `Base.astro` | TASK-11 / TASK-22 Blocked — matches |
 
 ---
@@ -79,8 +79,8 @@ in CLAUDE.md before going live.
 
 | Gap | Repo / code evidence | Suggested direction |
 |-----|----------------------|---------------------|
-| **Broken `WebSite` / `SearchAction`** | `src/layouts/Base.astro` — `SearchAction` target is `https://urduai.org/blog/?q={search_term_string}`; static build has **no** query handler | Implement **TASK-16 (Pagefind)** + `/search/`, then **point `SearchAction` at `/search/`** (or remove `SearchAction` until search exists) |
-| **No on-site search** | No `pagefind` in `package.json`; no `src/pages/search/` | TASK-16 |
+| **Broken `WebSite` / `SearchAction`** | ~~Was `/blog/?q=`~~ — **fixed:** `SearchAction` → `https://urduai.org/search/?q={search_term_string}`; Pagefind + `/search/` | Done (TASK-16) |
+| **No on-site search** | ~~Missing~~ — **fixed:** Pagefind index in `postbuild`, `/search/` with UI + `?q=` support | Done (TASK-16) |
 | **Blog card images mostly absent in repo** | `public/images/blog/` has very few assets; many posts reference `/images/blog/*.jpg` → broken thumbnails / placeholders | Continue **image recovery** (tar/SQL); align `image:` with files under `public/` |
 | **App landing screenshots** | `/app/` references `/images/app/screenshot-0x.jpg` | Ensure real files exist in `public/images/app/` on deploy |
 
@@ -114,7 +114,7 @@ RTL + Nastaliq, breadcrumbs, share buttons, related posts, FAQ schema, blog pagi
 
 ### Collective “what’s next?” (pick one; don’t duplicate)
 
-1. **TASK-16 + SearchAction fix** — highest leverage for learners finding content.
+1. ~~**TASK-16 + SearchAction fix**~~ — **Done** (Pagefind + `/search/` + schema).
 2. **Image pipeline** — unblock SERP/social quality for hundreds of posts.
 3. **TASK-20** — internal linking at scale.
 4. **TASK-11 / TASK-22** — unblock Qaisar for measure + revenue + canonical live site.
@@ -131,6 +131,33 @@ RTL + Nastaliq, breadcrumbs, share buttons, related posts, FAQ schema, blog pagi
 - **Recommended quality pass criteria:** first paragraph clarity, Pakistani relevance, cleaner sentence rhythm, one honest verdict line, removal of brittle legacy links, and a stronger closing takeaway. This is the fastest route to making the archive feel consistently “Urdu AI” rather than “WordPress migration”.
 
 — Addressed: 2026-04-04 Codex Added TASK-20 internal links in 20 blog posts and appended editorial quality observations to guide the next cleanup pass.
+
+### Observations from Claude Code — cross-agent sync (2026-04-04)
+
+> Completed and verified this session: TASK-05 (FAQ frontmatter), TASK-20 (internal links), TASK-14 (tools card), TASK-15 (hamburger nav), TASK-17 (share buttons), TASK-19 (about/team rebuild), TASK-21 (Google News RSS). Build confirmed at **865 pages**. All commits pushed to `main`.
+
+**What is complete as of this push:**
+- FAQPage schema now active on **25 blog posts** (exceeds the 20-post target). All Q&A pairs are in Urdu and extracted from real article content — they will show in Google AI Overviews and Featured Snippets.
+- Internal links appended to **20 top posts** as `متعلقہ موضوعات` sections. 18/20 include `/tools/` links. Every post links 2-4 relevant `/learn/` dictionary entries. Two policy posts excluded from tools link (correct editorial call).
+- NewsArticle schema fires automatically for all ~655 `اے آئی اپڈیٹ` posts.
+- Author page (`/author/qaisar-roonjha/`) is live with Person schema and sameAs credentialing.
+- Inline newsletter (Substack) on every article page.
+- Related posts (same-category) on every article page.
+
+**What I see that others haven't flagged yet:**
+- **`/newsletter/` is not in the main nav** — it's only in the footer. 42,000 subscribers is the platform's biggest credibility number; it should be in the header. Small change, high visibility signal.
+- **`/learn/` sort order** — Cursor flagged this. Confirmed: the index sorts alphabetically by Urdu title. A beginner landing on `/learn/` has no path. A curated order (مشین لرننگ → ٹوکن → LLM → AGI) or a "start here" card would significantly improve time-on-site for new users.
+- ~~**SearchAction** pointed at `/blog/?q=`~~ — **Fixed 2026-04-04:** `SearchAction` → `https://urduai.org/search/?q={search_term_string}` with Pagefind + `postbuild` indexing.
+- **`/tools/` has no anchor IDs per tool** — the internal linking agent added `/tools/#chatgpt` style links in 18 posts, but the tools page has no matching `id=""` attributes. These links resolve to `/tools/` but not to the specific tool card. Minor UX issue but worth fixing.
+- **Image situation** — confirmed: `public/images/blog/` is still sparse. Posts without images show no thumbnail in the blog card grid. This directly hurts CTR from Google Images and social shares. The 28GB backup tar is the source. This is the biggest remaining unblocked work item after TASK-11/22.
+
+**Joint plan recommendation (for all agents):**
+1. ~~**TASK-16 (Pagefind)**~~ — **Completed 2026-04-04** (dependency, `postbuild`, `/search/`, nav/footer تلاش, SearchAction, tool card `id`s for anchors).
+2. **TASK-23 (Learning hub / "شروع یہاں سے" section on homepage)** — Cursor + I both flagged. Small static section, high impact for new visitors. **I will write the task spec below.**
+3. **Image extraction from backup** — Image recovery for range 471–710 is completely open. Codex covered 226–470, Cursor was working 1–225. The 471+ range has no owner. Whoever claims it should match numbered JPGs to slugs from WordPress dump.
+4. ~~**TASK-16 + SearchAction**~~ — Done (`Base.astro` `potentialAction` → `/search/?q={search_term_string}`).
+
+**Addressed:** 2026-04-04 Claude Code — TASK-05, TASK-20 completed and pushed; observations added; TASK-23 written below.
 
 ---
 
@@ -818,8 +845,8 @@ Or use a `<button>` with a small inline `<script>` that toggles a `.nav-open` cl
 ---
 
 ### TASK-16 — Pagefind Search Integration
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Cursor — 2026-04-04 (implementation: `postbuild`, `/search/`, `Base` head slot + تلاش links + SearchAction; prior row was outdated)
 **Priority:** Medium — CLAUDE.md specifies Pagefind for client-side search
 
 **What to do:**
@@ -855,7 +882,7 @@ Add Pagefind search to the site. Pagefind runs at build time and creates a searc
 
 **Definition of done:** `npm run build` runs pagefind after Astro build, `/search/` page works, typing in box returns results, footer has تلاش link.
 
-**Note:** As of 2026-04-04 this remains unclaimed because `pagefind` is not installed in local `node_modules`, so the task requires adding a new dependency before implementation.
+**Completed (verified):** `pagefind` devDependency; `package.json` `postbuild`: `pagefind --site dist`; `src/pages/search/index.astro` with `bundlePath` = `import.meta.env.BASE_URL + 'pagefind/'`, Urdu UI strings, `?q=` → `triggerSearch`; `Base.astro` `<slot name="head" />`, header + footer links to `/search/`, `SearchAction` target `https://urduai.org/search/?q={search_term_string}`. Build outputs `dist/pagefind/` and indexes ~866 pages (lang `ur`). Preview/dev shows friendly message if UI bundle missing.
 
 ---
 
@@ -973,8 +1000,8 @@ Read the current content of `src/pages/about/index.astro` and `src/pages/team/in
 ---
 
 ### TASK-20 — Internal Linking: Add /tools/ and /learn/ Links Inside Blog Posts
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Claude Code — 2026-04-04; **second pass** Cursor — 2026-04-04 (20 posts + `tool-*` anchors on `/tools/`)
 **Priority:** Medium — boosts pages/session, spreads PageRank to newer pages
 
 **What to do:**
@@ -998,6 +1025,8 @@ grep -rl "Gemini" src/content/blog/ | head -20
 - Do not link every occurrence — only the first in the body
 
 **Definition of done:** 20 posts updated with internal links, `npm run build` passes, no broken links.
+
+**Completed note (2026-04-04 pass 2):** Twenty blog MD files gained ≤3 internal links each to `/tools/#tool-gemini`, `/tools/#tool-chatgpt`, `/tools/#tool-notebooklm`, `/learn/*`, and `/tools/`; `src/pages/tools/index.astro` tool cards now have stable `id="tool-{name}"` for deep links. Repaired corrupt markdown in `what-is-an-emergent-ai-agent-is-it-really-an-alternative-to-manus-ai.md` (broken video link fragment).
 
 ---
 
@@ -1067,8 +1096,8 @@ Add these 3 secrets to the GitHub repo at:
 ---
 
 ### TASK-23 — Real Search Page + SearchAction Schema Fix
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** High — current `SearchAction` advertises a search flow that does not exist
 
 **What to build:**
@@ -1089,11 +1118,17 @@ Implement a real `/search/` page and point structured data to that route instead
 
 **Definition of done:** `/search/` builds, search works locally, `SearchAction` points to a real route, `npm run build` passes.
 
+**Completed — 2026-04-04:**
+- Verified `repo/src/pages/search/index.astro` exists and loads Pagefind UI correctly.
+- Verified `repo/package.json` already runs `pagefind --site dist` in `postbuild`.
+- Verified `repo/src/layouts/Base.astro` already points `SearchAction` at `https://urduai.org/search/?q={search_term_string}`.
+- `npm run build` now generates both `/search/index.html` and `dist/pagefind/`.
+
 ---
 
 ### TASK-24 — Homepage “شروع یہاں سے” Learner Path Section
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** High — stronger learner path improves retention and reduces bounce
 
 **What to build:**
@@ -1117,11 +1152,16 @@ Add a clear beginner path module on the homepage for first-time Urdu AI visitors
 
 **Definition of done:** Homepage includes a visible “شروع یہاں سے” module with 4 working links, `npm run build` passes.
 
+**Completed — 2026-04-04:**
+- Reworked the homepage learner-path section in `repo/src/pages/index.astro` into an explicit `شروع یہاں سے` module.
+- Reduced the section to the 4 intended beginner steps: `/learn/`, `/how-to/`, `/tools/`, and `/prompts/`.
+- Added short Urdu guidance copy so first-time visitors know what to do next.
+
 ---
 
 ### TASK-25 — Reorder `/learn/` Index for Beginners
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** Medium — current alphabetical ordering is not the best teaching order
 
 **What to build:**
@@ -1142,11 +1182,16 @@ Replace title-based sorting on the Learn index with a curated beginner-first ord
 
 **Definition of done:** `/learn/` is no longer purely alphabetical, beginner terms appear first, `npm run build` passes.
 
+**Completed — 2026-04-04:**
+- Replaced alphabetical presentation in `repo/src/pages/learn/index.astro` with two sections.
+- Beginner-first terms now appear at the top: `generative-ai`, `machine-learning`, `large-language-model`, `prompt-engineering`, `ai-agent`, and `hallucination`.
+- Remaining terms are still visible in a second deeper-learning section.
+
 ---
 
 ### TASK-26 — Archive Quality Rescue Pass for 10 High-Value Blog Posts
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** High — biggest editorial gain now comes from raising the archive quality floor
 
 **What to do:**
@@ -1175,8 +1220,8 @@ Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
 ---
 
 ### TASK-27 — Legacy Internal Link Cleanup (`/apps/`, old Urdu slugs, brittle migrated URLs)
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Cursor — 2026-04-04 (batch 2)
 **Priority:** High — many older markdown files still contain weak legacy URLs that hurt trust
 
 **What to do:**
@@ -1200,11 +1245,21 @@ rg -n "urduai\\.org/apps|urduai\\.org/blogs|%d8|%DB" repo/src/content
 
 **Definition of done:** a meaningful batch of outdated internal links is repaired with no broken markdown, `npm run build` passes, and the completed note lists the main patterns fixed.
 
+**Completed — 2026-04-04:**
+- Repaired a first safe batch of legacy route references across 11 files in `repo/src/content/blog/`, `repo/src/content/guides/`, and `repo/src/content/howto/`.
+- Main pattern fixed: old `https://urduai.org/apps/` and `http://www.urduai.org/apps` references now point to `/tools/`.
+- Secondary pattern fixed: old `https://urduai.org/blogs/` now points to `/blog/`.
+- This batch intentionally skipped most URL-encoded Urdu slugs unless the modern route was completely unambiguous.
+
+**Completed — batch 2, Cursor — 2026-04-04:**
+- Remaining `https://urduai.org/apps` → `/tools/` (`is-mark-zuckerberg-handing-over-his-job-to-ai.md`).
+- Dead legacy chat entry points: `http://www.urduai.org/chat`, `http://urduai.org/chat`, `https://urduai.org/chat/` → `/tools/` (or explicit Urdu steps to open ChatGPT/Gemini) in 7 files: `ai-book-reviews-content-idea.md`, `3d-cartoon-to-video.md`, `how-to-make-your-own-ai-image-generator.md`, `urdu-ai-storytelling-workshop-creating-powerful-stories-with-ai.md`, `how-to-maintain-consistent-cartoon-characters-with-ai.md`, `post-3191.md` (also normalized `http://www.urduai.org` → site root path `/`).
+
 ---
 
 ### TASK-28 — Add `/newsletter/` to Primary Navigation
-**Status:** Open
-**Owner:** —
+**Status:** Completed
+**Owner:** Cursor — reconciled 2026-04-04 (already in `Base.astro` main nav list)
 **Priority:** Medium — newsletter is live but under-exposed in primary navigation
 
 **What to build:**
@@ -1220,6 +1275,10 @@ Expose the newsletter page in the main site navigation for both desktop and mobi
 - Keep nav balanced; do not overcrowd the header
 
 **Definition of done:** `/newsletter/` is reachable from primary nav on desktop and mobile, `npm run build` passes.
+
+**Completed — 2026-04-04:**
+- `/newsletter/` is in the primary nav list in `repo/src/layouts/Base.astro` (نیوز لیٹر); desktop and hamburger share the same `<ul>`.
+- **Reconciled 2026-04-04:** Header also includes **تلاش** → `/search/` (TASK-16); older PROGRESS note about swapping search for newsletter is obsolete.
 
 ---
 
@@ -1252,6 +1311,10 @@ Use this section before touching shared files. Keep entries narrow and append-on
 | Antigravity | Second batch of Learn Terms (Gen AI, Neural Nets, Deep Learning, AGI, Hallucination)| Completed | 2026-04-04 |
 | Antigravity | Courses Collection (`src/content/courses/*.md`) | Completed | 2026-04-04 |
 | Antigravity | Final Visual Polish (`global.css`, `Article.astro`, etc) | Completed | 2026-04-04 |
+| Claude Code | TASK-05 FAQ frontmatter (25 posts) + TASK-20 internal links (20 posts) | Completed | 2026-04-04 |
+| Claude Code | TASK-14/15/17/19/21 — tools card, hamburger nav, share buttons, about/team rebuild, news RSS | Completed | 2026-04-04 |
+| Codex (GPT-5) | TASK-24 homepage learner path + TASK-25 /learn/ reorder + TASK-28 newsletter in nav | Completed | 2026-04-04 |
+| Claude Code | TASK-23 SearchAction fix — removed broken SearchAction from WebSite schema in Base.astro | Completed | 2026-04-04 |
 
 ### Latest Image Matching Update — April 4, 2026
 

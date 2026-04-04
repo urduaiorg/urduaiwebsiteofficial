@@ -35,7 +35,7 @@ draft: false
 
 اے آئی کے شعبے میں سرمایہ کاری نے گزشتہ دو برسوں میں امریکی اسٹاک مارکیٹ میں تیزی کو ہوا دی تھی۔ لیکن اب ماہرین ممکنہ مالیاتی ببل کے خدشات کا اظہار کر رہے ہیں۔
 
-[ڈیپ سیک](https://urduai.org/the-chinese-artificial-intelligence-program-that-threatened-the-us-technology-market/) کو لانچ کے صرف ایک ہفتے میں امریکہ میں سب سے زیادہ[ ڈاؤن لوڈ](https://urduai.org/apps/) کی جانے والی[ مفت ایپ](https://urduai.org/deepseek-is-the-new-model/) ہونے کا اعزاز حاصل ہو گیا ہے۔
+[ڈیپ سیک](https://urduai.org/the-chinese-artificial-intelligence-program-that-threatened-the-us-technology-market/) کو لانچ کے صرف ایک ہفتے میں امریکہ میں سب سے زیادہ[ ڈاؤن لوڈ](/tools/) کی جانے والی[ مفت ایپ](https://urduai.org/deepseek-is-the-new-model/) ہونے کا اعزاز حاصل ہو گیا ہے۔
 
 یہ ایسے وقت میں ہوا جب امریکہ چین کے ساتھ تکنیکی دوڑ میں مگن ہے۔ اور چین کو جدید چپ ٹیکنالوجی کی فروخت پر پابندیاں لگا رہا ہے۔ چینی ڈیولپرز نے درآمد شدہ چپس پر انحصار کم کرنے کے لیے نئی تکنیکوں کو آزمایا ہے۔ جس کے نتیجے میں کم کمپیوٹنگ پاور استعمال کرنے والے اے آئی ماڈلز سامنے آئے ہیں۔
 

@@ -59,7 +59,7 @@ const websiteSchema = {
   "inLanguage": "ur",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://urduai.org/blog/?q={search_term_string}",
+    "target": "https://urduai.org/search/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 };
@@ -123,6 +123,8 @@ const websiteSchema = {
       />
     </noscript>
 
+    <slot name="head" />
+
     <!-- Structured data — Organization (every page) -->
     <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
@@ -163,6 +165,7 @@ const websiteSchema = {
               <li><a href="/prompts/">پرامٹس</a></li>
               <li><a href="/tools/">ٹولز</a></li>
               <li><a href="/learn/">اردو لغت</a></li>
+              <li><a href="/newsletter/">نیوز لیٹر</a></li>
               <li><a href="/courses/">کورسز</a></li>
               <li><a href="/app/">ایپ</a></li>
             </ul>
@@ -233,6 +236,7 @@ const websiteSchema = {
               <li><a href="/prompts/">پرامٹ کلیکشنز</a></li>
               <li><a href="/tools/">اے آئی ٹولز</a></li>
               <li><a href="/learn/">اردو اے آئی لغت</a></li>
+              <li><a href="/search/">تلاش</a></li>
               <li><a href="/newsletter/">نیوز لیٹر</a></li>
             </ul>
           </div>

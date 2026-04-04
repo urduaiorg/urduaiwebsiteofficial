@@ -208,7 +208,11 @@ const categories = [...new Set(tools.map(t => t.category))];
     <!-- Tools grid -->
     <div class="tools-grid" id="tools-grid">
       {tools.map(tool => (
-        <article class="tool-card" data-category={tool.category}>
+        <article
+          class="tool-card"
+          data-category={tool.category}
+          id={`tool-${tool.name.toLowerCase().replace(/\s+/g, '-')}`}
+        >
           <div class="tool-card__header">
             <div class="tool-card__icon" aria-hidden="true" set:html={tool.icon} />
             <div class="tool-card__title-group">
