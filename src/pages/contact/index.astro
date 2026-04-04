@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Base
   title="رابطہ — اردو اے آئی"
@@ -9,7 +10,7 @@ import Base from '../../layouts/Base.astro';
 >
   <div class="container container--narrow" style="margin-block:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">رابطہ</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">رابطہ</li></ol>
     </nav>
     <h1>رابطہ کریں</h1>
     <div class="prose">
@@ -25,7 +26,7 @@ import Base from '../../layouts/Base.astro';
         <li><a href="https://www.instagram.com/urduaiorg/" rel="noopener">انسٹاگرام: @urduaiorg</a></li>
       </ul>
       <p>
-        <strong>اشتہارات اور برانڈ تعاون:</strong> <a href="/advertise/">اشتہار کا صفحہ دیکھیں</a>
+        <strong>اشتہارات اور برانڈ تعاون:</strong> <a href={`${base}/advertise/`}>اشتہار کا صفحہ دیکھیں</a>
       </p>
       <p>
         <strong>ادارہ جاتی یا شراکتی رابطہ:</strong> اگر آپ کسی پروگرام، ٹریننگ، یا تعاون کے بارے میں

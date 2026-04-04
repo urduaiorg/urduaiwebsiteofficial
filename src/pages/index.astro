@@ -43,7 +43,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
 
-      <a href="/app/" class="btn-playstore" style="font-size:1.1rem; padding: 0.7em 2em;">
+      <a href={`${base}/app/`} class="btn-playstore" style="font-size:1.1rem; padding: 0.7em 2em;">
         مفت ایپ ڈاؤن لوڈ کریں
       </a>
 
@@ -104,7 +104,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       ))}
     </div>
     <p style="text-align:center; margin-block-start: var(--space-md);">
-      <a href="/blog/" style="color:var(--teal); font-weight:600;">تمام مضامین پڑھیں ←</a>
+      <a href={`${base}/blog/`} style="color:var(--teal); font-weight:600;">تمام مضامین پڑھیں ←</a>
     </p>
   </section>
 
@@ -137,7 +137,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         ))}
       </div>
       <p style="text-align:center; margin-block-start: var(--space-md);">
-        <a href="/guides/" style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
+        <a href={`${base}/guides/`} style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
       </p>
     </section>
   )}
@@ -171,7 +171,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       اگر آپ پہلی بار اردو اے آئی پر آئے ہیں تو ان چار قدموں سے آغاز کریں: پہلے اصطلاحات سمجھیں، پھر ایک ٹول استعمال کرنا سیکھیں، اس کے بعد اپنے لیے مناسب ٹول ڈھونڈیں، اور آخر میں تیار پرامٹس آزما لیں۔
     </p>
     <div class="post-grid">
-      <a href="/learn/" class="card card--category" style="text-decoration:none;">
+      <a href={`${base}/learn/`} class="card card--category" style="text-decoration:none;">
         <span class="card__icon">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
@@ -183,7 +183,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <h3 class="card__title" style="margin-block-start:0;">اردو اے آئی لغت</h3>
         <p class="card__excerpt">AI کیا ہے، ایجنٹ کیا ہوتا ہے، اور پرامپٹ انجینئرنگ کیوں اہم ہے — سب آسان اردو میں</p>
       </a>
-      <a href="/how-to/" class="card card--category" style="text-decoration:none;">
+      <a href={`${base}/how-to/`} class="card card--category" style="text-decoration:none;">
         <span class="card__icon">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
@@ -195,7 +195,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <h3 class="card__title" style="margin-block-start:0;">پہلا ٹول کیسے استعمال کریں؟</h3>
         <p class="card__excerpt">ChatGPT، Gemini اور دوسرے ٹولز کے لیے قدم بہ قدم ہدایات</p>
       </a>
-      <a href="/tools/" class="card card--category" style="text-decoration:none;">
+      <a href={`${base}/tools/`} class="card card--category" style="text-decoration:none;">
         <span class="card__icon">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
@@ -208,7 +208,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <h3 class="card__title" style="margin-block-start:0;">پاکستان میں چلنے والے ٹولز</h3>
         <p class="card__excerpt">اپنے کام کے لیے درست مفت AI ٹول تلاش کریں</p>
       </a>
-      <a href="/prompts/" class="card card--category" style="text-decoration:none;">
+      <a href={`${base}/prompts/`} class="card card--category" style="text-decoration:none;">
         <span class="card__icon">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" rx="10" fill="#f1cc11" fill-opacity="0.12"/>

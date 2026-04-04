@@ -12,6 +12,7 @@ const courseSchema = {
     { "@type": "ListItem", "position": 3, "url": "https://urduai.org/courses/champs/" },
   ],
 };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -24,7 +25,7 @@ const courseSchema = {
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
         <li aria-current="page">کورسز</li>
       </ol>
     </nav>
@@ -35,19 +36,19 @@ const courseSchema = {
     </p>
 
     <div class="post-grid">
-      <a href="/courses/masterclass/" class="card" style="text-decoration:none;">
+      <a href={`${base}/courses/masterclass/`} class="card" style="text-decoration:none;">
         <span class="badge badge--teal">ابتدائی</span>
         <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی ماسٹرکلاس</h2>
         <p class="card__excerpt">اے آئی کی بنیادی باتیں — بالکل شروع سے</p>
         <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
       </a>
-      <a href="/courses/automation/" class="card" style="text-decoration:none;">
+      <a href={`${base}/courses/automation/`} class="card" style="text-decoration:none;">
         <span class="badge">درمیانہ</span>
         <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی آٹومیشن</h2>
         <p class="card__excerpt">اے آئی سے اپنا کام خودکار بنائیں</p>
         <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
       </a>
-      <a href="/courses/champs/" class="card" style="text-decoration:none;">
+      <a href={`${base}/courses/champs/`} class="card" style="text-decoration:none;">
         <span class="badge" style="background:var(--ink); color:var(--gold-light); border-color:var(--ink);">ماہر</span>
         <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی چیمپس</h2>
         <p class="card__excerpt">پیشہ ورانہ سطح کی اے آئی مہارت</p>

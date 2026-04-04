@@ -53,8 +53,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
-        <li><a href="/blog/">بلاگ</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li><a href={`${base}/blog/`}>بلاگ</a></li>
         <li aria-current="page">{categoryLabel}</li>
       </ol>
     </nav>

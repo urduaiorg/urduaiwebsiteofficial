@@ -3,6 +3,7 @@
 import Base from '../../layouts/Base.astro';
 
 const assetBase = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -16,7 +17,7 @@ const assetBase = import.meta.env.BASE_URL;
   <div class="container" style="margin-block-start: var(--space-xl); margin-block-end: var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
         <li aria-current="page">تلاش</li>
       </ol>
     </nav>

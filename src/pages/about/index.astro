@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 
 export const prerender = true;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -43,7 +44,7 @@ export const prerender = true;
 
   <div class="container container--narrow">
     <nav aria-label="بریڈکرمب" style="margin-block-end:var(--space-lg);">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">ہمارے بارے میں</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">ہمارے بارے میں</li></ol>
     </nav>
 
     <div class="prose">
@@ -93,13 +94,13 @@ export const prerender = true;
       <ul>
         <li><strong>ویب سائٹ:</strong> urduai.org — 655+ مضامین، گائیڈز اور ٹیوٹوریلز</li>
         <li><strong>Android ایپ:</strong> 50,000+ ڈاؤنلوڈز — Google Play Store پر</li>
-        <li><strong>نیوز لیٹر:</strong> <a href="/newsletter/">Urdu AI Updates</a> — 42,000+ سبسکرائبرز</li>
+        <li><strong>نیوز لیٹر:</strong> <a href={`${base}/newsletter/`}>Urdu AI Updates</a> — 42,000+ سبسکرائبرز</li>
         <li><strong>سوشل میڈیا:</strong> 10 لاکھ+ کمیونٹی — فیس بک، انسٹاگرام، X، TikTok، یوٹیوب</li>
       </ul>
 
       <div style="margin-block-start:var(--space-xl); display:flex; gap:var(--space-md); flex-wrap:wrap;">
-        <a href="/newsletter/" class="btn-playstore">نیوز لیٹر سبسکرائب کریں</a>
-        <a href="/app/" style="padding:0.6em 1.5em; border:2px solid var(--navy); border-radius:6px; color:var(--navy); text-decoration:none; font-weight:600;">ایپ ڈاؤنلوڈ کریں</a>
+        <a href={`${base}/newsletter/`} class="btn-playstore">نیوز لیٹر سبسکرائب کریں</a>
+        <a href={`${base}/app/`} style="padding:0.6em 1.5em; border:2px solid var(--navy); border-radius:6px; color:var(--navy); text-decoration:none; font-weight:600;">ایپ ڈاؤنلوڈ کریں</a>
       </div>
     </div>
   </div>

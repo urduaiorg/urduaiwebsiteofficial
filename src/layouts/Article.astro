@@ -173,7 +173,7 @@ const combinedSchema = faqSchema
     <!-- Breadcrumb -->
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
         <li><a href={`/${collection}/`}>{category ?? collection}</a></li>
         <li aria-current="page">{title}</li>
       </ol>
@@ -252,7 +252,7 @@ const combinedSchema = faqSchema
       <!-- App CTA strip — shown after 70% scroll -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
         <p>يہ مضمون پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے مضامين پڑھيں</p>
-        <a href="/app/" class="btn-playstore">مفت ڈاؤن لوڈ کريں</a>
+        <a href={`${base}/app/`} class="btn-playstore">مفت ڈاؤن لوڈ کريں</a>
       </div>
     </article>
 

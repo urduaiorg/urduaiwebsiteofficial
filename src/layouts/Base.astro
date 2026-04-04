@@ -63,6 +63,7 @@ const websiteSchema = {
     "query-input": "required name=search_term_string"
   }
 };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <!DOCTYPE html>
@@ -100,12 +101,12 @@ const websiteSchema = {
     <meta name="twitter:image" content={ogImageURL} />
 
     <!-- Sitemap & RSS -->
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href="/rss.xml" />
-    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی — اے آئی نیوز" href="/news.xml" />
+    <link rel="sitemap" href={`${base}/sitemap-index.xml`} />
+    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href={`${base}/rss.xml`} />
+    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی — اے آئی نیوز" href={`${base}/news.xml`} />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
 
     <!-- Google Fonts — Noto Nastaliq Urdu — non-blocking preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -156,18 +157,18 @@ const websiteSchema = {
     <header class="site-header">
       <div class="container">
         <div class="site-header__inner">
-          <a href="/" class="site-logo">Urdu <span>Ai</span></a>
+          <a href={`${base}/`} class="site-logo">Urdu <span>Ai</span></a>
           <nav aria-label="مرکزی نیویگیشن" id="main-nav">
             <ul class="site-nav" id="site-nav-list">
-              <li><a href="/blog/">بلاگ</a></li>
-              <li><a href="/guides/">گائیڈز</a></li>
-              <li><a href="/how-to/">ہاؤ ٹو</a></li>
-              <li><a href="/prompts/">پرامٹس</a></li>
-              <li><a href="/tools/">ٹولز</a></li>
-              <li><a href="/learn/">اردو لغت</a></li>
-              <li><a href="/newsletter/">نیوز لیٹر</a></li>
-              <li><a href="/courses/">کورسز</a></li>
-              <li><a href="/app/">ایپ</a></li>
+              <li><a href={`${base}/blog/`}>بلاگ</a></li>
+              <li><a href={`${base}/guides/`}>گائیڈز</a></li>
+              <li><a href={`${base}/how-to/`}>ہاؤ ٹو</a></li>
+              <li><a href={`${base}/prompts/`}>پرامٹس</a></li>
+              <li><a href={`${base}/tools/`}>ٹولز</a></li>
+              <li><a href={`${base}/learn/`}>اردو لغت</a></li>
+              <li><a href={`${base}/newsletter/`}>نیوز لیٹر</a></li>
+              <li><a href={`${base}/courses/`}>کورسز</a></li>
+              <li><a href={`${base}/app/`}>ایپ</a></li>
             </ul>
           </nav>
           <button
@@ -230,24 +231,24 @@ const websiteSchema = {
           <div>
             <p><strong>مواد</strong></p>
             <ul style="list-style:none">
-              <li><a href="/blog/">بلاگ</a></li>
-              <li><a href="/guides/">گائیڈز</a></li>
-              <li><a href="/how-to/">ہاؤ ٹو ٹیوٹوریلز</a></li>
-              <li><a href="/prompts/">پرامٹ کلیکشنز</a></li>
-              <li><a href="/tools/">اے آئی ٹولز</a></li>
-              <li><a href="/learn/">اردو اے آئی لغت</a></li>
-              <li><a href="/search/">تلاش</a></li>
-              <li><a href="/newsletter/">نیوز لیٹر</a></li>
+              <li><a href={`${base}/blog/`}>بلاگ</a></li>
+              <li><a href={`${base}/guides/`}>گائیڈز</a></li>
+              <li><a href={`${base}/how-to/`}>ہاؤ ٹو ٹیوٹوریلز</a></li>
+              <li><a href={`${base}/prompts/`}>پرامٹ کلیکشنز</a></li>
+              <li><a href={`${base}/tools/`}>اے آئی ٹولز</a></li>
+              <li><a href={`${base}/learn/`}>اردو اے آئی لغت</a></li>
+              <li><a href={`${base}/search/`}>تلاش</a></li>
+              <li><a href={`${base}/newsletter/`}>نیوز لیٹر</a></li>
             </ul>
           </div>
           <div>
             <p><strong>ادارہ</strong></p>
             <ul style="list-style:none">
-              <li><a href="/about/">ہمارے بارے میں</a></li>
-              <li><a href="/team/">ٹیم</a></li>
-              <li><a href="/partners/">شراکت دار</a></li>
-              <li><a href="/advertise/">اشتہار دیں</a></li>
-              <li><a href="/contact/">رابطہ</a></li>
+              <li><a href={`${base}/about/`}>ہمارے بارے میں</a></li>
+              <li><a href={`${base}/team/`}>ٹیم</a></li>
+              <li><a href={`${base}/partners/`}>شراکت دار</a></li>
+              <li><a href={`${base}/advertise/`}>اشتہار دیں</a></li>
+              <li><a href={`${base}/contact/`}>رابطہ</a></li>
             </ul>
           </div>
           <div>
@@ -264,8 +265,8 @@ const websiteSchema = {
         <div class="site-footer__bottom">
           <p>
             &copy; {new Date().getFullYear()} Urdu Ai — A product of <a href="https://walipak.com" rel="noopener">Wang Lab of Innovation (WALI)</a> |
-            <a href="/privacy/">پرائیویسی پالیسی</a> |
-            <a href="/terms/">شرائط</a>
+            <a href={`${base}/privacy/`}>پرائیویسی پالیسی</a> |
+            <a href={`${base}/terms/`}>شرائط</a>
           </p>
         </div>
       </div>

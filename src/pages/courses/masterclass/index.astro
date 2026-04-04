@@ -11,6 +11,7 @@ const courseSchema = {
   "isAccessibleForFree": true,
   "url": "https://urduai.org/courses/masterclass/",
 };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -23,8 +24,8 @@ const courseSchema = {
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
-        <li><a href="/courses/">کورسز</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li><a href={`${base}/courses/`}>کورسز</a></li>
         <li aria-current="page">ماسٹرکلاس</li>
       </ol>
     </nav>

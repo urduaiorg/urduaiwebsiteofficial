@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Base
   title="پرائیویسی پالیسی — اردو اے آئی"
@@ -9,7 +10,7 @@ import Base from '../../layouts/Base.astro';
 >
   <div class="container container--narrow" style="margin-block:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">پرائیویسی پالیسی</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">پرائیویسی پالیسی</li></ol>
     </nav>
     <h1>پرائیویسی پالیسی</h1>
     <div class="prose">
@@ -21,7 +22,7 @@ import Base from '../../layouts/Base.astro';
       <h2>نیوز لیٹر</h2>
       <p>نیوز لیٹر Beehiiv کے ذریعے چلایا جاتا ہے۔ آپ کسی بھی وقت ان سبسکرائب کر سکتے ہیں۔</p>
       <h2>رابطہ</h2>
-      <p>پرائیویسی سے متعلق سوالات کے لیے: <a href="/contact/">رابطہ کریں</a></p>
+      <p>پرائیویسی سے متعلق سوالات کے لیے: <a href={`${base}/contact/`}>رابطہ کریں</a></p>
     </div>
   </div>
 </Base>

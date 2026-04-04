@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 
 export const prerender = true;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -12,7 +13,7 @@ export const prerender = true;
 >
   <div class="container" style="margin-block:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">ٹیم</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">ٹیم</li></ol>
     </nav>
 
     <h1>ہماری ٹیم</h1>
@@ -54,7 +55,7 @@ export const prerender = true;
         </div>
 
         <div style="display:flex; gap:var(--space-md); flex-wrap:wrap; margin-block-start:var(--space-md);">
-          <a href="/author/qaisar-roonjha/" style="color:var(--teal); font-size:var(--text-sm);">مضامین پڑھیں ←</a>
+          <a href={`${base}/author/qaisar-roonjha/`} style="color:var(--teal); font-size:var(--text-sm);">مضامین پڑھیں ←</a>
           <a href="https://x.com/urduaiorg" rel="noopener noreferrer" style="color:var(--teal); font-size:var(--text-sm);" dir="ltr">@urduaiorg on X</a>
         </div>
       </div>
@@ -75,7 +76,7 @@ export const prerender = true;
         ہم مضمون نگاروں، مترجمین، ویڈیو بنانے والوں اور اردو AI کمیونٹی کے رضاکاروں کا خیرمقدم کرتے ہیں۔
       </p>
       <p>
-        <a href="/contact/">رابطہ صفحہ</a> کے ذریعے ہم سے بات کریں۔
+        <a href={`${base}/contact/`}>رابطہ صفحہ</a> کے ذریعے ہم سے بات کریں۔
       </p>
     </div>
   </div>

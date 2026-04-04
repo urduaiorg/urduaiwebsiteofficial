@@ -176,6 +176,7 @@ const tools = [
 ];
 
 const categories = [...new Set(tools.map(t => t.category))];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -187,7 +188,7 @@ const categories = [...new Set(tools.map(t => t.category))];
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
         <li aria-current="page">اے آئی ٹولز</li>
       </ol>
     </nav>

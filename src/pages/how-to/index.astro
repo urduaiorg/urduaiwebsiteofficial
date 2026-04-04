@@ -8,6 +8,7 @@ const all = await getCollection('howto', ({ data }) => !data.draft);
 const tutorials = all.sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
@@ -19,7 +20,7 @@ const tutorials = all.sort(
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
-        <li><a href="/">ہوم</a></li>
+        <li><a href={`${base}/`}>ہوم</a></li>
         <li aria-current="page">ہاؤ ٹو</li>
       </ol>
     </nav>

@@ -11,6 +11,7 @@ const { title, url } = Astro.props;
 const fullUrl = url.startsWith('http') ? url : `https://urduai.org${url}`;
 const encoded = encodeURIComponent(fullUrl);
 const encodedTitle = encodeURIComponent(title);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <div class="share-row" aria-label="مضمون شیئر کریں">

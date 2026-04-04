@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Base
   title="شرائط استعمال — اردو اے آئی"
@@ -9,7 +10,7 @@ import Base from '../../layouts/Base.astro';
 >
   <div class="container container--narrow" style="margin-block:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">شرائط</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">شرائط</li></ol>
     </nav>
     <h1>شرائط استعمال</h1>
     <div class="prose">
@@ -21,7 +22,7 @@ import Base from '../../layouts/Base.astro';
       <h2>ذمہ داری</h2>
       <p>اردو اے آئی اے آئی ٹولز کے استعمال سے ہونے والے کسی بھی نقصان کا ذمہ دار نہیں۔ ہر ٹول کی اپنی شرائط لاگو ہوتی ہیں۔</p>
       <h2>رابطہ</h2>
-      <p><a href="/contact/">رابطہ کریں</a></p>
+      <p><a href={`${base}/contact/`}>رابطہ کریں</a></p>
     </div>
   </div>
 </Base>

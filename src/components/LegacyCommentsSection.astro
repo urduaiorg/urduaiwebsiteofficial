@@ -27,6 +27,7 @@ function formatLegacyCommentDate(value: string) {
     day: 'numeric',
   });
 }
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 {commentCount > 0 && (
