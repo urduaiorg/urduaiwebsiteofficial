@@ -5,8 +5,8 @@ export const prerender = true;
 ---
 
 <Base
-  title="اشتہار دیں — اردو اے آئی | 42,000+ سبسکرائبرز، 10 لاکھ+ کمیونٹی"
-  description="اردو اے آئی پر اشتہار دیں۔ 42,000 نیوز لیٹر سبسکرائبرز، 10 لاکھ آن لائن کمیونٹی، 50,000+ ایپ ڈاؤن لوڈز — پاکستان کی سب سے بڑی اردو اے آئی آڈیئنس۔"
+  title="اشتہار دیں — اردو اے آئی | پاکستان کی سب سے بڑی اردو اے آئی کمیونٹی"
+  description="اردو اے آئی پر اشتہار دے کر ۱۰ لاکھ سے زائد اردو بولنے والے اے آئی صارفین تک پہنچیں۔ نیوز لیٹر، ویب سائٹ اور سوشل میڈیا پر اسپانسرشپ۔"
   canonical="https://urduai.org/advertise/"
   adsense={false}
 >
@@ -18,7 +18,9 @@ export const prerender = true;
       <p class="adv-hero__sub">
         اردو اے آئی پر اشتہار دینے والے کو ۲۵ کروڑ اردو بولنے والوں میں
         سب سے زیادہ مصنوعی ذہانت میں دلچسپی رکھنے والی آڈیئنس ملتی ہے۔
-        کوئی دوسرا پلیٹ فارم یہ رسائی نہیں دیتا۔
+        یہ پلیٹ فارم Wang Lab of Innovation (WALI) کی ادارہ جاتی بنیاد کے ساتھ
+        اردو زبان میں ٹیکنالوجی برانڈز، ایجوکیشن پلیٹ فارمز، اور ڈیجیٹل سروسز
+        کو ایک واضح اور بااعتماد رسائی دیتا ہے۔
       </p>
       <a href="mailto:advertise@urduai.org" class="btn-playstore" style="font-size:1.1rem; padding:0.7em 2.5em;">
         ابھی بات کریں
@@ -207,11 +209,14 @@ export const prerender = true;
 
   <!-- CTA strip -->
   <section class="adv-cta">
-    <div class="container" style="text-align:center;">
-      <h2 style="color:var(--gold-light); margin-block-end:var(--space-sm);">تیار ہیں؟</h2>
-      <p style="color:var(--gold-pale); margin-block-end:var(--space-lg);">
-        ای میل کریں اور 24 گھنٹے میں جواب پائیں
+    <div class="container adv-cta__inner">
+      <p class="adv-cta__eyebrow">رابطہ کریں</p>
+      <h2 class="adv-cta__title">اپنے برانڈ کے لیے درست پیکج منتخب کریں</h2>
+      <p class="adv-cta__copy">
+        اسپانسرشپ، ویب سائٹ بینر، نیوز لیٹر، یا اردو میں اسپانسرڈ مضمون کے لیے
+        ای میل کریں۔ ابتدائی گفتگو میں ہم آڈیئنس فِٹ، جگہ، اور ٹائم لائن واضح کر دیں گے۔
       </p>
+      <p class="adv-cta__note">Urdu AI is a product of Wang Lab of Innovation (WALI).</p>
       <a href="mailto:advertise@urduai.org" class="btn-playstore" style="font-size:1.1rem; padding:0.7em 2.5em;">
         advertise@urduai.org
       </a>
@@ -264,7 +269,6 @@ export const prerender = true;
     font-size: 2.2rem;
     font-weight: 800;
     color: var(--gold);
-    font-family: 'Inter', sans-serif;
     line-height: 1;
     margin-block-end: 0.2em;
   }
@@ -382,7 +386,6 @@ export const prerender = true;
   .adv-package__reach {
     color: var(--navy);
     font-size: var(--text-sm);
-    font-family: 'Inter', sans-serif;
     margin: 0;
   }
   .adv-package ul {
@@ -412,5 +415,27 @@ export const prerender = true;
   .adv-cta {
     background: var(--ink);
     padding-block: var(--space-2xl);
+  }
+  .adv-cta__inner {
+    text-align: center;
+  }
+  .adv-cta__eyebrow {
+    color: var(--gold);
+    margin-block-end: var(--space-xs);
+  }
+  .adv-cta__title {
+    color: var(--gold-light);
+    margin-block-end: var(--space-sm);
+  }
+  .adv-cta__copy {
+    color: var(--gold-pale);
+    max-width: 650px;
+    margin-inline: auto;
+    margin-block-end: var(--space-md);
+  }
+  .adv-cta__note {
+    color: rgba(253, 244, 216, 0.85);
+    font-size: var(--text-sm);
+    margin-block-end: var(--space-lg);
   }
 </style>
