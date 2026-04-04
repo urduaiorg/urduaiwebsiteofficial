@@ -1,0 +1,414 @@
+---
+import Base from '../../layouts/Base.astro';
+import InlineNewsletter from '../../components/InlineNewsletter.astro';
+
+export const prerender = true;
+
+const tools = [
+  {
+    name: "ChatGPT",
+    urduName: "چیٹ جی پی ٹی",
+    by: "OpenAI",
+    category: "چیٹ بوٹ",
+    description: "دنیا کا سب سے مشہور اے آئی چیٹ بوٹ۔ سوال پوچھیں، مضامین لکھوائیں، کوڈ بنوائیں اور بہت کچھ — اردو میں بھی کام کرتا ہے۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://chat.openai.com",
+    guideUrl: "/how-to/",
+    color: "#10a37f",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#10a37f"/><path d="M16 7c-2.5 0-4.6 1.6-5.4 3.8A5 5 0 007 16a5 5 0 002.6 4.4V22a1 1 0 001 1h.4a5 5 0 005 0h.4a1 1 0 001-1v-1.6A5 5 0 0025 16a5 5 0 00-3.6-4.8A5.7 5.7 0 0016 7z" fill="white" fill-opacity="0.9"/></svg>`,
+  },
+  {
+    name: "Gemini",
+    urduName: "جیمنی",
+    by: "Google",
+    category: "چیٹ بوٹ",
+    description: "گوگل کا اے آئی اسسٹنٹ جو گوگل سرچ، جی میل اور گوگل ڈاکس سے جڑا ہے۔ پاکستان میں تیزی سے مقبول ہو رہا ہے۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://gemini.google.com",
+    guideUrl: "/how-to/",
+    color: "#1d559f",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1d559f"/><path d="M16 8l2.5 5.5L24 16l-5.5 2.5L16 24l-2.5-5.5L8 16l5.5-2.5L16 8z" fill="#f1cc11"/></svg>`,
+  },
+  {
+    name: "Claude",
+    urduName: "کلاڈ",
+    by: "Anthropic",
+    category: "چیٹ بوٹ",
+    description: "لمبے دستاویزات پڑھنے، تجزیہ کرنے اور تحریر میں مدد کے لیے بہترین۔ محفوظ اور معتبر جوابات کے لیے جانا جاتا ہے۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://claude.ai",
+    guideUrl: "/how-to/",
+    color: "#cc785c",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#cc785c"/><path d="M10 22l6-12 6 12M12.5 17h7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
+  {
+    name: "Microsoft Copilot",
+    urduName: "مائیکروسافٹ کوپائلٹ",
+    by: "Microsoft",
+    category: "چیٹ بوٹ",
+    description: "مائیکروسافٹ کا اے آئی اسسٹنٹ جو ونڈوز، ایج براؤزر اور آفس میں شامل ہے۔ GPT-4 پر چلتا ہے — مفت۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://copilot.microsoft.com",
+    guideUrl: "/how-to/",
+    color: "#0078d4",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#0078d4"/><rect x="9" y="9" width="6" height="6" rx="1" fill="white"/><rect x="17" y="9" width="6" height="6" rx="1" fill="#50e6ff"/><rect x="9" y="17" width="6" height="6" rx="1" fill="#50e6ff"/><rect x="17" y="17" width="6" height="6" rx="1" fill="white"/></svg>`,
+  },
+  {
+    name: "Grok",
+    urduName: "گروک",
+    by: "xAI (Elon Musk)",
+    category: "چیٹ بوٹ",
+    description: "ایلون مسک کی کمپنی xAI کا چیٹ بوٹ۔ X (ٹوئٹر) سے جڑا ہے اور تازہ ترین خبروں تک رسائی رکھتا ہے۔",
+    free: false,
+    freeLabel: "محدود مفت",
+    pakistan: true,
+    url: "https://grok.com",
+    guideUrl: null,
+    color: "#1a1a1a",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a1a"/><path d="M10 10l12 12M22 10L10 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Perplexity",
+    urduName: "پرپلیکسٹی",
+    by: "Perplexity AI",
+    category: "تحقیق",
+    description: "اے آئی سرچ انجن — سوال پوچھیں اور حوالہ جات کے ساتھ جواب پائیں۔ طلبہ اور محققین کے لیے بہترین ٹول۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://perplexity.ai",
+    guideUrl: null,
+    color: "#20808d",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#20808d"/><circle cx="16" cy="16" r="6" stroke="white" stroke-width="2"/><path d="M16 10V8M16 24v-2M10 16H8M24 16h-2" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "NotebookLM",
+    urduName: "نوٹ بک ایل ایم",
+    by: "Google",
+    category: "تحقیق",
+    description: "گوگل کا ذاتی تحقیقی اسسٹنٹ۔ اپنی پی ڈی ایف، نوٹس اور دستاویزات اپ لوڈ کریں — پھر سوال پوچھیں۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://notebooklm.google.com",
+    guideUrl: null,
+    color: "#1d559f",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1d559f"/><rect x="9" y="8" width="14" height="16" rx="2" stroke="white" stroke-width="1.8"/><path d="M12 13h8M12 17h6M12 21h4" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Canva AI",
+    urduName: "کینوا اے آئی",
+    by: "Canva",
+    category: "ڈیزائن",
+    description: "ڈیزائن کے لیے مشہور کینوا اب اے آئی سے تصاویر، پریزنٹیشن اور سوشل میڈیا پوسٹ بناتا ہے — بغیر کسی تجربے کے۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://canva.com",
+    guideUrl: null,
+    color: "#7d2ae8",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#7d2ae8"/><circle cx="16" cy="16" r="7" stroke="white" stroke-width="2"/><path d="M13 16a3 3 0 106 0" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "DALL-E",
+    urduName: "ڈال-ای",
+    by: "OpenAI",
+    category: "تصویر سازی",
+    description: "متن سے تصاویر بنانے والا اے آئی۔ ChatGPT Plus میں شامل ہے۔ اردو میں بھی پرامٹ دے کر تصویر بنائیں۔",
+    free: false,
+    freeLabel: "ChatGPT Plus میں",
+    pakistan: true,
+    url: "https://openai.com/dall-e-3",
+    guideUrl: null,
+    color: "#ab68ff",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#ab68ff"/><rect x="8" y="8" width="16" height="16" rx="3" stroke="white" stroke-width="1.8"/><circle cx="13" cy="13" r="2" fill="#f1cc11"/><path d="M8 21l5-5 4 4 2-2 5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
+  {
+    name: "ElevenLabs",
+    urduName: "الیون لیبز",
+    by: "ElevenLabs",
+    category: "آواز",
+    description: "اے آئی سے آواز بنانے کا بہترین ٹول۔ اردو اے آئی نے اسی ٹول سے اردو میں آواز کا کام کیا — ElevenLabs کیس اسٹڈی میں شامل۔",
+    free: false,
+    freeLabel: "محدود مفت",
+    pakistan: true,
+    url: "https://elevenlabs.io",
+    guideUrl: null,
+    color: "#f97316",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#f97316"/><path d="M10 20V12M14 22V10M18 20V12M22 18V14" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Grammarly",
+    urduName: "گریملی",
+    by: "Grammarly",
+    category: "لکھائی",
+    description: "انگریزی لکھائی کو بہتر بنانے والا اے آئی ٹول۔ پاکستانی فری لانسرز اور طلبہ کے لیے بہترین — ای میل اور مضامین کی اصلاح کرتا ہے۔",
+    free: true,
+    freeLabel: "مفت دستیاب",
+    pakistan: true,
+    url: "https://grammarly.com",
+    guideUrl: null,
+    color: "#15c39a",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#15c39a"/><path d="M10 16a6 6 0 1012 0v-2a6 6 0 00-12 0v2z" stroke="white" stroke-width="2"/><path d="M16 22v2" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Midjourney",
+    urduName: "مڈجرنی",
+    by: "Midjourney",
+    category: "تصویر سازی",
+    description: "اے آئی تصویر سازی میں سب سے اعلیٰ معیار۔ Discord کے ذریعے کام کرتا ہے۔ فنکاروں اور ڈیزائنرز میں بہت مقبول۔",
+    free: false,
+    freeLabel: "ادائیگی ضروری",
+    pakistan: true,
+    url: "https://midjourney.com",
+    guideUrl: null,
+    color: "#1a1a2e",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a2e"/><path d="M8 24l8-16 8 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 18h10" stroke="#f1cc11" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+];
+
+const categories = [...new Set(tools.map(t => t.category))];
+---
+
+<Base
+  title="اے آئی ٹولز — اردو اے آئی | پاکستان کے لیے بہترین اے آئی ٹولز"
+  description="پاکستان میں استعمال ہونے والے بہترین اے آئی ٹولز — اردو میں مکمل گائیڈ۔ ChatGPT، Gemini، Claude، Canva AI اور مزید — کون سا مفت ہے، کون سا پاکستان میں چلتا ہے۔"
+  canonical="https://urduai.org/tools/"
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">اے آئی ٹولز</li>
+      </ol>
+    </nav>
+
+    <h1>اے آئی ٹولز</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      پاکستان میں چلنے والے بہترین اے آئی ٹولز — کون سا مفت ہے، کون سا بہتر ہے، اور کہاں سے شروع کریں
+    </p>
+
+    <!-- Category filter tabs -->
+    <div class="tools-filters" role="tablist" aria-label="زمرہ بہ زمرہ فلٹر">
+      <button class="tools-filter tools-filter--active" data-filter="all">سب</button>
+      {categories.map(cat => (
+        <button class="tools-filter" data-filter={cat}>{cat}</button>
+      ))}
+    </div>
+
+    <!-- Tools grid -->
+    <div class="tools-grid" id="tools-grid">
+      {tools.map(tool => (
+        <article class="tool-card" data-category={tool.category}>
+          <div class="tool-card__header">
+            <div class="tool-card__icon" aria-hidden="true" set:html={tool.icon} />
+            <div class="tool-card__title-group">
+              <h2 class="tool-card__name">{tool.name}</h2>
+              <p class="tool-card__urdu-name">{tool.urduName}</p>
+            </div>
+          </div>
+
+          <p class="tool-card__by">{tool.by}</p>
+          <p class="tool-card__desc">{tool.description}</p>
+
+          <div class="tool-card__badges">
+            <span class="badge badge--teal">{tool.category}</span>
+            <span class={`badge ${tool.free ? 'badge--green' : 'badge--muted'}`}>
+              {tool.freeLabel}
+            </span>
+            {tool.pakistan && (
+              <span class="badge badge--green">پاکستان میں دستیاب</span>
+            )}
+          </div>
+
+          <div class="tool-card__actions">
+            <a
+              href={tool.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-playstore tool-card__btn"
+            >
+              ٹول کھولیں
+            </a>
+            {tool.guideUrl && (
+              <a href={tool.guideUrl} class="tool-card__guide-link">
+                اردو گائیڈ پڑھیں ←
+              </a>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+
+  <div class="container" style="margin-block-start: var(--space-2xl);">
+    <InlineNewsletter />
+  </div>
+</Base>
+
+<style>
+  .tools-filters {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+    margin-block-end: var(--space-lg);
+  }
+
+  .tools-filter {
+    padding: 0.4em 1em;
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    background: var(--paper-card);
+    color: var(--ink-soft);
+    font-family: inherit;
+    font-size: var(--text-sm);
+    cursor: pointer;
+    transition: all 0.15s;
+    line-height: var(--lh-body);
+  }
+
+  .tools-filter:hover,
+  .tools-filter--active {
+    background: var(--navy);
+    color: white;
+    border-color: var(--navy);
+  }
+
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-md);
+  }
+
+  .tool-card {
+    background: var(--paper-card);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .tool-card:hover {
+    border-color: var(--navy);
+    box-shadow: 0 4px 16px rgba(29, 85, 159, 0.08);
+  }
+
+  .tool-card__header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-block-end: var(--space-xs);
+  }
+
+  .tool-card__icon {
+    flex-shrink: 0;
+    line-height: 0;
+  }
+
+  .tool-card__name {
+    font-size: var(--text-base);
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+
+  .tool-card__urdu-name {
+    font-size: var(--text-sm);
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .tool-card__by {
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+    margin: 0;
+  }
+
+  .tool-card__desc {
+    font-size: var(--text-sm);
+    color: var(--ink-soft);
+    line-height: var(--lh-body);
+    margin: 0;
+    flex: 1;
+  }
+
+  .tool-card__badges {
+    display: flex;
+    gap: 0.4em;
+    flex-wrap: wrap;
+    margin-block: var(--space-xs);
+  }
+
+  .badge--green {
+    background: #d4edda;
+    color: #155724;
+    border-color: #c3e6cb;
+  }
+
+  .badge--muted {
+    background: var(--paper-warm);
+    color: var(--ink-muted);
+    border-color: var(--border);
+  }
+
+  .tool-card__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    margin-block-start: var(--space-xs);
+  }
+
+  .tool-card__btn {
+    font-size: 0.9rem;
+    padding: 0.5em 1.2em;
+  }
+
+  .tool-card__guide-link {
+    color: var(--teal);
+    font-size: var(--text-sm);
+    text-decoration: none;
+  }
+
+  .tool-card__guide-link:hover {
+    text-decoration: underline;
+  }
+
+  .tool-card[data-hidden] {
+    display: none;
+  }
+</style>
+
+<script>
+  const filters = document.querySelectorAll('.tools-filter');
+  const cards = document.querySelectorAll('.tool-card');
+
+  filters.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filters.forEach(b => b.classList.remove('tools-filter--active'));
+      btn.classList.add('tools-filter--active');
+
+      const filter = btn.getAttribute('data-filter');
+      cards.forEach(card => {
+        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+          card.removeAttribute('data-hidden');
+        } else {
+          card.setAttribute('data-hidden', '');
+        }
+      });
+    });
+  });
+</script>

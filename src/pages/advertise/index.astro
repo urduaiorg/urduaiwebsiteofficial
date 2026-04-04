@@ -1,35 +1,416 @@
 ---
 import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
 ---
+
 <Base
-  title="اشتہار دیں — اردو اے آئی | 250M+ اردو بولنے والوں تک پہنچیں"
-  description="اردو اے آئی پر اشتہار دیں اور پاکستان سمیت دنیا بھر میں 250M+ اردو بولنے والوں تک پہنچیں۔ Sponsored content اور display ads دستیاب ہیں۔"
+  title="اشتہار دیں — اردو اے آئی | 42,000+ سبسکرائبرز، 10 لاکھ+ کمیونٹی"
+  description="اردو اے آئی پر اشتہار دیں۔ 42,000 نیوز لیٹر سبسکرائبرز، 10 لاکھ آن لائن کمیونٹی، 50,000+ ایپ ڈاؤن لوڈز — پاکستان کی سب سے بڑی اردو اے آئی آڈیئنس۔"
   canonical="https://urduai.org/advertise/"
   adsense={false}
 >
-  <div class="container container--narrow" style="margin-block:var(--space-2xl);">
-    <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href="/">ہوم</a></li><li aria-current="page">اشتہار دیں</li></ol>
-    </nav>
-    <h1>اردو اے آئی پر اشتہار دیں</h1>
-    <div class="prose">
-      <blockquote><strong>یاد رکھیں:</strong> ۲۵ کروڑ اردو بولنے والے — کوئی دوسرا پلیٹ فارم یہ رسائی نہیں دے سکتا۔</blockquote>
-      <h2>آڈیئنس</h2>
-      <ul>
-        <li>250M+ اردو بولنے والے عالمی سطح پر</li>
-        <li>10 لاکھ+ آن لائن کمیونٹی</li>
-        <li>70%+ موبائل صارفین</li>
-        <li>پاکستان، بھارت، مشرق وسطیٰ، یورپ، امریکہ</li>
-      </ul>
-      <h2>اشتہاری اختیارات</h2>
-      <ul>
-        <li>Sponsored content — آپ کی مصنوعات کی اردو گائیڈ</li>
-        <li>Display advertising</li>
-        <li>Newsletter sponsorship</li>
-        <li>Social media mentions</li>
-      </ul>
-      <h2>رابطہ کریں</h2>
-      <p><a href="/contact/">رابطہ فارم</a> کے ذریعے ہم سے بات کریں۔</p>
+  <!-- Hero -->
+  <section class="adv-hero">
+    <div class="container" style="text-align:center;">
+      <p class="adv-hero__eyebrow">اسپانسرشپ اور اشتہار</p>
+      <h1 class="adv-hero__title">پاکستان کی سب سے بڑی<br/>اردو اے آئی آڈیئنس تک پہنچیں</h1>
+      <p class="adv-hero__sub">
+        اردو اے آئی پر اشتہار دینے والے کو ۲۵ کروڑ اردو بولنے والوں میں
+        سب سے زیادہ مصنوعی ذہانت میں دلچسپی رکھنے والی آڈیئنس ملتی ہے۔
+        کوئی دوسرا پلیٹ فارم یہ رسائی نہیں دیتا۔
+      </p>
+      <a href="mailto:advertise@urduai.org" class="btn-playstore" style="font-size:1.1rem; padding:0.7em 2.5em;">
+        ابھی بات کریں
+      </a>
     </div>
-  </div>
+  </section>
+
+  <!-- Stats bar -->
+  <section class="adv-stats">
+    <div class="container">
+      <div class="adv-stats__grid">
+        <div class="adv-stat">
+          <span class="adv-stat__number" dir="ltr">42,000+</span>
+          <span class="adv-stat__label">نیوز لیٹر سبسکرائبرز</span>
+          <span class="adv-stat__note">Substack پر — ہر ہفتہ ای میل</span>
+        </div>
+        <div class="adv-stat">
+          <span class="adv-stat__number" dir="ltr">1,000,000+</span>
+          <span class="adv-stat__label">آن لائن کمیونٹی</span>
+          <span class="adv-stat__note">فیس بک، انسٹاگرام، X، TikTok</span>
+        </div>
+        <div class="adv-stat">
+          <span class="adv-stat__number" dir="ltr">50,000+</span>
+          <span class="adv-stat__label">ایپ ڈاؤن لوڈز</span>
+          <span class="adv-stat__note">Google Play Store</span>
+        </div>
+        <div class="adv-stat">
+          <span class="adv-stat__number" dir="ltr">250M+</span>
+          <span class="adv-stat__label">اردو بولنے والے</span>
+          <span class="adv-stat__note">پاکستان، بھارت، دیاسپورا</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credentials -->
+  <section class="container adv-credentials">
+    <h2 class="section-heading">اعتماد اور اعزازات</h2>
+    <div class="adv-credentials__grid">
+      <div class="adv-credential">
+        <div class="adv-credential__logo" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="10" fill="#1d559f" fill-opacity="0.1"/>
+            <path d="M14 28l10-16 10 16H14z" stroke="#1d559f" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M14 28h20" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <strong>S&P Global Foundation</strong>
+        <p>StepForward ایوارڈ — $200,000</p>
+      </div>
+      <div class="adv-credential">
+        <div class="adv-credential__logo" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="10" fill="#f97316" fill-opacity="0.1"/>
+            <path d="M16 32V16M20 32V20M24 32V24M28 32V20M32 32V16" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <strong>ElevenLabs</strong>
+        <p>آفیشل کیس اسٹڈی</p>
+      </div>
+      <div class="adv-credential">
+        <div class="adv-credential__logo" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="10" fill="#4285f4" fill-opacity="0.1"/>
+            <circle cx="24" cy="24" r="10" stroke="#4285f4" stroke-width="2"/>
+            <path d="M24 14v10l6 3" stroke="#f1cc11" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <strong>Google.org</strong>
+        <p>گرانٹ پارٹنر</p>
+      </div>
+      <div class="adv-credential">
+        <div class="adv-credential__logo" aria-hidden="true">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" rx="10" fill="#0e6b5e" fill-opacity="0.1"/>
+            <circle cx="24" cy="24" r="10" stroke="#0e6b5e" stroke-width="2"/>
+            <path d="M14 24h20M24 14a10 10 0 010 20M24 14a10 10 0 000 20" stroke="#0e6b5e" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <strong>Internet Society</strong>
+        <p>پارٹنر تنظیم</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Audience profile -->
+  <section class="adv-audience">
+    <div class="container">
+      <h2 class="section-heading">آڈیئنس کون ہے؟</h2>
+      <div class="adv-audience__grid">
+        <div class="adv-audience__item">
+          <strong>جغرافیہ</strong>
+          <p>پاکستان (بنیادی)، بھارت، برطانیہ، امریکہ، کینیڈا، خلیجی ممالک</p>
+        </div>
+        <div class="adv-audience__item">
+          <strong>دلچسپیاں</strong>
+          <p>مصنوعی ذہانت، ٹیکنالوجی، تعلیم، فری لانسنگ، کاروبار</p>
+        </div>
+        <div class="adv-audience__item">
+          <strong>عمر</strong>
+          <p>18–45 سال — نوجوان پڑھے لکھے اردو بولنے والے</p>
+        </div>
+        <div class="adv-audience__item">
+          <strong>ڈیوائس</strong>
+          <p>70%+ موبائل صارفین — Android اور iOS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages -->
+  <section class="container adv-packages">
+    <h2 class="section-heading">اسپانسرشپ پیکجز</h2>
+    <div class="adv-packages__grid">
+
+      <div class="adv-package adv-package--featured">
+        <div class="adv-package__badge">سب سے مقبول</div>
+        <div class="adv-package__icon" aria-hidden="true">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#f1cc11" fill-opacity="0.2"/>
+            <rect x="8" y="14" width="24" height="16" rx="3" stroke="#1d559f" stroke-width="2"/>
+            <path d="M8 20l12 7 12-7" stroke="#1d559f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>نیوز لیٹر اسپانسرشپ</h3>
+        <p class="adv-package__reach" dir="ltr">42,000+ subscribers per send</p>
+        <ul>
+          <li>ایک نیوز لیٹر ایڈیشن میں آپ کا اسپانسر بلاک</li>
+          <li>لوگو + Urdu کاپی + لنک</li>
+          <li>42,000+ انباکس ڈیلیوری</li>
+          <li>کلک ریپورٹ بعد میں</li>
+        </ul>
+        <p class="adv-package__fit">بہترین: EdTech، SaaS، AI ٹولز، FinTech، پاکستانی برانڈز</p>
+        <a href="mailto:advertise@urduai.org?subject=Newsletter Sponsorship Inquiry" class="btn-playstore adv-package__cta">
+          قیمت پوچھیں
+        </a>
+      </div>
+
+      <div class="adv-package">
+        <div class="adv-package__icon" aria-hidden="true">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
+            <rect x="8" y="10" width="24" height="20" rx="3" stroke="#1d559f" stroke-width="2"/>
+            <path d="M12 18h16M12 22h10" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>اسپانسرڈ مضمون</h3>
+        <p class="adv-package__reach" dir="ltr">Permanent SEO + 1M+ social reach</p>
+        <ul>
+          <li>آپ کے برانڈ پر اردو میں مکمل مضمون</li>
+          <li>urduai.org پر مستقل صفحہ</li>
+          <li>1M+ کمیونٹی میں سوشل شیئر</li>
+          <li>Google پر مستقل موجودگی</li>
+        </ul>
+        <p class="adv-package__fit">بہترین: نئے پروڈکٹ لانچ، ایپس، کورسز، سروسز</p>
+        <a href="mailto:advertise@urduai.org?subject=Sponsored Article Inquiry" class="btn-playstore adv-package__cta">
+          قیمت پوچھیں
+        </a>
+      </div>
+
+      <div class="adv-package">
+        <div class="adv-package__icon" aria-hidden="true">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#f1cc11" fill-opacity="0.12"/>
+            <rect x="8" y="12" width="24" height="16" rx="3" stroke="#1d559f" stroke-width="2"/>
+            <circle cx="20" cy="20" r="4" fill="#f1cc11"/>
+            <path d="M20 16v8M16 20h8" stroke="#1d559f" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>ویب سائٹ بینر</h3>
+        <p class="adv-package__reach" dir="ltr">High-traffic pages — blog + homepage</p>
+        <ul>
+          <li>ہوم پیج اور بلاگ صفحات پر بینر</li>
+          <li>655+ مضامین کے صفحات پر سائڈبار</li>
+          <li>موبائل + ڈیسک ٹاپ دونوں پر</li>
+          <li>ماہانہ impression رپورٹ</li>
+        </ul>
+        <p class="adv-package__fit">بہترین: برانڈ آگاہی، ریکروٹمنٹ، لوکل کاروبار</p>
+        <a href="mailto:advertise@urduai.org?subject=Banner Advertising Inquiry" class="btn-playstore adv-package__cta">
+          قیمت پوچھیں
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="adv-cta">
+    <div class="container" style="text-align:center;">
+      <h2 style="color:var(--gold-light); margin-block-end:var(--space-sm);">تیار ہیں؟</h2>
+      <p style="color:var(--gold-pale); margin-block-end:var(--space-lg);">
+        ای میل کریں اور 24 گھنٹے میں جواب پائیں
+      </p>
+      <a href="mailto:advertise@urduai.org" class="btn-playstore" style="font-size:1.1rem; padding:0.7em 2.5em;">
+        advertise@urduai.org
+      </a>
+    </div>
+  </section>
+
 </Base>
+
+<style>
+  /* Hero */
+  .adv-hero {
+    background: var(--ink);
+    padding-block: var(--space-2xl);
+    margin-block-end: 0;
+  }
+  .adv-hero__eyebrow {
+    color: var(--gold);
+    font-size: var(--text-sm);
+    letter-spacing: 0;
+    margin-block-end: var(--space-xs);
+  }
+  .adv-hero__title {
+    font-size: var(--text-h1);
+    color: white;
+    line-height: var(--lh-heading);
+    margin-block-end: var(--space-md);
+  }
+  .adv-hero__sub {
+    color: var(--gold-pale);
+    max-width: 600px;
+    margin-inline: auto;
+    margin-block-end: var(--space-lg);
+    line-height: var(--lh-prose);
+  }
+
+  /* Stats bar */
+  .adv-stats {
+    background: var(--navy);
+    padding-block: var(--space-xl);
+    margin-block-end: var(--space-2xl);
+  }
+  .adv-stats__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-lg);
+    text-align: center;
+  }
+  .adv-stat__number {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--gold);
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+    margin-block-end: 0.2em;
+  }
+  .adv-stat__label {
+    display: block;
+    color: white;
+    font-size: var(--text-base);
+    margin-block-end: 0.2em;
+  }
+  .adv-stat__note {
+    display: block;
+    color: var(--gold-pale);
+    font-size: var(--text-sm);
+  }
+
+  /* Credentials */
+  .adv-credentials {
+    margin-block-end: var(--space-2xl);
+  }
+  .adv-credentials__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--space-md);
+  }
+  .adv-credential {
+    background: var(--paper-card);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: var(--space-md);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+  .adv-credential strong {
+    color: var(--ink);
+    font-size: var(--text-base);
+  }
+  .adv-credential p {
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+    margin: 0;
+  }
+
+  /* Audience */
+  .adv-audience {
+    background: var(--paper-warm);
+    padding-block: var(--space-2xl);
+    margin-block-end: var(--space-2xl);
+  }
+  .adv-audience__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+  }
+  .adv-audience__item {
+    background: var(--paper-card);
+    border-radius: 8px;
+    padding: var(--space-md);
+    border: 1px solid var(--border);
+  }
+  .adv-audience__item strong {
+    display: block;
+    color: var(--navy);
+    margin-block-end: var(--space-xs);
+  }
+  .adv-audience__item p {
+    color: var(--ink-soft);
+    font-size: var(--text-sm);
+    margin: 0;
+    line-height: var(--lh-body);
+  }
+
+  /* Packages */
+  .adv-packages {
+    margin-block-end: var(--space-2xl);
+  }
+  .adv-packages__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-md);
+    align-items: start;
+  }
+  .adv-package {
+    background: var(--paper-card);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: var(--space-lg);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .adv-package--featured {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(241, 204, 17, 0.15);
+  }
+  .adv-package__badge {
+    position: absolute;
+    top: -0.7em;
+    inset-inline-start: var(--space-md);
+    background: var(--gold);
+    color: var(--ink);
+    font-size: var(--text-sm);
+    padding: 0.15em 0.8em;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  .adv-package h3 {
+    font-size: var(--text-h3);
+    color: var(--ink);
+    margin: 0;
+  }
+  .adv-package__reach {
+    color: var(--navy);
+    font-size: var(--text-sm);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+  .adv-package ul {
+    padding-inline-start: 1.2em;
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: var(--text-sm);
+    line-height: var(--lh-body);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+  }
+  .adv-package__fit {
+    font-size: var(--text-sm);
+    color: var(--ink-muted);
+    margin: 0;
+    font-style: italic;
+  }
+  .adv-package__cta {
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-block-start: var(--space-xs);
+  }
+
+  /* Bottom CTA */
+  .adv-cta {
+    background: var(--ink);
+    padding-block: var(--space-2xl);
+  }
+</style>

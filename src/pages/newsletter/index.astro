@@ -1,0 +1,255 @@
+---
+import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
+---
+
+<Base
+  title="اردو اے آئی نیوز لیٹر — ہر ہفتے اے آئی کی تازہ ترین خبریں اردو میں"
+  description="اردو اے آئی نیوز لیٹر سبسکرائب کریں۔ 42,000 سے زائد قارئین ہر ہفتے پاکستانی نقطہ نظر سے اے آئی کی خبریں، گائیڈز اور پرامٹس پڑھتے ہیں۔"
+  canonical="https://urduai.org/newsletter/"
+  adsense={false}
+>
+  <section class="newsletter-hero">
+    <div class="container" style="text-align:center;">
+      <div class="newsletter-hero__icon" aria-hidden="true">
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="16" fill="#1d559f" fill-opacity="0.12"/>
+          <rect x="12" y="20" width="40" height="28" rx="4" stroke="#1d559f" stroke-width="2.5"/>
+          <path d="M12 26l20 13 20-13" stroke="#1d559f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="48" cy="18" r="6" fill="#f1cc11"/>
+          <path d="M48 15v4M50 17h-4" stroke="#1d559f" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h1 class="newsletter-hero__title">اردو اے آئی نیوز لیٹر</h1>
+      <p class="newsletter-hero__sub">
+        ہر ہفتے اے آئی کی تازہ ترین خبریں، گائیڈز اور پرامٹس<br/>
+        پاکستانی نقطہ نظر سے — سیدھے آپ کی ای میل میں
+      </p>
+
+      <div class="newsletter-stats">
+        <div class="newsletter-stat">
+          <span class="newsletter-stat__number" dir="ltr">42,000+</span>
+          <span class="newsletter-stat__label">سبسکرائبرز</span>
+        </div>
+        <div class="newsletter-stat">
+          <span class="newsletter-stat__number" dir="ltr">52</span>
+          <span class="newsletter-stat__label">ایڈیشن سالانہ</span>
+        </div>
+        <div class="newsletter-stat">
+          <span class="newsletter-stat__number" dir="ltr">100%</span>
+          <span class="newsletter-stat__label">مفت</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="newsletter-layout">
+
+      <!-- What you get -->
+      <div class="newsletter-features">
+        <h2>ہر ہفتے آپ کو ملے گا</h2>
+        <ul class="newsletter-feature-list">
+          <li class="newsletter-feature">
+            <span class="newsletter-feature__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="6" fill="#1d559f" fill-opacity="0.1"/>
+                <path d="M5 12h14M12 5l7 7-7 7" stroke="#1d559f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <strong>تازہ ترین اے آئی خبریں</strong>
+              <p>ChatGPT، Gemini، Claude اور دیگر ٹولز کی نئی اپڈیٹس — پاکستانی نقطہ نظر سے تجزیہ</p>
+            </div>
+          </li>
+          <li class="newsletter-feature">
+            <span class="newsletter-feature__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="6" fill="#1d559f" fill-opacity="0.1"/>
+                <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" stroke="#1d559f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <strong>عملی گائیڈز</strong>
+              <p>اے آئی ٹولز کو اپنے کام میں کیسے استعمال کریں — قدم بقدم ہدایات</p>
+            </div>
+          </li>
+          <li class="newsletter-feature">
+            <span class="newsletter-feature__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="24" height="24" rx="6" fill="#f1cc11" fill-opacity="0.15"/>
+                <path d="M14 3v4a1 1 0 001 1h4M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8M14 3l5 5" stroke="#1d559f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <strong>تیار اردو پرامٹس</strong>
+              <p>کاپی پیسٹ کے لیے تیار پرامٹس — ہر ہفتے نئے، مختلف پیشوں کے لیے</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="newsletter-social-proof">
+          <p>
+            <strong>قیصر رونجھا</strong> کی جانب سے — اردو اے آئی کے بانی۔
+            S&P Global Foundation، ElevenLabs اور Google.org کے تعاون یافتہ۔
+          </p>
+          <a
+            href="https://www.urduaiupdates.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color:var(--teal); font-size:var(--text-sm);"
+          >
+            پرانے ایڈیشن پڑھیں ←
+          </a>
+        </div>
+      </div>
+
+      <!-- Substack embed -->
+      <div class="newsletter-embed-wrap">
+        <iframe
+          src="https://www.urduaiupdates.com/embed"
+          width="480"
+          height="320"
+          style="border:1px solid #EEE; background:white; border-radius:8px; max-width:100%;"
+          frameborder="0"
+          scrolling="no"
+          title="اردو اے آئی نیوز لیٹر سبسکرائب کریں"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+    </div>
+  </div>
+</Base>
+
+<style>
+  .newsletter-hero {
+    background: var(--ink);
+    padding-block: var(--space-2xl);
+    margin-block-end: var(--space-2xl);
+  }
+
+  .newsletter-hero__icon {
+    display: flex;
+    justify-content: center;
+    margin-block-end: var(--space-md);
+  }
+
+  .newsletter-hero__title {
+    font-size: var(--text-h1);
+    color: var(--gold-light);
+    margin-block-end: var(--space-sm);
+  }
+
+  .newsletter-hero__sub {
+    color: var(--gold-pale);
+    font-size: var(--text-base);
+    line-height: var(--lh-prose);
+    margin-block-end: var(--space-lg);
+  }
+
+  .newsletter-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+  }
+
+  .newsletter-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+  }
+
+  .newsletter-stat__number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gold);
+    font-family: 'Inter', sans-serif;
+    line-height: 1;
+  }
+
+  .newsletter-stat__label {
+    font-size: var(--text-sm);
+    color: var(--gold-pale);
+  }
+
+  .newsletter-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: start;
+    margin-block-end: var(--space-2xl);
+  }
+
+  .newsletter-features h2 {
+    font-size: var(--text-h2);
+    margin-block-end: var(--space-lg);
+    color: var(--ink);
+  }
+
+  .newsletter-feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .newsletter-feature {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: flex-start;
+  }
+
+  .newsletter-feature__icon {
+    flex-shrink: 0;
+    margin-block-start: 0.2em;
+  }
+
+  .newsletter-feature strong {
+    display: block;
+    color: var(--ink);
+    margin-block-end: 0.2em;
+  }
+
+  .newsletter-feature p {
+    color: var(--ink-soft);
+    font-size: var(--text-sm);
+    line-height: var(--lh-body);
+    margin: 0;
+  }
+
+  .newsletter-social-proof {
+    background: var(--paper-warm);
+    border-inline-start: 3px solid var(--gold);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 0 6px 6px 0;
+  }
+
+  .newsletter-social-proof p {
+    font-size: var(--text-sm);
+    color: var(--ink-soft);
+    margin: 0 0 var(--space-xs);
+    line-height: var(--lh-body);
+  }
+
+  .newsletter-embed-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-block-start: var(--space-sm);
+  }
+
+  @media (max-width: 768px) {
+    .newsletter-layout {
+      grid-template-columns: 1fr;
+    }
+    .newsletter-embed-wrap {
+      order: -1;
+    }
+  }
+</style>
