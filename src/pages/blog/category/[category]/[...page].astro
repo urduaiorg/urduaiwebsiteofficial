@@ -1,0 +1,138 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const categories = [...new Set(posts.map(post => post.data.category).filter(Boolean))];
+
+  return categories.flatMap(category => {
+    const map = {
+      'اے آئی اپڈیٹ': 'ai-update',
+      'گائیڈ': 'guide',
+      'ہاؤ ٹو': 'how-to',
+      'پرامٹس': 'prompts',
+    };
+    const categorySlug = map[category] ?? category
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/[^\p{L}\p{N}-]+/gu, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+
+    const categoryPosts = posts
+      .filter(post => post.data.category === category)
+      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+    return paginate(categoryPosts, {
+      params: { category: categorySlug },
+      props: { categoryLabel: category },
+      pageSize: 12,
+    });
+  });
+}
+
+const { page, categoryLabel } = Astro.props;
+const isFirst = page.currentPage === 1;
+const categorySlug = Astro.params.category;
+const canonical = isFirst
+  ? `https://urduai.org/blog/category/${categorySlug}/`
+  : `https://urduai.org/blog/category/${categorySlug}/${page.currentPage}/`;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base
+  title={`${categoryLabel} — اردو اے آئی`}
+  description={`${categoryLabel} زمرے کے تمام مضامین اردو اے آئی پر ایک جگہ پڑھیں۔`}
+  canonical={canonical}
+  adsense={true}
+>
+  <div class="container" style="margin-block-start: var(--space-xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li><a href="/blog/">بلاگ</a></li>
+        <li aria-current="page">{categoryLabel}</li>
+      </ol>
+    </nav>
+
+    <h1>{categoryLabel}</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg);">
+      اس زمرے کے تمام مضامین ایک جگہ
+    </p>
+
+    <div class="post-grid">
+      {page.data.map(post => (
+        <article class="card">
+          {post.data.image ? (
+            <img
+              src={`${base}${post.data.image}`}
+              alt={post.data.title}
+              width="400"
+              height="225"
+              loading="lazy"
+              style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
+            />
+          ) : (
+            <div class="card__image-placeholder">
+              <span>Urdu Ai</span>
+            </div>
+          )}
+          <p class="card__meta">
+            <span class="badge">{post.data.category}</span>
+            &nbsp;
+            <time datetime={post.data.date}>
+              {new Date(post.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
+            </time>
+          </p>
+          <h2 class="card__title"><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+          <p class="card__excerpt">{post.data.description}</p>
+        </article>
+      ))}
+    </div>
+
+    {page.lastPage > 1 && (
+      <nav class="pagination" aria-label="صفحہ نمبر">
+        <div class="pagination__inner">
+          {page.url.prev ? (
+            <a href={page.url.prev} class="pagination__btn" rel="prev">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              پچھلا
+            </a>
+          ) : (
+            <span class="pagination__btn pagination__btn--disabled">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              پچھلا
+            </span>
+          )}
+          <span class="pagination__info">
+            صفحہ <span dir="ltr">{page.currentPage}</span> از <span dir="ltr">{page.lastPage}</span>
+          </span>
+          {page.url.next ? (
+            <a href={page.url.next} class="pagination__btn" rel="next">
+              اگلا
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          ) : (
+            <span class="pagination__btn pagination__btn--disabled">
+              اگلا
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          )}
+        </div>
+      </nav>
+    )}
+  </div>
+</Base>
+
+<style>
+  .pagination { margin-block-start: var(--space-xl); margin-block-end: var(--space-lg); }
+  .pagination__inner { display: flex; align-items: center; justify-content: center; gap: var(--space-md); flex-wrap: wrap; }
+  .pagination__btn { display: inline-flex; align-items: center; gap: 0.4em; padding: 0.5em 1.2em; border: 1.5px solid var(--border); border-radius: 6px; background: var(--paper-card); color: var(--navy); text-decoration: none; font-size: var(--text-sm); line-height: var(--lh-body); transition: all 0.15s; }
+  .pagination__btn:hover { background: var(--navy); color: white; border-color: var(--navy); }
+  .pagination__btn--disabled { color: var(--ink-muted); cursor: default; opacity: 0.5; pointer-events: none; }
+  .pagination__info { font-size: var(--text-sm); color: var(--ink-muted); white-space: nowrap; }
+</style>

@@ -1,0 +1,77 @@
+---
+// /search/ — Pagefind client-side search (index built in postbuild)
+import Base from '../../layouts/Base.astro';
+
+const assetBase = import.meta.env.BASE_URL;
+---
+
+<Base
+  title="تلاش — اردو اے آئی"
+  description="اردو اے آئی پر مضامین، گائیڈز، ہاؤ ٹو، لغت اور مزید میں تلاش کریں۔"
+  canonical="https://urduai.org/search/"
+  adsense={false}
+>
+  <link slot="head" rel="stylesheet" href={`${assetBase}pagefind/pagefind-ui.css`} />
+
+  <div class="container" style="margin-block-start: var(--space-xl); margin-block-end: var(--space-2xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href="/">ہوم</a></li>
+        <li aria-current="page">تلاش</li>
+      </ol>
+    </nav>
+
+    <h1>تلاش</h1>
+    <p class="text-muted" style="margin-block-end: var(--space-lg); max-width: 42rem;">
+      سائٹ کے تقریباً تمام صفحات میں سے تلاش کریں۔ تیزی کے لیے پہلے <code style="direction:ltr; unicode-bidi: embed;">npm run build</code> کے بعد انڈیکس بنتا ہے؛ مقامی پیش نظارہ میں بھی <code style="direction:ltr; unicode-bidi: embed;">npm run preview</code> استعمال کریں۔
+    </p>
+
+    <div id="search"></div>
+  </div>
+
+  <script is:inline define:vars={{ assetBase }}>
+    window.addEventListener('DOMContentLoaded', async () => {
+      try {
+        await import(/* @vite-ignore */ assetBase + 'pagefind/pagefind-ui.js');
+      } catch (e) {
+        var el = document.getElementById('search');
+        if (el) {
+          el.innerHTML =
+            '<p class="text-muted" style="padding:1rem;border:1px solid var(--border);border-radius:8px;">تلاش یہاں صرف تیار شدہ سائٹ پر دستیاب ہے۔ براہ کرم <code style="direction:ltr;unicode-bidi:embed;">npm run build && npm run preview</code> چلائیں، یا لائیو سائٹ کھولیں۔</p>';
+        }
+        console.warn('Pagefind UI failed to load (expected in dev if dist/pagefind missing):', e);
+        return;
+      }
+      if (typeof window.PagefindUI === 'undefined') return;
+      var ui = new window.PagefindUI({
+        element: '#search',
+        bundlePath: assetBase + 'pagefind/',
+        showSubResults: true,
+        translations: {
+          placeholder: 'تلاش کریں...',
+          search_label: 'اردو اے آئی میں تلاش',
+          clear_search: 'صاف کریں',
+          load_more: 'مزید نتائج',
+          zero_results: '[SEARCH_TERM] کے لیے کوئی نتیجہ نہیں',
+          many_results: '[COUNT] نتائج برائے [SEARCH_TERM]',
+          one_result: '[COUNT] نتیجہ برائے [SEARCH_TERM]',
+          searching: '[SEARCH_TERM] تلاش ہو رہی ہے...',
+        },
+      });
+      var q = new URLSearchParams(window.location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    });
+  </script>
+</Base>
+
+<style is:global>
+  /* Pagefind UI: keep readable inside RTL page */
+  .pagefind-ui {
+    direction: rtl;
+    text-align: right;
+  }
+  .pagefind-ui .pagefind-ui__search-input {
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', serif;
+    font-size: 1rem;
+  }
+</style>
