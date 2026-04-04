@@ -5,6 +5,7 @@ date: 2025-10-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/can-you-predict-your-childs-health-future-today-with-the-help-of-artificial-intelligence.jpg"
 draft: false
 ---
 

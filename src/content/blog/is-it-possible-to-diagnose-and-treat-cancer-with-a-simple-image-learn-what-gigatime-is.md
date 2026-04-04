@@ -5,6 +5,7 @@ date: 2025-12-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-it-possible-to-diagnose-and-treat-cancer-with-a-simple-image-learn-what-gigatime-is.jpg"
 draft: false
 ---
 

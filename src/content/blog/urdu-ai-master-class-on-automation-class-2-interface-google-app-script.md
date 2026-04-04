@@ -5,6 +5,7 @@ date: 2025-06-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-master-class-on-automation-class-2-interface-google-app-script.jpg"
 draft: false
 ---
 

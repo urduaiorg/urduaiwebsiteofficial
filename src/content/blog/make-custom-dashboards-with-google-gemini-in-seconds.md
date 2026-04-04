@@ -5,6 +5,7 @@ date: 2025-12-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/make-custom-dashboards-with-google-gemini-in-seconds.jpg"
 draft: false
 ---
 

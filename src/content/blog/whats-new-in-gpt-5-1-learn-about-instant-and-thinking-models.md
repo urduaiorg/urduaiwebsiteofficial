@@ -5,6 +5,7 @@ date: 2025-11-15
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/whats-new-in-gpt-5-1-learn-about-instant-and-thinking-models.jpg"
 draft: false
 ---
 

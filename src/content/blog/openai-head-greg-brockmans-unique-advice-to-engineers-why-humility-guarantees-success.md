@@ -5,6 +5,7 @@ date: 2025-08-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/openai-head-greg-brockmans-unique-advice-to-engineers-why-humility-guarantees-success.jpg"
 draft: false
 ---
 

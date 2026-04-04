@@ -6,6 +6,7 @@ date: 2024-12-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-balochistan-kay-school-main.jpg"
 draft: false
 ---
 

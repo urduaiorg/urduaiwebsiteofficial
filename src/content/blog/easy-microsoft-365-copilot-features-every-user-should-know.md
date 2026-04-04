@@ -5,6 +5,7 @@ date: 2025-12-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/easy-microsoft-365-copilot-features-every-user-should-know.jpg"
 draft: false
 faq:
   - question: "Microsoft 365 Copilot کے اہم نئے فیچرز کون سے ہیں؟"

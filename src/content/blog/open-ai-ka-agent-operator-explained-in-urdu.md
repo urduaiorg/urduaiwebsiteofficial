@@ -5,6 +5,7 @@ date: 2025-01-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/open-ai-ka-agent-operator-explained-in-urdu.jpg"
 draft: false
 ---
 

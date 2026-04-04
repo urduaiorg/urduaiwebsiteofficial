@@ -5,6 +5,7 @@ date: 2025-11-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-investments-from-anthropic-microsoft-and-nvidia-change-the-world-of-artificial-intelligence.jpg"
 draft: false
 ---
 

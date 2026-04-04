@@ -5,6 +5,7 @@ date: 2025-02-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/make-urdu-ai-cartoons-free.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-11-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-does-googles-new-model-nano-pro-work-can-you-now-make-professional-photos.jpg"
 draft: false
 ---
 

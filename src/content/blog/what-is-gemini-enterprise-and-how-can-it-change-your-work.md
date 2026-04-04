@@ -5,6 +5,7 @@ date: 2025-10-16
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-gemini-enterprise-and-how-can-it-change-your-work.jpg"
 draft: false
 ---
 

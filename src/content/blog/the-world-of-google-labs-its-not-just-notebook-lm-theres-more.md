@@ -5,6 +5,7 @@ date: 2025-07-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-world-of-google-labs-its-not-just-notebook-lm-theres-more.jpg"
 draft: false
 ---
 

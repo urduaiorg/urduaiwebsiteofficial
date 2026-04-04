@@ -5,6 +5,7 @@ date: 2025-12-17
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-does-the-google-live-translate-feature-work-and-is-it-available-in-pakistan.jpg"
 draft: false
 faq:
   - question: "گوگل لائیو ٹرانسلیٹ فیچر کیسے کام کرتا ہے؟"

@@ -5,6 +5,7 @@ date: 2025-10-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-weekly-updates-october-2025-new-changes.jpg"
 draft: false
 ---
 

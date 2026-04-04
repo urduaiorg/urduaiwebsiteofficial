@@ -6,6 +6,7 @@ date: 2024-12-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/chatgpts-new-voice-and-video-feature.jpg"
 draft: false
 ---
 

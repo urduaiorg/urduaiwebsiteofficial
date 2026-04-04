@@ -5,6 +5,7 @@ date: 2025-03-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/ai-book-reviews-content-idea.jpg"
 draft: false
 ---
 

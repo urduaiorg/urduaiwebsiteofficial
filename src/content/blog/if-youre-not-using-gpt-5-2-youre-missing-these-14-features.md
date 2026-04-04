@@ -5,6 +5,7 @@ date: 2025-12-14
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/if-youre-not-using-gpt-5-2-youre-missing-these-14-features.jpg"
 draft: false
 faq:
   - question: "جی پی ٹی 5.2 روزانہ کتنا وقت بچا سکتا ہے؟"

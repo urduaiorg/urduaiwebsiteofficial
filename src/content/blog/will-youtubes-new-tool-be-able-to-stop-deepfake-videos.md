@@ -5,6 +5,7 @@ date: 2025-10-31
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-youtubes-new-tool-be-able-to-stop-deepfake-videos.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-08-20
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/a-major-breakthrough-in-pharmaceutical-manufacturing-with-the-help-of-artificial-intelligence-a-new-drug-against-dangerous-bacteria-has-been-developed.jpg"
 draft: false
 ---
 

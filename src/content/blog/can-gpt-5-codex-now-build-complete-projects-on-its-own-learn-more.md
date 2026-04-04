@@ -5,6 +5,7 @@ date: 2025-10-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/can-gpt-5-codex-now-build-complete-projects-on-its-own-learn-more.jpg"
 draft: false
 ---
 

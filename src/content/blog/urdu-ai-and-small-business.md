@@ -5,6 +5,7 @@ date: 2024-12-06
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-and-small-business.jpg"
 draft: false
 ---
 

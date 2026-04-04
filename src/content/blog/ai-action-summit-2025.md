@@ -5,6 +5,7 @@ date: 2025-02-14
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/ai-action-summit-2025.jpg"
 draft: false
 ---
 

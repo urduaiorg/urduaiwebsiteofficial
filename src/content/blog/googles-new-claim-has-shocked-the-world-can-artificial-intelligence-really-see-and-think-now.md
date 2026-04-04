@@ -5,6 +5,7 @@ date: 2025-12-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/googles-new-claim-has-shocked-the-world-can-artificial-intelligence-really-see-and-think-now.jpg"
 draft: false
 faq:
   - question: "جیمنائی 3 پرو عام اے آئی ماڈلز سے کیسے مختلف ہے؟"

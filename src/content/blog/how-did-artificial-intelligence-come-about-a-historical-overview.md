@@ -5,6 +5,7 @@ date: 2025-10-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-did-artificial-intelligence-come-about-a-historical-overview.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-10-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-the-future-of-poor-countries-in-the-new-world-of-artificial-intelligence.jpg"
 draft: false
 ---
 

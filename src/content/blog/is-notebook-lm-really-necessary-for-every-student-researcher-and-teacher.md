@@ -5,6 +5,7 @@ date: 2025-12-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-notebook-lm-really-necessary-for-every-student-researcher-and-teacher.jpg"
 draft: false
 faq:
   - question: "نوٹ بُک ایل ایم اور عام اے آئی چیٹ بوٹس میں کیا فرق ہے؟"

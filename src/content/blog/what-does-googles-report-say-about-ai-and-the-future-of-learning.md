@@ -5,6 +5,7 @@ date: 2025-11-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-does-googles-report-say-about-ai-and-the-future-of-learning.jpg"
 draft: false
 ---
 

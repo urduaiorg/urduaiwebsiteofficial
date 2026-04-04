@@ -5,6 +5,7 @@ date: 2025-11-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/does-omnilingual-asr-understand-your-language-too-over-1600-languages-now-in-one-system.jpg"
 draft: false
 ---
 

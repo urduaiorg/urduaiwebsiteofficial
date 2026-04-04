@@ -5,6 +5,7 @@ date: 2025-09-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/unescos-position-what-should-be-the-role-of-artificial-intelligence-in-education.jpg"
 draft: false
 ---
 

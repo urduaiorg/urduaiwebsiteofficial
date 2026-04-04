@@ -5,6 +5,7 @@ date: 2025-07-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/learn-to-write-professional-emails-break-new-ground-with-urdu-ai.jpg"
 draft: false
 ---
 

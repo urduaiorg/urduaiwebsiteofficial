@@ -5,6 +5,7 @@ date: 2025-11-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/universal-music-and-udios-new-system-the-first-ai-platform-in-favor-of-artists.jpg"
 draft: false
 ---
 

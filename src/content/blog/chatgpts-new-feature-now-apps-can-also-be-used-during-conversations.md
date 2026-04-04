@@ -5,6 +5,7 @@ date: 2025-10-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/chatgpts-new-feature-now-apps-can-also-be-used-during-conversations.jpg"
 draft: false
 ---
 

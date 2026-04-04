@@ -5,6 +5,7 @@ date: 2025-04-27
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/make-free-web-apps-and-share-with-world.jpg"
 draft: false
 ---
 

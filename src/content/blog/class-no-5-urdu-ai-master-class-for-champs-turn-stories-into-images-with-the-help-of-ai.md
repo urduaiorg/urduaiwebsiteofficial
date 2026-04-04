@@ -5,6 +5,7 @@ date: 2025-07-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/class-no-5-urdu-ai-master-class-for-champs-turn-stories-into-images-with-the-help-of-ai.jpg"
 draft: false
 ---
 

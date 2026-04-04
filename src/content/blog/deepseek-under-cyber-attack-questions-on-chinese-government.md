@@ -5,6 +5,7 @@ date: 2025-02-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/deepseek-under-cyber-attack-questions-on-chinese-government.jpg"
 draft: false
 ---
 

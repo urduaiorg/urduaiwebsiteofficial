@@ -5,6 +5,7 @@ date: 2025-12-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/geoffrey-hintons-shocking-prediction-what-will-the-future-of-humans-be-in-the-next-10-years.jpg"
 draft: false
 ---
 

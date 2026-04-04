@@ -5,6 +5,7 @@ date: 2025-11-18
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-does-the-group-chat-feature-work-in-chatgpt-full-description.jpg"
 draft: false
 ---
 

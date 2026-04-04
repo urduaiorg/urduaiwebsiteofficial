@@ -5,6 +5,7 @@ date: 2025-07-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/why-did-microsoft-decide-to-cut-nine-thousand-jobs-worldwide.jpg"
 draft: false
 ---
 

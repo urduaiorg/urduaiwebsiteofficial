@@ -5,6 +5,7 @@ date: 2025-09-27
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-does-comet-browser-make-your-daily-tasks-easier.jpg"
 draft: false
 ---
 

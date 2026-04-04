@@ -5,6 +5,7 @@ date: 2025-02-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/musks-xai-releases-artificial-intelligence-model-grok-3.jpg"
 draft: false
 ---
 

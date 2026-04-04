@@ -5,6 +5,7 @@ date: 2025-12-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-rapid-development-of-artificial-intelligence-and-the-growing-global-gap.jpg"
 draft: false
 ---
 

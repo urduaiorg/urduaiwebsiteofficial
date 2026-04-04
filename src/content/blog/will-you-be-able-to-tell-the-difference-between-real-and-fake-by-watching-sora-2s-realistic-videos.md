@@ -5,6 +5,7 @@ date: 2025-10-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-you-be-able-to-tell-the-difference-between-real-and-fake-by-watching-sora-2s-realistic-videos.jpg"
 draft: false
 ---
 

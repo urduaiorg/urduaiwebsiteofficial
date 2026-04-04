@@ -5,6 +5,7 @@ date: 2025-11-06
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/can-artificial-intelligence-in-space-be-powered-by-sunlight-know-what-googles-plan-is.jpg"
 draft: false
 ---
 

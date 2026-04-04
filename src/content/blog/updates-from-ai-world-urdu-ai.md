@@ -5,6 +5,7 @@ date: 2025-06-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/updates-from-ai-world-urdu-ai.jpg"
 draft: false
 ---
 

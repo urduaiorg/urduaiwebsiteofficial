@@ -5,6 +5,7 @@ date: 2025-03-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/free-voice-generation-from-open-ai-for-next-24-hours.jpg"
 draft: false
 ---
 

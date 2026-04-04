@@ -5,6 +5,7 @@ date: 2025-12-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/are-you-ready-to-wear-googles-first-ai-glasses-in-2026.jpg"
 draft: false
 ---
 

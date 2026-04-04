@@ -5,6 +5,7 @@ date: 2025-09-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-a-free-resource-for-ordinary-people-to-learn-artificial-intelligence.jpg"
 draft: false
 ---
 

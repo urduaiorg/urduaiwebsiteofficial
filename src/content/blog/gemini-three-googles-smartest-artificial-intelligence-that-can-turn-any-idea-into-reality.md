@@ -5,6 +5,7 @@ date: 2025-11-20
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/gemini-three-googles-smartest-artificial-intelligence-that-can-turn-any-idea-into-reality.jpg"
 draft: false
 ---
 

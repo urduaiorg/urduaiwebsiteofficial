@@ -5,6 +5,7 @@ date: 2025-10-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/are-we-making-a-mistake-in-understanding-artificial-intelligence.jpg"
 draft: false
 ---
 

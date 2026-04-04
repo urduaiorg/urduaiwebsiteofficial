@@ -5,6 +5,7 @@ date: 2025-09-18
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/new-gpt-5-codex-upgrade-a-great-new-companion-for-developers.jpg"
 draft: false
 ---
 

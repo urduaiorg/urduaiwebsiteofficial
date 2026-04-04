@@ -5,6 +5,7 @@ date: 2025-10-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/windows-meta-and-google-updates-in-the-ai-world.jpg"
 draft: false
 ---
 

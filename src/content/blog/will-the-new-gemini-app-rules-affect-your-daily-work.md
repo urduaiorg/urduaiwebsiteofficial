@@ -5,6 +5,7 @@ date: 2025-09-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-the-new-gemini-app-rules-affect-your-daily-work.jpg"
 draft: false
 ---
 

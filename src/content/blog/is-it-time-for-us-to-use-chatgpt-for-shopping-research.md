@@ -5,6 +5,7 @@ date: 2025-11-27
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-it-time-for-us-to-use-chatgpt-for-shopping-research.jpg"
 draft: false
 ---
 

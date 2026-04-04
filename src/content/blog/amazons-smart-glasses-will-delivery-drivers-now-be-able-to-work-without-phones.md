@@ -5,6 +5,7 @@ date: 2025-10-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/amazons-smart-glasses-will-delivery-drivers-now-be-able-to-work-without-phones.jpg"
 draft: false
 ---
 

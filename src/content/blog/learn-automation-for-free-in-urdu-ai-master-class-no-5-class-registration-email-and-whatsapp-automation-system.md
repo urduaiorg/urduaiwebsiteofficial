@@ -5,6 +5,7 @@ date: 2025-06-23
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/learn-automation-for-free-in-urdu-ai-master-class-no-5-class-registration-email-and-whatsapp-automation-system.jpg"
 draft: false
 ---
 

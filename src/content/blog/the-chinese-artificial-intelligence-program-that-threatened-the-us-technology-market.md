@@ -5,6 +5,7 @@ date: 2025-01-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-chinese-artificial-intelligence-program-that-threatened-the-us-technology-market.jpg"
 draft: false
 ---
 

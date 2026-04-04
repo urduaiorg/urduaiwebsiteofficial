@@ -5,6 +5,7 @@ date: 2025-12-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/which-google-ai-tools-did-educational-institutions-benefit-the-most-from-in-2025.jpg"
 draft: false
 ---
 

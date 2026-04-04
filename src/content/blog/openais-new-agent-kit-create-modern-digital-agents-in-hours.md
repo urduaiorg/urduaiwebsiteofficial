@@ -5,6 +5,7 @@ date: 2025-10-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/openais-new-agent-kit-create-modern-digital-agents-in-hours.jpg"
 draft: false
 ---
 

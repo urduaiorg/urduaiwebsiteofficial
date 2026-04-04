@@ -5,6 +5,7 @@ date: 2025-09-27
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-metas-new-feature-vibes-really-changing-the-way-ai-makes-videos.jpg"
 draft: false
 ---
 

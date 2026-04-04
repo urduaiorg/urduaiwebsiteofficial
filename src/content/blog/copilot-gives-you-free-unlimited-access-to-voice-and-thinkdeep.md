@@ -5,6 +5,7 @@ date: 2025-02-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/copilot-gives-you-free-unlimited-access-to-voice-and-thinkdeep.jpg"
 draft: false
 ---
 

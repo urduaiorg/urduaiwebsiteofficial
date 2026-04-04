@@ -5,6 +5,7 @@ date: 2025-03-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/new-feature-of-image-creation-in-chatgpt-now-create-images-directly-from-gpt4o.jpg"
 draft: false
 ---
 

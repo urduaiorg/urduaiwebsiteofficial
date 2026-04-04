@@ -6,6 +6,7 @@ date: 2025-01-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/children-poems-with-ai.jpg"
 draft: false
 ---
 

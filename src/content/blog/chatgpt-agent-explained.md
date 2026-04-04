@@ -5,6 +5,7 @@ date: 2025-08-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/chatgpt-agent-explained.jpg"
 draft: false
 ---
 

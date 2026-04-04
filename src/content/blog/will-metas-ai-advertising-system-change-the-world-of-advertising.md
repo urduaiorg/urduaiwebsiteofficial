@@ -5,6 +5,7 @@ date: 2025-06-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-metas-ai-advertising-system-change-the-world-of-advertising.jpg"
 draft: false
 ---
 

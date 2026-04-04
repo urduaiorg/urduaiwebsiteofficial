@@ -5,6 +5,7 @@ date: 2025-10-27
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-copilot-be-able-to-fulfill-its-promise-of-making-your-life-easier.jpg"
 draft: false
 ---
 

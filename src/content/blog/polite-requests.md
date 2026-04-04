@@ -5,6 +5,7 @@ date: 2024-11-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/polite-requests.jpg"
 draft: false
 ---
 

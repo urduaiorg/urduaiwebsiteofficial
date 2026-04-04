@@ -5,6 +5,7 @@ date: 2025-10-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-expensive-software-still-needed-for-simple-problems.jpg"
 draft: false
 ---
 

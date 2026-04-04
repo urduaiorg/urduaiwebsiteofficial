@@ -5,6 +5,7 @@ date: 2025-12-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/chat-gpts-new-feature-what-have-you-learned-throughout-the-year.jpg"
 draft: false
 ---
 

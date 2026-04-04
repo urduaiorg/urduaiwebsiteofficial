@@ -5,6 +5,7 @@ date: 2025-06-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-champs-class-3-explains-ai-tools-in-an-interesting-way-for-children.jpg"
 draft: false
 ---
 

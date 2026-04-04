@@ -5,6 +5,7 @@ date: 2025-12-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-gemini-or-the-financial-crisis-the-real-reason-for-openais-code-red.jpg"
 draft: false
 ---
 

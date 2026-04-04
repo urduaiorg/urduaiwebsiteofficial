@@ -5,6 +5,7 @@ date: 2025-08-18
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-to-make-games-with-ai-master-class-6.jpg"
 draft: false
 ---
 

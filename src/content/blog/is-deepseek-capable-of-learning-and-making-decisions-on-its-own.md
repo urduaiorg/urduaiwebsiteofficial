@@ -5,6 +5,7 @@ date: 2025-12-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-deepseek-capable-of-learning-and-making-decisions-on-its-own.jpg"
 draft: false
 ---
 

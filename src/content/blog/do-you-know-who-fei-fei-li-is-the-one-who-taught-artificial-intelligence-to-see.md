@@ -5,6 +5,7 @@ date: 2025-11-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/do-you-know-who-fei-fei-li-is-the-one-who-taught-artificial-intelligence-to-see.jpg"
 draft: false
 ---
 

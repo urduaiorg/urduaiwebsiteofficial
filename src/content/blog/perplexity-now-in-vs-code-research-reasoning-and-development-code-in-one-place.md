@@ -5,6 +5,7 @@ date: 2025-05-23
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/perplexity-now-in-vs-code-research-reasoning-and-development-code-in-one-place.jpg"
 draft: false
 ---
 

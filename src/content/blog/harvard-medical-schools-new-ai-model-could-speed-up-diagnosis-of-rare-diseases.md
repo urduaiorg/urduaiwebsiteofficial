@@ -5,6 +5,7 @@ date: 2025-11-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/harvard-medical-schools-new-ai-model-could-speed-up-diagnosis-of-rare-diseases.jpg"
 draft: false
 ---
 

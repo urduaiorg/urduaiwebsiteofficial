@@ -5,6 +5,7 @@ date: 2025-12-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-the-genesis-mission-americas-largest-national-ai-based-project.jpg"
 draft: false
 ---
 

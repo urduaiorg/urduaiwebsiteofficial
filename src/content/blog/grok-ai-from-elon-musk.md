@@ -5,6 +5,7 @@ date: 2025-03-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/grok-ai-from-elon-musk.jpg"
 draft: false
 ---
 

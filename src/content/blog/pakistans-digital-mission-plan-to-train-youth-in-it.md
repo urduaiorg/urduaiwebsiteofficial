@@ -5,6 +5,7 @@ date: 2025-09-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/pakistans-digital-mission-plan-to-train-youth-in-it.jpg"
 draft: false
 ---
 

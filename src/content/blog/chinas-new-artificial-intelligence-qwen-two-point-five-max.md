@@ -5,6 +5,7 @@ date: 2025-02-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/chinas-new-artificial-intelligence-qwen-two-point-five-max.jpg"
 draft: false
 ---
 

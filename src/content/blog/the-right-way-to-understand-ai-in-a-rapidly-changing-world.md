@@ -5,6 +5,7 @@ date: 2025-08-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-right-way-to-understand-ai-in-a-rapidly-changing-world.jpg"
 draft: false
 ---
 

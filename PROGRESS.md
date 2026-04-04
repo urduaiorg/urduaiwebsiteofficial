@@ -1190,7 +1190,7 @@ Replace title-based sorting on the Learn index with a curated beginner-first ord
 ---
 
 ### TASK-26 — Archive Quality Rescue Pass for 10 High-Value Blog Posts
-**Status:** In progress
+**Status:** Completed
 **Owner:** Codex (GPT-5) — 2026-04-04
 **Priority:** High — biggest editorial gain now comes from raising the archive quality floor
 
@@ -1247,6 +1247,13 @@ Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
 - `how-does-perplexitys-comet-browser-make-your-work-easier.md`
 - `metas-big-layoff-is-artificial-intelligence-replacing-human-jobs.md`
 - `ai-is-an-opportunity-all-you-need-to-do-is-learn.md`
+
+**Completed — batch 2, 2026-04-04:**
+- Rewrote the body only for all 10 claimed descriptive-slug posts in the second rescue pass.
+- Removed generic migration tone, brittle fragments, weak closers, and hype-heavy framing.
+- Strengthened direct-answer openings, Pakistani relevance, and one-line takeaway endings across the batch.
+- No decorative emoji were introduced.
+- Verification: `npm run build` passed and the site still builds `866` pages.
 
 ---
 

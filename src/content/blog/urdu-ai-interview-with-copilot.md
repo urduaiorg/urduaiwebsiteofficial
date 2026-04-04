@@ -5,6 +5,7 @@ date: 2025-03-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-interview-with-copilot.jpg"
 draft: false
 ---
 

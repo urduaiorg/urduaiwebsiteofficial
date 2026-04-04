@@ -5,6 +5,7 @@ date: 2025-11-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-can-google-gemini-create-new-reports-from-your-old-files.jpg"
 draft: false
 ---
 

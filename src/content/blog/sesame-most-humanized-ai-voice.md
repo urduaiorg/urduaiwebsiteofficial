@@ -5,6 +5,7 @@ date: 2025-03-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/sesame-most-humanized-ai-voice.jpg"
 draft: false
 ---
 

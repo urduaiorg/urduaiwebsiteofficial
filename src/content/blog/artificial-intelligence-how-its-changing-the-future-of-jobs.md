@@ -5,6 +5,7 @@ date: 2025-01-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/artificial-intelligence-how-its-changing-the-future-of-jobs.jpg"
 draft: false
 ---
 

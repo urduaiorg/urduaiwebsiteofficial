@@ -5,6 +5,7 @@ date: 2025-10-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/do-you-know-about-google-videos-learn-the-full-details.jpg"
 draft: false
 ---
 

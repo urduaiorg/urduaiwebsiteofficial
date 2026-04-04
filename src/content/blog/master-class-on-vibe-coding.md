@@ -5,6 +5,7 @@ date: 2026-03-31
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/master-class-on-vibe-coding.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-09-25
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/have-you-tried-geminis-photo-to-video-feature-three-easy-ways.jpg"
 draft: false
 ---
 

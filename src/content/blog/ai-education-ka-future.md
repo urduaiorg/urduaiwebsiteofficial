@@ -5,6 +5,7 @@ date: 2025-03-18
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/ai-education-ka-future.jpg"
 draft: false
 ---
 

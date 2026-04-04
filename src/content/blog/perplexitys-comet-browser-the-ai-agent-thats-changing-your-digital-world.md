@@ -5,6 +5,7 @@ date: 2025-07-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/perplexitys-comet-browser-the-ai-agent-thats-changing-your-digital-world.jpg"
 draft: false
 ---
 

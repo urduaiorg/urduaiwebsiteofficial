@@ -5,6 +5,7 @@ date: 2025-05-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/now-upload-10-photos-at-a-time-in-the-gemini-app.jpg"
 draft: false
 ---
 

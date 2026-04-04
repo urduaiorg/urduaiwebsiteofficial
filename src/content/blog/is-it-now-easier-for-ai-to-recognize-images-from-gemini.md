@@ -5,6 +5,7 @@ date: 2025-11-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-it-now-easier-for-ai-to-recognize-images-from-gemini.jpg"
 draft: false
 ---
 

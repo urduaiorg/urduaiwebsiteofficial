@@ -5,6 +5,7 @@ date: 2025-08-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/a-story-that-teaches-us-to-be-careful.jpg"
 draft: false
 ---
 

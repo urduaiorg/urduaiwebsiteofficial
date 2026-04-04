@@ -5,6 +5,7 @@ date: 2025-05-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-an-emergent-ai-agent-is-it-really-an-alternative-to-manus-ai.jpg"
 draft: false
 faq:
   - question: "ایمرجینٹ اے آئی ایجنٹ کیا ہے؟"

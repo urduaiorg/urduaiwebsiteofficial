@@ -5,6 +5,7 @@ date: 2025-10-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/artificial-intelligence-and-the-question-we-forgot-to-ask.jpg"
 draft: false
 ---
 

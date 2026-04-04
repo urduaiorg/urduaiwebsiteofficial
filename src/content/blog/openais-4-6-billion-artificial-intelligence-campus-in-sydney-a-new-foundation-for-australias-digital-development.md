@@ -5,6 +5,7 @@ date: 2025-12-06
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/openais-4-6-billion-artificial-intelligence-campus-in-sydney-a-new-foundation-for-australias-digital-development.jpg"
 draft: false
 ---
 

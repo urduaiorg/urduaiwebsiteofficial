@@ -5,6 +5,7 @@ date: 2025-05-16
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-golden-age-of-ai-are-small-businesses-ready-for-the-revolution.jpg"
 draft: false
 ---
 

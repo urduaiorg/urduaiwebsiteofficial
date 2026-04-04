@@ -5,6 +5,7 @@ date: 2025-11-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/grok-4-1-elon-musks-new-ai-model-that-thinks-and-feels-like-humans.jpg"
 draft: false
 ---
 

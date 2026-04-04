@@ -5,6 +5,7 @@ date: 2025-11-17
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/where-is-artificial-intelligence-in-2025-urdu-ai-weekly-report.jpg"
 draft: false
 ---
 

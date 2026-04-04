@@ -5,6 +5,7 @@ date: 2025-10-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-master-class-learn-to-create-a-website-without-coding-part-1.jpg"
 draft: false
 ---
 

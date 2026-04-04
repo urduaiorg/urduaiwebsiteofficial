@@ -5,6 +5,7 @@ date: 2025-03-15
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/manus-ai-explained-in-urdu.jpg"
 draft: false
 ---
 

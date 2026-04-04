@@ -5,6 +5,7 @@ date: 2025-10-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-did-artificial-intelligence-support-americas-sinking-economy.jpg"
 draft: false
 ---
 

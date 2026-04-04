@@ -5,6 +5,7 @@ date: 2025-10-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-the-addition-of-google-maps-to-the-gemini-api-change-local-search.jpg"
 draft: false
 ---
 

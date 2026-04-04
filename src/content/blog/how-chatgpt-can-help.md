@@ -5,6 +5,7 @@ date: 2023-05-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-chatgpt-can-help.jpg"
 draft: false
 faq:
   - question: "چیٹ جی پی ٹی کیا ہے؟"

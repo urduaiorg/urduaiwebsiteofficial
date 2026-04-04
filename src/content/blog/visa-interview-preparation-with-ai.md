@@ -5,6 +5,7 @@ date: 2024-12-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/visa-interview-preparation-with-ai.jpg"
 draft: false
 ---
 

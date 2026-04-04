@@ -5,6 +5,7 @@ date: 2025-10-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/sam-altmans-revelation-deepfake-videos-can-put-the-world-at-risk.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-04-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/peshawar-zalmis-ai-generated-video.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-11-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/38-billion-artificial-intelligence-partnership-between-openai-and-amazon-web-services.jpg"
 draft: false
 ---
 

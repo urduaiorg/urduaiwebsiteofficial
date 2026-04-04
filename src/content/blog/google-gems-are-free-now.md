@@ -5,6 +5,7 @@ date: 2025-04-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-gems-are-free-now.jpg"
 draft: false
 ---
 

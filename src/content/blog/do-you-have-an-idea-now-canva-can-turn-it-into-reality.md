@@ -5,6 +5,7 @@ date: 2025-11-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/do-you-have-an-idea-now-canva-can-turn-it-into-reality.jpg"
 draft: false
 ---
 

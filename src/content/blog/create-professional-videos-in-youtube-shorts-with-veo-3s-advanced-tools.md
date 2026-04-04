@@ -5,6 +5,7 @@ date: 2025-09-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/create-professional-videos-in-youtube-shorts-with-veo-3s-advanced-tools.jpg"
 draft: false
 ---
 

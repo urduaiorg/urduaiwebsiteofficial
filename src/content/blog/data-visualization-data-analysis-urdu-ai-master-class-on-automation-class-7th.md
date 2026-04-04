@@ -5,6 +5,7 @@ date: 2025-07-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/data-visualization-data-analysis-urdu-ai-master-class-on-automation-class-7th.jpg"
 draft: false
 ---
 

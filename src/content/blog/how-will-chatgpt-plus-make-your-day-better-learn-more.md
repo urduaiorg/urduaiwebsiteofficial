@@ -5,6 +5,7 @@ date: 2025-09-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-will-chatgpt-plus-make-your-day-better-learn-more.jpg"
 draft: false
 ---
 

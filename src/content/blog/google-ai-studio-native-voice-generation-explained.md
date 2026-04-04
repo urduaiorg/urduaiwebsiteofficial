@@ -5,6 +5,7 @@ date: 2025-06-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-ai-studio-native-voice-generation-explained.jpg"
 draft: false
 ---
 

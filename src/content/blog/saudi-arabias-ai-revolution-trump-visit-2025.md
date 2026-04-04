@@ -5,6 +5,7 @@ date: 2025-05-17
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/saudi-arabias-ai-revolution-trump-visit-2025.jpg"
 draft: false
 ---
 

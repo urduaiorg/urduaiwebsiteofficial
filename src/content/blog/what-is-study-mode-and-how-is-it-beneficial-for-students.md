@@ -5,6 +5,7 @@ date: 2025-08-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-study-mode-and-how-is-it-beneficial-for-students.jpg"
 draft: false
 ---
 

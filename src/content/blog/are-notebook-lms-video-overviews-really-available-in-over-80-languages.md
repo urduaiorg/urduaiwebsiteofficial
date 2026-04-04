@@ -5,6 +5,7 @@ date: 2025-09-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/are-notebook-lms-video-overviews-really-available-in-over-80-languages.jpg"
 draft: false
 ---
 

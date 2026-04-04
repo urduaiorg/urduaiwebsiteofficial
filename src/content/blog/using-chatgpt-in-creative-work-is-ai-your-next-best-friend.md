@@ -5,6 +5,7 @@ date: 2025-08-23
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/using-chatgpt-in-creative-work-is-ai-your-next-best-friend.jpg"
 draft: false
 ---
 

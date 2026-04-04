@@ -5,6 +5,7 @@ date: 2025-07-06
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/why-did-microsoft-close-its-office-in-pakistan-after-25-years.jpg"
 draft: false
 ---
 

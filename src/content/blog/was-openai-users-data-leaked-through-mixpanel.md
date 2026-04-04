@@ -5,6 +5,7 @@ date: 2025-11-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/was-openai-users-data-leaked-through-mixpanel.jpg"
 draft: false
 ---
 

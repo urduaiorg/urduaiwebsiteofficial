@@ -5,6 +5,7 @@ date: 2024-12-03
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/polite-ways-to-accept-or-decline-invitations.jpg"
 draft: false
 ---
 

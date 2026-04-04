@@ -5,6 +5,7 @@ date: 2025-10-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/shopping-on-chatgpt-what-is-instant-checkout-and-agentic-commerce-protocol.jpg"
 draft: false
 ---
 

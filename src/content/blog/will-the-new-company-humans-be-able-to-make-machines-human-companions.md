@@ -5,6 +5,7 @@ date: 2025-11-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-the-new-company-humans-be-able-to-make-machines-human-companions.jpg"
 draft: false
 ---
 

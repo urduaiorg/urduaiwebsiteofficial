@@ -5,6 +5,7 @@ date: 2025-11-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/now-pausing-while-speaking-wont-stop-the-conversation-googles-new-mic-lock-feature.jpg"
 draft: false
 ---
 

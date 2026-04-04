@@ -5,6 +5,7 @@ date: 2024-11-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/zoom-meeting-with-an-ai-avatar.jpg"
 draft: false
 ---
 

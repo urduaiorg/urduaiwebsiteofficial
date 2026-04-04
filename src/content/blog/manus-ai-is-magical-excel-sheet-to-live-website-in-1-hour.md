@@ -5,6 +5,7 @@ date: 2025-04-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/manus-ai-is-magical-excel-sheet-to-live-website-in-1-hour.jpg"
 draft: false
 ---
 

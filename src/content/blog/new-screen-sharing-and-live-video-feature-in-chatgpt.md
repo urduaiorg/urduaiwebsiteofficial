@@ -5,6 +5,7 @@ date: 2025-04-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/new-screen-sharing-and-live-video-feature-in-chatgpt.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2024-12-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-to-ask-give-directions-in-english.jpg"
 draft: false
 ---
 

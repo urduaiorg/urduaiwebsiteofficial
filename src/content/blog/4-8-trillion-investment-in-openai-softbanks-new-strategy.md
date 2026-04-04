@@ -5,6 +5,7 @@ date: 2025-11-14
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/4-8-trillion-investment-in-openai-softbanks-new-strategy.jpg"
 draft: false
 ---
 

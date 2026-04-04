@@ -5,6 +5,7 @@ date: 2025-09-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/elon-musks-grok-2-5-model-is-open-source-but-what-are-the-license-terms.jpg"
 draft: false
 faq:
   - question: "گروک 2.5 کو اوپن سورس کہنے پر بحث کیوں ہو رہی ہے؟"

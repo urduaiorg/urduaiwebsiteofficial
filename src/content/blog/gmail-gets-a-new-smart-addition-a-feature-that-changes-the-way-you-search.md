@@ -5,6 +5,7 @@ date: 2025-03-23
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/gmail-gets-a-new-smart-addition-a-feature-that-changes-the-way-you-search.jpg"
 draft: false
 ---
 

@@ -6,6 +6,7 @@ date: 2024-12-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-se-sab-kuch-seekhein.jpg"
 draft: false
 ---
 

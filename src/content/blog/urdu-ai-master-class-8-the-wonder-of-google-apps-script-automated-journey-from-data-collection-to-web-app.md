@@ -5,6 +5,7 @@ date: 2025-07-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-master-class-8-the-wonder-of-google-apps-script-automated-journey-from-data-collection-to-web-app.jpg"
 draft: false
 ---
 

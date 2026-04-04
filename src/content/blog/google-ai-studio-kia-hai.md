@@ -5,6 +5,7 @@ date: 2025-03-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-ai-studio-kia-hai.jpg"
 draft: false
 ---
 

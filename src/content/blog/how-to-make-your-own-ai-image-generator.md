@@ -5,6 +5,7 @@ date: 2025-04-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-to-make-your-own-ai-image-generator.jpg"
 draft: false
 ---
 

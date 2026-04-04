@@ -5,6 +5,7 @@ date: 2025-11-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/can-small-businesses-also-now-thrive-through-artificial-intelligence.jpg"
 draft: false
 faq:
   - question: "کیا چھوٹے کاروبار بھی اے آئی سے فائدہ اٹھا سکتے ہیں؟"

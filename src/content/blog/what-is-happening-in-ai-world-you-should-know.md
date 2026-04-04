@@ -5,6 +5,7 @@ date: 2025-08-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-happening-in-ai-world-you-should-know.jpg"
 draft: false
 ---
 

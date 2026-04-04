@@ -5,6 +5,7 @@ date: 2025-12-15
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-gemini-deep-research-and-how-does-it-work.jpg"
 draft: false
 ---
 

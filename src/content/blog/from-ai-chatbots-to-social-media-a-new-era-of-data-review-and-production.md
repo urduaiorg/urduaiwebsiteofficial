@@ -5,6 +5,7 @@ date: 2025-06-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/from-ai-chatbots-to-social-media-a-new-era-of-data-review-and-production.jpg"
 draft: false
 ---
 

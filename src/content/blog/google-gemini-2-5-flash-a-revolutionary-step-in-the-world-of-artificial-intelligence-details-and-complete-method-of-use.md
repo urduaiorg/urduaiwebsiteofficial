@@ -5,6 +5,7 @@ date: 2025-09-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-gemini-2-5-flash-a-revolutionary-step-in-the-world-of-artificial-intelligence-details-and-complete-method-of-use.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-11-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-is-anthropics-cloud-ops-4-5-different-from-other-models.jpg"
 draft: false
 ---
 

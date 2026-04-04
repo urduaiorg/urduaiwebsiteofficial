@@ -5,6 +5,7 @@ date: 2025-02-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration.jpg"
 draft: false
 ---
 

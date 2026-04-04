@@ -5,6 +5,7 @@ date: 2025-10-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-soras-new-updates-make-video-creation-legal-and-profitable.jpg"
 draft: false
 ---
 

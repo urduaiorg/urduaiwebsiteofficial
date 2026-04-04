@@ -5,6 +5,7 @@ date: 2024-12-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/sora-is-launched.jpg"
 draft: false
 ---
 

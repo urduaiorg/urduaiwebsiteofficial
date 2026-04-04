@@ -5,6 +5,7 @@ date: 2025-11-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/should-the-decision-to-purchase-online-be-based-on-our-need-or-on-the-choices-shown.jpg"
 draft: false
 ---
 

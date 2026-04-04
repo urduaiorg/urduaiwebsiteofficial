@@ -5,6 +5,7 @@ date: 2025-10-14
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/oogle-gemini-pro-free-for-pakistani-students-for-one-year-full-details-and-registration-method.jpg"
 draft: false
 ---
 

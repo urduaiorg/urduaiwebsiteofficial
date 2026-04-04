@@ -5,6 +5,7 @@ date: 2025-09-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-grokcode-fast-1-really-the-fastest-ai-coder.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2023-04-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/about-urdu-ai.jpg"
 draft: false
 ---
 

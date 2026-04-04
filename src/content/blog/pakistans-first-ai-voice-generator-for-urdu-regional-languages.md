@@ -5,6 +5,7 @@ date: 2025-08-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/pakistans-first-ai-voice-generator-for-urdu-regional-languages.jpg"
 draft: false
 ---
 

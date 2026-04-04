@@ -5,6 +5,7 @@ date: 2025-12-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/is-a-degree-no-longer-enough-sundar-pichais-advice-and-the-secret-to-success-in-the-age-of-ai.jpg"
 draft: false
 ---
 

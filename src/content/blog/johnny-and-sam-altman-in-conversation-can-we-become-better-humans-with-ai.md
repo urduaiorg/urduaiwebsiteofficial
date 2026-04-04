@@ -5,6 +5,7 @@ date: 2025-10-10
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/johnny-and-sam-altman-in-conversation-can-we-become-better-humans-with-ai.jpg"
 draft: false
 ---
 

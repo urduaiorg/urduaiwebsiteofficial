@@ -5,6 +5,7 @@ date: 2025-06-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/future-of-white-collar-jobs-anthropic-ceo-interview.jpg"
 draft: false
 ---
 

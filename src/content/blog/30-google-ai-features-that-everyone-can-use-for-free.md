@@ -5,6 +5,7 @@ date: 2025-11-17
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/30-google-ai-features-that-everyone-can-use-for-free.jpg"
 draft: false
 faq:
   - question: "گوگل کی اے آئی خصوصیات مفت میں کیسے استعمال کی جا سکتی ہیں؟"

@@ -5,6 +5,7 @@ date: 2025-04-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-notebook-lm-explained-urdu-ai.jpg"
 draft: false
 ---
 

@@ -5,6 +5,7 @@ date: 2025-05-09
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-gemini-2-5-most-advanced-coding-version.jpg"
 draft: false
 ---
 

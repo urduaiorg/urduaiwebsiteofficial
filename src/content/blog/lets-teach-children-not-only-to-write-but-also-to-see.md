@@ -5,6 +5,7 @@ date: 2025-10-06
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/lets-teach-children-not-only-to-write-but-also-to-see.jpg"
 draft: false
 ---
 

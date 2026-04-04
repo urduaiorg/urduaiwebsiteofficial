@@ -5,6 +5,7 @@ date: 2025-10-05
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-revolutionary-changes-have-taken-place-in-the-world-of-artificial-intelligence-in-these-two-weeks.jpg"
 draft: false
 ---
 

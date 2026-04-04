@@ -5,6 +5,7 @@ date: 2025-07-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/class-4-apni-pehli-kahani-likhiye.jpg"
 draft: false
 ---
 

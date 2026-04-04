@@ -5,6 +5,7 @@ date: 2025-10-15
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-can-universities-turn-artificial-intelligence-from-a-threat-into-an-opportunity.jpg"
 draft: false
 ---
 

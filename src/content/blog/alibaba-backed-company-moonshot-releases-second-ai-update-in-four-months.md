@@ -5,6 +5,7 @@ date: 2025-11-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/alibaba-backed-company-moonshot-releases-second-ai-update-in-four-months.jpg"
 draft: false
 ---
 

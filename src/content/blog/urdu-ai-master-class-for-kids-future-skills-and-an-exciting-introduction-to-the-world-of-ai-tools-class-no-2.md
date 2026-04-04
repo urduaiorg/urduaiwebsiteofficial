@@ -5,6 +5,7 @@ date: 2025-06-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-master-class-for-kids-future-skills-and-an-exciting-introduction-to-the-world-of-ai-tools-class-no-2.jpg"
 draft: false
 ---
 

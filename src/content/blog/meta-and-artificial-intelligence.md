@@ -5,6 +5,7 @@ date: 2025-02-15
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/meta-and-artificial-intelligence.jpg"
 draft: false
 ---
 

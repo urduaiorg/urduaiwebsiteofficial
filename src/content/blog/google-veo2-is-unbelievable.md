@@ -1,10 +1,12 @@
 ---
 title: "Google VEO2 is Unbelievable"
-description: "Google VEO2 ماڈل: صرف تحریر سے ویڈیو بنانے کی صلاحیت گوگل نے جیمینائی ایڈوانس صارفین کے لیے اپنا جدید ویڈیو جنریشن ماڈل Google VEO2 دستیاب کر دیا ہے۔ یہ ماڈل ا"
+description: "Google VEO2 ماڈل: صرف تحریر سے ویڈیو بنانے کی صلاحیت
+ گوگل نے جیمینائی ایڈوانس صارفین کے لیے اپنا جدید ویڈیو جنریشن ماڈل Google VEO2 دستیاب کر دیا ہے۔ یہ ماڈل ا"
 date: 2025-05-01
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-veo2-is-unbelievable.jpg"
 draft: false
 ---
 

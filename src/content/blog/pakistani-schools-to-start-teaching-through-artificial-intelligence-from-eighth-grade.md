@@ -5,6 +5,7 @@ date: 2025-09-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/pakistani-schools-to-start-teaching-through-artificial-intelligence-from-eighth-grade.jpg"
 draft: false
 ---
 

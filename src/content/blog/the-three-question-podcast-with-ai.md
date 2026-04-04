@@ -5,6 +5,7 @@ date: 2025-03-26
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-three-question-podcast-with-ai.jpg"
 draft: false
 ---
 

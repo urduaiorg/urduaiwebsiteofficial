@@ -5,6 +5,7 @@ date: 2025-09-28
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-is-meta-ai-vibes-complete-information.jpg"
 draft: false
 ---
 

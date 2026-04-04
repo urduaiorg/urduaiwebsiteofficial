@@ -5,6 +5,7 @@ date: 2025-12-19
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/why-did-google-introduce-gemini-3-flash-in-the-gemini-app.jpg"
 draft: false
 ---
 

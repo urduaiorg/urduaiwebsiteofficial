@@ -5,6 +5,7 @@ date: 2025-08-11
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/gpt-5-and-the-new-era-of-work-how-are-companies-taking-advantage-of-ai.jpg"
 draft: false
 ---
 

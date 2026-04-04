@@ -5,6 +5,7 @@ date: 2025-05-08
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/gemini-apps-new-feature-photo-editing-is-now-just-one-sentence-away.jpg"
 draft: false
 ---
 

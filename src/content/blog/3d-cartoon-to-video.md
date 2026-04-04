@@ -5,6 +5,7 @@ date: 2025-02-13
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/3d-cartoon-to-video.jpg"
 draft: false
 ---
 

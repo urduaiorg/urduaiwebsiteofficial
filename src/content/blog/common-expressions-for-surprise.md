@@ -5,6 +5,7 @@ date: 2024-12-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/common-expressions-for-surprise.jpg"
 draft: false
 ---
 

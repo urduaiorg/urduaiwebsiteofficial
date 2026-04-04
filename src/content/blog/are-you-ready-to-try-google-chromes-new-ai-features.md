@@ -5,6 +5,7 @@ date: 2025-09-22
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/are-you-ready-to-try-google-chromes-new-ai-features.jpg"
 draft: false
 ---
 

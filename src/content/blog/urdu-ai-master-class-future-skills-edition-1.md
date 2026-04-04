@@ -5,6 +5,7 @@ date: 2025-06-21
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/urdu-ai-master-class-future-skills-edition-1.jpg"
 draft: false
 ---
 

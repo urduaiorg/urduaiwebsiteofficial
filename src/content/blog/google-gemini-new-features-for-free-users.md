@@ -5,6 +5,7 @@ date: 2025-03-23
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/google-gemini-new-features-for-free-users.jpg"
 draft: false
 ---
 

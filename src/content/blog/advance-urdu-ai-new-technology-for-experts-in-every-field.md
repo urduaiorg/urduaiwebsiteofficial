@@ -5,6 +5,7 @@ date: 2024-12-04
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/advance-urdu-ai-new-technology-for-experts-in-every-field.jpg"
 draft: false
 ---
 

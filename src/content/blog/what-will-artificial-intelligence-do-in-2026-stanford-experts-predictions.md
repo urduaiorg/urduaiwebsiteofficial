@@ -5,6 +5,7 @@ date: 2025-12-20
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/what-will-artificial-intelligence-do-in-2026-stanford-experts-predictions.jpg"
 draft: false
 ---
 

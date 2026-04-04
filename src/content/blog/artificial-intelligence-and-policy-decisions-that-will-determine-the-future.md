@@ -5,6 +5,7 @@ date: 2025-12-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/artificial-intelligence-and-policy-decisions-that-will-determine-the-future.jpg"
 draft: false
 ---
 

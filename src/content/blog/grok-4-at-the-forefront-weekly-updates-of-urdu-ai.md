@@ -5,6 +5,7 @@ date: 2025-07-14
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/grok-4-at-the-forefront-weekly-updates-of-urdu-ai.jpg"
 draft: false
 ---
 

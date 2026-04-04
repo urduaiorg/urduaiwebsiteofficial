@@ -5,6 +5,7 @@ date: 2025-10-07
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/metas-billion-dollar-investment-or-the-worries-of-local-people.jpg"
 draft: false
 ---
 

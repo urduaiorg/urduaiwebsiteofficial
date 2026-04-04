@@ -5,6 +5,7 @@ date: 2025-06-30
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/automation-class-6-automated-systems-through-google-forms-email-and-pdf.jpg"
 draft: false
 ---
 

@@ -6,6 +6,7 @@ date: 2025-04-24
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-the-ai-revolution-really-eradicate-diseases.jpg"
 draft: false
 ---
 

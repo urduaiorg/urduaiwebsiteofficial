@@ -5,6 +5,7 @@ date: 2025-10-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/letter-from-over-800-celebrities-should-machines-that-are-more-intelligent-than-humans-be-banned.jpg"
 draft: false
 ---
 

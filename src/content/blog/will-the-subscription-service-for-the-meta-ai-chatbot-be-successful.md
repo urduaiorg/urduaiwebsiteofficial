@@ -5,6 +5,7 @@ date: 2025-03-12
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/will-the-subscription-service-for-the-meta-ai-chatbot-be-successful.jpg"
 draft: false
 ---
 

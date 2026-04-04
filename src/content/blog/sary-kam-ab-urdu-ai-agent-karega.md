@@ -5,6 +5,7 @@ date: 2025-02-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/sary-kam-ab-urdu-ai-agent-karega.jpg"
 draft: false
 ---
 

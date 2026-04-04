@@ -5,6 +5,7 @@ date: 2025-04-02
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-to-create-marketing-adds-with-ai.jpg"
 draft: false
 ---
 

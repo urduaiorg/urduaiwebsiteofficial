@@ -5,6 +5,7 @@ date: 2025-12-18
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/how-does-chatgpt-images-1-5-work-and-how-can-ordinary-people-use-it.jpg"
 draft: false
 faq:
   - question: "چیٹ جی پی ٹی امیجز 1.5 سے تصویر بنانے کے لیے کیا چاہیے؟"

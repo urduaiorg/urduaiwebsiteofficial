@@ -5,6 +5,7 @@ date: 2025-12-29
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/the-four-fundamental-pillars-of-artificial-intelligence-that-determine-its-development.jpg"
 draft: false
 ---
 

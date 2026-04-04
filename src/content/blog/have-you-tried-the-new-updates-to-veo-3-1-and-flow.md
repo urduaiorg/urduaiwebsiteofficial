@@ -5,6 +5,7 @@ date: 2025-10-20
 category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
+image: "/images/blog/have-you-tried-the-new-updates-to-veo-3-1-and-flow.jpg"
 draft: false
 ---
 
