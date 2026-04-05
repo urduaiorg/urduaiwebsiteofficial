@@ -137,7 +137,7 @@ const personSchema = {
                   {new Date(post.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
                 </time>
               </p>
-              <h3 class="card__title"><a href={`/blog/${post.id}/`}>{post.data.title}</a></h3>
+              <h3 class="card__title"><a href={`${base}/blog/${post.id}/`}>{post.data.title}</a></h3>
               <p class="card__excerpt">{post.data.description}</p>
             </article>
           ))}

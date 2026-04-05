@@ -174,7 +174,7 @@ const combinedSchema = faqSchema
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
         <li><a href={`${base}/`}>ہوم</a></li>
-        <li><a href={`/${collection}/`}>{category ?? collection}</a></li>
+        <li><a href={`${base}/${collection}/`}>{category ?? collection}</a></li>
         <li aria-current="page">{title}</li>
       </ol>
     </nav>

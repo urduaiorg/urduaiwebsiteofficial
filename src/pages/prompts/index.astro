@@ -37,7 +37,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             {c.data.profession && <span class="badge">{c.data.profession}</span>}
             {c.data.prompt_count > 0 && <span style="margin-inline-start:0.5em">{c.data.prompt_count} پرامٹس</span>}
           </p>
-          <h2 class="card__title"><a href={`/prompts/${c.id}/`}>{c.data.title}</a></h2>
+          <h2 class="card__title"><a href={`${base}/prompts/${c.id}/`}>{c.data.title}</a></h2>
           <p class="card__excerpt">{c.data.description}</p>
         </article>
       ))}

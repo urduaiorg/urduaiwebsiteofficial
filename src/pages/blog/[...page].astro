@@ -64,7 +64,7 @@ const pageTitle = isFirst
               {new Date(post.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
             </time>
           </p>
-          <h2 class="card__title"><a href={`/blog/${post.id}/`}>{post.data.title}</a></h2>
+          <h2 class="card__title"><a href={`${base}/blog/${post.id}/`}>{post.data.title}</a></h2>
           <p class="card__excerpt">{post.data.description}</p>
         </article>
       ))}
