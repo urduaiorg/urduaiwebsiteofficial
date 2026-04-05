@@ -1255,6 +1255,28 @@ Rewrite 10 weak but important migrated blog posts with real descriptive slugs.
 - No decorative emoji were introduced.
 - Verification: `npm run build` passed and the site still builds `866` pages.
 
+**Claimed batch 3 — 2026-04-04 (Claude Code):**
+- `federal-cabinet-approves-national-artificial-intelligence-policy-2025.md`
+- `chinas-new-artificial-intelligence-qwen-two-point-five-max.md`
+- `gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever.md`
+- `learn-english-with-ai.md`
+- `interesting-facts-about-artificial-intelligence-that-you-need-to-know-right-now.md`
+- `eleven-labs-introduces-text-to-speech-app-a-new-convenience-for-mobile-users.md`
+- `manus-ai-explained-in-urdu.md`
+- `googles-new-tool-opal-to-make-coding-easier-for-everyone.md`
+- `microsoft-reveals-ai-system-outperforms-doctors-in-disease-recognition.md`
+- `ai-and-copyright-creation-or-ownership.md`
+
+**Completed — batch 3, 2026-04-04 (Claude Code):**
+- Rewrote body only for all 10 posts.
+- Fixed "ہیلو دوستوں" and "جی ہاں!" openings replaced with AEO-first answers.
+- Removed "آپ کی رائے؟ کمنٹس میں بتائیں" endings and social media link spam.
+- Cleaned encoded URLs (`%d8%...`) throughout.
+- Fixed empty blockquotes and `\xa0` whitespace artifacts.
+- Added Pakistani-context takeaway to each post.
+- No decorative emoji introduced.
+- Verification: `npm run build` passed — 866 pages, 0 errors.
+
 ---
 
 ### TASK-27 — Legacy Internal Link Cleanup (`/apps/`, old Urdu slugs, brittle migrated URLs)
