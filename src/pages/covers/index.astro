@@ -1,0 +1,1083 @@
+---
+// Cover Generator — urduai.org/covers/
+// Internal tool for creating 1200x630 blog/social covers
+// Works for: Blog OG image, Facebook post cover, LinkedIn share
+---
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urdu Ai — Cover Generator</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Inter:wght@700;800&display=swap" rel="stylesheet" />
+  <style is:inline>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f1117;
+      color: #e0e0e0;
+      min-height: 100vh;
+      direction: ltr;
+    }
+
+    .generator {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    .generator__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+
+    .generator__title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .generator__title span { color: #f1cc11; }
+
+    .generator__layout {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* ── Controls Panel ── */
+    .controls {
+      background: #1a1d27;
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      position: sticky;
+      top: 24px;
+    }
+
+    .control-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #888;
+      margin-bottom: 8px;
+    }
+
+    .control-group input[type="text"],
+    .control-group textarea,
+    .control-group select {
+      width: 100%;
+      padding: 10px 14px;
+      background: #0f1117;
+      border: 1px solid #2a2d37;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 0.95rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .control-group textarea {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-size: 1.1rem;
+      line-height: 2;
+      direction: rtl;
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .control-group input:focus,
+    .control-group textarea:focus,
+    .control-group select:focus {
+      border-color: #f1cc11;
+    }
+
+    .upload-zone {
+      border: 2px dashed #2a2d37;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+
+    .upload-zone:hover,
+    .upload-zone.drag-over {
+      border-color: #f1cc11;
+      background: rgba(241, 204, 17, 0.05);
+    }
+
+    .upload-zone input {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .upload-zone__text {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .upload-zone__text strong {
+      color: #f1cc11;
+    }
+
+    .upload-zone.has-image {
+      padding: 8px;
+    }
+
+    .upload-zone.has-image img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* Template selector */
+    .templates {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .template-btn {
+      padding: 10px;
+      border: 2px solid #2a2d37;
+      border-radius: 8px;
+      background: #0f1117;
+      color: #ccc;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+
+    .template-btn:hover { border-color: #555; }
+    .template-btn.active {
+      border-color: #f1cc11;
+      color: #f1cc11;
+      background: rgba(241, 204, 17, 0.08);
+    }
+
+    /* Color options */
+    .color-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .color-swatch {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      border: 3px solid transparent;
+      cursor: pointer;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .color-swatch:hover { transform: scale(1.1); }
+    .color-swatch.active { border-color: #fff; }
+
+    /* Export buttons */
+    .export-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .btn-export {
+      flex: 1;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.2s;
+    }
+
+    .btn-export:hover { transform: translateY(-1px); }
+
+    .btn-export--primary {
+      background: #f1cc11;
+      color: #1a1207;
+    }
+
+    .btn-export--secondary {
+      background: #2a2d37;
+      color: #ccc;
+    }
+
+    /* ── Preview Panel ── */
+    .preview-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .preview-label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #555;
+    }
+
+    .preview-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1200 / 630;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    }
+
+    /* ── The Cover Canvas (1200x630 at scale) ── */
+    .cover {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      direction: rtl;
+    }
+
+    /* ── Template: Standard (screenshot left, text right) ── */
+    .cover--standard {
+      display: grid;
+      grid-template-columns: 45% 55%;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    .cover__bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    /* Background colors — elegant gradients */
+    .cover--navy .cover__bg {
+      background: linear-gradient(135deg, #162d5a 0%, #1d559f 30%, #2a6bc7 60%, #3d7fd4 100%);
+    }
+    .cover--midnight .cover__bg {
+      background: linear-gradient(135deg, #0f0c29 0%, #1a1a4e 40%, #24243e 100%);
+    }
+    .cover--ocean .cover__bg {
+      background: linear-gradient(135deg, #0a2540 0%, #0d4a7a 40%, #1a73b5 100%);
+    }
+    .cover--teal .cover__bg {
+      background: linear-gradient(135deg, #072e27 0%, #0e4e47 40%, #167a6e 100%);
+    }
+    .cover--emerald .cover__bg {
+      background: linear-gradient(135deg, #064e3b 0%, #047857 40%, #059669 100%);
+    }
+    .cover--forest .cover__bg {
+      background: linear-gradient(135deg, #0d2e16 0%, #1a5c2e 40%, #28803f 100%);
+    }
+    .cover--crimson .cover__bg {
+      background: linear-gradient(135deg, #4a0d18 0%, #8b1a2b 40%, #b22840 100%);
+    }
+    .cover--wine .cover__bg {
+      background: linear-gradient(135deg, #2d0a1e 0%, #6b1d4a 40%, #8b2560 100%);
+    }
+    .cover--purple .cover__bg {
+      background: linear-gradient(135deg, #1e0b47 0%, #4a1d8e 40%, #6b35b8 100%);
+    }
+    .cover--indigo .cover__bg {
+      background: linear-gradient(135deg, #1e1b4b 0%, #3730a3 40%, #4f46e5 100%);
+    }
+    .cover--charcoal .cover__bg {
+      background: linear-gradient(135deg, #111111 0%, #2a2a2a 40%, #3d3d3d 100%);
+    }
+    .cover--slate .cover__bg {
+      background: linear-gradient(135deg, #1e293b 0%, #334155 40%, #475569 100%);
+    }
+    .cover--bronze .cover__bg {
+      background: linear-gradient(135deg, #1a1207 0%, #4a3520 40%, #7a5a30 100%);
+    }
+    .cover--sunset .cover__bg {
+      background: linear-gradient(135deg, #1a0a2e 0%, #4a1942 30%, #8b2252 60%, #c4593c 100%);
+    }
+
+    /* Subtle light glow overlay */
+    .cover__bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 35% 50%, rgba(255,255,255,0.08) 0%, transparent 55%),
+                  radial-gradient(ellipse at 85% 15%, rgba(255,255,255,0.04) 0%, transparent 40%);
+    }
+
+    /* ── Top header bar ── */
+    .cover__header {
+      position: relative;
+      z-index: 3;
+      grid-column: 1 / -1;
+      grid-row: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 24px 40px 0;
+      direction: ltr;
+    }
+
+    .cover__header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .cover__tool-badge {
+      background: #f1cc11;
+      color: #1a1207;
+      padding: 4px 16px;
+      border-radius: 6px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      direction: ltr;
+    }
+
+    .cover__date-badge {
+      color: rgba(255, 255, 255, 0.6);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      direction: ltr;
+    }
+
+    .cover__header-right {
+      text-align: right;
+      direction: ltr;
+    }
+
+    .cover__logo {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 26px;
+      color: #fff;
+      direction: ltr;
+      line-height: 1.2;
+    }
+
+    .cover__logo span { color: #f1cc11; }
+
+    .cover__url {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.45);
+      direction: ltr;
+    }
+
+    /* ── Middle content area ── */
+    .cover__text {
+      position: relative;
+      z-index: 2;
+      grid-column: 1; /* RTL: grid column 1 = visual right */
+      grid-row: 2;
+      padding: 12px 40px 12px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .cover__category {
+      display: inline-block;
+      background: rgba(241, 204, 17, 0.15);
+      color: #f1cc11;
+      padding: 4px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      width: fit-content;
+    }
+
+    .cover__title {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 2;
+      color: #fff;
+    }
+
+    .cover__subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.75);
+      direction: ltr;
+      text-align: right;
+    }
+
+    .cover__subtitle-dot {
+      color: rgba(255, 255, 255, 0.35);
+      margin: 0 6px;
+    }
+
+    /* Left side: screenshot */
+    .cover__image-area {
+      position: relative;
+      z-index: 2;
+      grid-column: 2; /* RTL: grid column 2 = visual left */
+      grid-row: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 32px 12px 16px;
+    }
+
+    .cover__screenshot {
+      width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .cover__screenshot-placeholder {
+      width: 100%;
+      aspect-ratio: 16/10;
+      background: rgba(255, 255, 255, 0.06);
+      border: 2px dashed rgba(255, 255, 255, 0.15);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.25);
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      direction: ltr;
+    }
+
+    /* ── Bottom bar ── */
+    .cover__bottom {
+      position: relative;
+      z-index: 3;
+      grid-column: 1 / -1;
+      grid-row: 3;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px 20px;
+      direction: ltr;
+    }
+
+    .cover__social {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      direction: ltr;
+    }
+
+    .cover__social-icon {
+      width: 18px;
+      height: 18px;
+      fill: rgba(255, 255, 255, 0.45);
+    }
+
+    .cover__social-handle {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .cover__bottom-center {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      direction: ltr;
+    }
+
+    .cover__tag {
+      background: rgba(241, 204, 17, 0.18);
+      color: #f1cc11;
+      padding: 3px 14px;
+      border-radius: 14px;
+      font-size: 12px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      direction: ltr;
+    }
+
+    .cover__bottom-date {
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.4);
+      margin-left: 8px;
+    }
+
+    .cover__cta {
+      background: #f1cc11;
+      color: #1a1207;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.8;
+      direction: rtl;
+    }
+
+    /* ── Template: Full Image (text over full-bleed image) ── */
+    .cover--fullimage {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .cover--fullimage .cover__fullbg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    .cover--fullimage .cover__fullbg-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.92) 0%,
+        rgba(0, 0, 0, 0.6) 40%,
+        rgba(0, 0, 0, 0.15) 100%);
+    }
+
+    .cover--fullimage .cover__text {
+      grid-column: unset;
+      grid-row: unset;
+      padding: 40px 56px;
+      z-index: 2;
+    }
+
+    .cover--fullimage .cover__logo {
+      position: absolute;
+      top: 32px;
+      right: 48px;
+      z-index: 3;
+    }
+
+    /* ── Template: Minimal (text only, large typography) ── */
+    .cover--minimal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .cover--minimal .cover__text {
+      grid-column: unset;
+      grid-row: unset;
+      text-align: center;
+      padding: 56px 80px;
+      max-width: 900px;
+    }
+
+    .cover--minimal .cover__title {
+      font-size: 42px;
+      line-height: 2.1;
+    }
+
+    .cover--minimal .cover__category {
+      margin: 0 auto;
+    }
+
+    .cover--minimal .cover__logo {
+      text-align: center;
+    }
+
+    .cover--minimal .cover__accent-line {
+      width: 60px;
+      height: 3px;
+      background: #f1cc11;
+      margin: 0 auto;
+      border-radius: 2px;
+    }
+
+    /* ── For html2canvas: actual 1200x630 render target ── */
+    .render-target {
+      position: fixed;
+      top: -9999px;
+      left: -9999px;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    /* Responsive */
+    @media (max-width: 1100px) {
+      .generator__layout {
+        grid-template-columns: 1fr;
+      }
+      .controls {
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="generator">
+    <div class="generator__header">
+      <h1 class="generator__title">Urdu <span>Ai</span> — Cover Generator</h1>
+    </div>
+
+    <div class="generator__layout">
+      <!-- Controls -->
+      <div class="controls">
+        <!-- Template -->
+        <div class="control-group">
+          <label>Template</label>
+          <div class="templates">
+            <button class="template-btn active" data-template="standard">Standard</button>
+            <button class="template-btn" data-template="fullimage">Full Image</button>
+            <button class="template-btn" data-template="minimal">Minimal</button>
+            <button class="template-btn" data-template="standard">Split</button>
+          </div>
+        </div>
+
+        <!-- Background Color -->
+        <div class="control-group">
+          <label>Background</label>
+          <div class="color-options">
+            <div class="color-swatch active" data-color="navy" style="background: linear-gradient(135deg, #162d5a, #3d7fd4);" title="Navy"></div>
+            <div class="color-swatch" data-color="midnight" style="background: linear-gradient(135deg, #0f0c29, #24243e);" title="Midnight"></div>
+            <div class="color-swatch" data-color="ocean" style="background: linear-gradient(135deg, #0a2540, #1a73b5);" title="Ocean"></div>
+            <div class="color-swatch" data-color="indigo" style="background: linear-gradient(135deg, #1e1b4b, #4f46e5);" title="Indigo"></div>
+            <div class="color-swatch" data-color="purple" style="background: linear-gradient(135deg, #1e0b47, #6b35b8);" title="Purple"></div>
+            <div class="color-swatch" data-color="wine" style="background: linear-gradient(135deg, #2d0a1e, #8b2560);" title="Wine"></div>
+            <div class="color-swatch" data-color="crimson" style="background: linear-gradient(135deg, #4a0d18, #b22840);" title="Crimson"></div>
+            <div class="color-swatch" data-color="sunset" style="background: linear-gradient(135deg, #4a1942, #c4593c);" title="Sunset"></div>
+            <div class="color-swatch" data-color="teal" style="background: linear-gradient(135deg, #072e27, #167a6e);" title="Teal"></div>
+            <div class="color-swatch" data-color="emerald" style="background: linear-gradient(135deg, #064e3b, #059669);" title="Emerald"></div>
+            <div class="color-swatch" data-color="forest" style="background: linear-gradient(135deg, #0d2e16, #28803f);" title="Forest"></div>
+            <div class="color-swatch" data-color="bronze" style="background: linear-gradient(135deg, #1a1207, #7a5a30);" title="Bronze"></div>
+            <div class="color-swatch" data-color="charcoal" style="background: linear-gradient(135deg, #111, #3d3d3d);" title="Charcoal"></div>
+            <div class="color-swatch" data-color="slate" style="background: linear-gradient(135deg, #1e293b, #475569);" title="Slate"></div>
+          </div>
+        </div>
+
+        <!-- Title -->
+        <div class="control-group">
+          <label>Title (Urdu)</label>
+          <textarea id="input-title" placeholder="عنوان یہاں لکھیں...">گوگل وِڈز میں مفت AI ویڈیو، میوزک اور اوتار</textarea>
+        </div>
+
+        <!-- Tool Name (top-left badge) -->
+        <div class="control-group">
+          <label>Tool Name (top-left badge)</label>
+          <input type="text" id="input-tool" placeholder="Google Vids, ChatGPT, Gemini..." value="Google Vids" style="direction:ltr;" />
+        </div>
+
+        <!-- Show Month -->
+        <div class="control-group">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+            <input type="checkbox" id="input-show-month" checked style="width:16px;height:16px;accent-color:#f1cc11;cursor:pointer;" />
+            Show month beside tool name
+          </label>
+        </div>
+
+        <!-- Subtitle / Feature line -->
+        <div class="control-group">
+          <label>Features (English, comma-separated)</label>
+          <input type="text" id="input-subtitle" placeholder="Veo 3.1, Lyria 3, Custom Avatars" value="Veo 3.1, Lyria 3, Custom Avatars" style="direction:ltr;" />
+        </div>
+
+        <!-- CTA Text -->
+        <div class="control-group">
+          <label>CTA Button (Urdu)</label>
+          <textarea id="input-cta" style="min-height: 50px;" placeholder="بنائیں 10 مفت ویڈیوز">بنائیں 10 مفت ویڈیوز</textarea>
+        </div>
+
+        <!-- Category -->
+        <div class="control-group">
+          <label>Category</label>
+          <select id="input-category">
+            <option value="اے آئی اپڈیٹ">اے آئی اپڈیٹ</option>
+            <option value="گائیڈ">گائیڈ</option>
+            <option value="ہاؤ ٹو">ہاؤ ٹو</option>
+            <option value="پرامٹس">پرامٹس</option>
+            <option value="اردو اے آئی لغت">اردو اے آئی لغت</option>
+            <option value="ٹولز">ٹولز</option>
+          </select>
+        </div>
+
+        <!-- Tags -->
+        <div class="control-group">
+          <label>Tags (bottom bar, comma-separated)</label>
+          <input type="text" id="input-tags" placeholder="Veo 3.1, Lyria 3, Avatars" value="Veo 3.1, Lyria 3, Avatars" style="direction:ltr;" />
+        </div>
+
+        <!-- Screenshot Upload -->
+        <div class="control-group">
+          <label>Screenshot / Product Image</label>
+          <div class="upload-zone" id="upload-zone">
+            <input type="file" id="input-image" accept="image/*" />
+            <div class="upload-zone__text">
+              <strong>Click to upload</strong> or drag and drop<br />
+              PNG, JPG — product screenshot
+            </div>
+          </div>
+        </div>
+
+        <!-- Export -->
+        <div class="control-group">
+          <label>Export</label>
+          <div class="export-actions">
+            <button class="btn-export btn-export--primary" id="btn-download">Download PNG</button>
+            <button class="btn-export btn-export--secondary" id="btn-copy">Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Preview -->
+      <div class="preview-panel">
+        <div class="preview-label">Live Preview — 1200 x 630</div>
+        <div class="preview-wrapper">
+          <div class="cover cover--standard cover--navy" id="cover-preview">
+            <div class="cover__bg"></div>
+
+            <!-- Standard template content -->
+            <div class="cover__text" id="cover-text">
+              <div class="cover__logo">Urdu <span>Ai</span></div>
+              <div class="cover__category" id="cover-category">اے آئی اپڈیٹ</div>
+              <h1 class="cover__title" id="cover-title">گوگل وِڈز میں مفت AI ویڈیو، میوزک اور اوتار</h1>
+              <p class="cover__subtitle" id="cover-subtitle">Veo 3.1 اور Lyria 3 کی طاقت</p>
+            </div>
+
+            <div class="cover__image-area" id="cover-image-area">
+              <div class="cover__screenshot-placeholder" id="cover-placeholder">Upload Screenshot</div>
+            </div>
+
+            <div class="cover__tags" id="cover-tags">
+              <span class="cover__tag">مفت ویڈیو</span>
+              <span class="cover__tag">Veo 3.1</span>
+              <span class="cover__tag">Lyria 3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview-label" style="margin-top: 16px;">Platforms: Blog OG Image / Facebook Post Cover / LinkedIn Share</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden render target for export at exact 1200x630 -->
+  <div class="render-target" id="render-target"></div>
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script>
+    // ── State ──
+    let state = {
+      template: 'standard',
+      color: 'navy',
+      title: 'گوگل وِڈز میں مفت AI ویڈیو، میوزک اور اوتار',
+      subtitle: 'Veo 3.1, Lyria 3, Custom Avatars',
+      tool: 'Google Vids',
+      showMonth: true,
+      cta: 'بنائیں 10 مفت ویڈیوز',
+      category: 'اے آئی اپڈیٹ',
+      tags: ['Veo 3.1', 'Lyria 3', 'Avatars'],
+      imageData: null
+    };
+
+    // Auto-generate today's date
+    const today = new Date();
+    const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    const dateStr = `${months[today.getMonth()]} ${today.getDate()}, ${today.getFullYear()}`;
+    const monthYear = `${months[today.getMonth()]} ${today.getFullYear()}`;
+
+    const preview = document.getElementById('cover-preview');
+    const renderTarget = document.getElementById('render-target');
+
+    // ── Template buttons ──
+    document.querySelectorAll('.template-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.template-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.template = btn.dataset.template;
+        rebuildCover();
+      });
+    });
+
+    // ── Color swatches ──
+    document.querySelectorAll('.color-swatch').forEach(swatch => {
+      swatch.addEventListener('click', () => {
+        document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('active'));
+        swatch.classList.add('active');
+        state.color = swatch.dataset.color;
+        rebuildCover();
+      });
+    });
+
+    // ── Text inputs ──
+    document.getElementById('input-title').addEventListener('input', (e) => {
+      state.title = e.target.value;
+      rebuildCover();
+    });
+
+    document.getElementById('input-subtitle').addEventListener('input', (e) => {
+      state.subtitle = e.target.value;
+      rebuildCover();
+    });
+
+    document.getElementById('input-tool').addEventListener('input', (e) => {
+      state.tool = e.target.value;
+      rebuildCover();
+    });
+
+    document.getElementById('input-show-month').addEventListener('change', (e) => {
+      state.showMonth = e.target.checked;
+      rebuildCover();
+    });
+
+    document.getElementById('input-cta').addEventListener('input', (e) => {
+      state.cta = e.target.value;
+      rebuildCover();
+    });
+
+    document.getElementById('input-category').addEventListener('change', (e) => {
+      state.category = e.target.value;
+      rebuildCover();
+    });
+
+    document.getElementById('input-tags').addEventListener('input', (e) => {
+      state.tags = e.target.value.split(',').map(t => t.trim()).filter(Boolean);
+      if (state.tags.length === 0) {
+        state.tags = e.target.value.split('،').map(t => t.trim()).filter(Boolean);
+      }
+      rebuildCover();
+    });
+
+    // ── Image upload ──
+    const uploadZone = document.getElementById('upload-zone');
+    const imageInput = document.getElementById('input-image');
+
+    uploadZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadZone.classList.add('drag-over');
+    });
+
+    uploadZone.addEventListener('dragleave', () => {
+      uploadZone.classList.remove('drag-over');
+    });
+
+    uploadZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadZone.classList.remove('drag-over');
+      if (e.dataTransfer.files.length) {
+        handleImage(e.dataTransfer.files[0]);
+      }
+    });
+
+    imageInput.addEventListener('change', (e) => {
+      if (e.target.files.length) {
+        handleImage(e.target.files[0]);
+      }
+    });
+
+    function handleImage(file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        state.imageData = e.target.result;
+        uploadZone.classList.add('has-image');
+        uploadZone.innerHTML = `<img src="${state.imageData}" alt="Screenshot" /><input type="file" id="input-image" accept="image/*" />`;
+        // Re-bind the new input
+        uploadZone.querySelector('input').addEventListener('change', (ev) => {
+          if (ev.target.files.length) handleImage(ev.target.files[0]);
+        });
+        rebuildCover();
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // ── Build cover HTML ──
+    function buildCoverHTML() {
+      const colorClass = `cover--${state.color}`;
+      const tagsHTML = state.tags.map(t => `<span class="cover__tag">${t}</span>`).join('');
+
+      const imageHTML = state.imageData
+        ? `<img class="cover__screenshot" src="${state.imageData}" alt="" />`
+        : `<div class="cover__screenshot-placeholder">Upload Screenshot</div>`;
+
+      const subtitleHTML = state.subtitle
+        ? `<p class="cover__subtitle">${state.subtitle}</p>`
+        : '';
+
+      // Feature dots line from subtitle
+      const features = state.subtitle.split(',').map(f => f.trim()).filter(Boolean);
+      const featureLine = features.join(' &nbsp;<span class="cover__subtitle-dot">&#8226;</span>&nbsp; ');
+
+      // CTA
+      const ctaHTML = state.cta
+        ? `<div class="cover__cta">${state.cta}</div>`
+        : '';
+
+      if (state.template === 'standard') {
+        return `
+          <div class="cover__bg"></div>
+          <div class="cover__header">
+            <div class="cover__header-left">
+              ${state.tool ? `<div class="cover__tool-badge">${state.tool}</div>` : ''}
+              ${state.showMonth ? `<div class="cover__date-badge">${monthYear}</div>` : ''}
+            </div>
+            <div class="cover__header-right">
+              <div class="cover__logo">Urdu <span>Ai</span></div>
+              <div class="cover__url">www.urduai.org</div>
+            </div>
+          </div>
+          <div class="cover__image-area">
+            ${imageHTML}
+          </div>
+          <div class="cover__text">
+            <h1 class="cover__title">${state.title}</h1>
+            ${featureLine ? `<div class="cover__subtitle">${featureLine}</div>` : ''}
+          </div>
+          <div class="cover__bottom">
+            <div class="cover__social">
+              <svg class="cover__social-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073z"/><path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8z"/><circle cx="18.406" cy="5.594" r="1.44"/></svg>
+              <svg class="cover__social-icon" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <svg class="cover__social-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              <svg class="cover__social-icon" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span class="cover__social-handle">@urduaiorg</span>
+            </div>
+            <div class="cover__bottom-center">
+              ${tagsHTML}
+              <span class="cover__bottom-date">${dateStr}</span>
+            </div>
+            ${ctaHTML}
+          </div>
+        `;
+      }
+
+      if (state.template === 'fullimage') {
+        const bgImg = state.imageData
+          ? `<img class="cover__fullbg" src="${state.imageData}" alt="" />`
+          : '';
+        return `
+          <div class="cover__bg"></div>
+          ${bgImg}
+          <div class="cover__fullbg-overlay"></div>
+          <div class="cover__logo" style="position:absolute;top:32px;right:48px;z-index:3;font-family:Inter,sans-serif;font-weight:800;font-size:22px;color:#fff;direction:ltr;text-align:right;">Urdu <span style="color:#f1cc11;">Ai</span></div>
+          <div class="cover__text" style="position:relative;z-index:2;padding:40px 56px;display:flex;flex-direction:column;gap:16px;justify-content:flex-end;height:100%;">
+            <div class="cover__category">${state.category}</div>
+            <h1 class="cover__title">${state.title}</h1>
+            ${subtitleHTML}
+            <div style="display:flex;gap:10px;direction:rtl;">${tagsHTML}</div>
+          </div>
+        `;
+      }
+
+      if (state.template === 'minimal') {
+        return `
+          <div class="cover__bg"></div>
+          <div class="cover__text" style="grid-column:unset;grid-row:unset;text-align:center;padding:56px 80px;max-width:900px;margin:auto;display:flex;flex-direction:column;align-items:center;gap:16px;justify-content:center;height:100%;position:relative;z-index:2;">
+            <div class="cover__logo" style="text-align:center;font-family:Inter,sans-serif;font-weight:800;font-size:22px;color:#fff;direction:ltr;">Urdu <span style="color:#f1cc11;">Ai</span></div>
+            <div style="width:60px;height:3px;background:#f1cc11;border-radius:2px;"></div>
+            <div class="cover__category" style="margin:0 auto;">${state.category}</div>
+            <h1 class="cover__title" style="font-size:42px;line-height:2.1;">${state.title}</h1>
+            ${subtitleHTML ? `<p class="cover__subtitle">${state.subtitle}</p>` : ''}
+          </div>
+        `;
+      }
+
+      // Default fallback = standard
+      return buildCoverHTML.call({ ...state, template: 'standard' });
+    }
+
+    function rebuildCover() {
+      const templateClass = `cover--${state.template}`;
+      const colorClass = `cover--${state.color}`;
+      const html = buildCoverHTML();
+
+      // Update preview
+      preview.className = `cover ${templateClass} ${colorClass}`;
+      preview.innerHTML = html;
+    }
+
+    // ── Export ──
+    document.getElementById('btn-download').addEventListener('click', async () => {
+      await exportCover('download');
+    });
+
+    document.getElementById('btn-copy').addEventListener('click', async () => {
+      await exportCover('copy');
+    });
+
+    async function exportCover(mode) {
+      // Clone into render target at exact 1200x630
+      const templateClass = `cover--${state.template}`;
+      const colorClass = `cover--${state.color}`;
+
+      renderTarget.innerHTML = '';
+      const clone = document.createElement('div');
+      clone.className = `cover ${templateClass} ${colorClass}`;
+      clone.style.cssText = 'width:1200px;height:630px;position:relative;overflow:hidden;font-family:"Noto Nastaliq Urdu",serif;direction:rtl;';
+      clone.innerHTML = buildCoverHTML();
+      renderTarget.appendChild(clone);
+
+      // Copy all styles to render target
+      const styles = document.querySelectorAll('style');
+      styles.forEach(s => {
+        const clonedStyle = s.cloneNode(true);
+        renderTarget.appendChild(clonedStyle);
+      });
+
+      try {
+        const canvas = await html2canvas(clone, {
+          width: 1200,
+          height: 630,
+          scale: 2,
+          useCORS: true,
+          backgroundColor: null,
+          logging: false
+        });
+
+        if (mode === 'download') {
+          const link = document.createElement('a');
+          link.download = `urduai-cover-${Date.now()}.png`;
+          link.href = canvas.toDataURL('image/png');
+          link.click();
+        } else if (mode === 'copy') {
+          canvas.toBlob(async (blob) => {
+            try {
+              await navigator.clipboard.write([
+                new ClipboardItem({ 'image/png': blob })
+              ]);
+              const btn = document.getElementById('btn-copy');
+              const orig = btn.textContent;
+              btn.textContent = 'Copied!';
+              setTimeout(() => btn.textContent = orig, 2000);
+            } catch {
+              // Fallback: download
+              const link = document.createElement('a');
+              link.download = `urduai-cover-${Date.now()}.png`;
+              link.href = canvas.toDataURL('image/png');
+              link.click();
+            }
+          }, 'image/png');
+        }
+      } catch (err) {
+        console.error('Export failed:', err);
+      }
+    }
+
+    // Initial render
+    rebuildCover();
+  </script>
+</body>
+</html>
