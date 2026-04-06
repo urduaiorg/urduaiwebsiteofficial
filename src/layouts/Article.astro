@@ -159,45 +159,43 @@ const combinedSchema = faqSchema
   <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
 
   <!-- ============================================================
-       IMMERSIVE ARTICLE HERO
+       ARTICLE HEADER — Clean Card Style
        ============================================================ -->
-  <div class="article-hero" style={image ? `background-image: url(${base}${image})` : ''}>
-    <div class="article-hero__overlay"></div>
-    <div class="article-hero__content container">
-      <!-- Breadcrumb inside hero -->
-      <nav aria-label="بریڈکرمب" class="article-hero__breadcrumb">
-        <ol class="breadcrumb breadcrumb--hero">
-          <li><a href={`${base}/`}>ہوم</a></li>
-          <li><a href={`${base}/${collection}/`}>{category ?? collection}</a></li>
-        </ol>
-      </nav>
+  <div class="article-header container">
+    <!-- Breadcrumb -->
+    <nav aria-label="بریڈکرمب" class="article-header__breadcrumb">
+      <ol class="breadcrumb">
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li><a href={`${base}/${collection}/`}>{category ?? collection}</a></li>
+      </ol>
+    </nav>
 
-      {category && <span class="badge badge--hero">{category}</span>}
-      <h1 class="article-hero__title">{title}</h1>
+    {category && <span class="badge">{category}</span>}
+    <h1 class="article-header__title">{title}</h1>
 
-      <div class="article-hero__meta">
-        <div class="article-hero__author">
-          <div class="article-hero__author-avatar">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          </div>
-          <span>{author}</span>
+    <div class="article-header__meta">
+      <div class="article-header__author">
+        <div class="article-header__author-avatar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         </div>
-        <time datetime={date} class="article-hero__date">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          {formattedDate}
-        </time>
-        <span class="article-hero__reading-time" id="reading-time">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          <span id="reading-time-text"></span>
-        </span>
+        <span>{author}</span>
       </div>
-
-      {tags.length > 0 && (
-        <div class="article-hero__tags">
-          {tags.map(tag => <span class="badge badge--hero-tag">{tag}</span>)}
-        </div>
-      )}
+      <time datetime={date} class="article-header__date">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        {formattedDate}
+      </time>
+      <span class="article-header__reading-time" id="reading-time">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span id="reading-time-text"></span>
+      </span>
     </div>
+
+    <!-- Cover image as card -->
+    {image && (
+      <div class="article-header__cover">
+        <img src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" />
+      </div>
+    )}
   </div>
 
   <!-- Top banner ad -->
