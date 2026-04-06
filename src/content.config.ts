@@ -20,6 +20,8 @@ const blog = defineCollection({
     author: z.string().default('قیصر رونجھا'),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
+    // Optional tool names — auto-renders RelatedTools component + schema.org mentions
+    tools: z.array(z.string()).optional(),
     // Optional FAQ pairs — used to generate FAQPage schema for featured snippets
     faq: z.array(z.object({
       question: z.string(),
@@ -40,6 +42,7 @@ const guides = defineCollection({
     image: z.string().optional(),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
+    tools: z.array(z.string()).optional(),
   }),
 });
 
@@ -57,6 +60,7 @@ const howto = defineCollection({
     screenshots: z.boolean().default(false),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
+    tools: z.array(z.string()).optional(),
   }),
 });
 

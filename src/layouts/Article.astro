@@ -5,7 +5,9 @@
 import Base from './Base.astro';
 import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
 import RelatedPosts from '../components/RelatedPosts.astro';
+import RelatedTools from '../components/RelatedTools.astro';
 import InlineNewsletter from '../components/InlineNewsletter.astro';
+import { getToolsByNames } from '../data/tools';
 import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface Props {
@@ -19,6 +21,7 @@ export interface Props {
   adsense?: boolean;
   slug: string;
   collection: string; // 'blog' | 'guides' | 'prompts'
+  tools?: string[];
   faq?: { question: string; answer: string }[];
 }
 
@@ -33,6 +36,7 @@ const {
   adsense = true,
   slug,
   collection,
+  tools: toolNames = [],
   faq = [],
 } = Astro.props;
 
@@ -42,6 +46,9 @@ const authorBios: Record<string, string> = {
   'معراج احمد': 'Urdu Ai کے کنٹینٹ لیڈ ہیں اور اے آئی ٹیکنالوجی پر گہری نظر رکھتے ہیں۔ اس وقت وہ لسبیلہ یونیورسٹی میں آئی ٹی کے طالبعلم ہیں۔',
 };
 const authorBio = authorBios[author] ?? '';
+
+// Resolve tool names to tool data for schema.org mentions + RelatedTools component
+const resolvedTools = toolNames.length > 0 ? getToolsByNames(toolNames) : [];
 
 const canonical = `https://urduai.org/${collection}/${slug}/`;
 const ogImage = image ?? `/og/default.jpg`;
@@ -100,6 +107,20 @@ const articleSchema = {
     "width": 860,
     "height": 480,
   }} : {}),
+  // Schema.org mentions — links article to tool entities for AEO
+  ...(resolvedTools.length > 0 ? { "mentions": resolvedTools.map(t => ({
+    "@type": "SoftwareApplication",
+    "name": t.name,
+    "alternateName": t.urduName,
+    "url": t.url,
+    "applicationCategory": "AI Tool",
+    "offers": {
+      "@type": "Offer",
+      "price": t.pricing === 'free' ? "0" : undefined,
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+    },
+  }))} : {}),
 };
 
 // FAQPage schema — generated when faq array is present in frontmatter
@@ -277,6 +298,9 @@ const combinedSchema = faqSchema
           <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       )}
+
+      <!-- Related AI tools — driven by frontmatter tools: [] field -->
+      {resolvedTools.length > 0 && <RelatedTools toolNames={toolNames} />}
 
       <!-- Author card -->
       <div class="author-card">

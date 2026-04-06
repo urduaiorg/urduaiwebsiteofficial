@@ -7,6 +7,7 @@ image: "/images/blog/google-vids-free-ai-video-lyria-3-veo-3-1-avatars.png"
 author: "معراج احمد"
 adsense: true
 draft: false
+tools: ["Gemini", "Veo", "HeyGen", "Runway"]
 ---
 
 گوگل نے 2 اپریل 2026 کو گوگل وِڈز میں تین بڑی اپڈیٹس کا اعلان کیا: Veo 3.1 سے مفت ویڈیو جنریشن، Lyria 3 سے AI میوزک بنانا، اور کسٹم اوتار جنہیں آپ ڈائریکٹر کی طرح کنٹرول کر سکتے ہیں۔ سب سے اہم بات — ہر گوگل اکاؤنٹ والے کو ماہانہ 10 مفت ویڈیوز ملیں گی۔

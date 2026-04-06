@@ -10,6 +10,7 @@ time_required: "5 منٹ"
 screenshots: false
 author: "قیصر رونجھا"
 adsense: true
+tools: ["NotebookLM", "Gemini", "Perplexity"]
 draft: false
 ---
 
