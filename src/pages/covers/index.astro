@@ -683,11 +683,15 @@
           <input type="text" id="input-tool" placeholder="Google Vids, ChatGPT, Gemini..." value="Google Vids" style="direction:ltr;" />
         </div>
 
-        <!-- Show Month -->
+        <!-- Date toggles -->
         <div class="control-group">
-          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-bottom:6px;">
             <input type="checkbox" id="input-show-month" checked style="width:16px;height:16px;accent-color:#f1cc11;cursor:pointer;" />
             Show month beside tool name
+          </label>
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;">
+            <input type="checkbox" id="input-show-date" checked style="width:16px;height:16px;accent-color:#f1cc11;cursor:pointer;" />
+            Show date in bottom bar
           </label>
         </div>
 
@@ -789,6 +793,7 @@
       subtitle: 'Veo 3.1, Lyria 3, Custom Avatars',
       tool: 'Google Vids',
       showMonth: true,
+      showDate: true,
       cta: 'بنائیں 10 مفت ویڈیوز',
       category: 'اے آئی اپڈیٹ',
       tags: ['Veo 3.1', 'Lyria 3', 'Avatars'],
@@ -842,6 +847,11 @@
 
     document.getElementById('input-show-month').addEventListener('change', (e) => {
       state.showMonth = e.target.checked;
+      rebuildCover();
+    });
+
+    document.getElementById('input-show-date').addEventListener('change', (e) => {
+      state.showDate = e.target.checked;
       rebuildCover();
     });
 
@@ -957,7 +967,7 @@
             </div>
             <div class="cover__bottom-center">
               ${tagsHTML}
-              <span class="cover__bottom-date">${dateStr}</span>
+              ${state.showDate ? `<span class="cover__bottom-date">${dateStr}</span>` : ''}
             </div>
             ${ctaHTML}
           </div>
