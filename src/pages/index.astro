@@ -82,32 +82,32 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <img
               src={`${base}${featuredPost.data.image}`}
               alt={featuredPost.data.title}
-              width="600"
-              height="315"
+              width="1200"
+              height="630"
               loading="eager"
             />
           </div>
         )}
         <div class="featured-card__body">
-          <div class="featured-card__top">
-            <span class="featured-card__label">نمایاں</span>
-            <span class="featured-card__category">{featuredPost.data.category}</span>
-          </div>
+          <span class="featured-card__label">نمایاں</span>
           <h2 class="featured-card__title">{featuredPost.data.title}</h2>
           <p class="featured-card__excerpt">{featuredPost.data.description}</p>
-          <div class="featured-card__meta">
-            <time datetime={featuredPost.data.date}>
-              {new Date(featuredPost.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
-            </time>
-            {featuredPost.data.author && <span> · {featuredPost.data.author}</span>}
+          <div class="featured-card__footer">
+            <div class="featured-card__meta">
+              <span class="badge">{featuredPost.data.category}</span>
+              <time datetime={featuredPost.data.date}>
+                {new Date(featuredPost.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
+              </time>
+              {featuredPost.data.author && <span> · {featuredPost.data.author}</span>}
+            </div>
+            <span class="featured-card__read">مکمل پڑھیں ←</span>
           </div>
-          <span class="featured-card__read">مکمل پڑھیں ←</span>
         </div>
       </a>
     </section>
   )}
 
-  <!-- Top banner ad — uncomment when real AdSense ID is ready
+  <!-- Top banner ad -->
   <div class="container ad-slot" aria-hidden="true">
     <ins class="adsbygoogle"
       style="display:block"
@@ -118,7 +118,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
-  -->
 
   <!-- ============================================================
        RECENT POSTS — Grid
@@ -196,7 +195,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 
-  <!-- Mid-page ad — uncomment when real AdSense ID is ready
+  <!-- Mid-page ad -->
   <div class="container ad-slot" aria-hidden="true">
     <ins class="adsbygoogle"
       style="display:block"
@@ -207,7 +206,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
-  -->
 
   <!-- ============================================================
        VIDEO SECTION — YouTube playlist
