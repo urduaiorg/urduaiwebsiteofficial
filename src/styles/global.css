@@ -959,6 +959,228 @@ img {
   color: var(--gold-pale);
 }
 
+/* Hero CTAs */
+.hero__ctas {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-block-start: var(--space-md);
+}
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  background: #25D366;
+  color: #fff;
+  padding: 0.6em 1.5em;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.35);
+  color: #fff;
+}
+
+.btn-youtube {
+  display: inline-flex;
+  align-items: center;
+  background: #FF0000;
+  color: #fff;
+  padding: 0.6em 1.5em;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s;
+}
+
+.btn-youtube:hover {
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+/* ============================================================
+   Featured Article Card
+   ============================================================ */
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: var(--paper-card);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.featured-card:hover {
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.featured-card__image {
+  overflow: hidden;
+}
+
+.featured-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.featured-card:hover .featured-card__image img {
+  transform: scale(1.03);
+}
+
+.featured-card__content {
+  padding: var(--space-lg) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.featured-card__title {
+  font-size: 1.6rem;
+  line-height: 1.9;
+  color: var(--ink);
+  margin: 0;
+}
+
+.featured-card__excerpt {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 2;
+}
+
+.featured-card__meta {
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+  .featured-card__image img {
+    aspect-ratio: 1200 / 630;
+  }
+  .featured-card__content {
+    padding: var(--space-md);
+  }
+  .featured-card__title {
+    font-size: 1.3rem;
+  }
+}
+
+/* ============================================================
+   CTA Strip — WhatsApp + App + YouTube
+   ============================================================ */
+.cta-strip {
+  margin-block: var(--space-xl);
+}
+
+.cta-strip__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.cta-strip__card {
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: var(--space-lg) var(--space-md);
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.cta-strip__card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.cta-strip__card--whatsapp:hover { border-color: #25D366; }
+.cta-strip__card--app:hover { border-color: #1d559f; }
+.cta-strip__card--youtube:hover { border-color: #FF0000; }
+
+.cta-strip__icon {
+  margin-block-end: var(--space-xs);
+}
+
+.cta-strip__card h3 {
+  font-size: 1.15rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.cta-strip__card p {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 2;
+}
+
+.cta-strip__btn {
+  display: inline-block;
+  margin-block-start: var(--space-xs);
+  padding: 0.3em 1.2em;
+  border-radius: 6px;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: #fff;
+  background: var(--teal);
+  transition: background 0.2s;
+}
+
+.cta-strip__card--whatsapp .cta-strip__btn { background: #25D366; }
+.cta-strip__card--youtube .cta-strip__btn { background: #FF0000; }
+.cta-strip__card--app .cta-strip__btn { background: #1d559f; }
+
+@media (max-width: 768px) {
+  .cta-strip__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Video Section
+   ============================================================ */
+.video-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+.video-grid__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding-block-start: var(--space-sm);
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ============================================================
    Section headings
    ============================================================ */
