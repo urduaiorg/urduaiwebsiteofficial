@@ -4,7 +4,7 @@ description: "گوگل وِڈز میں Veo 3.1 سے مفت ویڈیو جنریش
 date: 2026-04-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-vids-free-ai-video-lyria-3-veo-3-1-avatars.png"
-author: "قیصر رونجھا"
+author: "معراج احمد"
 adsense: true
 draft: false
 ---
