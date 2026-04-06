@@ -74,33 +74,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- ============================================================
        FEATURED ARTICLE — Large hero card
        ============================================================ -->
-  {featuredPost && (
+  {featuredPost && featuredPost.data.image && (
     <section class="container" style="margin-block-start: var(--space-xl);">
       <a href={`${base}/blog/${featuredPost.id}/`} class="featured-card" style="text-decoration:none;">
-        <div class="featured-card__image">
-          {featuredPost.data.image ? (
-            <img
-              src={`${base}${featuredPost.data.image}`}
-              alt={featuredPost.data.title}
-              width="1200"
-              height="530"
-              loading="eager"
-            />
-          ) : (
-            <div style="width:100%; aspect-ratio:1200/530; background:linear-gradient(135deg, #1a1207 0%, #1d559f 100%);"></div>
-          )}
-          <span class="featured-card__label">نمایاں مضمون</span>
-        </div>
-        <div class="featured-card__content">
-          <h2 class="featured-card__title">{featuredPost.data.title}</h2>
-          <p class="featured-card__excerpt">{featuredPost.data.description}</p>
-          <div class="featured-card__meta">
-            <time datetime={featuredPost.data.date}>
-              {new Date(featuredPost.data.date).toLocaleDateString('ur-PK', { year:'numeric', month:'long', day:'numeric' })}
-            </time>
-            {featuredPost.data.author && <span> · {featuredPost.data.author}</span>}
-          </div>
-        </div>
+        <img
+          src={`${base}${featuredPost.data.image}`}
+          alt={featuredPost.data.title}
+          width="1200"
+          height="630"
+          loading="eager"
+          class="featured-card__img"
+        />
       </a>
     </section>
   )}
@@ -215,7 +199,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/videoseries?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI"
+          src="https://www.youtube.com/embed/videoseries?list=UUMwBJ2TN4FM7ut6Jd5gz-UQ"
           title="اردو اے آئی ویڈیوز"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

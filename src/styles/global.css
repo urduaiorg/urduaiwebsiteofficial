@@ -1006,107 +1006,27 @@ img {
 }
 
 /* ============================================================
-   Featured Article Card — Editorial magazine style
+   Featured Article Card — Clean cover image banner
    ============================================================ */
 .featured-card {
   display: block;
-  position: relative;
-  border-radius: 20px;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 8px 40px rgba(26, 18, 7, 0.10);
+  box-shadow: 0 4px 24px rgba(26, 18, 7, 0.08);
   transition: box-shadow 0.3s, transform 0.25s;
 }
 
 .featured-card:hover {
-  box-shadow: 0 16px 56px rgba(26, 18, 7, 0.16);
+  box-shadow: 0 12px 48px rgba(26, 18, 7, 0.14);
   transform: translateY(-3px);
 }
 
-.featured-card__image {
-  position: relative;
-  overflow: hidden;
-}
-
-.featured-card__image img {
+.featured-card__img {
   width: 100%;
-  aspect-ratio: 1200 / 530;
-  object-fit: cover;
+  height: auto;
   display: block;
-  transition: transform 0.5s ease;
-}
-
-.featured-card:hover .featured-card__image img {
-  transform: scale(1.02);
-}
-
-.featured-card__image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(26, 18, 7, 0.88) 0%,
-    rgba(26, 18, 7, 0.55) 35%,
-    rgba(26, 18, 7, 0.08) 65%,
-    transparent 100%
-  );
-  pointer-events: none;
-}
-
-.featured-card__label {
-  position: absolute;
-  top: var(--space-md);
-  right: var(--space-md);
-  background: var(--gold);
-  color: #fff;
-  padding: 0.2em 0.9em;
-  border-radius: 6px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0;
-  z-index: 2;
-}
-
-.featured-card__content {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: var(--space-xl) var(--space-xl) var(--space-lg);
-  z-index: 2;
-}
-
-.featured-card__title {
-  font-size: 1.8rem;
-  line-height: 2;
-  color: #fff;
-  margin: 0 0 var(--space-xs);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.featured-card__excerpt {
-  color: rgba(255, 255, 255, 0.82);
-  font-size: 0.95rem;
-  line-height: 2;
-  max-width: 42rem;
-}
-
-.featured-card__meta {
-  color: rgba(255, 255, 255, 0.55);
-  font-size: var(--text-sm);
-  margin-block-start: var(--space-xs);
-}
-
-@media (max-width: 768px) {
-  .featured-card__image img {
-    aspect-ratio: 1200 / 700;
-  }
-  .featured-card__content {
-    padding: var(--space-md);
-  }
-  .featured-card__title {
-    font-size: 1.3rem;
-  }
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
 }
 
 /* ============================================================
