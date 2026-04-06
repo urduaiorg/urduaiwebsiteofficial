@@ -1194,6 +1194,145 @@ img {
 }
 
 /* ============================================================
+   App Showcase
+   ============================================================ */
+.app-showcase {
+  background: linear-gradient(135deg, #0a1628 0%, #1d559f 100%);
+  padding-block: var(--space-2xl);
+  margin-block-start: var(--space-xl);
+}
+
+.app-showcase__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.app-showcase__title {
+  color: #fff;
+  font-size: 1.8rem;
+  margin: 0 0 var(--space-xs);
+}
+
+.app-showcase__subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+  line-height: 2.2;
+  margin-block-end: var(--space-md);
+}
+
+.app-showcase__features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.app-showcase__features li {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.88rem;
+  line-height: 2;
+  padding-inline-start: 1.2em;
+  position: relative;
+}
+
+.app-showcase__features li::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0.9em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold-light);
+}
+
+.app-showcase__stats {
+  display: flex;
+  gap: var(--space-lg);
+  margin-block-end: var(--space-sm);
+}
+
+.app-showcase__stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-showcase__stat span {
+  color: var(--gold-light);
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.2;
+}
+
+.app-showcase__stat small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75rem;
+}
+
+.app-showcase__phones {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  position: relative;
+}
+
+.app-showcase__phone {
+  width: 160px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.app-showcase__phone--1 {
+  transform: translateY(20px);
+}
+
+.app-showcase__phone--2 {
+  transform: translateY(-10px);
+}
+
+.app-showcase__phone--3 {
+  transform: translateY(30px);
+}
+
+@media (max-width: 768px) {
+  .app-showcase__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .app-showcase__features li::before {
+    right: auto;
+    left: 0;
+  }
+  .app-showcase__features {
+    align-items: center;
+  }
+  .app-showcase__features li {
+    padding-inline-start: 0;
+    padding-inline-end: 1.2em;
+  }
+  .app-showcase__features li::before {
+    right: 0;
+    left: auto;
+  }
+  .app-showcase__stats {
+    justify-content: center;
+  }
+  .app-showcase__phone {
+    width: 120px;
+  }
+  .app-showcase__title {
+    font-size: 1.4rem;
+  }
+}
+
+/* ============================================================
    Masterclass Video Grid
    ============================================================ */
 .masterclass-grid {
