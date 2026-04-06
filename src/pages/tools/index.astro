@@ -5,16 +5,18 @@ import InlineNewsletter from '../../components/InlineNewsletter.astro';
 export const prerender = true;
 
 const tools = [
+  // ── Chat / AI Assistants ──────────────────────
   {
     name: "ChatGPT",
     urduName: "چیٹ جی پی ٹی",
     by: "OpenAI",
-    category: "چیٹ بوٹ",
-    description: "دنیا کا سب سے مشہور اے آئی چیٹ بوٹ۔ سوال پوچھیں، مضامین لکھوائیں، کوڈ بنوائیں اور بہت کچھ — اردو میں بھی کام کرتا ہے۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "اے آئی اسسٹنٹ",
+    description: "دنیا کا سب سے مقبول اے آئی اسسٹنٹ — بات چیت، لکھائی، کوڈنگ، تصاویر، سب ایک جگہ۔ اردو میں بھی کام کرتا ہے۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
-    url: "https://chat.openai.com",
+    trending: true,
+    url: "https://chatgpt.com",
     guideUrl: "/how-to/how-to-make-chatgpt-your-personal-assistant/",
     color: "#10a37f",
     icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#10a37f"/><path d="M16 7c-2.5 0-4.6 1.6-5.4 3.8A5 5 0 007 16a5 5 0 002.6 4.4V22a1 1 0 001 1h.4a5 5 0 005 0h.4a1 1 0 001-1v-1.6A5 5 0 0025 16a5 5 0 00-3.6-4.8A5.7 5.7 0 0016 7z" fill="white" fill-opacity="0.9"/></svg>`,
@@ -23,11 +25,12 @@ const tools = [
     name: "Gemini",
     urduName: "جیمنی",
     by: "Google",
-    category: "چیٹ بوٹ",
-    description: "گوگل کا اے آئی اسسٹنٹ جو گوگل سرچ، جی میل اور گوگل ڈاکس سے جڑا ہے۔ پاکستان میں تیزی سے مقبول ہو رہا ہے۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "اے آئی اسسٹنٹ",
+    description: "گوگل کا اے آئی اسسٹنٹ — جی میل، ڈاکس اور سرچ کے ساتھ مل کر کام کرتا ہے۔ پاکستانی طلبہ کو مفت Pro دیا گیا۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
+    trending: true,
     url: "https://gemini.google.com",
     guideUrl: "/how-to/how-to-buy-gemini-advance-for-free/",
     color: "#1d559f",
@@ -37,11 +40,12 @@ const tools = [
     name: "Claude",
     urduName: "کلاڈ",
     by: "Anthropic",
-    category: "چیٹ بوٹ",
-    description: "لمبے دستاویزات پڑھنے، تجزیہ کرنے اور تحریر میں مدد کے لیے بہترین۔ محفوظ اور معتبر جوابات کے لیے جانا جاتا ہے۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "اے آئی اسسٹنٹ",
+    description: "طویل دستاویزات اور تحقیق کے لیے بہترین — دس لاکھ الفاظ تک ایک ساتھ پڑھ سکتا ہے۔ محفوظ اور معتبر جوابات۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
+    trending: true,
     url: "https://claude.ai",
     guideUrl: null,
     color: "#cc785c",
@@ -51,11 +55,12 @@ const tools = [
     name: "Microsoft Copilot",
     urduName: "مائیکروسافٹ کوپائلٹ",
     by: "Microsoft",
-    category: "چیٹ بوٹ",
-    description: "مائیکروسافٹ کا اے آئی اسسٹنٹ جو ونڈوز، ایج براؤزر اور آفس میں شامل ہے۔ GPT-4 پر چلتا ہے — مفت۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "اے آئی اسسٹنٹ",
+    description: "ونڈوز، ایج اور آفس میں شامل مفت اے آئی — ورڈ، ایکسل اور پاورپوائنٹ میں مدد کرتا ہے۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
+    trending: false,
     url: "https://copilot.microsoft.com",
     guideUrl: null,
     color: "#0078d4",
@@ -65,25 +70,44 @@ const tools = [
     name: "Grok",
     urduName: "گروک",
     by: "xAI (Elon Musk)",
-    category: "چیٹ بوٹ",
-    description: "ایلون مسک کی کمپنی xAI کا چیٹ بوٹ۔ X (ٹوئٹر) سے جڑا ہے اور تازہ ترین خبروں تک رسائی رکھتا ہے۔",
-    free: false,
-    freeLabel: "محدود مفت",
+    category: "اے آئی اسسٹنٹ",
+    description: "ایلون مسک کا اے آئی — X پر مفت دستیاب، تازہ ترین خبروں اور معلومات تک فوری رسائی۔",
+    pricing: "freemium",
+    pricingLabel: "محدود مفت",
     pakistan: true,
+    trending: true,
     url: "https://grok.com",
     guideUrl: null,
     color: "#1a1a1a",
     icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a1a"/><path d="M10 10l12 12M22 10L10 22" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
   },
   {
+    name: "Meta AI",
+    urduName: "میٹا اے آئی",
+    by: "Meta",
+    category: "اے آئی اسسٹنٹ",
+    description: "واٹس ایپ اور انسٹاگرام میں پہلے سے موجود مفت اے آئی — الگ ایپ ڈاؤنلوڈ کرنے کی ضرورت نہیں۔",
+    pricing: "free",
+    pricingLabel: "مکمل مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://ai.meta.com",
+    guideUrl: null,
+    color: "#0668E1",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#0668E1"/><path d="M8 16c0-4.4 2-8 4.5-8 1.5 0 2.5 1.5 3.5 4 1-2.5 2-4 3.5-4 2.5 0 4.5 3.6 4.5 8s-2 8-4.5 8c-1.5 0-2.5-1.5-3.5-4-1 2.5-2 4-3.5 4C10 24 8 20.4 8 16z" stroke="white" stroke-width="1.8"/></svg>`,
+  },
+
+  // ── تحقیق و تلاش ──────────────────────
+  {
     name: "Perplexity",
     urduName: "پرپلیکسٹی",
     by: "Perplexity AI",
-    category: "تحقیق",
-    description: "اے آئی سرچ انجن — سوال پوچھیں اور حوالہ جات کے ساتھ جواب پائیں۔ طلبہ اور محققین کے لیے بہترین ٹول۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "تحقیق و تلاش",
+    description: "اے آئی سرچ انجن جو حوالوں کے ساتھ جواب دیتا ہے — ریسرچ، تحقیق اور سوالات کے لیے بہترین۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
+    trending: true,
     url: "https://perplexity.ai",
     guideUrl: null,
     color: "#20808d",
@@ -93,117 +117,666 @@ const tools = [
     name: "NotebookLM",
     urduName: "نوٹ بک ایل ایم",
     by: "Google",
-    category: "تحقیق",
-    description: "گوگل کا ذاتی تحقیقی اسسٹنٹ۔ اپنی پی ڈی ایف، نوٹس اور دستاویزات اپ لوڈ کریں — پھر سوال پوچھیں۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    category: "تحقیق و تلاش",
+    description: "دستاویزات اپلوڈ کریں، اے آئی اس پر پوڈکاسٹ بنا دے — مکمل مفت۔ طلبہ اور محققین کا پسندیدہ۔",
+    pricing: "free",
+    pricingLabel: "مکمل مفت",
     pakistan: true,
+    trending: true,
     url: "https://notebooklm.google.com",
     guideUrl: "/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/",
     color: "#1d559f",
     icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1d559f"/><rect x="9" y="8" width="14" height="16" rx="2" stroke="white" stroke-width="1.8"/><path d="M12 13h8M12 17h6M12 21h4" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
   },
   {
-    name: "Canva AI",
-    urduName: "کینوا اے آئی",
-    by: "Canva",
-    category: "ڈیزائن",
-    description: "ڈیزائن کے لیے مشہور کینوا اب اے آئی سے تصاویر، پریزنٹیشن اور سوشل میڈیا پوسٹ بناتا ہے — بغیر کسی تجربے کے۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    name: "Consensus",
+    urduName: "کنسینسس",
+    by: "Consensus AI",
+    category: "تحقیق و تلاش",
+    description: "سائنسی تحقیقی مقالوں میں جواب تلاش کرنے والا اے آئی سرچ انجن — علمی تحقیق آسان ہو گئی۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
-    url: "https://canva.com",
+    trending: false,
+    url: "https://consensus.app",
     guideUrl: null,
-    color: "#7d2ae8",
-    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#7d2ae8"/><circle cx="16" cy="16" r="7" stroke="white" stroke-width="2"/><path d="M13 16a3 3 0 106 0" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/></svg>`,
+    color: "#3b5998",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#3b5998"/><path d="M10 12h12M10 16h10M10 20h8" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
   },
+
+  // ── تصویر سازی ──────────────────────
   {
-    name: "DALL-E",
-    urduName: "ڈال-ای",
+    name: "DALL-E 3",
+    urduName: "ڈال-ای 3",
     by: "OpenAI",
     category: "تصویر سازی",
-    description: "متن سے تصاویر بنانے والا اے آئی۔ ChatGPT Plus میں شامل ہے۔ اردو میں بھی پرامٹ دے کر تصویر بنائیں۔",
-    free: false,
-    freeLabel: "ChatGPT Plus میں",
+    description: "ChatGPT کے اندر تصویریں بنائیں — اردو میں بتائیں کیا چاہیے، تصویر تیار۔ مفت ورژن میں بھی دستیاب۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
-    url: "https://openai.com/dall-e-3",
+    trending: false,
+    url: "https://chatgpt.com",
     guideUrl: null,
     color: "#ab68ff",
     icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#ab68ff"/><rect x="8" y="8" width="16" height="16" rx="3" stroke="white" stroke-width="1.8"/><circle cx="13" cy="13" r="2" fill="#f1cc11"/><path d="M8 21l5-5 4 4 2-2 5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   },
   {
-    name: "ElevenLabs",
-    urduName: "الیون لیبز",
-    by: "ElevenLabs",
-    category: "آواز",
-    description: "اے آئی سے آواز بنانے کا بہترین ٹول۔ اردو اے آئی نے اسی ٹول سے اردو میں آواز کا کام کیا — ElevenLabs کیس اسٹڈی میں شامل۔",
-    free: false,
-    freeLabel: "محدود مفت",
+    name: "Ideogram",
+    urduName: "آئیڈیوگرام",
+    by: "Ideogram",
+    category: "تصویر سازی",
+    description: "تصویروں میں صاف متن لکھنے والا واحد اے آئی — پوسٹر، سوشل میڈیا اور اشتہارات کے لیے بہترین۔",
+    pricing: "freemium",
+    pricingLabel: "روزانہ 10 مفت",
     pakistan: true,
-    url: "https://elevenlabs.io",
-    guideUrl: "/how-to/urduai-workshop-how-to-make-youtube-podcasts-with-ai/",
-    color: "#f97316",
-    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#f97316"/><path d="M10 20V12M14 22V10M18 20V12M22 18V14" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+    trending: true,
+    url: "https://ideogram.ai",
+    guideUrl: null,
+    color: "#6c5ce7",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#6c5ce7"/><text x="16" y="21" text-anchor="middle" fill="white" font-size="16" font-weight="bold">I</text></svg>`,
   },
   {
-    name: "Grammarly",
-    urduName: "گریملی",
-    by: "Grammarly",
-    category: "لکھائی",
-    description: "انگریزی لکھائی کو بہتر بنانے والا اے آئی ٹول۔ پاکستانی فری لانسرز اور طلبہ کے لیے بہترین — ای میل اور مضامین کی اصلاح کرتا ہے۔",
-    free: true,
-    freeLabel: "مفت دستیاب",
+    name: "Leonardo AI",
+    urduName: "لیونارڈو اے آئی",
+    by: "Leonardo",
+    category: "تصویر سازی",
+    description: "روزانہ 150 مفت ٹوکن — گیم ڈیزائن، آرٹ اور مارکیٹنگ کے لیے سب سے فراخ دل مفت پلان۔",
+    pricing: "freemium",
+    pricingLabel: "روزانہ 150 ٹوکن مفت",
     pakistan: true,
-    url: "https://grammarly.com",
+    trending: false,
+    url: "https://leonardo.ai",
     guideUrl: null,
-    color: "#15c39a",
-    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#15c39a"/><path d="M10 16a6 6 0 1012 0v-2a6 6 0 00-12 0v2z" stroke="white" stroke-width="2"/><path d="M16 22v2" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+    color: "#8b5cf6",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#8b5cf6"/><path d="M16 8l3 6 6 1-4.5 4L22 25l-6-3-6 3 1.5-6L7 15l6-1 3-6z" fill="white" fill-opacity="0.9"/></svg>`,
   },
   {
     name: "Midjourney",
     urduName: "مڈجرنی",
     by: "Midjourney",
     category: "تصویر سازی",
-    description: "اے آئی تصویر سازی میں سب سے اعلیٰ معیار۔ Discord کے ذریعے کام کرتا ہے۔ فنکاروں اور ڈیزائنرز میں بہت مقبول۔",
-    free: false,
-    freeLabel: "ادائیگی ضروری",
+    description: "پیشہ ورانہ معیار کی تصویریں بنانے والا اے آئی — ڈیزائنرز اور فنکاروں کی پہلی پسند۔",
+    pricing: "paid",
+    pricingLabel: "ادائیگی ضروری",
     pakistan: true,
+    trending: false,
     url: "https://midjourney.com",
     guideUrl: null,
     color: "#1a1a2e",
     icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a2e"/><path d="M8 24l8-16 8 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 18h10" stroke="#f1cc11" stroke-width="1.5" stroke-linecap="round"/></svg>`,
   },
+  {
+    name: "Microsoft Designer",
+    urduName: "مائیکروسافٹ ڈیزائنر",
+    by: "Microsoft",
+    category: "تصویر سازی",
+    description: "DALL-E 3 سے چلنے والا مفت تصویر اور ڈیزائن بنانے والا ٹول — کوئی خرچہ نہیں۔",
+    pricing: "free",
+    pricingLabel: "مکمل مفت",
+    pakistan: true,
+    trending: false,
+    url: "https://designer.microsoft.com",
+    guideUrl: null,
+    color: "#0078d4",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#0078d4"/><path d="M10 10h12v12H10z" stroke="white" stroke-width="1.8"/><circle cx="14" cy="14" r="2" fill="#50e6ff"/><path d="M10 20l4-4 3 3 2-2 3 3" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Flux",
+    urduName: "فلکس",
+    by: "Black Forest Labs",
+    category: "تصویر سازی",
+    description: "اوپن سورس تصویر بنانے والا اے آئی — مفت اور بے حد تیز، NightCafe سے استعمال کریں۔",
+    pricing: "free",
+    pricingLabel: "مکمل مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://flux1.ai",
+    guideUrl: null,
+    color: "#2d3436",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#2d3436"/><path d="M10 16h12M16 10v12" stroke="white" stroke-width="2.5" stroke-linecap="round"/><circle cx="16" cy="16" r="4" stroke="#f1cc11" stroke-width="1.5"/></svg>`,
+  },
+
+  // ── ویڈیو ──────────────────────
+  {
+    name: "Kling AI",
+    urduName: "کلنگ اے آئی",
+    by: "Kuaishou",
+    category: "ویڈیو",
+    description: "روزانہ 66 مفت کریڈٹ — ٹیکسٹ سے ویڈیو بنائیں۔ 2026 کا سب سے مقبول مفت ویڈیو ٹول۔",
+    pricing: "freemium",
+    pricingLabel: "روزانہ 66 کریڈٹ مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://klingai.com",
+    guideUrl: null,
+    color: "#ff6b35",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#ff6b35"/><path d="M12 10v12l10-6-10-6z" fill="white"/></svg>`,
+  },
+  {
+    name: "Runway",
+    urduName: "رن وے",
+    by: "Runway",
+    category: "ویڈیو",
+    description: "ہالی ووڈ معیار کی اے آئی ویڈیو — Gen-4 ماڈل کے ساتھ 125 مفت کریڈٹ سے شروع کریں۔",
+    pricing: "freemium",
+    pricingLabel: "125 کریڈٹ مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://runwayml.com",
+    guideUrl: null,
+    color: "#1a1a2e",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a2e"/><rect x="9" y="11" width="14" height="10" rx="2" stroke="white" stroke-width="1.8"/><path d="M13 15l3 2 3-2" stroke="#f1cc11" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Luma Dream Machine",
+    urduName: "لوما ڈریم مشین",
+    by: "Luma Labs",
+    category: "ویڈیو",
+    description: "تصویر یا ٹیکسٹ سے ویڈیو بنانے والا مفت اے آئی — بغیر انتظار فوری ویڈیو۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://lumalabs.ai",
+    guideUrl: null,
+    color: "#7c3aed",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#7c3aed"/><circle cx="16" cy="16" r="6" stroke="white" stroke-width="1.8"/><path d="M14 14l5 2-5 2v-4z" fill="white"/></svg>`,
+  },
+  {
+    name: "Pika",
+    urduName: "پیکا",
+    by: "Pika",
+    category: "ویڈیو",
+    description: "80 مفت کریڈٹ کے ساتھ ویڈیو بنائیں — خاص اثرات، تبدیلیاں اور 3D موشن بھی ممکن۔",
+    pricing: "freemium",
+    pricingLabel: "80 کریڈٹ مفت",
+    pakistan: true,
+    trending: false,
+    url: "https://pika.art",
+    guideUrl: null,
+    color: "#ec4899",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#ec4899"/><path d="M11 11l10 5-10 5V11z" fill="white"/></svg>`,
+  },
+  {
+    name: "HeyGen",
+    urduName: "ہے جن",
+    by: "HeyGen",
+    category: "ویڈیو",
+    description: "اے آئی اوتار سے ویڈیو بنائیں — اردو میں بولنے والے ڈیجیٹل انسان، کورسز اور مارکیٹنگ کے لیے۔",
+    pricing: "freemium",
+    pricingLabel: "1 مفت ویڈیو",
+    pakistan: true,
+    trending: false,
+    url: "https://heygen.com",
+    guideUrl: null,
+    color: "#5b21b6",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#5b21b6"/><circle cx="16" cy="13" r="4" stroke="white" stroke-width="1.8"/><path d="M10 24c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="white" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Veo",
+    urduName: "ویو",
+    by: "Google DeepMind",
+    category: "ویڈیو",
+    description: "گوگل کا ویڈیو بنانے والا اے آئی — Google Vids اور YouTube میں مفت دستیاب۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: true,
+    url: "https://deepmind.google/technologies/veo/",
+    guideUrl: null,
+    color: "#4285f4",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#4285f4"/><path d="M12 10v12l10-6-10-6z" fill="white" fill-opacity="0.9"/></svg>`,
+  },
+
+  // ── آواز و موسیقی ──────────────────────
+  {
+    name: "ElevenLabs",
+    urduName: "الیون لیبز",
+    by: "ElevenLabs",
+    category: "آواز و موسیقی",
+    description: "انسانی آواز جیسی اے آئی — اردو سمیت 29 زبانوں میں بولتا ہے۔ اردو اے آئی کا آفیشل پارٹنر۔",
+    pricing: "freemium",
+    pricingLabel: "محدود مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://elevenlabs.io",
+    guideUrl: "/how-to/urduai-workshop-how-to-make-youtube-podcasts-with-ai/",
+    color: "#f97316",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#f97316"/><path d="M10 20V12M14 22V10M18 20V12M22 18V14" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Suno AI",
+    urduName: "سونو اے آئی",
+    by: "Suno",
+    category: "آواز و موسیقی",
+    description: "اے آئی سے گانے بنائیں — روزانہ 10 مفت گانے، اردو میں بھی۔ بولیں کیا چاہیے، گانا تیار۔",
+    pricing: "freemium",
+    pricingLabel: "روزانہ 10 گانے مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://suno.com",
+    guideUrl: null,
+    color: "#1DB954",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1DB954"/><path d="M16 8a8 8 0 100 16 8 8 0 000-16z" stroke="white" stroke-width="1.5"/><path d="M12 17a5 5 0 018 0M13 14a7 7 0 016 0" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Udio",
+    urduName: "یوڈیو",
+    by: "Udio",
+    category: "آواز و موسیقی",
+    description: "ماہانہ 600 مفت میوزک جنریشنز — آواز کا معیار بے مثال۔ پاکستانی میوزک اسٹائل بھی سپورٹ کرتا ہے۔",
+    pricing: "freemium",
+    pricingLabel: "600 مفت ماہانہ",
+    pakistan: true,
+    trending: false,
+    url: "https://udio.com",
+    guideUrl: null,
+    color: "#e11d48",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#e11d48"/><path d="M10 18V14M14 20V12M18 19V13M22 17V15" stroke="white" stroke-width="2.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Murf AI",
+    urduName: "مرف اے آئی",
+    by: "Murf",
+    category: "آواز و موسیقی",
+    description: "پیشہ ورانہ وائس اوور منٹوں میں بنائیں — یوٹیوب ویڈیوز اور پریزنٹیشنز کے لیے مثالی۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://murf.ai",
+    guideUrl: null,
+    color: "#6366f1",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#6366f1"/><path d="M16 10v8M12 14v4M20 12v6M24 14v4M8 15v2" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+
+  // ── لکھائی و مواد ──────────────────────
+  {
+    name: "Grammarly",
+    urduName: "گریملی",
+    by: "Grammarly",
+    category: "لکھائی و مواد",
+    description: "انگریزی لکھائی کی غلطیاں فوری ٹھیک کریں — فری لانسرز اور طلبہ کے لیے ضروری ٹول۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://grammarly.com",
+    guideUrl: null,
+    color: "#15c39a",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#15c39a"/><circle cx="16" cy="16" r="6" stroke="white" stroke-width="2"/><path d="M13 16l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
+  {
+    name: "QuillBot",
+    urduName: "کوئل بوٹ",
+    by: "QuillBot",
+    category: "لکھائی و مواد",
+    description: "پیرافریز اور ترجمے کے لیے بہترین — طلباء اور لکھاریوں کی پاکستان میں سب سے زیادہ پسند۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://quillbot.com",
+    guideUrl: null,
+    color: "#2e7d32",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#2e7d32"/><path d="M10 12h12M10 16h10M10 20h8" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Copy.ai",
+    urduName: "کاپی اے آئی",
+    by: "Copy.ai",
+    category: "لکھائی و مواد",
+    description: "مارکیٹنگ کاپی، ای میل اور سوشل میڈیا پوسٹ منٹوں میں لکھیں — 2000 الفاظ ماہانہ مفت۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://copy.ai",
+    guideUrl: null,
+    color: "#6c5ce7",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#6c5ce7"/><rect x="10" y="9" width="10" height="14" rx="2" stroke="white" stroke-width="1.8"/><rect x="12" y="11" width="10" height="14" rx="2" stroke="white" stroke-width="1.8" fill="#6c5ce7"/></svg>`,
+  },
+  {
+    name: "Writesonic",
+    urduName: "رائٹ سونک",
+    by: "Writesonic",
+    category: "لکھائی و مواد",
+    description: "بلاگ، اشتہارات اور SEO مواد لکھنے والا اے آئی — مفت ٹرائل دستیاب۔",
+    pricing: "freemium",
+    pricingLabel: "مفت ٹرائل",
+    pakistan: true,
+    trending: false,
+    url: "https://writesonic.com",
+    guideUrl: null,
+    color: "#6366f1",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#6366f1"/><path d="M10 22l2-6 8-8 4 4-8 8-6 2z" stroke="white" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+  },
+
+  // ── ڈیزائن ──────────────────────
+  {
+    name: "Canva AI",
+    urduName: "کینوا اے آئی",
+    by: "Canva",
+    category: "ڈیزائن",
+    description: "ڈیزائن، پریزنٹیشن اور سوشل میڈیا پوسٹ بنانے کا سب سے آسان ذریعہ — اے آئی بھی شامل۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://canva.com",
+    guideUrl: null,
+    color: "#7d2ae8",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#7d2ae8"/><circle cx="16" cy="16" r="7" stroke="white" stroke-width="2"/><path d="M13 16a3 3 0 106 0" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Remove.bg",
+    urduName: "ریموو بی جی",
+    by: "Kaleido",
+    category: "ڈیزائن",
+    description: "تصویر کا پس منظر ایک کلک میں ہٹائیں — مکمل مفت۔ فری لانسرز اور ای کامرس کے لیے بنایا گیا۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://remove.bg",
+    guideUrl: null,
+    color: "#2d3436",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#2d3436"/><rect x="8" y="8" width="16" height="16" rx="3" stroke="white" stroke-width="1.8"/><path d="M8 16h16" stroke="#f1cc11" stroke-width="1.5" stroke-dasharray="3 2"/><circle cx="16" cy="14" r="3" stroke="white" stroke-width="1.5"/></svg>`,
+  },
+  {
+    name: "Napkin AI",
+    urduName: "نیپکن اے آئی",
+    by: "Napkin",
+    category: "ڈیزائن",
+    description: "ٹیکسٹ لکھیں، اے آئی ڈایاگرام اور انفوگرافک بنا دے — ہفتے میں 500 مفت کریڈٹ۔",
+    pricing: "freemium",
+    pricingLabel: "500 کریڈٹ ہفتہ وار",
+    pakistan: true,
+    trending: true,
+    url: "https://napkin.ai",
+    guideUrl: null,
+    color: "#f59e0b",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#f59e0b"/><rect x="9" y="9" width="14" height="14" rx="2" stroke="white" stroke-width="1.8"/><path d="M12 16h8M16 12v8" stroke="white" stroke-width="1.8" stroke-linecap="round"/></svg>`,
+  },
+
+  // ── کوڈنگ ──────────────────────
+  {
+    name: "Cursor",
+    urduName: "کرسر",
+    by: "Anysphere",
+    category: "کوڈنگ",
+    description: "اے آئی سے چلنے والا کوڈ ایڈیٹر — کوڈ لکھنا، سمجھنا اور ٹھیک کرنا سب خودکار۔ ڈیولپرز کا نیا پسندیدہ۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: true,
+    url: "https://cursor.com",
+    guideUrl: null,
+    color: "#1a1a1a",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a1a"/><path d="M10 10l4 12 2-4 4-2-10-6z" stroke="white" stroke-width="1.8" stroke-linejoin="round"/></svg>`,
+  },
+  {
+    name: "v0",
+    urduName: "وی زیرو",
+    by: "Vercel",
+    category: "کوڈنگ",
+    description: "بتائیں کیسی ویب سائٹ چاہیے — اے آئی پورا کوڈ لکھ دے۔ بغیر کوڈنگ سیکھے ویب سائٹ بنائیں۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: true,
+    url: "https://v0.dev",
+    guideUrl: null,
+    color: "#000000",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#000"/><path d="M16 22L8 12h16L16 22z" fill="white"/></svg>`,
+  },
+  {
+    name: "Bolt.new",
+    urduName: "بولٹ",
+    by: "StackBlitz",
+    category: "کوڈنگ",
+    description: "بغیر کوڈنگ سیکھے مکمل ویب ایپ بنائیں — ماہانہ 10 لاکھ ٹوکن مفت۔ براؤزر میں سب کچھ۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: true,
+    url: "https://bolt.new",
+    guideUrl: null,
+    color: "#3b82f6",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#3b82f6"/><path d="M17 8l-7 12h6l-1 6 7-12h-6l1-6z" fill="#f1cc11"/></svg>`,
+  },
+  {
+    name: "Lovable",
+    urduName: "لوایبل",
+    by: "Lovable",
+    category: "کوڈنگ",
+    description: "آئیڈیا سے ایپ تک — اے آئی مکمل فُل اسٹیک ایپلیکیشن بنا دے۔ بولیں، بنائیں، لانچ کریں۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: true,
+    url: "https://lovable.dev",
+    guideUrl: null,
+    color: "#e11d48",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#e11d48"/><path d="M16 24s-7-4.5-7-9.5C9 11.5 11 10 13 10c1.5 0 2.5.8 3 2 .5-1.2 1.5-2 3-2 2 0 4 1.5 4 4.5S16 24 16 24z" fill="white"/></svg>`,
+  },
+  {
+    name: "GitHub Copilot",
+    urduName: "گِٹ ہب کوپائلٹ",
+    by: "GitHub / Microsoft",
+    category: "کوڈنگ",
+    description: "کوڈ لکھتے وقت اے آئی خود اگلی لائن تجویز کرے — پروگرامرز کا ساتھی۔ طلبہ کو مفت۔",
+    pricing: "freemium",
+    pricingLabel: "طلبہ کو مفت",
+    pakistan: true,
+    trending: false,
+    url: "https://github.com/features/copilot",
+    guideUrl: null,
+    color: "#24292e",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#24292e"/><path d="M16 8C11.6 8 8 11.6 8 16c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1.1-2.7-1.1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.7-.9-3.7-4 0-.9.3-1.6.8-2.2-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.2 0 3.1-1.9 3.8-3.7 4 .3.3.6.8.6 1.6v2.4c0 .2.1.5.6.4C21.7 22.5 24 19.5 24 16c0-4.4-3.6-8-8-8z" fill="white"/></svg>`,
+  },
+  {
+    name: "Replit AI",
+    urduName: "ریپلٹ اے آئی",
+    by: "Replit",
+    category: "کوڈنگ",
+    description: "براؤزر میں کوڈ لکھیں اور فوری چلائیں — شروع کرنے والوں اور طلبہ کے لیے بہترین۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://replit.com",
+    guideUrl: null,
+    color: "#f26207",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#f26207"/><path d="M11 10h10v4H15v4h6v4H11V10z" fill="white"/></svg>`,
+  },
+
+  // ── پریزنٹیشن ──────────────────────
+  {
+    name: "Gamma",
+    urduName: "گاما",
+    by: "Gamma",
+    category: "پریزنٹیشن",
+    description: "اے آئی سے خوبصورت پریزنٹیشن بنائیں — 400 مفت کریڈٹ سے شروع۔ ڈیزائن کی فکر نہیں۔",
+    pricing: "freemium",
+    pricingLabel: "400 کریڈٹ مفت",
+    pakistan: true,
+    trending: true,
+    url: "https://gamma.app",
+    guideUrl: null,
+    color: "#6366f1",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#6366f1"/><rect x="9" y="10" width="14" height="12" rx="2" stroke="white" stroke-width="1.8"/><path d="M12 15h8M12 18h5" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+
+  // ── تعلیم ──────────────────────
+  {
+    name: "Khan Academy",
+    urduName: "خان اکیڈمی",
+    by: "Khan Academy",
+    category: "تعلیم",
+    description: "اے آئی ٹیوٹر (Khanmigo) جو ہر مضمون سمجھائے — طلباء کے لیے مکمل مفت۔",
+    pricing: "free",
+    pricingLabel: "مکمل مفت",
+    pakistan: true,
+    trending: false,
+    url: "https://khanacademy.org",
+    guideUrl: null,
+    color: "#14bf96",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#14bf96"/><path d="M16 8l8 6v10H8V14l8-6z" stroke="white" stroke-width="1.8" stroke-linejoin="round"/><rect x="13" y="18" width="6" height="6" stroke="white" stroke-width="1.5"/></svg>`,
+  },
+  {
+    name: "Duolingo",
+    urduName: "ڈولنگو",
+    by: "Duolingo",
+    category: "تعلیم",
+    description: "اے آئی سے زبان سیکھیں — انگریزی سمیت 40 زبانیں مفت۔ پاکستان میں بہت مقبول ایپ۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://duolingo.com",
+    guideUrl: null,
+    color: "#58cc02",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#58cc02"/><circle cx="16" cy="14" r="6" stroke="white" stroke-width="1.8"/><circle cx="14" cy="13" r="1.5" fill="white"/><circle cx="18" cy="13" r="1.5" fill="white"/><path d="M13 16.5c1.5 1 4.5 1 6 0" stroke="white" stroke-width="1.2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Quizlet AI",
+    urduName: "کوئزلیٹ",
+    by: "Quizlet",
+    category: "تعلیم",
+    description: "نوٹس سے خودکار فلیش کارڈز اور کوئز بنائیں — امتحانات کی تیاری آسان ہو گئی۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://quizlet.com",
+    guideUrl: null,
+    color: "#4257b2",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#4257b2"/><rect x="9" y="10" width="14" height="12" rx="2" stroke="white" stroke-width="1.8"/><path d="M13 16l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
+
+  // ── پیداواری ──────────────────────
+  {
+    name: "Notion AI",
+    urduName: "نوشن اے آئی",
+    by: "Notion",
+    category: "پیداواری",
+    description: "نوٹس، پروجیکٹ مینجمنٹ اور لکھائی — سب ایک جگہ اے آئی کے ساتھ۔ ٹیموں اور فری لانسرز کا پسندیدہ۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://notion.so",
+    guideUrl: null,
+    color: "#1a1a1a",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#1a1a1a"/><rect x="10" y="8" width="12" height="16" rx="2" stroke="white" stroke-width="1.8"/><path d="M13 12h6M13 16h4" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Otter.ai",
+    urduName: "اوٹر اے آئی",
+    by: "Otter",
+    category: "پیداواری",
+    description: "میٹنگ ریکارڈ کریں، اے آئی خود نوٹس بنا دے — فری لانسرز اور ریموٹ ورکرز کے لیے مفید۔",
+    pricing: "freemium",
+    pricingLabel: "300 منٹ مفت",
+    pakistan: true,
+    trending: false,
+    url: "https://otter.ai",
+    guideUrl: null,
+    color: "#3b82f6",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#3b82f6"/><path d="M16 8v10M12 14v4M20 12v6M8 16v2M24 15v2" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M13 22h6" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>`,
+  },
+  {
+    name: "Fireflies.ai",
+    urduName: "فائر فلائز",
+    by: "Fireflies",
+    category: "پیداواری",
+    description: "میٹنگز ریکارڈ کریں، ٹرانسکرپٹ اور خلاصہ خودکار — Zoom، Meet اور Teams سے جڑتا ہے۔",
+    pricing: "freemium",
+    pricingLabel: "مفت + ادا شدہ",
+    pakistan: true,
+    trending: false,
+    url: "https://fireflies.ai",
+    guideUrl: null,
+    color: "#7c3aed",
+    icon: `<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="#7c3aed"/><circle cx="16" cy="12" r="3" fill="#f1cc11"/><path d="M16 15v5M13 24l3-4 3 4" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  },
 ];
 
 const categories = [...new Set(tools.map(t => t.category))];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const totalTools = tools.length;
+const freeTools = tools.filter(t => t.pricing === 'free').length;
+const trendingTools = tools.filter(t => t.trending).length;
 ---
 
 <Base
-  title="اے آئی ٹولز — اردو اے آئی | پاکستان میں بہترین اے آئی ٹولز"
-  description="پاکستان میں استعمال ہونے والے بہترین اے آئی ٹولز — اردو میں مکمل گائیڈ۔ ChatGPT، Gemini، Claude اور مزید۔"
+  title="اے آئی ٹولز — اردو اے آئی | پاکستان میں 50 بہترین مفت اے آئی ٹولز 2026"
+  description="پاکستان میں بغیر VPN چلنے والے 50 بہترین اے آئی ٹولز — مفت، موبائل فرینڈلی۔ ChatGPT، Gemini، Claude، Kling، ElevenLabs اور بہت کچھ۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
 >
-  <div class="container" style="margin-block-start: var(--space-xl);">
-    <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb">
-        <li><a href={`${base}/`}>ہوم</a></li>
-        <li aria-current="page">اے آئی ٹولز</li>
-      </ol>
-    </nav>
+  <!-- Hero Section -->
+  <section class="tools-hero">
+    <div class="container">
+      <nav aria-label="بریڈکرمب">
+        <ol class="breadcrumb breadcrumb--light">
+          <li><a href={`${base}/`}>ہوم</a></li>
+          <li aria-current="page">اے آئی ٹولز</li>
+        </ol>
+      </nav>
+      <h1 class="tools-hero__title">پاکستان کے لیے بہترین اے آئی ٹولز</h1>
+      <p class="tools-hero__sub">
+        {totalTools} ٹولز، ہر ایک آزمایا ہوا — بغیر VPN، موبائل پر، اردو بولنے والوں کے لیے
+      </p>
+      <div class="tools-hero__stats">
+        <div class="tools-hero__stat">
+          <span class="tools-hero__stat-num" dir="ltr">{totalTools}</span>
+          <span class="tools-hero__stat-label">ٹولز</span>
+        </div>
+        <div class="tools-hero__stat">
+          <span class="tools-hero__stat-num" dir="ltr">{freeTools}</span>
+          <span class="tools-hero__stat-label">مکمل مفت</span>
+        </div>
+        <div class="tools-hero__stat">
+          <span class="tools-hero__stat-num" dir="ltr">{trendingTools}</span>
+          <span class="tools-hero__stat-label">ٹرینڈنگ</span>
+        </div>
+      </div>
 
-    <h1>اے آئی ٹولز</h1>
-    <p class="text-muted" style="margin-block-end: var(--space-lg);">
-      پاکستان میں چلنے والے بہترین اے آئی ٹولز — کون سا مفت ہے، کون سا بہتر ہے، اور کہاں سے شروع کریں
-    </p>
+      <!-- Search -->
+      <div class="tools-search-wrap">
+        <input
+          type="search"
+          class="tools-search"
+          id="tools-search"
+          placeholder="ٹول تلاش کریں — مثلاً ChatGPT, ویڈیو, تصویر..."
+          autocomplete="off"
+        />
+        <svg class="tools-search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 16l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
 
+  <div class="container" style="margin-block-start: var(--space-lg);">
     <!-- Category filter tabs -->
-    <div class="tools-filters" role="tablist" aria-label="زمرہ بہ زمرہ فلٹر">
-      <button class="tools-filter tools-filter--active" data-filter="all">سب</button>
-      {categories.map(cat => (
-        <button class="tools-filter" data-filter={cat}>{cat}</button>
-      ))}
+    <div class="tools-filters" role="tablist" aria-label="زمرہ فلٹر">
+      <button class="tools-filter tools-filter--active" data-filter="all">
+        سب
+        <span class="tools-filter__count">{totalTools}</span>
+      </button>
+      {categories.map(cat => {
+        const count = tools.filter(t => t.category === cat).length;
+        return (
+          <button class="tools-filter" data-filter={cat}>
+            {cat}
+            <span class="tools-filter__count">{count}</span>
+          </button>
+        );
+      })}
     </div>
 
     <!-- Tools grid -->
@@ -212,8 +785,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <article
           class="tool-card"
           data-category={tool.category}
-          id={`tool-${tool.name.toLowerCase().replace(/\s+/g, '-')}`}
+          data-name={tool.name.toLowerCase()}
+          data-urdu={tool.urduName}
+          data-desc={tool.description}
         >
+          {tool.trending && (
+            <span class="tool-card__trending">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="currentColor"/>
+              </svg>
+              ٹرینڈنگ
+            </span>
+          )}
+
           <div class="tool-card__header">
             <div class="tool-card__icon" aria-hidden="true" set:html={tool.icon} />
             <div class="tool-card__title-group">
@@ -227,11 +811,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
           <div class="tool-card__badges">
             <span class="badge badge--teal">{tool.category}</span>
-            <span class={`badge ${tool.free ? 'badge--green' : 'badge--muted'}`}>
-              {tool.freeLabel}
+            <span class={`badge ${tool.pricing === 'free' ? 'badge--green' : tool.pricing === 'freemium' ? 'badge--blue' : 'badge--muted'}`}>
+              {tool.pricingLabel}
             </span>
             {tool.pakistan && (
-              <span class="badge badge--green">پاکستان میں دستیاب</span>
+              <span class="badge badge--green">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" style="display:inline;vertical-align:-1px;margin-inline-end:3px;">
+                  <path d="M5 12l5 5L20 7" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                پاکستان
+              </span>
             )}
           </div>
 
@@ -246,13 +835,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             </a>
             {tool.guideUrl && (
               <a href={tool.guideUrl} class="tool-card__guide-link">
-                اردو گائیڈ پڑھیں ←
+                اردو گائیڈ ←
               </a>
             )}
           </div>
         </article>
       ))}
     </div>
+
+    <!-- No results message -->
+    <div class="tools-no-results" id="tools-no-results" style="display:none;">
+      <p>کوئی ٹول نہیں ملا — دوسرے الفاظ سے تلاش کریں</p>
+    </div>
+
+    <!-- Last updated -->
+    <p class="tools-updated">
+      آخری اپڈیٹ: اپریل 2026 — ہر ٹول پاکستان سے ٹیسٹ کیا گیا
+    </p>
   </div>
 
   <div class="container" style="margin-block-start: var(--space-2xl);">
@@ -261,6 +860,95 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 </Base>
 
 <style>
+  /* ── Hero ── */
+  .tools-hero {
+    background: var(--ink);
+    padding-block: var(--space-2xl) var(--space-xl);
+  }
+
+  .breadcrumb--light a { color: var(--gold-pale); }
+  .breadcrumb--light li { color: var(--gold-light); }
+  .breadcrumb--light li::before { color: var(--gold-pale); opacity: 0.5; }
+
+  .tools-hero__title {
+    font-size: var(--text-h1);
+    color: var(--gold-light);
+    margin-block-end: var(--space-sm);
+  }
+
+  .tools-hero__sub {
+    color: var(--gold-pale);
+    font-size: var(--text-base);
+    line-height: var(--lh-prose);
+    margin-block-end: var(--space-lg);
+  }
+
+  .tools-hero__stats {
+    display: flex;
+    gap: var(--space-xl);
+    margin-block-end: var(--space-lg);
+    flex-wrap: wrap;
+  }
+
+  .tools-hero__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15em;
+  }
+
+  .tools-hero__stat-num {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gold);
+    line-height: 1;
+  }
+
+  .tools-hero__stat-label {
+    font-size: var(--text-sm);
+    color: var(--gold-pale);
+  }
+
+  /* ── Search ── */
+  .tools-search-wrap {
+    position: relative;
+    max-width: 480px;
+  }
+
+  .tools-search {
+    width: 100%;
+    padding: 0.7em 1em;
+    padding-inline-start: 2.8em;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-family: inherit;
+    font-size: var(--text-base);
+    line-height: var(--lh-body);
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .tools-search::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .tools-search:focus {
+    outline: none;
+    border-color: var(--gold);
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .tools-search__icon {
+    position: absolute;
+    inset-inline-start: 0.8em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.4);
+    pointer-events: none;
+  }
+
+  /* ── Filters ── */
   .tools-filters {
     display: flex;
     gap: var(--space-xs);
@@ -269,6 +957,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   }
 
   .tools-filter {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
     padding: 0.4em 1em;
     border: 1.5px solid var(--border);
     border-radius: 20px;
@@ -281,6 +972,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     line-height: var(--lh-body);
   }
 
+  .tools-filter__count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.4em;
+    height: 1.4em;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    background: var(--paper-warm);
+    color: var(--ink-muted);
+    font-weight: 600;
+  }
+
   .tools-filter:hover,
   .tools-filter--active {
     background: var(--navy);
@@ -288,13 +992,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-color: var(--navy);
   }
 
+  .tools-filter:hover .tools-filter__count,
+  .tools-filter--active .tools-filter__count {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  /* ── Grid ── */
   .tools-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: var(--space-md);
   }
 
+  /* ── Card ── */
   .tool-card {
+    position: relative;
     background: var(--paper-card);
     border: 1.5px solid var(--border);
     border-radius: 10px;
@@ -302,12 +1015,29 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     display: flex;
     flex-direction: column;
     gap: var(--space-xs);
-    transition: border-color 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
   }
 
   .tool-card:hover {
     border-color: var(--navy);
-    box-shadow: 0 4px 16px rgba(29, 85, 159, 0.08);
+    box-shadow: 0 6px 20px rgba(29, 85, 159, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .tool-card__trending {
+    position: absolute;
+    top: -8px;
+    inset-inline-end: var(--space-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+    padding: 0.2em 0.7em;
+    background: var(--gold);
+    color: var(--ink);
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 10px;
+    line-height: 1.6;
   }
 
   .tool-card__header {
@@ -363,6 +1093,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-color: #c3e6cb;
   }
 
+  .badge--blue {
+    background: #dbeafe;
+    color: #1e40af;
+    border-color: #bfdbfe;
+  }
+
   .badge--muted {
     background: var(--paper-warm);
     color: var(--ink-muted);
@@ -395,25 +1131,88 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .tool-card[data-hidden] {
     display: none;
   }
+
+  /* ── No results ── */
+  .tools-no-results {
+    text-align: center;
+    padding: var(--space-2xl);
+    color: var(--ink-muted);
+    font-size: var(--text-base);
+  }
+
+  /* ── Updated note ── */
+  .tools-updated {
+    text-align: center;
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+    margin-block: var(--space-xl);
+    padding-block-start: var(--space-md);
+    border-block-start: 1px solid var(--border);
+  }
+
+  /* ── Mobile ── */
+  @media (max-width: 600px) {
+    .tools-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .tools-hero__stats {
+      gap: var(--space-lg);
+    }
+
+    .tools-hero__stat-num {
+      font-size: 1.6rem;
+    }
+  }
 </style>
 
 <script>
+  // Category filter
   const filters = document.querySelectorAll('.tools-filter');
   const cards = document.querySelectorAll('.tool-card');
+  const noResults = document.getElementById('tools-no-results');
+  const searchInput = document.getElementById('tools-search') as HTMLInputElement;
+
+  let activeCategory = 'all';
+
+  function updateVisibility() {
+    const query = searchInput?.value?.toLowerCase().trim() || '';
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const category = card.getAttribute('data-category') || '';
+      const name = card.getAttribute('data-name') || '';
+      const urdu = card.getAttribute('data-urdu') || '';
+      const desc = card.getAttribute('data-desc') || '';
+
+      const matchesCategory = activeCategory === 'all' || category === activeCategory;
+      const matchesSearch = !query ||
+        name.includes(query) ||
+        urdu.includes(query) ||
+        desc.includes(query) ||
+        category.includes(query);
+
+      if (matchesCategory && matchesSearch) {
+        card.removeAttribute('data-hidden');
+        visibleCount++;
+      } else {
+        card.setAttribute('data-hidden', '');
+      }
+    });
+
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  }
 
   filters.forEach(btn => {
     btn.addEventListener('click', () => {
       filters.forEach(b => b.classList.remove('tools-filter--active'));
       btn.classList.add('tools-filter--active');
-
-      const filter = btn.getAttribute('data-filter');
-      cards.forEach(card => {
-        if (filter === 'all' || card.getAttribute('data-category') === filter) {
-          card.removeAttribute('data-hidden');
-        } else {
-          card.setAttribute('data-hidden', '');
-        }
-      });
+      activeCategory = btn.getAttribute('data-filter') || 'all';
+      updateVisibility();
     });
   });
+
+  searchInput?.addEventListener('input', updateVisibility);
 </script>
