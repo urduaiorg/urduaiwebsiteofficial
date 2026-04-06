@@ -1198,14 +1198,15 @@ img {
    ============================================================ */
 .app-showcase {
   background: linear-gradient(135deg, #0a1628 0%, #1d559f 100%);
-  padding-block: var(--space-2xl);
+  padding-block: var(--space-xl);
   margin-block-start: var(--space-xl);
+  overflow: hidden;
 }
 
 .app-showcase__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-xl);
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-md);
   align-items: center;
 }
 
@@ -1277,28 +1278,32 @@ img {
 .app-showcase__phones {
   display: flex;
   justify-content: center;
-  gap: var(--space-md);
+  gap: calc(var(--space-sm) * -1);
   position: relative;
 }
 
 .app-showcase__phone {
-  width: 160px;
+  width: 180px;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  position: relative;
 }
 
 .app-showcase__phone--1 {
-  transform: translateY(20px);
+  transform: translateY(16px) rotate(-3deg);
+  z-index: 1;
 }
 
 .app-showcase__phone--2 {
-  transform: translateY(-10px);
+  transform: translateY(-8px) scale(1.08);
+  z-index: 3;
 }
 
 .app-showcase__phone--3 {
-  transform: translateY(30px);
+  transform: translateY(16px) rotate(3deg);
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -1325,7 +1330,7 @@ img {
     justify-content: center;
   }
   .app-showcase__phone {
-    width: 120px;
+    width: 110px;
   }
   .app-showcase__title {
     font-size: 1.4rem;
