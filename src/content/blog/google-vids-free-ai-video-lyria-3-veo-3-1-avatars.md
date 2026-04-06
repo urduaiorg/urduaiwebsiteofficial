@@ -3,7 +3,7 @@ title: "گوگل وِڈز میں مفت AI ویڈیو، میوزک اور اوت
 description: "گوگل وِڈز میں Veo 3.1 سے مفت ویڈیو جنریشن، Lyria 3 سے میوزک اور کسٹم اوتار کی سہولت آ گئی۔ ہر گوگل اکاؤنٹ پر ماہانہ 10 مفت ویڈیوز۔"
 date: 2026-04-05
 category: "اے آئی اپڈیٹ"
-image: "/images/blog/google-vids-free-ai-video-lyria-3-veo-3-1-avatars.jpg"
+image: "/images/blog/google-vids-free-ai-video-lyria-3-veo-3-1-avatars.png"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
