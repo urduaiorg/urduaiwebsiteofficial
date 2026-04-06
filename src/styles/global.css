@@ -1006,27 +1006,110 @@ img {
 }
 
 /* ============================================================
-   Featured Article Card — Clean cover image banner
+   Featured Article Card — Editorial excerpt layout
    ============================================================ */
 .featured-card {
-  display: block;
-  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  background: var(--paper-card);
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(26, 18, 7, 0.08);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 16px rgba(26, 18, 7, 0.06);
   transition: box-shadow 0.3s, transform 0.25s;
 }
 
 .featured-card:hover {
-  box-shadow: 0 12px 48px rgba(26, 18, 7, 0.14);
-  transform: translateY(-3px);
+  box-shadow: 0 8px 40px rgba(26, 18, 7, 0.12);
+  transform: translateY(-2px);
 }
 
-.featured-card__img {
+.featured-card__image {
+  overflow: hidden;
+  background: var(--paper-warm);
+}
+
+.featured-card__image img {
   width: 100%;
-  height: auto;
-  display: block;
-  aspect-ratio: 1200 / 630;
+  height: 100%;
   object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.featured-card:hover .featured-card__image img {
+  transform: scale(1.03);
+}
+
+.featured-card__body {
+  padding: var(--space-lg) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-xs);
+}
+
+.featured-card__top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-block-end: var(--space-xs);
+}
+
+.featured-card__label {
+  background: var(--gold);
+  color: #fff;
+  padding: 0.15em 0.7em;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.featured-card__category {
+  color: var(--ink-muted);
+  font-size: 0.8rem;
+}
+
+.featured-card__title {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--ink);
+  margin: 0;
+}
+
+.featured-card__excerpt {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 2.2;
+  margin: 0;
+}
+
+.featured-card__meta {
+  color: var(--ink-muted);
+  font-size: 0.8rem;
+  margin-block-start: var(--space-xs);
+}
+
+.featured-card__read {
+  color: var(--teal);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-block-start: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+  .featured-card__image img {
+    aspect-ratio: 16 / 9;
+  }
+  .featured-card__body {
+    padding: var(--space-md);
+  }
+  .featured-card__title {
+    font-size: 1.25rem;
+  }
 }
 
 /* ============================================================
