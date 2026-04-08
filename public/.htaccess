@@ -84,10 +84,8 @@
   # Permissions policy — disable unused browser features
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
 
-  # Explicitly remove Content-Security-Policy — Hostinger sets one at server level
-  # that blocks AdSense. This unset directive overrides it.
-  Header unset Content-Security-Policy
-  Header always unset Content-Security-Policy
+  # Override Hostinger's server-level CSP with a permissive policy for AdSense
+  Header always set Content-Security-Policy "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; img-src * data: blob:; font-src * data:; frame-src *; connect-src *;"
 
   # Strict Transport Security — enforce HTTPS
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
