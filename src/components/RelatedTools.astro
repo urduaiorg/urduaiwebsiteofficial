@@ -29,12 +29,12 @@ if (matchedTools.length === 0) return null;
     <div class="related-tools__grid">
       {matchedTools.map((tool: Tool) => (
         <a
-          href={`${base}/tools/#tool-${tool.name.toLowerCase().replace(/[\s.]+/g, '-')}`}
+          href={`${base}/tools/#${tool.name.toLowerCase().replace(/[\s.]+/g, '-')}`}
           class="related-tool"
         >
           <img
             class="related-tool__logo"
-            src={tool.logo}
+            src={`${base}${tool.logo}`}
             alt={tool.name}
             width="36"
             height="36"

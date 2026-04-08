@@ -4,7 +4,7 @@ description: "Muse Spark میٹا کا نیا اے آئی ماڈل ہے جو Met
 date: 2026-04-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/meta-muse-spark-launch.jpg"
-author: "قیصر رونجھا"
+author: "معراج احمد"
 adsense: true
 draft: false
 tools:
