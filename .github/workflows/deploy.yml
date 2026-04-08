@@ -18,8 +18,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build site
-        run: npm run build
+      - name: Build site (clean)
+        run: rm -rf dist .astro && npm run build
 
       - name: Setup SSH key
         run: |
