@@ -84,8 +84,9 @@
   # Permissions policy — disable unused browser features
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
 
-  # Content Security Policy — allow Google services + YouTube + Substack
-  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://www.google-analytics.com https://adservice.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: http:; frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.urduaiupdates.com https://pagead2.googlesyndication.com; connect-src 'self' https://www.google-analytics.com https://pagead2.googlesyndication.com https://region1.google-analytics.com;"
+  # Content Security Policy — removed to allow AdSense (Google ads load
+  # from dozens of dynamically-generated domains that cannot be whitelisted).
+  # Other security headers (X-Frame-Options, HSTS, etc.) remain active.
 
   # Strict Transport Security — enforce HTTPS
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
