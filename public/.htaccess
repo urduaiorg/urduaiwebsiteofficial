@@ -84,6 +84,9 @@
   # Permissions policy — disable unused browser features
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
 
+  # CORS — requested by Hostinger support
+  Header set Access-Control-Allow-Origin "*"
+
   # Override Hostinger's server-level CSP with a permissive policy for AdSense
   Header always set Content-Security-Policy "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; img-src * data: blob:; font-src * data:; frame-src *; connect-src *;"
 
