@@ -1782,6 +1782,68 @@ img {
   }
 }
 
+.mobile-share {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .mobile-share {
+    position: fixed;
+    inset-inline: 12px;
+    inset-block-end: 12px;
+    z-index: 95;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid rgba(196, 184, 154, 0.9);
+    border-radius: 16px;
+    background: rgba(253, 250, 244, 0.96);
+    box-shadow: 0 10px 28px rgba(26, 18, 7, 0.14);
+    backdrop-filter: blur(10px);
+  }
+
+  .mobile-share__btn {
+    min-height: 46px;
+    border: 0;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 0.7rem 0.8rem;
+    font: inherit;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .mobile-share__btn--native {
+    background: var(--paper-card);
+    color: var(--ink);
+    border: 1px solid var(--border);
+  }
+
+  .mobile-share__btn--whatsapp {
+    background: #25D366;
+    color: white;
+  }
+
+  .mobile-share__btn--copy {
+    background: var(--ink);
+    color: var(--paper);
+  }
+
+  .mobile-share__btn--copy.copied {
+    background: var(--gold);
+    color: white;
+  }
+
+  .article-layout__main {
+    padding-block-end: 96px;
+  }
+}
+
 /* ============================================================
    Table of Contents Widget
    ============================================================ */
