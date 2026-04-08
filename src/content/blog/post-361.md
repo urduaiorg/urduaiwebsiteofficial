@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-361.jpg"
 ---
 
 # :مصنوعی ذہانت کے باشعور ہونے کا امکان ہے

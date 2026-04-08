@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-730.jpg"
 ---
 
 # :ای آئی اور سائبر سکیورٹی ڈیٹا کی حفاظت میں ٹیکنولوجی کا کردار

@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-545.jpg"
 ---
 
 /*! elementor - v3.15.0 - 26-07-2023 */

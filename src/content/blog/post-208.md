@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-208.jpg"
 ---
 
 ### مشین لرننگ الگورتھم۔

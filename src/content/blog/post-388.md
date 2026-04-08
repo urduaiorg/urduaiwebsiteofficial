@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-388.jpg"
 ---
 
 # مصنوعی ذہانت: روبوٹ کیلئے کام آسان یا مشکل کیوں؟

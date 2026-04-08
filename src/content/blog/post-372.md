@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-372.jpg"
 ---
 
 **.مصنوئی ذہانت سائبر سیکیورٹی کامستقبل ہےدیوا دیال کی سی این بی سی ٹی وی سے گفتگو**

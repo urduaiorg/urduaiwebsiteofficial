@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-734.jpg"
 ---
 
 # چیٹ جی پی ٹی خطرناک یا مددگار؟

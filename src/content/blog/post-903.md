@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-903.jpg"
 ---
 
 اے آئی کی تین گائیڈز اردومیں۔

@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-722.jpg"
 ---
 
 # آرٹیفیشل انٹیلیجنس کسانوں کی کس طرح مدد کر سکتا ہے۔

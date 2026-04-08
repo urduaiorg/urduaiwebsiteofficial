@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/openais-new-agent-feature-now-available-to-plus-users-another-important-step-in-the-world-of-artificial-intelligence.jpg"
 ---
 
 # اوپن اے آئی کا نیا ایجنٹ فیچر اب پلس صارفین کے لیے دستیاب، مصنوعی ذہانت کی دنیا میں ایک اور اہم قدم

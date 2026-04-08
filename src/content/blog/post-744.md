@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-744.jpg"
 ---
 
 **ایڈوب فائیرفلائی اے آی کے مدد سے تصویروں میں تبدیلی کرنا ہوا آسان۔**

@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/can-everyone-create-professional-ai-apps-with-nanobanana.jpg"
 ---
 
 # کیا نینوبنانا کے ذریعے ہر کوئی پروفیشنل اے آئی ایپس بنا سکتا ہے؟

@@ -6,6 +6,7 @@ category: "اے آئی اپڈیٹ"
 author: "قیصر رونجھا"
 adsense: true
 draft: false
+image: "/images/blog/post-712.jpg"
 ---
 
 اے آئی ٹیکنالوجی نے تاش کے کھیل برج میں 8 عالمی چیمپئنز کو شکست دینے میں [**کامیابی**](https://www.theguardian.com/technology/2022/mar/29/artificial-intelligence-beats-eight-world-champions-at-bridge) حاصل کرلی۔
