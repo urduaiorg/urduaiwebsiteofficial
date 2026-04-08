@@ -1,0 +1,23 @@
+{
+  "name": "اردو اے آئی",
+  "short_name": "Urdu Ai",
+  "description": "پاکستان کا سب سے بڑا اردو اے آئی پلیٹ فارم",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1d559f",
+  "theme_color": "#1d559f",
+  "lang": "ur",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

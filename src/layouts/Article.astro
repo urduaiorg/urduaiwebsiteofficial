@@ -23,6 +23,7 @@ export interface Props {
   collection: string; // 'blog' | 'guides' | 'prompts'
   tools?: string[];
   faq?: { question: string; answer: string }[];
+  last_updated?: string;
 }
 
 const {
@@ -38,6 +39,7 @@ const {
   collection,
   tools: toolNames = [],
   faq = [],
+  last_updated,
 } = Astro.props;
 
 // Author bios — keyed by name
@@ -80,7 +82,7 @@ const articleSchema = {
   "headline": title,
   "description": description,
   "datePublished": date,
-  "dateModified": date,
+  "dateModified": last_updated ?? date,
   ...(isNewsPost ? {
     "articleSection": "اے آئی اپڈیٹ",
     "dateline": "پاکستان",
@@ -123,6 +125,17 @@ const articleSchema = {
   }))} : {}),
 };
 
+// Speakable schema — tells Google Assistant/voice search which content to read aloud
+const speakableSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-header__title", ".prose > p:first-of-type"]
+  },
+  "url": canonical,
+};
+
 // FAQPage schema — generated when faq array is present in frontmatter
 const faqSchema = faq.length > 0 ? {
   "@context": "https://schema.org",
@@ -163,9 +176,7 @@ const breadcrumbSchema = {
   ]
 };
 
-const combinedSchema = faqSchema
-  ? [articleSchema, breadcrumbSchema, faqSchema]
-  : [articleSchema, breadcrumbSchema];
+const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(faqSchema ? [faqSchema] : [])];
 ---
 
 <Base

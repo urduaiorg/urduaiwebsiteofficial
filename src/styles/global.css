@@ -71,6 +71,19 @@ html {
 /* NEVER use letter-spacing — breaks Nastaliq ligatures */
 /* NEVER use text-transform — breaks Urdu characters    */
 
+/* Screen-reader only — visible to search engines + assistive tech */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 /* ============================================================
    Reset & Box Model
    ============================================================ */

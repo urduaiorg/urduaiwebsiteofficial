@@ -27,6 +27,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   slug={guide.id}
   collection="guides"
   tools={guide.data.tools}
+  last_updated={guide.data.last_updated}
 >
   <Content />
 </Article>

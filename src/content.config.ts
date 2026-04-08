@@ -27,6 +27,8 @@ const blog = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).optional(),
+    // Optional last_updated — tracks actual content modification date for schema.org dateModified
+    last_updated: dateString.optional(),
   }),
 });
 
@@ -43,6 +45,7 @@ const guides = defineCollection({
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
     tools: z.array(z.string()).optional(),
+    last_updated: dateString.optional(),
   }),
 });
 

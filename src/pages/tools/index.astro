@@ -87,6 +87,7 @@ const trendingTools = tools.filter(t => t.trending).length;
       {tools.map(tool => (
         <article
           class="tool-card"
+          id={tool.name.toLowerCase().replace(/\s+/g, '-')}
           data-category={tool.category}
           data-name={tool.name.toLowerCase()}
           data-urdu={tool.urduName}

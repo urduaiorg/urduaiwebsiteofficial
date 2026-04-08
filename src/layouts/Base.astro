@@ -47,7 +47,7 @@ const orgSchema = {
     "https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI",
     "https://www.instagram.com/urduaiorg/",
     "https://x.com/urduaiorg",
-    "http://www.tiktok.com/@urduaiorg"
+    "https://www.tiktok.com/@urduaiorg"
   ]
 };
 
@@ -77,6 +77,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="alternate" hreflang="ur" href={canonicalURL} />
+    <link rel="alternate" hreflang="x-default" href={canonicalURL} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
@@ -105,8 +108,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href={`${base}/rss.xml`} />
     <link rel="alternate" type="application/rss+xml" title="اردو اے آئی — اے آئی نیوز" href={`${base}/news.xml`} />
 
-    <!-- Favicon -->
+    <!-- Favicon — SVG primary, PNG fallback, Apple touch icon -->
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="icon" type="image/png" sizes="32x32" href={`${base}/favicon-32.png`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${base}/apple-touch-icon.png`} />
+    <link rel="manifest" href={`${base}/manifest.json`} />
+    <meta name="theme-color" content="#1d559f" />
 
     <!-- Google Fonts — Noto Nastaliq Urdu — non-blocking preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -254,11 +261,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           <div>
             <p><strong>سوشل میڈیا</strong></p>
             <ul style="list-style:none">
-              <li><a href="https://www.facebook.com/urduaiorg" rel="noopener">فیس بک</a></li>
-              <li><a href="https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI" rel="noopener">یوٹیوب</a></li>
-              <li><a href="https://www.instagram.com/urduaiorg/" rel="noopener">انسٹاگرام</a></li>
-              <li><a href="https://x.com/urduaiorg" rel="noopener">X (ٹوئٹر)</a></li>
-              <li><a href="http://www.tiktok.com/@urduaiorg" rel="noopener">ٹک ٹاک</a></li>
+              <li><a href="https://www.facebook.com/urduaiorg" rel="noopener" target="_blank">فیس بک</a></li>
+              <li><a href="https://www.youtube.com/playlist?list=PLcj1P8Ql0CihyALOpajIbj_yquUC6NlXI" rel="noopener" target="_blank">یوٹیوب</a></li>
+              <li><a href="https://www.instagram.com/urduaiorg/" rel="noopener" target="_blank">انسٹاگرام</a></li>
+              <li><a href="https://x.com/urduaiorg" rel="noopener" target="_blank">X (ٹوئٹر)</a></li>
+              <li><a href="https://www.tiktok.com/@urduaiorg" rel="noopener" target="_blank">ٹک ٹاک</a></li>
             </ul>
           </div>
         </div>
