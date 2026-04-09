@@ -38,7 +38,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         var el = document.getElementById('search');
         if (el) {
           el.innerHTML =
-            '<p class="text-muted" style="padding:1rem;border:1px solid var(--border);border-radius:8px;">تلاش یہاں صرف تیار شدہ سائٹ پر دستیاب ہے۔ براہ کرم <code style="direction:ltr;unicode-bidi:embed;">npm run build && npm run preview</code> چلائیں، یا لائیو سائٹ کھولیں۔</p>';
+            '<p class="text-muted" style="padding:1rem;border:1px solid var(--border);border-radius:8px;">تلاش ابھی دستیاب نہیں ہے۔ براہ کرم صفحہ دوبارہ لوڈ کریں یا کچھ دیر بعد کوشش کریں۔</p>';
         }
         console.warn('Pagefind UI failed to load (expected in dev if dist/pagefind missing):', e);
         return;
