@@ -106,7 +106,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <!-- Sitemap & RSS -->
     <link rel="sitemap" href={`${base}/sitemap-index.xml`} />
     <link rel="alternate" type="application/rss+xml" title="اردو اے آئی" href={`${base}/rss.xml`} />
-    <link rel="alternate" type="application/rss+xml" title="اردو اے آئی — اے آئی نیوز" href={`${base}/news.xml`} />
 
     <!-- Favicon — SVG primary, PNG fallback, Apple touch icon -->
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
@@ -160,6 +159,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </head>
 
   <body>
+    <a href="#main" class="skip-link">مواد پر جائیں</a>
+
     <!-- Site header -->
     <header class="site-header">
       <div class="container">
@@ -229,9 +230,28 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </script>
 
     <!-- Page content -->
-    <main>
+    <main id="main">
       <slot />
     </main>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="back-to-top" aria-label="اوپر جائیں" type="button">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1d559f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="18 15 12 9 6 15"/>
+      </svg>
+    </button>
+
+    <script>
+      const backToTop = document.getElementById('back-to-top');
+      if (backToTop) {
+        window.addEventListener('scroll', () => {
+          backToTop.classList.toggle('is-visible', window.scrollY > 500);
+        }, { passive: true });
+        backToTop.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    </script>
 
     <!-- Site footer -->
     <footer class="site-footer">

@@ -1,0 +1,128 @@
+---
+// 404.astro — urduai.org — Page not found
+import Base from '../layouts/Base.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base
+  title="صفحہ نہیں ملا — اردو اے آئی"
+  description="آپ جس صفحے کی تلاش کر رہے ہیں وہ دستیاب نہیں ہے۔ ہوم پیج یا دیگر سیکشنز پر جائیں۔"
+  adsense={false}
+>
+  <section class="error-404">
+    <div class="container">
+      <div class="error-404__content">
+        <p class="error-404__code">404</p>
+        <h1 class="error-404__title">صفحہ نہیں ملا</h1>
+        <p class="error-404__message">
+          معذرت، آپ جس صفحے کی تلاش کر رہے ہیں وہ منتقل ہو چکا ہے یا موجود نہیں ہے۔
+          نیچے دیے گئے لنکس سے مطلوبہ مواد تلاش کریں۔
+        </p>
+
+        <a href={`${base}/search/`} class="error-404__search-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" style="vertical-align: -3px;">
+            <circle cx="11" cy="11" r="7"/><path d="M16 16l5 5" stroke-linecap="round"/>
+          </svg>
+          تلاش کریں
+        </a>
+
+        <nav class="error-404__nav" aria-label="مفید لنکس">
+          <ul>
+            <li><a href={`${base}/`}>ہوم پیج</a></li>
+            <li><a href={`${base}/blog/`}>بلاگ</a></li>
+            <li><a href={`${base}/guides/`}>گائیڈز</a></li>
+            <li><a href={`${base}/prompts/`}>پرامٹس</a></li>
+            <li><a href={`${base}/how-to/`}>ہاؤ ٹو</a></li>
+            <li><a href={`${base}/learn/`}>اردو لغت</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .error-404 {
+    padding: 4rem 0;
+    text-align: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .error-404__content {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .error-404__code {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.1;
+    opacity: 0.15;
+  }
+
+  .error-404__title {
+    font-size: 2rem;
+    color: var(--ink);
+    margin: 0.5rem 0 1rem;
+  }
+
+  .error-404__message {
+    color: var(--ink-soft);
+    font-size: 1.05rem;
+    line-height: 2.2;
+    margin-block-end: 2rem;
+  }
+
+  .error-404__search-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--navy);
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .error-404__search-link:hover {
+    background: var(--navy-dark);
+  }
+
+  .error-404__nav {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .error-404__nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+  }
+
+  .error-404__nav a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  .error-404__nav a:hover {
+    color: var(--navy-dark);
+    text-decoration: underline;
+  }
+</style>

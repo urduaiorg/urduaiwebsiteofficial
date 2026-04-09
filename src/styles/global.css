@@ -3,8 +3,7 @@
    RTL Nastaliq — set once, never override
    ============================================================ */
 
-/* Google Fonts — Noto Nastaliq Urdu (body) + Inter (logo only) */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Inter:wght@700;800&display=swap');
+/* Google Fonts loaded via <link preload> in Base.astro — no @import here */
 
 /* ============================================================
    Design Tokens
@@ -2112,4 +2111,73 @@ img {
       transform: translateY(0);
     }
   }
+}
+
+/* ============================================================
+   Skip-to-content link — accessibility
+   ============================================================ */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background: var(--navy);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  z-index: 10000;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0 0 0 6px;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ============================================================
+   Focus-visible — keyboard navigation outlines
+   ============================================================ */
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ============================================================
+   Back to top button
+   ============================================================ */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--paper-card);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 900;
+}
+
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover {
+  background: var(--paper-warm);
 }
