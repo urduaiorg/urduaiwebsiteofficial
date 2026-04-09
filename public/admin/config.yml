@@ -1,0 +1,162 @@
+backend:
+  name: github
+  repo: urduaiorg/urduaiwebsiteofficial
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+publish_mode: editorial_workflow
+
+media_folder: public/images
+public_folder: /images
+
+locale: ur
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  # ============================================================
+  # Blog Posts
+  # ============================================================
+  - name: blog
+    label: "بلاگ"
+    label_singular: "مضمون"
+    folder: src/content/blog
+    create: true
+    slug: "{{slug}}"
+    sortable_fields: ["date", "title"]
+    view_groups:
+      - label: زمرہ
+        field: category
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true }
+      - { label: "تفصیل (SEO)", name: description, widget: text, required: true, hint: "120-160 اردو حروف" }
+      - { label: "تاریخ", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "زمرہ", name: category, widget: string, default: "اے آئی اپڈیٹ" }
+      - { label: "ٹیگز", name: tags, widget: list, default: [], required: false }
+      - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/blog", public_folder: "/images/blog" }
+      - { label: "مصنف", name: author, widget: select, options: ["قیصر رونجھا", "معراج احمد", "اردو اے آئی ٹیم"], default: "اردو اے آئی ٹیم" }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "AI ٹولز", name: tools, widget: list, required: false, hint: "متعلقہ ٹولز کے نام انگریزی میں" }
+      - { label: "FAQ", name: faq, widget: list, required: false, collapsed: true, fields: [
+          { label: "سوال", name: question, widget: string },
+          { label: "جواب", name: answer, widget: text }
+        ]}
+      - { label: "آخری اپڈیٹ", name: last_updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: "مواد", name: body, widget: markdown }
+
+  # ============================================================
+  # Guides
+  # ============================================================
+  - name: guides
+    label: "گائیڈز"
+    label_singular: "گائیڈ"
+    folder: src/content/guides
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true }
+      - { label: "تفصیل (SEO)", name: description, widget: text, required: true }
+      - { label: "تاریخ", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "زمرہ", name: category, widget: string, default: "گائیڈ" }
+      - { label: "ٹول", name: tool, widget: string, required: false }
+      - { label: "سطح", name: level, widget: select, options: ["ابتدائی", "درمیانہ", "ماہر"], default: "ابتدائی" }
+      - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/guides", public_folder: "/images/guides" }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "AI ٹولز", name: tools, widget: list, required: false }
+      - { label: "آخری اپڈیٹ", name: last_updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: "مواد", name: body, widget: markdown }
+
+  # ============================================================
+  # How-To Tutorials
+  # ============================================================
+  - name: howto
+    label: "کیسے کریں"
+    label_singular: "ٹیوٹوریل"
+    folder: src/content/howto
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true }
+      - { label: "تفصیل (SEO)", name: description, widget: text, required: true }
+      - { label: "تاریخ", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "آخری تصدیق", name: last_verified, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "زمرہ", name: category, widget: string, default: "ہاؤ ٹو" }
+      - { label: "ٹول", name: tool, widget: string, required: false }
+      - { label: "مشکل", name: difficulty, widget: select, options: ["آسان", "درمیانہ", "مشکل"], default: "آسان" }
+      - { label: "درکار وقت", name: time_required, widget: string, required: false }
+      - { label: "اسکرین شاٹس", name: screenshots, widget: boolean, default: false }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "AI ٹولز", name: tools, widget: list, required: false }
+      - { label: "مواد", name: body, widget: markdown }
+
+  # ============================================================
+  # Prompts
+  # ============================================================
+  - name: prompts
+    label: "پرامٹس"
+    label_singular: "پرامٹ مجموعہ"
+    folder: src/content/prompts
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{prompt_count}} پرامٹس"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true }
+      - { label: "تفصیل (SEO)", name: description, widget: text, required: true }
+      - { label: "تاریخ", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "زمرہ", name: category, widget: string, default: "پرامٹس" }
+      - { label: "پیشہ", name: profession, widget: string, required: false }
+      - { label: "پرامٹس کی تعداد", name: prompt_count, widget: number, default: 0 }
+      - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/prompts", public_folder: "/images/prompts" }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "مواد", name: body, widget: markdown }
+
+  # ============================================================
+  # Learn (AI Dictionary)
+  # ============================================================
+  - name: learn
+    label: "لغت"
+    label_singular: "اصطلاح"
+    folder: src/content/learn
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} ({{term_english}})"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true, hint: "مثال: مشین لرننگ کیا ہے؟" }
+      - { label: "تفصیل (SEO)", name: description, widget: text, required: true }
+      - { label: "تاریخ", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "زمرہ", name: category, widget: string, default: "اردو اے آئی لغت" }
+      - { label: "انگریزی اصطلاح", name: term_english, widget: string, required: true }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "مواد", name: body, widget: markdown }
+
+  # ============================================================
+  # Courses
+  # ============================================================
+  - name: courses
+    label: "کورسز"
+    label_singular: "کورس"
+    folder: src/content/courses
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{level}}"
+    fields:
+      - { label: "عنوان", name: title, widget: string, required: true }
+      - { label: "تفصیل", name: description, widget: text, required: true }
+      - { label: "قیمت", name: price, widget: string, default: "مفت" }
+      - { label: "ماڈیولز", name: modules, widget: number, default: 0 }
+      - { label: "مدت", name: duration, widget: string, required: false }
+      - { label: "سطح", name: level, widget: select, options: ["ابتدائی", "درمیانہ", "ماہر"], default: "ابتدائی" }
+      - { label: "اشتہارات", name: adsense, widget: boolean, default: false }
+      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "مواد", name: body, widget: markdown }
