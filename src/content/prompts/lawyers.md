@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "وکیل"
 prompt_count: 10
+image: "/images/prompts/lawyers.png"
 adsense: true
 draft: false
 ---

@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "freelancers"
 prompt_count: 8
+image: "/images/prompts/freelancers.png"
 adsense: true
 draft: false
 ---

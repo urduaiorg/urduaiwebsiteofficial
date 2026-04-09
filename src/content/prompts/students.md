@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "students"
 prompt_count: 8
+image: "/images/prompts/students.png"
 adsense: true
 draft: false
 ---

@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "small-business"
 prompt_count: 8
+image: "/images/prompts/small-business.png"
 adsense: true
 draft: false
 ---

@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "ایچ آر مینیجر"
 prompt_count: 10
+image: "/images/prompts/hr-managers.png"
 adsense: true
 draft: false
 ---

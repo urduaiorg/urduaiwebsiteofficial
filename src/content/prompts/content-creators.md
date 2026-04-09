@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "content-creators"
 prompt_count: 8
+image: "/images/prompts/content-creators.png"
 adsense: true
 draft: false
 ---

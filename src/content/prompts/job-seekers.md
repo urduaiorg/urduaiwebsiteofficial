@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "job-seekers"
 prompt_count: 8
+image: "/images/prompts/job-seekers.png"
 adsense: true
 draft: false
 ---

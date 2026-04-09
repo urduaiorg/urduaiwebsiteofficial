@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "parents"
 prompt_count: 8
+image: "/images/prompts/parents.png"
 adsense: true
 draft: false
 ---

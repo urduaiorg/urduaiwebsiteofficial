@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "writers"
 prompt_count: 8
+image: "/images/prompts/writers.png"
 adsense: true
 draft: false
 ---

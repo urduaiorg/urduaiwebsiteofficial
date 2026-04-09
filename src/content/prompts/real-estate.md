@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "رئیل اسٹیٹ"
 prompt_count: 10
+image: "/images/prompts/real-estate.png"
 adsense: true
 draft: false
 ---

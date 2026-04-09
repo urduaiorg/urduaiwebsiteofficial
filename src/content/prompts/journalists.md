@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "صحافی"
 prompt_count: 10
+image: "/images/prompts/journalists.png"
 adsense: true
 draft: false
 ---

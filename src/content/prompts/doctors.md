@@ -5,6 +5,7 @@ date: 2026-04-04
 category: "پرامٹس"
 profession: "ڈاکٹر"
 prompt_count: 10
+image: "/images/prompts/doctors.png"
 adsense: true
 draft: false
 ---
