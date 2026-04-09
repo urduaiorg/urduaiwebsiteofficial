@@ -389,6 +389,12 @@ pre code {
   border-color: var(--teal-light);
 }
 
+.badge--gold {
+  background: var(--gold-pale);
+  color: var(--gold);
+  border-color: var(--gold-pale);
+}
+
 /* ============================================================
    Breadcrumb
    ============================================================ */

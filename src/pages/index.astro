@@ -13,6 +13,11 @@ const allGuides = await getCollection('guides', ({ data }) => !data.draft);
 const recentGuides = allGuides
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3);
+
+const allPrompts = await getCollection('prompts', ({ data }) => !data.draft);
+const recentPrompts = allPrompts
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -306,6 +311,44 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
       <p style="text-align:center; margin-block-start: var(--space-md);">
         <a href={`${base}/guides/`} style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
+      </p>
+    </section>
+  )}
+
+  <!-- ============================================================
+       PROMPTS SECTION
+       ============================================================ -->
+  {recentPrompts.length > 0 && (
+    <section class="container" style="margin-block-start: var(--space-2xl);">
+      <h2 class="section-heading">تازہ پرامٹس</h2>
+      <div class="post-grid">
+        {recentPrompts.map(prompt => (
+          <article class="card">
+            {prompt.data.image ? (
+              <img
+                src={`${base}${prompt.data.image}`}
+                alt={prompt.data.title}
+                width="400"
+                height="225"
+                loading="lazy"
+                style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
+              />
+            ) : (
+              <div class="card__image-placeholder">
+                <span>Urdu Ai</span>
+              </div>
+            )}
+            <p class="card__meta">
+              <span class="badge badge--gold">{prompt.data.prompt_count} پرامٹس</span>
+              {prompt.data.profession && <span style="margin-inline-start:0.5em">{prompt.data.profession}</span>}
+            </p>
+            <h3 class="card__title"><a href={`${base}/prompts/${prompt.id}/`}>{prompt.data.title}</a></h3>
+            <p class="card__excerpt">{prompt.data.description}</p>
+          </article>
+        ))}
+      </div>
+      <p style="text-align:center; margin-block-start: var(--space-md);">
+        <a href={`${base}/prompts/`} style="color:var(--teal); font-weight:600;">تمام پرامٹس ←</a>
       </p>
     </section>
   )}
