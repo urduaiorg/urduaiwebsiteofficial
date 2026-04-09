@@ -76,6 +76,7 @@ const prompts = defineCollection({
     category: z.string().default('پرامٹس'),
     profession: z.string().optional(),
     prompt_count: z.number().default(0),
+    image: z.string().optional(),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
   }),

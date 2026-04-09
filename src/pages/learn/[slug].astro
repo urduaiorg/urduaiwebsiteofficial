@@ -17,6 +17,11 @@ const { Content } = await render(entry);
 
 const canonical = `https://urduai.org/learn/${entry.id}/`;
 
+// Related terms — 4 random terms from the same collection, excluding current
+const allTerms = await getCollection('learn', ({ data }) => !data.draft);
+const otherTerms = allTerms.filter(t => t.id !== entry.id);
+const relatedTerms = otherTerms.sort(() => Math.random() - 0.5).slice(0, 4);
+
 const definedTermSchema = {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
@@ -64,5 +69,49 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <Content />
       </div>
     </article>
+
+    <!-- Related Terms -->
+    {relatedTerms.length > 0 && (
+      <section class="container--narrow" style="margin-block-start: var(--space-2xl); border-block-start: 2px solid var(--border); padding-block-start: var(--space-lg);">
+        <h2 style="font-size: 1.4rem;">مزید اصطلاحات سیکھیں</h2>
+        <div class="related-terms-grid">
+          {relatedTerms.map(term => (
+            <a href={`${base}/learn/${term.id}/`} class="related-term-card">
+              <span class="related-term-card__english">{term.data.term_english}</span>
+              <span class="related-term-card__title">{term.data.title}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Newsletter -->
+    <section class="container--narrow" style="margin-block-start: var(--space-xl); background: var(--ink); color: var(--paper); padding: var(--space-lg); border-radius: 12px; text-align: center;">
+      <h2 style="color: var(--gold-light); font-size: 1.3rem; margin-block-end: var(--space-xs);">ہر ہفتے نئی اصطلاحات سیکھیں</h2>
+      <p style="color: var(--gold-pale); margin-block-end: var(--space-md); font-size: 0.9rem;">
+        اردو اے آئی نیوز لیٹر — AI کی تازہ خبریں اور نئے الفاظ سیدھے آپ کی ای میل میں
+      </p>
+      <iframe
+        src="https://www.urduaiupdates.com/embed"
+        width="100%"
+        height="280"
+        style="border:1px solid rgba(255,255,255,0.1); background:white; border-radius:6px; max-width:420px;"
+        frameborder="0"
+        scrolling="no"
+        title="اردو اے آئی نیوز لیٹر"
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <!-- App CTA -->
+    <section class="container--narrow" style="margin-block-start: var(--space-lg); margin-block-end: var(--space-xl); text-align: center; padding: var(--space-md); background: var(--paper-warm); border-radius: 12px; border: 1px solid var(--border);">
+      <p style="font-size: 1rem; margin-block-end: var(--space-sm);">
+        اردو اے آئی لغت اور ہزاروں مضامین ایک ایپ میں پڑھیں
+      </p>
+      <a href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed&hl=en-US" target="_blank" rel="noopener" class="btn-playstore" style="display:inline-flex;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-inline-end:6px;"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
+        مفت ڈاؤن لوڈ کریں
+      </a>
+    </section>
   </div>
 </Base>
