@@ -134,6 +134,17 @@ RewriteRule ^wp-login\.php$ / [R=301,L]
 # RSS feed
 RewriteRule ^feed/?$ /rss.xml [R=301,L]
 
+# Old WordPress sitemaps → new Astro sitemap
+RewriteRule ^sitemap_index\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^sitemap\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^sitemap-1\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^post-sitemap\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^post_tag-sitemap.*\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^category-sitemap\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^news-sitemap\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^video-sitemap\.xml$ /sitemap-index.xml [R=301,L]
+RewriteRule ^image-sitemap.*\.xml$ /sitemap-index.xml [R=301,L]
+
 # WordPress category patterns
 RewriteRule ^category/blog/ /blog/ [R=301,L]
 RewriteRule ^category/videos/ /blog/ [R=301,L]
