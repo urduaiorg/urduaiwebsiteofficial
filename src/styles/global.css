@@ -664,6 +664,13 @@ blockquote strong {
   min-height: 250px;
 }
 
+/* Hide top banner ad on mobile — in-article ad is enough */
+@media (max-width: 768px) {
+  .ad-slot--desktop-only {
+    display: none;
+  }
+}
+
 /* ============================================================
    Article layout (2-column with sidebar)
    ============================================================ */

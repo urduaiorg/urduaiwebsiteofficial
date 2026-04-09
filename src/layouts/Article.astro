@@ -241,9 +241,9 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
     )}
   </div>
 
-  <!-- Top banner ad -->
+  <!-- Top banner ad — hidden on mobile, in-article ad serves that role -->
   {adsense && (
-    <div class="container ad-slot" aria-hidden="true">
+    <div class="container ad-slot ad-slot--desktop-only" aria-hidden="true">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8532451951782012"
