@@ -4,7 +4,7 @@ description: "ریڈ سی وی اور پرپلکسٹی: ایک نیا ڈیجیٹ
  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم بات کریں گے ایک بڑے ٹیکنالوجیکل اقدام کے بارے میں جو حال"
 date: 2025-01-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/red-cv-and-perplexity-a-new-digital-beginning.jpg"
 draft: false

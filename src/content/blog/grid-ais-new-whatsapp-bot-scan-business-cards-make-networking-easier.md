@@ -4,7 +4,7 @@ description: "گرِڈ اے آئی کا نیا واٹس ایپ بوٹ: وزٹ�
 date: 2025-06-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/grid-ais-new-whatsapp-bot-scan-business-cards-make-networking-easier.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

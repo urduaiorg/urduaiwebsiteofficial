@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "ChatGPT"
 level: "ابتدائی"
 image: "/images/guides/how-to-write-with-ai-urdu-ai-master-class-6.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

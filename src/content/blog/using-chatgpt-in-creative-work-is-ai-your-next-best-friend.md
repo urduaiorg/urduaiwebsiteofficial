@@ -3,7 +3,7 @@ title: "تخلیقی کاموں میں چیٹ جی پی ٹی کا استعمال
 description: "تخلیقی کاموں میں چیٹ جی پی ٹی کا استعمال کیا اے آئی آپ کا اگلا بہترین دوست ہے؟  اسلام وعلیکم دوستو! آج ہم ایک ایسے موضوع پر بات کرنے والے ہیں جو آپ کی تخلیقی کا"
 date: 2025-08-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/using-chatgpt-in-creative-work-is-ai-your-next-best-friend.jpg"
 draft: false

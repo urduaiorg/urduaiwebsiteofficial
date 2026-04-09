@@ -3,7 +3,7 @@ title: "کیا آپ اپنا خود کا اے آئی امیج جنریٹر بن�
 description: "کیا آپ اپنا خود کا اے آئی امیج جنریٹر بنانا چاہتے ہیں؟  ہیلو دوستوں! میں ہوں اردو اے آئی سے قیصر رونجھا، اور آج میں آپ کو ایک ایسا زبردست طریقہ بتانے والا ہوں ج"
 date: 2025-04-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-to-make-your-own-ai-image-generator.jpg"
 draft: false

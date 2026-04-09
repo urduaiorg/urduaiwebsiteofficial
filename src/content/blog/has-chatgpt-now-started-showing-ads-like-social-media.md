@@ -4,7 +4,7 @@ description: "کیا چیٹ جی پی ٹی اب سوشل میڈیا کی طرح 
 date: 2026-02-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/has-chatgpt-now-started-showing-ads-like-social-media.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

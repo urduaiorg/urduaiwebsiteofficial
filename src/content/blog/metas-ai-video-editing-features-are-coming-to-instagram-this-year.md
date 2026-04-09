@@ -4,7 +4,7 @@ description: "میٹا کی  اے آئی ویڈیو ایڈیٹنگ فیچرز �
 date: 2025-01-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/metas-ai-video-editing-features-are-coming-to-instagram-this-year.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

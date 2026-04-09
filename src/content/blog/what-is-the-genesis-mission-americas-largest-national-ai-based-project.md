@@ -3,7 +3,7 @@ title: "جینیسز مشن کیا ہے؟ امریکہ کا  اے آئی پر م
 description: "Genesis مشن کیا ہے؟ امریکہ کا AI پر مبنی سب سے بڑا قومی منصوبہ  18 دسمبر 2025 کو امریکہ کے محکمہ توانائی نے ایک اہم اعلان کیا جو ملک کے سائنسی، دفاعی اور توانائ"
 date: 2025-12-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-the-genesis-mission-americas-largest-national-ai-based-project.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "سب سے زیادہ انسانی آواز رکھنے والی مصنو�
 description: "سب سے زیادہ انسانی آواز رکھنے والی مصنوعی ذہانت - سی سیم  ہیلو دوستو! کیا آپ نے کبھی سوچا ہے کہ ایک مصنوعی ذہانت کس حد تک انسانی جذبات کا اظہار کر سکتی ہے؟ کیا"
 date: 2025-03-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/sesame-most-humanized-ai-voice.jpg"
 draft: false

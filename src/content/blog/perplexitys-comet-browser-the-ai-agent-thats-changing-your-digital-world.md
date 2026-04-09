@@ -3,7 +3,7 @@ title: "پرپلیکسٹی کا کومٹ براؤزر: اے آئی ایجنٹ ج
 description: "پرپلیکسٹی کا کومٹ براؤزر: اے آئی ایجنٹ جو آپ کی ڈیجیٹل دنیا کو بدل رہا ہے   ٹیکنالوجی کی دنیا میں اے آئی کی تیز رفتار ترقی نے ہمارے کام کرنے کے طریقوں اور سماجی"
 date: 2025-07-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/perplexitys-comet-browser-the-ai-agent-thats-changing-your-digital-world.jpg"
 draft: false

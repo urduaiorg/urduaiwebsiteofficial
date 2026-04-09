@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کے ساتھ تین سوالوں پر مبنی 
 description: "مصنوعی ذہانت کے ساتھ تین سوالوں پر مبنی پوڈکاسٹ آلیا عمران کے ساتھ  مصنوعی ذہانت  صرف ایک ٹیکنالوجی نہیں، بلکہ ایک انقلاب ہے جو تیزی سے ہماری روزمرہ زندگی کا حص"
 date: 2025-03-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-three-question-podcast-with-ai.jpg"
 draft: false

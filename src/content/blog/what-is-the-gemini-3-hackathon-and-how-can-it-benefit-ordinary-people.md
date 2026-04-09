@@ -4,7 +4,7 @@ description: "جیمنی ۳ ہیکاتھون کیا ہے اور اس سے عام
 date: 2026-01-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-the-gemini-3-hackathon-and-how-can-it-benefit-ordinary-people.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

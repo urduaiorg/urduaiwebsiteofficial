@@ -3,7 +3,7 @@ title: "کیا آپ کو گوگل وِڈز کا علم ہے؟ جانیں مکم�
 description: "کیا آپ کو گوگل وِڈز کا علم ہے؟ جانیں مکمل تفصیل  اکثر لوگ یوٹیوب یا سوشل میڈیا کے لیے ویڈیوز بنانا چاہتے ہیں لیکن یا تو انہیں ویڈیو ایڈیٹنگ نہیں آتی یا پھر پیچی"
 date: 2025-10-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/do-you-know-about-google-videos-learn-the-full-details.jpg"
 draft: false

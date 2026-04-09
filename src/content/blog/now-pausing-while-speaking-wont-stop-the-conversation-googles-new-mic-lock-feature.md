@@ -3,7 +3,7 @@ title: "اب بولتے وقت رکنے سے بات نہیں رُکے گی، گ�
 description: "اب بولتے وقت رکنے سے بات نہیں رُکے گی، گوگل کا نیا مائیک لاک فیچر  صارفین کی ایک عام شکایت یہ رہی ہے کہ جب وہ آواز کے ذریعے کمانڈ دیتے ہیں تو سوچنے کے لیے رکتے"
 date: 2025-11-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/now-pausing-while-speaking-wont-stop-the-conversation-googles-new-mic-lock-feature.jpg"
 draft: false

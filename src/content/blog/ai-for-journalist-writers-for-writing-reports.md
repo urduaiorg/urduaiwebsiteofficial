@@ -4,7 +4,7 @@ description: "صحافیوں اور مصنفین کے لیے مصنوعی ذہا
 date: 2025-03-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-for-journalist-writers-for-writing-reports.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

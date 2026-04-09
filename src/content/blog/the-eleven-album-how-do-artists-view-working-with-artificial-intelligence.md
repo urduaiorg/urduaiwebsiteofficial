@@ -4,7 +4,7 @@ description: "دی ایلیون البم : فنکار مصنوعی ذہانت ک
 date: 2026-01-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-eleven-album-how-do-artists-view-working-with-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

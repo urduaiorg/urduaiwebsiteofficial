@@ -3,7 +3,7 @@ title: "اے آئی دنیا بدل رہی ہے، اور آپ؟"
 description: "اے آئی دنیا بدل رہی ہے، اور آپ؟ دنیا ایک نئے دور میں داخل ہو رہی ہے!  دنیا ایک نئے دور میں داخل ہو چکی ہے، جہاں مصنوعی ذہانت (AI) ہماری زندگی کے ہر پہلو کو بدل"
 date: 2025-01-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ai-dunya-badal-rahi-hai-aur-aap.jpg"
 draft: false

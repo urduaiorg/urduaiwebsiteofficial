@@ -4,7 +4,7 @@ description: "ایم آئی ٹی چھوڑنے سے اربوں ڈالر کے ڈ�
 date: 2025-04-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-story-of-alexander-wang-the-king-of-billion-dollar-data-after-dropping-out-of-mit-2.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

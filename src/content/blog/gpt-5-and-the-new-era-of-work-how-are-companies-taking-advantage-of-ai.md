@@ -3,7 +3,7 @@ title: "جی پی ٹی-5 اور کام کا نیا دور: کمپنیاں کیس
 description: "جی پی ٹی-5 اور کام کا نیا دور: کمپنیاں کیسے اے آئی سے فائدہ اٹھا رہی ہیں؟  جی پی ٹی-5اور کام کا نیا دور  آج کی تیز رفتار دنیا میں جہاں ہر کاروبار کامیابی کی نئی"
 date: 2025-08-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/gpt-5-and-the-new-era-of-work-how-are-companies-taking-advantage-of-ai.jpg"
 draft: false

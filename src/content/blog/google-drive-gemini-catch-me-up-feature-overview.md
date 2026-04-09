@@ -4,7 +4,7 @@ description: "گوگل ڈرائیو میں جیمینی کی نئی سہولت�
 date: 2025-06-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-drive-gemini-catch-me-up-feature-overview.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

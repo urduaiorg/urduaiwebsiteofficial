@@ -4,7 +4,7 @@ description: "پاکستان میں اے آئی سے چلنے والا پہلا 
 date: 2025-07-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/pakistan-launches-first-ai-powered-cybersecurity-tool.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "سی ای ایس 2025: ٹیکنالوجی کی دنیا کا سب 
 date: 2025-01-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ces-2025-the-press-conferences.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

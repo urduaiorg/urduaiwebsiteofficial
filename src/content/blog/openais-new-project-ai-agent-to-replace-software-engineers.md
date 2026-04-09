@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا نیا منصوبہ: سافٹ ویئر �
  ٹیکنالوجی کی دنیا میں ایک نئی پیش رفت سامنے آئی ہے جہاں اوپن اے آئی (OpenAI) نے ایک"
 date: 2025-05-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/openais-new-project-ai-agent-to-replace-software-engineers.jpg"
 draft: false

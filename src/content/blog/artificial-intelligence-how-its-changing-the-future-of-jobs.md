@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت: ملازمتوں کا مستقبل کیسے ب�
 description: "مصنوعی ذہانت: ملازمتوں کا مستقبل کیسے بدل رہا ہے؟  السلام علیکم دوستوں!،  آج ہم بات کریں گے کہ مصنوعی ذہانت (AI) کس طرح سے ملازمتوں اور روزگار کے نظام کو مکمل ط"
 date: 2025-01-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/artificial-intelligence-how-its-changing-the-future-of-jobs.jpg"
 draft: false

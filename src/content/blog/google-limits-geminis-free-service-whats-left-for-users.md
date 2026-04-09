@@ -4,7 +4,7 @@ description: "گوگل نے جیمنی کی مفت سروس محدود کر دی
 date: 2025-12-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-limits-geminis-free-service-whats-left-for-users.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

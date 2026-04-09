@@ -3,7 +3,7 @@ title: "2025 میں مصنوعی ذہانت کہاں پہنچی؟ اُردو ا�
 description: "2025 میں مصنوعی ذہانت کہاں پہنچی؟ اُردو اے آئی کی ہفتہ وار رپورٹ  دنیا ایک ایسے موڑ پر کھڑی ہے جہاں ہر روز ایک نئی ٹیکنالوجی جنم لے رہی ہے۔ خاص طور پر مصنوعی ذہ"
 date: 2025-11-17
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/where-is-artificial-intelligence-in-2025-urdu-ai-weekly-report.jpg"
 draft: false

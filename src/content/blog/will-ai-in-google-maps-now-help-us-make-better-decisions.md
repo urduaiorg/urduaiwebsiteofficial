@@ -4,7 +4,7 @@ description: "کیا گوگل میپس میں اے آئی اب ہمیں بہتر
 date: 2026-03-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/will-ai-in-google-maps-now-help-us-make-better-decisions.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اردو اے آئی ماسٹر کلاس: آٹومیشن کی پہلی �
 description: "اردو اے آئی ماسٹر کلاس: آٹومیشن کی پہلی کلاس   اردو اے آئی ماسٹر کلاس آٹومیشن کی پہلی کلاس ، جہاں قیصر رونجھا نے سامعین کو خوش آمدید کہا اور واضح کیا کہ یہ کلاس"
 date: 2025-06-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-on-automation-class-1.jpg"
 draft: false

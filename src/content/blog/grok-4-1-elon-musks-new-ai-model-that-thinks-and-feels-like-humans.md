@@ -3,7 +3,7 @@ title: "Grok 4.1 ایلون مسک کا نیا اے آئی ماڈل جو انس�
 description: "Grok 4.1 ایلون مسک کا نیا اے آئی ماڈل جو انسانوں کی طرح سوچتا اورمحسوس کرتا ہے  کیا آپ نے کبھی سوچا ہے کہ ایک مشین آپ کے جذبات کو بالکل اسی طرح سمجھے جیسے کوئی"
 date: 2025-11-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/grok-4-1-elon-musks-new-ai-model-that-thinks-and-feels-like-humans.jpg"
 draft: false

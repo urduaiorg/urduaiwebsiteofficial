@@ -4,7 +4,7 @@ description: "مریخ پرمصنوعی ذہانت کا چار سو میٹر ک�
 date: 2026-02-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligences-four-hundred-meter-journey-on-mars.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

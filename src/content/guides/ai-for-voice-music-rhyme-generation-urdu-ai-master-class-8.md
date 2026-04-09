@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "ElevenLabs"
 level: "ابتدائی"
 image: "/images/guides/ai-for-voice-music-rhyme-generation-urdu-ai-master-class-8.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

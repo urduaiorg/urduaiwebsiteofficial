@@ -3,7 +3,7 @@ title: "گوگل جیمینائی سے چند لمحوں میں اپنا کسٹ�
 description: "گوگل جیمینائی سے چند لمحوں میں اپنا کسٹم ڈیش بورڈ بنائیں  جب بھی آپ نے کسی بینک، اسکول یا کرکٹ میچ کی معلومات دیکھی ہوں تو ممکن ہے کہ آپ نے ایک خاص قسم کی اسکری"
 date: 2025-12-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/make-custom-dashboards-with-google-gemini-in-seconds.jpg"
 draft: false

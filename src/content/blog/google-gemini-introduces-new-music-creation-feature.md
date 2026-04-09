@@ -4,7 +4,7 @@ description: "گوگل جیمنی نے موسیقی تخلیق کرنے کا ن�
 date: 2026-02-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-gemini-introduces-new-music-creation-feature.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اے آئی کی ہفتہ وار خبریں: گوگل، مائیکروس
 description: "اے آئی کی ہفتہ وار خبریں: گوگل، مائیکروسافٹ اور چیٹ جی پی ٹی میں کیا نیا ہے؟   السلام علیکم دوستو، میں آپ سب کا ہماری اردو اے آئی کی ہفتہ وار اپ ڈیٹس میں استقبا"
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-happening-in-ai-world-you-should-know.jpg"
 draft: false

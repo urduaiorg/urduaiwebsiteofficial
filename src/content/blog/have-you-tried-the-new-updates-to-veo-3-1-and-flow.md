@@ -3,7 +3,7 @@ title: "کیا آپ نے VEO 3.1اور Flow کی نئی اپ ڈیٹس آزمائ
 description: "کیا آپ نے VEO 3.1اور Flow کی نئی اپ ڈیٹس آزمائیں؟    ویڈیو تخلیق کاروں کے لیے سب سے بڑا چیلنج یہ ہوتا ہے کہ وہ اپنی فلم یا شاٹ کو بالکل ویسا بنا سکیں جیسا وہ اپ"
 date: 2025-10-20
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/have-you-tried-the-new-updates-to-veo-3-1-and-flow.jpg"
 draft: false

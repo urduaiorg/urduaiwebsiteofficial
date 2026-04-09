@@ -4,7 +4,7 @@ description: "گوگل نوٹ بُک ایل ایم: کیا اردو، سندھی
  مصنوعی ذہانت کی دنیا میں روز بروز تبدیلی آ رہی ہے اور گوگل کا 'نوٹ بُک ایل"
 date: 2025-05-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-notebook-lm-supports-urdu-sindhi-pashto-punjabi.jpg"
 draft: false

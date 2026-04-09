@@ -3,7 +3,7 @@ title: "کیا ڈگری اب کافی نہیں؟ سندر پچائی کا مشو
 description: "کیا ڈگری اب کافی نہیں؟ سندر پچائی کا مشورہ اور اے آئی کے دور میں کامیابی کا راز  مصنوعی ذہانت یعنی اے آئی اب ایک نظریہ نہیں بلکہ ایک حقیقت بن چکی ہے جو ہر گزرتے"
 date: 2025-12-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-a-degree-no-longer-enough-sundar-pichais-advice-and-the-secret-to-success-in-the-age-of-ai.jpg"
 draft: false

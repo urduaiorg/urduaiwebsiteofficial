@@ -3,7 +3,7 @@ title: "کیا آپ کے پاس آئیڈیا ہے؟ اب کینوا اسے حق�
 description: "کیا آپ کے پاس آئیڈیا ہے؟ اب کینوا اسے حقیقت میں بدل سکتا ہے  کینوا نے حال ہی میں ایک نئی اور جامع تخلیقی تبدیلی متعارف کرائی ہے جسے وہ 'کریئیٹو آپریٹنگ سسٹم' کہ"
 date: 2025-11-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/do-you-have-an-idea-now-canva-can-turn-it-into-reality.jpg"
 draft: false

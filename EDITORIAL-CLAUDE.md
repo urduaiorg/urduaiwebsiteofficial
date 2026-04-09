@@ -26,6 +26,19 @@ Every sentence you write is for this person. Not for Silicon Valley. Not for Eng
 
 ---
 
+## Author Policy
+
+Two author profiles exist on urduai.org:
+
+| Author | Urdu Name | When to Use |
+|--------|-----------|-------------|
+| Urdu Ai Team | اردو اے آئی ٹیم | Default for ALL articles unless told otherwise |
+| Mairaj Ahmed | معراج احمد | Only when specifically asked to credit Mairaj |
+
+**Qaisar Roonjha does not write articles.** He is the founder — never set him as article author. The default author for every new article is "اردو اے آئی ٹیم".
+
+---
+
 ## How Urdu and English Mix
 
 Technical terms stay in English. Don't transliterate what doesn't need transliterating.
@@ -263,7 +276,7 @@ description: ""        # 120-160 Urdu chars, adds info beyond title
 date: YYYY-MM-DD       # Publication date
 category: ""           # Match existing categories exactly
 image: ""              # /images/blog/slug.png — from cover generator
-author: "معراج احمد"   # Or "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"   # Default. Use "معراج احمد" only when specifically asked.
 adsense: true          # true for all content, false for courses
 draft: false           # true while writing, false to publish
 ---

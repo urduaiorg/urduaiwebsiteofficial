@@ -4,7 +4,7 @@ description: "گراک: ایلون مسک کا نیا پروجیکٹ اور اس
 date: 2025-01-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/grocc-elon-musks-new-project.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

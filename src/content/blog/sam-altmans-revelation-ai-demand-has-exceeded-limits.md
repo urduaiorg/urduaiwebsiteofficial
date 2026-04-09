@@ -4,7 +4,7 @@ description: "سیم آلٹمین کا انکشاف: اے آئی کی طلب ح�
 date: 2025-05-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/sam-altmans-revelation-ai-demand-has-exceeded-limits.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

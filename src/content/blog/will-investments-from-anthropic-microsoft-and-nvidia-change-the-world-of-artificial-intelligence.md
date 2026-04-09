@@ -3,7 +3,7 @@ title: "کیا اینتھراپِک، مائیکروسافٹ اور این وی�
 description: "کیا اینتھراپِک، مائیکروسافٹ اور این ویڈیا کی سرمایہ کاری مصنوعی ذہانت کی دنیا کو بدل دے گی؟ تین بڑی ٹیکنالوجی کمپنیاں جب کسی ایک مقصد کے لیے اکٹھی ہوتی ہیں، تو"
 date: 2025-11-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-investments-from-anthropic-microsoft-and-nvidia-change-the-world-of-artificial-intelligence.jpg"
 draft: false

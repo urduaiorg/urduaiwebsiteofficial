@@ -4,7 +4,7 @@ description: "بھارت میں اے آئی    اور کلاؤڈ انفراس�
 date: 2025-01-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-invests-3-billion-in-ai-and-cloud-infrastructure-in-india.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

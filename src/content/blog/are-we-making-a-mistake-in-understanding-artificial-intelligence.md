@@ -3,7 +3,7 @@ title: "کیا ہم مصنوعی ذہانت کو سمجھنے میں غلطی ک
 description: "کیا ہم مصنوعی ذہانت کو سمجھنے میں غلطی کر رہے ہیں؟  کیا واقعی مصنوعی ذہانت وہی ہے جو ہم سمجھتے ہیں؟ کیا کمپیوٹر کی ذہانت انسانوں سے الگ اور کم تر ہے؟ گوگل کے مح"
 date: 2025-10-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/are-we-making-a-mistake-in-understanding-artificial-intelligence.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "ڈیپ سیک نے اے آئی  کی دنیا بدل دی   ال
 date: 2025-01-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/deepseek-changing-ai-world.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

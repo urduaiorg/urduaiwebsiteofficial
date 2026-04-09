@@ -3,7 +3,7 @@ title: "پرپلکسیٹی اب وی ایس کوڈ میں: ایک ہی جگہ پ
 description: "پرپلکسیٹی اب وی ایس کوڈ میں: ایک ہی جگہ پر تحقیق، دلیل اور ترقیاتی کوڈ  دنیا بھر کے ڈویلپرز کے لیے اب ایک بڑی آسانی میسر آ گئی ہے، کیونکہ پرپلکسی جیسا تحقیقاتی"
 date: 2025-05-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/perplexity-now-in-vs-code-research-reasoning-and-development-code-in-one-place.jpg"
 draft: false

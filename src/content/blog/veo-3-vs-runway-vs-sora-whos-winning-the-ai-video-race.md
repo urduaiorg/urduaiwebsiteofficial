@@ -5,7 +5,7 @@ description: "Veo 3 vs Runway vs Sora : اے آئی ویڈیو کی دوڑ می
 date: 2025-05-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/veo-3-vs-runway-vs-sora-whos-winning-the-ai-video-race.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

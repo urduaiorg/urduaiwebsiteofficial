@@ -4,7 +4,7 @@ description: "سوفٹ بینک کی اوپن اے آئی میں تاریخی س
 date: 2026-01-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/softbanks-historic-investment-in-openai-completes-what-are-the-details-of-the-deal-and-future-goals.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "ایلون مسک کی کمپنی ایکس اے آئی کا نیا شا�
 description: "ایلون مسک کی کمپنی ایکس اے آئی کا نیا شاہکار: گراک ٣  کا باضابطہ لانچ!  ہیلو دوستو! کیا آپ نے کبھی سوچا ہے کہ مصنوعی ذہانت اے آئی کس رفتار سے ترقی کر رہی ہے؟ اگ"
 date: 2025-02-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/musks-xai-releases-artificial-intelligence-model-grok-3.jpg"
 draft: false

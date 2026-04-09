@@ -4,7 +4,7 @@ description: "کیا اے آئی جنگی کارروائیوں میں استعم
 date: 2026-03-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-ai-being-used-in-war.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

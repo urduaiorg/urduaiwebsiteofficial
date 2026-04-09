@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کا خود کو کلون کرنے کی ص
 date: 2025-02-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/revealing-the-ability-of-artificial-intelligence-to-clone-itself.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

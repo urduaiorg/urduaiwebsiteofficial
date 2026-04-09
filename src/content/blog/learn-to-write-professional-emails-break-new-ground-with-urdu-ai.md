@@ -3,7 +3,7 @@ title: "پروفیشنل ای میل لکھنا سیکھیں: اردو اے آئ
 description: "پروفیشنل ای میل لکھنا سیکھیں: اردو اے آئی کے ساتھ نئی راہیں کھولیں  مصنوعی ذہانت (AI) کے اس دور میں جہاں ہر مہارت خودکار نظام سے جُڑ رہی ہے۔ وہاں ایک مؤثر اور پ"
 date: 2025-07-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/learn-to-write-professional-emails-break-new-ground-with-urdu-ai.jpg"
 draft: false

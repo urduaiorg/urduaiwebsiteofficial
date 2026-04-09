@@ -3,7 +3,7 @@ title: "کوپائلٹ نے وائس اور تھنک ڈیپر تک مفت، 
 description: "‎ کوپائلٹ نے وائس اور تھنک ڈیپرتک مفت، لامحدود رسائی دے دی!  ‎کوپائلٹ نے دو سال پہلے ایک ایسے AI اسسٹنٹ کے طور پر آغاز کیا تھا جو لوگوں کو علم تک رسائی دی"
 date: 2025-02-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/copilot-gives-you-free-unlimited-access-to-voice-and-thinkdeep.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "کیا نوٹ بک ایل ایم کے ویڈیو اوورویوز واق
 description: "کیا نوٹ بک ایل ایم کے ویڈیو اوورویوز واقعی 80 سے زائد زبانوں میں دستیاب ہیں؟  گوگل نے اپنے نوٹ بک ایل ایم میں نئی خصوصیات متعارف کرائی ہیں جن میں سب سے نمایاں ہ"
 date: 2025-09-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/are-notebook-lms-video-overviews-really-available-in-over-80-languages.jpg"
 draft: false

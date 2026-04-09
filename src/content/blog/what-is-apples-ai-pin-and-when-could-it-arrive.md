@@ -4,7 +4,7 @@ description: "ایپل کا اے آئی پن کیا ہے اور یہ کب متع
 date: 2026-01-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-apples-ai-pin-and-when-could-it-arrive.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "کیا اب جیمینی سے اے آئی تصاویر کو پہچانن
 description: "کیا اب جیمینی سے اے آئی تصاویر کو پہچاننا آسان ہو گیا ہے؟  آج کل انٹرنیٹ پر تصاویر دیکھتے ہوئے اکثر دل میں یہ سوال ضرور اُبھرتا ہے کہ آیا یہ تصویر اصلی ہے یا ک"
 date: 2025-11-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-it-now-easier-for-ai-to-recognize-images-from-gemini.jpg"
 draft: false

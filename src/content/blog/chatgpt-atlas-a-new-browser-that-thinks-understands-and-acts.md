@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی ایٹلس: ایک نیا براؤزر جو 
 date: 2025-10-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-atlas-a-new-browser-that-thinks-understands-and-acts.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

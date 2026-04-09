@@ -4,7 +4,7 @@ description: "جیمنائی ایپ میں اب امیج ایڈیٹنگ کا ن�
 date: 2025-08-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/a-new-era-of-image-editing-is-now-in-the-gemini-app-what-wonders-is-nano-making-showing.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

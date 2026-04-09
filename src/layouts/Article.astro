@@ -30,7 +30,7 @@ const {
   title,
   description,
   date,
-  author = 'قیصر رونجھا',
+  author = 'اردو اے آئی ٹیم',
   category,
   tags = [],
   image,
@@ -44,7 +44,7 @@ const {
 
 // Author bios — keyed by name
 const authorBios: Record<string, string> = {
-  'قیصر رونجھا': 'بانی، اردو اے آئی — پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم۔',
+  'اردو اے آئی ٹیم': 'اردو اے آئی کی ایڈیٹوریل ٹیم — پاکستان کا سب سے بڑا اردو زبان میں اے آئی خواندگی پلیٹ فارم۔',
   'معراج احمد': 'Urdu Ai کے کنٹینٹ لیڈ ہیں اور اے آئی ٹیکنالوجی پر گہری نظر رکھتے ہیں۔ اس وقت وہ لسبیلہ یونیورسٹی میں آئی ٹی کے طالبعلم ہیں۔',
 };
 const authorBio = authorBios[author] ?? '';
@@ -87,10 +87,14 @@ const articleSchema = {
     "articleSection": "اے آئی اپڈیٹ",
     "dateline": "پاکستان",
   } : {}),
-  "author": {
+  "author": author === 'اردو اے آئی ٹیم' ? {
+    "@type": "Organization",
+    "name": "اردو اے آئی",
+    "url": "https://urduai.org",
+  } : {
     "@type": "Person",
     "name": author,
-    "url": "https://urduai.org/author/qaisar-roonjha/",
+    "url": author === 'معراج احمد' ? "https://urduai.org/author/mairaj-ahmed/" : "https://urduai.org/about/",
   },
   "publisher": {
     "@type": "Organization",

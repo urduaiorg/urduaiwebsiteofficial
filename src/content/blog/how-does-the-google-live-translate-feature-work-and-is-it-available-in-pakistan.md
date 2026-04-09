@@ -3,7 +3,7 @@ title: "گوگل لائیو ٹرانسلیٹ فیچر کیسے کام کرتا �
 description: "گوگل لائیو ٹرانسلیٹ فیچر کیسے کام کرتا ہے اور کیا پاکستان میں دستیاب ہے؟  اگر آپ کبھی ایسی جگہ ہوں جہاں سامنے والا کوئی ایسی زبان بول رہا ہو جو آپ کو سمجھ نہیں"
 date: 2025-12-17
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-the-google-live-translate-feature-work-and-is-it-available-in-pakistan.jpg"
 draft: false

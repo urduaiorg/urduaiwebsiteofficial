@@ -4,7 +4,7 @@ description: "اے آئی  ہمیں قریب لا رہا ہے یا دور؟ hum
 date: 2026-01-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-ai-bringing-us-closer-or-further-away-what-does-it-say-about-humans.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

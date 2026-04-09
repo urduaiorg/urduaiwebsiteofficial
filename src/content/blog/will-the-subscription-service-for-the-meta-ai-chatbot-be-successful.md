@@ -3,7 +3,7 @@ title: "کیا میٹا آئی چیٹ بوٹ کے لیے سبسکرپشن سرو
 description: "کیا میٹا اے آئی چیٹ بوٹ کے لیے سبسکرپشن سروس کامیاب ہوگی؟  ہیلو دوستوں!  میٹا (Meta) کی تازہ ترین حکمت عملی پر، جو  اے آئی  کی دنیا میں ایک نیا موڑ لے سکتی ہے۔"
 date: 2025-03-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-the-subscription-service-for-the-meta-ai-chatbot-be-successful.jpg"
 draft: false

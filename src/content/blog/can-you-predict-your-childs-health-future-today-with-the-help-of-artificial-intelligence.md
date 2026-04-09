@@ -3,7 +3,7 @@ title: "کیا مصنوعی ذہانت کی مدد سے آپ اپنے بچے ک�
 description: "کیا مصنوعی ذہانت کی مدد سے آپ اپنے بچے کی صحت کا مستقبل آج ہی جان سکتے ہیں؟  جب آپ اپنے بچے کے مستقبل کے بارے میں سوچتے ہیں، تو دل چاہتا ہے کہ وہ ایک لمبی، صحت"
 date: 2025-10-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/can-you-predict-your-childs-health-future-today-with-the-help-of-artificial-intelligence.jpg"
 draft: false

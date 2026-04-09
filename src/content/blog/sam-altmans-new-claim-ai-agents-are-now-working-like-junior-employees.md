@@ -4,7 +4,7 @@ description: "سیم آلٹمین کا نیا دعویٰ:AI agentsاب جونی�
 date: 2025-06-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/sam-altmans-new-claim-ai-agents-are-now-working-like-junior-employees.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

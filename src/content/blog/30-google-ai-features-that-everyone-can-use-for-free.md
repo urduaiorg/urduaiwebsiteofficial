@@ -3,7 +3,7 @@ title: "گوگل کی 30 اے آئی خصوصیات جو ہر شخص مفت می
 description: "گوگل کی 30 اے آئی خصوصیات جو ہر شخص مفت میں استعمال کر سکتا ہے  اگر آپ ایک طالب علم ہیں، ایک دفتری ملازم، گھریلو خاتون، یا اپنا کوئی چھوٹا کاروبار چلا رہے ہیں"
 date: 2025-11-17
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/30-google-ai-features-that-everyone-can-use-for-free.jpg"
 draft: false

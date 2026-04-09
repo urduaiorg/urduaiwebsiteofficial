@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت میں 500 ارب ڈالر کی سرمای
 date: 2025-01-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/trump-highlights-partnership-investing-500-billion-in-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

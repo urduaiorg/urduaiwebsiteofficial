@@ -4,7 +4,7 @@ description: "گوگل کی نئی پالیسی:اے آئی، ہتھیار او�
 date: 2025-02-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-policy-ai-weapons-and-surveillance-a-new-twist.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

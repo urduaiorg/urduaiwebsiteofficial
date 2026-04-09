@@ -3,7 +3,7 @@ title: "کیا پاکستان کا نیا نیشنل سپر ایپ عوام کو
 description: "کیا پاکستان کا نیا نیشنل سپر ایپ عوام کو مصنوعی ذہانت سے چلنے والی سرکاری خدمات دے گا؟  کیا آپ نے کبھی سوچا ہے کہ ڈرائیونگ لائسنس رینیو کروانا، ٹیکس فائل کرنا ی"
 date: 2025-09-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 image: "/images/blog/will-pakistans-new-national-super-app-provide-artificial-intelligence-powered-government-services-to-the-public.jpg"
 adsense: true
 draft: false

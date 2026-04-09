@@ -4,7 +4,7 @@ description: "ایجنٹک اے آئی منصوبے ناکامی کی دہلیز
 date: 2025-07-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/agentic-ai-projects-on-the-verge-of-failure-gartners-alarming-prediction.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

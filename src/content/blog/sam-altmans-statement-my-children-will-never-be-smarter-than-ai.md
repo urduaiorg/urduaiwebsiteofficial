@@ -4,7 +4,7 @@ description: "سیم آلٹمین کا بیان میرے بچے کبھی اے �
 date: 2025-07-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/sam-altmans-statement-my-children-will-never-be-smarter-than-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

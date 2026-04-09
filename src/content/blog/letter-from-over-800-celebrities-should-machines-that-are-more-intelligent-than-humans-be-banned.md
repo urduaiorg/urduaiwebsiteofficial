@@ -3,7 +3,7 @@ title: "آٹھ سو سے زائد معروف شخصیات کا خط: کیا ان
 description: "آٹھ سو سے زائد معروف شخصیات کا خط: کیا انسانوں سے زیادہ ذہین مشینوں پر پابندی لگنی چاہیے؟ جب دنیا کی معیشت، سیاست اور معاشرت پہلے ہی بے شمار چیلنجز کا سامنا کر"
 date: 2025-10-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/letter-from-over-800-celebrities-should-machines-that-are-more-intelligent-than-humans-be-banned.jpg"
 draft: false

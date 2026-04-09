@@ -4,7 +4,7 @@ description: "میٹا کا 65 ارب ڈالر کا اے آئی منصوبہ م�
 date: 2025-02-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/meta-to-spend-up-to-65-billion-this-year-to-power-ai-goals.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

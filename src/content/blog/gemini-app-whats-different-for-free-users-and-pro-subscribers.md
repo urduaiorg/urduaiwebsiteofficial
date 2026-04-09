@@ -4,7 +4,7 @@ description: "جیمینی ایپ: فری صارفین اور پرو سبسکر�
 date: 2025-06-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-app-whats-different-for-free-users-and-pro-subscribers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "جیمنائی میں اب ٹیمپرری چیٹس اور ڈیٹا
 date: 2025-08-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-now-has-new-features-for-temporary-chats-and-data-control.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی امیجز 1.5 کیسے کام کرتا ہے او�
 description: "چیٹ جی پی ٹی امیجز 1.5 کیسے کام کرتا ہے اور عام لوگ اسے کیسے استعمال کر سکتے ہیں؟  کچھ عرصہ پہلے تک جب بھی کسی کو تصویر بنوانی ہوتی تھی یا کسی تصویر میں ترمیم ک"
 date: 2025-12-18
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-chatgpt-images-1-5-work-and-how-can-ordinary-people-use-it.jpg"
 draft: false

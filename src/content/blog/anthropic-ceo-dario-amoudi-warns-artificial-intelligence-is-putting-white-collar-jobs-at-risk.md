@@ -5,7 +5,7 @@ description: "اینتھراپک کے سربراہ  داریو امودی کی 
 date: 2025-06-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/anthropic-ceo-dario-amoudi-warns-artificial-intelligence-is-putting-white-collar-jobs-at-risk.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

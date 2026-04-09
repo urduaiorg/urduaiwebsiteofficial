@@ -3,7 +3,7 @@ title: "گوگل اے آئی اسٹوڈیو: نیٹو وائس جنریشن کا
 description: "گوگل اے آئی اسٹوڈیو: نیٹو وائس جنریشن کا مکمل تعارف  جب  اے آئی بولنے لگا: گوگل اے آئی اسٹوڈیو کی آواز تخلیق کی حیران کن صلاحیتیں  اگر آپ ایک یوٹیوبر، ایجوکیٹر"
 date: 2025-06-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-ai-studio-native-voice-generation-explained.jpg"
 draft: false

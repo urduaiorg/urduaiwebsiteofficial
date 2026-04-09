@@ -5,7 +5,7 @@ description: "اے آئی کی عالمی دوڑ: پاکستان کہاں کھڑ
  کراچی کا رہائشی ریحان، جو 28 سالہ سافٹ ویئر انجینئر ہے، ہر صبح دفتر جاتے ہوئے کریم کی گاڑی کا انتظار ک"
 date: 2025-05-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-global-race-for-ai-where-does-pakistan-stand.jpg"
 draft: false

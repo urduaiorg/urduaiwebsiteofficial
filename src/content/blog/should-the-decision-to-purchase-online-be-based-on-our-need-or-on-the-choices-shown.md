@@ -3,7 +3,7 @@ title: "کیا آن لائن خریداری کا فیصلہ ہماری ضرور�
 description: "کیا آن لائن خریداری کا فیصلہ ہماری ضرورت پر ہونا چاہیے یا دکھائے گئے انتخاب پر؟  ٹیکنالوجی کا مقصد ہمیشہ ہماری زندگی کو بہتر اور آسان بنانا رہا ہے۔ جدت وہ عمل ہ"
 date: 2025-11-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/should-the-decision-to-purchase-online-be-based-on-our-need-or-on-the-choices-shown.jpg"
 draft: false

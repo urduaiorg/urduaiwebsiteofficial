@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی میں گروپ چیٹ کا فیچر کیسے کا
 description: "چیٹ جی پی ٹی میں گروپ چیٹ کا فیچر کیسے کام کرتا ہے؟ مکمل تفصیل  اگر آپ دفتر کے منصوبے، فیملی ڈنر یا دوستوں کے ساتھ ویک اینڈ ٹرپ کی تیاری کر رہے ہیں تو اب آپ کو"
 date: 2025-11-18
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-the-group-chat-feature-work-in-chatgpt-full-description.jpg"
 draft: false

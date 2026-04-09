@@ -4,7 +4,7 @@ description: "کیا اے آئی انسانوں سے زیادہ طاقتور ہ�
 date: 2025-05-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/will-ai-become-more-powerful-than-humans-geoffrey-hintons-concern.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

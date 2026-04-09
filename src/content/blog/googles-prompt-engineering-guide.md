@@ -4,7 +4,7 @@ description: "گوگل کی نئی پرومپٹ انجینئرنگ گائیڈ: �
  مصنوعی ذہانت کے بڑھتے ہوئے استعمال نے یہ سوال عام کر دیا ہے کہ آخر ہم اس جدید ٹیکنالوجی سے بہ"
 date: 2025-04-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/googles-prompt-engineering-guide.jpg"
 draft: false

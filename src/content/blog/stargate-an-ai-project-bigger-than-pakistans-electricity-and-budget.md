@@ -4,7 +4,7 @@ description: "دنیا کا سب سے بڑا اے آئی منصوبہ: اسٹا�
 date: 2025-07-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/stargate-an-ai-project-bigger-than-pakistans-electricity-and-budget.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

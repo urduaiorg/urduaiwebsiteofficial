@@ -3,7 +3,7 @@ title: "روبوٹ کے لیے انسانوں کی طرح پلک جھپکنا ا
 description: "مشین لرننگ الگورتھم۔ مشین لرننگ الگورتھم نے ایک کمپاؤنڈ کی نشاندہی کی جو Acinetobacter baumannii کو مار ڈالتا ہے۔ ایک ایسا جراثیم جو ہسپتال کی بہت سی ترتیبات م"
 date: 2023-05-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 image: "/images/blog/post-208.jpg"

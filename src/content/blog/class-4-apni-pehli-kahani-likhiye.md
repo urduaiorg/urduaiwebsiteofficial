@@ -3,7 +3,7 @@ title: "اردو اے آئی کلاس 4: اپنی پہلی کہانی کیسے �
 description: "اردو اے آئی کلاس 4: اپنی پہلی کہانی کیسے لکھی جائے؟   اردو اے آئی کی ماسٹر کلاس کے چوتھے سبق میں بچوں کو نہ صرف کہانی لکھنے کی تکنیک سکھائی گئی بلکہ انہیں ایک د"
 date: 2025-07-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/class-4-apni-pehli-kahani-likhiye.jpg"
 draft: false

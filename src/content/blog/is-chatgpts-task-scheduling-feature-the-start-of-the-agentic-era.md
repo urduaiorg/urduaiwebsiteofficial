@@ -4,7 +4,7 @@ description: "کیا چیٹ جی پی ٹی کی 'ٹاسک شیڈولنگ' فیچ
 date: 2025-01-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-chatgpts-task-scheduling-feature-the-start-of-the-agentic-era.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

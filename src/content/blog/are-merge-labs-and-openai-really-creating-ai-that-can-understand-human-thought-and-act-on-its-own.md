@@ -4,7 +4,7 @@ description: "کیا مرج لیبز اور اوپن اے آئی واقعی ای
 date: 2026-01-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/are-merge-labs-and-openai-really-creating-ai-that-can-understand-human-thought-and-act-on-its-own.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

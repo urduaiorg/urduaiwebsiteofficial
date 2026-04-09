@@ -4,7 +4,7 @@ description: "گوگل کا چھوٹا مگر طاقتور ماڈل جو مصن�
 date: 2025-08-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-small-but-powerful-model-that-is-changing-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "گوگل کا نوٹ بُک ایل ایم اپ گریڈ: کیا ی
 date: 2025-06-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-notebook-lm-upgrade-is-it-better-than-chat-gpt-for-teamwork.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

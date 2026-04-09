@@ -4,7 +4,7 @@ description: "اے آئی اور کاپی رائٹ: تخلیق یا ملکیت؟
 date: 2025-02-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-and-copyright-creation-or-ownership.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اگر آپ جی پی ٹی 5.2 استعمال نہیں کر رہے تو 
 description: "اگر آپ جی پی ٹی 5.2 استعمال نہیں کر رہے تو یہ 14 فیچرز آپ مس کر رہے ہیں   اگر آپ دفتر میں کام کرنے والے ایک ایسے مصروف انسان ہیں جو روزانہ کمپیوٹر پر رپورٹس تیا"
 date: 2025-12-14
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/if-youre-not-using-gpt-5-2-youre-missing-these-14-features.jpg"
 draft: false

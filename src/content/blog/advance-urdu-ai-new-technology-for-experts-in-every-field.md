@@ -3,7 +3,7 @@ title: "ایڈوانس اردو اے آئی - ہر میدان کے ماہرین 
 description: "ایڈوانس اردو اے آئی - ہر میدان کے ماہرین کے لیے نئی ٹیکنالوجی السلام علیکم دوستو! آج آپ سے کچھ خاص بات کرنے آیا ہوں۔ پچھلے دو سالوں میں، میں نے اپنی ویڈیوز، گا"
 date: 2024-12-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/advance-urdu-ai-new-technology-for-experts-in-every-field.jpg"
 draft: false

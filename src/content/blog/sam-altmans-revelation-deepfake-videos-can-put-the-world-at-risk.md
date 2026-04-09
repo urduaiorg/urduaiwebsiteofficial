@@ -3,7 +3,7 @@ title: "سیم آلٹمین کا انکشاف: ڈیپ فیک ویڈیوز دنی
 description: "سیم آلٹمین کا انکشاف: ڈیپ فیک ویڈیوز دنیا کو خطرے میں ڈال سکتی ہیں  سورا 2 نامی ویڈیو ایپ نے جہاں شہرت حاصل کی، وہیں جعلی اور نفرت انگیز ویڈیوز کے پھیلاؤ نے دنی"
 date: 2025-10-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/sam-altmans-revelation-deepfake-videos-can-put-the-world-at-risk.jpg"
 draft: false

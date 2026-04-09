@@ -3,7 +3,7 @@ title: "کیا چھوٹے کاروبار بھی اب مصنوعی ذہانت ک�
 description: "کیا چھوٹے کاروبار بھی اب مصنوعی ذہانت کے ذریعے ترقی کر سکتے ہیں؟  چھوٹے کاروبار کسی بھی معیشت کی ریڑھ کی ہڈی سمجھے جاتے ہیں۔ یہی وہ ادارے ہوتے ہیں جو مقامی سطح"
 date: 2025-11-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/can-small-businesses-also-now-thrive-through-artificial-intelligence.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "کیا سورا واقعی ناکام ہو گیا؟ اوپن اے 
 date: 2026-03-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/did-sora-really-fail.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

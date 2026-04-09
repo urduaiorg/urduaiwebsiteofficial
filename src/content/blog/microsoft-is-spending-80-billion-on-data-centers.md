@@ -4,7 +4,7 @@ description: "مائیکروسافٹ کا بڑا قدم: 2025 میں ڈیٹا س
 date: 2025-01-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-is-spending-80-billion-on-data-centers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

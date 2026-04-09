@@ -4,7 +4,7 @@ description: "گوگل سرچ کا نیا فیچر:اے آئی کے ساتھ س�
 date: 2025-07-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-google-search-feature-answering-questions-with-ai-is-now-easier-than-ever.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

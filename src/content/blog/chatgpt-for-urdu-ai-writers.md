@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی تخلیق کاروں کے لیے   کیا 
 date: 2025-02-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-for-urdu-ai-writers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

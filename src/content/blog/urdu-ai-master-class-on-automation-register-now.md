@@ -3,7 +3,7 @@ title: "اُردو اے آئی ماسٹر کلاس آن آٹومیشن ابھی 
 description: "اُردو اے آئی ماسٹر کلاس آن آٹومیشن ابھی رجسٹریشن کریں آٹومیشن سے مراد صرف روبوٹ نہیں، بلکہ آپ کی روزمرہ زندگی کا ڈیجیٹل اسسٹنٹ گزشتہ چند روز میں اردو اے آئی ماس"
 date: 2025-05-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-on-automation-register-now.jpg"
 draft: false

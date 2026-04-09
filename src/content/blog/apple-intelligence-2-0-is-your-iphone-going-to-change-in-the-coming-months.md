@@ -4,7 +4,7 @@ description: "ایپل انٹیلیجنس 2.0: کیا آنے والے مہینو
 date: 2025-05-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/apple-intelligence-2-0-is-your-iphone-going-to-change-in-the-coming-months.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

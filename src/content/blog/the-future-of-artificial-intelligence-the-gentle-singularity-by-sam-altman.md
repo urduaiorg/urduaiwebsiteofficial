@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کا مستقبل: سیم آلٹمین ک�
 date: 2025-06-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-future-of-artificial-intelligence-the-gentle-singularity-by-sam-altman.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

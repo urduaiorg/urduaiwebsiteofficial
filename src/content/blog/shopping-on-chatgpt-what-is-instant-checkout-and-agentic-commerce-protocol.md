@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی پر خریداری: انسٹنٹ چیک آؤٹ ا
 description: "چیٹ جی پی ٹی پر خریداری: انسٹنٹ چیک آؤٹ اور ایجنٹک کامرس پروٹوکول کیا ہے؟  ہر ہفتے دنیا بھر سے 70 کروڑ سے زیادہ لوگ چیٹ جی پی ٹی استعمال کرتے ہیں۔ یہ لوگ روزمرہ"
 date: 2025-10-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/shopping-on-chatgpt-what-is-instant-checkout-and-agentic-commerce-protocol.jpg"
 draft: false

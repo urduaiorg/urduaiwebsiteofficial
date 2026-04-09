@@ -4,7 +4,7 @@ description: "اے آئی ویڈیو سرچ: آپ کے سیکیورٹی کیمر
 date: 2025-03-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-video-search-at-your-fingertips-is-your-privacy-protected.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

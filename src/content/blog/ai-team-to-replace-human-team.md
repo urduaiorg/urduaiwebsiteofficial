@@ -4,7 +4,7 @@ description: "انسانی ٹیم کی جگہ اے آئی ٹیم؟؟  دنیا �
 date: 2026-01-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-team-to-replace-human-team.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

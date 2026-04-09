@@ -4,7 +4,7 @@ description: "گوگل وی ای او 3  کیا ہے اردو میں مکمل �
  گوگل کی جانب سے جاری کردہ نیا ویڈیو جنریشن ماڈل وی ای او 3 آرٹیفیشل انٹیلیجنس کی دنیا میں ایک نی"
 date: 2025-05-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-veo-3-explained-with-demos-in-urdu.jpg"
 draft: false

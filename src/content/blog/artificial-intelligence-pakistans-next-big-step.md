@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت: پاکستان کا اگلا بڑا قد�
 date: 2025-08-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligence-pakistans-next-big-step.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

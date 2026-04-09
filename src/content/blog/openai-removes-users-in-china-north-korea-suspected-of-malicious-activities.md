@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا بڑا اقدام: چین اور شما�
 date: 2025-03-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-removes-users-in-china-north-korea-suspected-of-malicious-activities.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

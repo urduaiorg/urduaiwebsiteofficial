@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کا نیا ٹول پریزم کیا ہے  �
 date: 2026-02-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-chatgpts-new-tool-prism.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

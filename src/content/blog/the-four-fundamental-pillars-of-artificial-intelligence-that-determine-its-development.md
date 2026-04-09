@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کی بنیادیں اور وہ چار ستون 
 description: "مصنوعی ذہانت اور عالمی ترقی: ایک عالمی رپورٹ کا تجزیہ  حصہ دوم  یہ مضمون مصنوعی ذہانت پر مبنی عالمی بینک (World Bank) کی ایک رپورٹ کے تفصیلی تجزیے پر مشتمل تین"
 date: 2025-12-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-four-fundamental-pillars-of-artificial-intelligence-that-determine-its-development.jpg"
 draft: false

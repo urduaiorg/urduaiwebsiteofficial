@@ -4,7 +4,7 @@ description: "اے آئی سے چلنے والے براؤزرز: کیا مستق
 date: 2025-07-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/are-ai-powered-browsers-the-future-now.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

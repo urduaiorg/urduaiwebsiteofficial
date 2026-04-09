@@ -3,7 +3,7 @@ title: "مینس اے آئی کیا ہے"
 description: "مینس اے آئی کیا ہے؟  ہیلو دوستوں! آج میں آپ کو ایک ایسی جدید ٹیکنالوجی سے متعارف کروانے والا ہوں جو دنیا کو بدلنے کی صلاحیت رکھتی ہے۔ یہ ہے مینس اے آئی، جو چین"
 date: 2025-03-15
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/manus-ai-explained-in-urdu.jpg"
 draft: false

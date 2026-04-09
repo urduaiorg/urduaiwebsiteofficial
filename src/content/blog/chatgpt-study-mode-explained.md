@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کے نئے اسٹڈی موڈ کا مکمل 
 date: 2025-08-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-study-mode-explained.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

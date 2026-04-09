@@ -3,7 +3,7 @@ title: "آپ کا اگلا اے آئی اسسٹنٹ کون ہوگا؟ جانیں
 description: "آپ کا اگلا اے آئی اسسٹنٹ کون ہوگا؟ جانیں جیمِنی اور گرُوک کیوں توجہ کا مرکز ہیں  فنی دنیا میں ایک نئی ہلچل مچی ہوئی ہے۔ جہاں مصنوعی ذہانت یا اے آئی کی رفتار پر"
 date: 2025-08-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 image: "/images/blog/who-will-be-your-next-ai-assistant-find-out-why-gemini-and-gruk-are-the-center-of-attention.jpg"
 adsense: true
 draft: false

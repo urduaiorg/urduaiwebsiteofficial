@@ -4,7 +4,7 @@ description: "مائیکروسافٹ کے اے آئی لیپ ٹاپ: اب جدی
 date: 2025-05-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsofts-ai-laptop-now-modern-technology-is-for-everyone.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

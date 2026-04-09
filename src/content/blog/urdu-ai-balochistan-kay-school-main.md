@@ -4,7 +4,7 @@ description: "اردو اے آئی – بلوچستان کے اسکولوں می
  یہ بلاگ مصنوعی ذہانت (اے آئی) کی تعلیم میں انقلابی کردار کو اجاگر کرتا ہے۔ خاص طور پر بلوچستان کے دور دراز اسکولوں کے لیے"
 date: 2024-12-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-balochistan-kay-school-main.jpg"
 draft: false

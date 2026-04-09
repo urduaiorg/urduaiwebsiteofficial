@@ -3,7 +3,7 @@ title: "ڈیپ سیک: چینی مصنوعی ذہانت  اے آئی  پروگ
 description: "ڈیپ سیک: چینی مصنوعی ذہانت  اے آئی  پروگرام جو امریکی ٹیکنالوجی مارکیٹ کے لیے خطرہ بن گیا  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج ہم ایک حیران ک"
 date: 2025-01-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-chinese-artificial-intelligence-program-that-threatened-the-us-technology-market.jpg"
 draft: false

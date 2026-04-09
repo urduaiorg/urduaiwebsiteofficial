@@ -4,7 +4,7 @@ description: "اردو اے آئی اسٹوری ٹیلنگ ورکشاپ: اے 
  مصنوعی ذہانت یعنی اے آئی اب صرف سائنس فکشن کا موضوع نہیں رہا بلکہ عام انسان کی روزمرہ"
 date: 2025-05-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-storytelling-workshop-creating-powerful-stories-with-ai.jpg"
 draft: false

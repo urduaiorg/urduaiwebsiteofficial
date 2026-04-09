@@ -4,7 +4,7 @@ description: "جیمنائی ایپ کا نیا فیچراب دستاویزات 
 date: 2025-08-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-app-will-now-be-able-to-convert-documents-into-web-pages-and-quizzes.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

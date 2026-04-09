@@ -3,7 +3,7 @@ title: "اردو اے آئی ویکلی اپ ڈیٹس: اکتوبر 2025 کی ن
 description: "اردو اے آئی ویکلی اپ ڈیٹس: اکتوبر 2025 کی نئی تبدیلیاں  مصنوعی ذہانت  کی دنیا میں ہر ہفتے کچھ نہ کچھ نیا سامنے آتا ہے ایسی ایجادات اور اپ ڈیٹس جو ہماری روزمرہ ز"
 date: 2025-10-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-weekly-updates-october-2025-new-changes.jpg"
 draft: false

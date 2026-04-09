@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی پروجیکٹس میں بڑی اپڈیٹ ن
 date: 2025-06-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-are-the-major-update-new-features-in-chatgpt-projects.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

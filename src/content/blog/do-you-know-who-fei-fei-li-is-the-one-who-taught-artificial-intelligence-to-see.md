@@ -3,7 +3,7 @@ title: "آپ جانتے ہیں فے فے لی کون ہیں؟ جو مصنوعی 
 description: "آپ جانتے ہیں فے فے لی کون ہیں؟ جو مصنوعی ذہانت کو دیکھنا سکھا گئیں؟  مصنوعی ذہانت کا میدان روز بروز ترقی کرتا جا رہا ہے، مگر آج بھی خواتین کی نمائندگی اس شعبے م"
 date: 2025-11-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/do-you-know-who-fei-fei-li-is-the-one-who-taught-artificial-intelligence-to-see.jpg"
 draft: false

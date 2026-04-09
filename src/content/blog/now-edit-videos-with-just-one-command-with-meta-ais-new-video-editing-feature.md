@@ -4,7 +4,7 @@ description: "اب ویڈیوز ایڈیٹ کریں صرف ایک کمانڈ پ�
 date: 2025-06-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/now-edit-videos-with-just-one-command-with-meta-ais-new-video-editing-feature.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

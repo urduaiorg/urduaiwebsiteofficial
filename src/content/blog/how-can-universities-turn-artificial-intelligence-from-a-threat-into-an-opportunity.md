@@ -3,7 +3,7 @@ title: "یونیورسٹیاں مصنوعی ذہانت کو خطرے سے موق
 description: "یونیورسٹیاں مصنوعی ذہانت کو خطرے سے موقع میں کیسے بدل سکتی ہیں؟  جب طلبہ چیٹ جی پی ٹی جیسے اے آئی ٹولز سے اسائنمنٹس لکھوانے لگیں تو سوال یہ ہے: کیا وہ واقعی کچھ"
 date: 2025-10-15
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-can-universities-turn-artificial-intelligence-from-a-threat-into-an-opportunity.jpg"
 draft: false

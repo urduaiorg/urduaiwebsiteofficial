@@ -3,7 +3,7 @@ title: "کیا نینوبنانا کے ذریعے ہر کوئی پروفیشنل
 description: "کیا نینوبنانا کے ذریعے ہر کوئی پروفیشنل اے آئی ایپس بنا سکتا ہے؟  جب سے گوگل جیمینی 2.5 فلیش (نینوبنانا) متعارف ہوا ہے۔ اس نے اے آئی کی دنیا میں ایک نیا انقلاب"
 date: 2025-09-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 image: "/images/blog/can-everyone-create-professional-ai-apps-with-nanobanana.jpg"

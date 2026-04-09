@@ -4,7 +4,7 @@ description: "گوگل کا سالانہ جائزہ 2025: مصنوعی ذہان�
 date: 2026-01-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-annual-review-2025-60-big-artificial-intelligence-announcements.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت: آسٹیوپوروسس اور دیگر ب
 date: 2025-01-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligence-a-revolutionary-solution-for-early-diagnosis-of-osteoporosis-and-other-diseases.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "کیا GPT-5 Codex اب خود سے مکمل پراجیکٹ بنا سک�
 description: "کیا GPT-5 Codex اب خود سے مکمل پراجیکٹ بنا سکتا ہے؟ جانیں تفصیل  چیٹ جی پی ٹی نے حال ہی میں اپنے کوڈنگ ماڈل Codex کو نئے انداز میں اپگریڈ کر دیا ہے۔ یہ نیا ورژن"
 date: 2025-10-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/can-gpt-5-codex-now-build-complete-projects-on-its-own-learn-more.jpg"
 draft: false

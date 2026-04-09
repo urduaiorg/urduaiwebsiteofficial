@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی ویژن: مستقبل کی انقلابی �
  دوستو! چیٹ جی پی ٹی ویژن اب پلس صارفین (ماہانہ سبسکرپشن والے) کے لیے دستیاب ہے۔ یہ ٹیکنالوجی ایک دوست کی طرح کام"
 date: 2024-12-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chat-gpt-vision-the-revolutionary-technology-of-the-future.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "چین میں بزرگوں کی دیکھ بھال کیا مصنو�
 date: 2025-03-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-artificial-intelligence-help-care-for-the-elderly-in-china.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

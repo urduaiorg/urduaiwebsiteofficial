@@ -3,7 +3,7 @@ title: "اوپن اے آئی کا نیا ایجنٹ فیچر اب پلس صار�
 description: "اوپن اے آئی کا نیا ایجنٹ فیچر اب پلس صارفین کے لیے دستیاب، مصنوعی ذہانت کی دنیا میں ایک اور اہم قدم  مصنوعی ذہانت کی دنیا میں تیزی سے ترقی جاری ہے اور اسی سلسلے"
 date: 2025-08-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 image: "/images/blog/openais-new-agent-feature-now-available-to-plus-users-another-important-step-in-the-world-of-artificial-intelligence.jpg"

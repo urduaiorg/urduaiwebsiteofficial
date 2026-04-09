@@ -3,7 +3,7 @@ title: "اردو اے آئی اور چھوٹے کاروبار"
 description: "اردو اے آئی اور چھوٹے کاروبار السلام علیکم دوستو! کیا آپ جانتے ہیں کہ ایک بڑے کاروبار کو چھوٹے کاروبار سے منفرد بنانے میں سب سے اہم عنصر کیا ہے؟ وہ ہے رابطہ"
 date: 2024-12-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-and-small-business.jpg"
 draft: false

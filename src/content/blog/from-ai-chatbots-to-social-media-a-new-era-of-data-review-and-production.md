@@ -3,7 +3,7 @@ title: "اے آئی چیٹ بوٹس سے سوشل میڈیا تک: ڈیٹا ری
 description: "اے آئی چیٹ بوٹس سے سوشل میڈیا تک: ڈیٹا ریویو اور پروڈکشن کا نیا دور جب ڈیجیٹل دور میں معلومات کے ذرائع بدل رہے ہوں تو ان کے تجزیے اور قانونی جانچ کے طریقے بھی ب"
 date: 2025-06-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/from-ai-chatbots-to-social-media-a-new-era-of-data-review-and-production.jpg"
 draft: false

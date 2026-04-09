@@ -3,7 +3,7 @@ title: "اے آئی کی مدد سے گیم بنائیں اردو اے آئی م
 description: "اے آئی کی مدد سے گیم بنائیں اردو اے آئی ماسٹر کلاس #6   اگر آپ سوچتے ہیں کہ گیم بنانا صرف ماہر پروگرامرز کا کام ہے تو اردو اے آئی کی ماسٹر کلاس #6 دیکھنے کے بعد"
 date: 2025-08-18
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-to-make-games-with-ai-master-class-6.jpg"
 draft: false

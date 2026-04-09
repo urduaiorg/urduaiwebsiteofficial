@@ -4,7 +4,7 @@ description: "میٹا کا بڑا اعلان: دو سال میں  اے آئی�
 date: 2025-01-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

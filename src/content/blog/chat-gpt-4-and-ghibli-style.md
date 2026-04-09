@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی فور او اور گبلی انداز کا 
 date: 2025-03-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chat-gpt-4-and-ghibli-style.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

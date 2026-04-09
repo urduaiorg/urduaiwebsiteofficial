@@ -3,7 +3,7 @@ title: "اوپن اے آئی اور ایمیزون ویب سروسز کے درم
 description: "اوپن اے آئی اور ایمیزون ویب سروسز کے درمیان 38 ارب ڈالر کی مصنوعی ذہانت کی شراکت داری  اوپن اے آئی اور ایمیزون ویب سروسز کے درمیان حالیہ معاہدہ مصنوعی ذہانت کی"
 date: 2025-11-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/38-billion-artificial-intelligence-partnership-between-openai-and-amazon-web-services.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "ایلون مسک کا گروک 2.5 ماڈل اوپن سورس، لیک�
 description: "ایلون مسک کا گروک 2.5 ماڈل اوپن سورس، لیکن لائسنس کی شرائط کیا ہیں؟  کیا واقعی اوپن سورس کا مطلب سب کے لیے کھلا اور آزاد ہوتا ہے؟ ایلون مسک کی کمپنی xAI نے گروک"
 date: 2025-09-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/elon-musks-grok-2-5-model-is-open-source-but-what-are-the-license-terms.jpg"
 draft: false

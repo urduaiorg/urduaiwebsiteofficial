@@ -3,7 +3,7 @@ title: "کیا میٹا کا نیا فیچر وائبز واقعی اے آئی �
 description: "کیا میٹا کا نیا فیچر وائبز واقعی اے آئی ویڈیوز بنانے کا انداز بدل رہا ہے؟  اگر آپ چاہتے ہیں کہ آپ کے خیالات ایک ویڈیو میں تبدیل ہو جائیں، تو میٹا کی نئی اپ ڈیٹ"
 date: 2025-09-27
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-metas-new-feature-vibes-really-changing-the-way-ai-makes-videos.jpg"
 draft: false

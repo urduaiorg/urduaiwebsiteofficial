@@ -4,7 +4,7 @@ description: "نائٹروجن اے آئی ماڈل کیسے ویڈیو گیمز
 date: 2025-12-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-does-the-nitrogen-ai-model-play-video-games-without-learning.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

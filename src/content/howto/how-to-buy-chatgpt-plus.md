@@ -10,7 +10,7 @@ last_verified: 2025-01-04
 difficulty: "آسان"
 time_required: "5 منٹ"
 screenshots: false
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

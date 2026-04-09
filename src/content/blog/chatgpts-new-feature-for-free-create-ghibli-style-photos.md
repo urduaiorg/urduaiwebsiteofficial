@@ -4,7 +4,7 @@ description: "گبلی اسٹائل کی تصاویر مفت میں بنائیں
 date: 2025-03-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpts-new-feature-for-free-create-ghibli-style-photos.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "گوگل جیمینائی 'جیمز' اب سب صارفین کے �
 date: 2025-04-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-gemini-jams-now-available-for-free-to-all-users.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

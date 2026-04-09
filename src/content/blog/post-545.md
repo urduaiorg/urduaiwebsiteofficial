@@ -3,7 +3,7 @@ title: "اےآئی کے ساتھ کام کرنے کیلےاسکل"
 description: "/*! elementor - v3.15.0 - 26-07-2023 */ .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=ele"
 date: 2023-08-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 image: "/images/blog/post-545.jpg"

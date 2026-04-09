@@ -3,7 +3,7 @@ title: "گروک اے آئی سب کے لیے دستیاب ہے۔"
 description: "گروک اے آئی سب کے لیے دستیاب ہے۔  گروک اے آئی چیٹ بوٹ کا تعارف  مصنوعی ذہانت کی دنیا میں ایک نیا اور دلچسپ اضافہ ہوا ہے۔ ایلون مسک کی کمپنی ایکس اے آئی نے گروک"
 date: 2025-03-14
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/grok-ai-is-available-to-all.jpg"
 draft: false

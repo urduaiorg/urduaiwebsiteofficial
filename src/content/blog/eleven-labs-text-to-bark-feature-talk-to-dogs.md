@@ -4,7 +4,7 @@ description: "الیون لیبز کا فیچر اور اردو اے آئی کی
 date: 2025-04-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/eleven-labs-text-to-bark-feature-talk-to-dogs.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

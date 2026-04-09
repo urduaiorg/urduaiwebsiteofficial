@@ -3,7 +3,7 @@ title: "آئیے بچوں کو صرف لکھنا نہیں،بلکہ دیکھنا
 description: "آئیے بچوں کو صرف لکھنا نہیں،بلکہ دیکھنا بھی سکھائیں  ہم بچوں کو لکھنا سکھاتے ہیں، انہیں الفاظ کے ذریعے اپنے خیالات اور جذبات کا اظہار کرنا سکھاتے ہیں، لیکن ایک"
 date: 2025-10-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/lets-teach-children-not-only-to-write-but-also-to-see.jpg"
 draft: false

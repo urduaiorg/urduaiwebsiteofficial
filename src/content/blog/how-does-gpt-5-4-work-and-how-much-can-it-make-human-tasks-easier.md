@@ -4,7 +4,7 @@ description: "جی پی ٹی 5.4 کیسے کام کرتا ہے اور یہ ان�
 date: 2026-03-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-does-gpt-5-4-work-and-how-much-can-it-make-human-tasks-easier.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

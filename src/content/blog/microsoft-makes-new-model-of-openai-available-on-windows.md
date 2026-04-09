@@ -4,7 +4,7 @@ description: "مائیکروسافٹ نے اوپن اے آئی کا نیا ما�
 date: 2025-08-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-makes-new-model-of-openai-available-on-windows.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

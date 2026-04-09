@@ -5,7 +5,7 @@ description: "جیمینی لائیو کیمرہ موڈ: گوگل کا نیا ف
 date: 2025-05-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-live-camera-mode-googles-new-feature-now-available-on-android-and-iphone.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

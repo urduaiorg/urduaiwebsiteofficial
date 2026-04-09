@@ -4,7 +4,7 @@ description: "گوگل کا نیا اقدام: جیمِنی کو اینڈرائ�
 date: 2025-07-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-on-android-will-have-access-to-whatsapp-messages-and-calls.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "جونی اور سیم آلٹمن کی گفتگو:کیا ہم اے آئ�
 description: "جونی اور سیم آلٹمن کی گفتگو:کیا ہم اے آئی کے ساتھ بہتر انسان بن سکتے ہیں؟  یہ تحریر سیم آلٹمین اور جونی کے درمیان ہونے والی ایک خوبصورت اور بصیرت افروز گفتگو پر"
 date: 2025-10-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/johnny-and-sam-altman-in-conversation-can-we-become-better-humans-with-ai.jpg"
 draft: false

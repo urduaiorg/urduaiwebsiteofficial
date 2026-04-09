@@ -4,7 +4,7 @@ description: "ایلون مسک کی کمپنی ایکس اے آئی کو کلا
 date: 2026-01-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/anthropic-blocks-xais-access-to-the-cloud-as-part-of-its-policy-is-this-the-beginning-of-a-technological-war-learn-the-full-details.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "گوگل جمینی اب ویڈیو دیکھ سکتا ہے، سن سکت
 description: "گوگل جمینی اب ویڈیوز دیکھ سکتا ہے، سن سکتا ہے اور سمجھ سکتا ہے جانیں کیسے ویڈیو اپلوڈ کے ساتھ جمینی کا نیا سفر اب صرف تحریر نہیں، ویڈیو بھیاے آئی کے دائرے میں گ"
 date: 2025-06-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gemini-can-now-watch-listen-and-understand-video-know-how.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "کیا اوپن اے آئی کے کوڈ ریڈ کی اصل وجہ جیم
 description: "کیا اوپن اے آئی کے کوڈ ریڈ کی اصل وجہ جیمینی ہے یا مالی بحران؟  جب دنیا بھر میں ٹیکنالوجی کے ماہرین گوگل کے نئے اے آئی ماڈل ’جیمینی 3‘ کی کارکردگی اور چیٹ جی پی"
 date: 2025-12-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-gemini-or-the-financial-crisis-the-real-reason-for-openais-code-red.jpg"
 draft: false

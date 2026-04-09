@@ -3,7 +3,7 @@ title: "مائیکروسافٹ کوپائلٹ وژن: آپ کی اسکرین پ�
 description: "مائیکروسافٹ کوپائلٹ وژن: آپ کی اسکرین پر ایک نیا ذہین ساتھی  مائیکروسافٹ نے ایک اور اہم سنگِ میل عبور کر لیا ہے۔ اب امریکہ میں ونڈوز صارفین کو ایک ایسا ڈیجیٹل س"
 date: 2025-06-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/microsoft-copilot-vision-a-new-intelligent-companion-on-your-screen.jpg"
 draft: false

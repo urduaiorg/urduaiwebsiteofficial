@@ -3,7 +3,7 @@ title: "کیا آپ 2026 میں گوگل کی پہلی اے آئی گلاسز پ
 description: "کیا آپ 2026 میں گوگل کی پہلی اے آئی گلاسز پہننے کے لیے تیار ہیں؟  اگر آپ کو لگتا ہے کہ موبائل فون ہی ٹیکنالوجی کی انتہا ہے تو گوگل کا نیا منصوبہ آپ کی سوچ بدل"
 date: 2025-12-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/are-you-ready-to-wear-googles-first-ai-glasses-in-2026.jpg"
 draft: false

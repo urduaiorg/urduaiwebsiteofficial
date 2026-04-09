@@ -4,7 +4,7 @@ description: "گروک 4 کی لانچ: ایلون مسک کا سب سے ذہی�
 date: 2025-07-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/grok-4-launch-elon-musks-smartest-ai-model.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

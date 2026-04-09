@@ -4,7 +4,7 @@ description: "چین میں مصنوعی ذہانت کا عروج: چیٹ بوٹ
 date: 2025-03-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-rise-of-artificial-intelligence-in-china-from-chatbots-to-intelligent-toys.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

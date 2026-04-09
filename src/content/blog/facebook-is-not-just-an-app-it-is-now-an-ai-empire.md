@@ -4,7 +4,7 @@ description: "فیس بک اب محض ایک سوشل ایپ نہیں رہا ب�
 date: 2025-05-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/facebook-is-not-just-an-app-it-is-now-an-ai-empire.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

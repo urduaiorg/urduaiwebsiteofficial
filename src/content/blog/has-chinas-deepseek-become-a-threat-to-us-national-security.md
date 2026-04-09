@@ -4,7 +4,7 @@ description: "کیا چین کا ڈیپ سیک امریکی قومی سلامت�
 date: 2025-02-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/has-chinas-deepseek-become-a-threat-to-us-national-security.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

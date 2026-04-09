@@ -4,7 +4,7 @@ description: "کیا اوپن اے آئی بکنے والی تھی؟ ایلون 
 date: 2025-04-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/was-openai-going-to-sell-the-secret-to-elons-historic-bid.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "جی پی ٹی-5 کوڈیکس کی نئی اپ گریڈ: ڈویلپرز 
 description: "جی پی ٹی-5 کوڈیکس کی نئی اپ گریڈ: ڈویلپرز کے لیے ایک شاندار نیا ساتھی  اوپن اے آئی نے اپنے مشہور کوڈنگ ایجنٹ کوڈیکس میں زبردست اپگریڈ کا اعلان کیا ہے۔ یہ نیا ور"
 date: 2025-09-18
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/new-gpt-5-codex-upgrade-a-great-new-companion-for-developers.jpg"
 draft: false

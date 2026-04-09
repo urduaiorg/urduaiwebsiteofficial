@@ -3,7 +3,7 @@ title: "اردو اے آئی آٹومیشن ماسٹر کلاس کا اختتا�
 description: "اردو اے آئی آٹومیشن ماسٹر کلاس کا اختتام: کلاس نمبر09  السلام علیکم، دوستو! اردو اے آئی کی آٹومیشن ماسٹر کلاس کا یہ سفر اب اپنے اختتام کو پہنچا ہے۔ اس آخری کلاس"
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-on-automation-class-9.jpg"
 draft: false

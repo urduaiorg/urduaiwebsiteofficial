@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی: چھ سیکنڈ میں ویب ڈیزائن 
  مصنوعی ذہانت نے دنیا میں نہ صرف ترقی کی رفتار تیز کی ہے بلکہ پیچیدہ کاموں کو بھی آسان بنا دیا ہے۔ اسی تبدیلی کا"
 date: 2024-12-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chatgpt-01-demo-urdu.jpg"
 draft: false

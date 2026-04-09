@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا نیا ایجنٹ موڈ: کیا یہ ہ
 date: 2025-07-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-new-agent-mode-will-it-change-our-daily-tasks.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "comet agent browser کیسے آپ کے روزمرہ کاموں کو آس
 description: "Comet agent browser کیسے آپ کے روزمرہ کاموں کو آسان بناتا ہے؟  روزمرہ کی مصروف زندگی میں لمبے مضامین، ویڈیوز یا ملازمت کی تفصیلات کو مکمل پڑھنا اکثر ایک چیلنج ہ"
 date: 2025-09-27
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-comet-browser-make-your-daily-tasks-easier.jpg"
 draft: false

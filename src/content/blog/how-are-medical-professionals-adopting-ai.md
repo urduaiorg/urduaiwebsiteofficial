@@ -4,7 +4,7 @@ description: "طبی ماہرین اے آئی کو کیسے اپنا رہے ہی
 date: 2026-01-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-are-medical-professionals-adopting-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

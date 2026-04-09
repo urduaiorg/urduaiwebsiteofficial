@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا نیا فیچرڈیپ ریسرچ تحق�
 date: 2025-02-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-new-feature-deep-research-a-new-way-of-doing-research.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

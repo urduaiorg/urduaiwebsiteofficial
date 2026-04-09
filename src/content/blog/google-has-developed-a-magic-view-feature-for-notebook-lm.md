@@ -4,7 +4,7 @@ description: "گوگل نے نوٹ بک ایل ایم کے لیے میجک وی�
 date: 2025-08-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-has-developed-a-magic-view-feature-for-notebook-lm.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

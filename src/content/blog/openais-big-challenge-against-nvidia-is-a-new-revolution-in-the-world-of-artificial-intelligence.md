@@ -4,7 +4,7 @@ description: "اینویڈیا کے خلاف اوپن اے آئی کا بڑا چ
 date: 2025-03-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-big-challenge-against-nvidia-is-a-new-revolution-in-the-world-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

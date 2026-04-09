@@ -4,7 +4,7 @@ description: "اوپن اے آئی اکیڈمی: مصنوعی ذہانت سیک�
 date: 2025-04-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/open-ai-academy-makes-learning-artificial-intelligence-easy-free-and-for-everyone.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

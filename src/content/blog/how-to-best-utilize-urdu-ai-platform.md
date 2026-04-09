@@ -4,7 +4,7 @@ description: "اردو اے آئی پلیٹ فارم: مصنوعی ذہانت ا
  اردو اے آئی پلیٹ فارم کے ویڈیو کے آغاز میں قیصر رونجھا، جو اردو اے آئی کے بانی اور رہنما ہیں. ایک انوکھی ب"
 date: 2025-06-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-to-best-utilize-urdu-ai-platform.jpg"
 draft: false

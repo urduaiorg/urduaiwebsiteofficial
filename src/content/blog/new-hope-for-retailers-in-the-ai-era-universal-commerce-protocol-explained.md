@@ -4,7 +4,7 @@ description: "اے آئی دور میں ریٹیلرز کے لیے نئی امی
 date: 2026-01-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-hope-for-retailers-in-the-ai-era-universal-commerce-protocol-explained.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

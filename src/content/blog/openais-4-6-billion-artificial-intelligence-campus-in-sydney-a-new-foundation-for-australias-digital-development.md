@@ -3,7 +3,7 @@ title: "اوپن اے آئی کا سڈنی میں 4.6 ارب ڈالر کا مص�
 description: "اوپن اے آئی کا سڈنی میں 4.6 ارب ڈالر کا مصنوعی ذہانت کیمپس: آسٹریلیا کی ڈیجیٹل ترقی کی نئی بنیاد مصنوعی ذہانت کی عالمی دوڑ میں پیچھے رہ جانے کا اندیشہ اب آسٹریل"
 date: 2025-12-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/openais-4-6-billion-artificial-intelligence-campus-in-sydney-a-new-foundation-for-australias-digital-development.jpg"
 draft: false

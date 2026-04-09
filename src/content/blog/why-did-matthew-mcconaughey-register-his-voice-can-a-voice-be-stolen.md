@@ -4,7 +4,7 @@ description: "میتھیو میک کوناہی نے اپنی آواز رجسٹر
 date: 2026-01-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/why-did-matthew-mcconaughey-register-his-voice-can-a-voice-be-stolen.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

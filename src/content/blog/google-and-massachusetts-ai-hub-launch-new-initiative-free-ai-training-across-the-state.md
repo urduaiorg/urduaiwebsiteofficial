@@ -4,7 +4,7 @@ description: "گوگل اور میساچوسٹس اے آئی ہب کا نیا ا
 date: 2026-03-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-and-massachusetts-ai-hub-launch-new-initiative-free-ai-training-across-the-state.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

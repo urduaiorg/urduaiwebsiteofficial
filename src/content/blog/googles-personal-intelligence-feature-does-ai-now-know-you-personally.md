@@ -4,7 +4,7 @@ description: "گوگل جمنائی کا پرسنل انٹیلیجنس فیچر:
 date: 2026-01-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-personal-intelligence-feature-does-ai-now-know-you-personally.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

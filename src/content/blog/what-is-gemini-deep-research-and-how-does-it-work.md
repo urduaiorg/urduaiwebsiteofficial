@@ -3,7 +3,7 @@ title: "جیمنی ڈیپ ریسرچ کیا ہے اور یہ کیسے کام ک�
 description: "جیمنی ڈیپ ریسرچ کیا ہے اور یہ کیسے کام کرتا ہے؟ مکمل تفصیل  اگر آپ کبھی آن لائن معلومات تلاش کرتے ہوئے تھک چکے ہوں، یا چاہتے ہوں کہ کوئی ماہر آپ کے لیے انٹرنیٹ"
 date: 2025-12-15
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-gemini-deep-research-and-how-does-it-work.jpg"
 draft: false

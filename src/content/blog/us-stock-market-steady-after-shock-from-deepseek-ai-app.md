@@ -4,7 +4,7 @@ description: "امریکی اسٹاک مارکیٹ ڈیپ سیک اے آئی ا�
 date: 2025-01-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/us-stock-market-steady-after-shock-from-deepseek-ai-app.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

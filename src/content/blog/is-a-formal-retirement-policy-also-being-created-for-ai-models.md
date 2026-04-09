@@ -4,7 +4,7 @@ description: "کلاؤڈ اوپس 3 کا باضابطہ اختتام: کیا �
 date: 2026-03-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-a-formal-retirement-policy-also-being-created-for-ai-models.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

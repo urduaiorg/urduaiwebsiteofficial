@@ -3,7 +3,7 @@ title: "گروک-4 سب سے آگے: اردو اے آئی کی ہفتہ وار �
 description: "گروک-4 سب سے آگے: اردو اے آئی کی ہفتہ وار اپڈیٹس   اس ہفتے مصنوعی ذہانت (اے آئی) کی دنیا میں ہلچل مچانے والی کئی خبریں سامنے آئیں جنہیں اردو اے آئی نے اپنی تازہ"
 date: 2025-07-14
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/grok-4-at-the-forefront-weekly-updates-of-urdu-ai.jpg"
 draft: false

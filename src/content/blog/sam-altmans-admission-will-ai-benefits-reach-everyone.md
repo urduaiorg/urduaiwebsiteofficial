@@ -4,7 +4,7 @@ description: "سیم آلٹمین کا اعتراف: کیا مصنوعی ذہا�
 date: 2025-02-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/sam-altmans-admission-will-ai-benefits-reach-everyone.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "مائیکروسافٹ نے دنیا بھر میں نو ہزار ملا�
 description: "مائیکروسافٹ نے دنیا بھر میں نو ہزار ملازمتیں ختم کرنے کا فیصلہ کیوں کیا؟   2025 کے دوران مائیکروسافٹ کی جانب سے دنیا بھر میں ملازمتیں ختم کرنے کا عمل مسلسل جاری"
 date: 2025-07-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/why-did-microsoft-decide-to-cut-nine-thousand-jobs-worldwide.jpg"
 draft: false

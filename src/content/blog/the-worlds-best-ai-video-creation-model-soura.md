@@ -5,7 +5,7 @@ description: "دُنیا کا بہترین ویڈیو بنانے والا اے �
  آپ نے شاید OpenAI کے حیرت انگیز سوورا ویڈیو ماڈل کے بارے میں سنا ہو، لیکن اگر نہیں، تو تیار ہو جائی"
 date: 2024-12-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-worlds-best-ai-video-creation-model-soura.jpg"
 draft: false

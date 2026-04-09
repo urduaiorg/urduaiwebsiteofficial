@@ -3,7 +3,7 @@ title: "کلاس نمبر 5 اردو اے آئی ماسٹر کلاس برائے 
 description: "کلاس نمبر 5 اردو اے آئی ماسٹر کلاس برائے چیمپس اے آئی کی مدد سے کہانیوں کو تصاویر میں بدلیں  اردو اے آئی کے مستقبل کے چیمپس! آپ سب کو قیصر رونجھا کی طرف سے سلام"
 date: 2025-07-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/class-no-5-urdu-ai-master-class-for-champs-turn-stories-into-images-with-the-help-of-ai.jpg"
 draft: false

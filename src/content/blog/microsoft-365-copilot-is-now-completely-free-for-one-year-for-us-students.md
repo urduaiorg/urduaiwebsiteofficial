@@ -4,7 +4,7 @@ description: "مائیکروسافٹ 365 کوپائلٹ اب امریکی طلب
 date: 2025-09-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-365-copilot-is-now-completely-free-for-one-year-for-us-students.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

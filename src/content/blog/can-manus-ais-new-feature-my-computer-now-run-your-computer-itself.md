@@ -4,7 +4,7 @@ description: "کیا مینس اے آئی کا نیا فیچر“مائی کمپ
 date: 2026-03-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-manus-ais-new-feature-my-computer-now-run-your-computer-itself.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

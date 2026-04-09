@@ -4,7 +4,7 @@ description: "اردو اے آئی آٹومیشن ماسٹر کلاس رجسٹر
  جب بات ٹیکنالوجی کی ہو، خاص طور پر مصنوعی ذہانت (AI) اور آٹومیشن جیسے موضوعات کی، تو اکثر لوگ"
 date: 2025-05-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-automation-master-class-registration-and-learning-demos.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "اے آئی ایک موقع ہے بس سیکھنا شرط ہے"
 description: "اے آئی ایک موقع ہے بس سیکھنا شرط ہے  لکھنؤ کی گلیوں سے لے کر لِندن کے کیفے تک، اب سب کچھ ممکن ہے  تصور کریں کہ آپ ایک چھوٹے سے قصبے میں بیٹھے ہیں اور محض ایک ل"
 date: 2025-05-16
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ai-is-an-opportunity-all-you-need-to-do-is-learn.jpg"
 draft: false

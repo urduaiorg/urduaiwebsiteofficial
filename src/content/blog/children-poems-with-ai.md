@@ -4,7 +4,7 @@ description: "بچوں کے لئے نظمیں بنانے کا طریقہ
  ہیلو دوستو! آج میں آپ کو بتانے والی ہوں کہ  اے آئی کی مدد سے بچوں کے لیے شاندار اور منفرد نظمیں کیسے بنائی جا سکتی ہیں۔ میں ہو"
 date: 2025-01-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/children-poems-with-ai.jpg"
 draft: false

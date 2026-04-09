@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کا ڈیپ ریسرچ فیچراب فری �
 date: 2025-04-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpts-deep-research-feature-available-for-free.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

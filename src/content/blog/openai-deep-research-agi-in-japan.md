@@ -3,7 +3,7 @@ title: "اوپن اے آئی کی گہری تحقیق اور جاپان میں �
 description: "اوپن اے آئی کی گہری تحقیق اور جاپان میں مصنوعی عمومی ذہانت  السلام علیکم دوستوں! مصنوعی ذہانت یا مشینی ذہانت کی دنیا میں آج دو بڑی پیش رفت ہوئی ہیں۔ جن پر بات ک"
 date: 2025-02-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/openai-deep-research-agi-in-japan.jpg"
 draft: false

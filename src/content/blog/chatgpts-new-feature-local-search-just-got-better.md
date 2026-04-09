@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کا نیا فیچر: اب مقامی تلا
 date: 2025-05-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpts-new-feature-local-search-just-got-better.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

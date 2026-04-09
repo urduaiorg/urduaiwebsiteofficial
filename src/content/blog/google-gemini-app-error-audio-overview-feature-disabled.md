@@ -5,7 +5,7 @@ description: "گوگل جیمینی ایپ میں خرابی: آڈیو اوور�
 date: 2025-04-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-gemini-app-error-audio-overview-feature-disabled.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

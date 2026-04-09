@@ -4,7 +4,7 @@ description: "گوگل کا نیا ٹول:’Opal‘ جو کوڈنگ کو سب �
 date: 2025-08-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-tool-opal-to-make-coding-easier-for-everyone.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

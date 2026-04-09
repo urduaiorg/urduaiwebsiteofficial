@@ -5,7 +5,7 @@ description: "کیا وقت آ گیا ہے کہ ہم مصنوعی ذہانت ک�
  دنیا میں مصنوعی ذہانت (AI) کا استعمال اب ہ"
 date: 2025-05-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-it-time-for-us-to-consider-artificial-intelligence-as-a-normal-technology.jpg"
 draft: false

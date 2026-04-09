@@ -4,7 +4,7 @@ description: "ایم آئی ٹی کی نئی تحقیق: کیا مستقبل ک�
 date: 2025-09-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-mit-research-will-the-future-flu-vaccine-now-depend-on-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

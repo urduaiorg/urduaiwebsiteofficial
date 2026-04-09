@@ -4,7 +4,7 @@ description: "کاروباری اداروں کے لیے اے آئی کا نیا 
 date: 2026-02-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-ai-model-for-enterprises-what-is-cowork-and-private-plug-in-marketplace.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

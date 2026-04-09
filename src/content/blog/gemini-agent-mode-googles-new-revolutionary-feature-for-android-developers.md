@@ -4,7 +4,7 @@ description: "جیمینی ایجنٹ موڈ: اینڈرائیڈ ڈویلپرز 
 date: 2025-06-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-agent-mode-googles-new-revolutionary-feature-for-android-developers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

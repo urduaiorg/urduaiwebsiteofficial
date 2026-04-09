@@ -3,7 +3,7 @@ title: "ماسٹر کلاس آن آٹومیشن کلاس8 گوگل ایپ سکر
 description: "ماسٹر کلاس آن آٹومیشن کلاس8 گوگل ایپ سکرپٹ کا کمال: ڈیٹا کلیکشن سے ویب ایپ تک کا خودکار سفر  آج کے ڈیجیٹل دور میں کاموں کو خودکار بنانے کا رجحان تیزی سے بڑھ رہا"
 date: 2025-07-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-8-the-wonder-of-google-apps-script-automated-journey-from-data-collection-to-web-app.jpg"
 draft: false

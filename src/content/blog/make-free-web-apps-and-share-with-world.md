@@ -3,7 +3,7 @@ title: "مفت ویب ایپس بنائیں اور دنیا سے شیئر کری
 description: "مفت ویب ایپس بنائیں اور دنیا سے شیئر کریں  ویب ایپ بنانا ایک وقت میں صرف اُن لوگوں کا کام سمجھا جاتا تھا جو کوڈنگ جانتے ہوں، انگریزی زبان میں مہارت رکھتے ہوں، ا"
 date: 2025-04-27
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/make-free-web-apps-and-share-with-world.jpg"
 draft: false

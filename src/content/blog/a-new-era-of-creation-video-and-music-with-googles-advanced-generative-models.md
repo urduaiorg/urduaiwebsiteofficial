@@ -4,7 +4,7 @@ description: "گوگل کے جدید جنریٹیو ماڈلز کے ساتھ ت�
 date: 2025-06-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/a-new-era-of-creation-video-and-music-with-googles-advanced-generative-models.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

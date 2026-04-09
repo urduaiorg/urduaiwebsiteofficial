@@ -3,7 +3,7 @@ title: "جیمینی 2.5 پرو پری ویو: ویب ڈیویلپمنٹ میں 
 description: "جیمینی 2.5 پرو پری ویو: ویب ڈیویلپمنٹ میں ایک نیا سنگ میل جیمینی 2.5 پرو: کوڈنگ کی دنیا میں نئی جہتیں گوگل نے ڈیویلپرز کے لیے جیمینی 2.5 پرو کا تازہ ترین ورژن و"
 date: 2025-05-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/gemini-2-5-pro-preview-a-new-milestone-in-web-development.jpg"
 draft: false

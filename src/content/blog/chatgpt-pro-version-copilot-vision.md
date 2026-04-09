@@ -5,7 +5,7 @@ description: "چٹ جی پی ٹی پرو ورژن اور کوپائلٹ وژن �
  مصنوعی ذہانت (AI) کا میدان روز بروز حیرت انگیز ترقی کر رہا ہے۔ دسمبر کا مہینہ ہمیشہ خاص رہتا ہے، لی"
 date: 2024-12-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chatgpt-pro-version-copilot-vision.jpg"
 draft: false

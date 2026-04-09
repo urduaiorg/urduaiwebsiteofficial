@@ -3,7 +3,7 @@ title: "گوگل نے جیمنی ایپ میں جیمنی 3 فلیش کیوں م
 description: "گوگل نے جیمنی ایپ میں جیمنی 3 فلیش کیوں متعارف کرایا؟  کیا گوگل نے صرف ایک تیز ماڈل دینے کے لیے جیمنی 3 فلیش متعارف کرایا یا اس کے پیچھے کوئی وسیع تر سوچ کارفرم"
 date: 2025-12-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/why-did-google-introduce-gemini-3-flash-in-the-gemini-app.jpg"
 draft: false

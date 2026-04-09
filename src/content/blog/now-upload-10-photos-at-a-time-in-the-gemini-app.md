@@ -3,7 +3,7 @@ title: "جیمینی ایپ میں اب ایک وقت میں 10 تصاویر ا
 description: "جیمینی ایپ میں اب ایک وقت میں 10 تصاویر اپ لوڈ کیجیے  گوگل کی جانب سے مصنوعی ذہانت پر مبنی جیمینی   ایپ میں ایک اہم تبدیلی متعارف کروائی گئی ہے جس کے تحت اب صار"
 date: 2025-05-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/now-upload-10-photos-at-a-time-in-the-gemini-app.jpg"
 draft: false

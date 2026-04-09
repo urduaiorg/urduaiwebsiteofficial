@@ -4,7 +4,7 @@ description: "جیمنی سی ایل آئی: ڈیولپرز کے لیے کھلا
 date: 2025-07-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-cli-an-open-source-artificial-intelligence-companion-for-developers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

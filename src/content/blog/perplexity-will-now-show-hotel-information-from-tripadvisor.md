@@ -4,7 +4,7 @@ description: "Perplexity اب TripAdvisor کی ہوٹل معلومات دکھا�
 date: 2025-01-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexity-will-now-show-hotel-information-from-tripadvisor.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

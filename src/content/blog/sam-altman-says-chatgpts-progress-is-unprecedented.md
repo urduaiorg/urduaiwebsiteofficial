@@ -4,7 +4,7 @@ description: "سیم آلٹمین کا کہنا ہے کہ چیٹ جی پی ٹی 
 date: 2025-08-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/sam-altman-says-chatgpts-progress-is-unprecedented.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

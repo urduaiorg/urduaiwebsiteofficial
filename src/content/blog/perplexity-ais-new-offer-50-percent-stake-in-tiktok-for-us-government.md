@@ -4,7 +4,7 @@ description: "پرپلیکسیٹی اے آئی کی نئی پیشکش: ٹک ٹا
 date: 2025-02-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexity-ais-new-offer-50-percent-stake-in-tiktok-for-us-government.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

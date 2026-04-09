@@ -4,7 +4,7 @@ description: "اقوام متحدہ کے ترقیاتی پروگرام کی رپ
  مصنوعی ذہانت اور انسانی ترقی: ایک نئی سمت یا بڑھتا ہوا"
 date: 2025-05-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/according-to-the-united-nations-development-program-report-the-pace-of-human-development-has-fallen-to-a-35-year-low.jpg"
 draft: false

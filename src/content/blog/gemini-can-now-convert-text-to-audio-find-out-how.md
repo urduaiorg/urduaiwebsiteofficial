@@ -4,7 +4,7 @@ description: "جمینی اب تحریر کو آڈیو میں بدل سکتا ہ
 date: 2025-06-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-can-now-convert-text-to-audio-find-out-how.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا جدید o3 ماڈل: جلد آرہا ہ
 date: 2025-01-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-modern-o3-model-coming-soon.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

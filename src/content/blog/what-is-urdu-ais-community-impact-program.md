@@ -4,7 +4,7 @@ description: "اردو اے آئی کا کمیونٹی امپیکٹ پروگرا
 date: 2026-02-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-urdu-ais-community-impact-program.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

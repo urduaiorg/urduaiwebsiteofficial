@@ -4,7 +4,7 @@ description: "اوپن اے آئی کے حیرت انگیز منصوبے: روب
 date: 2025-02-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-amazing-projects-robots-smart-jewelry-and-a-new-future.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

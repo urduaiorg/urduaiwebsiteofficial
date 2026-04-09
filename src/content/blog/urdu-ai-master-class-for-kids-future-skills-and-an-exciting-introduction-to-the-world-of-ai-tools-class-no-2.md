@@ -3,7 +3,7 @@ title: "بچوں کے لیے اردو اے آئی ماسٹر کلاس مستقب
 description: "بچوں کے لیے اردو اے آئی ماسٹر کلاس مستقبل کی مہارتیں اور اے آئی ٹولز کی دنیا کا دلچسپ تعارف کلاس نمبر2  بچوں کو مستقبل کی مہارتوں سے روشناس کروانے کے لیے اردو ا"
 date: 2025-06-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-for-kids-future-skills-and-an-exciting-introduction-to-the-world-of-ai-tools-class-no-2.jpg"
 draft: false

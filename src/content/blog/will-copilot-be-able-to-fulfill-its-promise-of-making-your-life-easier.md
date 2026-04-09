@@ -3,7 +3,7 @@ title: "کیا کوپائلٹ آپ کی زندگی آسان بنانے کا وع
 description: "کیا کوپائلٹ آپ کی زندگی آسان بنانے کا وعدہ پورا کر سکے گا؟  کیا آپ کی مصنوعی ذہانت واقعی آپ کے وقت، تعلقات اور ذہانت کا خیال رکھتی ہے؟ مائیکروسافٹ کے کوپائلٹ فا"
 date: 2025-10-27
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-copilot-be-able-to-fulfill-its-promise-of-making-your-life-easier.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "اے آئی اور بچے: تعلیم، تربیت، اور روش
 date: 2024-12-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-and-children-education-training-and-a-bright-future.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

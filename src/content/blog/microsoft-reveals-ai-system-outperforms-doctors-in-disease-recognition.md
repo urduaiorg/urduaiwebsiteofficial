@@ -4,7 +4,7 @@ description: "مائیکروسافٹ کا انکشاف: اے آئی سسٹم ب�
 date: 2025-07-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-reveals-ai-system-outperforms-doctors-in-disease-recognition.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

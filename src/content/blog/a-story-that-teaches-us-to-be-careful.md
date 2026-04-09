@@ -3,7 +3,7 @@ title: "ایک کہانی جو ہمیں محتاط رہنے کا سبق دیتی
 description: "ایک کہانی جو ہمیں محتاط رہنے کا سبق دیتی ہے  آن لائن دھوکے اور حقیقت کی تلاش: ایک سبق آموز تجربہ  گزشتہ دنوں، قیصررونجھا نے فیس بک پر فائیوَر سے ہونے والی اپنی"
 date: 2025-08-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/a-story-that-teaches-us-to-be-careful.jpg"
 draft: false

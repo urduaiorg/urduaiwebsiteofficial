@@ -3,7 +3,7 @@ title: "واٹس ایپ چیٹ جی پی ٹی آپ کے وائس نوٹ اور �
 description: "واٹس ایپ چیٹ جی پی ٹی آپ کے وائس نوٹ اور امیج کو سمجھتا ہے۔   آپ نے یہ تو سنا ہوگا کہ اگر آپ چیٹ جی پی ٹی کو اپنے واٹس ایپ میں شامل کریں۔ تو آپ اس سے بھرپور فائ"
 date: 2025-02-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/whatsapp-chatgpt-understands-your-voice-note-image.jpg"
 draft: false

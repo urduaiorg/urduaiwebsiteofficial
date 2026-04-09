@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کے دلچسپ حقائق جو آپ کو 
 date: 2025-03-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/interesting-facts-about-artificial-intelligence-that-you-need-to-know-right-now.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

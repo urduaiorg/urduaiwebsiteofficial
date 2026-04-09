@@ -4,7 +4,7 @@ description: "کیا گوگل جیم اے آئی اسسٹنٹ آپ کا لہجہ
 date: 2025-11-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-googles-ai-assistant-really-learn-your-tone-writing-style-and-needs.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "گوگل VEO 3.1 کیا ہے؟ مکمل تفصیل"
 description: "گوگل VEO 3.1 کیا ہے؟ مکمل تفصیل   گوگل نے اپنے جدید ویڈیو جنریشن ماڈل VEO 3.1 کو لانچ کر دیا ہے، جو کہ تخلیقی صلاحیتوں، کنٹرول اور ہائی ریزولوشن ویڈیوز کی تیاری"
 date: 2025-10-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-google-veo-3-1.jpg"
 draft: false

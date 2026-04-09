@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "AI Coding"
 level: "ابتدائی"
 image: "/images/guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

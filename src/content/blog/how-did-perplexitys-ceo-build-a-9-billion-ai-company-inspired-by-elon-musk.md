@@ -4,7 +4,7 @@ description: "پرپلیکسیٹی کے سی ای او نے ایلون مسک س
 date: 2025-05-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-did-perplexitys-ceo-build-a-9-billion-ai-company-inspired-by-elon-musk.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "پرپلیکسیٹی: بھارت میں اے آئی کی دوڑ م
 date: 2025-07-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexity-india-in-the-race-for-ai-and-rapidly-competing-with-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

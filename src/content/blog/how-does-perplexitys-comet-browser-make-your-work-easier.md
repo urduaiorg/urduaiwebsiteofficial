@@ -3,7 +3,7 @@ title: "پرپلیکسٹی کا کومٹ براؤزر کیسے آپ کے کام 
 description: "پرپلیکسٹی کا کومٹ براؤزر کیسے آپ کے کام کو آسان بناتا ہے؟   اے آئی س کی دنیا تیزی سے بدل رہی ہے، اور اس تبدیلی میں اے آئی ایجنٹس ایک اہم کردار ادا کر رہے ہیں۔ ہ"
 date: 2025-07-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-perplexitys-comet-browser-make-your-work-easier.jpg"
 draft: false

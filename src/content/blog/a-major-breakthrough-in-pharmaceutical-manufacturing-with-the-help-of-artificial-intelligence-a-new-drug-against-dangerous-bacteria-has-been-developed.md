@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کی مدد سے دوا سازی میں بڑی �
 description: "مصنوعی ذہانت کی مدد سے دوا سازی میں بڑی کامیابی، خطرناک بیکٹیریا کے خلاف نئی دوا تیار  دنیا بھر میں اینٹی بایوٹک دوا کے خلاف مزاحمت رکھنے والے بیکٹیریا سے ہر سا"
 date: 2025-08-20
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/a-major-breakthrough-in-pharmaceutical-manufacturing-with-the-help-of-artificial-intelligence-a-new-drug-against-dangerous-bacteria-has-been-developed.jpg"
 draft: false

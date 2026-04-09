@@ -4,7 +4,7 @@ description: "ڈیپ سیک: چینی اے آئی اسٹارٹ اپ کی کام�
 date: 2025-02-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/deepseek-the-success-of-a-chinese-ai-startup-and-the-western-response.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

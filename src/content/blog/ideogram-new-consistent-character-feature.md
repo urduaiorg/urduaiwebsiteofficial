@@ -3,7 +3,7 @@ title: "آئیڈیواگرام کا نیا فیچر: اب آپ کی تصویرو
 description: "آئیڈیواگرام کا نیا فیچر: اب آپ کی تصویروں میں چہرہ نہیں بدلے گا  انٹرنیٹ پر بہت سے صارفین کی یہ شکایت تھی کہ جب بھی وہ کسی اے آئی ٹول سے اپنی تصویروں میں تبدیل"
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ideogram-new-consistent-character-feature.jpg"
 draft: false

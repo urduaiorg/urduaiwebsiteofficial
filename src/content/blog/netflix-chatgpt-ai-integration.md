@@ -4,7 +4,7 @@ description: "نیٹ فلکس اور چیٹ جی پی ٹی کا اشتراک: د
 date: 2025-05-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/netflix-chatgpt-ai-integration.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

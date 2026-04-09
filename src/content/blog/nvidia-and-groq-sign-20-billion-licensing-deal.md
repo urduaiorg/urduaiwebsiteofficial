@@ -4,7 +4,7 @@ description: "انویڈیا اور گروق کے درمیان 20 ارب ڈال�
 date: 2025-12-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/nvidia-and-groq-sign-20-billion-licensing-deal.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

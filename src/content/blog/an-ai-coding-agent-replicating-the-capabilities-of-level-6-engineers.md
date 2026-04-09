@@ -4,7 +4,7 @@ description: "نیا منصوبہ: لیول 6 انجینئرز کی صلاحیت
 date: 2025-02-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/an-ai-coding-agent-replicating-the-capabilities-of-level-6-engineers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

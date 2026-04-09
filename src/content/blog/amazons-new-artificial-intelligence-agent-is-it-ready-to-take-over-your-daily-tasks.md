@@ -4,7 +4,7 @@ description: "ایمیزون کا نیا مصنوعی ذہانت ایجنٹ: ک�
 date: 2025-04-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/amazons-new-artificial-intelligence-agent-is-it-ready-to-take-over-your-daily-tasks.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

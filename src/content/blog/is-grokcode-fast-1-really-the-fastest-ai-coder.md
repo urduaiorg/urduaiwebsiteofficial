@@ -3,7 +3,7 @@ title: "کیا گروک کوڈ فاسٹ 1 واقعی سب سے تیز رفتار
 description: "کیا گروک کوڈ فاسٹ 1 واقعی سب سے تیز رفتار اے آئی کوڈر ہے؟  ایلون مسک کی کمپنی ایکس اے آئی نے حال ہی میں اپنا نیا مصنوعی ذہانت کا ماڈل گروک کوڈ فاسٹ 1 متعارف کرا"
 date: 2025-09-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-grokcode-fast-1-really-the-fastest-ai-coder.jpg"
 draft: false

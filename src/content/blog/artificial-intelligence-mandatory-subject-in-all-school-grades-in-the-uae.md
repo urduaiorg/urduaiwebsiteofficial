@@ -5,7 +5,7 @@ description: "متحدہ عرب امارات میں اسکولوں کے تمام
 date: 2025-05-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligence-mandatory-subject-in-all-school-grades-in-the-uae.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

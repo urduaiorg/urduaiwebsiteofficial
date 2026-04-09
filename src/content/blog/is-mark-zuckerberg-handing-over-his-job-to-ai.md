@@ -4,7 +4,7 @@ description: "کیا مارک زکربرگ اپنا کام اے آئی کے حو
 date: 2026-04-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-mark-zuckerberg-handing-over-his-job-to-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

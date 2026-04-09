@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت اور وائٹ کالر ملازمتوں کا �
 description: "مصنوعی ذہانت اور وائٹ کالر ملازمتوں کا مستقبل خبردار ہونے کا وقت   یہ کوئی خیالی بات نہیں، بلکہ آنے والے چند سالوں کا منظرنامہ ہے قیصر رونجھا ویڈیو کے آغاز میں"
 date: 2025-06-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/future-of-white-collar-jobs-anthropic-ceo-interview.jpg"
 draft: false

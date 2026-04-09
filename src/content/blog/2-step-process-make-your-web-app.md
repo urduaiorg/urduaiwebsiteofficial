@@ -4,7 +4,7 @@ description: "ویب ایپ کیسے بنائیں؟ اُردو اے آئی کو�
  ایپ بنانا تو بس ماہرین کا کام ہے ایک عام غلط فہمی پاکستان میں جب بھی کسی کو بتایا جاتا"
 date: 2025-05-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/2-step-process-make-your-web-app.jpg"
 draft: false

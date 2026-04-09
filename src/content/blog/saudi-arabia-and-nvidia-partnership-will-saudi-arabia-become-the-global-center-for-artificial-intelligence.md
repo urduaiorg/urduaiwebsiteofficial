@@ -4,7 +4,7 @@ description: "سعودی عرب اور اینویڈیا کی شراکت: کیا 
 date: 2025-05-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/saudi-arabia-and-nvidia-partnership-will-saudi-arabia-become-the-global-center-for-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

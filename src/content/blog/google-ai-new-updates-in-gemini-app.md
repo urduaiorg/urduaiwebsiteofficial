@@ -3,7 +3,7 @@ title: "گوگل کی جیمنائی اور نوٹ بک ایل ایم میں ن�
 description: "گوگل کی جیمنائی اور نوٹ بک ایل ایم میں نئی اپ ڈیٹس: کہانیوں سے لے کر گائیڈڈ لرننگ تک   گوگل اپنے اے آئی پلیٹ فارمز میں بہت تیزی سے تبدیلیاں لا رہا ہے۔ ہر ہفتے ہ"
 date: 2025-08-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-ai-new-updates-in-gemini-app.jpg"
 draft: false

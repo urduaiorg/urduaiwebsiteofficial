@@ -4,7 +4,7 @@ description: "کروم میں جیمنائی: آپ کا نیا ذاتی اسسٹ
 date: 2026-02-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-in-chrome-your-new-personal-assistant.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

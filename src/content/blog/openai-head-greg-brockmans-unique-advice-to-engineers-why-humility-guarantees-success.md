@@ -3,7 +3,7 @@ title: "اوپن اے آئی کے سربراہ گریگ بروک مین کا ا�
 description: "اوپن اے آئی کے سربراہ گریگ بروک مین کا انجینئرز کو انوکھا مشورہ: عاجزی کامیابی کی ضمانت کیوں؟  اوپن اے آئی کے شریک بانی اور صدر، گریگ بروک مین نے کمپنی میں شمول"
 date: 2025-08-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/openai-head-greg-brockmans-unique-advice-to-engineers-why-humility-guarantees-success.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "نظام صحت کی الجھنیں اور چیٹ جی پی ٹی �
 date: 2026-01-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/health-system-confusion-and-guidance-from-chatgpt.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

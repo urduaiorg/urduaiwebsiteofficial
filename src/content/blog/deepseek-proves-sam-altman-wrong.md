@@ -4,7 +4,7 @@ description: "ڈیپ سیک نے سیم آلٹمین کو غلط ثابت کر �
 date: 2025-02-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/deepseek-proves-sam-altman-wrong.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

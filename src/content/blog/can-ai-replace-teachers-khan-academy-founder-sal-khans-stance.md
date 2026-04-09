@@ -4,7 +4,7 @@ description: "کیا اے آئی استاد کا متبادل بن سکتی ہے
 date: 2025-06-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-ai-replace-teachers-khan-academy-founder-sal-khans-stance.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

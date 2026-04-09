@@ -3,7 +3,7 @@ title: "ایمرجینٹ اے آئی ایجنٹ کیا  ہے؟کیا واقعی 
 description: "ایمرجینٹ اے آئی ایجنٹ کیا ہے؟کیا واقعی یہ مینس اے آئی کا متبادل ہے؟ ایجنٹ جو ویب سائٹ، یوٹیوب چینل اور پورا سسٹم خود تیار کرتا ہے مصنوعی ذہانت کی دنیا میں نت نئ"
 date: 2025-05-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-an-emergent-ai-agent-is-it-really-an-alternative-to-manus-ai.jpg"
 draft: false

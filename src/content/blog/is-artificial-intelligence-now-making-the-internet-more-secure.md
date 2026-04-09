@@ -4,7 +4,7 @@ description: "کیا مصنوعی ذہانت اب انٹرنیٹ کو زیادہ
 date: 2026-03-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-artificial-intelligence-now-making-the-internet-more-secure.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

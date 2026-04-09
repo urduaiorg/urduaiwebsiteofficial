@@ -4,7 +4,7 @@ description: "یہ تو بس شروعات ہے نسیم طالب کی پیشگو
 date: 2025-02-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/naseem-talebs-prediction-ai-stocks-are-still-down.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

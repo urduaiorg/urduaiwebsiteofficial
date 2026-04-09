@@ -3,7 +3,7 @@ title: "کیا اے آئی ایجنٹس بغیر انسان کی نگرانی ک
 description: "کیا اے آئی ایجنٹس بغیر انسان کی نگرانی کے واقعی محفوظ انداز میں کام کر سکتے ہیں؟  کیا آپ نے کبھی سوچا ہے کہ اگر کوئی سافٹ ویئر خود سے سوچ کر، فیصلہ کر کے اور کا"
 date: 2025-11-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/can-ai-agents-truly-operate-safely-without-human-supervision.jpg"
 draft: false

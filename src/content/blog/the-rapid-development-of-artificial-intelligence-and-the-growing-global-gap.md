@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کی تیز رفتار ترقی اور بڑھت�
 description: "مصنوعی ذہانت اور عالمی ترقی: ایک عالمی رپورٹ کا تجزیہ  حصہ اوّل  یہ مضمون مصنوعی ذہانت پر مبنی عالمی بینک (World Bank) کی ایک رپورٹ کے تفصیلی تجزیے پر مشتمل تین"
 date: 2025-12-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-rapid-development-of-artificial-intelligence-and-the-growing-global-gap.jpg"
 draft: false

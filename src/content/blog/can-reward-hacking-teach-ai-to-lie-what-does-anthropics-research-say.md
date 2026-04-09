@@ -4,7 +4,7 @@ description: "کیا ریوارڈ ہیکنگ اے آئی کو جھوٹ بولن�
 date: 2025-11-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-reward-hacking-teach-ai-to-lie-what-does-anthropics-research-say.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

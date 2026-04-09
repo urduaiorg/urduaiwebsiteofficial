@@ -4,7 +4,7 @@ description: "کیا واقعی آپ کی ملازمت کو مصنوعی ذہا�
 date: 2025-06-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-your-job-really-threatened-by-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

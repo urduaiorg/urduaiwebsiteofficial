@@ -4,7 +4,7 @@ description: "٢٠٢٤ میں  اے آئی اور ٹیکنالوجی کی جھ�
 date: 2025-01-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/2024-ai-and-technology.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

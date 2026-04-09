@@ -4,7 +4,7 @@ description: "کلاوڈ کا نیا فیچر: اب آپ اپنی اے آئی م
 date: 2026-03-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-cloud-feature-you-can-now-transfer-your-ai-memory-from-another-platform.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

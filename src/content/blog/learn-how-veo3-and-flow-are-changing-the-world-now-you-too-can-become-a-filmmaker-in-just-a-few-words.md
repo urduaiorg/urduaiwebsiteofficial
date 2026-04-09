@@ -4,7 +4,7 @@ description: "جانیں وی ای او 3 اورفلوکیسے بدل رہے ہ�
  مصنوعی ذہانت کے شعبے میں جہاں ہر روز کوئی نئی پیش رفت سامنے آتی"
 date: 2025-05-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/learn-how-veo3-and-flow-are-changing-the-world-now-you-too-can-become-a-filmmaker-in-just-a-few-words.jpg"
 draft: false

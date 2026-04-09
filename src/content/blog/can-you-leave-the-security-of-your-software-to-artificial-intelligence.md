@@ -4,7 +4,7 @@ description: "کیا آپ اپنے سافٹ ویئر کی حفاظت مصنوع�
 date: 2025-11-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-you-leave-the-security-of-your-software-to-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

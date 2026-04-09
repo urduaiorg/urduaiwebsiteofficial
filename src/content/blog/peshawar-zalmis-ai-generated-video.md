@@ -3,7 +3,7 @@ title: "پشاور زلمی کی اے آئی سے بنی ویڈیو"
 description: "پشاور زلمی کی اے آئی سے بنی ویڈیو   پاکستان سپر لیگ کی مشہور ٹیم پشاور زلمی نے اپنے سوشل میڈیا پر ایک ویڈیو لانچ کی ہے۔ جس میں وہ اپنی نئی یونیفارم شو کیس کر رہ"
 date: 2025-04-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/peshawar-zalmis-ai-generated-video.jpg"
 draft: false

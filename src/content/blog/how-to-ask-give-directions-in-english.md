@@ -3,7 +3,7 @@ title: "انگریزی میں راستہ پوچھنے اور بتانے کے ج�
 description: "انگریزی میں راستہ پوچھنے اور بتانے کے جملے السلام علیکم دوستو! آج کی ویڈیو میں آپ سیکھیں گے کہ انگریزی میں راستہ پوچھنے اور بتانے کے چند اہم جملے کون سے ہیں۔ ی"
 date: 2024-12-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-to-ask-give-directions-in-english.jpg"
 draft: false

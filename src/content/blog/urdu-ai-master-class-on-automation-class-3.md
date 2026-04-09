@@ -3,7 +3,7 @@ title: "گوگل فارم اور ایپ اسکرپٹ سے خودکار ای می
 description: "گوگل فارم اور ایپ اسکرپٹ سے خودکار ای میل سسٹم کیسے بنایا جائے؟  اردو اے آئی ماسٹر کلاس آن آٹومیشن نمبر 3   گوگل فارم کے ذریعے آٹومیشن سیکھیں اگر آپ اپنے کاروبا"
 date: 2025-06-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-on-automation-class-3.jpg"
 draft: false

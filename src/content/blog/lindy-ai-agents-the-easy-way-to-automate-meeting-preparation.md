@@ -4,7 +4,7 @@ description: "لِنڈی اے آئی ایجنٹس: میٹنگ کی تیاری ک
 date: 2025-08-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/lindy-ai-agents-the-easy-way-to-automate-meeting-preparation.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اب سری پہلے سے زیادہ ہوشیار ہوگی: ایپ
 date: 2026-01-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/now-siri-will-be-smarter-than-ever-a-joint-effort-between-apple-and-google.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

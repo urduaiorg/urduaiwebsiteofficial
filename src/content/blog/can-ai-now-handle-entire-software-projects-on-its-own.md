@@ -4,7 +4,7 @@ description: "جی پی ٹی 5.3 کوڈیکس: کیا اے آئی اب مکمل 
 date: 2026-02-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-ai-now-handle-entire-software-projects-on-its-own.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

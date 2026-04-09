@@ -4,7 +4,7 @@ description: "بچوں کے لیے نیورالنک کا انتظار ہےاسک
 date: 2025-06-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/neuralink-for-children-awaits-the-unique-vision-of-scale-ai-founder-alexander-wang.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "چین کا نیا مصنوعی ذہانت ماڈل کیو وین ٹو �
 description: "چین کا نیا مصنوعی ذہانت ماڈل کیو وین ٹو پوائنٹ فائیو میکس  علی بابا کا جدید ترین ماڈل  دنیا ابھی چائنیز کمپنی ڈیپ سیک کی حیرت سے باہر نہیں نکلی تھی کہ ایک اور چ"
 date: 2025-02-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chinas-new-artificial-intelligence-qwen-two-point-five-max.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "کومٹ ایک نیا براؤزر جو صرف سرچ نہیں ب
 date: 2025-07-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/comet-a-new-browser-that-helps-you-think-not-just-search.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

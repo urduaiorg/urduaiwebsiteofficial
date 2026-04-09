@@ -4,7 +4,7 @@ description: "اینتھروپک نے امریکی حکومت کے خلاف مق
 date: 2026-03-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/why-did-anthropic-file-a-lawsuit-against-the-u-s-government.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

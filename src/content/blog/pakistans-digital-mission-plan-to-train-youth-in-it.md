@@ -3,7 +3,7 @@ title: "پاکستان کا ڈیجیٹل مشن: نوجوانوں کو آئی ٹ
 description: "پاکستان کا ڈیجیٹل مشن: نوجوانوں کو آئی ٹی میں تربیت دینے کا منصوبہ  اگر آپ بھی تعلیم مکمل کر کے صرف ڈگری کے ساتھ بے روزگاری کا سامنا کر رہے ہیں۔ تو حکومت کا ڈیج"
 date: 2025-09-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/pakistans-digital-mission-plan-to-train-youth-in-it.jpg"
 draft: false

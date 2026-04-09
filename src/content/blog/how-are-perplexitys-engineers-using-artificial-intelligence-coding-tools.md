@@ -4,7 +4,7 @@ description: "پرپلیکسیٹی کے انجینئرز مصنوعی ذہانت
 date: 2025-07-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-are-perplexitys-engineers-using-artificial-intelligence-coding-tools.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

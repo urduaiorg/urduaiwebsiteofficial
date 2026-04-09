@@ -3,7 +3,7 @@ title: "اوپن اے آئی میں 4.8 ٹریلین کی سرمایہ کاری:
 description: "اوپن اے آئی میں 4.8 ٹریلین کی سرمایہ کاری: سوفٹ بینک کی نئی حکمتِ عملی  سوفٹ بینک گروپ کے چیف ایگزیکٹو آفیسر ماسایوشی سون نے اپنی حالیہ سالانہ شیئر ہولڈرز میٹنگ"
 date: 2025-11-14
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/4-8-trillion-investment-in-openai-softbanks-new-strategy.jpg"
 draft: false

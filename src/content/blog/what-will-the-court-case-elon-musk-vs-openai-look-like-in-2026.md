@@ -4,7 +4,7 @@ description: "عدالت کا راستہ ایلون مسک بمقابلہ اوپ
 date: 2025-04-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-will-the-court-case-elon-musk-vs-openai-look-like-in-2026.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

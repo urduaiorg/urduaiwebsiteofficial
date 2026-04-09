@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "Artificial Intelligence"
 level: "ابتدائی"
 image: "/images/guides/welcome-to-urdu-ai-free-master-class.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

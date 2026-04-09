@@ -3,7 +3,7 @@ title: "Zoom Meeting with an AI Avatar"
 description: "AI Avatars کے ساتھ Zoom میٹنگ کیا آپ نے کبھی سوچا ہے کہ AI Avatar کی مدد سے تعلیم کیسے بہتر بنائی جا سکتی ہے؟ حال ہی میں، ہم نے ایک Zoom میٹنگ میں AI Avatars ک"
 date: 2024-11-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/zoom-meeting-with-an-ai-avatar.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "گوگل کروم کو خریدنے کی پیشکش: کیا پرپ
 date: 2025-08-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-chrome-acquisition-offer-will-this-dream-of-perplexity-ai-become-a-reality.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

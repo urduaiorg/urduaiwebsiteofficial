@@ -3,7 +3,7 @@ title: "جی میل میں ذہانت کا نیا اضافہ: تلاش کا ان
 description: "جی میل میں ذہانت کا نیا اضافہ: تلاش کا انداز بدلنے والا فیچر  ہیلو دوستو! میں ہوں اردو اے آئی سے معراج احمد، اور آج میں آپ کو لے جا رہا ہوں ایک ایسی ڈیجیٹل خبر"
 date: 2025-03-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/gmail-gets-a-new-smart-addition-a-feature-that-changes-the-way-you-search.jpg"
 draft: false

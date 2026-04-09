@@ -4,7 +4,7 @@ description: "پرپلکسٹی کے نئے فیچرز: مصنوعی ذہانت �
 date: 2025-06-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexitys-new-features-a-revolutionary-step-in-the-field-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

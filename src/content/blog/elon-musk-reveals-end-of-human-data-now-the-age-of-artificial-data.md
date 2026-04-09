@@ -4,7 +4,7 @@ description: "ایلون مسک کا انکشاف: انسانی ڈیٹا ختم�
 date: 2025-01-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/elon-musk-reveals-end-of-human-data-now-the-age-of-artificial-data.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

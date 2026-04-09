@@ -4,7 +4,7 @@ description: "جیمینی 2.5 پرو: ویب ایپلی کیشنزبنانے و
 date: 2025-05-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-2-5-pro-googles-new-gift-for-internet-application-developers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

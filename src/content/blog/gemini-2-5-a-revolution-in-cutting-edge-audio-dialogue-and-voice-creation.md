@@ -4,7 +4,7 @@ description: "جیمنی 2.5: جدید ترین آڈیو ڈائیلاگ اورآ
 date: 2025-06-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-2-5-a-revolution-in-cutting-edge-audio-dialogue-and-voice-creation.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "کیا آپ نوٹ بک ایل ایم کےان 6 مختلف طری
 date: 2025-09-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-you-adopt-a-new-learning-style-with-these-6-different-ways-of-using-notebook-lm.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

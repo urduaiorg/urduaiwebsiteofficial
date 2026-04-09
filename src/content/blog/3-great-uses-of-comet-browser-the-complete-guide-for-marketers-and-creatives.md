@@ -3,7 +3,7 @@ title: "کامیٹ براؤزر کے 3 زبردست استعمال: مارکیٹ
 description: "کامیٹ براؤزر کے 3 زبردست استعمال: مارکیٹرز اور تخلیق کاروں کے لیے مکمل گائیڈ  اگر آپ ایک تخلیق کار، مارکیٹر یا نئے پروفیشنل ہیں اور آپ کا نیٹ ورک چھوٹا ہے، یا و"
 date: 2025-10-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/3-great-uses-of-comet-browser-the-complete-guide-for-marketers-and-creatives.jpg"
 draft: false

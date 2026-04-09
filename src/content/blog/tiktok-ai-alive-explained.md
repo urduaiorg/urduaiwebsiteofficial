@@ -4,7 +4,7 @@ description: "TikTok کا نیا AI Alive فیچر کیا ہے؟
  ایک تصویر، ایک پرامپٹ، ایک ویڈیو: TikTok نے حال ہی میں مصنوعی ذہانت پر مبنی ایک نیا فیچر خاموشی سے متعارف کروایا ہے، جس کا"
 date: 2025-04-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/tiktok-ai-alive-explained.jpg"
 draft: false

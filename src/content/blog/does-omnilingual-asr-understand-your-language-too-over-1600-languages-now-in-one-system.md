@@ -3,7 +3,7 @@ title: "کیا اومنی لِنگوئل اے ایس آر آپ کی زبان ب�
 description: "کیا اومنی لِنگوئل اے ایس آر آپ کی زبان بھی سمجھتا ہے؟ 1600 سے زائد زبانیں، اب ایک ہی سسٹم میں  اگر آپ کی زبان ایسی ہے جسے آج تک کوئی ٹیکنالوجی نہیں سمجھ پائی، ی"
 date: 2025-11-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/does-omnilingual-asr-understand-your-language-too-over-1600-languages-now-in-one-system.jpg"
 draft: false

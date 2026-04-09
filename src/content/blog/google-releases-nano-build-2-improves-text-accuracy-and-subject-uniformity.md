@@ -4,7 +4,7 @@ description: "گوگل نے نینو بنانا 2 جاری کر دیا، متن 
 date: 2026-03-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-releases-nano-build-2-improves-text-accuracy-and-subject-uniformity.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

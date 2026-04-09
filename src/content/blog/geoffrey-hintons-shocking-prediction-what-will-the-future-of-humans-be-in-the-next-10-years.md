@@ -3,7 +3,7 @@ title: "جیوفری ہنٹن کی چونکا دینے والی پیش گوئی:
 description: "جیوفری ہنٹن کی چونکا دینے والی پیش گوئی: اگلے 10 سال میں انسانوں کا مستقبل کیا ہو گا؟  اگر آپ آج کل اپنی نوکری کے بارے میں پریشان ہیں تو جیوفری ہنٹن کی حالیہ وا"
 date: 2025-12-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/geoffrey-hintons-shocking-prediction-what-will-the-future-of-humans-be-in-the-next-10-years.jpg"
 draft: false

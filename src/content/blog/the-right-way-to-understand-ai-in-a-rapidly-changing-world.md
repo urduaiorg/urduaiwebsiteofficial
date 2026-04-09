@@ -3,7 +3,7 @@ title: "تیزی سے بدلتی دنیا میں اے آئی کو جاننے ک�
 description: "تیزی سے بدلتی دنیا میں اے آئی کو جاننے کا صحیح طریقہ  اے آئی کی دنیا ہماری سوچ سے بھی زیادہ تیزی سے تبدیل ہو رہی ہے۔ روزانہ نئی ایجادات اور نئی تحقیق دنیا کو ا"
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-right-way-to-understand-ai-in-a-rapidly-changing-world.jpg"
 draft: false

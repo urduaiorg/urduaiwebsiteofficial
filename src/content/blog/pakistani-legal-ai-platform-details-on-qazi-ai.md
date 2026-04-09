@@ -4,7 +4,7 @@ description: "پاکستانی قانونی اے آئی پلیٹ فارم: قا�
 date: 2025-03-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/pakistani-legal-ai-platform-details-on-qazi-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

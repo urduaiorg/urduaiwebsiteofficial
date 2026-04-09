@@ -4,7 +4,7 @@ description: "الیکسا اب براؤزر پر دستیاب ہے اے آئی 
 date: 2026-01-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/alexa-is-now-available-on-the-browser-a-full-fledged-ai-powered-assistant-learn-more.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

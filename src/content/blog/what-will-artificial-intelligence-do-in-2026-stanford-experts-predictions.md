@@ -3,7 +3,7 @@ title: "2026 میں مصنوعی ذہانت کیا کرے گی؟ سٹینفرڈ 
 description: "2026 میں مصنوعی ذہانت کیا کرے گی؟ سٹینفرڈ ماہرین کی پیش گوئیاں  سنہ 2026 میں مصنوعی ذہانت ایک ایسے موڑ پر کھڑی ہے جہاں یہ طے کیا جا رہا ہے کہ یہ ٹیکنالوجی واقعی"
 date: 2025-12-20
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-will-artificial-intelligence-do-in-2026-stanford-experts-predictions.jpg"
 draft: false

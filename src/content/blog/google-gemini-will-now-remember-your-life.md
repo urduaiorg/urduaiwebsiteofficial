@@ -4,7 +4,7 @@ description: "گوگل جیمنی اب آپ کی زندگی کو یاد رکھ
  مصنوعی ذہانت کا میدان ہر دن نئی کروٹ لے رہا ہے۔ چیٹ جی پی ٹی کی یادداشت کی قابلیت پر سب حیران تھے،"
 date: 2025-05-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gemini-will-now-remember-your-life.jpg"
 draft: false

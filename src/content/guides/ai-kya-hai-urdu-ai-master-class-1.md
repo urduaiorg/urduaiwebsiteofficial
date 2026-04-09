@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "Artificial Intelligence"
 level: "ابتدائی"
 image: "/images/guides/ai-kya-hai-urdu-ai-master-class-1.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

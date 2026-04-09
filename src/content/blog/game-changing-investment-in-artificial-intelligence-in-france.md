@@ -4,7 +4,7 @@ description: "فرانس میں مصنوعی ذہانت کی دنیا بدلنے
 date: 2025-02-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/game-changing-investment-in-artificial-intelligence-in-france.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

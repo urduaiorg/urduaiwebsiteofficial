@@ -3,7 +3,7 @@ title: "سورا 2 کی حقیقت پسند ویڈیوز دیکھ کر کیا آ
 description: "سورا 2 کی حقیقت پسند ویڈیوز دیکھ کر کیا آپ اصل اور جعلی میں فرق کر پائیں گے؟  کیا آپ نے کبھی ویڈیوز دیکھ کر یہ سوچا ہے کہ کیا یہ اصلی مناظر ہیں یا اے آئی سے بنا"
 date: 2025-10-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-you-be-able-to-tell-the-difference-between-real-and-fake-by-watching-sora-2s-realistic-videos.jpg"
 draft: false

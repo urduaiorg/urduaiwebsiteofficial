@@ -4,7 +4,7 @@ description: "کیا مصنوعی ذہانت آپ کی شخصیت کو صرف د
 date: 2025-02-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-artificial-intelligence-learn-your-personality-in-just-two-hours.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

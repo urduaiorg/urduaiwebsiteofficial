@@ -3,7 +3,7 @@ title: "گوگل جیمنی کے مفت فیچرز"
 description: "گوگل جیمنی کے مفت فیچرزایک نئی دنیا کی جھلک  ہیلو دوستو! میں ہوں قیصر رُونجہ اردو اے آئی سے، اور آج ہم ایک ایسے موضوع پر بات کریں گے۔ جو ہر خاص و عام کے لیے فائ"
 date: 2025-03-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gemini-new-features-for-free-users.jpg"
 draft: false

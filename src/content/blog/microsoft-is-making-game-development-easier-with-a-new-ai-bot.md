@@ -4,7 +4,7 @@ description: "مائیکروسافٹ کا نیا  اے آئی ٹول: گیم ڈ
 date: 2025-03-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/microsoft-is-making-game-development-easier-with-a-new-ai-bot.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

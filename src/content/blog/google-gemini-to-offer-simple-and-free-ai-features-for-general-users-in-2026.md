@@ -4,7 +4,7 @@ description: "عام صارفین کے لیے گوگل جیمنی کی 2026 می
 date: 2026-01-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-gemini-to-offer-simple-and-free-ai-features-for-general-users-in-2026.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

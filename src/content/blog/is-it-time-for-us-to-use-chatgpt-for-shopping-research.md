@@ -3,7 +3,7 @@ title: "کیا اب وقت آ گیا ہے کہ ہم شاپنگ ریسرچ کے �
 description: "کیا اب وقت آ گیا ہے کہ ہم شاپنگ ریسرچ کے لیے چیٹ جی پی ٹی کا استعمال کریں؟  آج کل جب آن لائن خریداری کے آپشنز بہت زیادہ ہو گئے ہیں، صارفین کو فیصلہ کرنے میں مشک"
 date: 2025-11-27
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-it-time-for-us-to-use-chatgpt-for-shopping-research.jpg"
 draft: false

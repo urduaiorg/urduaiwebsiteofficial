@@ -4,7 +4,7 @@ description: "ڈیپ مائنڈ نے خبردار کیا اے جی آئی سے �
 date: 2025-05-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/deepmind-warns-agi-could-affect-social-systems.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

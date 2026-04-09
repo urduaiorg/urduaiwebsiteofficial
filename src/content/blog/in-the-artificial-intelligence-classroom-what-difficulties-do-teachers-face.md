@@ -4,7 +4,7 @@ description: "عالمی تحقیقی رپورٹ  'Stop Throwing AI Tools at Te
 date: 2026-01-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/in-the-artificial-intelligence-classroom-what-difficulties-do-teachers-face.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

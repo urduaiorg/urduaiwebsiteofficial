@@ -3,7 +3,7 @@ title: "گوگل جیمینائی پرو پاکستانی طلبہ کے لیے �
 description: "گوگل جیمینائی پرو پاکستانی طلبہ کے لیے ایک سال کے لیے مفت  مکمل تفصیل  اگر آپ ایک طالبعلم ہیں اور مہنگے اے آئی سبسکرپشن پلانز آپ کے بجٹ سے باہر ہیں تو اب آپ کے"
 date: 2025-10-14
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/oogle-gemini-pro-free-for-pakistani-students-for-one-year-full-details-and-registration-method.jpg"
 draft: false

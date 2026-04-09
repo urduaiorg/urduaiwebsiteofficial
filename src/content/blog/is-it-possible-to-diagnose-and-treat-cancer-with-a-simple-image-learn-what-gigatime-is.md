@@ -3,7 +3,7 @@ title: "کیا ایک سادہ تصویر سے کینسر کی تشخیص اور
 description: "کیا ایک سادہ تصویر سے کینسر کی تشخیص اور علاج ممکن ہے؟ جانیں گیگا ٹائم کیا ہے  گیگا ٹائم مصنوعی ذہانت پر مبنی ایک ایسی نئی ٹیکنالوجی ہے جو کینسر کے مریضوں کے لی"
 date: 2025-12-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-it-possible-to-diagnose-and-treat-cancer-with-a-simple-image-learn-what-gigatime-is.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "کیا آپ جانتے ہیں لوگ چیٹ جی پی ٹی کا ا
 date: 2025-09-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/do-you-know-how-people-use-chatgpt.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

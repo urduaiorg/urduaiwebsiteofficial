@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی ہیلتھ: یہ کن لوگوں کے لیے
 date: 2026-01-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chat-gpt-health-who-is-it-for-and-how-does-it-work.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "ویڈیو اور آڈیو کی اے آئی کے ذریعے پرو
 date: 2025-01-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/video-and-audio-production-through-ai-a-new-era.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

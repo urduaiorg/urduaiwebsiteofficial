@@ -3,7 +3,7 @@ title: "آٹو میشن کلاس 6 گوگل فارم، ای میل، اور پی
 description: "آٹو میشن کلاس 6 گوگل فارم، ای میل، اور پی ڈی ایف کے ذریعے خودکار نظام  آٹو میشن کلاس 6: مصنوعی ذہانت کی دنیا میں آٹو میشن ایک بنیادی ضرورت بن چکی ہے۔ اور اردو ا"
 date: 2025-06-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/automation-class-6-automated-systems-through-google-forms-email-and-pdf.jpg"
 draft: false

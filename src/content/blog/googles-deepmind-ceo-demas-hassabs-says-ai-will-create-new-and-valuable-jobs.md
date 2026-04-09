@@ -4,7 +4,7 @@ description: "گوگل کے ڈیپ مائنڈ سی ای او دیمس ہسابس
 date: 2025-06-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-deepmind-ceo-demas-hassabs-says-ai-will-create-new-and-valuable-jobs.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

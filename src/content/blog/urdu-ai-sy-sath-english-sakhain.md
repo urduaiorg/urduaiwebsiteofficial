@@ -3,7 +3,7 @@ title: "انگریزی سیکھنا اے آئی کے ساتھ: ایک نیا ت�
 description: "انگریزی سیکھنا اے آئی کے ساتھ: ایک نیا تجربہ آج کے دور میں انگریزی زبان سیکھنا جتنا آسان ہے، شاید پہلے کبھی نہ تھا۔ خاص طور پر ان لوگوں کے لیے جو بیرون ملک کام"
 date: 2024-11-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-sy-sath-english-sakhain.jpg"
 draft: false

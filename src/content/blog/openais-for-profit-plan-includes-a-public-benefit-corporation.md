@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا منافع بخش کمپنی بننے ک
 date: 2025-01-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-for-profit-plan-includes-a-public-benefit-corporation.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

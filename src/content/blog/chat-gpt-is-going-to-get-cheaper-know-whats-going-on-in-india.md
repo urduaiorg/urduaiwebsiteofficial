@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی سستا ہونے جا رہا ہے! جانی
 date: 2025-03-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chat-gpt-is-going-to-get-cheaper-know-whats-going-on-in-india.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

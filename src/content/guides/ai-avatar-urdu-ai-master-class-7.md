@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "AI Avatar"
 level: "ابتدائی"
 image: "/images/guides/ai-avatar-urdu-ai-master-class-7.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

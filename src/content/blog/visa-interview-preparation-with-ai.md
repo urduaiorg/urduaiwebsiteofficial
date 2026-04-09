@@ -3,7 +3,7 @@ title: "ویزا انٹرویو کی تیاری مصنوعی ذہانت کی م�
 description: "ویزا انٹرویو کی تیاری مصنوعی ذہانت کی مدد سے  دوستو، ویزا انٹرویو کی بات آتے ہی اکثر لوگوں کے دل میں خوف اور ذہن میں سوالات پیدا ہوتے ہیں۔ خاص طور پر جب آپ پہ"
 date: 2024-12-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/visa-interview-preparation-with-ai.jpg"
 draft: false

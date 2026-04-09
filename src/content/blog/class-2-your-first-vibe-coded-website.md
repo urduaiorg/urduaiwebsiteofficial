@@ -4,7 +4,7 @@ description: "اردو اے آئی ماسٹر کلاس (کلاس نمبر 2): و
 date: 2026-04-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/class-2-your-first-vibe-coded-website.svg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

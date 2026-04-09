@@ -4,7 +4,7 @@ description: "جی پی ٹی 5.2 اور سائنس: کیا اے آئی نئی س
 date: 2026-02-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gpt-5-2-and-science-can-ai-discover-new-scientific-facts.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

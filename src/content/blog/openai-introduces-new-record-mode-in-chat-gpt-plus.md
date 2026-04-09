@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا چیٹ جی پی ٹی پلس میں نی
 date: 2025-07-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-introduces-new-record-mode-in-chat-gpt-plus.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

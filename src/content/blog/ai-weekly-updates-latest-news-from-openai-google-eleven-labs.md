@@ -3,7 +3,7 @@ title: "اے آئی کی ہفتہ وار اپ ڈیٹس: اوپن اے آئی، �
 description: "اے آئی کی ہفتہ وار اپ ڈیٹس: اوپن اے آئی، گوگل، الیون لیبز کی تازہ ترین خبریں  السلام علیکم دوستو، میں آپ سب کا ہماری اردو اے آئی کی ہفتہ وار اپ ڈیٹس میں استقبال"
 date: 2025-08-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ai-weekly-updates-latest-news-from-openai-google-eleven-labs.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "پریشان بتول اور           اردو    اے آ
  ہم سب کبھی نہ کبھی کسی نہ کسی مشکل میں پھنس جاتے ہیں، جہاں ہمیں فوری حل کی ضرورت ہوتی ہے۔ ایسی ہی ایک کہانی ہے بتول کی"
 date: 2025-01-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/pareshan-batool-and-urdu-ai.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "اردو اے آئی ماسٹرکلاس آن آٹومیشن گوگل ا
 description: "اردو اے آئی ماسٹرکلاس آن آٹومیشن گوگل ایپ اسکرپٹ سے آٹومیشن کا سفر کلاس نمبر 2   دفاتر میں روز بروز بڑھتے کام، ڈیٹا مینجمنٹ، اور رِپورٹس کی پیچیدگی نے ہمیں مجبو"
 date: 2025-06-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-on-automation-class-2-interface-google-app-script.jpg"
 draft: false

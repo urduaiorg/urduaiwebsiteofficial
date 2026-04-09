@@ -4,7 +4,7 @@ description: "بچوں میں اے آئی کا بڑھتا رجحان: نئی ر�
 date: 2025-09-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/growing-trend-of-ai-among-children-new-report-makes-surprising-revelations.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

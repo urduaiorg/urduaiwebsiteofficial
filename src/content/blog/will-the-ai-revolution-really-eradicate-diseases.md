@@ -4,7 +4,7 @@ description: "اے آئی کا انقلاب: کیا بیماریاں واقع�
  مصنوعی ذہانت کے میدان میں ہونے والی پیش رفت اب محض مشینوں کی صلاحیتوں تک محدود نہیں رہی۔ گوگل ڈیپ مائنڈ"
 date: 2025-04-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-the-ai-revolution-really-eradicate-diseases.jpg"
 draft: false

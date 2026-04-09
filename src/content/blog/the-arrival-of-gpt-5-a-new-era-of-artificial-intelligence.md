@@ -4,7 +4,7 @@ description: "جی پی ٹی-5 کی آمد: مصنوعی ذہانت کا نیا 
 date: 2025-08-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-arrival-of-gpt-5-a-new-era-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "چین اور پاکستان کا مصنوعی ذہانت سے چ�
 date: 2025-03-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/china-pakistan-develop-ai-powered-agricultural-app.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

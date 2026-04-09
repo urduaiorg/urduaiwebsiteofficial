@@ -4,7 +4,7 @@ description: "کیا پاک ایجوکیٹ سکول کے تمام مسائل ح�
 date: 2026-04-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/pakistans-first-ai-supported-school-management-system.svg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

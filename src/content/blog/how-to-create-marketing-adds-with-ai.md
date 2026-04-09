@@ -3,7 +3,7 @@ title: "کیا آپ بھی مصنوعی ذہانت سے اشتہار بنانا 
 description: "کیا آپ بھی مصنوعی ذہانت سے اشتہار بنانا چاہتے ہیں؟   السلام علیکم دوستوں! میرا نام قیصر ہے اور میں اردو اے آئی کی طرف سے آسان الفاظ میں عام لوگوں کو مصنوعی ذہان"
 date: 2025-04-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-to-create-marketing-adds-with-ai.jpg"
 draft: false

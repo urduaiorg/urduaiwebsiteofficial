@@ -4,7 +4,7 @@ description: "انتھروپک کی رپورٹ: کیا دنیا اے آئی کی
 date: 2025-09-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/anthropic-report-is-the-world-an-equal-participant-in-the-ai-race.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

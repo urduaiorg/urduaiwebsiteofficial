@@ -5,7 +5,7 @@ description: "گوگل کا نیا پرامپٹ انجینئرنگ پلے بُک
 date: 2025-04-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-prompt-engineering-playbook-10-golden-rules-for-gemini-and-ai-tools.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

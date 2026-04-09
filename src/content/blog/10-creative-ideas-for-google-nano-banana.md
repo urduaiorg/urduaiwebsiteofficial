@@ -4,7 +4,7 @@ description: "گوگل نینو بنانا ماڈل: 10 تخلیقی اور من
 date: 2025-12-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/10-creative-ideas-for-google-nano-banana.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

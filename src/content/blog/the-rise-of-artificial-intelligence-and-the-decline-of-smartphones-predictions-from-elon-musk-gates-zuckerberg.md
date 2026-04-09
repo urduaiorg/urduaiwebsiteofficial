@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کی پیش رفت اور سمارٹ فو�
 date: 2025-05-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-rise-of-artificial-intelligence-and-the-decline-of-smartphones-predictions-from-elon-musk-gates-zuckerberg.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

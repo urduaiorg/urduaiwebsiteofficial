@@ -3,7 +3,7 @@ title: "مَینَس اے آئی ایکسل شیٹ سے ویب سائٹ صرف1 
 description: "مَینَس اے آئی ایکسل شیٹ سے ویب سائٹ صرف1 گھنٹے میں لائیو  ہیلو دوستوں! میں ہوں اردو اے آئی سے قیصررونجھا، اور آج میں آپ کے لیے لے کر آیا ہوں ایک ایسا حیرت انگیز"
 date: 2025-04-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/manus-ai-is-magical-excel-sheet-to-live-website-in-1-hour.jpg"
 draft: false

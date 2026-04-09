@@ -4,7 +4,7 @@ description: "اردو اے آئی وائب کوڈنگ ماسٹر کلاس (کل
 date: 2026-04-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/class-1-urdu-ai-master-class-on-vibe-coding.svg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

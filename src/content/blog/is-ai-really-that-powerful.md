@@ -4,7 +4,7 @@ description: "کیا واقعی اے آئی اتنا طاقتور ہے؟  دوس
 date: 2025-05-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-ai-really-that-powerful.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

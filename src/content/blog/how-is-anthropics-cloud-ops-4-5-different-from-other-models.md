@@ -3,7 +3,7 @@ title: "اینتھروپک کا کلاڈ اوپس 4.5 اور دیگر ماڈل�
 description: "اینتھروپک کا کلاڈ اوپس 4.5 اور دیگر ماڈلز سے کیسے مختلف ہے؟ مصنوعی ذہانت کی دنیا میں ہر گزرتے دن کے ساتھ نت نئی تبدیلیاں رونما ہو رہی ہیں، لیکن کچھ ایجادات ایسی"
 date: 2025-11-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-is-anthropics-cloud-ops-4-5-different-from-other-models.jpg"
 draft: false

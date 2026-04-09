@@ -3,7 +3,7 @@ title: "2025 میں تعلیمی اداروں نے گوگل کے کن اے آئ�
 description: "2025 میں تعلیمی اداروں نے گوگل کے کن اے آئی ٹولز سے سب سے زیادہ فائدہ اٹھایا؟  2025 میں تعلیم کا شعبہ ایک بڑے انقلاب سے گزرا۔ دنیا بھر کے اسکولوں، کالجوں اور یو"
 date: 2025-12-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/which-google-ai-tools-did-educational-institutions-benefit-the-most-from-in-2025.jpg"
 draft: false

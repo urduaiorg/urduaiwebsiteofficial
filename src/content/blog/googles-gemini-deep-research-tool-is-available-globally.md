@@ -4,7 +4,7 @@ description: "گوگل کا جیمنی ڈیپ ریسرچ ٹول: اب عالمی
 date: 2025-01-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-gemini-deep-research-tool-is-available-globally.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

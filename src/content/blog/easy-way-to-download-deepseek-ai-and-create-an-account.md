@@ -3,7 +3,7 @@ title: "ڈیپ سیک اے آئی ڈاؤنلوڈ اور اکاؤنٹ بنانے 
 description: "ڈیپ سیک اے آئی ڈاؤنلوڈ اور اکاؤنٹ بنانے کا آسان طریقہ    دوستوں! کیا آپ نے سنا ہے کہ ڈیپ سیک اے آئی نے آتے ہی اے آئی کی دنیا میں ہلچل مچا دی ہے؟ اگر آپ بھی اسے"
 date: 2025-02-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/easy-way-to-download-deepseek-ai-and-create-an-account.jpg"
 draft: false

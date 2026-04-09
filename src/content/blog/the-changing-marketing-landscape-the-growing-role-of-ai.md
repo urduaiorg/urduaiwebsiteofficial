@@ -4,7 +4,7 @@ description: "بدلتی مارکیٹنگ کا منظرنامہ: اے آئی ک�
 date: 2025-07-17
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-changing-marketing-landscape-the-growing-role-of-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

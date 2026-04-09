@@ -4,7 +4,7 @@ description: "ہواوے اور ڈیپ سیک: چین کی اے آئی تاری�
 date: 2025-02-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/huawei-and-deepsec-chinas-ai-set-to-change-history.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

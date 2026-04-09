@@ -4,7 +4,7 @@ description: "گوگل کا پروجیکٹ جینی کیا ہے؟  گوگل نے
 date: 2026-02-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-googles-project-genie.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

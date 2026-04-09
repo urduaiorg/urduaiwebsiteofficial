@@ -4,7 +4,7 @@ description: "امریکہ اور چین کی دوڑ میں اے آئی ایک �
 date: 2025-02-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-a-new-twist-in-the-us-china-race.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

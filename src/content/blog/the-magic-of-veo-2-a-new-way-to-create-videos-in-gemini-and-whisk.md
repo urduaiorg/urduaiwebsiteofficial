@@ -5,7 +5,7 @@ description: "جیمِنائی اور وِسک میں ویڈیوز بنانے ک
 date: 2025-04-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

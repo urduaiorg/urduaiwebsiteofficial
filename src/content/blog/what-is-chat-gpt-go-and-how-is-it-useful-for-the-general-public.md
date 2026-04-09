@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگو
 date: 2026-01-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

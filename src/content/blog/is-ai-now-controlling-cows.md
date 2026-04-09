@@ -4,7 +4,7 @@ description: "کیا اے آئی اب گایوں کو بھی کنٹرول کر �
 date: 2026-04-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-ai-now-controlling-cows.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

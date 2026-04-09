@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت: جی پی ٹی-5 کی اگست میں م�
 date: 2025-08-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-possible-arrival-of-gpt-5-the-next-big-step-in-the-world-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

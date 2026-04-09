@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا نیا اے آئی کردار: کمپن�
 date: 2025-08-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-new-ai-role-helping-companies-increase-productivity.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

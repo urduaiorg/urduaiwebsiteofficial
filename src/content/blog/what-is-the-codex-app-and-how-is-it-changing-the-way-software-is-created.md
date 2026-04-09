@@ -4,7 +4,7 @@ description: "کوڈیکس ایپ کیا ہے اور یہ سافٹ ویئر بن
 date: 2026-02-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-the-codex-app-and-how-is-it-changing-the-way-software-is-created.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

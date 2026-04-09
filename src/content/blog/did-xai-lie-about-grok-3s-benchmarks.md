@@ -4,7 +4,7 @@ description: "کیا ایکس اے آئی نے گروک 3 کے نتائج میں
 date: 2025-03-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/did-xai-lie-about-grok-3s-benchmarks.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اردو اے آئی ماسٹر کلاس: بغیر کوڈنگ ویب س�
 description: "اردو اے آئی ماسٹر کلاس: بغیر کوڈنگ ویب سائٹ بنانا سیکھیں – پارٹ 1  اردو اے آئی کی ماسٹر کلاس میں ویب سائٹ بنانے کا ایک مکمل اور عملی طریقہ سکھایا گیا ہے۔ اس کلا"
 date: 2025-10-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-learn-to-create-a-website-without-coding-part-1.jpg"
 draft: false

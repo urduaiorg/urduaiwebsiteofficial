@@ -3,7 +3,7 @@ title: "دعوت قبول  یا  مؤدب طریقے سے رد کرنے کے ج�
 description: "Polite Ways to Accept or Decline Invitations – Learn English with Urdu AI کبھی کبھی ہمیں کسی کی دعوت قبول کرنے یا نرمی سے معذرت کرنے کی ضرورت پیش آتی ہے۔ اس مض"
 date: 2024-12-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/polite-ways-to-accept-or-decline-invitations.jpg"
 draft: false

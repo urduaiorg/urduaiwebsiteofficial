@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی میں اشتہارات: کیا بدلے گ�
 date: 2026-01-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ads-in-chatgpt-what-will-change-and-what-will-users-get.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

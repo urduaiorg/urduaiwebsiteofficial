@@ -3,7 +3,7 @@ title: "دنیا کا تیز ترین گرافک ڈیزائنر: اے آئی"
 description: "دنیا کا تیز ترین گرافک ڈیزائنر: اے آئی  السلام علیکم دوستو! میرا نام قیصر رونجہ ہے، اور میں اردو اے آئی  کی جانب سے ایک اور دلچسپ موضوع کے ساتھ حاضر ہوں۔ آج میں"
 date: 2025-03-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/world-fastest-graphic-designer-is-ai.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "کلاوڈ اِن ایکسل کیا ہے اور یہ دفتر کے
 date: 2026-02-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-excel-in-the-cloud-and-how-can-it-change-office-work.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

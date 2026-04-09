@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا فیچر:اب بات چیت کے دو�
 description: "چیٹ جی پی ٹی کا نیا فیچر:اب بات چیت کے دوران ایپس بھی استعمال کی جا سکیں گی  چیٹ جی پی ٹی صرف سوالات کے جوابات دینے کا ایک ذریعہ نہیں رہا بلکہ اب یہ ایک مکمل ان"
 date: 2025-10-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chatgpts-new-feature-now-apps-can-also-be-used-during-conversations.jpg"
 draft: false

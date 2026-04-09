@@ -3,7 +3,7 @@ title: "اے آئی کا سنہری دور: کیا چھوٹے کاروبار ا�
 description: "اے آئی کا سنہری دور: کیا چھوٹے کاروبار انقلاب کے لیے تیار ہیں؟  اب ایک فرد، پوری ٹیم کی کارکردگی دکھا سکتا ہے  گزشتہ چند ماہ میں مصنوعی ذہانت یعنی اے آئی کی دنی"
 date: 2025-05-16
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-golden-age-of-ai-are-small-businesses-ready-for-the-revolution.jpg"
 draft: false

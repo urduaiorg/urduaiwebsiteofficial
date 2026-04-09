@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا 110 ارب ڈالر کا منصوبہ: �
 date: 2026-03-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-110-billion-plan-an-attempt-to-make-ai-commonplace-worldwide.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

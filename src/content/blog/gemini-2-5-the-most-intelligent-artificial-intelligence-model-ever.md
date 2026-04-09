@@ -4,7 +4,7 @@ description: "جیمنی 2.5، اب تک کا سب سے ذہین مصنوعی ذ
 date: 2025-03-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

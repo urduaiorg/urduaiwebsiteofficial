@@ -4,7 +4,7 @@ description: "آپ مصنوعی ذہانت سے بھاگ سکتے ہیں، مگ�
 date: 2025-04-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/you-can-run-from-artificial-intelligence-but-you-cant-escape-it.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اردو اے آئی ماسٹر کلاس نمبر 5 میں مفت آ
 description: "اردو اے آئی ماسٹر کلاس نمبر 5 میں مفت آٹومیشن سیکھیں کلاس رجسٹریشن، ای میل اور واٹس ایپ خودکار نظام  آج کی کلاس میں  مفت آٹومیشن  اور ایک ایسا خودکار نظام س"
 date: 2025-06-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/learn-automation-for-free-in-urdu-ai-master-class-no-5-class-registration-email-and-whatsapp-automation-system.jpg"
 draft: false

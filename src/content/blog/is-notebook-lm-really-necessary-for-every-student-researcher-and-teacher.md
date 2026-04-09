@@ -3,7 +3,7 @@ title: "کیا نوٹ بُک ایل ایم واقعی ہر طالبعلم، ری
 description: "کیا نوٹ بُک ایل ایم واقعی ہر طالبعلم، ریسرچر اور استاد کے لیے ضروری ہے؟  آج کل ہم سب کی زندگی میں معلومات کی بھرمار ہے۔ کبھی ہم کوئی دلچسپ مضمون پڑھتے ہیں، تو ف"
 date: 2025-12-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-notebook-lm-really-necessary-for-every-student-researcher-and-teacher.jpg"
 draft: false

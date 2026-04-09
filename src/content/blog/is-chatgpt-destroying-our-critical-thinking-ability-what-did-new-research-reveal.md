@@ -4,7 +4,7 @@ description: "کیا چیٹ جی پی ٹی ہماری تنقیدی سوچ کی �
 date: 2025-08-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-chatgpt-destroying-our-critical-thinking-ability-what-did-new-research-reveal.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

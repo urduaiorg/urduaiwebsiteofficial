@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا ایلون مسک پرمقدمہ کیا 
 date: 2025-04-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-lawsuit-against-elon-musk-is-this-is-a-battle-of-power.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "بل گیٹس: اے آئی اگلے 10 سال میں انسانو�
 date: 2025-04-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/bill-gates-ai-will-replace-humans-in-the-next-10-years.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

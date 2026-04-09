@@ -3,7 +3,7 @@ title: "گوگل جیمنائی 2.5فلیش: مصنوعی ذہانت کی دنی
 description: "گوگل جیمنائی 2.5 فلیش: مصنوعی ذہانت کی دنیا میں ایک انقلابی قدم، تفصیلات اور استعمال کا مکمل طریقہ آج کی ڈیجیٹل دنیا میں جہاں روزانہ نئی ٹیکنالوجیز سامنے آ رہی"
 date: 2025-09-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gemini-2-5-flash-a-revolutionary-step-in-the-world-of-artificial-intelligence-details-and-complete-method-of-use.jpg"
 draft: false

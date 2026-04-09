@@ -4,7 +4,7 @@ description: "کیا جین اسپارک کا نیا اے آئی براؤزر آ
 date: 2025-09-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-genesparks-new-ai-browser-the-best-solution-to-the-problem-of-online-privacy.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

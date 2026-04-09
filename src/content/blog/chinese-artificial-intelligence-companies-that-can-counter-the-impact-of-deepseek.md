@@ -4,7 +4,7 @@ description: "چینی  اے آئی کمپنیاں جوڈیپ سیک کے اث�
 date: 2025-02-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chinese-artificial-intelligence-companies-that-can-counter-the-impact-of-deepseek.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

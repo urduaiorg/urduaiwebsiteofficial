@@ -4,7 +4,7 @@ description: "کیا یہ اے آئی سٹیتھو سکوپ فالج اور ہا
 date: 2025-09-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-stethoscope-a-new-milestone-in-the-rapid-diagnosis-of-heart-diseases.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

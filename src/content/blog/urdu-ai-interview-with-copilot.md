@@ -3,7 +3,7 @@ title: "اردو اے آئی کا کوپائلٹ کے ساتھ انٹرویو"
 description: "اردو اے آئی کا کوپائلٹ کے ساتھ انٹرویو  کیا کوپائلٹ واقعی ایک انقلابی قدم ہے؟  السلام علیکم دوستو! جیسا کہ میں نے کل ذکر کیا تھا، کوپائلٹ نے اپنا نیا بولنے والا"
 date: 2025-03-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-interview-with-copilot.jpg"
 draft: false

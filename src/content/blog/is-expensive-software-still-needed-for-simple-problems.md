@@ -3,7 +3,7 @@ title: "کیا سادہ مسائل کے لیے مہنگے سافٹ ویئرز ک
 description: "کیا سادہ مسائل کے لیے مہنگے سافٹ ویئرز کی ضرورت باقی ہے؟  مصنوعی ذہانت اب محض ایک جدید ٹیکنالوجی نہیں رہی بلکہ روزمرہ زندگی کے معمولات میں انقلابی تبدیلیاں لا ر"
 date: 2025-10-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-expensive-software-still-needed-for-simple-problems.jpg"
 draft: false

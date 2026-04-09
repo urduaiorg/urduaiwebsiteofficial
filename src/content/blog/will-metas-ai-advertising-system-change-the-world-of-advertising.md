@@ -3,7 +3,7 @@ title: "کیا میٹا اے آئی اشتہاری نظام اشتہارات ک�
 description: "کیا میٹا اے آئی اشتہاری نظام اشتہارات کی دنیا کو بدل دے گا؟  کیا آپ نے کبھی سوچا ہے کہ صرف ایک تصویر اور بجٹ دے کر مکمل اشتہاری مہم تیار ہو جائے؟ ایسا خواب اب م"
 date: 2025-06-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-metas-ai-advertising-system-change-the-world-of-advertising.jpg"
 draft: false

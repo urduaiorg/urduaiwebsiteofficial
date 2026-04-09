@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کا نیا تخلیقی انداز: جب ج
 date: 2025-04-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-can-turn-your-pet-into-a-human.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

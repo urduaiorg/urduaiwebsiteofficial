@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ 
 date: 2025-06-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-now-available-on-call-1-800-chatgpt-new-feature.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

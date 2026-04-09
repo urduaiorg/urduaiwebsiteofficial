@@ -3,7 +3,7 @@ title: "مایکروسافٹ 365 کوپائلٹ کی آسان سہولتیں ج�
 description: "مایکروسافٹ 365 کوپائلٹ کی آسان سہولتیں جو ہر صارف کو جاننی چاہئیں  مایکروسافٹ 365 کوپائلٹ کی 2025 کی اپڈیٹ میں شامل نئی سہولتیں خاص طور پر ایسے لوگوں کے لیے بنا"
 date: 2025-12-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/easy-microsoft-365-copilot-features-every-user-should-know.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "اردو اے آئی کلاس 7: ڈیٹا تجزیہ اور بصری ر�
 description: "اردو اے آئی کلاس 7: ڈیٹا تجزیہ اور بصری رپورٹنگ کا آسان طریقہ  اردو اے آئی ماسٹر کلاس کی ساتویں کلاس میں سکھایا گیا کہ کیسے ڈیٹا کو مؤثر انداز میں بصری شکل دی ج"
 date: 2025-07-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/data-visualization-data-analysis-urdu-ai-master-class-on-automation-class-7th.jpg"
 draft: false

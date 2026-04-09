@@ -3,7 +3,7 @@ title: "گوگل کی رپورٹ اے آئی اور سیکھنے کے مستقب
 description: "گوگل کی رپورٹ اے آئی اور سیکھنے کے مستقبل  کے بارے میں کیا کہتی ہے؟  مصنوعی ذہانت اب صرف ایک ٹیکنالوجی نہیں، بلکہ تعلیم کی وہ نئی حقیقت ہے جو طلبہ، اساتذہ اور و"
 date: 2025-11-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-does-googles-report-say-about-ai-and-the-future-of-learning.jpg"
 draft: false

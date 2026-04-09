@@ -4,7 +4,7 @@ description: "ڈیپ ایل  اے آئی ایجنٹ : کیا یہ اوپن اے
 date: 2025-09-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/eep-ai-agent-will-it-be-a-challenge-for-openai-and-microsoft.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

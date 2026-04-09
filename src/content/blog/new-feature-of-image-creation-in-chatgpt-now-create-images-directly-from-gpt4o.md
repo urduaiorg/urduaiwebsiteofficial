@@ -3,7 +3,7 @@ title: "اب جی پی ٹی 4 او سے براہِ راست تصویریں بن�
 description: "اب جی پی ٹی 4 او سے براہِ راست تصویریں بنائیں!تصاویر کی تخلیق کا نیا فیچر  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اور آج  ایک ایسی دلچسپ تکنیکی دنیا می"
 date: 2025-03-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/new-feature-of-image-creation-in-chatgpt-now-create-images-directly-from-gpt4o.jpg"
 draft: false

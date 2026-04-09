@@ -3,7 +3,7 @@ title: "گوگل نوٹ بُک ایل ایم کیا ہے؟"
 description: "گوگل نوٹ بُک ایل ایم کیا ہے؟  ہیلو دوستو! میں ہوں اردو اے آئی سے قیصر رونجھا ، اور آج میں آپ کے لیے ایک ایسی خبر لایا ہوں جو ٹیکنالوجی کی دنیا میں واقعی ایک انق"
 date: 2025-04-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-notebook-lm-explained-urdu-ai.jpg"
 draft: false

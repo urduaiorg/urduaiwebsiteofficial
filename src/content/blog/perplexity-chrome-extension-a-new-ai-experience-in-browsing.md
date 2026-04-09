@@ -4,7 +4,7 @@ description: "پرپلیکسٹی کروم ایکسٹینشن: براؤزنگ م
 date: 2025-05-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexity-chrome-extension-a-new-ai-experience-in-browsing.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

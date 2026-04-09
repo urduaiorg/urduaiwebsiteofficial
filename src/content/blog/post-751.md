@@ -3,7 +3,7 @@ title: "کیا مُستقبل کے خطبے اے آئی کی مدد سے لکھ�
 description: "[embed]https://www.youtube.com/watch?v=XeJsLWmTFd8[/embed]یہ تو آپ نے محسوس کیا ہوگا کہ جب آپ کسی موضوع پر اپنے ارد گرد لوگوں سے بات کرتے ہیں تو اسی چیز کے متعل"
 date: 2024-04-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 image: "/images/blog/post-751.jpg"

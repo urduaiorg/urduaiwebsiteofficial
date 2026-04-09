@@ -4,7 +4,7 @@ description: "اے آئی امیج جنریٹر مارکیٹ کے اعداد و 
 date: 2025-03-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-image-generator-market-statistics-an-analysis.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

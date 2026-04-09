@@ -4,7 +4,7 @@ description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی 
 date: 2026-01-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-artificial-intelligence-good-for-children-review-of-unicef-report.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

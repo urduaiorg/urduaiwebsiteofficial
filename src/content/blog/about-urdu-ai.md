@@ -3,7 +3,7 @@ title: "About Urdu Ai"
 description: "Urdu Ai is an educational initiative that aims to democratize the field of artificial intelligence (AI) by providing accessible and inclusive learning resources"
 date: 2023-04-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/about-urdu-ai.jpg"
 draft: false

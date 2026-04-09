@@ -4,7 +4,7 @@ description: "اوپن اے آئی کا نیا چیٹ جی پی ٹی ایجنٹ:
 date: 2025-07-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-new-chat-gpt-agent-your-virtual-computer-companion.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

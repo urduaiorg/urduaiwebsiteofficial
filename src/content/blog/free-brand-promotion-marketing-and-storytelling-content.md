@@ -3,7 +3,7 @@ title: "فری برانڈ پروموشن مارکیٹنگ اور اسٹوری ٹ
 description: "فری برانڈ پروموشن مارکیٹنگ اور اسٹوری ٹیلنگ کونٹینٹ   دوستو! میرا نام ہے قیصر رنجھا اور آج کے اس دلچسپ بلاگ میں ہم جانیں گے کہ آپ کس طرح AI کی مدد سے اپنے برانڈ"
 date: 2025-03-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/free-brand-promotion-marketing-and-storytelling-content.jpg"
 draft: false

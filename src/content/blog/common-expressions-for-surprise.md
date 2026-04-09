@@ -3,7 +3,7 @@ title: "حیرانی اور دلچسپی کے اظہار کے جملے"
 description: "حیرانی اور دلچسپی کے اظہار کے جملے– اردو AI کے ساتھ انگریزی سیکھیں ہم سب کو کبھی نہ کبھی حیرت کا اظہار کرنا پڑتا ہے۔ اس مضمون میں ہم آپ کو ایسے جملے سکھائیں گے"
 date: 2024-12-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/common-expressions-for-surprise.jpg"
 draft: false

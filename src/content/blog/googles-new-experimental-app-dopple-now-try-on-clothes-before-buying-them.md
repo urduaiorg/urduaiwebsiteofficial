@@ -4,7 +4,7 @@ description: "گوگل کا نیا تجرباتی ایپ ڈوپل: اب کپڑے
 date: 2025-07-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-experimental-app-dopple-now-try-on-clothes-before-buying-them.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

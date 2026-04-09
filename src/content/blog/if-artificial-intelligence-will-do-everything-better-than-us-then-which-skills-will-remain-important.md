@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت ہم سے سب کچھ بہتر کرے گی
 date: 2025-03-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/if-artificial-intelligence-will-do-everything-better-than-us-then-which-skills-will-remain-important.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

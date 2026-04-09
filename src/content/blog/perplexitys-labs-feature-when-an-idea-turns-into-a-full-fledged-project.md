@@ -6,7 +6,7 @@ description: "پرپلیکسٹی کا لیبز فیچر: جب ایک خیال م
 date: 2025-05-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexitys-labs-feature-when-an-idea-turns-into-a-full-fledged-project.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

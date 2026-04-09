@@ -4,7 +4,7 @@ description: "اے آئی سب کے لیے: خواب وسائل کے محتاج 
 date: 2025-01-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-for-all-the-dream-doesnt-need-resources.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

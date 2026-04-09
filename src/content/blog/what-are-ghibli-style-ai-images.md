@@ -4,7 +4,7 @@ description: "گبلی طرز کی اے آئی  تصاویر کیا ہوتی ہ
 date: 2025-03-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-are-ghibli-style-ai-images.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

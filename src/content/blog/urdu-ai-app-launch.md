@@ -4,7 +4,7 @@ description: "اُردو زبان میں مصنوعی ذہانت سیکھنے ک
  مصنوعی ذہانت (اے آئی) کو اُردو زبان میں سیکھنے کے خواہشمند افراد کے لیے ایک نئی ایپ متعارف کرا"
 date: 2025-05-01
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-app-launch.jpg"
 draft: false

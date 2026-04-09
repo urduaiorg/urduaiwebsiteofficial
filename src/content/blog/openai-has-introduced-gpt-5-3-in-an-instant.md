@@ -4,7 +4,7 @@ description: "اوپن اے آئی نے جی پی ٹی-5.3 اِن سٹنٹ مت�
 date: 2026-03-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-has-introduced-gpt-5-3-in-an-instant.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

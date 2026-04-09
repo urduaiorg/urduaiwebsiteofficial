@@ -4,7 +4,7 @@ description: "10 چیٹ جی پی ٹی پرامپٹس جو آپ کی سوچ کو
 date: 2025-06-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/10-chat-gpt-prompts-that-will-make-your-thinking-faster-and-work-more-effective.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

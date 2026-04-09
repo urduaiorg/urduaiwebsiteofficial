@@ -4,7 +4,7 @@ description: "کیا آپ جانتے ہیں کہ اے آئی روزانہ 34 م�
  چلیں مان لیتے ہیں  انسانوں کو کچھ نہ کچھ تخلیق کرنا بہت پسند ہے۔ چاہے غاروں کی دیواروں پر تصویریں ب"
 date: 2025-04-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/did-you-know-that-ai-creates-34-million-images-every-day.jpg"
 draft: false

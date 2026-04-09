@@ -4,7 +4,7 @@ description: "اگر آپ تحریرلکھتے ہیں تو یہ 5  اے آئی 
 date: 2025-05-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/if-you-write-these-5-ai-prompts-are-a-must-for-you.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

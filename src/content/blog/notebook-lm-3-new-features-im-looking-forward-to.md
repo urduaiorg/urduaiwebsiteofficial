@@ -4,7 +4,7 @@ description: "نوٹ بک ایل ایم: 3 نئے فیچرز جن کا مجھے 
 date: 2025-07-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/notebook-lm-3-new-features-im-looking-forward-to.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

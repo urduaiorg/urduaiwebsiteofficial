@@ -3,7 +3,7 @@ title: "اردو اے آئی چیمپس کلاس 3  بچوں کے لیے دلچ
 description: "اردو اے آئی چیمپس کلاس 3  بچوں کے لیے دلچسپ انداز میں اے آئی ٹولز کی وضاحت  اردو اے آئی کی جانب سے بچوں کے لیے ترتیب دی گئی ماسٹر کلاسز کی تیسری قسط میں ہمارے ن"
 date: 2025-06-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-champs-class-3-explains-ai-tools-in-an-interesting-way-for-children.jpg"
 draft: false

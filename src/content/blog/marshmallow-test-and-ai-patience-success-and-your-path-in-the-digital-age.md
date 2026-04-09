@@ -3,7 +3,7 @@ title: "مارشمیلو ٹیسٹ اور اے آئی: صبر، کامیابی ا
 description: "مارشمیلو ٹیسٹ اور اے آئی: صبر، کامیابی اور ڈیجیٹل دور میں آپ کا راستہ  ایلون مسک نے حال ہی میں ایک دلچسپ تجربے کا ذکر کیا جسے مارشمیلو ٹیسٹ کہا جاتا ہے۔ یہ ٹیسٹ"
 date: 2025-12-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/marshmallow-test-and-ai-patience-success-and-your-path-in-the-digital-age.jpg"
 draft: false

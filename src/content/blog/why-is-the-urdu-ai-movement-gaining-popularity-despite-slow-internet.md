@@ -3,7 +3,7 @@ title: "سست انٹرنیٹ کے باوجود اُردو اے آئی کی تح
 description: "سست انٹرنیٹ کے باوجود اُردو اے آئی کی تحریک کیوں مقبول ہو رہی ہے؟  یہ ویڈیو اُردو اے آئی پلیٹ فارم نے اوپن اے آئی کے جدید اے آئی ویڈیو ٹول Sora 2 سے بنائی ہے۔ ج"
 date: 2025-10-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/why-is-the-urdu-ai-movement-gaining-popularity-despite-slow-internet.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کے لیے درست اور غلط کا ت
 date: 2026-01-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-is-right-and-wrong-being-determined-for-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

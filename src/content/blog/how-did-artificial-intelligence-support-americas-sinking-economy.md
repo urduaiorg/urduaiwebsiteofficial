@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت نے امریکہ کی ڈوبتی معیشت ک�
 description: "مصنوعی ذہانت نے امریکہ کی ڈوبتی معیشت کو کیسے سہارا دیا؟  جب دنیا کی بڑی معیشتیں قرض، مہنگائی اور مہنگی شرح سود کے بوجھ تلے دبی جا رہی ہیں، امریکہ کی معیشت اب ت"
 date: 2025-10-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-did-artificial-intelligence-support-americas-sinking-economy.jpg"
 draft: false

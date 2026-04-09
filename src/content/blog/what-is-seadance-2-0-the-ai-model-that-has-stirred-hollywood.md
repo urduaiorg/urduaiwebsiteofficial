@@ -4,7 +4,7 @@ description: "سی ڈانس 2.0 کیا ہے؟ وہ اے آئی ماڈل جس ن�
 date: 2026-02-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-seadance-2-0-the-ai-model-that-has-stirred-hollywood.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

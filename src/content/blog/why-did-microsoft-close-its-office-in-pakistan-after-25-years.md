@@ -3,7 +3,7 @@ title: "25 سال بعد مائیکروسافٹ نے پاکستان میں دف�
 description: "25 سال بعد مائیکروسافٹ نے پاکستان میں دفتر کیوں بند کر دیا؟ ٹیکنالوجی کی دنیا کی بڑی کمپنی مائیکروسافٹ نے پاکستان میں اپنا دفتر بند کرنے کا فیصلہ کیا ہے۔  جو گز"
 date: 2025-07-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/why-did-microsoft-close-its-office-in-pakistan-after-25-years.jpg"
 draft: false

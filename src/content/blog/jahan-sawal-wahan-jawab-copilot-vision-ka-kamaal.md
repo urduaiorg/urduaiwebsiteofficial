@@ -4,7 +4,7 @@ description: "جہاں سوال، وہاں جواب: کوپائلٹ وژن کا 
 date: 2024-12-07
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/jahan-sawal-wahan-jawab-copilot-vision-ka-kamaal.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

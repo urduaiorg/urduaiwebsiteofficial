@@ -3,7 +3,7 @@ title: "اردو اے آئی ایجنٹ"
 description: "اردو اے آئی ایجنٹ  ہیلو دوستو! کیا آپ نے کبھی سوچا ہے کہ آپ کے ڈیجیٹل کام خود بخود انجام پائیں؟ جی ہاں، اب اردو اے آئی ایجنٹ کی بدولت یہ ممکن ہو چکا ہے! ہم ایک"
 date: 2025-02-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/sary-kam-ab-urdu-ai-agent-karega.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "اوپن اے آئی نے جی پی ٹی-4.5 اورین، اپنا
 date: 2025-03-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-latest-ai-model-gpt-4-5-orion-has-been-launched.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

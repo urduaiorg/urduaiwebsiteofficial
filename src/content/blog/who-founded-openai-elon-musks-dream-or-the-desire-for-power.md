@@ -4,7 +4,7 @@ description: "ایلون مسک اور اوپن اے آئی: دو راستے، �
 date: 2025-04-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/who-founded-openai-elon-musks-dream-or-the-desire-for-power.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

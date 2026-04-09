@@ -4,7 +4,7 @@ description: "GPT-4.1 کی آمد: پروگرامنگ کا نیا دور مصن
 date: 2025-04-27
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-arrival-of-gpt-4-1-a-new-era-of-programming.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

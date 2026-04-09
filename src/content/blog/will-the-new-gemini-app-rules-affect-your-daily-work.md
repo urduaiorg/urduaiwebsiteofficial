@@ -3,7 +3,7 @@ title: "کیا جمینی ایپ کے نئے اصول آپ کے روزمرہ ک�
 description: "کیا جمینی ایپ کے نئے اصول آپ کے روزمرہ کام پر اثر ڈالیں گے؟  کیا آپ جانتے ہیں کہ گوگل نے اپنی جمینی ایپ کے نئے اصول جو روزانہ اور ماہانہ استعمال کی واضح حدیں مق"
 date: 2025-09-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-the-new-gemini-app-rules-affect-your-daily-work.jpg"
 draft: false

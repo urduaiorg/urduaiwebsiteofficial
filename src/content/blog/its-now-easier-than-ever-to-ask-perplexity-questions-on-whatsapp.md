@@ -4,7 +4,7 @@ description: "واٹس ایپ پر اب ’پرپلیکسٹی‘ سے سوال �
 date: 2025-05-06
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

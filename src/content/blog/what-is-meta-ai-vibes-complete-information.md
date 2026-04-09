@@ -3,7 +3,7 @@ title: "میٹا اے آئی وائبز کیا ہے؟ مکمل معلومات"
 description: "میٹا اے آئی وائبز کیا ہے؟ مکمل معلومات  اگر آپ جدید ٹیکنالوجی میں دلچسپی رکھتے ہیں، خاص طور پر مصنوعی ذہانت میں، تو میٹا کی نئی اپڈیٹ اے آئی وائبز آپ کے لیے انت"
 date: 2025-09-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-meta-ai-vibes-complete-information.jpg"
 draft: false

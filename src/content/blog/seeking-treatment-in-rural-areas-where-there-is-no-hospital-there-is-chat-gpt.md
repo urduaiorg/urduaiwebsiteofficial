@@ -4,7 +4,7 @@ description: "دیہی علاقوں میں علاج کی تلاش: جہاں اس
 date: 2026-01-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/seeking-treatment-in-rural-areas-where-there-is-no-hospital-there-is-chat-gpt.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

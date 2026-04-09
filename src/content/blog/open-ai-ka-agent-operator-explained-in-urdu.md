@@ -3,7 +3,7 @@ title: "اوپن اے آئی کا ایجنٹ  آپریٹر کی مکمل وضا
 description: "اوپن اے آئی کا ایجنٹ  آپریٹر کی مکمل وضاحت  ہیلو دوستوں! آج ہم ، آپ کو اوپن اے آئی کے نئے انقلابی ٹول 'آپریٹر' کے بارے میں بتانے جا رہا ہوں۔ یہ ایک ایسا حیرت ان"
 date: 2025-01-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/open-ai-ka-agent-operator-explained-in-urdu.jpg"
 draft: false

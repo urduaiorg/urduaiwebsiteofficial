@@ -3,7 +3,7 @@ title: "کیا گوگل کا اے آئی موڈ کے ذریعے سفر کی تی
 description: "کیا گوگل کا اے آئی موڈ کے ذریعے سفر کی تیاری اب پہلے سے بھی آسان ہو گئی ہے؟  چھٹیاں منانے کا وقت ہو، دوستوں کے ساتھ گھومنے جانا ہو یا خاندان کے ساتھ کہیں سیر و"
 date: 2025-11-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/has-googles-ai-mode-made-travel-preparation-easier-than-ever.jpg"
 draft: false

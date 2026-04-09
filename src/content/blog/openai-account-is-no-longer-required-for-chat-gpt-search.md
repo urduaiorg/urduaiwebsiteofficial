@@ -4,7 +4,7 @@ description: "اب چیٹ جی پی ٹی سرچ کے لیے اوپن اے آئی
 date: 2025-02-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-account-is-no-longer-required-for-chat-gpt-search.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

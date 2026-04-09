@@ -4,7 +4,7 @@ description: "کیا آپ کا اے آئی اسسٹنٹ صرف آپ کے فائ
 date: 2025-12-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/does-your-ai-assistant-only-think-about-your-benefit.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

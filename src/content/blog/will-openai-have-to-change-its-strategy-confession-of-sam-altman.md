@@ -4,7 +4,7 @@ description: "کیا اوپن اے آئی کو اپنی حکمت عملی بدل
 date: 2025-02-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/will-openai-have-to-change-its-strategy-confession-of-sam-altman.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

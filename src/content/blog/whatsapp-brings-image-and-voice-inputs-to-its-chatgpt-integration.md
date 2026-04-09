@@ -3,7 +3,7 @@ title: "واٹس ایپ میں چیٹ جی پی ٹی کے لیے تصویر او
 description: "واٹس ایپ میں چیٹ جی پی ٹی کے لیے تصویر اور آواز کی سہولت شامل  ایک وقت تھا جب واٹس ایپ صرف پیغام رسانی کا ذریعہ تھا، لیکن اب کہانی بدل چکی ہے۔ ٹیکنالوجی کی دنیا"
 date: 2025-02-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration.jpg"
 draft: false

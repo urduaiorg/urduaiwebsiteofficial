@@ -4,7 +4,7 @@ description: "میٹا کی بڑی برطرفیاں: کیا مصنوعی ذہا�
 date: 2025-02-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/metas-big-layoff-is-artificial-intelligence-replacing-human-jobs.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

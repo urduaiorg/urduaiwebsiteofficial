@@ -5,7 +5,7 @@ description: "کیا آپ کی نوکری پہلے ہی ختم ہو چکی ہے�
  کیا آپ کو یقین ہے کہ آپ جو نوکری آج کر رہے ہیں۔ وہ مستقبل میں بھی رہے"
 date: 2025-04-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/has-your-job-already-ended-and-you-dont-even-know-it.jpg"
 draft: false

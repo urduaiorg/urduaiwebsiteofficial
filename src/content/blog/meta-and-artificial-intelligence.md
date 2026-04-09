@@ -3,7 +3,7 @@ title: "میٹا اور مصنوعی ذہانت: خطرناک حدیں؟"
 description: "میٹا اور مصنوعی ذہانت: خطرناک حدیں؟  یہ حیران کر دینے والی خبر ہے! مارک زکربرگ نے ایک دن مصنوعی عمومی ذہانت (AGI) کو سب کے لیے کھولنے کا اعلان کیا تھا۔ لیکن اب"
 date: 2025-02-15
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/meta-and-artificial-intelligence.jpg"
 draft: false

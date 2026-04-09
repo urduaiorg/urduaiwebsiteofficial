@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت اور وہ سوال جو ہم پوچھنا بھ
 description: "مصنوعی ذہانت اور وہ سوال جو ہم پوچھنا بھول گئے  مصنوعی ذہانت نے ہماری زندگیوں میں حیرت انگیز تبدیلیاں لانا شروع کر دی ہیں، لیکن کیا ہم اس کی طاقت کو صحیح معنوں"
 date: 2025-10-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/artificial-intelligence-and-the-question-we-forgot-to-ask.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "یونیورسل میوزک اور یودیئو(Udio) کا نیا نظا
 description: "یونیورسل میوزک اور یودیئو(Udio) کا نیا نظام: فنکاروں کے حق میں پہلا اے آئی پلیٹ فارم  یونیورسل میوزک گروپ (Universal Music Group) اور یودیئو (Udio) نے ایک ایسا"
 date: 2025-11-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/universal-music-and-udios-new-system-the-first-ai-platform-in-favor-of-artists.jpg"
 draft: false

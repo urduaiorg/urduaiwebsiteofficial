@@ -3,7 +3,7 @@ title: "کیا جیمنی اے پی آئی میں گوگل میپس کی شمو�
 description: "کیا جیمنی اے پی آئی میں گوگل میپس کی شمولیت لوکل سرچ کو بدل دے گی؟  ڈیولپرز کے لیے یہ ایک بڑی خبر ہے کہ اب وہ جیمنی اے پی آئی میں گوگل میپس کا استعمال کر کے ایس"
 date: 2025-10-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-the-addition-of-google-maps-to-the-gemini-api-change-local-search.jpg"
 draft: false

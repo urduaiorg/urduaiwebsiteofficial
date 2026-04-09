@@ -3,7 +3,7 @@ title: "گوگل جیمنی 2.5 سب سے زیادہ ایڈوانسڈ کوڈنگ
 description: "گوگل جیمنی 2.5 سب سے زیادہ ایڈوانسڈ کوڈنگ ورژن  مصنوعی ذہانت کی دنیا میں گوگل کا نیا ماڈل 'جیمینائی 2.5' ایک اہم پیش رفت کے طور پر سامنے آیا ہے۔ اس ماڈل کو خاص"
 date: 2025-05-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gemini-2-5-most-advanced-coding-version.jpg"
 draft: false

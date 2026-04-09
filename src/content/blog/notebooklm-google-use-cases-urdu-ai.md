@@ -4,7 +4,7 @@ description: "گوگل نوٹ بُک ایل ایم سے کیسے فائدا لے
 date: 2025-05-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/notebooklm-google-use-cases-urdu-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

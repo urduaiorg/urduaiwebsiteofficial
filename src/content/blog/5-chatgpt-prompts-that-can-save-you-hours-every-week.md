@@ -4,7 +4,7 @@ description: "پانچ چیٹ جی پی ٹی پرامپٹس جو آپ کے ہر 
 date: 2025-05-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/5-chatgpt-prompts-that-can-save-you-hours-every-week.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

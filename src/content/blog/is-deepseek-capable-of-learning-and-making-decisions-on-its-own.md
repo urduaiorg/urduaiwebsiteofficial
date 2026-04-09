@@ -3,7 +3,7 @@ title: "کیا ڈیپ سیک خود سیکھنے اور فیصلے کرنے کے
 description: "کیا ڈیپ سیک خود سیکھنے اور فیصلے کرنے کے قابل ہے؟  کیا آپ نے کبھی کسی ایسے ذہین سسٹم کے بارے میں سُنا ہے جو انسانوں کی طرح نہ صرف سوالوں کے جواب دے بلکہ خود سوچ"
 date: 2025-12-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/is-deepseek-capable-of-learning-and-making-decisions-on-its-own.jpg"
 draft: false

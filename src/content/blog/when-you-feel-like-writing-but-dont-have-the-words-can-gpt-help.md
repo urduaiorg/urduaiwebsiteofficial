@@ -6,7 +6,7 @@ description: "جب لکھنے کو دل کرے اور الفاظ نہ ہوں، �
 date: 2025-06-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/when-you-feel-like-writing-but-dont-have-the-words-can-gpt-help.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

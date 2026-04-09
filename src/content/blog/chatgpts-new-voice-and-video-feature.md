@@ -4,7 +4,7 @@ description: "چَیٹ جی پی ٹی کا نیا وائس اور وژن فیچ�
  سوچیں، اگر آپ کا ایک ورچوئل دوست 24 گھنٹے، ہر لمحہ ویڈیو کال پر آپ کے ساتھ موجود ہو تو کیسا ہو؟ چَیٹ جی پی ٹی کے نئے وائ"
 date: 2024-12-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chatgpts-new-voice-and-video-feature.jpg"
 draft: false

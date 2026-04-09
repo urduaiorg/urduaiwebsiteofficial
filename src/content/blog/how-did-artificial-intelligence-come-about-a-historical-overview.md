@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کیسے وجود میں آئی؟ ایک تار�
 description: "مصنوعی ذہانت کیسے وجود میں آئی؟ ایک تاریخی جائزہ  کیا مشینیں انسانوں کی طرح سوچ سکتی ہیں؟ یہ سوال آج ٹیکنالوجی کی دنیا کا سب سے بڑا موضوع لگتا ہے۔ لیکن اس کی جڑ"
 date: 2025-10-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-did-artificial-intelligence-come-about-a-historical-overview.jpg"
 draft: false

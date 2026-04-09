@@ -3,7 +3,7 @@ title: "جیمنی انٹرپرائز کیا ہے اور یہ کیسے آپ کا
 description: "جیمنی انٹرپرائز کیا ہے اور یہ کیسے آپ کا کام بدل سکتا ہے؟  مصنوعی ذہانت اب محض ایک ٹیکنالوجی نہیں رہی بلکہ یہ ایک ایسا موقع ہے جو آپ کے کام کرنے کے انداز، آپ"
 date: 2025-10-16
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-gemini-enterprise-and-how-can-it-change-your-work.jpg"
 draft: false

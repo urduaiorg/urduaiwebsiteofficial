@@ -4,7 +4,7 @@ description: "اوپن اے آئی فرنٹیئر کیا ہے اور یہ کمپ
 date: 2026-02-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-the-open-ai-frontier-and-how-is-it-making-things-easier-for-companies.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

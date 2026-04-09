@@ -4,7 +4,7 @@ description: "نوٹ بُک ایل ایم کا نیا فیچر آپ کی سی�
 date: 2025-10-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-does-notebooklm-new-feature-speed-up-your-learning.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

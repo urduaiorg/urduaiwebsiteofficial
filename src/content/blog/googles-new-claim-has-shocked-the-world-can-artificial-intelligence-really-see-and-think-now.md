@@ -3,7 +3,7 @@ title: "گوگل کے نئے دعوے نے دنیا کو حیران کر دیا�
 description: "گوگل کے نئے دعوے نے دنیا کو حیران کر دیا۔ کیا مصنوعی ذہانت اب واقعی دیکھ اور سوچ سکتی ہیں؟ گوگل ڈیپ مائنڈ کی جانب سے حال ہی میں متعارف کرایا گیا ’جیمنائی 3 پرو‘"
 date: 2025-12-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/googles-new-claim-has-shocked-the-world-can-artificial-intelligence-really-see-and-think-now.jpg"
 draft: false

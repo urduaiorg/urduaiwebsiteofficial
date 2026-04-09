@@ -3,7 +3,7 @@ title: "میٹا کی اربوں ڈالر کی سرمایہ کاری یا مقا
 description: "میٹا کی اربوں ڈالر کی سرمایہ کاری یا مقامی افراد کی پریشانی؟  فیس بک کی مرکزی کمپنی میٹا اس وقت لوئیزیانا کے ایک چھوٹے سے زرعی قصبے رچلینڈ پیریش میں 40 لاکھ مرب"
 date: 2025-10-07
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/metas-billion-dollar-investment-or-the-worries-of-local-people.jpg"
 draft: false

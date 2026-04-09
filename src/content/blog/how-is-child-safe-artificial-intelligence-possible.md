@@ -4,7 +4,7 @@ description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی 
 date: 2026-01-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/how-is-child-safe-artificial-intelligence-possible.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

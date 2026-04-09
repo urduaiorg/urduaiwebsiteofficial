@@ -3,7 +3,7 @@ title: "ایمیزون کے اسمارٹ چشمے: کیا ڈیلیوری ڈرا�
 description: "ایمیزون کے اسمارٹ چشمے: کیا ڈیلیوری ڈرائیورز اب بغیر فون کے کام کر سکیں گے؟  روزانہ فون پر نظریں جمائے رکھنا نہ صرف وقت ضائع کرتا ہے بلکہ ڈلیوری ڈرائیورز کے لیے"
 date: 2025-10-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/amazons-smart-glasses-will-delivery-drivers-now-be-able-to-work-without-phones.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "اوپن اے آئی اور کور ویو کا بڑا معاہدہ
 date: 2025-03-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-and-coreview-sign-11-9-billion-five-year-partnership.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

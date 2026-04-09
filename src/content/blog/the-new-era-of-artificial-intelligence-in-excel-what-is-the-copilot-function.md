@@ -4,7 +4,7 @@ description: "ایکسل میں مصنوعی ذہانت کا نیا دور:کو 
 date: 2025-08-28
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-new-era-of-artificial-intelligence-in-excel-what-is-the-copilot-function.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

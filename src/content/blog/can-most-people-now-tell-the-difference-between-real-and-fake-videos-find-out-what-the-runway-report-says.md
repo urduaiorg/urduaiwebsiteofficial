@@ -4,7 +4,7 @@ description: "کیا زیادہ تر لوگ اب اصلی اور مصنوعی و
 date: 2026-02-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-most-people-now-tell-the-difference-between-real-and-fake-videos-find-out-what-the-runway-report-says.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "کیا انتھروپِک کلاؤڈ کا نیا میموری فیچر
 description: "کیا انتھروپِک کلاؤڈ کا نیا میموری فیچراے آئی چیٹ کو ہمیشہ یاد رکھنے کے قابل بنا دے گا؟  مصنوعی ذہانت کے شعبے میں ایک اور شاندار پیش رفت سامنے آئی ہے۔ عالمی شہر"
 date: 2025-09-16
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 image: "/images/blog/will-anthropic-clouds-new-memory-feature-make-ai-chat-always-rememberable.jpg"
 adsense: true
 draft: false

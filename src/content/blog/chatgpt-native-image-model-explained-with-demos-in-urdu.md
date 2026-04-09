@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی فور او کا نیٹو امیج ماڈل:
 date: 2025-03-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-native-image-model-explained-with-demos-in-urdu.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

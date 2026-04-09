@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی کی یادداشت اور کنٹرولز ن
 date: 2025-04-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/does-chatgpt-now-remember-you-new-memory-and-surprising-updates-to-controls.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

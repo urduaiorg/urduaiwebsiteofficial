@@ -3,7 +3,7 @@ title: "کیا یوٹیوب کا نیا ٹول ڈیپ فیک ویڈیوز کو �
 description: "کیا یوٹیوب کا نیا ٹول ڈیپ فیک ویڈیوز کو روک پائے گا؟  یوٹیوب نے ایک نیا مصنوعی ذہانت پر مبنی ٹول متعارف کرایا ہے جو تخلیق کاروں کی اجازت کے بغیر ان کی آواز یا چ"
 date: 2025-10-31
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-youtubes-new-tool-be-able-to-stop-deepfake-videos.jpg"
 draft: false

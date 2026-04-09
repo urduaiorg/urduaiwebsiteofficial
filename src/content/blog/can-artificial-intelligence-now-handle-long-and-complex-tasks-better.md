@@ -4,7 +4,7 @@ description: "کلاڈ اوپس 4.6: کیا مصنوعی ذہانت اب طوی�
 date: 2026-02-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-artificial-intelligence-now-handle-long-and-complex-tasks-better.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

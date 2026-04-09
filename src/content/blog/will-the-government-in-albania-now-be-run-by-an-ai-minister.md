@@ -3,7 +3,7 @@ title: "کیا البانیہ میں حکومت اب اے آئی وزیر کے �
 description: "کیا البانیہ میں حکومت اب اے آئی وزیر کے ذریعے چلائی جائے گی؟  یورپی ملک البانیہ نے دنیا کو حیران کر دیا ہے۔ وزیرِاعظم ایڈی راما نے اعلان کیا ہے کہ ان کی کابینہ"
 date: 2025-09-13
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 image: "/images/blog/will-the-government-in-albania-now-be-run-by-an-ai-minister.jpg"
 adsense: true
 draft: false

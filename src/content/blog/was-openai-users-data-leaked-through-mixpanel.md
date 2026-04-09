@@ -3,7 +3,7 @@ title: "کیا مکس پینل کے ذریعے اوپن اے آئی صارفین
 description: "کیا مکس پینل کے ذریعے اوپن اے آئی صارفین کا ڈیٹا لیک ہوا ؟  اوپن اے آئی کی جانب سے حال ہی میں ایک اہم سیکیورٹی واقعے کے حوالے سے ایک شفاف بیان جاری کیا گیا ہے،"
 date: 2025-11-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/was-openai-users-data-leaked-through-mixpanel.jpg"
 draft: false

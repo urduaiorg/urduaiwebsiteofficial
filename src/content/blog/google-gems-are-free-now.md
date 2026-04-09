@@ -3,7 +3,7 @@ title: "گوگل جیمز اب مفت میں"
 description: "گوگل جیمزاب مفت میں  ہیلو دوستوں! میں ہوں اردو اے آئی سے قیصر رونجھا ، اور آج میں آپ کو متعارف کرانے والا ہوں گوگل کے ایک نئے اور زبردست تحفے سے  'گوگل جیمز'۔ ک"
 date: 2025-04-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-gems-are-free-now.jpg"
 draft: false

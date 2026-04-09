@@ -4,7 +4,7 @@ description: "طلبہ کے لیے مفت اے آئی ٹولز: پرپلیکسی
 date: 2025-07-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/free-ai-tools-for-students-perplexity-and-global-sharing-of-shareid.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

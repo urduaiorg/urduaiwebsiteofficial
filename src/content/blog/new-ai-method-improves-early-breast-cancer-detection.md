@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کا نیا طریقہ: ابتدائی م�
 date: 2025-01-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-ai-method-improves-early-breast-cancer-detection.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

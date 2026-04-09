@@ -4,7 +4,7 @@ description: "خلائی تحقیق میں نیا قدم: گوگل اور ناس
 date: 2025-08-13
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/new-step-in-space-research-google-and-nasas-ai-based-medical-system.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "سعودی عرب کا اے آئی انقلاب صدر ٹرمپ کا ت�
 description: "سعودی عرب کا اے آئی انقلاب   صدر ٹرمپ کا تاریخی دورہ 2025 اے آئی صرف ٹول نہیں، اب طرزِ زندگی ہے دو روز پہلے سعودی عرب میں ایک غیر معمولی منظر دیکھنے کو ملا۔ امر"
 date: 2025-05-17
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/saudi-arabias-ai-revolution-trump-visit-2025.jpg"
 draft: false

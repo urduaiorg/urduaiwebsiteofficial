@@ -3,7 +3,7 @@ title: "کیا خلا میں مصنوعی ذہانت کو سورج کی روشن
 description: "کیا خلا میں مصنوعی ذہانت کو سورج کی روشنی سے چلایا جا سکتا ہے؟ جانیں گوگل کا منصوبہ کیا ہے؟  زمین پر توانائی کی کمی اور بڑھتے ہوئے ماحولیاتی مسائل نے سائنسدانوں"
 date: 2025-11-06
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/can-artificial-intelligence-in-space-be-powered-by-sunlight-know-what-googles-plan-is.jpg"
 draft: false

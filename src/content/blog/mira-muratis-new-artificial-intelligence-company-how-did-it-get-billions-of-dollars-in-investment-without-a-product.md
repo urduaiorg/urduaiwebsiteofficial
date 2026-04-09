@@ -4,7 +4,7 @@ description: "میرا مراتی کی نئی مصنوعی ذہانت کمپنی
 date: 2025-04-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

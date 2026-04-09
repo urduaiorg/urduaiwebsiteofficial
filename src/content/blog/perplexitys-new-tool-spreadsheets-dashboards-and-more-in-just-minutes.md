@@ -4,7 +4,7 @@ description: "پرپلیکسٹی کا نیا ٹول: اسپریڈشیٹ، ڈیش
 date: 2025-06-03
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/perplexitys-new-tool-spreadsheets-dashboards-and-more-in-just-minutes.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

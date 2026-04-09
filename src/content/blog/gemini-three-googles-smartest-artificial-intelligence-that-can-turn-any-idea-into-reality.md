@@ -3,7 +3,7 @@ title: "جیمنی تھری: گوگل کی سب سے ذہین مصنوعی ذہ�
 description: "جیمنی تھری: گوگل کی سب سے ذہین مصنوعی ذہانت جو ہر خیال کو حقیقت میں بدل سکتی ہے  جب بات ٹیکنالوجی کی ہو اور زندگی آسان بنانے کی خواہش ہو، تو سب سے بڑی رکاوٹ یہ"
 date: 2025-11-20
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/gemini-three-googles-smartest-artificial-intelligence-that-can-turn-any-idea-into-reality.jpg"
 draft: false

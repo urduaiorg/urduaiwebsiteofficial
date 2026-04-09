@@ -4,7 +4,7 @@ description: "ایلون مسک کی 97 بلین ڈالر کی بولی: اوپ�
 date: 2025-02-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/elon-musks-97-billion-bid-is-openais-world-about-to-change.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

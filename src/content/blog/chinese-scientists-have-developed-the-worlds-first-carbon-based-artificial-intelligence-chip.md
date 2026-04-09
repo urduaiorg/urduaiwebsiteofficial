@@ -4,7 +4,7 @@ description: "چینی سائنسدانوں نے دنیا کا پہلا کارب
 date: 2025-03-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chinese-scientists-have-developed-the-worlds-first-carbon-based-artificial-intelligence-chip.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

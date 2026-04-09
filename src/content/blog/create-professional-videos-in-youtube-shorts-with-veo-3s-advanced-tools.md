@@ -3,7 +3,7 @@ title: "VEO 3 کے جدید ٹولز سے یوٹیوب شارٹس میں پرو�
 description: "VEO 3 کے جدید ٹولز سے یوٹیوب شارٹس میں پروفیشنل ویڈیوز بنائیں  کیا آپ ویڈیو بنانے کے عمل کو وقت طلب، مشکل یا الجھا ہوا سمجھتے ہیں؟ یوٹیوب کے نئے تخلیقی ٹولز آپ"
 date: 2025-09-19
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/create-professional-videos-in-youtube-shorts-with-veo-3s-advanced-tools.jpg"
 draft: false

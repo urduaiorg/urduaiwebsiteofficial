@@ -3,7 +3,7 @@ title: "پاکستانی اسکولوں میں آٹھویں جماعت سے مص
 description: "پاکستانی اسکولوں میں آٹھویں جماعت سے مصنوعی ذہانت کے ذریعے تدریس کا آغاز  پاکستان میں تعلیمی نظام سے وابستہ والدین، اساتذہ اور طلبہ کیلئے ایک بڑی خبر یہ ہے کہ ا"
 date: 2025-09-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/pakistani-schools-to-start-teaching-through-artificial-intelligence-from-eighth-grade.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "12 بہترین اے آئی ٹولز جو کام کو تیز او�
 date: 2026-01-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/12-best-ai-tools-that-make-work-faster-and-easier.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

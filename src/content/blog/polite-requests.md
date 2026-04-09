@@ -3,7 +3,7 @@ title: "انگریزی میں مدد مانگنے کے مؤدبانہ طریقے
 description: "Polite Requests: انگریزی میں مدد مانگنے کے مؤدبانہ طریقے دوستو! کیا آپ کبھی کسی سے مدد مانگنے میں ہچکچاتے ہیں؟ انگریزی میں مؤدبانہ انداز میں درخواست کرنا سیکھن"
 date: 2024-11-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/polite-requests.jpg"
 draft: false

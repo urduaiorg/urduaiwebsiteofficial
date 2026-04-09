@@ -4,7 +4,7 @@ description: "اے آئی سمٹ کی پروموشن کے لیے ڈیپ فیک �
 date: 2025-02-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-summit-ki-promotion-ke-liye-deepfake-videos-ka-istemal.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اینڈریو یانگ کی پیش گوئیاں مصنوعی ذہ
 date: 2025-06-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/andrew-yangs-predictions-how-will-artificial-intelligence-change-jobs.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اسٹچ کیا ہے اور وائب ڈیزائن کے ذریعے 
 date: 2026-03-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-stitch-and-how-can-an-app-design-be-created-in-minutes-with-vibe-design.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

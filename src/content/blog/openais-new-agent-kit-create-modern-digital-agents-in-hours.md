@@ -3,7 +3,7 @@ title: "اوپن اے آئی کا نیا ایجنٹ کِٹ: چند گھنٹوں 
 description: "اوپن اے آئی کا نیا ایجنٹ کِٹ: چند گھنٹوں میں جدید ڈیجیٹل ایجنٹس کی تخلیق  اوپن اے آئی نے ایک نیا ٹول سیٹ متعارف کروایا ہے جس کا مقصد ڈویلپرز اور اداروں کے لیے خ"
 date: 2025-10-12
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/openais-new-agent-kit-create-modern-digital-agents-in-hours.jpg"
 draft: false

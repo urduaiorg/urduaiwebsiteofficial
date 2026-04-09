@@ -5,7 +5,7 @@ description: "چَیٹ جی پی ٹی کو واٹس ایپ میں استعمال
 date: 2025-01-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-ko-whatsapp-main-istemal-karain.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

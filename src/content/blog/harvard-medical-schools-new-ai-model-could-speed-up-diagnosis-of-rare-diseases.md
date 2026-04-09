@@ -3,7 +3,7 @@ title: "ہارورڈ میڈیکل سکول کا نیا اے آئی ماڈل نا
 description: "ہارورڈ میڈیکل سکول کا نیا اے آئی ماڈل نایاب بیماریوں کی تشخیص میں تیزی لا سکتا ہے  جب کسی شخص کو بچپن سے کسی ایسی بیماری کا سامنا ہو جس کی وجہ نہ سمجھ آئے اور ن"
 date: 2025-11-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/harvard-medical-schools-new-ai-model-could-speed-up-diagnosis-of-rare-diseases.jpg"
 draft: false

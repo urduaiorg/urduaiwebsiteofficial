@@ -3,7 +3,7 @@ title: "یونیسکو کا مؤقف: تعلیم میں مصنوعی ذہانت 
 description: "یونیسکو کا مؤقف: تعلیم میں مصنوعی ذہانت کا کردار کیا ہونا چاہیے؟  آج بھی دنیا بھر میں کروڑوں بچے معیاری تعلیم سے محروم ہیں۔ مصنوعی ذہانت امید کی ایک نئی کرن ضرو"
 date: 2025-09-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/unescos-position-what-should-be-the-role-of-artificial-intelligence-in-education.jpg"
 draft: false

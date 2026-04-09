@@ -4,7 +4,7 @@ description: "چیٹ جی پی ٹی نیا اسکرین شیئرنگ فنکشن 
 date: 2025-04-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chat-gpt-new-screen-sharing-function.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

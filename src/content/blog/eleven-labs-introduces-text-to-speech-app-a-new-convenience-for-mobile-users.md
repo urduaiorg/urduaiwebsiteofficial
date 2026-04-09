@@ -4,7 +4,7 @@ description: "الیون لیبز نے ٹیکسٹ ٹو اسپیچ ایپ متع�
 date: 2025-07-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/eleven-labs-introduces-text-to-speech-app-a-new-convenience-for-mobile-users.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اوٹر کا میٹنگ ایجنٹ آپ کے لیے کالز طے
 date: 2025-04-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/otters-meeting-agent-can-schedule-calls-and-even-write-emails-for-you.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -5,7 +5,7 @@ description: "واٹس ایپ پر چیٹ جی پی ٹی کو چلانے کا آ
  ٹیکنالوجی کی دنیا میں ہر لمحہ کچھ نیا سامنے آ رہا ہے، اور اب آپ کے لیے ایک زبردست خبر ہے! چیٹ جی پی ٹی،"
 date: 2024-12-20
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/easy-way-to-run-chat-gpt-on-whatsapp.jpg"
 draft: false

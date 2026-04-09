@@ -3,7 +3,7 @@ title: "کیا آپ تیار ہیں گوگل کروم کے نئےاے آئی ف�
 description: "کیا آپ تیار ہیں گوگل کروم کے نئےاے آئی فیچرز آزمانے کے لیے؟  گوگل نے کروم براؤزر کی تاریخ کا سب سے بڑا اضافہ متعارف کرایا ہے جس میں مصنوعی ذہانت کو براہِ راست ب"
 date: 2025-09-22
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/are-you-ready-to-try-google-chromes-new-ai-features.jpg"
 draft: false

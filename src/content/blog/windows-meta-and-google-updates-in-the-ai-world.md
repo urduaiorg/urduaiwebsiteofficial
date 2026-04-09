@@ -3,7 +3,7 @@ title: "اے آئی دنیا میں ونڈوز، میٹا اور گوگل کی
 description: "اے آئی دنیا میں ونڈوز، میٹا اور گوگل کی اپڈیٹس  اگر آپ اے آئی کے ذریعے اپنے روزمرہ کے کاموں کو آسان بنانا چاہتے ہیں تو یہ ہفتہ آپ کے لیے غیر معمولی اہمیت ر"
 date: 2025-10-26
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/windows-meta-and-google-updates-in-the-ai-world.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "میٹا کا نیا لاما ماڈل، کیا یہ واقعی س
 date: 2025-04-09
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/metas-new-llama-model-is-it-really-the-forefront.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "اُردو اے آئی ماسٹر کلاس: بچوں کے لیے مست�
 description: "اُردو اے آئی ماسٹر کلاس: بچوں کے لیے مستقبل کی مہارتیں سیکھنے کا پہلا قدم  مصنوعی ذہانت یعنی اے آئی صرف بڑوں کے لیے نہیں بلکہ بچوں کے لیے بھی اتنی ہی اہم ہے۔ او"
 date: 2025-06-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-master-class-future-skills-edition-1.jpg"
 draft: false

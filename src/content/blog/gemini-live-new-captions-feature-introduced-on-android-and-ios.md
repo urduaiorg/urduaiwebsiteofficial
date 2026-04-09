@@ -4,7 +4,7 @@ description: "جیمنائی لائیو: اینڈرائیڈ اور آئی او �
 date: 2025-07-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-live-new-captions-feature-introduced-on-android-and-ios.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "گوگل جیمینی کیسے آپ کی پرانی فائلوں سے ن
 description: "گوگل جیمینی کیسے آپ کی پرانی فائلوں سے نئی رپورٹ بنا سکتا ہے؟  اگر آپ کو کوئی رپورٹ تیار کرنی ہو، کسی نئی چیز پر تحقیق کرنی ہو یا پرانی معلومات کو جمع کر کے کوئ"
 date: 2025-11-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-can-google-gemini-create-new-reports-from-your-old-files.jpg"
 draft: false

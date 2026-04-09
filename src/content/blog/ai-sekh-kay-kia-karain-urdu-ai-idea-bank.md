@@ -5,7 +5,7 @@ description: "اے آئی سیکھ کر کیا کریں؟ اردو اے آئی �
  اردو اے آئی کی کمیونٹی میں ایک دوست نے معصومیت سے سوال کیا: اے آئی سیکھ ک"
 date: 2025-05-23
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ai-sekh-kay-kia-karain-urdu-ai-idea-bank.jpg"
 draft: false

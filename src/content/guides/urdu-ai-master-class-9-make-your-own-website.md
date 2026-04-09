@@ -6,7 +6,7 @@ category: "گائیڈ"
 tool: "AI Website Builder"
 level: "ابتدائی"
 image: "/images/guides/urdu-ai-master-class-9-make-your-own-website.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

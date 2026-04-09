@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی میں اسکرین شیئرنگ اور لائیو
 description: "چیٹ جی پی ٹی میں اسکرین شیئرنگ اور لائیو ویڈیو کا نیا فیچر  ہیلو دوستوں! میں ہوں اردو اے آئی سے معراج احمد، اورچیٹ جی پی ٹی جو دن بہ دن حیران کر رہی ہے ۔ اور اس"
 date: 2025-04-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/new-screen-sharing-and-live-video-feature-in-chatgpt.jpg"
 draft: false

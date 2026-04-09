@@ -4,7 +4,7 @@ description: "اوپن اے آئی اور ایم آئی ٹی کا انکشاف: 
 date: 2025-03-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openai-and-mit-reveal-more-use-of-chatgpt-more-loneliness.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

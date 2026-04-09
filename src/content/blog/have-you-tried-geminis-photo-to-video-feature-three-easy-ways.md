@@ -3,7 +3,7 @@ title: "کیا آپ نے جیمینی کا فوٹو ٹو ویڈیو فیچر آ�
 description: "کیا آپ نے جیمینی کا فوٹو ٹو ویڈیو فیچر آزمایا ہے؟ تین آسان طریقے  کیا آپ چاہتے ہیں کہ ایک سادہ تصویر چند سیکنڈ میں ویڈیو میں بدل جائے؟ گوگل جیمینی کا فیچر فوٹو"
 date: 2025-09-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/have-you-tried-geminis-photo-to-video-feature-three-easy-ways.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "اے آئی سے بنی تصاویر پر کس کا حق ہوگا�
 date: 2026-03-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/who-will-have-the-rights-to-images-created-by-ai-important-legal-debate-in-us-court.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

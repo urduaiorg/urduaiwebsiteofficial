@@ -4,7 +4,7 @@ description: "گوگل کا نیا ٹول نوٹ بک ایل ایم اب مزی�
 date: 2025-08-08
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-tool-notebook-lm-is-now-more-powerful-introducing-new-video-and-audio-features.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

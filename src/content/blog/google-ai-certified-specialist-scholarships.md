@@ -3,7 +3,7 @@ title: "گوگل کے سرٹیفکیٹ کے ساتھ کیریئر میں آگے 
 description: "گوگل کے سرٹیفکیٹ کے ساتھ کیریئر میں آگے بڑھنے کا نایاب موقع مصنوعی ذہانت یعنی اے آئی کی بڑھتی ہوئی مقبولیت نے دنیا بھر میں نوکریوں کے معیار کو بدل کر رکھ دیا ہے"
 date: 2025-07-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/google-ai-certified-specialist-scholarships.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "یونیسف کی رپورٹ کی روشنی میں: مصنوعی 
 date: 2026-01-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/where-do-childrens-rights-stand-in-the-age-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت: پاکستان کا مستقبل اور �
 date: 2025-08-16
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligence-pakistans-future-and-undp-report.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

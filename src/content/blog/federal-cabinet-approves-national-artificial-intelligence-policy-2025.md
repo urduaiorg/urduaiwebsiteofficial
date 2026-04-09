@@ -4,7 +4,7 @@ description: "وفاقی کابینہ نے نیشنل آرٹیفیشل انٹی�
 date: 2025-08-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/federal-cabinet-approves-national-artificial-intelligence-policy-2025.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

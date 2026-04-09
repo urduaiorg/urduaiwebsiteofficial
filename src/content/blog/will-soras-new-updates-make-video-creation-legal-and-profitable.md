@@ -3,7 +3,7 @@ title: "کیا سورا کی نئی اپڈیٹس ویڈیو تخلیق کو قا
 description: "کیا سورا کی نئی اپڈیٹس ویڈیو تخلیق کو قانونی اور منافع بخش بنا دیں گی؟  اوپن اے آئی کے ویڈیو تخلیقی ٹول ’سورا‘ نے جیسے ہی اپنی جھلک دکھائی، صارفین کی دلچسپی کا"
 date: 2025-10-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-soras-new-updates-make-video-creation-legal-and-profitable.jpg"
 draft: false

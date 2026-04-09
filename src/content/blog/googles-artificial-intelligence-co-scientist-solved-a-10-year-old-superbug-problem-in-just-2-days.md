@@ -4,7 +4,7 @@ description: "گوگل کی مصنوعی ذہانت 'کو-سائنٹسٹ' نے 1
 date: 2025-03-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-artificial-intelligence-co-scientist-solved-a-10-year-old-superbug-problem-in-just-2-days.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

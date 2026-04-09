@@ -4,7 +4,7 @@ description: "واٹس ایپ کا زبردست نیا فیچرمیٹا اے آ�
 date: 2025-03-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/whatsapp-bringing-new-change-to-meta-ai-chatbot.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

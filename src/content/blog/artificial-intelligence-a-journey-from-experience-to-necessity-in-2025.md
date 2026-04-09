@@ -5,7 +5,7 @@ description: "مصنوعی ذہانت 2025 میں: تجربے سے ضرورت ت
 date: 2025-04-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/artificial-intelligence-a-journey-from-experience-to-necessity-in-2025.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

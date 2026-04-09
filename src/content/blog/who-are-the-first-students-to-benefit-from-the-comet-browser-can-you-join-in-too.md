@@ -3,7 +3,7 @@ title: "کومٹ براؤزر سے پہلے فائدہ اٹھانے والے ط�
 description: "کومٹ براؤزر سے پہلے فائدہ اٹھانے والے طلبہ کون ہیں؟ کیا آپ بھی شامل ہو سکتے ہیں؟  پڑھائی میں مسلسل توجہ دینا، درست رہنمائی حاصل کرنا اور ہر وقت ایک قابل اعتماد"
 date: 2025-09-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 image: "/images/blog/who-are-the-first-students-to-benefit-from-the-comet-browser-can-you-join-in-too.jpg"
 adsense: true
 draft: false

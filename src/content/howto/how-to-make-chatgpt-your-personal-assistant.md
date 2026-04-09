@@ -8,7 +8,7 @@ last_verified: 2025-08-29
 difficulty: "آسان"
 time_required: "5 منٹ"
 screenshots: false
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 tools: ["ChatGPT", "Gemini", "Claude"]
 draft: false

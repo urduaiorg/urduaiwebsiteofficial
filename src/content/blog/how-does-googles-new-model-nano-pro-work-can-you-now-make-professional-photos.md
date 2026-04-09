@@ -3,7 +3,7 @@ title: "گوگل کا نیا ماڈل نینو بنانا پرو کیسے کام
 description: "گوگل کا نیا ماڈل نینو بنانا پرو کیسے کام کرتا ہے؟ کیا اب آپ بھی پروفیشنل تصویر بنا سکتے ہیں؟     سوچیے کہ آپ کے ذہن میں ایک منظر ہے بارش سے بھیگی گلی، جس پر پان"
 date: 2025-11-21
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-does-googles-new-model-nano-pro-work-can-you-now-make-professional-photos.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "علی بابا کی معاونت یافتہ کمپنی ’مون شاٹ
 description: "علی بابا کی معاونت یافتہ کمپنی’Moonshot‘نے چار ماہ میں دوسری اے آئی اپڈیٹ جاری کر دی چین میں مصنوعی ذہانت کی تیزی سے بڑھتی ہوئی دوڑ اب ایک نئے موڑ پر پہنچ چکی ہ"
 date: 2025-11-11
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/alibaba-backed-company-moonshot-releases-second-ai-update-in-four-months.jpg"
 draft: false

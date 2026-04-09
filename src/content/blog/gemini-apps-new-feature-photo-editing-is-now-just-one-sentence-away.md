@@ -3,7 +3,7 @@ title: "جیمنی ایپ کا نیا فیچراب تصویری ایڈیٹنگ �
 description: "جیمنی ایپ کا نیا فیچراب تصویری ایڈیٹنگ کرنا بس ایک جملے کی بات ہے  کبھی ایسا ہوا ہے کہ آپ نے اپنی تصویر دیکھی ہو اور سوچا ہو، کاش یہ منظر کسی ساحل کا ہوتا یا می"
 date: 2025-05-08
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/gemini-apps-new-feature-photo-editing-is-now-just-one-sentence-away.jpg"
 draft: false

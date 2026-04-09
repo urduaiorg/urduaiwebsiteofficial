@@ -3,7 +3,7 @@ title: "ایلون مسک کا گروک اے آئی"
 description: "ایلون مسک کا گروک اے آئی  دوستوں، آج ہم بات کریں گے ایلون مسک کی نئی AI کمپنی 'xAI' اور اس کے جدید چیٹ بوٹ 'گروک' کے بارے میں۔ اگر آپ نے کبھی ایلون مسک کا نام س"
 date: 2025-03-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/grok-ai-from-elon-musk.jpg"
 draft: false

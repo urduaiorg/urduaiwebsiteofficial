@@ -4,7 +4,7 @@ description: "سی ای ایس٢٠٢٥ میں ایچ پی کا نیا دھماک
 date: 2025-01-14
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/hp-at-ces-2025.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

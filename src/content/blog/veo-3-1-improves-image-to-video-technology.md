@@ -4,7 +4,7 @@ description: "Veo 3.1 تصاویر کو ویڈیو میں بدلنے والی ٹ
 date: 2026-01-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/veo-3-1-improves-image-to-video-technology.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

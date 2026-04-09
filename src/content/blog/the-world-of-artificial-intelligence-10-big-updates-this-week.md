@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کی دنیا: اس ہفتے کی 10 بڑ�
 date: 2025-12-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/the-world-of-artificial-intelligence-10-big-updates-this-week.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

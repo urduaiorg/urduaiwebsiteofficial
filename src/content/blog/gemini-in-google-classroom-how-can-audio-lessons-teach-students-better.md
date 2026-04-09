@@ -4,7 +4,7 @@ description: "گوگل کلاس روم میں جیمِنائی: آڈیو اسب�
 date: 2026-01-12
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/gemini-in-google-classroom-how-can-audio-lessons-teach-students-better.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

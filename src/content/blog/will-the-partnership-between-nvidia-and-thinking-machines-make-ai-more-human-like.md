@@ -4,7 +4,7 @@ description: "کیا این ویڈیا اور تھنکنگ مشینز کی شر�
 date: 2026-03-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/will-the-partnership-between-nvidia-and-thinking-machines-make-ai-more-human-like.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

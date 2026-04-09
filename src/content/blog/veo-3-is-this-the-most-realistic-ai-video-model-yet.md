@@ -5,7 +5,7 @@ description: "Veo 3 : کیا یہ اب تک کا سب سے حقیقت سے قر�
 date: 2025-05-29
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/veo-3-is-this-the-most-realistic-ai-video-model-yet.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

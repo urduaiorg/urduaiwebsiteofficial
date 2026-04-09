@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت کے دور میں اداروں کے لی�
 date: 2026-02-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-is-the-biggest-decision-for-organizations-in-the-age-of-artificial-intelligence.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

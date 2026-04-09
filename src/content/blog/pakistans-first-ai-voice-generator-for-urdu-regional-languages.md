@@ -3,7 +3,7 @@ title: "پاکستان کا پہلا اے آئی وائس جنریٹر: علاق
 description: "پاکستان کا پہلا اے آئی وائس جنریٹر: علاقائی زبانوں کے لیے نئی راہیں  پاکستان میں ٹیکنالوجی کی دنیا تیزی سے بدل رہی ہے۔ اور اب ایک نیا قدم اُٹھایا گیا ہے۔ جو مقا"
 date: 2025-08-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/pakistans-first-ai-voice-generator-for-urdu-regional-languages.jpg"
 draft: false

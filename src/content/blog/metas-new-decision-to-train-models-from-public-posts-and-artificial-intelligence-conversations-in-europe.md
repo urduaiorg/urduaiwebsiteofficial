@@ -4,7 +4,7 @@ description: "میٹا کا نیا فیصلہ: یورپ میں عوامی پوس
  مصنوعی ذہانت کے میدان میں تیزی سے ہونے والی پیش رفت کے بعد، اب بڑی ٹیکنالوجی ک"
 date: 2025-04-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/metas-new-decision-to-train-models-from-public-posts-and-artificial-intelligence-conversations-in-europe.jpg"
 draft: false

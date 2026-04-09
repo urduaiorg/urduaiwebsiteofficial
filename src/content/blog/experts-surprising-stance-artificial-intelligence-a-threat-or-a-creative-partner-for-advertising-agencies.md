@@ -4,7 +4,7 @@ description: "ماہرین کا حیران کن مؤقف مصنوعی ذہانت
  دنیا بھر میں اشتہاری ایجنسیوں کے مستقبل پر سوالات اٹھنے لگے ہیں، اور اس کی ا"
 date: 2025-06-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/experts-surprising-stance-artificial-intelligence-a-threat-or-a-creative-partner-for-advertising-agencies.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "صرف 24 گھنٹوں کے لیے: اوپن اے آئی کی جانب �
 description: "صرف 24 گھنٹوں کے لیے: اوپن اے آئی کی جانب سے مفت آواز سازی کی سہولت  دوستو! آج میں آپ کے لیے ایک زبردست خبر لے کر آیا ہوں۔ مصنوعی ذہانت کے میدان میں معروف ادارہ"
 date: 2025-03-24
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/free-voice-generation-from-open-ai-for-next-24-hours.jpg"
 draft: false

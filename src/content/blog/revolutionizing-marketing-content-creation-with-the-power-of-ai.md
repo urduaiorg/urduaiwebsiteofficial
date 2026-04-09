@@ -4,7 +4,7 @@ description: "اے آئی کی طاقت سے مارکیٹنگ مواد کی تخ
 date: 2025-07-30
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/revolutionizing-marketing-content-creation-with-the-power-of-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

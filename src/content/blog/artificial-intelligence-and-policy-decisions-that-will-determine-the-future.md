@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت اور پالیسی: فیصلے جو مستقب�
 description: "مصنوعی ذہانت اور عالمی ترقی: ایک عالمی رپورٹ کا تجزیہ  حصہ سوم:  یہ مضمون مصنوعی ذہانت پر مبنی ایک عالمی رپورٹ کے تجزیے پر مشتمل تین حصوں کی سیریز کا آخری حصہ ہ"
 date: 2025-12-30
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/artificial-intelligence-and-policy-decisions-that-will-determine-the-future.jpg"
 draft: false

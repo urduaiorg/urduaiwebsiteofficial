@@ -3,7 +3,7 @@ title: "اردو اے آئی:عام افراد کے لیے مصنوعی ذہان
 description: "اردو اے آئی:عام افراد کے لیے مصنوعی ذہانت سیکھنے کا مفت ذریعہ  اگر آپ کمپیوٹر استعمال کرنا جانتے ہیں، یوٹیوب پر ویڈیوز دیکھ سکتے ہیں، یا ای میل پڑھنے کی صلاحیت"
 date: 2025-09-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-a-free-resource-for-ordinary-people-to-learn-artificial-intelligence.jpg"
 draft: false

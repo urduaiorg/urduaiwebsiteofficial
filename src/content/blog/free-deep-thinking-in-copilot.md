@@ -3,7 +3,7 @@ title: "کوپائلٹ میں فری ڈیپ تھنکنگ"
 description: "کوپائلٹ میں فری ڈیپ تھنکنگ  ہیلو دوستوں! میں ہوں قیصر رونجہ اور آج ہم ایک دلچسپ موضوع پر بات کریں گے۔ جو مصنوعی ذہانت (AI) کی دنیا میں انقلاب برپا کر رہا ہے۔ کی"
 date: 2025-02-02
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/free-deep-thinking-in-copilot.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "اسٹڈی موڈ کیا ہے اور یہ طلباء کے لیے کیس�
 description: "اسٹڈی موڈ کیا ہے اور یہ طلباء کے لیے کیسے فائدہ مند ہے؟  آج کے دور میں جب مصنوعی ذہانت (AI) ہمارے ہر کام کا حصہ بن چکی ہے۔ چیٹ جی پی ٹی کا استعمال بھی بڑھتا جا"
 date: 2025-08-09
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-study-mode-and-how-is-it-beneficial-for-students.jpg"
 draft: false

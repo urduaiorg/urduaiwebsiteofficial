@@ -6,7 +6,7 @@ description: "اردو اے آئی کے ساتھ انگریزی سیکھیں
 date: 2024-12-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/learn-english-with-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

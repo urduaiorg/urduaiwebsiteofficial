@@ -4,7 +4,7 @@ description: "واٹس ایپ نے پرائیویٹ اے آئی پیغامات �
 date: 2025-07-01
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/whatsapp-introduces-new-ai-feature-summarizing-private-ai-messages.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

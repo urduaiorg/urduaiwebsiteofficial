@@ -4,7 +4,7 @@ description: "اردو اے آئی کے ساتھ سب کچھ سیکھیں
  السلام علیکم دوستو!  اردو اے آئی کے ذریعے آپ کس طرح زندگی کے مختلف پہلوؤں میں آسانی لا سکتے ہیں۔ کیا آپ کو معلوم ہے کہ اے آئی"
 date: 2024-12-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/urdu-ai-se-sab-kuch-seekhein.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "جی پی ٹی-5.1 میں کیا نیا ہے؟ جانئے انسٹنٹ �
 description: "جی پی ٹی-5.1 میں کیا نیا ہے؟ جانئے انسٹنٹ اور تھنکنگ ماڈلز کی تفصیل  جب ایک مشین انسان کی طرح بات کرے، آپ کے سوالات کو سمجھے، نرم انداز میں جواب دے اور جذبات کا"
 date: 2025-11-15
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/whats-new-in-gpt-5-1-learn-about-instant-and-thinking-models.jpg"
 draft: false

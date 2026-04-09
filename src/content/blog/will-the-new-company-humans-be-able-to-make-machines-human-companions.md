@@ -3,7 +3,7 @@ title: "کیا نئی کمپنی Humans& مشین کو انسان کا ساتھ�
 description: "کیا نئی کمپنی Humans&amp; مشین کو انسان کا ساتھی بنا سکے گی؟ مصنوعی ذہانت کی دوڑ میں جہاں مختلف کمپنیاں ایسے ماڈلز بنا رہی ہیں جو انسانوں کو پیچھے چھوڑ دیں، وہی"
 date: 2025-11-04
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/will-the-new-company-humans-be-able-to-make-machines-human-companions.jpg"
 draft: false

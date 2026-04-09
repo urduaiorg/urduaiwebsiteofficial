@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی کا نیا فیچر: آپ نے سال بھر کی
 description: "چیٹ جی پی ٹی کا نیا فیچر: آپ نے سال بھر کیا سیکھا؟  ہم آج ایک ایسی دنیا میں جی رہے ہیں جہاں ٹیکنالوجی صرف ایک آلہ نہیں رہی، بلکہ ہماری روزمرہ زندگی کا لازمی حصہ"
 date: 2025-12-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/chat-gpts-new-feature-what-have-you-learned-throughout-the-year.jpg"
 draft: false

@@ -3,7 +3,7 @@ title: "چیٹ جی پی ٹی پَلس کیسے بنائے گا آپ کے دن �
 description: "چیٹ جی پی ٹی پَلس کیسے بنائے گا آپ کے دن کو بہتر؟ تفصیل جانیں  صبح جاگتے ہی ہم میں سے اکثر افراد اس سوچ میں ہوتے ہیں کہ دن کا آغاز کہاں سے کریں، کیا جانیں، اور"
 date: 2025-09-28
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/how-will-chatgpt-plus-make-your-day-better-learn-more.jpg"
 draft: false

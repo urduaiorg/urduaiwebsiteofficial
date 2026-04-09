@@ -4,7 +4,7 @@ description: "خودکار اے آئی ایجنٹس کیا بدلیں گے؟ م�
 date: 2026-01-04
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/what-will-automated-ai-agents-change-menuss-inclusion-in-meta-explained.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

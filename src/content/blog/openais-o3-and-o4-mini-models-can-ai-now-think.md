@@ -5,7 +5,7 @@ description: "اوپن اے آئی کے o3 اور o4-mini ماڈلز: کیا ا�
 date: 2025-04-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-o3-and-o4-mini-models-can-ai-now-think.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

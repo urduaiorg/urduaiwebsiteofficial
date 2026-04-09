@@ -3,7 +3,7 @@ title: "اے آئی بُک ریویوز - کانٹینٹ آئیڈیا"
 description: "اے آئی بُک ریویوز - کانٹینٹ آئیڈیا  ہیلو دوستو! آج میں آپ کو ایک ایسا زبردست آئیڈیا بتانے جا رہا ہوں جو نہ صرف آپ کی کانٹینٹ بنانے کی مشکل کو آسان کرے گا بلکہ آ"
 date: 2025-03-29
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/ai-book-reviews-content-idea.jpg"
 draft: false

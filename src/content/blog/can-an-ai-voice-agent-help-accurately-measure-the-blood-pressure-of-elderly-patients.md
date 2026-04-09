@@ -4,7 +4,7 @@ description: "کیا اے آئی وائس ایجنٹ بزرگ مریضوں کے 
 date: 2025-09-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/can-an-ai-voice-agent-help-accurately-measure-the-blood-pressure-of-elderly-patients.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

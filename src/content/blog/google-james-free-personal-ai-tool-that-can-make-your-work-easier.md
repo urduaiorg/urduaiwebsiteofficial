@@ -4,7 +4,7 @@ description: "گوگل جیمز: مفت پرسنل اے آئی ٹول جو آپ 
 date: 2025-09-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-james-free-personal-ai-tool-that-can-make-your-work-easier.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

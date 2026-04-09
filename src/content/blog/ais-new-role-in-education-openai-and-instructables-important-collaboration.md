@@ -4,7 +4,7 @@ description: "اے آئی کا تعلیم میں نیا کردار: اوپن ا�
 date: 2025-08-05
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ais-new-role-in-education-openai-and-instructables-important-collaboration.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

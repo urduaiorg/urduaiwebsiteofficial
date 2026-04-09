@@ -3,7 +3,7 @@ title: "گوگل لیبز کی دُنیا: صرف نوٹ بُک ایل ایم ہ
 description: "گوگل لیبز کی دُنیا: صرف نوٹ بُک ایل ایم ہی نہیں، اور بھی بہت کچھ ہے  مصنوعی ذہانت اور سیکھنے کے نئے طریقوں کی تلاش میں گوگل لیبز (Google Labs) نے کئی حیران کن ت"
 date: 2025-07-10
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/the-world-of-google-labs-its-not-just-notebook-lm-theres-more.jpg"
 draft: false

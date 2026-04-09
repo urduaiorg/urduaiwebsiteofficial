@@ -4,7 +4,7 @@ description: "پاکستان میں اے آئی کی تربیت پر حکومت�
 date: 2025-09-02
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/government-focus-on-ai-training-in-pakistan-it-minister-holds-important-meeting-with-google.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "اوپن اے آئی کے نئے خود مختار اے آئی ا�
 date: 2025-01-31
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/ai-agent-that-performs-tasks-autonomously-online.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

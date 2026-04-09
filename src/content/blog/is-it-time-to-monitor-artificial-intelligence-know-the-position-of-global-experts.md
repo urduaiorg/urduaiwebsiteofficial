@@ -4,7 +4,7 @@ description: "مصنوعی ذہانت پر نظر رکھنے کا وقت آ گی
 date: 2026-01-26
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/is-it-time-to-monitor-artificial-intelligence-know-the-position-of-global-experts.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

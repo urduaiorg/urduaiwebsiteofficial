@@ -4,7 +4,7 @@ description: "55 زبانوں میں بات چیت کے لیے گوگل کا ن�
 date: 2026-01-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-gift-for-conversations-in-55-languages.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -3,7 +3,7 @@ title: "مصنوعی ذہانت کی نئی دنیا میں غریب ممالک 
 description: "مصنوعی ذہانت کی نئی دنیا میں غریب ممالک کا مستقبل کیا ہے؟  اقوامِ متحدہ خبردار کرتی ہے کہ 118 سے زائد ممالک مصنوعی ذہانت کی دوڑ میں پیچھے رہ گئے ہیں۔ اگر فوری ا"
 date: 2025-10-03
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-is-the-future-of-poor-countries-in-the-new-world-of-artificial-intelligence.jpg"
 draft: false

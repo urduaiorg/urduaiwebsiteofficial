@@ -4,7 +4,7 @@ description: "نیٹ فلکس نے انٹرپازیٹو کیوں خریدا او
 date: 2026-03-22
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/why-did-netflix-buy-interposito-and-what-will-it-do-for-filmmakers.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

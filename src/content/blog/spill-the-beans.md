@@ -3,7 +3,7 @@ title: "اسپِل دا بِینز: ایک دلچسپ انگریزی محاور�
 description: "اسپِل دا بِینز: ایک دلچسپ انگریزی محاورہ کیا آپ نے کبھی کسی راز کو غلطی سے فاش کر دیا ہو؟ آج ہم ایک دلچسپ اور عام استعمال ہونے والے انگریزی محاورے 'Spill the B"
 date: 2024-11-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/spill-the-beans.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "چین کا جدید ترین مصنوعی ذہانت ایجنٹ '
 date: 2025-03-11
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chinas-latest-artificial-intelligence-agent-manas-is-a-revolutionary-step.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

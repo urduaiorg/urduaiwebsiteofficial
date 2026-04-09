@@ -5,7 +5,7 @@ description: "اوپن اے آئی 03 اور 03-منی: مصنوعی ذہانت 
  جب بات مصنوعی ذہانت کی ہو، تو ہر دن نئی اختراعات اور حیرتوں سے بھرا ہوتا ہے۔ لیکن کبھی کبھی کچھ ایسی"
 date: 2024-12-25
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/open-ai-launches-o3-and-o3-mini.jpg"
 draft: false

@@ -4,7 +4,7 @@ description: "کیا اے آئی آپ کی نوکری لے جائے گا؟ اق�
 date: 2025-04-10
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/will-ai-take-your-job-the-united-nations-has-warned.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

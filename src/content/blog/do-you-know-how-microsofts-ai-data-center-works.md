@@ -4,7 +4,7 @@ description: "کیا آپ جانتے ہیں مائیکروسافٹ کا اے آ�
 date: 2025-09-24
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/do-you-know-how-microsofts-ai-data-center-works.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

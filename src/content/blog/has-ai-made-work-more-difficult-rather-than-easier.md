@@ -4,7 +4,7 @@ description: "کیا اے آئی نے کام آسان کرنے کے بجائے �
 date: 2026-02-18
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/has-ai-made-work-more-difficult-rather-than-easier.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

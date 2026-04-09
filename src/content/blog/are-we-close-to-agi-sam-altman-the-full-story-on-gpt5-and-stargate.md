@@ -4,7 +4,7 @@ description: "کیا ہم اے جی آئی کے قریب ہیں؟ سیم آلٹ�
 date: 2025-06-21
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/are-we-close-to-agi-sam-altman-the-full-story-on-gpt5-and-stargate.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 faq:

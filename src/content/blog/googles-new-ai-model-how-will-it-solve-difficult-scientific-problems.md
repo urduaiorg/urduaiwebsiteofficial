@@ -4,7 +4,7 @@ description: "گوگل کا نیا اے آئی ماڈل: مشکل سائنسی �
 date: 2026-02-19
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/googles-new-ai-model-how-will-it-solve-difficult-scientific-problems.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

@@ -5,7 +5,7 @@ description: "حفاظت یا مقابلہ؟ اے آئی کی دنیا میں ا
 date: 2025-04-15
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/safety-or-competition-a-dangerous-decision-in-the-world-of-ai.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

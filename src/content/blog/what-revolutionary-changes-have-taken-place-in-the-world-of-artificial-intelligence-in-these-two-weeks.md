@@ -3,7 +3,7 @@ title: "ان دو ہفتوں میں مصنوعی ذہانت کی دنیا میں
 description: "ان دو ہفتوں میں مصنوعی ذہانت کی دنیا میں کیا کیا انقلابی تبدیلیاں آئیں؟  مصنوعی ذہانت کی دنیا ہر دن کچھ نیا دکھا رہی ہے اور حالیہ دنوں میں جو کچھ ہوا ہے وہ کسی"
 date: 2025-10-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/what-revolutionary-changes-have-taken-place-in-the-world-of-artificial-intelligence-in-these-two-weeks.jpg"
 draft: false

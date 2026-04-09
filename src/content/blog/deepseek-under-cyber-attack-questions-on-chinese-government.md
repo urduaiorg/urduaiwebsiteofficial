@@ -3,7 +3,7 @@ title: "ڈیپ سیک: سائبر حملے کی زد میں، چینی حکوم�
 description: "ڈیپ سیک: سائبر حملے کی زد میں، چینی حکومت پر سوالات  کبھی کبھی کوئی نئی ٹیکنالوجی آتی ہے اور سب کو حیران کر دیتی ہے۔  DeepSeek نے بھی ایسا ہی کیا۔ چین کی یہ مصن"
 date: 2025-02-05
 category: "اے آئی اپڈیٹ"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 image: "/images/blog/deepseek-under-cyber-attack-questions-on-chinese-government.jpg"
 draft: false

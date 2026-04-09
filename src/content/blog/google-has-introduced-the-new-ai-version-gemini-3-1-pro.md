@@ -4,7 +4,7 @@ description: "گوگل نے جمینی 3.1 پرو نیا اے آئی ورژن م
 date: 2026-02-23
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/google-has-introduced-the-new-ai-version-gemini-3-1-pro.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---

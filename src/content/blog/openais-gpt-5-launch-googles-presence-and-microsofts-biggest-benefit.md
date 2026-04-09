@@ -4,7 +4,7 @@ description: "اوپن اے آئی کے جی پی ٹی-5 کا آغاز: گوگل
 date: 2025-08-25
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/openais-gpt-5-launch-googles-presence-and-microsofts-biggest-benefit.jpg"
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 ---
