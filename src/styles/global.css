@@ -1933,6 +1933,84 @@ img {
 }
 
 /* ============================================================
+   Mobile TOC — Collapsible (visible only on mobile)
+   ============================================================ */
+.mobile-toc {
+  display: none; /* hidden on desktop */
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-block-end: var(--space-md);
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .mobile-toc { display: block; }
+}
+.mobile-toc__toggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  cursor: pointer;
+  list-style: none;
+  border-block-end: 1px solid transparent;
+}
+.mobile-toc__toggle::-webkit-details-marker { display: none; }
+.mobile-toc__toggle::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-inline-end: 2px solid var(--ink-muted);
+  border-block-end: 2px solid var(--ink-muted);
+  transform: rotate(45deg);
+  margin-inline-start: auto;
+  transition: transform 0.2s ease;
+}
+.mobile-toc[open] .mobile-toc__toggle {
+  border-block-end-color: var(--border);
+}
+.mobile-toc[open] .mobile-toc__toggle::after {
+  transform: rotate(-135deg);
+}
+.mobile-toc__list {
+  list-style: none;
+  padding: var(--space-sm) var(--space-md);
+  margin: 0;
+  counter-reset: mtoc;
+}
+.mobile-toc__list li {
+  counter-increment: mtoc;
+}
+.mobile-toc__list a {
+  display: block;
+  padding: 6px 0;
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-block-end: 1px solid var(--border);
+}
+.mobile-toc__list li:last-child a {
+  border-block-end: none;
+}
+.mobile-toc__list a::before {
+  content: counter(mtoc) ".";
+  margin-inline-end: 6px;
+  color: var(--ink-muted);
+  font-size: 0.8rem;
+  direction: ltr;
+  unicode-bidi: embed;
+}
+.mobile-toc__list a:hover,
+.mobile-toc__list a:active {
+  color: var(--teal);
+}
+
+/* ============================================================
    Author Card
    ============================================================ */
 .author-card {

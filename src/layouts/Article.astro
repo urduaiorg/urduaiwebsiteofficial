@@ -280,6 +280,15 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
     <!-- Main article -->
     <article class="article-layout__main" id="article-main">
 
+      <!-- Mobile TOC — collapsible, visible only on mobile -->
+      <details class="mobile-toc" id="mobile-toc">
+        <summary class="mobile-toc__toggle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          فہرست مضمون
+        </summary>
+        <ol class="mobile-toc__list" id="mobile-toc-list"></ol>
+      </details>
+
       <!-- In-article ad (after intro paragraph — injected by slot position) -->
       <div class="prose" id="article-body">
         <slot name="intro" />
@@ -425,17 +434,21 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
   }
 </script>
 
-<!-- Table of Contents auto-generator -->
+<!-- Table of Contents auto-generator (desktop sidebar + mobile collapsible) -->
 <script>
   const articleBody = document.getElementById('article-body');
   const tocList = document.getElementById('toc-list');
   const tocWidget = document.getElementById('toc-widget');
+  const mobileToc = document.getElementById('mobile-toc');
+  const mobileTocList = document.getElementById('mobile-toc-list');
   if (articleBody && tocList && tocWidget) {
     const headings = articleBody.querySelectorAll('h2');
     if (headings.length >= 2) {
       headings.forEach((h, i) => {
         const id = 'section-' + i;
         h.setAttribute('id', id);
+
+        // Desktop TOC
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = '#' + id;
@@ -446,6 +459,21 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
         });
         li.appendChild(a);
         tocList.appendChild(li);
+
+        // Mobile TOC
+        if (mobileTocList) {
+          const mLi = document.createElement('li');
+          const mA = document.createElement('a');
+          mA.href = '#' + id;
+          mA.textContent = h.textContent;
+          mA.addEventListener('click', (e) => {
+            e.preventDefault();
+            mobileToc.removeAttribute('open');
+            h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
+          mLi.appendChild(mA);
+          mobileTocList.appendChild(mLi);
+        }
       });
 
       // Highlight active TOC item on scroll
@@ -463,6 +491,7 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
       headings.forEach(h => observer.observe(h));
     } else {
       tocWidget.style.display = 'none';
+      if (mobileToc) mobileToc.style.display = 'none';
     }
   }
 </script>
