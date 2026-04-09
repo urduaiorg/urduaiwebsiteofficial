@@ -95,6 +95,34 @@
 </IfModule>
 
 # ============================================================
+# ALLOW SOCIAL MEDIA CRAWLERS (bypass WAF false positives)
+# ============================================================
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Allow Facebook crawler
+  RewriteCond %{HTTP_USER_AGENT} facebookexternalhit [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Facebot [NC,OR]
+  # Allow WhatsApp preview
+  RewriteCond %{HTTP_USER_AGENT} WhatsApp [NC,OR]
+  # Allow Twitter/X card crawler
+  RewriteCond %{HTTP_USER_AGENT} Twitterbot [NC,OR]
+  # Allow LinkedIn preview
+  RewriteCond %{HTTP_USER_AGENT} LinkedInBot [NC,OR]
+  # Allow Telegram preview
+  RewriteCond %{HTTP_USER_AGENT} TelegramBot [NC]
+  RewriteRule .* - [E=ALLOW_BOT:1]
+</IfModule>
+
+<IfModule mod_setenvif.c>
+  SetEnvIfNoCase User-Agent "facebookexternalhit" ALLOW_BOT
+  SetEnvIfNoCase User-Agent "Facebot" ALLOW_BOT
+  SetEnvIfNoCase User-Agent "WhatsApp" ALLOW_BOT
+  SetEnvIfNoCase User-Agent "Twitterbot" ALLOW_BOT
+  SetEnvIfNoCase User-Agent "LinkedInBot" ALLOW_BOT
+  SetEnvIfNoCase User-Agent "TelegramBot" ALLOW_BOT
+</IfModule>
+
+# ============================================================
 # REDIRECTS & REWRITES
 # ============================================================
 RewriteEngine On
