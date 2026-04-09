@@ -14,6 +14,11 @@ const recentGuides = allGuides
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3);
 
+const allHowTo = await getCollection('howto', ({ data }) => !data.draft);
+const recentHowTo = allHowTo
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+
 const allPrompts = await getCollection('prompts', ({ data }) => !data.draft);
 const recentPrompts = allPrompts
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
@@ -311,6 +316,35 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
       <p style="text-align:center; margin-block-start: var(--space-md);">
         <a href={`${base}/guides/`} style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
+      </p>
+    </section>
+  )}
+
+  <!-- ============================================================
+       HOW-TO TUTORIALS SECTION
+       ============================================================ -->
+  {recentHowTo.length > 0 && (
+    <section class="container" style="margin-block-start: var(--space-2xl);">
+      <h2 class="section-heading">تازہ ٹیوٹوریلز</h2>
+      <div class="post-grid">
+        {recentHowTo.map(tutorial => (
+          <article class="card">
+            <p class="card__meta">
+              <span class="badge badge--teal">{tutorial.data.difficulty}</span>
+              {tutorial.data.tool && <span style="margin-inline-start:0.5em">{tutorial.data.tool}</span>}
+            </p>
+            <h3 class="card__title"><a href={`${base}/how-to/${tutorial.id}/`}>{tutorial.data.title}</a></h3>
+            <p class="card__excerpt">{tutorial.data.description}</p>
+            {tutorial.data.time_required && (
+              <p class="card__meta" style="margin-block-start:var(--space-xs);">
+                {tutorial.data.time_required}
+              </p>
+            )}
+          </article>
+        ))}
+      </div>
+      <p style="text-align:center; margin-block-start: var(--space-md);">
+        <a href={`${base}/how-to/`} style="color:var(--teal); font-weight:600;">تمام ٹیوٹوریلز ←</a>
       </p>
     </section>
   )}

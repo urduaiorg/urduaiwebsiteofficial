@@ -7,6 +7,8 @@
 import Base from './Base.astro';
 import LegacyCommentsSection from '../components/LegacyCommentsSection.astro';
 import RelatedTools from '../components/RelatedTools.astro';
+import RelatedHowTo from '../components/RelatedHowTo.astro';
+import InlineNewsletter from '../components/InlineNewsletter.astro';
 import { getToolsByNames } from '../data/tools';
 import legacyCommentsPayload from '../data/legacy-comments.json';
 
@@ -27,6 +29,7 @@ export interface Props {
   image?: string;
   adsense?: boolean;
   slug: string;
+  category?: string;
   steps?: HowToStep[];
   tools?: string[];
 }
@@ -42,6 +45,7 @@ const {
   image,
   adsense = true,
   slug,
+  category = 'ہاؤ ٹو',
   steps = [],
   tools: toolNames = [],
 } = Astro.props;
@@ -116,6 +120,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     section: "ہاؤ ٹو",
   }}
 >
+  <!-- Reading progress bar -->
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
   <!-- Top banner ad -->
   {adsense && (
     <div class="container ad-slot" aria-hidden="true">
@@ -157,6 +164,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           {tool && <span class="badge badge--teal">{tool}</span>}
           {difficulty && <span>مشکل: {difficulty}</span>}
           {time_required && <span>وقت: {time_required}</span>}
+          <span class="article-header__reading-time" id="reading-time">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span id="reading-time-text"></span>
+          </span>
         </div>
 
         <!-- Before you start summary box -->
@@ -181,7 +192,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         )}
       </header>
 
-      <div class="prose">
+      <div class="prose" id="article-body">
         <!-- Intro slot (first paragraph — AEO paragraph) -->
         <slot name="intro" />
 
@@ -227,6 +238,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <LegacyCommentsSection comments={legacyComments} />
 
+      <!-- Related how-to tutorials -->
+      <RelatedHowTo currentSlug={slug} category={category} />
+
+      <!-- Inline newsletter -->
+      <InlineNewsletter />
+
       <!-- App CTA strip -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
         <p>يہ ٹيوٹوريل پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے گائيڈز پڑھيں</p>
@@ -236,6 +253,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <!-- Sidebar -->
     <aside class="article-layout__sidebar">
+      <!-- Table of Contents — auto-generated from h2 headings -->
+      <div class="toc-widget" id="toc-widget">
+        <p class="toc-widget__title">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          فہرست
+        </p>
+        <ol class="toc-widget__list" id="toc-list">
+          <!-- JS populates this -->
+        </ol>
+      </div>
+
       {adsense && (
         <div class="ad-slot ad-slot--sidebar" aria-hidden="true">
           <ins class="adsbygoogle"
@@ -251,6 +279,75 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </aside>
   </div>
 </Base>
+
+<!-- Reading progress bar -->
+<script>
+  const progressBar = document.getElementById('reading-progress');
+  if (progressBar) {
+    const update = () => {
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = scrollHeight > 0 ? (window.scrollY / scrollHeight) * 100 : 0;
+      progressBar.style.width = pct + '%';
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  }
+</script>
+
+<!-- Reading time estimate -->
+<script>
+  const body = document.getElementById('article-body');
+  const timeEl = document.getElementById('reading-time-text');
+  if (body && timeEl) {
+    const text = body.innerText || '';
+    // Urdu reads slower than English — ~150 words/min
+    const words = text.trim().split(/\s+/).length;
+    const minutes = Math.max(1, Math.ceil(words / 150));
+    timeEl.textContent = minutes + ' منٹ مطالعہ';
+  }
+</script>
+
+<!-- Table of Contents auto-generator -->
+<script>
+  const articleBody = document.getElementById('article-body');
+  const tocList = document.getElementById('toc-list');
+  const tocWidget = document.getElementById('toc-widget');
+  if (articleBody && tocList && tocWidget) {
+    const headings = articleBody.querySelectorAll('h2');
+    if (headings.length >= 2) {
+      headings.forEach((h, i) => {
+        const id = 'section-' + i;
+        h.setAttribute('id', id);
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + id;
+        a.textContent = h.textContent;
+        a.addEventListener('click', (e) => {
+          e.preventDefault();
+          h.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        li.appendChild(a);
+        tocList.appendChild(li);
+      });
+
+      // Highlight active TOC item on scroll
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            tocList.querySelectorAll('a').forEach(a => {
+              a.classList.toggle('is-active', a.getAttribute('href') === '#' + id);
+            });
+          }
+        });
+      }, { rootMargin: '-80px 0px -70% 0px' });
+
+      headings.forEach(h => observer.observe(h));
+    } else {
+      tocWidget.style.display = 'none';
+    }
+  }
+</script>
 
 <!-- App CTA scroll trigger -->
 <script>

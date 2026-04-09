@@ -2181,3 +2181,83 @@ textarea:focus:not(:focus-visible) {
 .back-to-top:hover {
   background: var(--paper-warm);
 }
+
+/* ============================================================
+   PRINT STYLES
+   ============================================================ */
+@media print {
+  @page {
+    margin: 2cm 1.5cm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 14pt;
+    line-height: 2.0;
+  }
+
+  /* Hide non-essential UI */
+  .site-header nav,
+  .ad-slot,
+  .floating-share,
+  .mobile-share,
+  .back-to-top,
+  .app-cta-strip,
+  .cta-strip,
+  footer .footer__social,
+  .breadcrumb {
+    display: none !important;
+  }
+
+  /* Show logo in header */
+  .site-header {
+    border-bottom: 1px solid #ccc;
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .site-logo {
+    display: block !important;
+  }
+
+  /* Remove decorative styles */
+  * {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  /* Show URLs for external links */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #555;
+    word-break: break-all;
+  }
+
+  /* Avoid breaking inside content blocks */
+  article,
+  .card,
+  .prose h2,
+  .prose h3,
+  .prose p,
+  .prose ul,
+  .prose ol,
+  blockquote,
+  pre,
+  figure {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
