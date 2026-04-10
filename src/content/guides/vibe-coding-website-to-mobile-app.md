@@ -178,4 +178,4 @@ AI خود:
 
 ## اگلی گائیڈ میں
 
-ایپ لائیو ہے، Play Store پر بھی ہے — اب پیسے کیسے کمائیں؟ اگلی گائیڈ میں ہم SaaS (Software as a Service) سمجھیں گے — سبسکرپشن ماڈل، قیمت کا تعین، اور Stripe/LemonSqueezy سے ادائیگی لینا۔
+ایپ لائیو ہے، Play Store پر بھی ہے — اب پیسے کیسے کمائیں؟ [اگلی گائیڈ: SaaS اور پیسے کمائیں](/guides/vibe-coding-saas-paise-kaise-kamayen/) میں ہم SaaS سمجھیں گے — سبسکرپشن ماڈل، قیمت کا تعین، اور LemonSqueezy سے ادائیگی لینا۔

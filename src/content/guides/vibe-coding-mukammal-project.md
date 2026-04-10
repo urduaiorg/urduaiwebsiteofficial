@@ -94,7 +94,7 @@ AI ایپ بنائے گا — لاگ ان، ڈیٹابیس، UI سب خود سی
 
 ## مرحلہ 5 — GitHub پر محفوظ کریں (5 منٹ)
 
-AI Studio سے کوڈ ایکسپورٹ کریں اور GitHub ریپو میں ڈالیں — جیسا ہم نے گائیڈ 6 میں سیکھا۔
+AI Studio سے کوڈ ایکسپورٹ کریں اور GitHub ریپو میں ڈالیں — جیسا ہم نے [GitHub گائیڈ](/guides/vibe-coding-github-version-control/) میں سیکھا۔
 
 ## مرحلہ 6 — لائیو کریں (5-10 منٹ)
 
@@ -147,19 +147,19 @@ AI سے کہیں:
 
 | گائیڈ | موضوع | کیا سیکھا |
 |-------|-------|----------|
-| 1 | وائب کوڈنگ تعارف | AI سے کوڈ لکھوانا |
-| 2 | ٹولز | Google AI Studio، Cursor، Bolt |
-| 3 | فرنٹ اینڈ | HTML، CSS، JavaScript |
-| 4 | بیک اینڈ | سرور، ڈیٹابیس، API |
-| 5 | لاگ ان | Authentication، OAuth |
-| 6 | GitHub | کوڈ محفوظ اور شیئر کرنا |
-| 7 | Firebase/Supabase | ڈیٹابیس گہرائی سے |
-| 8 | مفت ہوسٹنگ | لائیو کرنا بغیر خرچے |
-| 9 | موبائل ایپ | PWA، Capacitor، Play Store |
-| 10 | SaaS | پیسے کمانا |
-| 11 | پرامٹ انجینئرنگ | AI سے بہتر کام لینا |
-| 12 | ڈیبگنگ | غلطیاں ڈھونڈنا اور ٹھیک کرنا |
-| 13 | مکمل پروجیکٹ | سب ملا کر ایپ بنانا |
+| [1](/guides/vibe-coding-kya-hai/) | وائب کوڈنگ تعارف | AI سے کوڈ لکھوانا |
+| [2](/guides/vibe-coding-tools-ka-mukammal-jaiza/) | ٹولز | Google AI Studio، Cursor، Bolt |
+| [3](/guides/vibe-coding-frontend-kya-hai/) | فرنٹ اینڈ | HTML، CSS، JavaScript |
+| [4](/guides/vibe-coding-backend-kya-hai/) | بیک اینڈ | سرور، ڈیٹابیس، API |
+| [5](/guides/vibe-coding-authentication-login-system/) | لاگ ان | Authentication، OAuth |
+| [6](/guides/vibe-coding-github-version-control/) | GitHub | کوڈ محفوظ اور شیئر کرنا |
+| [7](/guides/vibe-coding-firebase-supabase-deep-dive/) | Firebase/Supabase | ڈیٹابیس گہرائی سے |
+| [8](/guides/vibe-coding-free-hosting-app-launch/) | مفت ہوسٹنگ | لائیو کرنا بغیر خرچے |
+| [9](/guides/vibe-coding-website-to-mobile-app/) | موبائل ایپ | PWA، Capacitor، Play Store |
+| [10](/guides/vibe-coding-saas-paise-kaise-kamayen/) | SaaS | پیسے کمانا |
+| [11](/guides/vibe-coding-prompt-engineering/) | پرامٹ انجینئرنگ | AI سے بہتر کام لینا |
+| [12](/guides/vibe-coding-debugging-testing/) | ڈیبگنگ | غلطیاں ڈھونڈنا اور ٹھیک کرنا |
+| [13](/guides/vibe-coding-mukammal-project/) | مکمل پروجیکٹ | سب ملا کر ایپ بنانا |
 
 ## اہم اصطلاحات
 
@@ -170,4 +170,4 @@ AI سے کہیں:
 
 ## آخری گائیڈ میں
 
-ایپ بنانا آ گیا — لیکن اس سے روزی کیسے کمائیں؟ آخری گائیڈ میں ہم فری لانسنگ سیکھیں گے — Fiverr، Upwork پر وائب کوڈنگ سے کام لینا، پورٹ فولیو بنانا، اور پاکستان سے ڈالرز کمانا۔
+ایپ بنانا آ گیا — لیکن اس سے روزی کیسے کمائیں؟ [آخری گائیڈ: فری لانسنگ](/guides/vibe-coding-freelancing-paise-kamayen/) میں ہم سیکھیں گے Fiverr، Upwork پر وائب کوڈنگ سے کام لینا، پورٹ فولیو بنانا، اور پاکستان سے ڈالرز کمانا۔
