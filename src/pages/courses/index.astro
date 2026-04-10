@@ -42,18 +42,46 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <p class="card__excerpt">اے آئی کی بنیادی باتیں — بالکل شروع سے</p>
         <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
       </a>
-      <a href={`${base}/courses/automation/`} class="card" style="text-decoration:none;">
-        <span class="badge">درمیانہ</span>
-        <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی آٹومیشن</h2>
-        <p class="card__excerpt">اے آئی سے اپنا کام خودکار بنائیں</p>
-        <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
-      </a>
-      <a href={`${base}/courses/champs/`} class="card" style="text-decoration:none;">
-        <span class="badge" style="background:var(--ink); color:var(--gold-light); border-color:var(--ink);">ماہر</span>
-        <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی چیمپس</h2>
-        <p class="card__excerpt">پیشہ ورانہ سطح کی اے آئی مہارت</p>
-        <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
-      </a>
+      <div class="card card--coming-soon" style="text-decoration:none; position:relative; overflow:hidden;">
+        <div class="card--blur">
+          <span class="badge">درمیانہ</span>
+          <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی آٹومیشن</h2>
+          <p class="card__excerpt">اے آئی سے اپنا کام خودکار بنائیں</p>
+          <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
+        </div>
+        <span class="coming-soon-label">جلد آ رہا ہے</span>
+      </div>
+      <div class="card card--coming-soon" style="text-decoration:none; position:relative; overflow:hidden;">
+        <div class="card--blur">
+          <span class="badge" style="background:var(--ink); color:var(--gold-light); border-color:var(--ink);">ماہر</span>
+          <h2 class="card__title" style="margin-block-start:var(--space-xs);">اے آئی چیمپس</h2>
+          <p class="card__excerpt">پیشہ ورانہ سطح کی اے آئی مہارت</p>
+          <p class="text-sm text-muted">مفت · سرٹیفکیٹ</p>
+        </div>
+        <span class="coming-soon-label">جلد آ رہا ہے</span>
+      </div>
     </div>
   </div>
+
+  <style>
+    .card--coming-soon {
+      cursor: default;
+      pointer-events: none;
+    }
+    .card--blur {
+      filter: blur(3px);
+      opacity: 0.5;
+    }
+    .coming-soon-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--text-h2);
+      font-weight: bold;
+      color: var(--navy);
+      pointer-events: none;
+    }
+  </style>
 </Base>
