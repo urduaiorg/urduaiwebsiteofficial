@@ -36,25 +36,70 @@ const lessonHtml = mdToHtml(lesson.description);
 const prevLesson = lesson.number > 1 ? lesson.number - 1 : null;
 const nextLesson = lesson.number < lessons.length ? lesson.number + 1 : null;
 
+// Extract first paragraph as plain text for description
+const firstPara = lesson.description.split('\n\n').find(b => !b.trim().startsWith('##'))?.replace(/\*\*/g, '').trim().slice(0, 160) || lesson.title;
+
 const courseSchema = {
   "@context": "https://schema.org",
-  "@type": "Course",
+  "@type": "LearningResource",
+  "learningResourceType": "Video Lesson",
   "name": `سبق ${lesson.number}: ${lesson.title}`,
-  "description": `اردو اے آئی ماسٹرکلاس — سبق ${lesson.number}: ${lesson.title}`,
+  "description": firstPara,
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
   "url": `https://urduai.org/courses/masterclass/${lesson.number}/`,
+  "isPartOf": {
+    "@type": "Course",
+    "name": "اردو اے آئی ماسٹرکلاس",
+    "url": "https://urduai.org/courses/masterclass/",
+  },
+  "position": lesson.number,
+  "instructor": {
+    "@type": "Person",
+    "name": "قیصر رونجھا",
+  },
+};
+
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`,
+  "description": firstPara,
+  "thumbnailUrl": `https://img.youtube.com/vi/${lesson.videoId}/maxresdefault.jpg`,
+  "uploadDate": "2024-01-01",
+  "contentUrl": `https://www.youtube.com/watch?v=${lesson.videoId}`,
+  "embedUrl": `https://www.youtube.com/embed/${lesson.videoId}`,
+  "inLanguage": "ur",
+  "publisher": {
+    "@type": "Organization",
+    "name": "اردو اے آئی",
+    "url": "https://urduai.org",
+  },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ہوم", "item": "https://urduai.org/" },
+    { "@type": "ListItem", "position": 2, "name": "کورسز", "item": "https://urduai.org/courses/" },
+    { "@type": "ListItem", "position": 3, "name": "ماسٹرکلاس", "item": "https://urduai.org/courses/masterclass/" },
+    { "@type": "ListItem", "position": 4, "name": `سبق ${lesson.number}`, "item": `https://urduai.org/courses/masterclass/${lesson.number}/` },
+  ],
 };
 ---
 
 <Base
   title={`سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`}
-  description={`اردو اے آئی ماسٹرکلاس کا سبق ${lesson.number} — ${lesson.title}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں۔`}
+  description={`${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`}
   canonical={`https://urduai.org/courses/masterclass/${lesson.number}/`}
   adsense={false}
   schema={courseSchema}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
   <div class="container lesson-page" style="margin-block-start: var(--space-xl);">
     <!-- Breadcrumb -->
     <nav aria-label="بریڈکرمب">

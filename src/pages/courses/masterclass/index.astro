@@ -6,19 +6,93 @@ const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "اردو اے آئی ماسٹرکلاس",
-  "description": "اے آئی کی بنیادی باتیں بالکل شروع سے — 9 اسباق، ویڈیوز، کوئزز، اور مفت سرٹیفکیٹ — سب اردو میں",
+  "description": "اردو اے آئی ماسٹرکلاس پاکستان کا پہلا مفت اردو AI کورس ہے جس میں 9 ویڈیو اسباق، کوئزز، اور سرٹیفکیٹ شامل ہیں۔ ChatGPT، Gemini، Claude، وائب کوڈنگ، AI تصاویر، آواز، اوتار — سب اردو میں سیکھیں۔",
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
   "numberOfCredits": 9,
   "educationalLevel": "Beginner",
   "url": "https://urduai.org/courses/masterclass/",
+  "coursePrerequisites": "کوئی پیشگی تجربہ درکار نہیں — بالکل شروع سے",
+  "teaches": "مصنوعی ذہانت کے بنیادی تصورات، AI ٹولز کا استعمال، وائب کوڈنگ، AI سے مواد بنانا",
+  "totalHistoricalEnrollment": 50000,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "PKR",
+    "availability": "https://schema.org/InStock",
+  },
+  "instructor": {
+    "@type": "Person",
+    "name": "قیصر رونجھا",
+    "alternateName": "Qaisar Roonjha",
+    "url": "https://urduai.org/team/",
+  },
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "online",
     "courseWorkload": "PT3H",
+    "courseSchedule": {
+      "@type": "Schedule",
+      "repeatFrequency": "P1D",
+      "repeatCount": 9,
+    },
+  },
+  "hasPart": lessons.map((l, i) => ({
+    "@type": "Course",
+    "name": `سبق ${l.number}: ${l.title}`,
+    "url": `https://urduai.org/courses/masterclass/${l.number}/`,
+    "position": i + 1,
+  })),
+  "educationalCredentialAwarded": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "Urdu AI Master Class Certificate",
+    "credentialCategory": "Certificate of Completion",
   },
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ہوم", "item": "https://urduai.org/" },
+    { "@type": "ListItem", "position": 2, "name": "کورسز", "item": "https://urduai.org/courses/" },
+    { "@type": "ListItem", "position": 3, "name": "ماسٹرکلاس", "item": "https://urduai.org/courses/masterclass/" },
+  ],
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "کیا اردو اے آئی ماسٹرکلاس مفت ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں، یہ کورس مکمل طور پر مفت ہے۔ 9 ویڈیو اسباق، کوئزز، اور سرٹیفکیٹ — سب بغیر کسی فیس کے۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "ماسٹرکلاس مکمل کرنے میں کتنا وقت لگتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں — کوئی ڈیڈ لائن نہیں۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا مجھے پہلے سے AI کا تجربہ ہونا چاہیے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "بالکل نہیں۔ یہ کورس بالکل شروع سے شروع ہوتا ہے — AI کیا ہے سے لے کر ویب سائٹ بنانے تک۔ کوئی پیشگی تجربہ درکار نہیں۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "سرٹیفکیٹ کیسے ملتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "تمام 9 اسباق کے کوئزز پاس کرنے کے بعد سرٹیفکیٹ فارم بھریں۔ PDF سرٹیفکیٹ آپ کے ای میل پر خودکار طور پر بھیج دیا جائے گا۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا یہ کورس موبائل پر چلتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔" },
+    },
+  ],
+};
+
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -29,6 +103,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   adsense={false}
   schema={courseSchema}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
   <div class="container mc-landing" style="margin-block-start: var(--space-xl);">
     <!-- Breadcrumb -->
     <nav aria-label="بریڈکرمب">
@@ -44,7 +121,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <span class="badge badge--gold">مفت کورس</span>
       <h1>اے آئی ماسٹرکلاس</h1>
       <p class="mc-hero__subtitle">
-        اے آئی کی بنیادی باتیں بالکل شروع سے سیکھیں — اردو میں، ویڈیوز کے ساتھ، کوئز دیں، سرٹیفکیٹ حاصل کریں۔
+        اردو اے آئی ماسٹرکلاس پاکستان کا پہلا مکمل مفت AI کورس ہے جو اردو میں مصنوعی ذہانت سکھاتا ہے۔ اس کورس میں 9 ویڈیو اسباق ہیں جن میں ChatGPT، Google Gemini، Claude، وائب کوڈنگ، AI تصاویر، آواز، اوتار، اور ویب سائٹ بنانا شامل ہے۔ ہر سبق کے بعد کوئز دیں اور تمام اسباق مکمل کرنے پر مفت سرٹیفکیٹ حاصل کریں — کوئی پیشگی تجربہ درکار نہیں۔
       </p>
       <div class="mc-stats">
         <div class="mc-stat">
@@ -133,6 +210,31 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <li>AI اوتار بنانا — ڈیجیٹل انسان جو آپ کے لیے بولے</li>
         <li>اپنی پہلی ویب سائٹ AI سے بنانا اور لائیو کرنا</li>
       </ul>
+    </div>
+
+    <!-- FAQ section -->
+    <div class="mc-faq">
+      <h2>عام سوالات</h2>
+      <details>
+        <summary>کیا اردو اے آئی ماسٹرکلاس مفت ہے؟</summary>
+        <p>جی ہاں، یہ کورس مکمل طور پر مفت ہے۔ 9 ویڈیو اسباق، کوئزز، اور سرٹیفکیٹ — سب بغیر کسی فیس کے۔</p>
+      </details>
+      <details>
+        <summary>ماسٹرکلاس مکمل کرنے میں کتنا وقت لگتا ہے؟</summary>
+        <p>کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں — کوئی ڈیڈ لائن نہیں۔</p>
+      </details>
+      <details>
+        <summary>کیا مجھے پہلے سے AI کا تجربہ ہونا چاہیے؟</summary>
+        <p>بالکل نہیں۔ یہ کورس بالکل شروع سے شروع ہوتا ہے — AI کیا ہے سے لے کر ویب سائٹ بنانے تک۔ کوئی پیشگی تجربہ درکار نہیں۔</p>
+      </details>
+      <details>
+        <summary>سرٹیفکیٹ کیسے ملتا ہے؟</summary>
+        <p>تمام 9 اسباق کے کوئزز پاس کرنے کے بعد سرٹیفکیٹ فارم بھریں۔ PDF سرٹیفکیٹ آپ کے ای میل پر خودکار طور پر بھیج دیا جائے گا۔</p>
+      </details>
+      <details>
+        <summary>کیا یہ کورس موبائل پر چلتا ہے؟</summary>
+        <p>جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔</p>
+      </details>
     </div>
 
     <!-- WhatsApp CTA -->
@@ -361,6 +463,34 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     }
     .mc-learn__list li {
       margin-block-end: var(--space-xs);
+    }
+
+    /* FAQ */
+    .mc-faq {
+      margin-block: var(--space-xl);
+    }
+    .mc-faq h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-md);
+    }
+    .mc-faq details {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-block-end: var(--space-xs);
+      overflow: hidden;
+    }
+    .mc-faq summary {
+      padding: var(--space-sm) var(--space-md);
+      cursor: pointer;
+      font-weight: bold;
+      background: var(--paper-warm);
+    }
+    .mc-faq summary:hover {
+      background: var(--paper-card);
+    }
+    .mc-faq details p {
+      padding: var(--space-sm) var(--space-md);
+      margin: 0;
     }
 
     /* WhatsApp */

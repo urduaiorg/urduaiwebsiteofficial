@@ -250,50 +250,43 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </div>
 
   <!-- ============================================================
-       MASTERCLASS — Urdu AI Free Course
+       MASTERCLASS COURSE BANNER
        ============================================================ -->
-  <section class="container" style="margin-block-start: var(--space-xl);">
-    <h2 class="section-heading">مفت ماسٹر کلاس</h2>
-    <p class="text-muted" style="text-align:center; max-width:48rem; margin:0 auto var(--space-lg);">
-      اے آئی بالکل شروع سے سیکھیں — 10 کلاسز، مکمل اردو میں، بالکل مفت
-    </p>
-    <div class="masterclass-grid masterclass-grid--three">
-      <a href="https://www.youtube.com/watch?v=lKHkY_Ha8S4&list=PL1M1G3ljoNJomH60QdE3dB_KACQwMpfRp" target="_blank" rel="noopener" class="masterclass-card">
-        <img src="https://img.youtube.com/vi/lKHkY_Ha8S4/hqdefault.jpg" alt="Welcome to Urdu Ai Master Class" loading="lazy" />
-        <div class="masterclass-card__play">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
+  <section class="course-banner">
+    <div class="container">
+      <div class="course-banner__inner">
+        <div class="course-banner__content">
+          <span class="badge badge--teal">مفت کورس + سرٹیفکیٹ</span>
+          <h2 class="course-banner__title">اے آئی ماسٹرکلاس</h2>
+          <p class="course-banner__desc">
+            اے آئی بالکل شروع سے سیکھیں — 9 ویڈیو اسباق، ہر سبق کے ساتھ کوئز، اور مکمل ہونے پر مفت سرٹیفکیٹ۔
+            50 ہزار سے زیادہ طلبا نے یہ کورس مکمل کیا ہے۔
+          </p>
+          <div class="course-banner__stats">
+            <div class="course-banner__stat">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"/></svg>
+              <span>9 ویڈیو اسباق</span>
+            </div>
+            <div class="course-banner__stat">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+              <span>کوئز ہر سبق میں</span>
+            </div>
+            <div class="course-banner__stat">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+              <span>مفت سرٹیفکیٹ</span>
+            </div>
+          </div>
+          <a href={`${base}/courses/masterclass/`} class="course-banner__btn">
+            کورس شروع کریں ←
+          </a>
         </div>
-        <div class="masterclass-card__info">
-          <span class="masterclass-card__num">شروع کریں</span>
-          <span class="masterclass-card__title">Welcome — ماسٹر کلاس</span>
+        <div class="course-banner__thumbnails">
+          <img src="https://img.youtube.com/vi/98DsXzUk1mY/hqdefault.jpg" alt="سبق 1: AI کیا ہے؟" loading="lazy" width="320" height="180" />
+          <img src="https://img.youtube.com/vi/QOvLxACAclk/hqdefault.jpg" alt="سبق 4: AI سے مواد بنانا" loading="lazy" width="320" height="180" />
+          <img src="https://img.youtube.com/vi/Wb5X_uP1Juk/hqdefault.jpg" alt="سبق 5: AI سے ایپس بنانا" loading="lazy" width="320" height="180" />
         </div>
-      </a>
-      <a href="https://www.youtube.com/watch?v=98DsXzUk1mY&list=PL1M1G3ljoNJomH60QdE3dB_KACQwMpfRp" target="_blank" rel="noopener" class="masterclass-card">
-        <img src="https://img.youtube.com/vi/98DsXzUk1mY/hqdefault.jpg" alt="AI Kya Hai?" loading="lazy" />
-        <div class="masterclass-card__play">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
-        </div>
-        <div class="masterclass-card__info">
-          <span class="masterclass-card__num">کلاس 1</span>
-          <span class="masterclass-card__title">AI کیا ہے؟</span>
-        </div>
-      </a>
-      <a href="https://www.youtube.com/watch?v=LDMtmvUMZcs&list=PL1M1G3ljoNJomH60QdE3dB_KACQwMpfRp" target="_blank" rel="noopener" class="masterclass-card">
-        <img src="https://img.youtube.com/vi/LDMtmvUMZcs/hqdefault.jpg" alt="AI Companies and Tools" loading="lazy" />
-        <div class="masterclass-card__play">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
-        </div>
-        <div class="masterclass-card__info">
-          <span class="masterclass-card__num">کلاس 2</span>
-          <span class="masterclass-card__title">بڑی AI کمپنیاں اور ٹولز</span>
-        </div>
-      </a>
+      </div>
     </div>
-    <p style="text-align:center; margin-block-start: var(--space-md);">
-      <a href="https://youtube.com/playlist?list=PL1M1G3ljoNJomH60QdE3dB_KACQwMpfRp" target="_blank" rel="noopener" style="color:var(--teal); font-weight:600;">
-        تمام 10 کلاسز دیکھیں ←
-      </a>
-    </p>
   </section>
 
   <!-- ============================================================
