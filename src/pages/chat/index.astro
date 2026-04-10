@@ -1,0 +1,140 @@
+---
+// Chat — urduai.org/chat/
+// Redirects to Urdu AI's official GPT on ChatGPT
+// Update the GPT_URL when the actual GPT link is provided
+import '../../styles/global.css';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const GPT_URL = 'https://chatgpt.com/g/g-dGy01onal-urdu-ai'; // UPDATE: Replace with actual GPT URL
+---
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>اردو اے آئی چیٹ — Urdu Ai GPT</title>
+  <meta name="description" content="اردو اے آئی کا آفیشل GPT۔ اردو میں AI سے بات کریں، سوالات پوچھیں اور مدد حاصل کریں۔" />
+  <link rel="canonical" href="https://urduai.org/chat/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Inter:wght@700;800&display=swap" rel="stylesheet" />
+  <style is:inline>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Noto Nastaliq Urdu', serif;
+      background: linear-gradient(160deg, #153d75 0%, #1d559f 50%, #1a4a8a 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .chat-brand {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      font-size: 2.5rem;
+      color: #fff;
+      text-decoration: none;
+      direction: ltr;
+      unicode-bidi: embed;
+      margin-bottom: 1rem;
+    }
+
+    .chat-brand span { color: #f1cc11; }
+
+    .chat-title {
+      font-size: 1.8rem;
+      line-height: 1.8;
+      margin-bottom: 0.8rem;
+    }
+
+    .chat-desc {
+      font-size: 1rem;
+      color: #fef9e0;
+      max-width: 500px;
+      line-height: 2.2;
+      margin-bottom: 2rem;
+    }
+
+    .chat-btn {
+      display: inline-block;
+      background: #f1cc11;
+      color: #1a2236;
+      padding: 0.8em 2.5em;
+      border-radius: 10px;
+      font-family: 'Noto Nastaliq Urdu', serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.2s;
+      margin-bottom: 1.5rem;
+    }
+
+    .chat-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 24px rgba(241, 204, 17, 0.3);
+    }
+
+    .chat-note {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.6);
+      line-height: 2;
+    }
+
+    .chat-note a {
+      color: #f1cc11;
+      text-decoration: none;
+    }
+
+    .chat-features {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+      max-width: 600px;
+    }
+
+    .chat-feature {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(241, 204, 17, 0.2);
+      border-radius: 8px;
+      padding: 0.6rem 1rem;
+      font-size: 0.85rem;
+      color: #fef9e0;
+    }
+
+    @media (max-width: 768px) {
+      .chat-brand { font-size: 1.8rem; }
+      .chat-title { font-size: 1.3rem; }
+      .chat-features { gap: 0.8rem; }
+      .chat-feature { font-size: 0.78rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href={`${base}/`} class="chat-brand">Urdu <span>Ai</span></a>
+
+  <h1 class="chat-title">اردو اے آئی کا آفیشل GPT</h1>
+  <p class="chat-desc">اردو میں AI سے بات کریں۔ سوالات پوچھیں، مدد حاصل کریں، پرامٹ بنوائیں — سب اردو میں۔</p>
+
+  <div class="chat-features">
+    <div class="chat-feature">اردو میں جواب</div>
+    <div class="chat-feature">AI سیکھیں</div>
+    <div class="chat-feature">پرامٹ بنوائیں</div>
+    <div class="chat-feature">مفت استعمال</div>
+  </div>
+
+  <a href={GPT_URL} target="_blank" rel="noopener" class="chat-btn">GPT سے بات کریں</a>
+
+  <p class="chat-note">
+    ChatGPT اکاؤنٹ درکار ہے — <a href={`${base}/`}>urduai.org</a> پر واپس جائیں
+  </p>
+
+</body>
+</html>
