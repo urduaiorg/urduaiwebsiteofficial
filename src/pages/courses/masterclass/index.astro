@@ -1,27 +1,36 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import { lessons } from '../../../data/masterclass-lessons';
 
 const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "اردو اے آئی ماسٹرکلاس",
-  "description": "اے آئی کی بنیادی باتیں — بالکل شروع سے، اردو میں",
+  "description": "اے آئی کی بنیادی باتیں بالکل شروع سے — 9 اسباق، ویڈیوز، کوئزز، اور مفت سرٹیفکیٹ — سب اردو میں",
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
+  "numberOfCredits": 9,
+  "educationalLevel": "Beginner",
   "url": "https://urduai.org/courses/masterclass/",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT3H",
+  },
 };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
   title="اے آئی ماسٹرکلاس — اردو اے آئی | مفت اے آئی کورس اردو میں"
-  description="اردو اے آئی ماسٹرکلاس میں اے آئی کی بنیادی باتیں بالکل شروع سے سیکھیں — مفت، اردو میں، سرٹیفکیٹ کے ساتھ۔"
+  description="اردو اے آئی ماسٹرکلاس میں اے آئی کی بنیادی باتیں بالکل شروع سے سیکھیں — 9 ویڈیو اسباق، کوئزز، اور مفت سرٹیفکیٹ۔"
   canonical="https://urduai.org/courses/masterclass/"
   adsense={false}
   schema={courseSchema}
 >
-  <div class="container" style="margin-block-start: var(--space-xl);">
+  <div class="container mc-landing" style="margin-block-start: var(--space-xl);">
+    <!-- Breadcrumb -->
     <nav aria-label="بریڈکرمب">
       <ol class="breadcrumb">
         <li><a href={`${base}/`}>ہوم</a></li>
@@ -30,16 +39,434 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </ol>
     </nav>
 
-    <span class="badge badge--teal">ابتدائی</span>
-    <h1 style="margin-block-start:var(--space-xs);">اے آئی ماسٹرکلاس</h1>
-    <p class="text-muted">مفت · سرٹیفکیٹ · اردو میں</p>
-
-    <div class="note" style="margin-block:var(--space-lg);">
-      یہ کورس جلد شروع ہو رہا ہے۔ نیوز لیٹر سبسکرائب کریں تاکہ اطلاع ملے۔
+    <!-- Hero -->
+    <div class="mc-hero">
+      <span class="badge badge--gold">مفت کورس</span>
+      <h1>اے آئی ماسٹرکلاس</h1>
+      <p class="mc-hero__subtitle">
+        اے آئی کی بنیادی باتیں بالکل شروع سے سیکھیں — اردو میں، ویڈیوز کے ساتھ، کوئز دیں، سرٹیفکیٹ حاصل کریں۔
+      </p>
+      <div class="mc-stats">
+        <div class="mc-stat">
+          <span class="mc-stat__number">9</span>
+          <span class="mc-stat__label">ویڈیو اسباق</span>
+        </div>
+        <div class="mc-stat">
+          <span class="mc-stat__number">50K+</span>
+          <span class="mc-stat__label">سیکھنے والے</span>
+        </div>
+        <div class="mc-stat">
+          <span class="mc-stat__number">مفت</span>
+          <span class="mc-stat__label">سرٹیفکیٹ</span>
+        </div>
+      </div>
     </div>
 
-    <a href="https://whatsapp.com/channel/0029VaFMqhb002TnKByMOp0D" target="_blank" rel="noopener noreferrer" class="btn-playstore">
-      اطلاع کے لیے واٹس ایپ چینل جوائن کریں
-    </a>
+    <!-- Substack subscribe section -->
+    <div class="mc-subscribe" id="mc-subscribe">
+      <h2>کورس شروع کرنے کے لیے سبسکرائب کریں</h2>
+      <p class="text-muted">اپنا ای میل درج کریں — اردو اے آئی اپڈیٹس آپ کو ملتی رہیں گی۔</p>
+      <div class="mc-subscribe__embed">
+        <iframe
+          src="https://www.urduaiupdates.com/embed"
+          width="100%"
+          height="320"
+          style="border: 1px solid var(--border); background: white; border-radius: 8px;"
+          frameborder="0"
+          scrolling="no"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <button class="btn-primary mc-subscribe__btn" id="start-course-btn" style="display:none;">
+        کورس شروع کریں →
+      </button>
+      <button class="btn-secondary" id="subscribed-btn">
+        میں نے سبسکرائب کر لیا ہے — کورس شروع کریں
+      </button>
+    </div>
+
+    <!-- Syllabus -->
+    <div class="mc-syllabus">
+      <h2>نصاب — 9 اسباق</h2>
+      <div class="mc-progress-overview" id="mc-progress-overview" style="display:none;">
+        <div class="mc-progress__bar">
+          <div class="mc-progress__fill" id="mc-progress-fill"></div>
+        </div>
+        <span class="mc-progress__text" id="mc-progress-text"></span>
+      </div>
+      <ol class="mc-syllabus__list">
+        {lessons.map((lesson) => (
+          <li class="mc-syllabus__item" data-lesson={lesson.number}>
+            <a href={`${base}/courses/masterclass/${lesson.number}/`} class="mc-syllabus__link">
+              <span class="mc-syllabus__num">{lesson.number}</span>
+              <span class="mc-syllabus__title">{lesson.title}</span>
+              <span class="mc-syllabus__status" id={`status-${lesson.number}`}></span>
+            </a>
+            {lesson.tools.length > 0 && (
+              <span class="mc-syllabus__tools">
+                {lesson.tools.map((t) => t.name).join('، ')}
+              </span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <!-- Certificate CTA -->
+    <div class="mc-cert-cta" id="mc-cert-cta" style="display:none;">
+      <h2>تمام اسباق مکمل!</h2>
+      <p>آپ نے 9 میں سے 9 اسباق مکمل کر لیے ہیں۔ اب اپنا سرٹیفکیٹ حاصل کریں۔</p>
+      <a href={`${base}/courses/masterclass/certificate/`} class="btn-primary">
+        سرٹیفکیٹ حاصل کریں →
+      </a>
+    </div>
+
+    <!-- What you'll learn -->
+    <div class="mc-learn">
+      <h2>آپ کیا سیکھیں گے؟</h2>
+      <ul class="mc-learn__list">
+        <li>AI کیا ہے اور یہ کیسے کام کرتا ہے — بالکل شروع سے</li>
+        <li>ChatGPT، Gemini، Claude — مشہور AI ٹولز استعمال کرنا</li>
+        <li>AI سے اردو میں لکھنا، ترجمہ کرنا، اور تجزیہ کرنا</li>
+        <li>AI سے تصاویر، ویڈیوز، آواز، اور موسیقی بنانا</li>
+        <li>وائب کوڈنگ — بغیر کوڈ سیکھے ایپس اور ویب سائٹس بنانا</li>
+        <li>AI اوتار بنانا — ڈیجیٹل انسان جو آپ کے لیے بولے</li>
+        <li>اپنی پہلی ویب سائٹ AI سے بنانا اور لائیو کرنا</li>
+      </ul>
+    </div>
+
+    <!-- WhatsApp CTA -->
+    <div class="mc-whatsapp">
+      <a href="https://whatsapp.com/channel/0029VaFMqhb002TnKByMOp0D" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+        اردو اے آئی واٹس ایپ چینل جوائن کریں
+      </a>
+    </div>
   </div>
+
+  <style>
+    .mc-landing {
+      max-width: var(--max-width);
+      padding-block-end: var(--space-2xl);
+    }
+
+    /* Hero */
+    .mc-hero {
+      margin-block: var(--space-lg);
+    }
+    .mc-hero h1 {
+      margin-block-start: var(--space-xs);
+    }
+    .mc-hero__subtitle {
+      font-size: 1.1rem;
+      color: var(--ink-soft);
+      max-width: 600px;
+    }
+    .badge--gold {
+      background: var(--gold);
+      color: var(--ink);
+      padding: 0.2rem 0.8rem;
+      border-radius: 4px;
+      font-size: var(--text-sm);
+      font-weight: bold;
+    }
+    .mc-stats {
+      display: flex;
+      gap: var(--space-lg);
+      margin-block-start: var(--space-lg);
+    }
+    .mc-stat {
+      text-align: center;
+    }
+    .mc-stat__number {
+      display: block;
+      font-size: var(--text-h2);
+      font-weight: bold;
+      color: var(--navy);
+      line-height: 1.3;
+    }
+    .mc-stat__label {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+    }
+
+    /* Subscribe */
+    .mc-subscribe {
+      margin-block: var(--space-xl);
+      background: var(--paper-warm);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: var(--space-lg);
+    }
+    .mc-subscribe h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-xs);
+    }
+    .mc-subscribe__embed {
+      margin-block: var(--space-md);
+    }
+    .mc-subscribe__embed iframe {
+      max-width: 100%;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 6px;
+      font-size: var(--text-base);
+      font-family: inherit;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-primary:hover {
+      background: var(--navy-dark);
+    }
+    .btn-secondary {
+      display: inline-block;
+      background: transparent;
+      color: var(--navy);
+      border: 2px solid var(--navy);
+      padding: 0.7rem 1.8rem;
+      border-radius: 6px;
+      font-size: var(--text-base);
+      font-family: inherit;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn-secondary:hover {
+      background: var(--navy);
+      color: #fff;
+    }
+
+    /* Syllabus */
+    .mc-syllabus {
+      margin-block: var(--space-xl);
+    }
+    .mc-syllabus h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-md);
+    }
+    .mc-syllabus__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      counter-reset: none;
+    }
+    .mc-syllabus__item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-block-end: var(--space-xs);
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+    .mc-syllabus__item:hover {
+      border-color: var(--navy);
+    }
+    .mc-syllabus__item.completed {
+      border-color: #0e6b5e;
+      background: #f0faf8;
+    }
+    .mc-syllabus__link {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      padding: var(--space-sm) var(--space-md);
+      text-decoration: none;
+      color: var(--ink);
+    }
+    .mc-syllabus__num {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--navy);
+      color: #fff;
+      font-size: var(--text-sm);
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    .mc-syllabus__item.completed .mc-syllabus__num {
+      background: #0e6b5e;
+    }
+    .mc-syllabus__title {
+      flex: 1;
+      font-weight: bold;
+    }
+    .mc-syllabus__status {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+    }
+    .mc-syllabus__tools {
+      display: block;
+      padding: 0 var(--space-md) var(--space-sm);
+      padding-inline-start: calc(var(--space-md) + 2rem + var(--space-sm));
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+    }
+
+    /* Progress */
+    .mc-progress-overview {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      margin-block-end: var(--space-md);
+    }
+    .mc-progress__bar {
+      flex: 1;
+      height: 8px;
+      background: var(--paper-warm);
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .mc-progress__fill {
+      height: 100%;
+      background: var(--navy);
+      border-radius: 4px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+    .mc-progress__text {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+
+    /* Certificate CTA */
+    .mc-cert-cta {
+      background: var(--gold-pale);
+      border: 2px solid var(--gold);
+      border-radius: 8px;
+      padding: var(--space-lg);
+      text-align: center;
+      margin-block: var(--space-xl);
+    }
+    .mc-cert-cta h2 {
+      color: var(--navy);
+    }
+
+    /* What you'll learn */
+    .mc-learn {
+      margin-block: var(--space-xl);
+    }
+    .mc-learn h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-md);
+    }
+    .mc-learn__list {
+      padding-inline-start: var(--space-md);
+    }
+    .mc-learn__list li {
+      margin-block-end: var(--space-xs);
+    }
+
+    /* WhatsApp */
+    .mc-whatsapp {
+      text-align: center;
+      margin-block: var(--space-lg);
+    }
+
+    @media (max-width: 600px) {
+      .mc-stats {
+        gap: var(--space-md);
+      }
+      .mc-stat__number {
+        font-size: var(--text-h3);
+      }
+      .mc-subscribe {
+        padding: var(--space-sm);
+      }
+    }
+  </style>
+
+  <script is:inline>
+    var totalLessons = 9;
+
+    function getCompleted() {
+      var count = 0;
+      for (var i = 1; i <= totalLessons; i++) {
+        if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') === 'true') count++;
+      }
+      return count;
+    }
+
+    // Check enrollment
+    var isEnrolled = localStorage.getItem('urai-mc-enrolled') === 'true';
+    var completed = getCompleted();
+
+    if (isEnrolled || completed > 0) {
+      // Already enrolled — hide subscribe, show start button
+      var subscribeSection = document.getElementById('mc-subscribe');
+      var subscribedBtn = document.getElementById('subscribed-btn');
+      var startBtn = document.getElementById('start-course-btn');
+      if (subscribedBtn) subscribedBtn.style.display = 'none';
+      if (startBtn) {
+        startBtn.style.display = 'inline-block';
+        startBtn.textContent = completed > 0 ? 'کورس جاری رکھیں →' : 'کورس شروع کریں →';
+      }
+    }
+
+    // "I've subscribed" button
+    var subscribedBtn = document.getElementById('subscribed-btn');
+    if (subscribedBtn) {
+      subscribedBtn.addEventListener('click', function() {
+        localStorage.setItem('urai-mc-enrolled', 'true');
+        // Navigate to first incomplete lesson or lesson 1
+        var target = 1;
+        for (var i = 1; i <= totalLessons; i++) {
+          if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') !== 'true') {
+            target = i;
+            break;
+          }
+        }
+        window.location.href = window.location.pathname.replace(/\/$/, '') + '/' + target + '/';
+      });
+    }
+
+    // Start course button
+    var startBtn = document.getElementById('start-course-btn');
+    if (startBtn) {
+      startBtn.addEventListener('click', function() {
+        var target = 1;
+        for (var i = 1; i <= totalLessons; i++) {
+          if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') !== 'true') {
+            target = i;
+            break;
+          }
+        }
+        window.location.href = window.location.pathname.replace(/\/$/, '') + '/' + target + '/';
+      });
+    }
+
+    // Update syllabus status
+    for (var i = 1; i <= totalLessons; i++) {
+      var isComplete = localStorage.getItem('urai-mc-lesson-' + i + '-complete') === 'true';
+      var statusEl = document.getElementById('status-' + i);
+      var itemEl = document.querySelector('[data-lesson="' + i + '"]');
+      if (isComplete) {
+        if (statusEl) statusEl.textContent = 'مکمل';
+        if (itemEl) itemEl.classList.add('completed');
+      }
+    }
+
+    // Show progress if any lessons completed
+    if (completed > 0) {
+      var progressOverview = document.getElementById('mc-progress-overview');
+      if (progressOverview) progressOverview.style.display = 'flex';
+      var fill = document.getElementById('mc-progress-fill');
+      var text = document.getElementById('mc-progress-text');
+      var pct = Math.round((completed / totalLessons) * 100);
+      if (fill) fill.style.width = pct + '%';
+      if (text) text.textContent = completed + '/' + totalLessons + ' مکمل';
+    }
+
+    // Show certificate CTA if all complete
+    if (completed === totalLessons) {
+      var certCta = document.getElementById('mc-cert-cta');
+      if (certCta) certCta.style.display = 'block';
+    }
+  </script>
 </Base>

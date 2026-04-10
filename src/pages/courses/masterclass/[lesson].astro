@@ -1,0 +1,482 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { lessons } from '../../../data/masterclass-lessons';
+
+export function getStaticPaths() {
+  return lessons.map((lesson) => ({
+    params: { lesson: String(lesson.number) },
+    props: { lesson },
+  }));
+}
+
+const { lesson } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Convert simple Markdown to HTML
+function mdToHtml(md: string): string {
+  return md
+    .split('\n\n')
+    .map(block => {
+      block = block.trim();
+      if (!block) return '';
+      if (block.startsWith('## ')) {
+        return `<h2>${block.slice(3)}</h2>`;
+      }
+      // Bold
+      block = block.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      // Line breaks within a paragraph
+      block = block.replace(/\n/g, '<br>');
+      return `<p>${block}</p>`;
+    })
+    .join('\n');
+}
+
+const lessonHtml = mdToHtml(lesson.description);
+
+const prevLesson = lesson.number > 1 ? lesson.number - 1 : null;
+const nextLesson = lesson.number < lessons.length ? lesson.number + 1 : null;
+
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": `سبق ${lesson.number}: ${lesson.title}`,
+  "description": `اردو اے آئی ماسٹرکلاس — سبق ${lesson.number}: ${lesson.title}`,
+  "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
+  "inLanguage": "ur",
+  "isAccessibleForFree": true,
+  "url": `https://urduai.org/courses/masterclass/${lesson.number}/`,
+};
+---
+
+<Base
+  title={`سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`}
+  description={`اردو اے آئی ماسٹرکلاس کا سبق ${lesson.number} — ${lesson.title}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں۔`}
+  canonical={`https://urduai.org/courses/masterclass/${lesson.number}/`}
+  adsense={false}
+  schema={courseSchema}
+>
+  <div class="container lesson-page" style="margin-block-start: var(--space-xl);">
+    <!-- Breadcrumb -->
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li><a href={`${base}/courses/`}>کورسز</a></li>
+        <li><a href={`${base}/courses/masterclass/`}>ماسٹرکلاس</a></li>
+        <li aria-current="page">سبق {lesson.number}</li>
+      </ol>
+    </nav>
+
+    <!-- Progress bar -->
+    <div class="mc-progress" id="mc-progress">
+      <div class="mc-progress__bar">
+        <div class="mc-progress__fill" id="mc-progress-fill"></div>
+      </div>
+      <span class="mc-progress__text" id="mc-progress-text"></span>
+    </div>
+
+    <!-- Lesson title -->
+    <h1>سبق {lesson.number}: {lesson.title}</h1>
+
+    <!-- YouTube embed -->
+    <div class="video-embed">
+      <iframe
+        src={`https://www.youtube.com/embed/${lesson.videoId}?rel=0`}
+        title={lesson.title}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <!-- Written lesson content -->
+    <article class="lesson-content prose" set:html={lessonHtml} />
+
+    <!-- Tools box -->
+    {lesson.tools.length > 0 && (
+      <div class="tools-box">
+        <h2 class="tools-box__title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-inline-end: 0.5rem;"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          اس سبق میں استعمال ہونے والے ٹولز
+        </h2>
+        <ul class="tools-box__list">
+          {lesson.tools.map((tool) => (
+            <li class="tools-box__item">
+              <a href={tool.url} target="_blank" rel="noopener noreferrer" class="tools-box__link">
+                {tool.name}
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-inline-start: 0.3rem;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+              <span class="tools-box__desc">{tool.descriptionUr}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <!-- Quiz section -->
+    <div class="quiz-section" id="quiz-section">
+      <h2>کوئز — سبق {lesson.number}</h2>
+      <p class="text-muted">60% یا اس سے زیادہ نمبر حاصل کریں تاکہ اگلے سبق تک رسائی ملے۔</p>
+
+      <form id="quiz-form" class="quiz-form">
+        {lesson.quiz.map((q, qi) => (
+          <fieldset class="quiz-question" data-correct={q.correctIndex}>
+            <legend>{qi + 1}. {q.question}</legend>
+            {q.options.map((opt, oi) => (
+              <label class="quiz-option">
+                <input type="radio" name={`q${qi}`} value={String(oi)} required />
+                <span>{opt}</span>
+              </label>
+            ))}
+          </fieldset>
+        ))}
+        <button type="submit" class="btn-primary" id="quiz-submit">جوابات جمع کرائیں</button>
+      </form>
+
+      <div id="quiz-result" class="quiz-result" style="display:none;">
+        <div id="quiz-result-content"></div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="lesson-nav">
+      {prevLesson && (
+        <a href={`${base}/courses/masterclass/${prevLesson}/`} class="lesson-nav__link lesson-nav__prev">
+          پچھلا سبق ←
+        </a>
+      )}
+      {nextLesson ? (
+        <a href={`${base}/courses/masterclass/${nextLesson}/`} class="lesson-nav__link lesson-nav__next" id="next-lesson-link" style="display:none;">
+          → اگلا سبق
+        </a>
+      ) : (
+        <a href={`${base}/courses/masterclass/certificate/`} class="lesson-nav__link lesson-nav__next" id="next-lesson-link" style="display:none;">
+          → سرٹیفکیٹ حاصل کریں
+        </a>
+      )}
+    </div>
+  </div>
+
+  <style>
+    .lesson-page {
+      max-width: var(--max-width);
+      padding-block-end: var(--space-2xl);
+    }
+
+    /* Progress bar */
+    .mc-progress {
+      margin-block: var(--space-md);
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+    }
+    .mc-progress__bar {
+      flex: 1;
+      height: 8px;
+      background: var(--paper-warm);
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .mc-progress__fill {
+      height: 100%;
+      background: var(--navy);
+      border-radius: 4px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+    .mc-progress__text {
+      font-size: var(--text-sm);
+      color: var(--ink-muted);
+      white-space: nowrap;
+    }
+
+    /* Video embed */
+    .video-embed {
+      position: relative;
+      width: 100%;
+      padding-block-end: 56.25%;
+      margin-block: var(--space-lg);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--ink);
+    }
+    .video-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* Lesson content */
+    .lesson-content {
+      margin-block: var(--space-lg);
+      line-height: var(--lh-prose);
+    }
+    .lesson-content :global(h2) {
+      font-size: var(--text-h2);
+      line-height: var(--lh-heading);
+      margin-block-start: var(--space-lg);
+      margin-block-end: var(--space-sm);
+      color: var(--navy);
+    }
+    .lesson-content :global(p) {
+      margin-block-end: var(--space-sm);
+    }
+
+    /* Tools box */
+    .tools-box {
+      background: var(--paper-warm);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: var(--space-md);
+      margin-block: var(--space-lg);
+    }
+    .tools-box__title {
+      font-size: var(--text-h3);
+      line-height: var(--lh-h3);
+      margin-block-end: var(--space-sm);
+      color: var(--navy);
+    }
+    .tools-box__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+    .tools-box__item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+    .tools-box__link {
+      font-weight: bold;
+      color: var(--navy);
+      text-decoration: none;
+      border-bottom: 1px solid var(--navy);
+    }
+    .tools-box__link:hover {
+      color: var(--navy-light);
+    }
+    .tools-box__desc {
+      color: var(--ink-muted);
+      font-size: var(--text-sm);
+    }
+
+    /* Quiz */
+    .quiz-section {
+      margin-block: var(--space-xl);
+      background: var(--paper-card);
+      border: 2px solid var(--navy);
+      border-radius: 8px;
+      padding: var(--space-lg);
+    }
+    .quiz-section h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-xs);
+    }
+    .quiz-question {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: var(--space-md);
+      margin-block: var(--space-md);
+    }
+    .quiz-question legend {
+      font-weight: bold;
+      padding: 0 var(--space-xs);
+    }
+    .quiz-option {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-xs);
+      padding: var(--space-xs) 0;
+      cursor: pointer;
+    }
+    .quiz-option input[type="radio"] {
+      margin-block-start: 0.6rem;
+      accent-color: var(--navy);
+    }
+    .quiz-option span {
+      flex: 1;
+    }
+    .quiz-option.correct span {
+      color: #0e6b5e;
+      font-weight: bold;
+    }
+    .quiz-option.wrong span {
+      color: #c0392b;
+      text-decoration: line-through;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      border-radius: 6px;
+      font-size: var(--text-base);
+      font-family: inherit;
+      cursor: pointer;
+      margin-block-start: var(--space-sm);
+    }
+    .btn-primary:hover {
+      background: var(--navy-dark);
+    }
+    .btn-primary:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .quiz-result {
+      margin-block-start: var(--space-md);
+      padding: var(--space-md);
+      border-radius: 8px;
+    }
+    .quiz-result.pass {
+      background: #d4edda;
+      border: 1px solid #0e6b5e;
+    }
+    .quiz-result.fail {
+      background: #fde8e8;
+      border: 1px solid #c0392b;
+    }
+
+    /* Lesson nav */
+    .lesson-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-md);
+      margin-block-start: var(--space-xl);
+      padding-block-start: var(--space-lg);
+      border-block-start: 1px solid var(--border);
+    }
+    .lesson-nav__link {
+      display: inline-block;
+      padding: 0.6rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .lesson-nav__prev {
+      color: var(--ink-muted);
+      border: 1px solid var(--border);
+    }
+    .lesson-nav__prev:hover {
+      background: var(--paper-warm);
+    }
+    .lesson-nav__next {
+      background: var(--navy);
+      color: #fff;
+    }
+    .lesson-nav__next:hover {
+      background: var(--navy-dark);
+    }
+
+    @media (max-width: 600px) {
+      .quiz-section {
+        padding: var(--space-sm);
+      }
+      .lesson-nav {
+        flex-direction: column;
+      }
+      .lesson-nav__link {
+        text-align: center;
+      }
+    }
+  </style>
+
+  <script is:inline define:vars={{ lessonNumber: lesson.number, totalLessons: lessons.length }}>
+    // Progress tracking
+    function getCompleted() {
+      let count = 0;
+      for (let i = 1; i <= totalLessons; i++) {
+        if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') === 'true') count++;
+      }
+      return count;
+    }
+
+    function updateProgress() {
+      const completed = getCompleted();
+      const pct = Math.round((completed / totalLessons) * 100);
+      const fill = document.getElementById('mc-progress-fill');
+      const text = document.getElementById('mc-progress-text');
+      if (fill) fill.style.width = pct + '%';
+      if (text) text.textContent = completed + '/' + totalLessons + ' مکمل';
+    }
+
+    function showNextIfComplete() {
+      const isComplete = localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-complete') === 'true';
+      const nextLink = document.getElementById('next-lesson-link');
+      if (nextLink && isComplete) {
+        nextLink.style.display = 'inline-block';
+      }
+    }
+
+    updateProgress();
+    showNextIfComplete();
+
+    // If already completed, disable quiz re-submission and show result
+    if (localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-complete') === 'true') {
+      var savedScore = localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-score');
+      if (savedScore !== null) {
+        var resultDiv = document.getElementById('quiz-result');
+        var resultContent = document.getElementById('quiz-result-content');
+        var submitBtn = document.getElementById('quiz-submit');
+        resultDiv.style.display = 'block';
+        resultDiv.className = 'quiz-result pass';
+        resultContent.innerHTML = '<strong>آپ یہ سبق مکمل کر چکے ہیں۔</strong> نمبر: ' + savedScore + '%';
+        if (submitBtn) submitBtn.style.display = 'none';
+      }
+    }
+
+    // Quiz handler
+    document.getElementById('quiz-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var questions = document.querySelectorAll('.quiz-question');
+      var total = questions.length;
+      var correct = 0;
+
+      questions.forEach(function(q, i) {
+        var correctIdx = parseInt(q.getAttribute('data-correct'));
+        var selected = q.querySelector('input[name="q' + i + '"]:checked');
+        var selectedIdx = selected ? parseInt(selected.value) : -1;
+
+        // Visual feedback
+        var options = q.querySelectorAll('.quiz-option');
+        options.forEach(function(opt, j) {
+          opt.classList.remove('correct', 'wrong');
+          if (j === correctIdx) opt.classList.add('correct');
+          else if (j === selectedIdx && j !== correctIdx) opt.classList.add('wrong');
+        });
+
+        if (selectedIdx === correctIdx) correct++;
+      });
+
+      var score = Math.round((correct / total) * 100);
+      var passed = score >= 60;
+
+      var resultDiv = document.getElementById('quiz-result');
+      var resultContent = document.getElementById('quiz-result-content');
+      resultDiv.style.display = 'block';
+
+      if (passed) {
+        resultDiv.className = 'quiz-result pass';
+        resultContent.innerHTML = '<strong>مبارک ہو!</strong> آپ نے ' + correct + '/' + total + ' سوالات درست کیے (' + score + '%)۔ آپ اگلے سبق پر جا سکتے ہیں۔';
+        localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-complete', 'true');
+        localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-score', score);
+        showNextIfComplete();
+        updateProgress();
+        document.getElementById('quiz-submit').disabled = true;
+      } else {
+        resultDiv.className = 'quiz-result fail';
+        resultContent.innerHTML = '<strong>دوبارہ کوشش کریں۔</strong> آپ نے ' + correct + '/' + total + ' درست کیے (' + score + '%)۔ 60% درکار ہے۔';
+      }
+
+      resultDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+  </script>
+</Base>
