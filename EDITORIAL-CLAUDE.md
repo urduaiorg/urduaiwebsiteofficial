@@ -127,7 +127,78 @@ Not every article needs all six. A short news update might be just 1 + 2 + 6. A 
 
 ---
 
-## What We Never Do
+## Factual Integrity — The Non-Negotiable Standard
+
+We may write less but our quality will never be compromised. Every claim in every article must be verifiable. A single factual error damages the trust of 250 million Urdu speakers who have nowhere else to turn for reliable AI information in their language.
+
+### The Verification Rule
+
+Before writing ANY claim about a tool, product, or service, verify:
+
+1. **Pricing** — Check the official website. Prices change constantly. Write the date you checked. Never say "مفت" without confirming what exactly is free and what the limits are.
+2. **Free tier limits** — Every "free" tool has limits. State them: daily caps, monthly quotas, feature restrictions. "محدود مفت استعمال" is honest. "مکمل مفت — کوئی حد نہیں" is almost always a lie.
+3. **Regional availability** — Does it work in Pakistan? Does it need VPN? Does payment work with Pakistani cards? If you don't know, write "دستیابی آفیشل ویب سائٹ سے چیک کریں" instead of guessing.
+4. **Feature claims** — Does the tool actually do what you're about to write? Don't describe features from a press release that haven't launched yet. State what works today.
+5. **Numbers and statistics** — Cite the source. "20 کروڑ صارفین (اوپن اے آئی کے مطابق)" is credible. "بہت سے لوگ استعمال کرتے ہیں" is filler.
+
+### The Honesty Hierarchy
+
+When writing about any AI tool, follow this order:
+
+1. **What it actually does well** — be specific, not promotional
+2. **What its real limits are** — free tier caps, quality gaps, language support gaps
+3. **What it costs** — in USD AND approximate PKR
+4. **What it does NOT do** — prevent false expectations
+5. **Who it's actually best for** — not everyone, be specific
+
+### Words That Require Proof
+
+These words trigger a verification obligation. Never use them without backing evidence:
+
+| Word | Requires |
+|------|----------|
+| مفت (free) | Exact limits of the free tier |
+| لامحدود (unlimited) | Proof — almost nothing is truly unlimited |
+| بہترین (best) | Comparison with at least 2 alternatives |
+| سب سے پہلا (first) | Verified claim with source |
+| انقلابی (revolutionary) | Genuine paradigm shift, not a feature update |
+| ہر کوئی (everyone) | Universal access confirmed |
+| آسان (easy) | Tested workflow, not assumption |
+| مکمل (complete) | Nothing significant omitted |
+
+### When You Don't Know
+
+If you cannot verify a fact, do not guess. Instead:
+
+- **State what you know:** "ElevenLabs کا مفت پلان ماہانہ 10,000 حروف تک محدود ہے"
+- **Acknowledge uncertainty:** "تازہ ترین قیمتیں آفیشل ویب سائٹ سے چیک کریں"
+- **Skip the claim entirely** rather than risk publishing something wrong
+
+A gap in the article is acceptable. A factual error is not.
+
+### The Reuters Standard
+
+Urdu Ai follows the same factual discipline as Reuters, AP, and BBC Urdu:
+
+- **Single-source claims get flagged** — if only one source says it, note that
+- **Official vs unofficial** — distinguish between company announcements and rumors
+- **Date everything** — "اپریل 2026 تک" tells the reader when this was accurate
+- **Corrections are immediate** — if we publish an error, we fix it the same day and note the correction
+- **No promotional language** — we inform, we don't sell. We are not an affiliate site
+
+### Pre-Publish Factual Checklist
+
+Before any article goes live, every one of these must be true:
+
+- [ ] Every "free" claim states the exact limits
+- [ ] Every price is verified against the official source within the last 7 days
+- [ ] Every "works in Pakistan" claim has been tested or sourced
+- [ ] No sentence contains an unverified superlative (best, first, only, revolutionary)
+- [ ] Statistics include their source
+- [ ] Tool comparisons are based on actual tested features, not marketing copy
+- [ ] The article date is set, so readers know when this was written
+
+---
 
 ### Never use emojis
 Not in text. Not in headings. Not in cards. Not anywhere. We use custom SVG icons in brand colors (navy #1d559f, yellow #f1cc11) for visual elements.
