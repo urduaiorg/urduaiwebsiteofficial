@@ -2167,28 +2167,18 @@ img {
 .prose tbody tr:nth-child(even):hover {
   background: var(--paper-warm);
 }
-/* Responsive table — horizontal scroll on mobile */
-.prose {
-  overflow-x: visible;
-}
-.prose table {
-  display: table;
-}
+/* Responsive table — scrollable wrapper on mobile */
 @media (max-width: 768px) {
-  .prose {
-    overflow-x: clip;
-  }
   .prose table {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    max-width: 100vw;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    margin-inline: calc(-1 * var(--space-sm));
+    width: calc(100% + 2 * var(--space-sm));
   }
   .prose th,
   .prose td {
-    padding: var(--space-xs) var(--space-sm);
-    font-size: 0.8rem;
-    white-space: nowrap;
+    padding: var(--space-xs);
+    word-break: normal;
   }
 }
 
