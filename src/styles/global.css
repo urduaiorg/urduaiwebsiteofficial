@@ -902,7 +902,7 @@ img {
 .hero {
   background: linear-gradient(160deg, var(--navy-dark) 0%, var(--navy) 50%, #1a4a8a 100%);
   color: var(--paper);
-  padding-block: var(--space-2xl) calc(var(--space-2xl) * 1.5);
+  padding-block: var(--space-lg) var(--space-xl);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -934,7 +934,7 @@ img {
 
 .hero__brand {
   font-family: 'Inter', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   color: #ffffff;
   direction: ltr;
@@ -946,33 +946,32 @@ img {
 }
 
 .hero p {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: var(--gold-pale);
   max-width: 600px;
   margin-inline: auto;
-  margin-block-end: var(--space-lg);
-  line-height: 2.4;
+  margin-block-end: var(--space-md);
+  line-height: 2.2;
 }
 
 .hero__stats {
   display: flex;
   justify-content: center;
-  gap: var(--space-xl);
+  gap: var(--space-md);
   flex-wrap: wrap;
-  margin-block-end: var(--space-lg);
+  margin-block-end: var(--space-sm);
 }
 
 .hero__stat {
   text-align: center;
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-xs) var(--space-sm);
   background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  border: 1px solid rgba(241, 204, 17, 0.25);
-  min-width: 120px;
+  border-radius: 6px;
+  border: 1px solid rgba(241, 204, 17, 0.2);
 }
 
 .hero__stat-number {
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--gold-light);
   display: block;
@@ -980,17 +979,17 @@ img {
 }
 
 .hero__stat-label {
-  font-size: var(--text-sm);
+  font-size: 0.75rem;
   color: var(--gold-pale);
 }
 
 /* Hero CTAs */
 .hero__ctas {
   display: flex;
-  gap: var(--space-sm);
+  gap: var(--space-xs);
   flex-wrap: wrap;
   justify-content: center;
-  margin-block-start: var(--space-md);
+  margin-block-start: var(--space-xs);
 }
 
 .btn-whatsapp {
@@ -1028,6 +1027,46 @@ img {
 .btn-youtube:hover {
   transform: translateY(-2px);
   color: #fff;
+}
+
+/* Hero — mobile */
+@media (max-width: 768px) {
+  .hero {
+    padding-block: var(--space-sm) var(--space-md);
+  }
+  .hero__brand {
+    font-size: 2rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    margin-block-end: var(--space-xs);
+  }
+  .hero p {
+    font-size: 0.92rem;
+    margin-block-end: var(--space-sm);
+    line-height: 2;
+  }
+  .hero__stats {
+    gap: var(--space-xs);
+    margin-block-end: var(--space-xs);
+  }
+  .hero__stat {
+    padding: 0.3rem 0.6rem;
+  }
+  .hero__stat-number {
+    font-size: 1.15rem;
+  }
+  .hero__stat-label {
+    font-size: 0.7rem;
+  }
+  .hero__ctas {
+    gap: 0.4rem;
+  }
+  .btn-whatsapp,
+  .btn-youtube {
+    padding: 0.45em 1em;
+    font-size: 0.88rem;
+  }
 }
 
 /* ============================================================
