@@ -2152,7 +2152,6 @@ img {
   padding: var(--space-sm) var(--space-md);
   font-weight: 700;
   text-align: right;
-  white-space: nowrap;
 }
 .prose td {
   padding: var(--space-sm) var(--space-md);
@@ -2174,11 +2173,13 @@ img {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    min-width: 500px;
   }
   .prose th,
   .prose td {
     padding: var(--space-xs) var(--space-sm);
     font-size: 0.82rem;
+    min-width: 80px;
   }
 }
 
