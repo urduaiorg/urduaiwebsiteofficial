@@ -4,7 +4,7 @@
 // Update the GPT_URL when the actual GPT link is provided
 import '../../styles/global.css';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const GPT_URL = 'https://chatgpt.com/g/g-dGy01onal-urdu-ai'; // UPDATE: Replace with actual GPT URL
+const GPT_URL = 'https://chatgpt.com/g/g-pE1VKxczG-urdu-ai-official';
 ---
 <!DOCTYPE html>
 <html lang="ur" dir="rtl">
@@ -90,6 +90,24 @@ const GPT_URL = 'https://chatgpt.com/g/g-dGy01onal-urdu-ai'; // UPDATE: Replace 
       text-decoration: none;
     }
 
+    .chat-stat {
+      margin-bottom: 1.5rem;
+    }
+
+    .chat-stat__number {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #f1cc11;
+      line-height: 1;
+    }
+
+    .chat-stat__label {
+      font-size: 0.95rem;
+      color: #fef9e0;
+    }
+
     .chat-features {
       display: flex;
       gap: 1.5rem;
@@ -123,10 +141,15 @@ const GPT_URL = 'https://chatgpt.com/g/g-dGy01onal-urdu-ai'; // UPDATE: Replace 
   <h1 class="chat-title">اردو اے آئی کا آفیشل GPT</h1>
   <p class="chat-desc">اردو میں AI سے بات کریں۔ سوالات پوچھیں، مدد حاصل کریں، پرامٹ بنوائیں — سب اردو میں۔</p>
 
+  <div class="chat-stat">
+    <span class="chat-stat__number" dir="ltr">200K+</span>
+    <span class="chat-stat__label">بات چیت مکمل</span>
+  </div>
+
   <div class="chat-features">
     <div class="chat-feature">اردو میں جواب</div>
-    <div class="chat-feature">AI سیکھیں</div>
-    <div class="chat-feature">پرامٹ بنوائیں</div>
+    <div class="chat-feature">مفت پرامٹس</div>
+    <div class="chat-feature">AI گائیڈز</div>
     <div class="chat-feature">مفت استعمال</div>
   </div>
 
