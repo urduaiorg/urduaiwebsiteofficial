@@ -2,9 +2,7 @@ backend:
   name: github
   repo: urduaiorg/urduaiwebsiteofficial
   branch: main
-  site_domain: loquacious-shortbread-796e8d.netlify.app
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  base_url: https://sveltia-cms-auth.qaisar-roonjha.workers.dev
 
 publish_mode: editorial_workflow
 
