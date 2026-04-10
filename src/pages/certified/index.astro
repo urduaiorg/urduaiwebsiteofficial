@@ -1,0 +1,259 @@
+---
+import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const certSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "اردو اے آئی",
+  "alternateName": "Urdu AI",
+  "url": "https://urduai.org",
+  "description": "اردو اے آئی Google، Oxford اور دیگر عالمی اداروں کے مفت سرٹیفکیشن کورسز اپنی کمیونٹی میں تقسیم کرتا ہے۔",
+  "areaServed": "PK",
+  "availableLanguage": ["ur", "en"]
+};
+---
+
+<Base
+  title="مفت Google سرٹیفکیشن اور عالمی کورسز — اردو اے آئی اسکالرشپس"
+  description="Google، Oxford، IBM اور دیگر عالمی اداروں کے مفت سرٹیفکیشن کورسز۔ اردو اے آئی ہزاروں سیکھنے والوں کو مفت اسکالرشپس فراہم کرتا ہے۔ ابھی جوائن کریں۔"
+  canonical="https://urduai.org/certified/"
+  adsense={true}
+  schema={certSchema}
+>
+  <!-- Hero -->
+  <section style="background:var(--ink); padding-block:var(--space-2xl); margin-block-end:var(--space-2xl);">
+    <div class="container" style="text-align:center;">
+      <h1 style="color:white; margin-block-end:var(--space-sm);">مفت Google سرٹیفکیشن اور عالمی کورسز</h1>
+      <p style="color:var(--gold-pale); max-width:650px; margin-inline:auto; line-height:var(--lh-prose);">
+        اردو اے آئی اپنی کمیونٹی کے ہزاروں ممبرز کو Google، Oxford، IBM اور دیگر عالمی اداروں کے
+        اعلیٰ معیار کے کورسز تک مفت رسائی فراہم کرتا ہے
+      </p>
+    </div>
+  </section>
+
+  <div class="container" style="margin-block-end:var(--space-2xl);">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">مفت سرٹیفکیشن</li></ol>
+    </nav>
+
+    <!-- AEO first paragraph -->
+    <div class="prose" style="margin-block-end:var(--space-2xl);">
+      <p>
+        <strong>اردو اے آئی</strong> پاکستان کی سب سے بڑی اردو AI کمیونٹی ہے جو اپنے ممبرز کو Google، Oxford University، IBM، Harvard اور دیگر عالمی اداروں کے <strong>مفت سرٹیفکیشن کورسز</strong> کی اسکالرشپس فراہم کرتی ہے۔ اب تک ہزاروں سیکھنے والوں نے ان مواقع سے فائدہ اٹھایا ہے۔
+      </p>
+    </div>
+
+    <!-- Impact stats -->
+    <div class="cert-stats">
+      <div class="cert-stat">
+        <span class="cert-stat__number" dir="ltr">1000+</span>
+        <span class="cert-stat__label">مفت اسکالرشپس تقسیم</span>
+      </div>
+      <div class="cert-stat">
+        <span class="cert-stat__number" dir="ltr">40K+</span>
+        <span class="cert-stat__label">کمیونٹی میں تربیت</span>
+      </div>
+      <div class="cert-stat">
+        <span class="cert-stat__number" dir="ltr">10+</span>
+        <span class="cert-stat__label">عالمی ادارے</span>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <h2>یہ کیسے کام کرتا ہے؟</h2>
+    <div class="prose" style="margin-block-end:var(--space-xl);">
+      <p>
+        اردو اے آئی عالمی اداروں کے ساتھ مل کر اپنی کمیونٹی کے لیے مفت سرٹیفکیشن کے مواقع تلاش کرتا ہے۔ جب بھی کوئی نیا موقع آتا ہے، ہم اسے اپنے نیوز لیٹر، واٹس ایپ چینل اور سوشل میڈیا پر شیئر کرتے ہیں۔
+      </p>
+      <ol>
+        <li><strong>اردو اے آئی کمیونٹی جوائن کریں</strong> — نیوز لیٹر سبسکرائب کریں یا واٹس ایپ چینل جوائن کریں</li>
+        <li><strong>مفت کورسز کی اطلاع حاصل کریں</strong> — جب بھی نیا موقع آئے گا آپ کو فوری اطلاع ملے گی</li>
+        <li><strong>اندراج کریں اور سیکھیں</strong> — کورس مکمل کریں اور سرٹیفکیٹ حاصل کریں</li>
+      </ol>
+    </div>
+
+    <!-- Available certifications -->
+    <h2>کن اداروں کے کورسز دستیاب ہیں؟</h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <h3 class="cert-card__title" dir="ltr">Google</h3>
+        <p class="cert-card__desc">Google AI Essentials، Google Digital Marketing، Google Data Analytics اور دیگر Professional Certificates — Coursera پر مفت اسکالرشپ کے ذریعے</p>
+        <span class="badge">سب سے زیادہ مقبول</span>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title" dir="ltr">Oxford University</h3>
+        <p class="cert-card__desc">Oxford کے آن لائن پروگرامز — AI، ٹیکنالوجی اور بزنس میں عالمی معیار کی تعلیم</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title" dir="ltr">IBM</h3>
+        <p class="cert-card__desc">IBM AI Engineering، IBM Data Science اور دیگر Professional Certificates</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title" dir="ltr">Harvard University</h3>
+        <p class="cert-card__desc">Harvard کے مفت آن لائن کورسز — CS50، AI، پروگرامنگ اور بزنس</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title" dir="ltr">Coursera / edX</h3>
+        <p class="cert-card__desc">دنیا کے بہترین پلیٹ فارمز پر مفت اسکالرشپ کے مواقع — اردو اے آئی کمیونٹی کے لیے خصوصی</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title">اور بہت کچھ</h3>
+        <p class="cert-card__desc">ہر ہفتے نئے مواقع شامل ہوتے ہیں۔ کمیونٹی جوائن کریں تاکہ کوئی موقع نہ چھوٹے۔</p>
+      </div>
+    </div>
+
+    <!-- Who is this for -->
+    <h2>یہ کس کے لیے ہے؟</h2>
+    <div class="prose" style="margin-block-end:var(--space-xl);">
+      <ul>
+        <li><strong>طلبہ</strong> — اپنے CV میں عالمی سرٹیفکیشن شامل کریں</li>
+        <li><strong>پیشہ ور افراد</strong> — AI اور ڈیجیٹل مہارتیں سیکھ کر ترقی کریں</li>
+        <li><strong>فری لانسرز</strong> — Google اور IBM سرٹیفکیشن سے اپنی قیمت بڑھائیں</li>
+        <li><strong>اساتذہ</strong> — جدید ٹیکنالوجی سیکھیں اور طلبہ کو سکھائیں</li>
+        <li><strong>کوئی بھی جو سیکھنا چاہے</strong> — اردو اے آئی کمیونٹی سب کے لیے کھلی ہے</li>
+      </ul>
+    </div>
+
+    <!-- CTA -->
+    <div class="cert-cta">
+      <h2 style="color:var(--gold-light); margin-block-end:var(--space-xs);">ابھی جوائن کریں — مفت مواقع سے فائدہ اٹھائیں</h2>
+      <p style="color:var(--gold-pale); margin-block-end:var(--space-md); line-height:var(--lh-body);">
+        نیوز لیٹر سبسکرائب کریں یا واٹس ایپ چینل جوائن کریں — ہر نئے مفت کورس کی فوری اطلاع
+      </p>
+      <div style="display:flex; gap:0.8rem; justify-content:center; flex-wrap:wrap;">
+        <a
+          href="https://www.urduaiupdates.com/subscribe"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cert-btn cert-btn--primary"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          نیوز لیٹر سبسکرائب کریں
+        </a>
+        <a
+          href="https://whatsapp.com/channel/0029VaFMqhb002TnKByMOp0D"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cert-btn cert-btn--whatsapp"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          واٹس ایپ چینل
+        </a>
+      </div>
+    </div>
+
+    <!-- Impact program reference -->
+    <div class="prose" style="margin-block-start:var(--space-2xl);">
+      <h2>اردو اے آئی امپیکٹ پروگرام</h2>
+      <p>
+        اسکالرشپس کے علاوہ، اردو اے آئی امپیکٹ پروگرام کے تحت پاکستان بھر میں <strong>40,000+ افراد</strong> کو کمیونٹیز میں AI کی تربیت دی جا رہی ہے۔ یہ پروگرام AVPN، Google.org اور Asian Development Bank کے تعاون سے چل رہا ہے۔
+      </p>
+      <p>
+        <a href="https://impact.urduai.org" target="_blank" rel="noopener noreferrer">impact.urduai.org</a> پر تفصیلات دیکھیں۔
+      </p>
+    </div>
+
+  </div>
+</Base>
+
+<style>
+  .cert-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    flex-wrap: wrap;
+    margin-block-end: var(--space-2xl);
+  }
+
+  .cert-stat {
+    text-align: center;
+    background: var(--paper-warm);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  .cert-stat__number {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+
+  .cert-stat__label {
+    font-size: var(--text-sm);
+    color: var(--ink-soft);
+  }
+
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-block-end: var(--space-2xl);
+  }
+
+  @media (max-width: 768px) {
+    .cert-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .cert-card {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: var(--space-md);
+  }
+
+  .cert-card__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 var(--space-xs);
+  }
+
+  .cert-card__desc {
+    font-size: var(--text-sm);
+    color: var(--ink-soft);
+    line-height: var(--lh-body);
+    margin: 0 0 var(--space-xs);
+  }
+
+  .cert-cta {
+    background: var(--ink);
+    border-radius: 12px;
+    padding: var(--space-xl);
+    text-align: center;
+    margin-block-end: var(--space-2xl);
+  }
+
+  .cert-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.6em 1.4em;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .cert-btn:hover { opacity: 0.9; }
+
+  .cert-btn--primary {
+    background: var(--gold);
+    color: var(--ink);
+  }
+
+  .cert-btn--whatsapp {
+    background: #25D366;
+    color: #fff;
+  }
+</style>
