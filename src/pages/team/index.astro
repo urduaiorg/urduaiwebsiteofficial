@@ -18,57 +18,77 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <h1>ہماری ٹیم</h1>
     <p class="text-muted" style="margin-block-end:var(--space-xl);">
-      اردو اے آئی کے پیچھے وہ لوگ جو اے آئی کو اردو بولنے والوں تک پہنچانے کا کام کر رہے ہیں
+      اردو اے آئی — <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ
     </p>
 
-    <!-- Founder card -->
+    <!-- WALI section -->
     <div class="team-card team-card--founder">
-      <div class="team-card__avatar" aria-hidden="true">
-        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="40" cy="40" r="40" fill="#1d559f" fill-opacity="0.12"/>
-          <circle cx="40" cy="32" r="14" fill="#1d559f" fill-opacity="0.35"/>
-          <ellipse cx="40" cy="66" rx="22" ry="14" fill="#1d559f" fill-opacity="0.25"/>
-        </svg>
-      </div>
-      <div class="team-card__info">
-        <h2 class="team-card__name">قیصر رونجھا</h2>
-        <p class="team-card__role">بانی و ایڈیٹر — اردو اے آئی</p>
-        <p class="team-card__role" dir="ltr" style="font-family:'Inter',sans-serif; font-size:0.9rem; color:var(--ink-muted);">Qaisar Roonjha — Founder &amp; Editor, Urdu AI</p>
-
-        <div style="display:flex; gap:var(--space-xs); flex-wrap:wrap; margin-block:var(--space-sm);">
-          <span class="badge badge--teal">ElevenLabs Case Study</span>
-          <span class="badge">Google.org</span>
-          <span class="badge">AVPN</span>
-        </div>
+      <div class="team-card__info" style="width:100%;">
+        <h2 class="team-card__name" dir="ltr" style="font-family:'Inter',sans-serif;">Wang Lab of Innovation (WALI)</h2>
+        <p class="team-card__role">پاکستان میں ٹیکنالوجی، جدت اور مقامی زبانوں میں علم کی رسائی</p>
 
         <div class="prose" style="margin-block-start:var(--space-md);">
           <p>
-            قیصر رونجھا نے اردو اے آئی قائم کی تاکہ ۲۵ کروڑ اردو بولنے والے اے آئی انقلاب سے
-            پیچھے نہ رہیں۔ انہوں نے ایک ایسا پلیٹ فارم بنایا جہاں اے آئی کو نہ صرف سمجھایا جاتا ہے
-            بلکہ اسے عملی، مقامی اور قابلِ استعمال بنایا جاتا ہے۔
-          </p>
-          <p>
-            آج اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں اے آئی پلیٹ فارم ہے —
-            42,000+ نیوز لیٹر سبسکرائبرز، 10 لاکھ+ کمیونٹی، اور 50,000+ ایپ ڈاؤنلوڈز کے ساتھ۔
+            اردو اے آئی <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ ہے۔
+            WALI پاکستان میں رجسٹرڈ ادارہ ہے جو ٹیکنالوجی اور مقامی زبانوں میں علم کی رسائی کے لیے کام کرتا ہے۔
+            اردو اے آئی اس کا مرکزی عوامی پلیٹ فارم ہے جو ۲۵ کروڑ اردو بولنے والوں کو اے آئی انقلاب سے جوڑ رہا ہے۔
           </p>
         </div>
 
-        <div style="display:flex; gap:var(--space-md); flex-wrap:wrap; margin-block-start:var(--space-md);">
-          <a href={`${base}/author/qaisar-roonjha/`} style="color:var(--teal); font-size:var(--text-sm);">مضامین پڑھیں ←</a>
-          <a href="https://x.com/urduaiorg" rel="noopener noreferrer" style="color:var(--teal); font-size:var(--text-sm);" dir="ltr">@urduaiorg on X</a>
+        <div style="margin-block-start:var(--space-md);">
+          <a href="https://www.walipak.com" target="_blank" rel="noopener noreferrer" class="team-link-btn">walipak.com پر مزید جانیں</a>
         </div>
       </div>
     </div>
 
-    <!-- WALI section -->
-    <div class="prose" style="margin-block-start:var(--space-2xl);">
-      <h2>ادارہ جاتی بنیاد</h2>
-      <p>
-        اردو اے آئی <strong>Wang Lab of Innovation (WALI)</strong> کی ایک پروڈکٹ اور اقدام ہے۔
-        WALI ٹیکنالوجی، جدت اور مقامی زبانوں میں علم کی رسائی کے لیے کام کرتا ہے۔
-        یہ ادارہ پاکستان میں رجسٹرڈ ہے اور اردو اے آئی اس کا مرکزی عوامی پلیٹ فارم ہے۔
+    <!-- Internet Society Video -->
+    <div style="margin-block-start:var(--space-2xl);">
+      <h2>اردو اے آئی — Internet Society</h2>
+      <p class="text-muted" style="margin-block-end:var(--space-md);">
+        Internet Society کی ویڈیو میں دیکھیں کہ اردو اے آئی کیسے کام کرتا ہے
       </p>
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube.com/embed/F0aSyRMBrLE"
+          title="Urdu AI — Internet Society"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
 
+    <!-- Urdu AI Impact Program -->
+    <div style="margin-block-start:var(--space-2xl);">
+      <h2>اردو اے آئی امپیکٹ پروگرام</h2>
+      <div class="team-card" style="margin-block-start:var(--space-md);">
+        <div class="team-card__info" style="width:100%;">
+          <div class="impact-stat">
+            <span class="impact-stat__number" dir="ltr">40,000+</span>
+            <span class="impact-stat__label">افراد کی تربیت کمیونٹیز میں</span>
+          </div>
+
+          <div class="prose" style="margin-block-start:var(--space-md);">
+            <p>
+              اردو اے آئی امپیکٹ پروگرام کے تحت پاکستان بھر میں 40 ہزار سے زائد افراد کو کمیونٹیز میں AI کی تربیت دی جا رہی ہے۔
+              یہ پروگرام <strong>AVPN</strong>، <strong>Google.org</strong> اور <strong>Asian Development Bank (ADB)</strong> کے تعاون سے چل رہا ہے۔
+            </p>
+          </div>
+
+          <div style="display:flex; gap:var(--space-xs); flex-wrap:wrap; margin-block:var(--space-md);">
+            <span class="badge">AVPN</span>
+            <span class="badge">Google.org</span>
+            <span class="badge">ADB</span>
+          </div>
+
+          <a href="https://impact.urduai.org" target="_blank" rel="noopener noreferrer" class="team-link-btn">impact.urduai.org پر تفصیلات دیکھیں</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Join us -->
+    <div class="prose" style="margin-block-start:var(--space-2xl);">
       <h2>ہمارے ساتھ کام کریں</h2>
       <p>
         کیا آپ اردو زبان میں اے آئی تعلیم کے مشن میں حصہ لینا چاہتے ہیں؟
@@ -110,5 +130,58 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     color: var(--navy);
     margin: 0 0 0.2em;
     font-size: var(--text-base);
+  }
+
+  .team-link-btn {
+    display: inline-block;
+    background: var(--navy);
+    color: #fff;
+    padding: 0.5em 1.4em;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .team-link-btn:hover {
+    opacity: 0.9;
+    color: #fff;
+  }
+
+  .video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  .video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .impact-stat {
+    text-align: center;
+    margin-block-end: var(--space-sm);
+  }
+
+  .impact-stat__number {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+
+  .impact-stat__label {
+    font-size: var(--text-base);
+    color: var(--ink-soft);
   }
 </style>
