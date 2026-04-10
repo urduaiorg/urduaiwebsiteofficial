@@ -139,26 +139,26 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </div>
 
-    <!-- Substack subscribe section -->
+    <!-- Subscribe + enroll section -->
     <div class="mc-subscribe" id="mc-subscribe">
       <h2>کورس شروع کرنے کے لیے سبسکرائب کریں</h2>
-      <p class="text-muted">اپنا ای میل درج کریں — اردو اے آئی اپڈیٹس آپ کو ملتی رہیں گی۔</p>
-      <div class="mc-subscribe__embed">
-        <iframe
-          src="https://www.urduaiupdates.com/embed"
-          width="100%"
-          height="320"
-          style="border: 1px solid var(--border); background: white; border-radius: 8px;"
-          frameborder="0"
-          scrolling="no"
-          loading="lazy"
-        ></iframe>
-      </div>
-      <button class="btn-primary mc-subscribe__btn" id="start-course-btn" style="display:none;">
-        کورس شروع کریں →
-      </button>
+      <p class="text-muted">اپنا ای میل درج کریں — اردو اے آئی اپڈیٹس آپ کو ملتی رہیں گی اور کورس شروع ہو جائے گا۔</p>
+      <form id="subscribe-form" class="mc-subscribe__form">
+        <div class="mc-subscribe__input-group">
+          <input
+            type="email"
+            id="subscribe-email"
+            name="email"
+            required
+            placeholder="آپ کا ای میل ایڈریس"
+            dir="ltr"
+          />
+          <button type="submit" class="btn-primary">سبسکرائب کریں</button>
+        </div>
+      </form>
+      <p class="mc-subscribe__or">یا</p>
       <button class="btn-secondary" id="subscribed-btn">
-        میں نے سبسکرائب کر لیا ہے — کورس شروع کریں
+        میں پہلے سے سبسکرائبر ہوں — کورس شروع کریں
       </button>
     </div>
 
@@ -303,11 +303,37 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       color: var(--navy);
       margin-block-end: var(--space-xs);
     }
-    .mc-subscribe__embed {
+    .mc-subscribe__form {
       margin-block: var(--space-md);
     }
-    .mc-subscribe__embed iframe {
-      max-width: 100%;
+    .mc-subscribe__input-group {
+      display: flex;
+      gap: var(--space-sm);
+      max-width: 500px;
+    }
+    .mc-subscribe__input-group input {
+      flex: 1;
+      padding: 0.7rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: var(--text-base);
+      font-family: inherit;
+      background: var(--paper-card);
+    }
+    .mc-subscribe__input-group input:focus {
+      outline: 2px solid var(--navy);
+      border-color: var(--navy);
+    }
+    .mc-subscribe__or {
+      text-align: center;
+      color: var(--ink-muted);
+      margin-block: var(--space-sm);
+      font-size: var(--text-sm);
+    }
+    @media (max-width: 480px) {
+      .mc-subscribe__input-group {
+        flex-direction: column;
+      }
     }
     .btn-primary {
       display: inline-block;
@@ -527,51 +553,52 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     var isEnrolled = localStorage.getItem('urai-mc-enrolled') === 'true';
     var completed = getCompleted();
 
+    function goToNextLesson() {
+      var target = 1;
+      for (var i = 1; i <= totalLessons; i++) {
+        if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') !== 'true') {
+          target = i;
+          break;
+        }
+      }
+      window.location.href = window.location.pathname.replace(/\/$/, '') + '/' + target + '/';
+    }
+
     if (isEnrolled || completed > 0) {
-      // Already enrolled — hide subscribe, show start button
+      // Already enrolled — hide subscribe section entirely
       var subscribeSection = document.getElementById('mc-subscribe');
-      var subscribedBtn = document.getElementById('subscribed-btn');
-      var startBtn = document.getElementById('start-course-btn');
-      if (subscribedBtn) subscribedBtn.style.display = 'none';
-      if (startBtn) {
-        startBtn.style.display = 'inline-block';
-        startBtn.textContent = completed > 0 ? 'کورس جاری رکھیں →' : 'کورس شروع کریں →';
+      if (subscribeSection) {
+        subscribeSection.innerHTML = '<a href="javascript:void(0)" class="btn-primary" id="continue-btn" style="font-size:1.1rem; padding:1rem 2.5rem;">' +
+          (completed > 0 ? 'کورس جاری رکھیں →' : 'کورس شروع کریں →') + '</a>';
+        document.getElementById('continue-btn').addEventListener('click', goToNextLesson);
       }
     }
 
-    // "I've subscribed" button
+    // Subscribe form
+    var subForm = document.getElementById('subscribe-form');
+    if (subForm) {
+      subForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var email = document.getElementById('subscribe-email').value.trim();
+        if (!email) return;
+        // Open Substack subscribe in new tab with email prefilled
+        window.open('https://www.urduaiupdates.com/subscribe?email=' + encodeURIComponent(email), '_blank');
+        // Mark enrolled and navigate
+        localStorage.setItem('urai-mc-enrolled', 'true');
+        goToNextLesson();
+      });
+    }
+
+    // "I'm already subscribed" button
     var subscribedBtn = document.getElementById('subscribed-btn');
     if (subscribedBtn) {
       subscribedBtn.addEventListener('click', function() {
         localStorage.setItem('urai-mc-enrolled', 'true');
-        // Navigate to first incomplete lesson or lesson 1
-        var target = 1;
-        for (var i = 1; i <= totalLessons; i++) {
-          if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') !== 'true') {
-            target = i;
-            break;
-          }
-        }
-        window.location.href = window.location.pathname.replace(/\/$/, '') + '/' + target + '/';
+        goToNextLesson();
       });
     }
 
-    // Start course button
-    var startBtn = document.getElementById('start-course-btn');
-    if (startBtn) {
-      startBtn.addEventListener('click', function() {
-        var target = 1;
-        for (var i = 1; i <= totalLessons; i++) {
-          if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') !== 'true') {
-            target = i;
-            break;
-          }
-        }
-        window.location.href = window.location.pathname.replace(/\/$/, '') + '/' + target + '/';
-      });
-    }
-
-    // Update syllabus status
+    // Update syllabus status + locking
     for (var i = 1; i <= totalLessons; i++) {
       var isComplete = localStorage.getItem('urai-mc-lesson-' + i + '-complete') === 'true';
       var statusEl = document.getElementById('status-' + i);
@@ -579,6 +606,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       if (isComplete) {
         if (statusEl) statusEl.textContent = 'مکمل';
         if (itemEl) itemEl.classList.add('completed');
+      } else if (i > 1) {
+        // Lock if previous lesson not complete
+        var prevComplete = localStorage.getItem('urai-mc-lesson-' + (i - 1) + '-complete') === 'true';
+        if (!prevComplete && itemEl) {
+          itemEl.classList.add('locked');
+          if (statusEl) statusEl.textContent = 'لاکڈ';
+          // Disable the link
+          var link = itemEl.querySelector('.mc-syllabus__link');
+          if (link) {
+            link.style.pointerEvents = 'none';
+            link.style.opacity = '0.5';
+          }
+        }
       }
     }
 
