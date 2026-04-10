@@ -88,13 +88,8 @@
   Header set Access-Control-Allow-Origin "*"
 
   # Content Security Policy — locked down for AdSense + Analytics + YouTube
-  # Disable CSP on /admin/ so Decap CMS OAuth popup can communicate back
-  <If "%{REQUEST_URI} =~ m#^/admin/#">
-    Header set Content-Security-Policy "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://api.netlify.com https://api.github.com ; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; frame-src 'self' https://api.netlify.com https://github.com ; connect-src 'self' https://api.github.com https://api.netlify.com https://raw.githubusercontent.com ;"
-  </If>
-  <Else>
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://www.googletagservices.com https://www.google-analytics.com https://unpkg.com ; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; frame-src 'self' https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.youtube.com https://www.youtube-nocookie.com https://api.netlify.com ; connect-src 'self' https://www.google-analytics.com https://pagead2.googlesyndication.com https://region1.google-analytics.com https://api.github.com https://api.netlify.com ; font-src 'self' data: https:;"
-  </Else>
+  # Note: /admin/ has its own .htaccess that unsets CSP for Decap CMS OAuth
+  Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://www.googletagservices.com https://www.google-analytics.com https://unpkg.com ; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; frame-src 'self' https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.youtube.com https://www.youtube-nocookie.com https://api.netlify.com ; connect-src 'self' https://www.google-analytics.com https://pagead2.googlesyndication.com https://region1.google-analytics.com https://api.github.com https://api.netlify.com ; font-src 'self' data: https:;"
 
   # Strict Transport Security — enforce HTTPS
   Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"

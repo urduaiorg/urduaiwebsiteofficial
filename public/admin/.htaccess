@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+  # Remove restrictive CSP for Decap CMS admin panel
+  # OAuth popup needs to postMessage token back to this page
+  Header unset Content-Security-Policy
+</IfModule>
