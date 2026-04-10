@@ -12,7 +12,7 @@ tags:
 image: /images/blog/t2v.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: true
+draft: false
 tools:
   - ElevenLabs
   - Google TTS
