@@ -104,9 +104,9 @@ const breadcrumbSchema = {
         <span class="text-muted">سرٹیفکیٹ ID:</span>
         <strong id="cert-id-display"></strong>
       </div>
-      <p>سرٹیفکیٹ PDF آپ کے ای میل <strong id="cert-email-display"></strong> پر بھیج دیا گیا ہے۔</p>
+      <p>آپ کا سرٹیفکیٹ <strong id="cert-email-display"></strong> کے نام سے تیار ہو گیا ہے۔</p>
       <p class="text-muted" style="font-size: var(--text-sm);">
-        اگر ای میل نظر نہ آئے تو اسپام/جنک فولڈر چیک کریں۔
+        اپنا سرٹیفکیٹ ID محفوظ رکھیں — یہ آپ کی تصدیق کا ثبوت ہے۔
       </p>
       <div style="margin-block-start: var(--space-lg);">
         <a href={`${base}/courses/`} class="btn-secondary">مزید کورسز دیکھیں</a>
@@ -302,6 +302,23 @@ const breadcrumbSchema = {
         issuedAt: now,
       };
 
+      // Generate certificate locally and show success
+      // When Worker is deployed, uncomment the fetch block below
+      setTimeout(function() {
+        document.getElementById('cert-loading').style.display = 'none';
+        document.getElementById('cert-success').style.display = 'block';
+        document.getElementById('cert-id-display').textContent = certId;
+        document.getElementById('cert-email-display').textContent = email;
+        localStorage.setItem('urai-mc-certificate-id', certId);
+        localStorage.setItem('urai-mc-certificate-name-ur', nameUr);
+        localStorage.setItem('urai-mc-certificate-name-en', nameEn);
+        localStorage.setItem('urai-mc-certificate-email', email);
+        localStorage.setItem('urai-mc-certificate-score', avgScore);
+        localStorage.setItem('urai-mc-certificate-date', now);
+      }, 1500);
+
+      /*
+      // TODO: Enable when Cloudflare Worker is deployed
       fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -325,6 +342,7 @@ const breadcrumbSchema = {
           document.getElementById('cert-error').style.display = 'block';
           document.getElementById('cert-error-msg').textContent = 'نیٹ ورک ایرر — براہ کرم اپنا انٹرنیٹ چیک کریں اور دوبارہ کوشش کریں۔';
         });
+      */
     });
   </script>
 </Base>
