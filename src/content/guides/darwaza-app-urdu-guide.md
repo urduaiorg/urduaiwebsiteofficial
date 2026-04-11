@@ -307,6 +307,8 @@ Google Play Store سے "Darwaza" سرچ کریں یا [یہاں سے ڈاؤنل�
 
 ## ڈاؤنلوڈ کریں
 
+**1,000+ ڈاؤنلوڈز** — Google Play Store پر دستیاب
+
 ![دروازہ ایپ — Google Play Store](/images/guides/darwaza-app-urdu-guide/step-11-play-store.png)
 
 - [Google Play Store سے ڈاؤنلوڈ کریں](https://play.google.com/store/apps/details?id=com.darwaza.app)
