@@ -7,7 +7,7 @@ tool: Firebase
 level: ابتدائی
 image: ''
 adsense: true
-draft: false
+draft: true
 last_updated: ''
 faq:
   - question: Firebase کا مفت پلان میں کیا ملتا ہے؟
