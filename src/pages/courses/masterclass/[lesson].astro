@@ -560,8 +560,14 @@ const breadcrumbSchema = {
       if (passed) {
         resultDiv.className = 'quiz-result pass';
         resultContent.innerHTML = '<strong>مبارک ہو!</strong> آپ نے ' + correct + '/' + total + ' سوالات درست کیے (' + score + '%)۔ آپ اگلے سبق پر جا سکتے ہیں۔';
-        localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-complete', 'true');
-        localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-score', score);
+        try {
+          localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-complete', 'true');
+          localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-score', score);
+        } catch (e) {
+          // localStorage full (QuotaExceededError) — common on iOS Safari with ITP
+          // Progress is shown in the UI but won't persist across sessions
+          resultContent.innerHTML += '<br><small style="color:#c0392b;">نوٹ: آپ کا براؤزر پیش رفت محفوظ نہیں کر سکا۔ براہ کرم اگلا سبق ابھی کھولیں۔</small>';
+        }
         showNextIfComplete();
         updateProgress();
         document.getElementById('quiz-submit').disabled = true;

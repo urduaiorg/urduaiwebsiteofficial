@@ -54,6 +54,14 @@ export default {
     }
 
     try {
+      // Fail fast if API_KEY is not configured in Cloudflare environment
+      if (!env.API_KEY) {
+        return new Response(
+          JSON.stringify({ success: false, message: 'Worker not configured' }),
+          { status: 500, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
+        );
+      }
+
       const body = await request.json();
 
       // Validate required fields
@@ -80,13 +88,25 @@ export default {
         body: JSON.stringify(payload),
       });
 
-      // Apps Script may redirect (302) — follow it
+      // Check HTTP status before reading body — a non-OK response is always a failure
+      if (!response.ok) {
+        return new Response(
+          JSON.stringify({ success: false, message: `Upstream error: ${response.status}` }),
+          { status: 502, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
+        );
+      }
+
+      // Parse JSON response from Apps Script
       const text = await response.text();
       let data;
       try {
         data = JSON.parse(text);
       } catch {
-        data = { success: true, raw: text };
+        // Apps Script returned non-JSON despite a 2xx — treat as failure, not success
+        return new Response(
+          JSON.stringify({ success: false, message: 'Upstream returned invalid response' }),
+          { status: 502, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
+        );
       }
 
       return new Response(

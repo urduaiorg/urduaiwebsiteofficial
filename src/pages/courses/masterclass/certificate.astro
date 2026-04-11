@@ -307,7 +307,12 @@ const breadcrumbSchema = {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       })
-        .then(function(res) { return res.json(); })
+        .then(function(res) {
+          return res.json().catch(function() {
+            // Response was not valid JSON — treat as server error
+            throw new Error('invalid_json');
+          });
+        })
         .then(function(data) {
           document.getElementById('cert-loading').style.display = 'none';
           if (data.success || data.status === 'success') {
@@ -322,8 +327,12 @@ const breadcrumbSchema = {
         })
         .catch(function(err) {
           document.getElementById('cert-loading').style.display = 'none';
+          document.getElementById('cert-form-section').style.display = 'none';
           document.getElementById('cert-error').style.display = 'block';
-          document.getElementById('cert-error-msg').textContent = 'نیٹ ورک ایرر — براہ کرم اپنا انٹرنیٹ چیک کریں اور دوبارہ کوشش کریں۔';
+          document.getElementById('cert-error-msg').textContent =
+            err && err.message === 'invalid_json'
+              ? 'سرور سے غلط جواب آیا۔ براہ کرم دوبارہ کوشش کریں۔'
+              : 'نیٹ ورک ایرر — براہ کرم اپنا انٹرنیٹ چیک کریں اور دوبارہ کوشش کریں۔';
         });
     });
   </script>
