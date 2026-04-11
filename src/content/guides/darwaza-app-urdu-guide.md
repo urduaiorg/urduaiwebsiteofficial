@@ -30,7 +30,7 @@ draft: false
 
 **بس۔ 60 سیکنڈ میں سیٹ اپ۔**
 
-![دروازہ ایپ ہوم اسکرین](/images/guides/darwaza-app-urdu-guide/step-02-home-urdu.png)
+![دروازہ ایپ ہوم ڈیش بورڈ](/images/guides/darwaza-app-urdu-guide/step-01-home-dashboard.png)
 
 ---
 
@@ -218,8 +218,6 @@ Google Play Store سے "Darwaza" سرچ کریں یا [یہاں سے ڈاؤنل�
 
 ---
 
-![وزیٹر سیٹنگز — خاموش اوقات، بلاک، نوٹیفکیشن](/images/guides/darwaza-app-urdu-guide/step-06-visitor-settings.png)
-
 ## سیکیورٹی
 
 - **QR میں خفیہ کوڈ:** صرف اسکین سے کام کرے — لنک اندازے سے نہیں چلے گا
@@ -228,8 +226,6 @@ Google Play Store سے "Darwaza" سرچ کریں یا [یہاں سے ڈاؤنل�
 - **انبلاک:** غلطی سے بلاک ہو جائے تو سیٹنگز سے کھولیں
 
 ---
-
-![تمام دروازوں کی فہرست](/images/guides/darwaza-app-urdu-guide/step-03-doors-list.png)
 
 ## حقیقی استعمال — پاکستان کے لیے
 
@@ -308,8 +304,6 @@ Google Play Store سے "Darwaza" سرچ کریں یا [یہاں سے ڈاؤنل�
 ## ڈاؤنلوڈ کریں
 
 **1,000+ ڈاؤنلوڈز** — Google Play Store پر دستیاب
-
-![دروازہ ایپ — Google Play Store](/images/guides/darwaza-app-urdu-guide/step-11-play-store.png)
 
 - [Google Play Store سے ڈاؤنلوڈ کریں](https://play.google.com/store/apps/details?id=com.darwaza.app)
 - [دروازہ ویب سائٹ](https://doorcalling.com)
