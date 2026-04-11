@@ -5,7 +5,7 @@ date: 2026-04-10
 category: "گائیڈ"
 tool: "Darwaza"
 level: "ابتدائی"
-image: "/images/guides/darwaza-app-urdu-guide/cover.png"
+image: "/images/guides/darwaza-app-urdu-guide/cover.jpg"
 adsense: true
 draft: false
 ---
