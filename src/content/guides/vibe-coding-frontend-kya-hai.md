@@ -7,7 +7,7 @@ tool: ''
 level: ابتدائی
 image: /images/guides/Coding123.png
 adsense: true
-draft: false
+draft: true
 last_updated: ''
 faq:
   - question: فرنٹ اینڈ کیا ہوتا ہے؟
