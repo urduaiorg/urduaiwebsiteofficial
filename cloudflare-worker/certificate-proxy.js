@@ -36,9 +36,57 @@ function corsHeaders(origin) {
   };
 }
 
+function jsonResponse(origin, payload, status) {
+  return new Response(JSON.stringify(payload), {
+    status,
+    headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' },
+  });
+}
+
+function htmlResponse(origin, payload) {
+  const siteOrigin = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+  const redirectURL = new URL('/courses/masterclass/certificate/', siteOrigin);
+  redirectURL.searchParams.set('status', payload.success ? 'success' : 'error');
+  if (payload.certificateId) redirectURL.searchParams.set('certId', payload.certificateId);
+  if (payload.message) redirectURL.searchParams.set('message', payload.message);
+
+  const html = `<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>سرٹیفکیٹ جاری ہو رہا ہے</title>
+</head>
+<body>
+  <p>سرٹیفکیٹ جاری ہو رہا ہے...</p>
+  <script>
+    (function () {
+      var redirectURL = ${JSON.stringify(redirectURL.toString())};
+      window.location.replace(redirectURL);
+    })();
+  </script>
+  <noscript>
+    <p>براہ کرم واپس آ کر دوبارہ کوشش کریں: <a href="${redirectURL.toString()}">${redirectURL.toString()}</a></p>
+  </noscript>
+</body>
+</html>`;
+
+  return new Response(html, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8',
+      ...corsHeaders(origin),
+    },
+  });
+}
+
 export default {
   async fetch(request, env) {
     const origin = request.headers.get('Origin') || '';
+    const contentType = request.headers.get('Content-Type') || '';
+    const expectsJson = contentType.includes('application/json');
+    const respond = (payload, status = 200) =>
+      expectsJson ? jsonResponse(origin, payload, status) : htmlResponse(origin, payload);
 
     // Handle CORS preflight
     if (request.method === 'OPTIONS') {
@@ -47,31 +95,24 @@ export default {
 
     // Only allow POST
     if (request.method !== 'POST') {
-      return new Response(
-        JSON.stringify({ success: false, message: 'Method not allowed' }),
-        { status: 405, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-      );
+      return respond({ success: false, message: 'Method not allowed' }, 405);
     }
 
     try {
       // Fail fast if API_KEY is not configured in Cloudflare environment
       if (!env.API_KEY) {
-        return new Response(
-          JSON.stringify({ success: false, message: 'Worker not configured' }),
-          { status: 500, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-        );
+        return respond({ success: false, message: 'Worker not configured' }, 500);
       }
 
-      const body = await request.json();
+      const body = expectsJson
+        ? await request.json()
+        : Object.fromEntries(new URLSearchParams(await request.text()).entries());
 
       // Validate required fields
       const required = ['certificateId', 'nameUr', 'nameEn', 'email', 'score', 'courseName', 'issuedAt'];
       for (const field of required) {
         if (!body[field] && body[field] !== 0) {
-          return new Response(
-            JSON.stringify({ success: false, message: `Missing field: ${field}` }),
-            { status: 400, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-          );
+          return respond({ success: false, message: `Missing field: ${field}` }, 400);
         }
       }
 
@@ -90,10 +131,7 @@ export default {
 
       // Check HTTP status before reading body — a non-OK response is always a failure
       if (!response.ok) {
-        return new Response(
-          JSON.stringify({ success: false, message: `Upstream error: ${response.status}` }),
-          { status: 502, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-        );
+        return respond({ success: false, message: `Upstream error: ${response.status}` }, 502);
       }
 
       // Parse JSON response from Apps Script
@@ -103,24 +141,12 @@ export default {
         data = JSON.parse(text);
       } catch {
         // Apps Script returned non-JSON despite a 2xx — treat as failure, not success
-        return new Response(
-          JSON.stringify({ success: false, message: 'Upstream returned invalid response' }),
-          { status: 502, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-        );
+        return respond({ success: false, message: 'Upstream returned invalid response' }, 502);
       }
 
-      return new Response(
-        JSON.stringify(data),
-        {
-          status: 200,
-          headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' },
-        }
-      );
+      return respond(data, 200);
     } catch (err) {
-      return new Response(
-        JSON.stringify({ success: false, message: 'Server error: ' + err.message }),
-        { status: 500, headers: { ...corsHeaders(origin), 'Content-Type': 'application/json' } }
-      );
+      return respond({ success: false, message: 'Server error: ' + err.message }, 500);
     }
   },
 };

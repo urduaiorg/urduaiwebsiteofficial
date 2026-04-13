@@ -242,8 +242,10 @@ const breadcrumbSchema = {
   <script is:inline>
     var totalLessons = 9;
 
-    // IMPORTANT: Replace this URL with your Cloudflare Worker URL after deployment
-    var WORKER_URL = 'https://urai-cert.qaisar-roonjha.workers.dev';
+    // Allow an override if the deployment wires the certificate API elsewhere.
+    // Falls back to the Cloudflare Worker endpoint used by the current setup.
+    var WORKER_URL = window.CERT_WORKER_URL || 'https://urai-cert.qaisar-roonjha.workers.dev';
+    var certForm = document.getElementById('cert-form');
 
     // Check eligibility
     var completed = 0;
@@ -276,7 +278,7 @@ const breadcrumbSchema = {
     }
 
     // Form submission
-    document.getElementById('cert-form').addEventListener('submit', function(e) {
+    certForm.addEventListener('submit', function(e) {
       e.preventDefault();
 
       var nameUr = document.getElementById('name-ur').value.trim();
@@ -287,11 +289,6 @@ const breadcrumbSchema = {
 
       var certId = generateCertId();
       var now = new Date().toISOString();
-
-      // Hide form, show loading
-      document.getElementById('cert-form-section').style.display = 'none';
-      document.getElementById('cert-loading').style.display = 'block';
-
       var payload = {
         certificateId: certId,
         nameUr: nameUr,
@@ -302,12 +299,19 @@ const breadcrumbSchema = {
         issuedAt: now,
       };
 
+      // Hide form, show loading
+      document.getElementById('cert-form-section').style.display = 'none';
+      document.getElementById('cert-loading').style.display = 'block';
+
       fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       })
         .then(function(res) {
+          if (!res.ok) {
+            throw new Error('server_' + res.status);
+          }
           return res.json().catch(function() {
             // Response was not valid JSON — treat as server error
             throw new Error('invalid_json');
@@ -327,12 +331,14 @@ const breadcrumbSchema = {
         })
         .catch(function(err) {
           document.getElementById('cert-loading').style.display = 'none';
-          document.getElementById('cert-form-section').style.display = 'none';
+          document.getElementById('cert-form-section').style.display = 'block';
           document.getElementById('cert-error').style.display = 'block';
           document.getElementById('cert-error-msg').textContent =
             err && err.message === 'invalid_json'
               ? 'سرور سے غلط جواب آیا۔ براہ کرم دوبارہ کوشش کریں۔'
-              : 'نیٹ ورک ایرر — براہ کرم اپنا انٹرنیٹ چیک کریں اور دوبارہ کوشش کریں۔';
+              : (err && err.message && err.message.indexOf('server_') === 0
+                  ? 'سرٹیفکیٹ سروس نے جواب دینے سے انکار کر دیا۔ براہ کرم کچھ دیر بعد دوبارہ کوشش کریں۔'
+                  : 'سرٹیفکیٹ سروس تک رسائی نہیں ہو رہی۔ اگر آپ کا انٹرنیٹ چل رہا ہے تو غالباً backend endpoint بند ہے۔');
         });
     });
   </script>
