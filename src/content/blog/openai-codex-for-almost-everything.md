@@ -1,20 +1,19 @@
 ---
-title: اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا
-description: اوپن اے آئی نے Codex کو اپڈیٹ کر کے اسے کمپیوٹر استعمال، ان-ایپ براؤزر، تصاویر، میموری اور آٹومیشنز کے ساتھ ایک وسیع ورک فلو ٹول بنا دیا ہے۔
+title: "اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا"
+description: "اوپن اے آئی نے Codex کو کمپیوٹر استعمال، ان-ایپ براؤزر، تصاویر، میموری، آٹومیشنز اور سائنسی ورک فلو سے جوڑ کر ایک وسیع پلیٹ فارم بنا دیا ہے۔"
 date: 2026-04-16
-category: اے آئی اپڈیٹ
-image: /og/default.jpg
-author: اردو اے آئی ٹیم
+category: "اے آئی اپڈیٹ"
+author: "اردو اے آئی ٹیم"
 adsense: true
-draft: true
+draft: false
+image: "/og/default.jpg"
 faq:
-  - question: Codex اب پہلے سے مختلف کیسے ہے؟
-    answer: اوپن اے آئی کے مطابق Codex اب صرف کوڈ لکھنے تک محدود نہیں رہا۔ یہ کمپیوٹر پر ایپس کے ساتھ کام کر سکتا ہے، ویب میں ہدایات سمجھ سکتا ہے، تصاویر بنا سکتا ہے، اور لمبے کام یاد رکھ کر آگے بڑھا سکتا ہے۔
-  - question: یہ اپڈیٹ کن لوگوں کے لیے زیادہ اہم ہے؟
-    answer: یہ اپڈیٹ خاص طور پر ان لوگوں کے لیے اہم ہے جو frontend، app testing، code review، یا مسلسل چلنے والے development workflows پر کام کرتے ہیں۔ اگر آپ روزانہ کئی ٹولز کے درمیان switch کرتے ہیں تو یہ تبدیلی آپ کا وقت بچا سکتی ہے۔
-  - question: کیا یہ ابھی ہر جگہ یکساں دستیاب ہے؟
-    answer: نہیں، کچھ صلاحیتیں مرحلہ وار رول آؤٹ ہو رہی ہیں۔ OpenAI کے مطابق computer use ابتدا میں macOS پر ہے، اور کچھ personalization features بعد میں Enterprise اور Edu صارفین تک پہنچیں گے۔
-last_updated: ''
+  - question: "Codex اب پہلے سے مختلف کیسے ہے؟"
+    answer: "اوپن اے آئی کے مطابق Codex اب صرف کوڈ لکھنے تک محدود نہیں رہا۔ یہ کمپیوٹر پر ایپس کے ساتھ کام کر سکتا ہے، ویب میں ہدایات سمجھ سکتا ہے، تصاویر بنا سکتا ہے، اور لمبے کام یاد رکھ کر آگے بڑھا سکتا ہے۔"
+  - question: "یہ اپڈیٹ کن لوگوں کے لیے زیادہ اہم ہے؟"
+    answer: "یہ اپڈیٹ خاص طور پر ان لوگوں کے لیے اہم ہے جو frontend، app testing، code review، یا مسلسل چلنے والے development workflows پر کام کرتے ہیں۔ اگر آپ روزانہ کئی ٹولز کے درمیان switch کرتے ہیں تو یہ تبدیلی آپ کا وقت بچا سکتی ہے۔"
+  - question: "کیا یہ ابھی ہر جگہ یکساں دستیاب ہے؟"
+    answer: "نہیں، کچھ صلاحیتیں مرحلہ وار رول آؤٹ ہو رہی ہیں۔ OpenAI کے مطابق computer use ابتدا میں macOS پر ہے، اور کچھ personalization features بعد میں Enterprise اور Edu صارفین تک پہنچیں گے۔"
 ---
 
 # اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا
@@ -48,6 +47,12 @@ OpenAI نے واضح کیا ہے کہ Codex اب full software development lifec
 
 یہ حصہ خاص طور پر teams کے لیے اہم ہے۔ اگر کسی PR پر comments کھلے ہوں، کسی project میں follow-up باقی ہو، یا کئی tools سے context جمع کرنا ہو، تو Codex اب یہ سب چیزیں زیادہ منظم طریقے سے carry forward کر سکتا ہے۔
 
+## Codex اب scientific workflows میں بھی داخل ہو رہا ہے
+
+اسی دن OpenAI نے GPT‑Rosalind بھی introduce کیا، جو life sciences research کے لیے ایک frontier reasoning model ہے۔ OpenAI کے مطابق یہ ChatGPT، Codex، اور API میں qualified customers کے لیے research preview کے طور پر دستیاب ہے۔ اس کے ساتھ Codex کے لیے Life Sciences research plugin بھی آ رہا ہے، جو 50 سے زیادہ scientific tools اور data sources سے connect کرتا ہے۔
+
+اس سے ایک واضح signal ملتا ہے: OpenAI Codex کو صرف software engineering assistant نہیں رکھنا چاہتا۔ وہ اسے ایک ایسے platform میں بدل رہا ہے جو code review، browser work، automations، اور specialist research workflows کو بھی ایک ہی stack میں جوڑ سکے۔
+
 ## محدودیتیں بھی واضح ہیں
 
 یہ سب کچھ سن کر یہ سمجھنا غلط ہوگا کہ Codex ہر کام میں انسان سے بہتر ہو گیا ہے۔ OpenAI نے خود بتایا ہے کہ computer use initially macOS پر ہے۔ اسی طرح personalization features ابھی Enterprise، Edu، اور EU/UK users تک بعد میں پہنچیں گے۔
@@ -61,7 +66,6 @@ OpenAI نے واضح کیا ہے کہ Codex اب full software development lifec
 لیکن ایک صاف حقیقت یہ بھی ہے: اگر آپ کا کام صرف simple text writing یا basic Q&A تک محدود ہے تو آپ کو Codex کی ساری نئی طاقت روزانہ محسوس نہیں ہوگی۔ اس کی اصل value advanced workflows میں ہے۔
 
 ## یہ پرامٹ کاپی کریں:
-
 ─────────────────────────────
 میرے لیے Codex کے اس اپڈیٹ کو تین حصوں میں سمجھائیں:
 1) software development میں عملی فائدہ
@@ -73,16 +77,21 @@ OpenAI نے واضح کیا ہے کہ Codex اب full software development lifec
 
 ## خلاصہ
 
-OpenAI Codex کا یہ اپڈیٹ اس سمت کا اشارہ ہے کہ developer tools اب code editor سے باہر جا رہے ہیں۔ اب agent صرف code نہیں لکھے گا، بلکہ context، browser، computer use، images، اور repeatable workflows کو ایک ہی جگہ جوڑنے کی کوشش کرے گا۔
+OpenAI Codex کا یہ اپڈیٹ اس سمت کا اشارہ ہے کہ developer tools اب code editor سے باہر جا رہے ہیں۔ اب agent صرف code نہیں لکھے گا، بلکہ context، browser، computer use، images، repeatable workflows، اور specialist research tasks کو ایک ہی جگہ جوڑنے کی کوشش کرے گا۔
 
 ## FAQ
 
 - Codex اب صرف programming کے لیے ہے؟
-  نہیں، OpenAI کے مطابق یہ اب computer use، browser work، image generation، اور long-running tasks تک پھیل چکا ہے۔
+  نہیں، OpenAI کے مطابق یہ اب computer use، browser work، image generation، long-running tasks، اور specialist workflows تک پھیل چکا ہے۔
+
 - کیا یہ release سب کے لیے فوراً ایک جیسی ہے؟
   نہیں، کچھ features مرحلہ وار roll out ہو رہے ہیں، اور computer use ابتدا میں macOS پر ہے۔
+
 - اس اپڈیٹ کی سب سے بڑی value کیا ہے؟
   Code لکھنے، test کرنے، review کرنے، اور work forward لے جانے کے بیچ context switch کم ہونا۔
+
+- GPT-Rosalind کا Codex سے کیا تعلق ہے؟
+  GPT-Rosalind life sciences research preview ہے، اور OpenAI نے اسے ChatGPT، Codex، اور API کے ساتھ جوڑ کر دکھایا ہے کہ Codex اب domain-specific workflows کے لیے بھی ایک entry point بن رہا ہے۔
 
 ## Honest Verdict
 
