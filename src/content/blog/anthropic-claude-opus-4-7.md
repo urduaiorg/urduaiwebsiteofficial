@@ -6,7 +6,7 @@ category: اے آئی اپڈیٹ
 image: /images/blog/Screenshot 2026-04-16 at 2.55.50 PM.png
 author: معراج احمد
 adsense: true
-draft: true
+draft: false
 faq:
   - question: Claude Opus 4.7 میں اصل بہتری کیا ہے؟
     answer: Anthropic کے مطابق یہ model advanced software engineering، long-running tasks، precise instruction following، اور self-verification میں بہتر ہے۔ اس کی vision بھی پہلے سے زیادہ مضبوط بتائی گئی ہے۔
