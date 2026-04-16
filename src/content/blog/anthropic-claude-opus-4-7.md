@@ -1,19 +1,20 @@
 ---
-title: "Claude Opus 4.7: Anthropic کا نیا مضبوط coding model"
-description: "Anthropic نے Claude Opus 4.7 کو عام دستیاب کر دیا ہے، جو مشکل کوڈنگ، لمبی ورک فلو، بہتر وژن، اور خود تصدیق کے ساتھ آتا ہے۔"
+title: 'Claude Opus 4.7: Anthropic کا نیا مضبوط coding model'
+description: Anthropic نے Claude Opus 4.7 کو عام دستیاب کر دیا ہے، جو مشکل کوڈنگ، لمبی ورک فلو، بہتر وژن، اور خود تصدیق کے ساتھ آتا ہے۔
 date: 2026-04-16
-category: "اے آئی اپڈیٹ"
-author: "اردو اے آئی ٹیم"
+category: اے آئی اپڈیٹ
+image: /images/blog/Screenshot 2026-04-16 at 2.55.50 PM.png
+author: معراج احمد
 adsense: true
-draft: false
-image: "/og/default.jpg"
+draft: true
 faq:
-  - question: "Claude Opus 4.7 میں اصل بہتری کیا ہے؟"
-    answer: "Anthropic کے مطابق یہ model advanced software engineering، long-running tasks، precise instruction following، اور self-verification میں بہتر ہے۔ اس کی vision بھی پہلے سے زیادہ مضبوط بتائی گئی ہے۔"
-  - question: "کیا یہ صرف developers کے لیے ہے؟"
-    answer: "نہیں، developers کے لیے یہ خاص طور پر اہم ہے، مگر documents، slides، interfaces، اور professional writing tasks میں بھی یہ زیادہ polished output دے سکتا ہے۔"
-  - question: "اس model کی قیمت کیا ہے؟"
-    answer: "Anthropic نے بتایا ہے کہ pricing Opus 4.6 جیسی ہی رکھی گئی ہے: $5 per million input tokens اور $25 per million output tokens۔"
+  - question: Claude Opus 4.7 میں اصل بہتری کیا ہے؟
+    answer: Anthropic کے مطابق یہ model advanced software engineering، long-running tasks، precise instruction following، اور self-verification میں بہتر ہے۔ اس کی vision بھی پہلے سے زیادہ مضبوط بتائی گئی ہے۔
+  - question: کیا یہ صرف developers کے لیے ہے؟
+    answer: نہیں، developers کے لیے یہ خاص طور پر اہم ہے، مگر documents، slides، interfaces، اور professional writing tasks میں بھی یہ زیادہ polished output دے سکتا ہے۔
+  - question: اس model کی قیمت کیا ہے؟
+    answer: 'Anthropic نے بتایا ہے کہ pricing Opus 4.6 جیسی ہی رکھی گئی ہے: $5 per million input tokens اور $25 per million output tokens۔'
+last_updated: ''
 ---
 
 # Claude Opus 4.7: Anthropic کا نیا مضبوط coding model
@@ -57,6 +58,7 @@ Anthropic نے pricing وہی رکھی ہے جو Opus 4.6 کے لیے تھی: $5
 لیکن ایک honest بات یہ ہے کہ ہر user کو اس نئے model کی پوری طاقت فوراً محسوس نہیں ہوگی۔ اگر آپ کا use case basic chat، simple summaries، یا casual brainstorming تک محدود ہے تو فرق اتنا ڈرامائی نہیں لگے گا۔
 
 ## یہ پرامٹ کاپی کریں:
+
 ─────────────────────────────
 آپ ایک senior coding reviewer ہیں۔
 میرے codebase کے لیے:
@@ -75,10 +77,8 @@ Claude Opus 4.7 Anthropic کی اس direction کو reinforce کرتا ہے کہ 
 
 - کیا Claude Opus 4.7 صرف coding model ہے؟
   نہیں، یہ professional writing، docs، slides، interfaces، اور multi-step workflows میں بھی مضبوط دکھایا جا رہا ہے۔
-
 - کیا اس کی قیمت بڑھ گئی ہے؟
   نہیں، Anthropic کے مطابق pricing Opus 4.6 جیسی ہی ہے۔
-
 - اس release کا سب سے اہم point کیا ہے؟
   کم supervision کے ساتھ زیادہ reliable complex work handle کرنا۔
 
