@@ -37,7 +37,7 @@ last_updated: 2026-04-15
 
 یہ اپڈیٹ تین سطحوں پر سامنے آتی ہے:
 
-1. ڈویلپرز کے لیے: Gemini Live API کے ذریعے۔
+1. ڈویلپرز کے لیے: Gemini Live API کے ذریعے Google AI Studio میں۔
 2. اداروں کے لیے: Gemini Enterprise اور customer experience استعمال کے لیے۔
 3. عام صارفین کے لیے: Search Live اور Gemini Live میں۔
 
@@ -116,6 +116,8 @@ last_updated: 2026-04-15
 5. اگر آپ developer ہیں تو Gemini Live API documentation بھی دیکھیں۔
 
 آزمائش کے دوران سوالات کو چھوٹا اور واضح رکھیں۔ اگر آپ ایک ہی جملے میں بہت کچھ مانگیں گے تو آوازی ماڈل کا فائدہ کم نظر آئے گا۔ Voice AI میں واضح ہدایات ہمیشہ بہتر نتائج دیتی ہیں۔
+
+گوگل کے اصل اعلان میں ڈویلپرز کے لیے Google AI Studio اور Gemini Live API کا ذکر ہے، جبکہ عام صارفین کے لیے Gemini Live اور Search Live۔ اس لیے اگر آپ ڈویلپر ہیں تو AI Studio میں اس ماڈل کو آزما سکتے ہیں، اور اگر عام صارف ہیں تو Gemini app کے Live experience یا Search Live کے ذریعے اسے دیکھ سکتے ہیں۔
 
 ## Gemini 3.1 Flash TTS سے بہترین نتائج کیسے حاصل کریں؟
 
