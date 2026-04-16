@@ -1,27 +1,28 @@
 ---
-title: "جمینی 3.1 فلیش لائیو: گوگل کا نیا آوازی اے آئی ماڈل اور بہتر استعمال کا طریقہ"
-description: "گوگل نے جمینی 3.1 فلیش لائیو متعارف کرایا ہے جو کم تاخیر، بہتر لہجے کی سمجھ اور زیادہ قدرتی گفتگو کے ساتھ وائس اے آئی کو اگلے درجے پر لے جاتا ہے۔ اس گائیڈ میں بہتر نتائج لینے کے عملی طریقے بھی شامل ہیں۔"
+title: 'جمینی 3.1 فلیش لائیو: گوگل کا نیا آوازی اے آئی ماڈل اور بہتر استعمال کا طریقہ'
+description: گوگل نے جمینی 3.1 فلیش لائیو متعارف کرایا ہے جو کم تاخیر، بہتر لہجے کی سمجھ اور زیادہ قدرتی گفتگو کے ساتھ وائس اے آئی کو اگلے درجے پر لے جاتا ہے۔ اس گائیڈ میں بہتر نتائج لینے کے عملی طریقے بھی شامل ہیں۔
 date: 2026-04-15
-last_updated: 2026-04-15
-category: "اے آئی اپڈیٹ"
+category: اے آئی اپڈیٹ
 tags:
   - Gemini
   - وائس اے آئی
   - Search Live
   - TTS
   - Guide
-author: "اردو اے آئی ٹیم"
+image: /images/blog/urduai-cover-1776304965874.png
+author: معراج احمد
 adsense: true
-draft: true
+draft: false
 faq:
-  - question: "جمینی 3.1 فلیش لائیو کیا ہے؟"
-    answer: "یہ گوگل کا نیا آوازی اور ریئل ٹائم مکالماتی ماڈل ہے جو کم تاخیر، قدرتی لہجے اور بہتر reliability کے ساتھ voice-first AI تجربہ بناتا ہے۔"
-  - question: "کیا یہ عام صارف بھی استعمال کر سکتا ہے؟"
-    answer: "ہاں، گوگل کے مطابق عام صارفین اسے Gemini Live اور Search Live میں استعمال کر سکتے ہیں، جبکہ ڈویلپرز اسے Gemini Live API کے ذریعے آزما سکتے ہیں۔"
-  - question: "کیا اس میں AI-generated آڈیو کی پہچان ممکن ہے؟"
-    answer: "گوگل کے مطابق 3.1 Flash Live سے بننے والی آڈیو SynthID watermark کے ساتھ آتی ہے تاکہ AI-generated content کی شناخت میں مدد مل سکے۔"
-  - question: "بہترین نتائج کے لیے کتنے audio tags استعمال کرنے چاہئیں؟"
-    answer: "عام طور پر 3 سے 5 audio tags کافی ہوتے ہیں۔ بہت زیادہ tags دینے سے delivery غیر فطری ہو سکتی ہے۔"
+  - question: جمینی 3.1 فلیش لائیو کیا ہے؟
+    answer: یہ گوگل کا نیا آوازی اور ریئل ٹائم مکالماتی ماڈل ہے جو کم تاخیر، قدرتی لہجے اور بہتر reliability کے ساتھ voice-first AI تجربہ بناتا ہے۔
+  - question: کیا یہ عام صارف بھی استعمال کر سکتا ہے؟
+    answer: ہاں، گوگل کے مطابق عام صارفین اسے Gemini Live اور Search Live میں استعمال کر سکتے ہیں، جبکہ ڈویلپرز اسے Gemini Live API کے ذریعے آزما سکتے ہیں۔
+  - question: کیا اس میں AI-generated آڈیو کی پہچان ممکن ہے؟
+    answer: گوگل کے مطابق 3.1 Flash Live سے بننے والی آڈیو SynthID watermark کے ساتھ آتی ہے تاکہ AI-generated content کی شناخت میں مدد مل سکے۔
+  - question: بہترین نتائج کے لیے کتنے audio tags استعمال کرنے چاہئیں؟
+    answer: عام طور پر 3 سے 5 audio tags کافی ہوتے ہیں۔ بہت زیادہ tags دینے سے delivery غیر فطری ہو سکتی ہے۔
+last_updated: 2026-04-15
 ---
 
 # جمینی 3.1 فلیش لائیو: گوگل کا نیا آوازی اے آئی ماڈل اور بہتر استعمال کا طریقہ
@@ -138,7 +139,7 @@ AI سیکھنا ضروری ہے
 اُردو اے آئی کے ساتھ AI سیکھیں
 
 **بہتر مثال:**
-Scene: ایک motivational speaker نوجوانوں کو inspire کر رہا ہے  
+Scene: ایک motivational speaker نوجوانوں کو inspire کر رہا ہے
 [energetic][uplifting] اُردو اے آئی کے ساتھ AI سیکھیں
 
 ### 3) ایک ہی جملے میں tone بدلیں
@@ -168,36 +169,36 @@ Gemini 3.1 کی ایک دلچسپ صلاحیت یہ ہے کہ آپ ایک ہی s
 
 Scene: نوجوانوں کو inspire کیا جا رہا ہے
 
-[inspiring][uplifting][slow build]  
-دوستو… زندگی بدل رہی ہے…  
+[inspiring][uplifting][slow build]
+دوستو… زندگی بدل رہی ہے…
 [strong] اُٹھیں، سیکھیں، اور آگے بڑھیں
 
 ### Documentary Style
 
 Scene: ایک سنجیدہ documentary narration
 
-[calm][authoritative][slow]  
-ہر دور میں علم طاقت رہا ہے…  
+[calm][authoritative][slow]
+ہر دور میں علم طاقت رہا ہے…
 [reflective] اور آج یہ طاقت AI بن چکی ہے…
 
 ### Sports Commentary Style
 
 Scene: میچ کا آخری لمحہ
 
-[high energy][fast]  
-اوہہ… کیا موقع ہے  
-[drop] موقع ضائع؟  
+[high energy][fast]
+اوہہ… کیا موقع ہے
+[drop] موقع ضائع؟
 [explosion] ابھی شروع کریں
 
 ### Conversational Explainer
 
-[friendly][clear][moderate pace]  
+[friendly][clear][moderate pace]
 اگر آپ AI سیکھنا چاہتے ہیں، تو پہلے ایک چھوٹا موضوع چنیں اور اسے step by step سمجھیں
 
 ### Multi-tone Delivery
 
-[calm] AI سیکھنا ضروری ہے…  
-[serious] کیونکہ دنیا بدل رہی ہے…  
+[calm] AI سیکھنا ضروری ہے…
+[serious] کیونکہ دنیا بدل رہی ہے…
 [excited] اور اب وقت ہے کہ آپ بھی آگے بڑھیں
 
 ## Advanced Best Practices
@@ -208,7 +209,7 @@ Scene: میچ کا آخری لمحہ
 - مختصر scripts سوشل میڈیا کے لیے زیادہ مؤثر ہوتی ہیں
 - Exaggerated styles صرف مخصوص creative یا viral content میں استعمال کریں
 
-## آخری نوٹ
+## 
 
 اگر آپ اس ماڈل کو صرف text پڑھوانے کے لیے نہیں بلکہ ایک controlled voice experience کے طور پر استعمال کریں گے، تو نتائج کہیں زیادہ بہتر آئیں گے۔ سب سے اہم بات یہ ہے کہ آپ لکھائی کے ساتھ delivery کو بھی design کریں۔
 
