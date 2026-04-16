@@ -5,6 +5,9 @@ backend:
   base_url: https://sveltia-cms-auth.qaisar-roonjha.workers.dev
 
 publish_mode: editorial_workflow
+# CMS-first workflow:
+# Create all new articles in /admin first.
+# Main branch is the source of truth for CMS visibility.
 
 media_folder: public/images
 public_folder: /images
