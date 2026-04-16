@@ -1,19 +1,20 @@
 ---
-title: "اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا"
-description: "اوپن اے آئی نے Codex کو اپڈیٹ کر کے اسے کمپیوٹر استعمال، ان-ایپ براؤزر، تصاویر، میموری اور آٹومیشنز کے ساتھ ایک وسیع ورک فلو ٹول بنا دیا ہے۔"
+title: اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا
+description: اوپن اے آئی نے Codex کو اپڈیٹ کر کے اسے کمپیوٹر استعمال، ان-ایپ براؤزر، تصاویر، میموری اور آٹومیشنز کے ساتھ ایک وسیع ورک فلو ٹول بنا دیا ہے۔
 date: 2026-04-16
-category: "اے آئی اپڈیٹ"
-author: "اردو اے آئی ٹیم"
+category: اے آئی اپڈیٹ
+image: /og/default.jpg
+author: اردو اے آئی ٹیم
 adsense: true
-draft: false
-image: "/og/default.jpg"
+draft: true
 faq:
-  - question: "Codex اب پہلے سے مختلف کیسے ہے؟"
-    answer: "اوپن اے آئی کے مطابق Codex اب صرف کوڈ لکھنے تک محدود نہیں رہا۔ یہ کمپیوٹر پر ایپس کے ساتھ کام کر سکتا ہے، ویب میں ہدایات سمجھ سکتا ہے، تصاویر بنا سکتا ہے، اور لمبے کام یاد رکھ کر آگے بڑھا سکتا ہے۔"
-  - question: "یہ اپڈیٹ کن لوگوں کے لیے زیادہ اہم ہے؟"
-    answer: "یہ اپڈیٹ خاص طور پر ان لوگوں کے لیے اہم ہے جو frontend، app testing، code review، یا مسلسل چلنے والے development workflows پر کام کرتے ہیں۔ اگر آپ روزانہ کئی ٹولز کے درمیان switch کرتے ہیں تو یہ تبدیلی آپ کا وقت بچا سکتی ہے۔"
-  - question: "کیا یہ ابھی ہر جگہ یکساں دستیاب ہے؟"
-    answer: "نہیں، کچھ صلاحیتیں مرحلہ وار رول آؤٹ ہو رہی ہیں۔ OpenAI کے مطابق computer use ابتدا میں macOS پر ہے، اور کچھ personalization features بعد میں Enterprise اور Edu صارفین تک پہنچیں گے۔"
+  - question: Codex اب پہلے سے مختلف کیسے ہے؟
+    answer: اوپن اے آئی کے مطابق Codex اب صرف کوڈ لکھنے تک محدود نہیں رہا۔ یہ کمپیوٹر پر ایپس کے ساتھ کام کر سکتا ہے، ویب میں ہدایات سمجھ سکتا ہے، تصاویر بنا سکتا ہے، اور لمبے کام یاد رکھ کر آگے بڑھا سکتا ہے۔
+  - question: یہ اپڈیٹ کن لوگوں کے لیے زیادہ اہم ہے؟
+    answer: یہ اپڈیٹ خاص طور پر ان لوگوں کے لیے اہم ہے جو frontend، app testing، code review، یا مسلسل چلنے والے development workflows پر کام کرتے ہیں۔ اگر آپ روزانہ کئی ٹولز کے درمیان switch کرتے ہیں تو یہ تبدیلی آپ کا وقت بچا سکتی ہے۔
+  - question: کیا یہ ابھی ہر جگہ یکساں دستیاب ہے؟
+    answer: نہیں، کچھ صلاحیتیں مرحلہ وار رول آؤٹ ہو رہی ہیں۔ OpenAI کے مطابق computer use ابتدا میں macOS پر ہے، اور کچھ personalization features بعد میں Enterprise اور Edu صارفین تک پہنچیں گے۔
+last_updated: ''
 ---
 
 # اوپن اے آئی کا Codex اب صرف کوڈنگ ٹول نہیں رہا
@@ -60,6 +61,7 @@ OpenAI نے واضح کیا ہے کہ Codex اب full software development lifec
 لیکن ایک صاف حقیقت یہ بھی ہے: اگر آپ کا کام صرف simple text writing یا basic Q&A تک محدود ہے تو آپ کو Codex کی ساری نئی طاقت روزانہ محسوس نہیں ہوگی۔ اس کی اصل value advanced workflows میں ہے۔
 
 ## یہ پرامٹ کاپی کریں:
+
 ─────────────────────────────
 میرے لیے Codex کے اس اپڈیٹ کو تین حصوں میں سمجھائیں:
 1) software development میں عملی فائدہ
@@ -77,10 +79,8 @@ OpenAI Codex کا یہ اپڈیٹ اس سمت کا اشارہ ہے کہ develope
 
 - Codex اب صرف programming کے لیے ہے؟
   نہیں، OpenAI کے مطابق یہ اب computer use، browser work، image generation، اور long-running tasks تک پھیل چکا ہے۔
-
 - کیا یہ release سب کے لیے فوراً ایک جیسی ہے؟
   نہیں، کچھ features مرحلہ وار roll out ہو رہے ہیں، اور computer use ابتدا میں macOS پر ہے۔
-
 - اس اپڈیٹ کی سب سے بڑی value کیا ہے؟
   Code لکھنے، test کرنے، review کرنے، اور work forward لے جانے کے بیچ context switch کم ہونا۔
 
