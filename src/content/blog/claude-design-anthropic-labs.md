@@ -1,19 +1,20 @@
 ---
-title: "Claude Design: Anthropic کا نیا ویژول ورک ٹول"
-description: "Anthropic نے Claude Design لانچ کیا ہے، جو ڈیزائن، پروٹو ٹائپ، سلائیڈز اور one-pagers بنانے کے لیے Claude کو ایک visual collaboration tool بناتا ہے۔"
+title: 'Claude Design: Anthropic کا نیا ویژول ورک ٹول'
+description: Anthropic نے Claude Design لانچ کیا ہے، جو ڈیزائن، پروٹو ٹائپ، سلائیڈز اور one-pagers بنانے کے لیے Claude کو ایک visual collaboration tool بناتا ہے۔
 date: 2026-04-18
-category: "اے آئی اپڈیٹ"
-author: "اردو اے آئی ٹیم"
+category: اے آئی اپڈیٹ
+image: /images/blog/urduai-cover-1776527397542.png
+author: اردو اے آئی ٹیم
 adsense: true
-draft: false
-image: "/og/default.jpg"
+draft: true
 faq:
-  - question: "Claude Design کیا ہے؟"
-    answer: "Claude Design Anthropic Labs کا نیا product ہے جو Claude کے ساتھ مل کر visual work بنانے دیتا ہے۔ اس میں designs، prototypes، slides، one-pagers اور دوسری polished visual assets شامل ہیں۔"
-  - question: "یہ کس کے لیے بنایا گیا ہے؟"
-    answer: "یہ designers، product managers، founders، marketers، اور ایسے teams کے لیے بنایا گیا ہے جنہیں ideas کو جلدی visual شکل دینی ہوتی ہے۔"
-  - question: "کیا یہ موجودہ design tools کو replace کرتا ہے؟"
-    answer: "نہیں، ابھی اسے drafting اور collaboration layer سمجھنا بہتر ہے۔ final polish، brand review، اور production handoff کے لیے روایتی design workflow پھر بھی اہم رہتا ہے۔"
+  - question: Claude Design کیا ہے؟
+    answer: Claude Design Anthropic Labs کا نیا product ہے جو Claude کے ساتھ مل کر visual work بنانے دیتا ہے۔ اس میں designs، prototypes، slides، one-pagers اور دوسری polished visual assets شامل ہیں۔
+  - question: یہ کس کے لیے بنایا گیا ہے؟
+    answer: یہ designers، product managers، founders، marketers، اور ایسے teams کے لیے بنایا گیا ہے جنہیں ideas کو جلدی visual شکل دینی ہوتی ہے۔
+  - question: کیا یہ موجودہ design tools کو replace کرتا ہے؟
+    answer: نہیں، ابھی اسے drafting اور collaboration layer سمجھنا بہتر ہے۔ final polish، brand review، اور production handoff کے لیے روایتی design workflow پھر بھی اہم رہتا ہے۔
+last_updated: ''
 ---
 
 # Claude Design: Anthropic کا نیا ویژول ورک ٹول
@@ -68,6 +69,7 @@ Export options بھی کافی practical ہیں۔ آپ اسے internal URL، fol
 Urdu AI کے زاویے سے اس کا مطلب سادہ ہے: visual work اب صرف design experts کی چیز نہیں رہے گا۔ جس شخص کے پاس اچھی سوچ ہے مگر مکمل design workflow نہیں، وہ بھی ایک usable draft جلدی بنا سکے گا۔ البتہ final polish، brand discipline، اور content judgment اب بھی انسان کے ہاتھ میں رہے گا۔
 
 ## یہ پرامٹ کاپی کریں:
+
 ─────────────────────────────
 میرے لیے ایک B2B SaaS landing page کا پہلا visual draft بنائیں۔
 برانڈ: [نام]
@@ -86,13 +88,10 @@ Claude Design Anthropic کی طرف سے ایک practical قدم ہے۔ یہ AI 
 
 - Claude Design کس model پر چلتا ہے؟
   یہ Claude Opus 4.7 پر powered ہے۔
-
 - کیا یہ فوری طور پر سب کے لیے کھلا ہے؟
   نہیں، یہ research preview میں ہے اور rollout دن بھر میں gradual ہے۔
-
 - کیا اس سے Canva یا design software ختم ہو جائے گا؟
   نہیں، یہ زیادہ تر drafting اور handoff layer ہے، مکمل replacement نہیں۔
-
 - کیا یہ ٹیم کے design system کو یاد رکھ سکتا ہے؟
   ہاں، اگر اسے access دیا جائے تو یہ team colors، typography، اور components کو follow کرنے کی کوشش کرتا ہے۔
 
