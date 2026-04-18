@@ -6,7 +6,7 @@ category: اے آئی اپڈیٹ
 image: /images/blog/urduai-cover-1776527397542.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: true
+draft: false
 faq:
   - question: Claude Design کیا ہے؟
     answer: Claude Design Anthropic Labs کا نیا product ہے جو Claude کے ساتھ مل کر visual work بنانے دیتا ہے۔ اس میں designs، prototypes، slides، one-pagers اور دوسری polished visual assets شامل ہیں۔
