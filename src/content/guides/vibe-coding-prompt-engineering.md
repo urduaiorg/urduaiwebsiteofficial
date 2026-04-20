@@ -1,13 +1,13 @@
 ---
 title: پرامٹ انجینئرنگ — AI سے بہتر کوڈ کیسے لکھوائیں؟
 description: وائب کوڈنگ میں AI کو صحیح ہدایت کیسے دیں؟ پرامٹ لکھنے کے اصول، غلطیاں، اور عملی مثالیں — تاکہ AI پہلی بار میں صحیح نتیجہ دے۔ مکمل اردو گائیڈ۔
-date: 2026-04-10
+date: 2026-04-19
 category: گائیڈ
 tool: ''
 level: ابتدائی
-image: ''
+image: /images/guides/Coding123.png
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 faq:
   - question: پرامٹ انجینئرنگ کیا ہے؟
