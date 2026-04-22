@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <title>Urdu Ai — 360° Viewer</title>
 <meta name="robots" content="noindex, nofollow" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -157,6 +160,7 @@
     <div class="divider"></div>
     <button id="reset" title="Reset view (R)">Reset</button>
     <button id="autospin" title="Auto-spin (Space)">Auto-spin</button>
+    <button id="flip" title="Flip upside-down if the image renders inverted (F)">Flip</button>
     <button id="fs" title="Fullscreen">Fullscreen</button>
   </div>
   <div class="hud-group">
@@ -433,23 +437,19 @@ async function loadImage(fileOrUrl) {
     // Leave headroom — many mobile drivers report maxTex but fail near it.
     const cap = Math.min(maxTex, 4096);
 
-    let source = img;
-    if (iw > cap || ih > cap) {
-      const scale = Math.min(cap / iw, cap / ih);
-      const cw = Math.max(2, Math.round(iw * scale));
-      const ch = Math.max(2, Math.round(ih * scale));
-      const c = document.createElement('canvas');
-      c.width = cw; c.height = ch;
-      const cctx = c.getContext('2d');
-      cctx.drawImage(img, 0, 0, cw, ch);
-      source = c;
-    }
+    // Always project through a canvas so the texture orientation is
+    // consistent regardless of the source type. Three.js treats
+    // ImageBitmap and HTMLImageElement differently for `flipY`, which
+    // causes equirectangular images to render upside down when we
+    // switched loaders.
+    const scale = (iw > cap || ih > cap) ? Math.min(cap / iw, cap / ih) : 1;
+    const cw = Math.max(2, Math.round(iw * scale));
+    const ch = Math.max(2, Math.round(ih * scale));
+    const c = document.createElement('canvas');
+    c.width = cw; c.height = ch;
+    c.getContext('2d').drawImage(img, 0, 0, cw, ch);
 
-    // CanvasTexture works for HTMLCanvasElement; ImageBitmap and
-    // HTMLImageElement both need the base Texture constructor.
-    const texture = (source instanceof HTMLCanvasElement)
-      ? new THREE.CanvasTexture(source)
-      : new THREE.Texture(source);
+    const texture = new THREE.CanvasTexture(c);
     texture.colorSpace = THREE.SRGBColorSpace;
     texture.minFilter = THREE.LinearFilter;
     texture.generateMipmaps = false;
@@ -517,11 +517,24 @@ spinBtn.addEventListener('click', () => {
   autoSpin = !autoSpin;
   spinBtn.textContent = autoSpin ? 'Stop spin' : 'Auto-spin';
 });
+
+// Flip upside-down escape hatch for images encoded with non-standard
+// orientation (the texture-through-canvas path handles the common
+// case, but this gives the user a manual override).
+let flipped = false;
+function toggleFlip() {
+  if (!mesh) return;
+  flipped = !flipped;
+  mesh.rotation.z = flipped ? Math.PI : 0;
+}
+document.getElementById('flip').addEventListener('click', toggleFlip);
+
 window.addEventListener('keydown', e => {
   if (recording) return;
   if (e.code === 'Space') { autoSpin = !autoSpin; spinBtn.textContent = autoSpin ? 'Stop spin' : 'Auto-spin'; e.preventDefault(); }
   if (e.key === 'r' || e.key === 'R') { targetLon = 0; targetLat = 0; targetFov = 75; }
   if (e.key === 'm' || e.key === 'M') { toggleManualRecording(); }
+  if (e.key === 'f' || e.key === 'F') { toggleFlip(); }
 });
 
 // ---------- Watermark ----------
