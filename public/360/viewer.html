@@ -347,15 +347,66 @@ canvas.addEventListener('wheel', e => {
 }, { passive: false });
 
 // ---------- Image loading ----------
-function loadImage(fileOrUrl) {
-  const url = (fileOrUrl instanceof File || fileOrUrl instanceof Blob)
-    ? URL.createObjectURL(fileOrUrl) : fileOrUrl;
+function showLoadError(msg) {
+  const warn = document.getElementById('compat-warn');
+  if (warn) {
+    warn.innerHTML = msg;
+    warn.classList.add('show');
+  } else {
+    alert(msg);
+  }
+}
 
-  new THREE.TextureLoader().load(url, texture => {
+function loadImageElement(url) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = () => {
+      if (!img.naturalWidth || !img.naturalHeight) {
+        reject(new Error('Image has zero dimensions — the file may be corrupt.'));
+        return;
+      }
+      resolve(img);
+    };
+    img.onerror = () => reject(new Error('Browser could not decode this image. Try a JPG or PNG.'));
+    img.src = url;
+  });
+}
+
+async function loadImage(fileOrUrl) {
+  const objectUrl = (fileOrUrl instanceof File || fileOrUrl instanceof Blob)
+    ? URL.createObjectURL(fileOrUrl) : null;
+  const url = objectUrl ?? fileOrUrl;
+
+  try {
+    const img = await loadImageElement(url);
+
+    // Cap to the device's max WebGL texture size. Mobile GPUs can be 4096;
+    // ChatGPT 360° images are often 4096x2048 or larger.
+    const maxTex = renderer.capabilities.maxTextureSize || 4096;
+    // Leave headroom — many mobile drivers report maxTex but fail near it.
+    const cap = Math.min(maxTex, 4096);
+
+    let source = img;
+    if (img.naturalWidth > cap || img.naturalHeight > cap) {
+      const scale = Math.min(cap / img.naturalWidth, cap / img.naturalHeight);
+      const cw = Math.max(2, Math.round(img.naturalWidth * scale));
+      const ch = Math.max(2, Math.round(img.naturalHeight * scale));
+      const c = document.createElement('canvas');
+      c.width = cw; c.height = ch;
+      const cctx = c.getContext('2d');
+      cctx.drawImage(img, 0, 0, cw, ch);
+      source = c;
+    }
+
+    const texture = source instanceof HTMLCanvasElement
+      ? new THREE.CanvasTexture(source)
+      : new THREE.Texture(source);
     texture.colorSpace = THREE.SRGBColorSpace;
     texture.minFilter = THREE.LinearFilter;
     texture.generateMipmaps = false;
     texture.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    texture.needsUpdate = true;
 
     if (mesh) {
       mesh.material.map?.dispose();
@@ -373,7 +424,16 @@ function loadImage(fileOrUrl) {
 
     targetLon = 0; targetLat = 0; targetFov = 75;
     lon = 0; lat = 0; fov = 75;
-  }, undefined, err => alert('Could not load image: ' + err.message));
+  } catch (err) {
+    console.error('loadImage failed:', err, fileOrUrl);
+    const detail = err?.message || 'Unknown error';
+    const hint = (fileOrUrl && fileOrUrl.type)
+      ? `<br><small style="opacity:0.75">File: ${fileOrUrl.name || 'unknown'} (${fileOrUrl.type}, ${Math.round((fileOrUrl.size || 0) / 1024)} KB)</small>`
+      : '';
+    showLoadError(`Could not load image: ${detail}${hint}<br><small style="opacity:0.75">Use a 2:1 equirectangular JPG or PNG.</small>`);
+  } finally {
+    if (objectUrl) setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+  }
 }
 
 document.getElementById('pick').addEventListener('change', e => { const f = e.target.files?.[0]; if (f) loadImage(f); });
