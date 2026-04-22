@@ -4,6 +4,11 @@ import Base from '../layouts/Base.astro';
 const title = 'ChatGPT 360° تصویر کو ویڈیو میں تبدیل کریں — Urdu Ai';
 const description = 'ChatGPT کی نئی 360° تصویر جنریشن کو انٹرایکٹو 360 ویو اور MP4 ویڈیو میں تبدیل کریں — مکمل مفت، Urdu Ai واٹر مارک کے ساتھ۔';
 
+// Cache-bust the viewer iframe on every build so clients always pick up
+// the latest viewer.html (Hostinger serves static assets with a 7-day
+// Cache-Control: public, max-age=604800).
+const viewerVersion = new Date().toISOString().replace(/[:.TZ-]/g, '').slice(0, 12);
+
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
@@ -90,7 +95,7 @@ const schema = {
       <div class="container">
         <div class="p360__viewer-frame">
           <iframe
-            src="/360/viewer.html"
+            src={`/360/viewer.html?v=${viewerVersion}`}
             title="Urdu Ai 360° Viewer"
             loading="lazy"
             allow="fullscreen"
