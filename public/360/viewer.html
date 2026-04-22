@@ -357,10 +357,12 @@ function showLoadError(msg) {
   }
 }
 
-function loadImageElement(url) {
+function loadImageElement(url, isBlobUrl) {
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.crossOrigin = 'anonymous';
+    // Only set crossOrigin for remote URLs — setting it on a blob:
+    // URL can cause Safari to fail the load.
+    if (!isBlobUrl) img.crossOrigin = 'anonymous';
     img.onload = () => {
       if (!img.naturalWidth || !img.naturalHeight) {
         reject(new Error('Image has zero dimensions — the file may be corrupt.'));
@@ -373,13 +375,57 @@ function loadImageElement(url) {
   });
 }
 
+async function detectFileSignature(blob) {
+  // Read first 12 bytes and return hex so we can diagnose mismatched
+  // extensions (e.g. .png that's actually HEIC or a different format).
+  try {
+    const slice = await blob.slice(0, 12).arrayBuffer();
+    return Array.from(new Uint8Array(slice))
+      .map(b => b.toString(16).padStart(2, '0'))
+      .join('');
+  } catch { return ''; }
+}
+
+function signatureLabel(hex) {
+  if (hex.startsWith('89504e47')) return 'PNG';
+  if (hex.startsWith('ffd8ff')) return 'JPEG';
+  if (hex.startsWith('52494646') && hex.slice(16, 24) === '57454250') return 'WEBP';
+  if (hex.startsWith('474946')) return 'GIF';
+  // HEIC/HEIF signatures
+  if (hex.slice(8, 16) === '66747970') {
+    const brand = hex.slice(16, 24);
+    if (['68656963', '68656978', '6d696631', '6d736631', '68657663'].includes(brand)) return 'HEIC';
+    if (brand === '61766966') return 'AVIF';
+  }
+  if (hex === '') return '';
+  return 'unknown';
+}
+
 async function loadImage(fileOrUrl) {
-  const objectUrl = (fileOrUrl instanceof File || fileOrUrl instanceof Blob)
-    ? URL.createObjectURL(fileOrUrl) : null;
+  const isBlob = fileOrUrl instanceof File || fileOrUrl instanceof Blob;
+  const objectUrl = isBlob ? URL.createObjectURL(fileOrUrl) : null;
   const url = objectUrl ?? fileOrUrl;
 
   try {
-    const img = await loadImageElement(url);
+    // Prefer createImageBitmap for File/Blob — it handles more formats
+    // more reliably than Image.src = blobUrl across browsers (especially
+    // Safari, where blob-URL + crossOrigin can silently fail).
+    let img = null;
+    if (isBlob && typeof createImageBitmap === 'function') {
+      try {
+        img = await createImageBitmap(fileOrUrl);
+      } catch (bitmapErr) {
+        // Fall through to Image element path
+        img = null;
+      }
+    }
+    if (!img) {
+      img = await loadImageElement(url, !!objectUrl);
+    }
+
+    // Both ImageBitmap and HTMLImageElement expose width/height
+    const iw = img.width ?? img.naturalWidth;
+    const ih = img.height ?? img.naturalHeight;
 
     // Cap to the device's max WebGL texture size. Mobile GPUs can be 4096;
     // ChatGPT 360° images are often 4096x2048 or larger.
@@ -388,10 +434,10 @@ async function loadImage(fileOrUrl) {
     const cap = Math.min(maxTex, 4096);
 
     let source = img;
-    if (img.naturalWidth > cap || img.naturalHeight > cap) {
-      const scale = Math.min(cap / img.naturalWidth, cap / img.naturalHeight);
-      const cw = Math.max(2, Math.round(img.naturalWidth * scale));
-      const ch = Math.max(2, Math.round(img.naturalHeight * scale));
+    if (iw > cap || ih > cap) {
+      const scale = Math.min(cap / iw, cap / ih);
+      const cw = Math.max(2, Math.round(iw * scale));
+      const ch = Math.max(2, Math.round(ih * scale));
       const c = document.createElement('canvas');
       c.width = cw; c.height = ch;
       const cctx = c.getContext('2d');
@@ -399,7 +445,9 @@ async function loadImage(fileOrUrl) {
       source = c;
     }
 
-    const texture = source instanceof HTMLCanvasElement
+    // CanvasTexture works for HTMLCanvasElement; ImageBitmap and
+    // HTMLImageElement both need the base Texture constructor.
+    const texture = (source instanceof HTMLCanvasElement)
       ? new THREE.CanvasTexture(source)
       : new THREE.Texture(source);
     texture.colorSpace = THREE.SRGBColorSpace;
@@ -427,12 +475,22 @@ async function loadImage(fileOrUrl) {
   } catch (err) {
     console.error('loadImage failed:', err, fileOrUrl);
     const detail = err?.message || 'Unknown error';
-    const hint = (fileOrUrl && fileOrUrl.type)
-      ? `<br><small style="opacity:0.75">File: ${fileOrUrl.name || 'unknown'} (${fileOrUrl.type}, ${Math.round((fileOrUrl.size || 0) / 1024)} KB)</small>`
-      : '';
-    showLoadError(`Could not load image: ${detail}${hint}<br><small style="opacity:0.75">Use a 2:1 equirectangular JPG or PNG.</small>`);
+    let fileInfo = '';
+    if (isBlob) {
+      const sig = await detectFileSignature(fileOrUrl);
+      const label = signatureLabel(sig);
+      const mismatch = label && label !== 'unknown' && fileOrUrl.type &&
+        !fileOrUrl.type.toLowerCase().includes(label.toLowerCase());
+      fileInfo = `<br><small style="opacity:0.75">File: ${fileOrUrl.name || 'unknown'} (${fileOrUrl.type || '?'}, ${Math.round((fileOrUrl.size || 0) / 1024)} KB, actual: ${label || 'unknown'})</small>`;
+      if (label === 'HEIC') {
+        fileInfo += `<br><small style="opacity:0.9;color:#f1cc11">Heads up: this file is actually HEIC (the iPhone default). Export it as JPG or PNG from your Photos app and try again.</small>`;
+      } else if (mismatch) {
+        fileInfo += `<br><small style="opacity:0.9;color:#f1cc11">Heads up: the file claims to be ${fileOrUrl.type} but is actually ${label}. Re-save it as a real JPG or PNG.</small>`;
+      }
+    }
+    showLoadError(`Could not load image: ${detail}${fileInfo}<br><small style="opacity:0.75">Use a 2:1 equirectangular JPG or PNG.</small>`);
   } finally {
-    if (objectUrl) setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+    if (objectUrl) setTimeout(() => URL.revokeObjectURL(objectUrl), 2000);
   }
 }
 
