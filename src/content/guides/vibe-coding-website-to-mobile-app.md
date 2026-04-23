@@ -5,7 +5,7 @@ date: 2026-04-10
 category: گائیڈ
 tool: ''
 level: ابتدائی
-image: ''
+image: /images/guides/Coding123.png
 adsense: true
 draft: true
 last_updated: ''
