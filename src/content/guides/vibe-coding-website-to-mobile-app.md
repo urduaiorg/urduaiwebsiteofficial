@@ -7,7 +7,7 @@ tool: ''
 level: ابتدائی
 image: /images/guides/Coding123.png
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 faq:
   - question: کیا ویب سائٹ کو موبائل ایپ میں بدلا جا سکتا ہے؟
