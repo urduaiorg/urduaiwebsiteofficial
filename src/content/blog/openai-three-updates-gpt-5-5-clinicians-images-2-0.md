@@ -4,7 +4,7 @@ description: 'اوپن اے آئی نے اپریل 2026 میں تین بڑی ا�
 date: 2026-04-23
 category: اے آئی اپڈیٹ
 image: /images/blog/urduai-cover-1776996431321.png
-author: معراج احمد
+author: اردو اے آئی ٹیم
 adsense: true
 draft: false
 faq:
