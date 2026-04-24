@@ -32,6 +32,8 @@ jobs:
       - name: Deploy via rsync over SSH
         run: |
           rsync -avz --delete \
+            --exclude='/impact/' \
+            --exclude='/impact' \
             -e "ssh -i ~/.ssh/deploy_key -p ${{ secrets.SSH_PORT }}" \
             ./dist/ \
             ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }}:/home/${{ secrets.SSH_USERNAME }}/domains/urduai.org/public_html/
