@@ -6,7 +6,7 @@ category: اے آئی اپڈیٹ
 image: /images/blog/urduai-cover-1776996431321.png
 author: معراج احمد
 adsense: true
-draft: false
+draft: true
 faq:
   - question: کیا GPT-5.5 فری پلان پر ملے گا؟
     answer: ابھی نہیں۔ اوپن اے آئی نے اسے پہلے Plus، Pro، Business اور Enterprise صارفین کے لیے جاری کیا ہے۔ API رسائی جلد آ رہی ہے، اور فری صارفین کو بعد میں کسی محدود شکل میں ملنے کی امید ہے۔
