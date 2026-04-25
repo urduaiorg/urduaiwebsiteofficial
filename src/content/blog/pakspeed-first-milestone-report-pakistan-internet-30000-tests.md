@@ -6,7 +6,7 @@ category: اے آئی اپڈیٹ
 image: /images/blog/PakSpeed_lowsize.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: false
+draft: true
 faq:
   - question: PakSpeed کیا ہے اور یہ کس کا منصوبہ ہے؟
     answer: PakSpeed پاکستان کا پہلا کمیونٹی کی ملکیت والا انٹرنیٹ اسپیڈ ٹیسٹنگ اور احتساب پلیٹ فارم ہے۔ یہ WALI (Wang Lab of Innovation) اور اردو اے آئی کا مشترکہ منصوبہ ہے، مکمل اوپن سورس، اردو پہلے، اور LibreSpeed ٹیکنالوجی پر Oracle سرور اور Cloudflare D1 ڈیٹابیس پر چلتا ہے۔
