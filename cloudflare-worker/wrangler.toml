@@ -1,0 +1,7 @@
+name = "urai-cert"
+main = "certificate-proxy.js"
+compatibility_date = "2024-09-01"
+
+# Deploy with: wrangler deploy --keep-vars
+# The --keep-vars flag preserves the API_KEY plain-text variable
+# that was set via the Cloudflare dashboard.
