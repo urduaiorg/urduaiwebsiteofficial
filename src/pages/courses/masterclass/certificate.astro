@@ -83,8 +83,39 @@ const breadcrumbSchema = {
           <label for="email">ای میل</label>
           <input type="email" id="email" name="email" required placeholder="your@email.com" dir="ltr" />
         </div>
+        <div class="form-group">
+          <label for="whatsapp">واٹس ایپ نمبر</label>
+          <input
+            type="tel"
+            id="whatsapp"
+            name="whatsapp"
+            required
+            placeholder="+923001234567"
+            pattern="^\+[0-9]{10,15}$"
+            dir="ltr"
+            inputmode="tel"
+          />
+          <small class="field-hint">ملک کوڈ کے ساتھ لکھیں — مثلاً پاکستان کے لیے +92</small>
+        </div>
+        <div class="form-group">
+          <label for="city">شہر</label>
+          <input type="text" id="city" name="city" required placeholder="مثال: کراچی" dir="rtl" />
+        </div>
+        <div class="form-group">
+          <label for="age">عمر <span class="optional-tag">(اختیاری)</span></label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="13"
+            max="99"
+            placeholder="مثال: 24"
+            dir="ltr"
+            inputmode="numeric"
+          />
+        </div>
         <p class="text-muted" style="font-size: var(--text-sm);">
-          سرٹیفکیٹ PDF آپ کے ای میل پر بھیج دیا جائے گا۔
+          سرٹیفکیٹ PDF آپ کے ای میل پر بھیج دیا جائے گا۔ واٹس ایپ پر اپڈیٹس اور نئے کورسز کی خبر بھی ملے گی۔
         </p>
         <button type="submit" class="btn-primary" id="cert-submit">
           سرٹیفکیٹ بنائیں
@@ -167,6 +198,21 @@ const breadcrumbSchema = {
     .form-group input:focus {
       outline: 2px solid var(--navy);
       border-color: var(--navy);
+    }
+    .form-group input:invalid:not(:placeholder-shown) {
+      border-color: #c0392b;
+    }
+    .field-hint {
+      display: block;
+      margin-block-start: 0.35rem;
+      color: var(--ink-muted);
+      font-size: var(--text-sm);
+      line-height: 1.8;
+    }
+    .optional-tag {
+      color: var(--ink-muted);
+      font-weight: normal;
+      font-size: 0.85em;
     }
 
     .btn-primary {
@@ -284,8 +330,18 @@ const breadcrumbSchema = {
       var nameUr = document.getElementById('name-ur').value.trim();
       var nameEn = document.getElementById('name-en').value.trim();
       var email = document.getElementById('email').value.trim();
+      var whatsapp = document.getElementById('whatsapp').value.trim();
+      var city = document.getElementById('city').value.trim();
+      var ageRaw = document.getElementById('age').value.trim();
 
-      if (!nameUr || !nameEn || !email) return;
+      if (!nameUr || !nameEn || !email || !whatsapp || !city) return;
+
+      // Normalise age → integer between 13-99, else blank
+      var age = '';
+      if (ageRaw) {
+        var parsed = parseInt(ageRaw, 10);
+        if (!isNaN(parsed) && parsed >= 13 && parsed <= 99) age = parsed;
+      }
 
       var certId = generateCertId();
       var now = new Date().toISOString();
@@ -294,6 +350,9 @@ const breadcrumbSchema = {
         nameUr: nameUr,
         nameEn: nameEn,
         email: email,
+        whatsapp: whatsapp,
+        city: city,
+        age: age,
         score: avgScore,
         courseName: 'Urdu AI Master Class',
         issuedAt: now,

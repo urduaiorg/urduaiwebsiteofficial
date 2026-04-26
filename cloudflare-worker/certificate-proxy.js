@@ -109,11 +109,16 @@ export default {
         : Object.fromEntries(new URLSearchParams(await request.text()).entries());
 
       // Validate required fields
-      const required = ['certificateId', 'nameUr', 'nameEn', 'email', 'score', 'courseName', 'issuedAt'];
+      const required = ['certificateId', 'nameUr', 'nameEn', 'email', 'whatsapp', 'city', 'score', 'courseName', 'issuedAt'];
       for (const field of required) {
         if (!body[field] && body[field] !== 0) {
           return respond({ success: false, message: `Missing field: ${field}` }, 400);
         }
+      }
+
+      // Validate WhatsApp format — must be E.164 with country code (+ followed by 10-15 digits)
+      if (!/^\+[0-9]{10,15}$/.test(String(body.whatsapp).trim())) {
+        return respond({ success: false, message: 'Invalid WhatsApp number — must include country code (e.g. +923001234567)' }, 400);
       }
 
       // Add the API key (stored as environment variable in Cloudflare)
