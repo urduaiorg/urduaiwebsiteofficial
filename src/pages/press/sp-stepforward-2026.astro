@@ -1,0 +1,686 @@
+---
+// Press release page — S&P Global StepForward Initiative announcement
+// EMBARGOED until 8 a.m. EST / 5 p.m. PKT, April 30, 2026
+//
+// Embargo strategy: This page lives on branch `press/sp-stepforward-2026` only.
+// It is NOT merged to main until embargo lift. As an additional safety net,
+// the page itself ships with `noindex,nofollow` meta — once the embargo is
+// formally lifted (post-April 30), remove the noindex via a follow-up commit.
+//
+// Press page is English-primary (donor / journalist / institutional audience)
+// with Urdu translation of headline + quote. Sits inside the RTL site shell.
+
+import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const publishDate = '2026-04-30T13:00:00Z'; // 8 a.m. EST = 13:00 UTC
+const canonical = 'https://urduai.org/press/sp-stepforward-2026/';
+const ogImage = '/og/press-sp-stepforward-2026.jpg';
+
+const newsSchema = {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Urdu AI Named Pakistan's Voice in S&P Global's $10M StepForward Initiative — Alongside MIT, UN Youth Office, and Generation",
+  "description": "Urdu AI joins MIT, UN Youth Office, Generation, and five regional peers as one of six Regional Impact Partners in S&P Global Foundation's three-year, $10 million StepForward initiative — bringing AI literacy to the 250 million Urdu speakers worldwide.",
+  "datePublished": publishDate,
+  "dateModified": publishDate,
+  "inLanguage": "en",
+  "image": [`https://urduai.org${ogImage}`],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Urdu AI",
+    "alternateName": "اردو اے آئی",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://urduai.org/images/logo.png"
+    }
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Urdu AI"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonical
+  },
+  "about": [
+    { "@type": "Organization", "name": "S&P Global Foundation", "url": "https://www.spglobal.com" },
+    { "@type": "Organization", "name": "Urdu AI", "url": "https://urduai.org" }
+  ]
+};
+---
+
+<Base
+  title="Urdu AI named Pakistan's voice in S&P Global's $10M StepForward Initiative — Press Release"
+  description="Urdu AI joins MIT, UN Youth Office, Generation, and five regional peers as one of six Regional Impact Partners in S&P Global's three-year, $10 million StepForward initiative."
+  canonical={canonical}
+  ogImage={ogImage}
+  ogType="article"
+  adsense={false}
+  schema={newsSchema}
+  articleMeta={{ publishedTime: publishDate, author: 'Urdu AI', section: 'Press' }}
+>
+  <Fragment slot="head">
+    <!-- Embargo safety: prevent indexing until follow-up commit removes this -->
+    <meta name="robots" content="noindex,nofollow" />
+  </Fragment>
+
+  <article class="press-page" dir="ltr" lang="en">
+    <!-- HERO -->
+    <section class="press-hero">
+      <div class="container container--narrow">
+        <p class="press-eyebrow">FOR IMMEDIATE RELEASE — APRIL 30, 2026</p>
+        <h1 class="press-headline">
+          From Lasbela to MIT: Urdu AI named Pakistan's voice in S&amp;P Global's $10M StepForward Initiative
+        </h1>
+        <p class="press-headline-urdu" dir="rtl" lang="ur">
+          لسبیلہ سے ایم آئی ٹی تک — ایس اینڈ پی گلوبل کے 10 ملین ڈالر کے StepForward اقدام میں اردو اے آئی پاکستان کی نمائندہ
+        </p>
+        <p class="press-deck">
+          Urdu AI joins MIT (RAISE), the UN Youth Office, Generation, and five regional peers as one of six Regional Impact Partners in S&amp;P Global's three-year, $10 million initiative advancing AI-ready futures for youth.
+        </p>
+        <p class="press-dateline"><strong>NEW YORK / KARACHI</strong> — April 30, 2026</p>
+      </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <div class="container container--narrow">
+      <nav aria-label="Breadcrumb" class="press-breadcrumb">
+        <ol class="breadcrumb">
+          <li><a href={`${base}/`}>Home</a></li>
+          <li aria-current="page">S&amp;P StepForward 2026</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- LEAD -->
+    <section class="press-section">
+      <div class="container container--narrow">
+        <p class="press-lead">
+          S&amp;P Global today announced the partners for <strong>StepForward</strong>, a three-year, $10 million initiative aimed at equipping the next generation with the skills needed to succeed in an AI-enabled workforce. <strong>Urdu AI</strong> — Pakistan's largest Urdu-language AI literacy platform — has been named one of six <strong>Regional Impact Partners</strong>, joining global partners <strong>Generation</strong>, the <strong>Massachusetts Institute of Technology (MIT)</strong>, and the <strong>United Nations Youth Office</strong> in the cohort.
+        </p>
+        <p>
+          Urdu AI is the only Pakistan-based organization in the global cohort and the only platform delivering AI literacy in Urdu to a community spanning Pakistan, India, the Gulf, the United Kingdom, and the United States.
+        </p>
+      </div>
+    </section>
+
+    <!-- PULL QUOTE -->
+    <section class="press-quote-section">
+      <div class="container container--narrow">
+        <blockquote class="press-quote">
+          <p>
+            "When we started Urdu AI, we believed a first-generation smartphone user in <strong>Lasbela, Khanewal, Dadu, or Lucky Marwat</strong> deserved the same access to AI tools as a graduate student at MIT. Today, we're literally in the same room — Pakistan's voice in S&amp;P Global's $10 million StepForward initiative, alongside MIT, the UN Youth Office, and Generation. We didn't get here by translating English. We got here by building for the 250 million people the AI revolution was about to leave behind."
+          </p>
+          <footer class="press-quote-attribution">
+            <strong>Qaisar Roonjha</strong> — Founder, Urdu AI
+            <span class="press-quote-attribution-org">A product of Wang Lab of Innovation (WALI)</span>
+          </footer>
+        </blockquote>
+
+        <p class="press-quote-urdu" dir="rtl" lang="ur">
+          <em>
+            "جب ہم نے اردو اے آئی شروع کیا تھا، ہمارا یقین تھا کہ لسبیلہ، خانیوال، دادو، یا لکی مروت میں پہلی بار اسمارٹ فون استعمال کرنے والے ایک نوجوان کو ایم آئی ٹی کے گریجویٹ طالب علم جتنی ہی اے آئی ٹولز تک رسائی ہونی چاہیے۔ آج ہم اسی کمرے میں ہیں — ایس اینڈ پی گلوبل کے 10 ملین ڈالر کے StepForward اقدام میں پاکستان کی نمائندہ، ایم آئی ٹی، اقوامِ متحدہ کے یوتھ آفس، اور Generation کے ساتھ۔ ہم یہاں انگریزی کا ترجمہ کر کے نہیں پہنچے۔ ہم یہاں اُن 25 کروڑ لوگوں کے لیے بنا کر پہنچے ہیں جنہیں اے آئی کا انقلاب پیچھے چھوڑنے والا تھا۔"
+          </em>
+        </p>
+      </div>
+    </section>
+
+    <!-- THE COHORT -->
+    <section class="press-section">
+      <div class="container container--narrow">
+        <h2>The Global Cohort</h2>
+        <p>
+          Through StepForward, S&amp;P Global and the S&amp;P Global Foundation will invest $10 million over three years to support organizations delivering innovative workforce development and AI education programs for youth. The cohort combines three global partners with six regional partners — and seven additional strategic partners to be named.
+        </p>
+
+        <div class="press-partner-tier">
+          <h3 class="press-partner-tier-label">Global Partners</h3>
+          <ul class="press-partner-list">
+            <li>
+              <p class="press-partner-name">Generation</p>
+              <p class="press-partner-desc">A global nonprofit network supporting people to achieve economic mobility, working with employers to design train-and-place programs across 17 countries.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">MIT — RAISE Initiative</p>
+              <p class="press-partner-desc">Responsible AI for Social Empowerment and Education — advancing inclusive, human-centred AI education and workforce pathways through the PATH program with community colleges.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">UN Youth Office</p>
+              <p class="press-partner-desc">Global convener and amplifier with direct digital reach to over one million young people, leading global outreach on future-ready skills.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="press-partner-tier">
+          <h3 class="press-partner-tier-label">Regional Impact Partners</h3>
+          <ul class="press-partner-list">
+            <li>
+              <p class="press-partner-name">Bécalos <span class="press-partner-region">Mexico</span></p>
+              <p class="press-partner-desc">Introductory AI literacy program for youth in Mexico's South-Southeast region — built with DEV.F.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">NavGurukul <span class="press-partner-region">India</span></p>
+              <p class="press-partner-desc">Voice-first AI education for underserved youth, with low-cost speech-to-speech technology and government technical education integration.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">NClude <span class="press-partner-region">Washington, USA</span></p>
+              <p class="press-partner-desc">AI-powered, multimodal platform enabling youth with disabilities to build AI literacy and access career opportunities.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">Positiv <span class="press-partner-region">France</span></p>
+              <p class="press-partner-desc">Entrepreneurship coaching, mentorship, and gamified mobile app for youth in under-resourced French neighborhoods.</p>
+            </li>
+            <li>
+              <p class="press-partner-name">She Code Africa <span class="press-partner-region">Lagos, Nigeria</span></p>
+              <p class="press-partner-desc">Physical learning hub providing digital literacy, AI, and technology training for underserved women and community members.</p>
+            </li>
+            <li class="press-partner-list__highlight">
+              <p class="press-partner-name">Urdu AI <span class="press-partner-region">Pakistan</span></p>
+              <p class="press-partner-desc">Mobile-friendly AI literacy courses in Urdu paired with in-person learning hubs and facilitated workshops — reaching youth across Pakistan in connected and low-infrastructure communities.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT THIS MEANS -->
+    <section class="press-section press-section--accent">
+      <div class="container container--narrow">
+        <h2>What This Means for Pakistan</h2>
+        <p>
+          For the first time, an Urdu-language platform is named at this level in a global AI education initiative. The signal matters as much as the funding: Urdu — spoken by more than 250 million people worldwide — is no longer a translation target for AI literacy. It is a primary medium.
+        </p>
+        <p>
+          The StepForward partnership accelerates Urdu AI's existing programs across four pillars:
+        </p>
+        <ul class="press-pillars">
+          <li><strong>Mobile-first courses in Urdu</strong> — for the smartphone-first generation in cities where laptop ownership is rare and English-language tech tutorials don't land.</li>
+          <li><strong>In-person learning hubs</strong> — partnerships with schools, libraries, and community spaces in Lasbela, Khanewal, Dadu, Lucky Marwat, and beyond.</li>
+          <li><strong>Facilitated workshops</strong> — for teachers, students, and small-business owners learning to work with AI, not around it.</li>
+          <li><strong>Open Urdu AI knowledge base</strong> — the Urdu AI Lughat (dictionary), guides, prompts, and tutorials available free at urduai.org.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BY THE NUMBERS -->
+    <section class="press-numbers">
+      <div class="container container--narrow">
+        <h2>Urdu AI by the Numbers</h2>
+        <div class="press-numbers-grid">
+          <div>
+            <span class="press-number" dir="ltr">250M+</span>
+            <span class="press-number-label">Urdu speakers worldwide</span>
+          </div>
+          <div>
+            <span class="press-number" dir="ltr">1M+</span>
+            <span class="press-number-label">online community</span>
+          </div>
+          <div>
+            <span class="press-number" dir="ltr">50K+</span>
+            <span class="press-number-label">Android app downloads</span>
+          </div>
+          <div>
+            <span class="press-number" dir="ltr">42K+</span>
+            <span class="press-number-label">newsletter subscribers</span>
+          </div>
+          <div>
+            <span class="press-number" dir="ltr">655+</span>
+            <span class="press-number-label">articles, guides &amp; tutorials</span>
+          </div>
+          <div>
+            <span class="press-number" dir="ltr">4</span>
+            <span class="press-number-label">provinces of Pakistan reached</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT STEPFORWARD -->
+    <section class="press-section">
+      <div class="container container--narrow">
+        <h2>About StepForward</h2>
+        <p>
+          S&amp;P Global launched StepForward in December 2025 as a three-year, $10 million initiative aimed at equipping the next generation with the skills needed to succeed in an AI-enabled workforce. The initiative combines financial investment with the company's expertise in data, analytics, and technology to create meaningful impact in communities worldwide.
+        </p>
+        <p>
+          Regional Impact Partners were selected based on track record of innovation, community engagement, and ability to deliver measurable outcomes in youth workforce development and AI education. The S&amp;P Global Foundation partnered with MIT Solve through the Essential Innovation Challenge to identify the six Regional Impact Partners.
+        </p>
+        <p>
+          Learn more at <a href="https://www.spglobal.com/en/who-we-are/corporate-responsibility/stepforward" rel="noopener" target="_blank">spglobal.com/stepforward</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT URDU AI -->
+    <section class="press-section">
+      <div class="container container--narrow">
+        <h2>About Urdu AI</h2>
+        <p>
+          Urdu AI is Pakistan's largest Urdu-language AI literacy platform. Founded by Qaisar Roonjha, Urdu AI is a product of <a href="https://walipak.com" rel="noopener" target="_blank">Wang Lab of Innovation (WALI)</a> and is powered by <a href="https://wang.org.pk" rel="noopener" target="_blank">WANG</a>. The platform serves more than 250 million Urdu speakers across Pakistan, India, the Gulf, the United Kingdom, and the United States through a website, an Android application with 50,000+ downloads, a 42,000-subscriber newsletter, and an online community of more than one million.
+        </p>
+        <p>
+          Urdu AI is recognized by ElevenLabs (official case study), Google.org (grant partner), Internet Society, and AVPN — and as of today, by S&amp;P Global Foundation as a Regional Impact Partner in the StepForward initiative.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT S&P GLOBAL -->
+    <section class="press-section">
+      <div class="container container--narrow">
+        <h2>About S&amp;P Global</h2>
+        <p>
+          S&amp;P Global (NYSE: SPGI) enables businesses, governments, and individuals with trusted data, expertise and technology to make decisions with conviction. Advancing Essential Intelligence through world-leading benchmarks, data, and insights, S&amp;P Global helps the world's leading organizations unlock opportunities, solve challenges, and plan for tomorrow. Learn more at <a href="https://www.spglobal.com" rel="noopener" target="_blank">spglobal.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- MEDIA CONTACTS -->
+    <section class="press-section press-section--contacts">
+      <div class="container container--narrow">
+        <h2>Media Contacts</h2>
+        <div class="press-contacts-grid">
+          <div>
+            <p class="press-contact-org">Urdu AI</p>
+            <p><strong>Qaisar Roonjha</strong><br />Founder<br /><a href="mailto:ai@wang.org.pk">ai@wang.org.pk</a></p>
+            <p><a href="https://urduai.org" rel="noopener">urduai.org</a> · <a href="https://impact.urduai.org" rel="noopener">impact.urduai.org</a></p>
+          </div>
+          <div>
+            <p class="press-contact-org">S&amp;P Global</p>
+            <p><strong>Orla O'Brien</strong><br />+1 857 407 8559<br /><a href="mailto:orla.obrien@spglobal.com">orla.obrien@spglobal.com</a></p>
+            <p><strong>Isabel Allanwood</strong><br />+44 7483 368 605<br /><a href="mailto:isabel.allanwood@spglobal.com">isabel.allanwood@spglobal.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="press-cta">
+      <div class="container container--narrow">
+        <h2>Partner with Urdu AI</h2>
+        <p>For institutional partnership, sponsorship, or media inquiries, reach our team at <a href="mailto:ai@wang.org.pk">ai@wang.org.pk</a>.</p>
+        <div class="press-cta-buttons">
+          <a href="mailto:ai@wang.org.pk?subject=Partnership%20inquiry%20%E2%80%94%20StepForward" class="press-btn press-btn--primary">Email the team</a>
+          <a href={`${base}/about/`} class="press-btn press-btn--secondary">About Urdu AI</a>
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <style>
+    /* Press page — English-primary, sits inside the RTL site shell */
+    .press-page {
+      --press-max: 760px;
+    }
+    .press-page :where(h2, h3, p, li, blockquote) {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.55;
+    }
+    .press-page :where(h2, h3) {
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .press-page :where(p) {
+      font-size: 1.05rem;
+      color: var(--ink-soft);
+    }
+
+    /* HERO */
+    .press-hero {
+      background: linear-gradient(135deg, var(--ink) 0%, var(--navy-dark) 100%);
+      color: white;
+      padding-block: var(--space-2xl) var(--space-xl);
+      margin-block-end: var(--space-xl);
+    }
+    .press-eyebrow {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-block-end: var(--space-md);
+      font-family: 'Inter', sans-serif;
+    }
+    .press-headline {
+      color: white;
+      font-size: clamp(1.75rem, 4vw, 2.6rem);
+      line-height: 1.2;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-block-end: var(--space-md);
+      font-family: 'Inter', sans-serif;
+    }
+    .press-headline-urdu {
+      color: var(--gold-pale);
+      font-size: 1.15rem;
+      line-height: 2;
+      margin-block-end: var(--space-md);
+    }
+    .press-deck {
+      color: var(--gold-pale);
+      font-size: 1.15rem;
+      line-height: 1.6;
+      max-width: var(--press-max);
+      margin-block-end: var(--space-md);
+      font-family: 'Inter', sans-serif;
+    }
+    .press-dateline {
+      color: white;
+      opacity: 0.7;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+    }
+    .press-dateline strong {
+      color: white;
+      letter-spacing: 0.05em;
+    }
+
+    /* BREADCRUMB */
+    .press-breadcrumb {
+      margin-block-end: var(--space-lg);
+    }
+    .press-breadcrumb .breadcrumb {
+      direction: ltr;
+    }
+
+    /* SECTIONS */
+    .press-section {
+      padding-block: var(--space-lg);
+      max-width: var(--press-max);
+      margin-inline: auto;
+    }
+    .press-section h2 {
+      font-size: 1.75rem;
+      color: var(--ink);
+      margin-block-end: var(--space-md);
+    }
+    .press-section h3 {
+      font-size: 1.2rem;
+      color: var(--ink);
+      margin-block: var(--space-md) var(--space-sm);
+    }
+    .press-section p {
+      margin-block-end: var(--space-sm);
+    }
+    .press-lead {
+      font-size: 1.2rem !important;
+      line-height: 1.6 !important;
+      color: var(--ink) !important;
+    }
+    .press-section--accent {
+      background: var(--paper-warm);
+      max-width: none;
+      padding-block: var(--space-2xl);
+      margin-block: var(--space-xl) 0;
+    }
+    .press-section--accent .container {
+      max-width: var(--press-max);
+    }
+
+    /* PULL QUOTE */
+    .press-quote-section {
+      padding-block: var(--space-xl);
+      background: var(--paper-warm);
+      margin-block: var(--space-lg);
+    }
+    .press-quote {
+      border-inline-start: 4px solid var(--gold);
+      padding-inline-start: var(--space-lg);
+      margin: 0;
+      max-width: var(--press-max);
+      margin-inline: auto;
+    }
+    .press-quote p {
+      font-size: 1.35rem !important;
+      line-height: 1.55 !important;
+      font-weight: 500;
+      color: var(--ink) !important;
+      font-family: Georgia, 'Times New Roman', serif !important;
+      margin-block-end: var(--space-md);
+    }
+    .press-quote-attribution {
+      color: var(--ink-muted);
+      font-style: normal;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+    }
+    .press-quote-attribution strong {
+      color: var(--ink);
+    }
+    .press-quote-attribution-org {
+      display: block;
+      margin-block-start: 4px;
+      font-size: 0.85rem;
+      color: var(--ink-muted);
+    }
+    .press-quote-urdu {
+      max-width: var(--press-max);
+      margin: var(--space-lg) auto 0;
+      padding-inline-start: var(--space-lg);
+      border-inline-start: 2px solid var(--border, #e2d9c8);
+      color: var(--ink-soft);
+      font-size: 1.05rem;
+      line-height: 2.2;
+    }
+
+    /* PARTNER LIST */
+    .press-partner-tier {
+      margin-block-start: var(--space-lg);
+    }
+    .press-partner-tier-label {
+      color: var(--navy);
+      font-size: 0.85rem !important;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-block-end: var(--space-md) !important;
+    }
+    .press-partner-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: var(--space-sm);
+    }
+    .press-partner-list li {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: var(--space-md);
+    }
+    .press-partner-list__highlight {
+      background: var(--gold-pale) !important;
+      border-color: var(--gold) !important;
+      border-width: 2px !important;
+      box-shadow: 0 4px 12px rgba(241, 204, 17, 0.15);
+    }
+    .press-partner-name {
+      font-weight: 700;
+      color: var(--ink) !important;
+      font-size: 1.05rem !important;
+      margin-block-end: 6px !important;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: baseline;
+    }
+    .press-partner-region {
+      font-weight: 500;
+      font-size: 0.8rem;
+      color: var(--ink-muted);
+      background: var(--paper-warm);
+      padding: 2px 10px;
+      border-radius: 999px;
+      letter-spacing: 0.04em;
+    }
+    .press-partner-list__highlight .press-partner-region {
+      background: var(--gold);
+      color: var(--ink);
+    }
+    .press-partner-desc {
+      font-size: 0.95rem !important;
+      line-height: 1.55 !important;
+      color: var(--ink-soft) !important;
+      margin: 0 !important;
+    }
+
+    /* PILLARS */
+    .press-pillars {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      gap: var(--space-sm);
+      margin-block-start: var(--space-md);
+    }
+    .press-pillars li {
+      background: white;
+      border-inline-start: 3px solid var(--gold);
+      padding: var(--space-md);
+      border-radius: 0 8px 8px 0;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--ink-soft);
+    }
+    .press-pillars li strong {
+      color: var(--ink);
+      display: block;
+      margin-block-end: 4px;
+    }
+
+    /* NUMBERS */
+    .press-numbers {
+      background: var(--ink);
+      color: white;
+      padding-block: var(--space-2xl);
+      margin-block: var(--space-xl) 0;
+    }
+    .press-numbers .container {
+      max-width: var(--press-max);
+    }
+    .press-numbers h2 {
+      color: white !important;
+      text-align: center;
+      margin-block-end: var(--space-xl) !important;
+    }
+    .press-numbers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-lg) var(--space-md);
+      text-align: center;
+    }
+    .press-number {
+      display: block;
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      line-height: 1;
+      margin-block-end: 8px;
+      letter-spacing: -0.02em;
+    }
+    .press-number-label {
+      color: var(--gold-pale);
+      font-size: 0.9rem;
+      font-family: 'Inter', sans-serif;
+    }
+    @media (max-width: 600px) {
+      .press-numbers-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* CONTACTS */
+    .press-section--contacts {
+      background: var(--paper-warm);
+      max-width: none;
+      padding-block: var(--space-xl);
+    }
+    .press-section--contacts .container {
+      max-width: var(--press-max);
+    }
+    .press-contacts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-lg);
+      margin-block-start: var(--space-md);
+    }
+    .press-contacts-grid p {
+      margin-block-end: var(--space-sm);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .press-contact-org {
+      color: var(--navy) !important;
+      font-weight: 700 !important;
+      font-size: 0.85rem !important;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-block-end: var(--space-sm) !important;
+    }
+    @media (max-width: 600px) {
+      .press-contacts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* CTA */
+    .press-cta {
+      padding-block: var(--space-2xl);
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+      color: white;
+      text-align: center;
+    }
+    .press-cta .container {
+      max-width: var(--press-max);
+    }
+    .press-cta h2 {
+      color: white;
+      font-size: 2rem;
+      margin-block-end: var(--space-md);
+    }
+    .press-cta p {
+      color: var(--gold-pale) !important;
+      font-size: 1.1rem !important;
+      margin-block-end: var(--space-lg) !important;
+    }
+    .press-cta a:not(.press-btn) {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+    .press-cta-buttons {
+      display: flex;
+      gap: var(--space-md);
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .press-btn {
+      display: inline-block;
+      padding: 0.75em 1.75em;
+      border-radius: 8px;
+      font-weight: 700;
+      text-decoration: none;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .press-btn--primary {
+      background: var(--gold);
+      color: var(--ink);
+    }
+    .press-btn--primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(241, 204, 17, 0.4);
+    }
+    .press-btn--secondary {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+    .press-btn--secondary:hover {
+      background: white;
+      color: var(--navy);
+    }
+  </style>
+</Base>
