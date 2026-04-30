@@ -1,13 +1,13 @@
 ---
 title: مکمل پروجیکٹ — شروع سے آخر تک SaaS ایپ بنائیں
 description: وائب کوڈنگ سے مکمل SaaS ایپ بنائیں — فرنٹ اینڈ، بیک اینڈ، لاگ ان، ڈیٹابیس، ادائیگی اور ہوسٹنگ۔ ایک بکنگ ایپ شروع سے آخر تک — مکمل اردو گائیڈ۔
-date: 2026-04-10
+date: 2026-04-28
 category: گائیڈ
 tool: Google AI Studio
 level: درمیانہ
-image: ''
+image: /images/guides/Coding123.png
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 faq:
   - question: وائب کوڈنگ سے مکمل ایپ بنانے میں کتنا وقت لگتا ہے؟
