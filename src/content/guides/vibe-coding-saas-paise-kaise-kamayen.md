@@ -7,7 +7,7 @@ tool: ''
 level: ابتدائی
 image: /images/guides/Coding123.png
 adsense: true
-draft: false
+draft: true
 last_updated: 2026-04-29
 faq:
   - question: SaaS کیا ہوتا ہے؟
