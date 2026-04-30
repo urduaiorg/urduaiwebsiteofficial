@@ -15,6 +15,14 @@
 /feed                    /rss.xml               301
 /feed/                   /rss.xml               301
 
+# WordPress tag archives — redirect to blog
+/tag/* /blog/ 301
+
+# Legacy tool pages
+/urduai-chatgpt/ /chat/ 301
+/urduai-chat/ /chat/ 301
+/urduai-code/ /code/ 301
+
 # Renamed static pages
 /about-us/ /about/ 301
 /apps/ /tools/ 301

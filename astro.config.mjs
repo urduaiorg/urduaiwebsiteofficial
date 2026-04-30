@@ -6,5 +6,6 @@ export default defineConfig({
   site: 'https://urduai.org',
   base: '/',
   output: 'static',
+  trailingSlash: 'always',
   integrations: [sitemap()],
 });
