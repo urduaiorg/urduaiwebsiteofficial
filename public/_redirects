@@ -1,6 +1,9 @@
 # urduai.org — generated WordPress to Astro redirects
 # Regenerate with: python3 repo/scripts/generate_redirects.py
 
+# www → non-www canonical redirect (fixes 5,243 duplicate canonicals in Search Console)
+https://www.urduai.org/* https://urduai.org/:splat 301
+
 # Generic WordPress patterns
 /category/blog/*         /blog/                 301
 /category/videos/*       /blog/                 301
