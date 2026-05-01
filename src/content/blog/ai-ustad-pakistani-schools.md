@@ -8,10 +8,10 @@ tags:
   - اردو اے آئی
   - پاکستانی اسکول
   - AI Ustad
-image: /images/blog/Urdu_Ai_Ustad.png
+image: /images/blog/Screenshot 2026-04-30 at 10.15.28 PM.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: false
+draft: true
 last_updated: ''
 ---
 
