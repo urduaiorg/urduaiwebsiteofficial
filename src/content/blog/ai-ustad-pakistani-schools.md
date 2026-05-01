@@ -11,7 +11,7 @@ tags:
 image: /images/blog/Screenshot 2026-04-30 at 10.15.28 PM.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 ---
 
