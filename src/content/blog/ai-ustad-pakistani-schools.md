@@ -11,7 +11,7 @@ tags:
 image: /images/blog/Urdu_Ai_Ustad.png
 author: اردو اے آئی ٹیم
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 ---
 
