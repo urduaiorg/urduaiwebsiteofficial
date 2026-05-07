@@ -5,9 +5,9 @@ date: 2026-04-10
 category: گائیڈ
 tool: ''
 level: ابتدائی
-image: ''
+image: /images/guides/Coding123.png
 adsense: true
-draft: true
+draft: false
 last_updated: ''
 faq:
   - question: کیا وائب کوڈنگ سے فری لانسنگ ہو سکتی ہے؟
