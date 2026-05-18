@@ -58,6 +58,13 @@ After that first explanation, just write "سیمولیشن ایجنٹس" without
 
 ---
 
+## Hard Rules — Word and Topic Bans
+
+- **Never mention VPN** in any article, guide, or update — do not bring it up even if a tool requires one
+- **Never use "سرکاری"** — always write "آفیشل" (e.g. "آفیشل ویب سائٹ", "آفیشل اعلان"). "سرکاری" sounds like government bureaucracy. "آفیشل" is how Urdu speakers actually talk.
+
+---
+
 ## The First Paragraph — AEO Rule
 
 The first paragraph of every article is written for AI extraction. Google AI Overviews, Bing Copilot, Perplexity — they all pull from this. Make it count.
@@ -137,7 +144,7 @@ Before writing ANY claim about a tool, product, or service, verify:
 
 1. **Pricing** — Check the official website. Prices change constantly. Write the date you checked. Never say "مفت" without confirming what exactly is free and what the limits are.
 2. **Free tier limits** — Every "free" tool has limits. State them: daily caps, monthly quotas, feature restrictions. "محدود مفت استعمال" is honest. "مکمل مفت — کوئی حد نہیں" is almost always a lie.
-3. **Regional availability** — Does it work in Pakistan? Does it need VPN? Does payment work with Pakistani cards? If you don't know, write "دستیابی آفیشل ویب سائٹ سے چیک کریں" instead of guessing.
+3. **Regional availability** — Does it work in Pakistan? Does payment work with Pakistani cards? If you don't know, write "دستیابی آفیشل ویب سائٹ سے چیک کریں" instead of guessing.
 4. **Feature claims** — Does the tool actually do what you're about to write? Don't describe features from a press release that haven't launched yet. State what works today.
 5. **Numbers and statistics** — Cite the source. "20 کروڑ صارفین (اوپن اے آئی کے مطابق)" is credible. "بہت سے لوگ استعمال کرتے ہیں" is filler.
 
