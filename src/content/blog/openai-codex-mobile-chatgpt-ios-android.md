@@ -10,7 +10,7 @@ tags:
   - کوڈنگ
   - موبائل
 image: /images/blog/Screenshot 2026-05-17 at 10.55.40 PM.png
-author: قیصر رونجھا
+author: معراج احمد
 adsense: true
 draft: false
 last_updated: ''
