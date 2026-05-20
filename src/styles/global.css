@@ -2359,8 +2359,8 @@ textarea:focus:not(:focus-visible) {
    ============================================================ */
 .back-to-top {
   position: fixed;
-  bottom: 2rem;
-  left: 2rem;
+  inset-block-end: 2rem;
+  inset-inline-end: 2rem;
   width: 40px;
   height: 40px;
   border-radius: 50%;
