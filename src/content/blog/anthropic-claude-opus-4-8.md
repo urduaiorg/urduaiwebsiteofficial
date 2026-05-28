@@ -1,5 +1,5 @@
 ---
-title: 'Claude Opus 4.8 جاری — Anthropic کا نیا agentic flagship model'
+title: Claude Opus 4.8 جاری — Anthropic کا نیا agentic flagship model
 description: Anthropic نے Claude Opus 4.8 جاری کر دیا ہے — بہتر agentic judgment، کوڈ میں چار گنا کم غلطیاں، اور وہی پرانی قیمت۔ پاکستانی developers کے لیے اصل صورتحال کیا ہے؟
 date: 2026-05-28
 category: اے آئی اپڈیٹ
@@ -9,7 +9,8 @@ tags:
   - Claude Opus 4.8
   - ایجنٹک اے آئی
   - کوڈنگ
-author: قیصر رونجھا
+image: /images/blog/HJa8K9QWsAMaKFt.jpeg
+author: معراج احمد
 adsense: true
 draft: true
 faq:
@@ -39,14 +40,6 @@ Anthropic نے چند واضح بہتریوں پر زور دیا ہے، اور �
 Anthropic کا کہنا ہے کہ Opus 4.8 کئی benchmarks پر Opus 4.7 سے آگے ہے۔ مثال کے طور پر Online-Mind2Web ٹیسٹ پر اس نے ۸۴ فیصد score حاصل کیا، جو کمپنی کے مطابق Opus 4.7 اور GPT-5.5 دونوں سے واضح آگے ہے۔ Legal Agent Benchmark پر یہ پہلا model بتایا گیا ہے جس نے سخت ترین "all-pass" معیار پر ۱۰ فیصد کی حد عبور کی۔
 
 یہ نمبر Anthropic کے اپنے ہیں، اس لیے انہیں marketing claim کے طور پر دیکھیں — حتمی فیصلہ آزاد ٹیسٹنگ کے بعد ہی ہوتا ہے۔
-
-## پاکستان کے لیے کیا مطلب ہے؟
-
-پاکستانی freelancers اور developers کے لیے اصل خبر قیمت ہے: یہ نہیں بڑھی۔ ان پٹ $5 اور آؤٹ پٹ $25 per million tokens وہی ہے جو Opus 4.7 پر تھی، اور fast mode (تیز جواب) $10 input اور $50 output per million پر دستیاب ہے۔
-
-اس کا سیدھا فائدہ Karachi، Lahore یا Multan کے اُس freelancer کو ہے جو client کے لیے code لکھتا، debug کرتا، یا review کرتا ہے۔ جب model خود زیادہ غلطیاں پکڑے اور کم ہاتھ پکڑائی مانگے، تو وقت بچتا ہے اور وقت ہی اصل کمائی ہے۔ claude.ai پر مفت ٹرائل موجود ہے، اس لیے پیسے خرچ کرنے سے پہلے اپنے اصل کام پر اسے آزمانا سب سے سمجھ دار قدم ہے۔
-
-البتہ ایک honest بات: اگر آپ کا استعمال صرف عام چیٹ، چھوٹے summaries، یا casual سوال جواب تک محدود ہے، تو 4.7 اور 4.8 کا فرق آپ کو شاید بمشکل ہی محسوس ہو۔
 
 ## یہ پرامٹ کاپی کریں:
 
