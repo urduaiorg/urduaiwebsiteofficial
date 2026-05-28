@@ -12,7 +12,7 @@ tags:
 image: /images/blog/HJa8K9QWsAMaKFt.jpeg
 author: معراج احمد
 adsense: true
-draft: true
+draft: false
 faq:
   - question: Claude Opus 4.8 میں Opus 4.7 کے مقابلے میں نیا کیا ہے؟
     answer: Anthropic کے مطابق یہ model agentic tasks میں بہتر judgment رکھتا ہے، کوڈ کی خامیاں پکڑنے میں چار گنا زیادہ بہتر ہے، tool-calling میں زیادہ efficient ہے، اور sessions کے درمیان context بہتر یاد رکھتا ہے۔
@@ -35,7 +35,7 @@ Anthropic نے چند واضح بہتریوں پر زور دیا ہے، اور �
 
 ساتھ ہی تین نئی چیزیں آج سے شروع ہوئی ہیں: Claude Code کے لیے dynamic workflows (ابھی research preview میں)، claude.ai اور Cowork میں effort control یعنی آپ خود طے کریں کہ model کتنی محنت لگائے، اور Messages API میں system entries اپڈیٹ کرنے کی سہولت۔
 
-## benchmarks کیا کہتے ہیں؟
+##  بینچ مارکس کیا کہتے ہیں؟
 
 Anthropic کا کہنا ہے کہ Opus 4.8 کئی benchmarks پر Opus 4.7 سے آگے ہے۔ مثال کے طور پر Online-Mind2Web ٹیسٹ پر اس نے ۸۴ فیصد score حاصل کیا، جو کمپنی کے مطابق Opus 4.7 اور GPT-5.5 دونوں سے واضح آگے ہے۔ Legal Agent Benchmark پر یہ پہلا model بتایا گیا ہے جس نے سخت ترین "all-pass" معیار پر ۱۰ فیصد کی حد عبور کی۔
 
