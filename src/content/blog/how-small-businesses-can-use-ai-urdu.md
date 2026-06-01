@@ -10,7 +10,7 @@ tags:
   - پرامٹس
   - مارکیٹنگ
 image: /images/blog/how-small-businesses-can-use-ai-urdu.jpg
-author: قیصر رونجھا
+author: معراج احمد
 adsense: true
 draft: false
 tools:
