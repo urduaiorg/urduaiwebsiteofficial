@@ -9,7 +9,7 @@ tags:
   - چیٹ جی پی ٹی
   - پرامٹس
   - مارکیٹنگ
-image: /images/prompts/small-business.png
+image: /images/blog/how-small-businesses-can-use-ai-urdu.jpg
 author: قیصر رونجھا
 adsense: true
 draft: false
