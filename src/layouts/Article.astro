@@ -662,6 +662,41 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
   });
 </script>
 
+<!-- Copy-ready prompt boxes -->
+<script>
+  document.querySelectorAll('.prose .prompt-box').forEach((box) => {
+    const text = box.textContent.trim();
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'prompt-copy';
+    btn.setAttribute('aria-label', 'پرامٹ کاپی کریں');
+    btn.innerHTML =
+      '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>کاپی کریں</span>';
+    const label = btn.querySelector('span');
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(text);
+      } catch (e) {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (err) {}
+        ta.remove();
+      }
+      label.textContent = 'کاپی ہو گیا';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        label.textContent = 'کاپی کریں';
+        btn.classList.remove('copied');
+      }, 1600);
+    });
+    box.appendChild(btn);
+  });
+</script>
+
 <!-- App CTA scroll trigger -->
 <script>
   const cta = document.getElementById('app-cta');

@@ -2280,6 +2280,45 @@ img {
   line-height: 1;
 }
 
+/* Copy-ready prompt box */
+.prose .prompt-box {
+  position: relative;
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-inline-start: 4px solid var(--navy);
+  border-radius: 0 10px 10px 0;
+  padding: 3rem var(--space-lg) var(--space-md);
+  margin-block: var(--space-md);
+  white-space: pre-wrap;
+  line-height: 2.15;
+  font-size: 1.02rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.prose .prompt-copy {
+  position: absolute;
+  top: 0.6rem;
+  inset-inline-start: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.42rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.prose .prompt-copy:hover { background: #17467f; }
+.prose .prompt-copy.copied { background: var(--teal); }
+.prose .prompt-copy svg { flex-shrink: 0; }
+
 /* Horizontal rule — elegant divider */
 .prose hr {
   border: none;
