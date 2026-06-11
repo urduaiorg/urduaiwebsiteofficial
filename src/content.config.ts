@@ -39,6 +39,7 @@ const guides = defineCollection({
     description: z.string(),
     date: dateString,
     category: z.string().default('گائیڈ'),
+    author: z.string().default('اردو اے آئی ٹیم'),
     tool: z.string().optional(),
     level: z.enum(['ابتدائی', 'درمیانہ', 'ماہر']).default('ابتدائی'),
     image: z.string().optional(),
