@@ -6,9 +6,10 @@ last_updated: "2026-06-14T12:00:00-05:00"
 category: "گائیڈ"
 image: "/images/blog/ai-image-expression-prompts-urdu-guide.jpg"
 author: "اردو اے آئی ٹیم"
+tool: "ChatGPT / Gemini / Midjourney"
+level: "ابتدائی"
 adsense: true
 draft: false
-tags: ["AI Image Prompts", "Prompt Engineering", "AI Image Generator", "ChatGPT", "Gemini", "تصویر سازی", "پرامپٹ"]
 tools: ["ChatGPT", "Gemini", "Midjourney"]
 faq:
   - question: "اے آئی تصویر سازی میں اے یو کوڈز کیا ہوتے ہیں؟"
@@ -27,9 +28,7 @@ faq:
 
 اس گائیڈ میں ہم basic emotions سے آگے بڑھ کر story-driven expressions سیکھیں گے۔ آپ کو اے یو کوڈز، پاکستانی locations، دو کرداروں کے reactions، ready-made demo prompts، اور reference image کے ساتھ prompt لکھنے کا مکمل طریقہ ملے گا۔
 
-![اے آئی امیج پرامپٹ میں شرارتی چچا اور ناپسندیدہ ردعمل کی مثال](/images/blog/ai-image-expression-prompts-urdu-guide.jpg)
-
-تصویر کی مثال: چچا کے چہرے پر شرارتی مسکراہٹ، یعنی AU12A + AU14B، جبکہ لڑکی کے چہرے پر ناپسندیدگی، یعنی AU9B + AU10B + AU23B۔ یہی contrast تصویر کو فوراً کہانی بنا دیتا ہے۔
+اوپر والی تصویر کی مثال: چچا کے چہرے پر شرارتی مسکراہٹ، یعنی AU12A + AU14B، جبکہ لڑکی کے چہرے پر ناپسندیدگی، یعنی AU9B + AU10B + AU23B۔ یہی contrast تصویر کو فوراً کہانی بنا دیتا ہے۔
 
 ## اے یو کوڈز کیا ہوتے ہیں؟
 

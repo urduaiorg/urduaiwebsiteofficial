@@ -46,6 +46,10 @@ const guides = defineCollection({
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
     tools: z.array(z.string()).optional(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
     last_updated: dateString.optional(),
   }),
 });

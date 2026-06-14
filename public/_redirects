@@ -4,6 +4,9 @@
 # www → non-www canonical redirect (fixes 5,243 duplicate canonicals in Search Console)
 https://www.urduai.org/* https://urduai.org/:splat 301
 
+# New guide canonical moved from blog to guides
+/blog/ai-image-expression-prompts-urdu-guide/ /guides/ai-image-expression-prompts-urdu-guide/ 301
+
 # Generic WordPress patterns
 /category/blog/*         /blog/                 301
 /category/videos/*       /blog/                 301
