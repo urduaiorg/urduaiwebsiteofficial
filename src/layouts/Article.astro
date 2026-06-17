@@ -205,7 +205,7 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
   <!-- ============================================================
        ARTICLE HEADER — Clean Card Style
        ============================================================ -->
-  <div class="article-header container">
+  <div class="article-header container" dir="rtl" lang="ur">
     <!-- Breadcrumb -->
     <nav aria-label="بریڈکرمب" class="article-header__breadcrumb">
       <ol class="breadcrumb">
@@ -277,9 +277,9 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
   <!-- ============================================================
        ARTICLE BODY + SIDEBAR
        ============================================================ -->
-  <div class="article-layout container">
+  <div class="article-layout container" dir="rtl" lang="ur">
     <!-- Main article -->
-    <article class="article-layout__main" id="article-main">
+    <article class="article-layout__main" id="article-main" dir="rtl" lang="ur">
 
       <!-- Mobile TOC — collapsible, visible only on mobile -->
       <details class="mobile-toc" id="mobile-toc">
@@ -291,7 +291,7 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
       </details>
 
       <!-- In-article ad (after intro paragraph — injected by slot position) -->
-      <div class="prose" id="article-body">
+      <div class="prose" id="article-body" dir="rtl" lang="ur">
         <slot name="intro" />
 
         {adsense && (

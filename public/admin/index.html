@@ -5,13 +5,140 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
   <title>Urdu Ai Admin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
-    body { font-family: system-ui, -apple-system, sans-serif; }
-    /* Override CMS styles for RTL Urdu preview */
-    [data-slate-editor] { direction: rtl; font-family: 'Noto Nastaliq Urdu', serif; line-height: 2.2; }
+    :root {
+      direction: rtl;
+      color-scheme: light;
+    }
+
+    html,
+    body {
+      direction: rtl !important;
+      font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', system-ui, -apple-system, sans-serif;
+    }
+
+    /* Sveltia/Decap editor and preview surfaces for Urdu posts. */
+    [data-slate-editor],
+    [data-slate-node],
+    [data-testid*="preview" i],
+    [class*="preview" i],
+    [class*="markdown" i],
+    [class*="editor" i] {
+      direction: rtl !important;
+      text-align: right !important;
+      unicode-bidi: isolate !important;
+      font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', system-ui, -apple-system, sans-serif !important;
+      line-height: 2.25 !important;
+      word-break: normal !important;
+      overflow-wrap: break-word !important;
+      hyphens: none !important;
+    }
+
+    [data-slate-editor] p,
+    [data-slate-editor] li,
+    [data-testid*="preview" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote),
+    [class*="preview" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote),
+    [class*="markdown" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote) {
+      direction: rtl !important;
+      text-align: right !important;
+      unicode-bidi: isolate !important;
+      line-height: 2.25 !important;
+    }
+
+    [data-testid*="preview" i] :is(ul, ol),
+    [class*="preview" i] :is(ul, ol),
+    [class*="markdown" i] :is(ul, ol) {
+      direction: rtl !important;
+      text-align: right !important;
+      padding-inline-start: 0 !important;
+      padding-inline-end: 1.8rem !important;
+    }
+
+    [data-testid*="preview" i] :is(code, pre, kbd, samp),
+    [class*="preview" i] :is(code, pre, kbd, samp),
+    [class*="markdown" i] :is(code, pre, kbd, samp) {
+      direction: ltr !important;
+      text-align: left !important;
+      unicode-bidi: isolate !important;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+    }
   </style>
 </head>
 <body>
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" defer></script>
+  <script>
+    (() => {
+      const css = `
+        :host, html, body {
+          direction: rtl !important;
+          font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', system-ui, -apple-system, sans-serif !important;
+        }
+        [data-slate-editor], [data-slate-node],
+        [data-testid*="preview" i], [class*="preview" i], [class*="markdown" i], [class*="editor" i] {
+          direction: rtl !important;
+          text-align: right !important;
+          unicode-bidi: isolate !important;
+          line-height: 2.25 !important;
+          word-break: normal !important;
+          overflow-wrap: break-word !important;
+          hyphens: none !important;
+          font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', system-ui, -apple-system, sans-serif !important;
+        }
+        [data-slate-editor] p, [data-slate-editor] li,
+        [data-testid*="preview" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote),
+        [class*="preview" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote),
+        [class*="markdown" i] :is(p, li, h1, h2, h3, h4, h5, h6, blockquote) {
+          direction: rtl !important;
+          text-align: right !important;
+          unicode-bidi: isolate !important;
+          line-height: 2.25 !important;
+        }
+        [data-testid*="preview" i] :is(ul, ol),
+        [class*="preview" i] :is(ul, ol),
+        [class*="markdown" i] :is(ul, ol) {
+          direction: rtl !important;
+          text-align: right !important;
+          padding-inline-start: 0 !important;
+          padding-inline-end: 1.8rem !important;
+        }
+        [data-testid*="preview" i] :is(code, pre, kbd, samp),
+        [class*="preview" i] :is(code, pre, kbd, samp),
+        [class*="markdown" i] :is(code, pre, kbd, samp) {
+          direction: ltr !important;
+          text-align: left !important;
+          unicode-bidi: isolate !important;
+          font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+        }
+      `;
+
+      const ensureStyle = (root) => {
+        if (!root || root.querySelector?.('#urdu-ai-cms-rtl-style')) return;
+        const style = document.createElement('style');
+        style.id = 'urdu-ai-cms-rtl-style';
+        style.textContent = css;
+        root.append(style);
+      };
+
+      const applyRtl = () => {
+        document.documentElement.setAttribute('dir', 'rtl');
+        document.documentElement.setAttribute('lang', 'ur');
+        document.body?.setAttribute('dir', 'rtl');
+        ensureStyle(document.head);
+        document.querySelectorAll('*').forEach((el) => {
+          if (el.shadowRoot) ensureStyle(el.shadowRoot);
+        });
+      };
+
+      applyRtl();
+      new MutationObserver(applyRtl).observe(document.documentElement, {
+        attributes: true,
+        childList: true,
+        subtree: true,
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 ---
-title: "Codex beginners کی common mistakes — کن غلطیوں سے بچنا چاہیے"
-description: "Codex استعمال کرتے وقت beginners کون سی عام غلطیاں کرتے ہیں؟ vague prompts، بہت بڑا scope، preview skip کرنا، GitHub نہ کرنا اور دوسری common mistakes آسان Urdu میں۔"
+title: "کوڈیکس کے ابتدائی صارفین کی عام غلطیاں — کن باتوں سے بچنا چاہیے"
+description: "کوڈیکس استعمال کرتے وقت ابتدائی صارفین کون سی عام غلطیاں کرتے ہیں؟ کمزور پرامپٹس، بڑا دائرہ کار، پریویو skip کرنا، گٹ ہب نہ کرنا اور دوسری غلطیاں آسان اردو میں۔"
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -24,7 +24,7 @@ faq:
     answer: clear prompt، small scope، preview check، GitHub saving اور step-by-step iteration سے زیادہ تر mistakes avoid ہو جاتی ہیں۔
 ---
 
-Codex beginners کے لیے بہت powerful tool ہے، لیکن ایک بات صاف سمجھ لیں: اگر result کمزور آئے تو اکثر مسئلہ یہ نہیں ہوتا کہ Codex بیکار ہے، بلکہ یہ ہوتا ہے کہ **workflow غلط تھا**۔ یہی وجہ ہے کہ یہ guide ضروری ہے۔
+کوڈیکس beginners کے لیے بہت powerful tool ہے، لیکن ایک بات صاف سمجھ لیں: اگر result کمزور آئے تو اکثر مسئلہ یہ نہیں ہوتا کہ Codex بیکار ہے، بلکہ یہ ہوتا ہے کہ **workflow غلط تھا**۔ یہی وجہ ہے کہ یہ guide ضروری ہے۔
 
 ![Codex common mistakes cover](/images/guides/codex-guide-series/codex-common-mistakes.png)
 
@@ -40,28 +40,28 @@ Codex beginners کے لیے بہت powerful tool ہے، لیکن ایک بات �
 
 مسئلہ:
 
-- audience unclear
-- topic unclear
-- goal unclear
-- language unclear
+- سامعین unclear
+- موضوع unclear
+- مقصد unclear
+- زبان unclear
 
 بہتر prompt:
 
-> Urdu parents کے لیے AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> اردو parents کے لیے AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
 
-Lesson:
+سبق:
 
 جتنا clear prompt، اتنا بہتر result۔
 
 ## 2. پہلے دن ہی بہت بڑا project مانگ لینا
 
-beginners اکثر فوراً کہتے ہیں:
+ابتدائی صارفین اکثر فوراً کہتے ہیں:
 
-- full app بنا دو
-- login بھی ہو
-- dashboard بھی ہو
-- admin panel بھی ہو
-- payments بھی ہوں
+- مکمل app بنا دو
+- لاگ اِن بھی ہو
+- ڈیش بورڈ بھی ہو
+- ایڈمن پینل بھی ہو
+- ادائیگیاں بھی ہوں
 
 یہ approach learning کو مشکل بنا دیتی ہے۔
 
@@ -73,7 +73,7 @@ beginners اکثر فوراً کہتے ہیں:
 - پھر Cloudflare
 - پھر expansion
 
-Codex کے ساتھ small scope سے آغاز زیادہ practical ہے۔
+کوڈیکس کے ساتھ small scope سے آغاز زیادہ practical ہے۔
 
 ## 3. پہلی output کو final سمجھ لینا
 
@@ -81,20 +81,20 @@ Codex کے ساتھ small scope سے آغاز زیادہ practical ہے۔
 
 پہلا result اکثر:
 
-- draft ہوتا ہے
-- wording weak ہو سکتی ہے
-- structure بہتر کیا جا سکتا ہے
-- design rough ہو سکتی ہے
+- ڈرافٹ ہوتا ہے
+- نکتہ: wording weak ہو سکتی ہے
+- نکتہ: structure بہتر کیا جا سکتا ہے
+- ڈیزائن rough ہو سکتی ہے
 
 صحیح workflow:
 
-1. first draft لیں
-2. review کریں
-3. follow-up prompt دیں
-4. polish کروائیں
+1. نکتہ: first draft لیں
+2. نکتہ: review کریں
+3. نکتہ: follow-up prompt دیں
+4. نکتہ: polish کروائیں
 5. دوبارہ check کریں
 
-## 4. context نہ دینا
+## موضوع: 4. context نہ دینا
 
 کبھی learner صرف یہی کہتا ہے:
 
@@ -109,37 +109,37 @@ Codex کے ساتھ small scope سے آغاز زیادہ practical ہے۔
 
 > موجودہ landing page دیکھو اور صرف hero section کی writing beginner-friendly Urdu میں بہتر کرو۔ باقی layout نہ چھیڑو۔
 
-Context کے بغیر Codex guess زیادہ کرتا ہے۔
+سیاق و سباق کے بغیر Codex guess زیادہ کرتا ہے۔
 
-## 5. audience نہ بتانا
+## موضوع: 5. audience نہ بتانا
 
-parents، teachers، freelancers، students اور business owners کے لیے language ایک جیسی نہیں ہوتی۔
+والدین، teachers، freelancers، students اور business owners کے لیے language ایک جیسی نہیں ہوتی۔
 
 اگر audience clear نہ ہو تو:
 
-- tone غلط ہو سکتی ہے
+- لہجہ غلط ہو سکتی ہے
 - مثالیں irrelevant ہو سکتی ہیں
-- language بہت technical یا بہت casual ہو سکتی ہے
+- زبان بہت technical یا بہت casual ہو سکتی ہے
 
 اس لیے prompt میں audience ہمیشہ شامل کریں۔
 
-## 6. preview یا output check نہ کرنا
+## موضوع: 6. preview یا output check نہ کرنا
 
 بہت سے learners content یا page generate ہونے کے بعد اسے properly دیکھتے ہی نہیں۔
 
 اس سے یہ مسائل miss ہو جاتے ہیں:
 
-- mobile layout broken
-- Urdu awkward
-- CTA غائب
-- section order weak
-- spacing خراب
+- موبائل layout broken
+- اردو awkward
+- کال ٹو ایکشن غائب
+- نکتہ: section order weak
+- نکتہ: spacing خراب
 
-Rule:
+اصول:
 
-generate کے بعد ہمیشہ review۔
+جنریٹ کے بعد ہمیشہ review۔
 
-## 7. random changes کرتے جانا
+## موضوع: 7. random changes کرتے جانا
 
 جب کوئی issue آتا ہے تو beginners کبھی کبھی focused fix کے بجائے بہت سی بے ترتیب changes کر دیتے ہیں۔
 
@@ -147,52 +147,52 @@ generate کے بعد ہمیشہ review۔
 
 - اصل cause hide ہو جاتا ہے
 - نئے bugs آ سکتے ہیں
-- project unstable ہو سکتا ہے
+- پروجیکٹ unstable ہو سکتا ہے
 
 بہتر approach:
 
-- exact issue لکھیں
-- expected result لکھیں
-- Codex سے cause پوچھیں
-- smallest safe fix لگوائیں
+- نکتہ: exact issue لکھیں
+- نکتہ: expected result لکھیں
+- کوڈیکس سے cause پوچھیں
+- نکتہ: smallest safe fix لگوائیں
 
-## 8. GitHub پر save نہ کرنا
+## موضوع: 8. GitHub پر save نہ کرنا
 
 یہ beginner trap ہے۔
 
 اگر آپ project save نہیں کرتے تو:
 
 - اچھا version کھو سکتے ہیں
-- share نہیں کر سکتے
-- deployment مشکل ہو جاتی ہے
-- portfolio weak رہتا ہے
+- نکتہ: share نہیں کر سکتے
+- نکتہ: deployment مشکل ہو جاتی ہے
+- پورٹ فولیو weak رہتا ہے
 
-Rule:
+اصول:
 
-useful project = GitHub پر save کریں۔
+نوٹ: useful project = GitHub پر save کریں۔
 
-## 9. live link نہ بنانا
+## موضوع: 9. live link نہ بنانا
 
-Beginners کبھی project local پر بنا لیتے ہیں، مگر اسے public نہیں کرتے۔
+ابتدائی صارفین کبھی project local پر بنا لیتے ہیں، مگر اسے public نہیں کرتے۔
 
 اس سے:
 
-- confidence کم رہتا ہے
-- client کو دکھانا مشکل ہوتا ہے
-- learning loop ادھورا رہتا ہے
+- نکتہ: confidence کم رہتا ہے
+- کلائنٹ کو دکھانا مشکل ہوتا ہے
+- نکتہ: learning loop ادھورا رہتا ہے
 
-Cloudflare یا دوسرے simple hosting flow سے public link بنانا beginner کے لیے بڑا milestone ہوتا ہے۔
+کلاوڈ فلیئر یا دوسرے simple hosting flow سے public link بنانا beginner کے لیے بڑا milestone ہوتا ہے۔
 
-## 10. Urdu output کو final read نہ کرنا
+## موضوع: 10. Urdu output کو final read نہ کرنا
 
-Codex Urdu اچھی generate کر سکتا ہے، مگر ہر بار perfect natural flow کی guarantee نہیں۔
+کوڈیکس Urdu اچھی generate کر سکتا ہے، مگر ہر بار perfect natural flow کی guarantee نہیں۔
 
 یہ چیزیں check کریں:
 
-- language awkward تو نہیں
-- English mix ضرورت سے زیادہ تو نہیں
-- sentence بہت لمبے تو نہیں
-- beginner tone برقرار ہے یا نہیں
+- زبان awkward تو نہیں
+- نکتہ: English mix ضرورت سے زیادہ تو نہیں
+- نکتہ: sentence بہت لمبے تو نہیں
+- ابتدائی tone برقرار ہے یا نہیں
 
 خاص طور پر Urdu AI audience کے لیے final human read ضروری ہے۔
 
@@ -200,11 +200,11 @@ Codex Urdu اچھی generate کر سکتا ہے، مگر ہر بار perfect nat
 
 مثلاً:
 
-> website بھی بناؤ، slides بھی دو، document بھی لکھو، app بھی بناؤ، deploy بھی کرو
+> ویب سائٹ بھی بناؤ، slides بھی دو، document بھی لکھو، app بھی بناؤ، deploy بھی کرو
 
 یہ learner کو بھی confuse کرتا ہے اور result کو بھی۔
 
-Better flow:
+بہتر طریقہ:
 
 1. پہلے outline
 2. پھر document یا page
@@ -212,9 +212,9 @@ Better flow:
 4. پھر GitHub
 5. پھر deploy
 
-Codex step-by-step use کریں، dump-all-at-once نہیں۔
+کوڈیکس step-by-step use کریں، dump-all-at-once نہیں۔
 
-## 12. failure کو personal سمجھ لینا
+## موضوع: 12. failure کو personal سمجھ لینا
 
 یہ psychological mistake ہے۔
 
@@ -226,31 +226,31 @@ Codex step-by-step use کریں، dump-all-at-once نہیں۔
 
 صحیح conclusion:
 
-- prompt بہتر کرنا ہے
-- scope چھوٹا کرنا ہے
-- context بڑھانا ہے
-- issue isolate کرنا ہے
+- نکتہ: prompt بہتر کرنا ہے
+- دائرہ کار چھوٹا کرنا ہے
+- نکتہ: context بڑھانا ہے
+- نکتہ: issue isolate کرنا ہے
 
-Codex learning میں iteration normal ہے۔
+کوڈیکس learning میں iteration normal ہے۔
 
-## beginners کے لیے safe workflow
+## ابتدائی صارفین کے لیے safe workflow
 
 اگر آپ ان غلطیوں سے بچنا چاہتے ہیں تو یہ workflow follow کریں:
 
-1. clear goal لکھیں
-2. audience بتائیں
-3. small scope رکھیں
-4. first draft لیں
-5. preview یا review کریں
-6. GitHub پر save کریں
-7. live کریں
+1. نکتہ: clear goal لکھیں
+2. سامعین بتائیں
+3. نکتہ: small scope رکھیں
+4. نکتہ: first draft لیں
+5. پریویو یا review کریں
+6. گٹ ہب پر save کریں
+7. لائیو کریں
 8. پھر refine کریں
 
 یہی beginner-safe Codex workflow ہے۔
 
-## quick self-check list
+## موضوع: quick self-check list
 
-Codex میں کچھ بھی run کرنے سے پہلے خود سے یہ 5 سوال پوچھیں:
+کوڈیکس میں کچھ بھی run کرنے سے پہلے خود سے یہ 5 سوال پوچھیں:
 
 1. کیا میرا goal clear ہے؟
 2. کیا audience لکھی ہوئی ہے؟
@@ -260,7 +260,7 @@ Codex میں کچھ بھی run کرنے سے پہلے خود سے یہ 5 سوا�
 
 اگر ان پانچ کا جواب ہاں ہو تو result عموماً بہتر آتا ہے۔
 
-## ready-to-use anti-mistake prompt
+## تیار استعمال anti-mistake prompt
 
 > میں beginner ہوں۔ میرے goal کو small practical steps میں توڑ دو۔ پہلے smallest useful version بناؤ۔ language simple رکھو، audience [audience] ہے، اور final output review checklist بھی دو۔
 

@@ -1,6 +1,6 @@
 ---
-title: Codex سے اپنا پہلا web page کیسے بنائیں؟ — beginners کے لیے step-by-step guide
-description: Codex سے پہلی website یا simple landing page کیسے بنائیں؟ beginners کے لیے آسان Urdu guide — structure، prompt، preview اور common mistakes کے ساتھ۔
+title: کوڈیکس سے اپنا پہلا web page کیسے بنائیں؟ — ابتدائی صارفین کے لیے step-by-step guide
+description: کوڈیکس سے پہلی website یا simple landing page کیسے بنائیں؟ ابتدائی صارفین کے لیے آسان Urdu guide — structure، prompt، preview اور common mistakes کے ساتھ۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -24,45 +24,45 @@ faq:
 
 اگر آپ پہلی بار website بنا رہے ہیں تو سب سے اچھا آغاز **simple web page** یا **landing page** سے ہوتا ہے۔ پورا بڑا app فوراً بنانے کے بجائے ایک page بنانا زیادہ آسان اور سمجھنے میں بھی بہتر ہے۔
 
-Codex اس کام میں خاص طور پر useful ہے کیونکہ آپ کو HTML، CSS یا JavaScript پوری detail میں جاننے کی ضرورت نہیں ہوتی۔
+کوڈیکس اس کام میں خاص طور پر useful ہے کیونکہ آپ کو HTML، CSS یا JavaScript پوری detail میں جاننے کی ضرورت نہیں ہوتی۔
 
-## web page اور app میں فرق کیا ہے؟
+## ویب صفحہ اور app میں فرق کیا ہے؟
 
-Beginners کے لیے ایک آسان فرق:
+ابتدائی صارفین کے لیے ایک آسان فرق:
 
-- **web page** = ایک صفحہ یا چند سادہ صفحات
-- **app** = اس میں actions، data، login، forms یا tools زیادہ ہوتے ہیں
+- **ویب صفحہ** = ایک صفحہ یا چند سادہ صفحات
+- **ایپ** = اس میں actions، data، login، forms یا tools زیادہ ہوتے ہیں
 
 اس لیے اگر آپ نئے ہیں تو پہلے web page بنائیں۔
 
-## Codex سے کس قسم کے web pages بنوائے جا سکتے ہیں؟
+## کوڈیکس سے کس قسم کے web pages بنوائے جا سکتے ہیں؟
 
-- course registration page
-- product landing page
-- personal profile page
-- event announcement page
-- school or workshop info page
-- contact page
+- نکتہ: course registration page
+- نکتہ: product landing page
+- نکتہ: personal profile page
+- نکتہ: event announcement page
+- اسکول or workshop info page
+- نکتہ: contact page
 
 یہ سب شروع کے لیے بہترین ہیں۔
 
-## Codex کو start میں کیا بتانا چاہیے؟
+## کوڈیکس کو start میں کیا بتانا چاہیے؟
 
-web page prompt دیتے وقت یہ پانچ چیزیں clear کریں:
+ویب صفحہ prompt دیتے وقت یہ پانچ چیزیں clear کریں:
 
-1. page کس کے لیے ہے
-2. page کا مقصد کیا ہے
+1. نکتہ: page کس کے لیے ہے
+2. نکتہ: page کا مقصد کیا ہے
 3. کون سے sections چاہئیں
 4. زبان کون سی ہو
 5. آخری action کیا ہو
 
 مثلاً:
 
-> Urdu parents کے لیے AI awareness workshop landing page بناؤ۔ اس میں heading، short intro، 3 benefits، instructor section، WhatsApp button اور registration call-to-action ہو۔ language Urdu ہو اور design simple ہو۔
+> اردو parents کے لیے AI awareness workshop landing page بناؤ۔ اس میں heading، short intro، 3 benefits، instructor section، WhatsApp button اور registration call-to-action ہو۔ language Urdu ہو اور design simple ہو۔
 
 یہ strong prompt ہے۔
 
-## weak prompt اور strong prompt میں فرق
+## موضوع: weak prompt اور strong prompt میں فرق
 
 ### کمزور prompt
 
@@ -70,49 +70,49 @@ web page prompt دیتے وقت یہ پانچ چیزیں clear کریں:
 
 ### بہتر prompt
 
-> Urdu audience کے لیے simple landing page بناؤ جس کا مقصد AI course registration ہے۔ heading، benefits، course details، instructor bio اور WhatsApp CTA شامل ہو۔ design clean اور mobile-friendly ہو۔
+> اردو audience کے لیے simple landing page بناؤ جس کا مقصد AI course registration ہے۔ heading، benefits، course details، instructor bio اور WhatsApp CTA شامل ہو۔ design clean اور mobile-friendly ہو۔
 
 دوسرے prompt میں Codex کو guess کم کرنا پڑتا ہے۔
 
 ## پہلا page بنوانے کے لیے بہترین structure
 
-Beginners کے لیے یہ structure بہت اچھا ہے:
+ابتدائی صارفین کے لیے یہ structure بہت اچھا ہے:
 
-### 1. Hero section
+### موضوع: 1. Hero section
 
 اوپر بڑی heading اور ایک short explanation۔
 
-### 2. Benefits section
+### موضوع: 2. Benefits section
 
 3 یا 4 points کہ visitor کو کیا فائدہ ہوگا۔
 
-### 3. About section
+### موضوع: 3. About section
 
 یہ page کس کے لیے ہے یا یہ service کیا کرتی ہے۔
 
-### 4. Call to action
+### موضوع: 4. Call to action
 
 آخر میں button:
 
-- Register now
-- WhatsApp now
-- Learn more
+- نکتہ: Register now
+- واٹس ایپ now
+- نکتہ: Learn more
 
-## Codex سے mobile-friendly page کیوں بنوانا چاہیے؟
+## کوڈیکس سے mobile-friendly page کیوں بنوانا چاہیے؟
 
-Urdu AI audience میں بہت سے لوگ موبائل پر content دیکھتے ہیں۔ اس لیے آپ کو prompt میں شروع ہی میں کہنا چاہیے:
+اردو اے آئی audience میں بہت سے لوگ موبائل پر content دیکھتے ہیں۔ اس لیے آپ کو prompt میں شروع ہی میں کہنا چاہیے:
 
-> page mobile-friendly ہو
+> مثال: page mobile-friendly ہو
 
 یہ ایک چھوٹی line ہے لیکن result پر بڑا فرق ڈالتی ہے۔
 
-## Codex کے ساتھ beginner workflow
+## کوڈیکس کے ساتھ beginner workflow
 
 ### مرحلہ 1: page idea لکھیں
 
 مثلاً:
 
-> parents کے لیے AI workshop page
+> والدین کے لیے AI workshop page
 
 ### مرحلہ 2: Codex سے sections کی list مانگیں
 
@@ -126,61 +126,61 @@ Urdu AI audience میں بہت سے لوگ موبائل پر content دیکھت�
 
 دیکھیں:
 
-- text readable ہے؟
-- Urdu ٹھیک لگ رہی ہے؟
-- buttons صاف نظر آ رہے ہیں؟
-- mobile view ٹھیک ہے؟
+- متن readable ہے؟
+- اردو ٹھیک لگ رہی ہے؟
+- بٹنز صاف نظر آ رہے ہیں؟
+- موبائل view ٹھیک ہے؟
 
 ### مرحلہ 5: refinements دیں
 
-- heading چھوٹی کرو
-- colors softer کرو
-- WhatsApp button اوپر لے آؤ
-- Urdu text آسان کرو
+- نکتہ: heading چھوٹی کرو
+- رنگ softer کرو
+- واٹس ایپ button اوپر لے آؤ
+- اردو text آسان کرو
 
-## Codex کے ساتھ page بہتر کیسے کریں؟
+## کوڈیکس کے ساتھ page بہتر کیسے کریں؟
 
 بہت بار پہلا version final نہیں ہوتا۔ Codex کی اصل طاقت یہاں آتی ہے: آپ follow-up دے کر page بہتر کرتے جاتے ہیں۔
 
 مثلاً:
 
 - اسے زیادہ professional بناؤ
-- parents کے لیے tone نرم کرو
+- والدین کے لیے tone نرم کرو
 - زیادہ white space دو
-- 3 cards شامل کرو
-- footer میں contact info شامل کرو
+- نکتہ: 3 cards شامل کرو
+- نکتہ: footer میں contact info شامل کرو
 
 یعنی Codex ایک بار کا tool نہیں، iterative partner ہے۔
 
-## beginners کے لیے useful prompt examples
+## ابتدائی صارفین کے لیے useful prompt examples
 
-### course landing page
+### موضوع: course landing page
 
-> beginners کے لیے Urdu AI course landing page بناؤ۔ heading، who this is for، course benefits، fee، timing اور WhatsApp registration button شامل ہو۔
+> ابتدائی صارفین کے لیے Urdu AI course landing page بناؤ۔ heading، who this is for، course benefits، fee، timing اور WhatsApp registration button شامل ہو۔
 
-### profile page
+### پروفائل صفحہ
 
 > میری personal Urdu profile website بناؤ۔ اس میں about me، skills، services اور contact section ہو۔
 
-### event page
+### موضوع: event page
 
 > ایک one-page event announcement page بناؤ جس میں speaker، date، agenda اور register button ہو۔
 
-## common mistakes
+## عام غلطیاں
 
 ### 1. بہت زیادہ چیزیں ایک page میں ڈال دینا
 
 پہلے simple page بنائیں۔ بعد میں expand کریں۔
 
-### 2. language واضح نہ کرنا
+### موضوع: 2. language واضح نہ کرنا
 
-Urdu page چاہیے تو شروع میں بتائیں۔ mixed language چاہیے تو وہ بھی بتائیں۔
+اردو page چاہیے تو شروع میں بتائیں۔ mixed language چاہیے تو وہ بھی بتائیں۔
 
-### 3. CTA نہ دینا
+### موضوع: 3. CTA نہ دینا
 
 اگر user کو آخر میں action نہ بتائیں تو page کمزور رہتا ہے۔
 
-### 4. preview نہ دیکھنا
+### موضوع: 4. preview نہ دیکھنا
 
 صرف code بن جانا کافی نہیں۔ page دیکھنا ضروری ہے۔
 

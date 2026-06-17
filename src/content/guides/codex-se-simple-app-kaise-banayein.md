@@ -1,6 +1,6 @@
 ---
-title: Codex سے simple app کیسے بنائیں؟ — beginners کے لیے پہلی practical app guide
-description: Codex سے پہلی simple app کیسے بنائی جائے؟ app idea، features، first version، preview اور improvement workflow کو آسان Urdu میں سمجھیں۔
+title: کوڈیکس سے simple app کیسے بنائیں؟ — ابتدائی صارفین کے لیے پہلی practical app guide
+description: کوڈیکس سے پہلی simple app کیسے بنائی جائے؟ app idea، features، first version، preview اور improvement workflow کو آسان Urdu میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -26,58 +26,58 @@ faq:
 
 ![Codex app and debugging cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
 
-## simple app سے مراد کیا ہے؟
+## سادہ ایپ سے مراد کیا ہے؟
 
-simple app وہ ہے جس میں:
+سادہ ایپ وہ ہے جس میں:
 
 - مقصد ایک ہو
-- screens کم ہوں
-- features محدود ہوں
-- user flow صاف ہو
+- نکتہ: screens کم ہوں
+- فیچرز محدود ہوں
+- نکتہ: user flow صاف ہو
 
 مثلاً:
 
-- todo app
-- student list
-- simple registration form
-- calculator
-- expense tracker
-- appointment request page
+- نکتہ: todo app
+- طالب علم list
+- سادہ registration form
+- کیلکولیٹر
+- نکتہ: expense tracker
+- نکتہ: appointment request page
 
 یہ Codex کے ساتھ شروع کرنے کے لیے بہترین مثالیں ہیں۔
 
 ## پہلی app بنوانے سے پہلے 3 سوال
 
-Codex کو app بنوانے سے پہلے خود سے یہ پوچھیں:
+کوڈیکس کو app بنوانے سے پہلے خود سے یہ پوچھیں:
 
-### 1. user کون ہے؟
+### موضوع: 1. user کون ہے؟
 
-teacher؟ student؟ parent؟ customer؟
+استاد؟ student؟ parent؟ customer؟
 
 ### 2. مسئلہ کیا ہے؟
 
 یہ app کس چیز کو آسان بنائے گی؟
 
-### 3. first version میں کیا ضروری ہے؟
+### موضوع: 3. first version میں کیا ضروری ہے؟
 
 صرف وہی features رکھیں جو شروع کے لیے لازم ہیں۔
 
-## first version کیوں اہم ہے؟
+## پہلا ورژن کیوں اہم ہے؟
 
-beginners کو یہ سمجھنا چاہیے کہ پہلی app final product نہیں ہوتی۔  
+ابتدائی صارفین کو یہ سمجھنا چاہیے کہ پہلی app final product نہیں ہوتی۔
 پہلا version صرف یہ ثابت کرتا ہے کہ idea کام کرتا ہے۔
 
-Codex کے ساتھ بہترین workflow یہ ہے:
+کوڈیکس کے ساتھ بہترین workflow یہ ہے:
 
 1. پہلے small version بنوائیں
 2. پھر preview دیکھیں
 3. پھر ایک ایک feature بڑھائیں
 
-## Codex کو app prompt کیسے دیں؟
+## کوڈیکس کو app prompt کیسے دیں؟
 
 مثلاً:
 
-> beginners کے لیے ایک simple todo app بناؤ۔ اس میں task add، task complete اور task delete feature ہو۔ design clean اور mobile-friendly ہو۔
+> ابتدائی صارفین کے لیے ایک simple todo app بناؤ۔ اس میں task add، task complete اور task delete feature ہو۔ design clean اور mobile-friendly ہو۔
 
 یہ strong start ہے۔
 
@@ -87,31 +87,31 @@ Codex کے ساتھ بہترین workflow یہ ہے:
 
 تو result مبہم ہو جائے گا۔
 
-## app prompt میں کون سی چیزیں شامل کریں؟
+## ایپ prompt میں کون سی چیزیں شامل کریں؟
 
-### user
+### موضوع: user
 
 یہ app کس کے لیے ہے؟
 
-### problem
+### موضوع: problem
 
 یہ کس مسئلے کو حل کر رہی ہے؟
 
-### main features
+### موضوع: main features
 
 زیادہ نہیں، صرف top 2 یا 3۔
 
-### design
+### ڈیزائن
 
-simple، modern، mobile-friendly، Urdu-friendly وغیرہ۔
+سادہ، modern، mobile-friendly، Urdu-friendly وغیرہ۔
 
-### output
+### نتیجہ
 
-first working version چاہیے یا polished version؟
+نوٹ: first working version چاہیے یا polished version؟
 
 ## ایک اچھا app prompt
 
-> Urdu-speaking teachers کے لیے ایک simple student attendance app بناؤ۔ first version میں student name add کرنا، حاضر/غیر حاضر mark کرنا اور list دیکھنا شامل ہو۔ design بہت simple ہو اور mobile-friendly ہو۔
+> اردو-speaking teachers کے لیے ایک simple student attendance app بناؤ۔ first version میں student name add کرنا، حاضر/غیر حاضر mark کرنا اور list دیکھنا شامل ہو۔ design بہت simple ہو اور mobile-friendly ہو۔
 
 یہ beginner-friendly prompt ہے۔
 
@@ -119,30 +119,30 @@ first working version چاہیے یا polished version؟
 
 اگر آپ practice کرنا چاہتے ہیں تو ان میں سے ایک try کریں:
 
-- daily task app
-- workshop registration tool
-- student directory
-- invoice calculator
-- quote generator
-- parent contact form
+- نکتہ: daily task app
+- نکتہ: workshop registration tool
+- طالب علم directory
+- نکتہ: invoice calculator
+- نکتہ: quote generator
+- نکتہ: parent contact form
 
 ان میں data flow بھی simple ہوتا ہے اور learning بھی جلدی ہوتی ہے۔
 
-## Codex کے ساتھ app workflow
+## کوڈیکس کے ساتھ app workflow
 
 ### مرحلہ 1: idea لکھیں
 
 مثلاً:
 
-> teachers کے لیے attendance app
+> اساتذہ کے لیے attendance app
 
 ### مرحلہ 2: features limit کریں
 
 صرف 3 features:
 
-- add student
-- mark attendance
-- view list
+- نکتہ: add student
+- نکتہ: mark attendance
+- نکتہ: view list
 
 ### مرحلہ 3: Codex سے first version بنوائیں
 
@@ -152,52 +152,52 @@ first working version چاہیے یا polished version؟
 
 چیک کریں:
 
-- app open ہو رہی ہے؟
-- buttons نظر آ رہے ہیں؟
-- layout mobile پر ٹھیک ہے؟
-- idea سمجھ آ رہا ہے؟
+- ایپ open ہو رہی ہے؟
+- بٹنز نظر آ رہے ہیں؟
+- لے آؤٹ mobile پر ٹھیک ہے؟
+- خیال سمجھ آ رہا ہے؟
 
 ### مرحلہ 5: refinement دیں
 
-- colors نرم کرو
-- font بڑا کرو
-- Urdu labels شامل کرو
-- data list صاف کرو
+- رنگ نرم کرو
+- فونٹ بڑا کرو
+- اردو labels شامل کرو
+- ڈیٹا list صاف کرو
 
-## beginners کے لیے اہم اصول
+## ابتدائی صارفین کے لیے اہم اصول
 
 ### 1. ایک ہی بار میں full product نہ مانگیں
 
-app بنوانے کا مطلب یہ نہیں کہ login، dashboard، payments، admin panel سب پہلے دن شامل ہوں۔
+ایپ بنوانے کا مطلب یہ نہیں کہ login، dashboard، payments، admin panel سب پہلے دن شامل ہوں۔
 
-### 2. feature creep سے بچیں
+### موضوع: 2. feature creep سے بچیں
 
 ہر نئے خیال کو فوراً شامل نہ کریں۔
 
-### 3. first version کو test کریں
+### موضوع: 3. first version کو test کریں
 
 صرف code تیار ہو جانا کافی نہیں۔ app چلنا بھی چاہیے۔
 
-### 4. follow-up improvements الگ الگ دیں
+### موضوع: 4. follow-up improvements الگ الگ دیں
 
 ایک prompt میں 20 changes نہ دیں۔
 
-## Codex کہاں سب سے زیادہ مدد دیتا ہے؟
+## کوڈیکس کہاں سب سے زیادہ مدد دیتا ہے؟
 
-simple app میں Codex ان چیزوں میں خاص مفید ہوتا ہے:
+سادہ ایپ میں Codex ان چیزوں میں خاص مفید ہوتا ہے:
 
-- initial structure
-- form creation
-- buttons اور layout
-- basic logic
-- visual cleanup
-- mobile responsiveness
+- نکتہ: initial structure
+- نکتہ: form creation
+- بٹنز اور layout
+- بنیادی logic
+- نکتہ: visual cleanup
+- موبائل responsiveness
 
-beginners کے لیے یہی چیزیں سب سے زیادہ useful ہوتی ہیں۔
+ابتدائی صارفین کے لیے یہی چیزیں سب سے زیادہ useful ہوتی ہیں۔
 
-## common mistakes
+## عام غلطیاں
 
-### 1. app idea واضح نہ ہونا
+### موضوع: 1. app idea واضح نہ ہونا
 
 اگر مسئلہ clear نہیں ہوگا تو app بھی clear نہیں ہوگی۔
 
@@ -205,15 +205,15 @@ beginners کے لیے یہی چیزیں سب سے زیادہ useful ہوتی ہ�
 
 پہلا قدم small رکھیں۔
 
-### 3. preview skip کرنا
+### موضوع: 3. preview skip کرنا
 
-app بننے کے بعد اسے دیکھنا ضروری ہے۔
+ایپ بننے کے بعد اسے دیکھنا ضروری ہے۔
 
-### 4. refinement نہ دینا
+### موضوع: 4. refinement نہ دینا
 
 پہلا version اکثر کافی نہیں ہوتا۔
 
-## ready-to-use beginner prompt
+## تیار استعمال beginner prompt
 
 > میرے لیے ایک simple Urdu-friendly todo app بناؤ۔ اس میں task add، complete اور delete feature ہو۔ layout clean ہو، mobile-friendly ہو، اور first version بہت simple رکھا جائے۔
 

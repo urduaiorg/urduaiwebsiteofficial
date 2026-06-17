@@ -1,6 +1,6 @@
 ---
-title: Codex سے portfolio اور client work کیسے بنائیں؟ — beginners کے لیے practical earning guide
-description: Codex سے بنے pages، apps اور documents کو portfolio، freelancing اور client work میں کیسے تبدیل کریں؟ non-technical Urdu learners کے لیے آسان practical guide۔
+title: کوڈیکس سے portfolio اور client work کیسے بنائیں؟ — ابتدائی صارفین کے لیے practical earning guide
+description: کوڈیکس سے بنے pages، apps اور documents کو portfolio، freelancing اور client work میں کیسے تبدیل کریں؟ non-technical Urdu learners کے لیے آسان practical guide۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -24,15 +24,15 @@ faq:
     answer: جی ہاں، اگر وہ client کی ضرورت سمجھ سکے، clear brief بنا سکے، اور Codex سے stable output نکلوا سکے۔
 ---
 
-Codex سیکھنے کا بہترین practical فائدہ یہ نہیں کہ آپ صرف "techy" لگیں۔ اصل فائدہ یہ ہے کہ آپ useful work بنا سکیں جسے لوگ استعمال کریں یا خریدیں۔
+کوڈیکس سیکھنے کا بہترین practical فائدہ یہ نہیں کہ آپ صرف "techy" لگیں۔ اصل فائدہ یہ ہے کہ آپ useful work بنا سکیں جسے لوگ استعمال کریں یا خریدیں۔
 
 ![Codex portfolio and client work cover](/images/guides/codex-guide-series/codex-github-cloudflare.png)
 
 اگر آپ beginner ہیں تو earning کا آغاز بہت بڑے SaaS product سے نہیں بلکہ small useful deliverables سے ہونا چاہیے۔
 
-## portfolio کا سادہ مطلب
+## پورٹ فولیو کا سادہ مطلب
 
-portfolio وہ collection ہے جس سے دوسروں کو پتا چلتا ہے کہ آپ کیا بنا سکتے ہیں۔
+پورٹ فولیو وہ collection ہے جس سے دوسروں کو پتا چلتا ہے کہ آپ کیا بنا سکتے ہیں۔
 
 مثلاً:
 
@@ -42,88 +42,88 @@ portfolio وہ collection ہے جس سے دوسروں کو پتا چلتا ہے 
 - ایک form-based tool
 - ایک registration page
 
-client کو یہ دیکھنا ہوتا ہے کہ آپ "باتیں" نہیں بلکہ "نتائج" دے سکتے ہیں۔
+کلائنٹ کو یہ دیکھنا ہوتا ہے کہ آپ "باتیں" نہیں بلکہ "نتائج" دے سکتے ہیں۔
 
-## Codex سے بننے والی best beginner services
+## کوڈیکس سے بننے والی best beginner services
 
 شروع میں ان services سے آغاز کریں:
 
-### 1. landing pages
+### موضوع: 1. landing pages
 
-small business، workshop، event یا course کے لیے۔
+چھوٹے کاروبار، workshop، event یا course کے لیے۔
 
-### 2. simple websites
+### موضوع: 2. simple websites
 
-profile page، service page، school info page، registration page۔
+پروفائل صفحہ، service page، school info page، registration page۔
 
-### 3. slide decks
+### موضوع: 3. slide decks
 
-training، pitch، class presentation، proposal deck۔
+ٹریننگ، pitch، class presentation، proposal deck۔
 
-### 4. documents
+### موضوع: 4. documents
 
-proposal، handout، summary، onboarding docs۔
+پروپوزل، handout، summary، onboarding docs۔
 
-### 5. simple internal tools
+### موضوع: 5. simple internal tools
 
-calculator، tracker، simple directory، form helper۔
+کیلکولیٹر، tracker، simple directory، form helper۔
 
 یہ سب Codex کے ذریعے beginners بھی بنوا سکتے ہیں۔
 
-## client work شروع کرنے کے لیے کیا ضروری ہے؟
+## کلائنٹ work شروع کرنے کے لیے کیا ضروری ہے؟
 
 آپ کو expert programmer ہونے کی ضرورت نہیں، لیکن یہ skills ضروری ہیں:
 
 - مسئلہ سمجھنا
-- clear brief بنانا
-- good prompt دینا
-- output review کرنا
-- final polish کرنا
+- نکتہ: clear brief بنانا
+- نکتہ: good prompt دینا
+- نتیجہ review کرنا
+- آخری polish کرنا
 
 یعنی client work میں technical سے زیادہ clarity اہم ہوتی ہے۔
 
-## portfolio میں کیا شامل کریں؟
+## پورٹ فولیو میں کیا شامل کریں؟
 
 ہر project کے ساتھ یہ 4 چیزیں رکھیں:
 
-### 1. project title
+### موضوع: 1. project title
 
 مثلاً:
 
-- Urdu AI workshop landing page
-- school registration page
-- parent info portal
+- اردو اے آئی workshop landing page
+- اسکول registration page
+- نکتہ: parent info portal
 
-### 2. short explanation
+### موضوع: 2. short explanation
 
 یہ page یا tool کس مسئلے کے لیے بنایا گیا؟
 
-### 3. live link
+### موضوع: 3. live link
 
-Cloudflare یا دوسرے public link کے ذریعے۔
+کلاوڈ فلیئر یا دوسرے public link کے ذریعے۔
 
-### 4. GitHub link
+### موضوع: 4. GitHub link
 
 اگر share کرنا مناسب ہو تو۔
 
 یہ combination trust بڑھاتا ہے۔
 
-## Codex کے ساتھ portfolio workflow
+## کوڈیکس کے ساتھ portfolio workflow
 
 ### مرحلہ 1: 3 small projects بنائیں
 
 مثلاً:
 
-- one landing page
-- one simple app
-- one document/slide sample
+- نکتہ: one landing page
+- نکتہ: one simple app
+- نکتہ: one document/slide sample
 
 ### مرحلہ 2: ہر project کو polish کریں
 
-- text clear
-- mobile-friendly
-- working CTA
-- no obvious bugs
+- متن clear
+- موبائل-friendly
+- نکتہ: working CTA
+- نکتہ: no obvious bugs
 
 ### مرحلہ 3: GitHub پر ڈالیں
 
@@ -131,7 +131,7 @@ Cloudflare یا دوسرے public link کے ذریعے۔
 
 ### مرحلہ 4: live کریں
 
-public link سے credibility بڑھتی ہے۔
+عوامی لنک سے credibility بڑھتی ہے۔
 
 ### مرحلہ 5: short case note لکھیں
 
@@ -139,16 +139,16 @@ public link سے credibility بڑھتی ہے۔
 
 > یہ page workshop registration کو آسان بنانے کے لیے بنایا گیا تھا۔
 
-## beginners کو پہلے client کہاں مل سکتے ہیں؟
+## ابتدائی صارفین کو پہلے client کہاں مل سکتے ہیں؟
 
 شروع میں بڑے marketplaces کے بجائے یہ جگہیں زیادہ آسان ہوتی ہیں:
 
-- local business circle
-- schools
-- trainers
-- community groups
-- WhatsApp contacts
-- Facebook groups
+- لوکل business circle
+- نکتہ: schools
+- نکتہ: trainers
+- نکتہ: community groups
+- واٹس ایپ contacts
+- فیس بک groups
 
 کیونکہ یہاں trust relationship پہلے سے موجود ہو سکتی ہے۔
 
@@ -164,52 +164,52 @@ public link سے credibility بڑھتی ہے۔
 
 یہ beginner-friendly positioning ہے۔
 
-## Codex client work میں کہاں مدد دیتا ہے؟
+## کوڈیکس client work میں کہاں مدد دیتا ہے؟
 
-Codex سے آپ:
+کوڈیکس سے آپ:
 
-- client brief کو structure کر سکتے ہیں
-- demo page جلدی بنا سکتے ہیں
-- revisions handle کر سکتے ہیں
-- slides اور proposal ساتھ دے سکتے ہیں
-- README یا handover note لکھ سکتے ہیں
+- کلائنٹ brief کو structure کر سکتے ہیں
+- نکتہ: demo page جلدی بنا سکتے ہیں
+- نکتہ: revisions handle کر سکتے ہیں
+- سلائیڈز اور proposal ساتھ دے سکتے ہیں
+- ریڈ می یا handover note لکھ سکتے ہیں
 
 یعنی Codex صرف build tool نہیں، delivery helper بھی ہے۔
 
-## client کے سامنے کیا نہیں کہنا چاہیے؟
+## کلائنٹ کے سامنے کیا نہیں کہنا چاہیے؟
 
 یہ beginners کے لیے اہم بات ہے:
 
 - صرف یہ نہ کہیں "AI نے بنایا"
 - یہ دکھائیں کہ "میں نے مسئلہ سمجھا اور solution deliver کیا"
 
-client کو tool سے زیادہ result کی پرواہ ہوتی ہے۔
+کلائنٹ کو tool سے زیادہ result کی پرواہ ہوتی ہے۔
 
-## common mistakes
+## عام غلطیاں
 
 ### 1. بہت بڑے وعدے کرنا
 
 شروع میں small scope رکھیں۔
 
-### 2. polish کے بغیر demo دینا
+### موضوع: 2. polish کے بغیر demo دینا
 
-draft کو final نہ سمجھیں۔
+ڈرافٹ کو final نہ سمجھیں۔
 
-### 3. live link نہ دینا
+### موضوع: 3. live link نہ دینا
 
-public result زیادہ convincing ہوتا ہے۔
+عوامی result زیادہ convincing ہوتا ہے۔
 
-### 4. project explanation نہ دینا
+### موضوع: 4. project explanation نہ دینا
 
-portfolio میں context بھی ضروری ہے۔
+پورٹ فولیو میں context بھی ضروری ہے۔
 
 ## ایک beginner-ready service stack
 
 اگر آپ ابھی شروع کر رہے ہیں تو یہ stack کافی ہے:
 
-- Codex for build and edits
-- GitHub for saving and sharing
-- Cloudflare Pages for live links
+- کوڈیکس for build and edits
+- گٹ ہب for saving and sharing
+- کلاوڈ فلیئر پیجز for live links
 
 اس سے آپ practical output دے سکتے ہیں۔
 
@@ -219,29 +219,29 @@ portfolio میں context بھی ضروری ہے۔
 
 یہ prompt آپ کے projects کو زیادہ professional بنا سکتا ہے۔
 
-## series سے آپ نے کیا سیکھ لیا؟
+## موضوع: series سے آپ نے کیا سیکھ لیا؟
 
 اگر آپ نے Codex series کی guides follow کی ہیں تو اب آپ:
 
-- Codex کو basic level پر سمجھتے ہیں
+- کوڈیکس کو basic level پر سمجھتے ہیں
 - اس کے اہم features جانتے ہیں
-- prompts بہتر لکھ سکتے ہیں
-- documents اور slides بنوا سکتے ہیں
-- simple web page اور app بنا سکتے ہیں
-- GitHub اور Cloudflare استعمال کر سکتے ہیں
-- debugging بھی کر سکتے ہیں
+- نکتہ: prompts بہتر لکھ سکتے ہیں
+- دستاویزات اور slides بنوا سکتے ہیں
+- سادہ web page اور app بنا سکتے ہیں
+- گٹ ہب اور Cloudflare استعمال کر سکتے ہیں
+- خرابی دور کرنا بھی کر سکتے ہیں
 
 یہ beginners کے لیے ایک strong practical stack ہے۔
 
 ## اگلا منطقی قدم
 
 اب بہترین اگلا قدم یہ ہے کہ آپ واقعی ایک چھوٹا مگر مکمل project finish کریں۔  
-[Codex mini project challenge](/guides/codex-mini-project-challenge/) اسی مقصد کے لیے بنایا گیا ہے، جہاں learner:
+[کوڈیکس mini project challenge](/guides/codex-mini-project-challenge/) اسی مقصد کے لیے بنایا گیا ہے، جہاں learner:
 
 1. ایک simple topic choose کرتا ہے
-2. Codex سے build کرواتا ہے
-3. GitHub پر save کرتا ہے
-4. Cloudflare پر live کرتا ہے
-5. portfolio note بھی لکھتا ہے
+2. کوڈیکس سے build کرواتا ہے
+3. گٹ ہب پر save کرتا ہے
+4. کلاوڈ فلیئر پر live کرتا ہے
+5. پورٹ فولیو note بھی لکھتا ہے
 
 یہ challenge اس series کو learning سے action میں بدل دیتا ہے۔

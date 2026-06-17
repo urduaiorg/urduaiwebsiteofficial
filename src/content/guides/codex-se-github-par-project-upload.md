@@ -1,6 +1,6 @@
 ---
-title: Codex سے project GitHub پر کیسے upload کریں؟ — beginners کے لیے آسان گائیڈ
-description: Codex سے بنائی گئی files یا web page کو GitHub پر کیسے محفوظ کریں؟ repository، commit، push اور share link کو beginners کے لیے سادہ Urdu میں سمجھیں۔
+title: کوڈیکس سے project گٹ ہب پر کیسے upload کریں؟ — ابتدائی صارفین کے لیے آسان گائیڈ
+description: کوڈیکس سے بنائی گئی files یا web page کو گٹ ہب پر کیسے محفوظ کریں؟ repository، commit، push اور share link کو beginners کے لیے سادہ Urdu میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -27,70 +27,70 @@ faq:
 
 ![GitHub and Cloudflare guide cover](/images/guides/codex-guide-series/codex-github-cloudflare.png)
 
-## GitHub کو سادہ لفظوں میں کیسے سمجھیں؟
+## گٹ ہب کو سادہ لفظوں میں کیسے سمجھیں؟
 
-GitHub کو یوں سمجھیں:
+گٹ ہب کو یوں سمجھیں:
 
-- Google Drive جیسی online جگہ
+- گوگل ڈرائیو جیسی online جگہ
 - لیکن خاص طور پر code اور projects کے لیے
 
 یہاں آپ:
 
-- project save کرتے ہیں
-- updates track کرتے ہیں
+- پروجیکٹ save کرتے ہیں
+- نکتہ: updates track کرتے ہیں
 - دوسروں کو link دیتے ہیں
-- live deployment کے لیے project connect کرتے ہیں
+- لائیو deployment کے لیے project connect کرتے ہیں
 
-## Codex users کے لیے GitHub کیوں ضروری ہے؟
+## کوڈیکس users کے لیے GitHub کیوں ضروری ہے؟
 
-Codex سے کام تیزی سے بنتا ہے، لیکن یہی speed ایک risk بھی بن سکتی ہے۔ اگر آپ changes save نہ کریں تو:
+کوڈیکس سے کام تیزی سے بنتا ہے، لیکن یہی speed ایک risk بھی بن سکتی ہے۔ اگر آپ changes save نہ کریں تو:
 
-- project گم ہو سکتا ہے
+- پروجیکٹ گم ہو سکتا ہے
 - اچھا version overwrite ہو سکتا ہے
-- live کرنے میں مشکل ہو سکتی ہے
+- لائیو کرنے میں مشکل ہو سکتی ہے
 
-GitHub ان سب مسائل کا حل ہے۔
+گٹ ہب ان سب مسائل کا حل ہے۔
 
 ## چار بنیادی الفاظ
 
-### Repository
+### موضوع: Repository
 
 یہ آپ کے project کا online folder ہے۔
 
-### Commit
+### موضوع: Commit
 
 یہ save point ہے۔ یعنی آپ نے ایک meaningful تبدیلی محفوظ کر دی۔
 
-### Push
+### موضوع: Push
 
 اپنے computer یا local project سے GitHub پر upload کرنا۔
 
-### Branch
+### موضوع: Branch
 
-project کی الگ working copy جہاں آپ experiment کر سکتے ہیں۔
+پروجیکٹ کی الگ working copy جہاں آپ experiment کر سکتے ہیں۔
 
-Beginners کے لیے شروع میں repository، commit اور push سمجھنا کافی ہے۔
+ابتدائی صارفین کے لیے شروع میں repository، commit اور push سمجھنا کافی ہے۔
 
-## project upload کرنے سے پہلے کیا check کریں؟
+## پروجیکٹ upload کرنے سے پہلے کیا check کریں؟
 
-GitHub پر upload سے پہلے یہ ضرور دیکھیں:
+گٹ ہب پر upload سے پہلے یہ ضرور دیکھیں:
 
-- page یا app چل رہی ہے؟
+- نکتہ: page یا app چل رہی ہے؟
 - غیر ضروری files تو نہیں؟
-- project folder واضح ہے؟
-- README یا short note موجود ہے؟
+- پروجیکٹ folder واضح ہے؟
+- ریڈ می یا short note موجود ہے؟
 
 یعنی پہلے project کو tidy کریں، پھر upload کریں۔
 
-## Codex اس مرحلے میں کہاں مدد دیتا ہے؟
+## کوڈیکس اس مرحلے میں کہاں مدد دیتا ہے؟
 
-Codex سے آپ یہ کام کرا سکتے ہیں:
+کوڈیکس سے آپ یہ کام کرا سکتے ہیں:
 
-- project files review
+- پروجیکٹ files review
 - غیر ضروری files کی نشاندہی
-- README draft
-- commit message ideas
-- next steps explanation
+- ریڈ می draft
+- نکتہ: commit message ideas
+- نکتہ: next steps explanation
 
 مثلاً:
 
@@ -100,7 +100,7 @@ Codex سے آپ یہ کام کرا سکتے ہیں:
 
 > میرے project کے لیے ایک simple README لکھ دو۔
 
-## GitHub workflow beginners کے لیے
+## گٹ ہب workflow beginners کے لیے
 
 ### مرحلہ 1: GitHub account بنائیں
 
@@ -110,9 +110,9 @@ Codex سے آپ یہ کام کرا سکتے ہیں:
 
 ایک new repository بنائیں، مثلاً:
 
-- codex-first-page
-- urdu-ai-codex-demo
-- parents-ai-landing-page
+- نکتہ: codex-first-page
+- نکتہ: urdu-ai-codex-demo
+- والدین-ai-landing-page
 
 ### مرحلہ 3: project connect کریں
 
@@ -120,11 +120,11 @@ Codex سے آپ یہ کام کرا سکتے ہیں:
 
 ### مرحلہ 4: پہلا commit کریں
 
-clear message لکھیں:
+نوٹ: clear message لکھیں:
 
-- first landing page
-- initial Codex project
-- Urdu workshop page draft
+- نکتہ: first landing page
+- نکتہ: initial Codex project
+- اردو workshop page draft
 
 ### مرحلہ 5: push کریں
 
@@ -134,31 +134,31 @@ clear message لکھیں:
 
 کمزور:
 
-- update
-- changes
-- final
+- نکتہ: update
+- نکتہ: changes
+- آخری
 
 بہتر:
 
-- add first Urdu landing page
-- add course registration section
-- fix mobile spacing and CTA
+- نکتہ: add first Urdu landing page
+- نکتہ: add course registration section
+- نکتہ: fix mobile spacing and CTA
 
-clear message future میں بہت مدد دیتا ہے۔
+نوٹ: clear message future میں بہت مدد دیتا ہے۔
 
-## README کیوں ضروری ہے؟
+## ریڈ می کیوں ضروری ہے؟
 
-README وہ پہلی چیز ہے جو کوئی بھی GitHub پر دیکھتا ہے۔  
+ریڈ می وہ پہلی چیز ہے جو کوئی بھی GitHub پر دیکھتا ہے۔
 اس میں کم از کم یہ ہونا چاہیے:
 
-- project کیا ہے
+- پروجیکٹ کیا ہے
 - کس مقصد کے لیے ہے
 - کون سی technology یا tool استعمال ہوا
-- live link اگر موجود ہو
+- لائیو لنک اگر موجود ہو
 
-Codex سے یہ فوراً لکھوایا جا سکتا ہے۔
+کوڈیکس سے یہ فوراً لکھوایا جا سکتا ہے۔
 
-## beginners کے لیے ایک useful Codex prompt
+## ابتدائی صارفین کے لیے ایک useful Codex prompt
 
 > میرے موجودہ project کو GitHub-ready بناؤ۔ پہلے files review کرو، پھر ایک simple README draft دو، پھر مجھے واضح بتاؤ کہ first commit کے لیے کیا message مناسب ہوگا۔
 
@@ -166,34 +166,34 @@ Codex سے یہ فوراً لکھوایا جا سکتا ہے۔
 
 ### 1. ہر چیز upload کر دینا
 
-temporary files، random screenshots یا غیر ضروری folders upload نہ کریں۔
+نوٹ: temporary files، random screenshots یا غیر ضروری folders upload نہ کریں۔
 
-### 2. project چیک کیے بغیر push کر دینا
+### موضوع: 2. project چیک کیے بغیر push کر دینا
 
 پہلے verify کریں کہ current version واقعی وہی ہے جو آپ share کرنا چاہتے ہیں۔
 
-### 3. vague commit messages
+### موضوع: 3. vague commit messages
 
 بعد میں خود کو بھی سمجھ نہیں آئے گا کیا بدلا تھا۔
 
-### 4. README نہ بنانا
+### موضوع: 4. README نہ بنانا
 
 یہ small چیز لگتی ہے، لیکن portfolio value اسی سے بڑھتی ہے۔
 
-## GitHub link کا فائدہ کیا ہے؟
+## گٹ ہب link کا فائدہ کیا ہے؟
 
 ایک اچھا GitHub link آپ کو یہ سب دیتا ہے:
 
-- proof کہ project واقعی بنایا گیا
-- client یا student کے ساتھ sharing
-- future updates کا record
-- Cloudflare یا دوسری hosting سے connection
+- نکتہ: proof کہ project واقعی بنایا گیا
+- کلائنٹ یا student کے ساتھ sharing
+- نکتہ: future updates کا record
+- کلاوڈ فلیئر یا دوسری hosting سے connection
 
 یعنی GitHub صرف storage نہیں، publishing pipeline کا حصہ ہے۔
 
 ## اگلا قدم
 
-GitHub پر project چڑھ گیا تو اب اصل مزہ شروع ہوتا ہے: اسے live کرنا۔
+گٹ ہب پر project چڑھ گیا تو اب اصل مزہ شروع ہوتا ہے: اسے live کرنا۔
 
 یعنی اب لوگ صرف code نہیں دیکھیں گے بلکہ actual website کھول سکیں گے۔
 

@@ -1,6 +1,6 @@
 ---
-title: Codex سے documents اور slides کیسے بنائیں؟ — beginners کے لیے آسان عملی گائیڈ
-description: Codex سے report، outline، handout، proposal اور presentation slides کیسے بنائی جائیں؟ عام Urdu users کے لیے step-by-step guide۔
+title: کوڈیکس سے دستاویزات اور سلائیڈز کیسے بنائیں؟ — ابتدائی صارفین کے لیے آسان عملی گائیڈ
+description: کوڈیکس سے report، outline، handout، proposal اور presentation slides کیسے بنائی جائیں؟ عام Urdu users کے لیے step-by-step guide۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -26,33 +26,33 @@ faq:
 
 ![Codex documents and slides](/images/guides/codex-guide-series/codex-documents-slides.png)
 
-## Codex سے کون کون سے documents بن سکتے ہیں؟
+## کوڈیکس سے کون کون سے documents بن سکتے ہیں؟
 
-Codex سے آپ یہ چیزیں آسانی سے بنوا سکتے ہیں:
+کوڈیکس سے آپ یہ چیزیں آسانی سے بنوا سکتے ہیں:
 
-- training outline
-- lesson plan
-- report
-- proposal
-- business note
-- event handout
-- one-page summary
-- checklist
-- FAQ sheet
+- ٹریننگ outline
+- نکتہ: lesson plan
+- رپورٹ
+- پروپوزل
+- کاروباری note
+- نکتہ: event handout
+- نکتہ: one-page summary
+- نکتہ: checklist
+- نکتہ: FAQ sheet
 
 اور اگر آپ کہیں تو یہی چیز Urdu یا English دونوں میں بن سکتی ہے۔
 
-## slide اور document میں فرق کیا ہے؟
+## سلائیڈ اور document میں فرق کیا ہے؟
 
 یہ فرق beginners کے لیے سمجھنا ضروری ہے:
 
-- **document** = پڑھنے کے لیے
-- **slide** = دکھانے اور سکھانے کے لیے
+- **دستاویز** = پڑھنے کے لیے
+- **سلائیڈ** = دکھانے اور سکھانے کے لیے
 
-document میں تفصیل زیادہ ہوتی ہے۔  
-slide میں خلاصہ اور visual flow زیادہ اہم ہوتا ہے۔
+دستاویز میں تفصیل زیادہ ہوتی ہے۔
+سلائیڈ میں خلاصہ اور visual flow زیادہ اہم ہوتا ہے۔
 
-Codex دونوں کے لیے الگ انداز میں کام کر سکتا ہے، بشرطیکہ آپ اسے شروع میں واضح بتائیں۔
+کوڈیکس دونوں کے لیے الگ انداز میں کام کر سکتا ہے، بشرطیکہ آپ اسے شروع میں واضح بتائیں۔
 
 ## اچھا prompt کیسا ہونا چاہیے؟
 
@@ -62,27 +62,27 @@ Codex دونوں کے لیے الگ انداز میں کام کر سکتا ہے�
 
 تو result کمزور ہو سکتا ہے۔ بہتر یہ ہے:
 
-> beginner parents کے لیے AI awareness workshop کی Urdu presentation بناؤ۔ 10 slides ہوں۔ ہر slide میں short title، 3 points اور presenter note بھی دو۔
+> ابتدائی parents کے لیے AI awareness workshop کی Urdu presentation بناؤ۔ 10 slides ہوں۔ ہر slide میں short title، 3 points اور presenter note بھی دو۔
 
 یہاں آپ نے 4 چیزیں clear کر دیں:
 
-- audience
-- language
-- slide count
-- output format
+- سامعین
+- زبان
+- سلائیڈ count
+- نتیجہ format
 
-## Codex سے document بنوانے کا سادہ طریقہ
+## کوڈیکس سے document بنوانے کا سادہ طریقہ
 
 فرض کریں آپ کو ایک one-page Urdu guide چاہیے۔ آپ ایسا prompt دے سکتے ہیں:
 
 > ایک Urdu one-page guide بناؤ جس کا موضوع ہو "school parents کے لیے AI کیوں اہم ہے"۔ short intro، 5 benefits، 3 risks اور آخر میں simple advice شامل کرو۔
 
-Codex عام طور پر:
+کوڈیکس عام طور پر:
 
-- heading دے گا
-- structured sections دے گا
-- bullet points دے گا
-- readable flow دے گا
+- نکتہ: heading دے گا
+- نکتہ: structured sections دے گا
+- نکتہ: bullet points دے گا
+- نکتہ: readable flow دے گا
 
 اگر آپ مطمئن نہ ہوں تو follow-up دیں:
 
@@ -91,50 +91,50 @@ Codex عام طور پر:
 - ایک table شامل کرو
 - آخر میں summary شامل کرو
 
-## Codex سے slide deck بنوانے کا طریقہ
+## کوڈیکس سے slide deck بنوانے کا طریقہ
 
-slides کے لیے prompt تھوڑا مختلف دیں:
+سلائیڈز کے لیے prompt تھوڑا مختلف دیں:
 
-> "Codex کیا ہے" کے موضوع پر Urdu beginners کے لیے 12-slide presentation بناؤ۔ ہر slide میں title، 3 short bullets اور presenter note دو۔ tone friendly اور non-technical رکھو۔
+> "کوڈیکس کیا ہے" کے موضوع پر Urdu beginners کے لیے 12-slide presentation بناؤ۔ ہر slide میں title، 3 short bullets اور presenter note دو۔ tone friendly اور non-technical رکھو۔
 
 یہ Codex کو واضح direction دیتا ہے کہ:
 
-- slide-heavy format چاہیے
-- verbose paragraph نہیں چاہیے
-- audience beginner ہے
+- سلائیڈ-heavy format چاہیے
+- نکتہ: verbose paragraph نہیں چاہیے
+- سامعین beginner ہے
 
-## Codex سے بنوائے گئے document کو فوراً final نہ سمجھیں
+## کوڈیکس سے بنوائے گئے document کو فوراً final نہ سمجھیں
 
 یہ بہت اہم اصول ہے۔ Codex draft بہت تیزی سے دیتا ہے، لیکن آپ کو یہ چیزیں check کرنی چاہئیں:
 
-- audience واقعی یہی ہے؟
-- tone بہت مشکل تو نہیں؟
-- facts درست ہیں؟
+- سامعین واقعی یہی ہے؟
+- لہجہ بہت مشکل تو نہیں؟
+- نکتہ: facts درست ہیں؟
 - بہت لمبا تو نہیں؟
-- repetition تو نہیں؟
+- نکتہ: repetition تو نہیں؟
 
 یعنی Codex speed دیتا ہے، final editorial فیصلہ اب بھی آپ کا ہے۔
 
-## Urdu learners کے لیے بہترین use cases
+## اردو learners کے لیے بہترین use cases
 
 اگر آپ Urdu AI audience کے لیے content بنا رہے ہیں تو Codex ان کاموں میں خاص طور پر useful ہے:
 
-- Urdu workshop outline
-- Urdu YouTube script summary
-- Urdu class handout
-- Urdu quiz questions
-- Urdu deck outline
-- Urdu FAQs
+- اردو workshop outline
+- اردو YouTube script summary
+- اردو class handout
+- اردو quiz questions
+- اردو deck outline
+- اردو FAQs
 
 مثلاً اگر آپ master class چلا رہے ہیں تو ایک ہی topic سے Codex سے یہ سب نکال سکتے ہیں:
 
-- full article
-- class notes
-- slide outline
-- WhatsApp summary
-- YouTube description
+- مکمل article
+- نکتہ: class notes
+- سلائیڈ outline
+- واٹس ایپ summary
+- یوٹیوب description
 
-## document اور slide کے لیے دو الگ prompts استعمال کریں
+## دستاویز اور slide کے لیے دو الگ prompts استعمال کریں
 
 یہ common mistake ہے کہ لوگ ایک ہی prompt سے دونوں چیزیں مانگتے ہیں۔
 
@@ -155,7 +155,7 @@ slides کے لیے prompt تھوڑا مختلف دیں:
 
 مثلاً:
 
-> parents کو AI کے فائدے سمجھانے ہیں
+> والدین کو AI کے فائدے سمجھانے ہیں
 
 ### مرحلہ 2: Codex سے outline بنوائیں
 
@@ -175,44 +175,44 @@ slides کے لیے prompt تھوڑا مختلف دیں:
 
 یہی Codex کی طاقت ہے: ایک idea سے کئی formats۔
 
-## Codex slides کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
+## کوڈیکس slides کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
 
-- slide sequence بنانا
-- session timing کے مطابق تقسیم
-- titles کو short کرنا
-- key points کو bullets میں بدلنا
-- presenter notes تیار کرنا
-- recap اور homework sections بنانا
+- سلائیڈ sequence بنانا
+- نکتہ: session timing کے مطابق تقسیم
+- نکتہ: titles کو short کرنا
+- نکتہ: key points کو bullets میں بدلنا
+- نکتہ: presenter notes تیار کرنا
+- نکتہ: recap اور homework sections بنانا
 
 اگر آپ trainer یا instructor ہیں تو یہ بہت بڑی saving ہے۔
 
 ## عام غلطیاں
 
-### 1. audience نہ بتانا
+### موضوع: 1. audience نہ بتانا
 
-parents، students، teachers، freelancers، business owners سب کے لیے الگ زبان چاہیے۔
+والدین، students، teachers، freelancers، business owners سب کے لیے الگ زبان چاہیے۔
 
-### 2. tone نہ بتانا
+### موضوع: 2. tone نہ بتانا
 
-friendly، formal، professional، beginner-friendly — یہ پہلے بتائیں۔
+نوٹ: friendly، formal، professional، beginner-friendly — یہ پہلے بتائیں۔
 
 ### 3. بہت زیادہ کام ایک ساتھ مانگنا
 
-پہلے outline  
-پھر document  
+پہلے outline
+پھر document
 پھر slide deck
 
-step by step جائیں۔
+نوٹ: step by step جائیں۔
 
-### 4. Urdu کے لیے verify نہ کرنا
+### موضوع: 4. Urdu کے لیے verify نہ کرنا
 
-Codex Urdu اچھی لکھ سکتا ہے، لیکن final reading ضروری ہے تاکہ flow natural لگے۔
+کوڈیکس Urdu اچھی لکھ سکتا ہے، لیکن final reading ضروری ہے تاکہ flow natural لگے۔
 
-## beginners کے لیے ایک ready prompt
+## ابتدائی صارفین کے لیے ایک ready prompt
 
 > ایک Urdu training handout بناؤ جس کا موضوع ہو "Codex سے beginners کیا کیا کر سکتے ہیں"۔ audience non-technical learners ہیں۔ short intro، 5 use cases، 5 common mistakes، اور final advice شامل کرو۔ language بہت آسان رکھو۔
 
-slides کے لیے:
+سلائیڈز کے لیے:
 
 > اسی handout کو 8-slide presentation میں بدل دو۔ ہر slide میں short title، 3 bullets اور presenter notes دو۔
 
@@ -220,13 +220,13 @@ slides کے لیے:
 
 ## ابھی آپ کیا بنوا سکتے ہیں؟
 
-practice کے لیے ان میں سے ایک چیز فوراً try کریں:
+نوٹ: practice کے لیے ان میں سے ایک چیز فوراً try کریں:
 
 - اپنا workshop handout
 - اپنی پہلی presentation
-- YouTube video outline
-- parent session notes
-- training FAQ
+- یوٹیوب video outline
+- نکتہ: parent session notes
+- ٹریننگ FAQ
 
 ## اگلی گائیڈ میں
 

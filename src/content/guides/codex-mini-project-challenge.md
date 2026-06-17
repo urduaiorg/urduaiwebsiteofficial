@@ -1,6 +1,6 @@
 ---
-title: "Codex mini project challenge — اپنی پہلی مکمل build beginner طریقے سے کریں"
-description: "Codex سے ایک چھوٹا مگر مکمل practical project کیسے بنائیں؟ idea، prompt، page، GitHub، Cloudflare اور final share تک step-by-step Urdu challenge۔"
+title: "کوڈیکس منی پروجیکٹ چیلنج — اپنی پہلی مکمل build آسان طریقے سے کریں"
+description: "کوڈیکس سے ایک چھوٹا مگر مکمل عملی پروجیکٹ کیسے بنائیں؟ idea، prompt، page، گٹ ہب، کلاوڈ فلیئر اور final share تک step-by-step Urdu challenge۔"
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -33,60 +33,60 @@ faq:
 اس challenge کے آخر میں آپ کے پاس یہ پانچ چیزیں ہونی چاہئیں:
 
 - ایک simple project idea
-- Codex سے بنا ہوا working output
-- GitHub repository
-- Cloudflare پر live link
+- کوڈیکس سے بنا ہوا working output
+- گٹ ہب repository
+- کلاوڈ فلیئر پر live link
 - دو یا تین line کی project explanation
 
 یعنی theory سے real result تک پورا loop۔
 
-## project کتنا بڑا ہونا چاہیے؟
+## پروجیکٹ کتنا بڑا ہونا چاہیے؟
 
-Beginners کے لیے صرف small scope project مناسب ہے۔
+ابتدائی صارفین کے لیے صرف small scope project مناسب ہے۔
 
 بہترین examples:
 
-- workshop registration page
-- school parent information page
-- simple todo app
-- student contact directory
-- quote calculator
-- small service landing page
+- نکتہ: workshop registration page
+- اسکول parent information page
+- سادہ todo app
+- طالب علم contact directory
+- نکتہ: quote calculator
+- نکتہ: small service landing page
 
 غلط choice:
 
-- full marketplace
-- advanced SaaS
-- multi-role dashboard
-- complex login system with many screens
+- مکمل marketplace
+- نکتہ: advanced SaaS
+- نکتہ: multi-role dashboard
+- نکتہ: complex login system with many screens
 
-## challenge کے لیے ایک ready idea
+## موضوع: challenge کے لیے ایک ready idea
 
 اگر آپ decide نہیں کر پا رہے تو یہ project بنا لیں:
 
-> Urdu AI workshop registration landing page
+> اردو اے آئی workshop registration landing page
 
 اس میں شامل ہو:
 
 - ایک clear heading
-- short intro
-- 4 benefits
-- instructor section
-- WhatsApp یا registration CTA
+- نکتہ: short intro
+- نکتہ: 4 benefits
+- نکتہ: instructor section
+- واٹس ایپ یا registration CTA
 
 یہ beginner-friendly بھی ہے اور practical بھی۔
 
-## challenge step by step
+## موضوع: challenge step by step
 
 ### مرحلہ 1: اپنا project idea ایک لائن میں لکھیں
 
 مثلاً:
 
-> parents کے لیے AI awareness workshop registration page
+> والدین کے لیے AI awareness workshop registration page
 
 یا:
 
-> teachers کے لیے simple attendance app
+> اساتذہ کے لیے simple attendance app
 
 بس ایک clear sentence کافی ہے۔
 
@@ -94,64 +94,64 @@ Beginners کے لیے صرف small scope project مناسب ہے۔
 
 مثال:
 
-> Urdu-speaking parents کے لیے AI awareness workshop registration landing page بناؤ۔ اس میں heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> اردو-speaking parents کے لیے AI awareness workshop registration landing page بناؤ۔ اس میں heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
 
 یہی challenge کا اصل آغاز ہے۔
 
 ### مرحلہ 3: first version بننے دیں
 
-اب فوراً perfection مت مانگیں۔  
+اب فوراً perfection مت مانگیں۔
 پہلے یہ check کریں:
 
-- project بن گیا؟
-- structure سمجھ آ رہا ہے؟
-- sections موجود ہیں؟
+- پروجیکٹ بن گیا؟
+- نکتہ: structure سمجھ آ رہا ہے؟
+- نکتہ: sections موجود ہیں؟
 
 پہلا version صرف foundation ہے۔
 
 ### مرحلہ 4: refinement کروائیں
 
-Codex کو follow-up دیں:
+کوڈیکس کو follow-up دیں:
 
-- Urdu زیادہ natural کرو
-- heading کو strong کرو
-- spacing بہتر کرو
-- CTA زیادہ واضح کرو
-- mobile layout بہتر کرو
+- اردو زیادہ natural کرو
+- نکتہ: heading کو strong کرو
+- نکتہ: spacing بہتر کرو
+- کال ٹو ایکشن زیادہ واضح کرو
+- موبائل layout بہتر کرو
 
 یہاں quality بنتی ہے۔
 
 ### مرحلہ 5: اگر issue آئے تو debug کریں
 
-اگر کچھ ٹوٹ جائے تو random changes نہ کریں۔  
-[debugging guide](/guides/codex-debugging-for-beginners/) کے اصول follow کریں۔
+اگر کچھ ٹوٹ جائے تو random changes نہ کریں۔
+[خرابی دور کرنا guide](/guides/codex-debugging-for-beginners/) کے اصول follow کریں۔
 
 مثلاً Codex سے کہیں:
 
-> mobile view میں button cut ہو رہا ہے۔ cause دیکھو اور smallest fix لگاؤ۔
+> موبائل view میں button cut ہو رہا ہے۔ cause دیکھو اور smallest fix لگاؤ۔
 
 ### مرحلہ 6: GitHub پر upload کریں
 
 اب project save کریں:
 
-- repository بنائیں
-- clear commit کریں
-- GitHub link تیار کریں
+- نکتہ: repository بنائیں
+- نکتہ: clear commit کریں
+- گٹ ہب link تیار کریں
 
-ضرورت ہو تو پہلے یہ guide دیکھیں:  
-[GitHub upload guide](/guides/codex-se-github-par-project-upload/)
+ضرورت ہو تو پہلے یہ guide دیکھیں:
+[گٹ ہب upload guide](/guides/codex-se-github-par-project-upload/)
 
 ### مرحلہ 7: Cloudflare پر live کریں
 
 اب project public link میں بدلیں:
 
-- repository connect کریں
-- build command confirm کریں
-- output folder confirm کریں
-- deploy کریں
+- نکتہ: repository connect کریں
+- نکتہ: build command confirm کریں
+- نتیجہ folder confirm کریں
+- نکتہ: deploy کریں
 
-ضرورت ہو تو یہ guide دیکھیں:  
-[Cloudflare live guide](/guides/codex-se-cloudflare-par-live-website/)
+ضرورت ہو تو یہ guide دیکھیں:
+[کلاوڈ فلیئر live guide](/guides/codex-se-cloudflare-par-live-website/)
 
 ### مرحلہ 8: ایک short project note لکھیں
 
@@ -159,7 +159,7 @@ Codex کو follow-up دیں:
 
 - یہ project کس کے لیے تھا
 - اس نے کون سا مسئلہ solve کیا
-- live link کہاں ہے
+- لائیو لنک کہاں ہے
 
 مثال:
 
@@ -167,7 +167,7 @@ Codex کو follow-up دیں:
 
 یہی note portfolio میں کام آئے گا۔
 
-## beginners کے لیے success checklist
+## ابتدائی صارفین کے لیے success checklist
 
 اپنے آپ سے یہ سوال پوچھیں:
 
@@ -179,7 +179,7 @@ Codex کو follow-up دیں:
 
 اگر ان پانچ میں ہاں آ جائے تو challenge کامیاب ہے۔
 
-## challenge کے دوران common mistakes
+## موضوع: challenge کے دوران common mistakes
 
 ### 1. بہت بڑا idea چن لینا
 
@@ -187,44 +187,44 @@ Codex کو follow-up دیں:
 
 ### 2. پہلا draft final سمجھ لینا
 
-Codex کے ساتھ refinement ضروری ہے۔
+کوڈیکس کے ساتھ refinement ضروری ہے۔
 
-### 3. save نہ کرنا
+### موضوع: 3. save نہ کرنا
 
-GitHub کے بغیر practical workflow ادھورا رہتا ہے۔
+گٹ ہب کے بغیر practical workflow ادھورا رہتا ہے۔
 
-### 4. live link نہ بنانا
+### موضوع: 4. live link نہ بنانا
 
 جب تک project public نہ ہو، confidence اور portfolio value دونوں کم رہتے ہیں۔
 
 اگر آپ detailed version پڑھنا چاہتے ہیں تو [Codex common mistakes guide](/guides/codex-common-mistakes-for-beginners/) اس challenge سے پہلے یا ساتھ دیکھیں۔
 
-## challenge کے لیے ready prompt pack
+## موضوع: challenge کے لیے ready prompt pack
 
-### build prompt
+### موضوع: build prompt
 
 > میرے لیے Urdu-speaking parents کے لیے ایک AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
 
-### polish prompt
+### موضوع: polish prompt
 
 > موجودہ page کو beginner-friendly Urdu کے ساتھ refine کرو۔ heading زیادہ clear کرو، spacing بہتر کرو، اور CTA نمایاں رکھو۔
 
-### debug prompt
+### خرابی دور کریں prompt
 
-> mobile layout check کرو۔ اگر button، text یا spacing issue ہو تو smallest safe fix لگاؤ۔
+> موبائل layout check کرو۔ اگر button، text یا spacing issue ہو تو smallest safe fix لگاؤ۔
 
-### portfolio prompt
+### پورٹ فولیو prompt
 
 > اس project کے لیے 3 line کی simple case study لکھو جس میں مقصد، فائدہ اور result واضح ہو۔
 
-## challenge مکمل ہونے کے بعد کیا کریں؟
+## موضوع: challenge مکمل ہونے کے بعد کیا کریں؟
 
-challenge مکمل ہو جائے تو اس same pattern پر دوسرا project بنائیں۔  
+نوٹ: challenge مکمل ہو جائے تو اس same pattern پر دوسرا project بنائیں۔
 مثلاً:
 
-- registration page
-- simple tool
-- document plus landing page combo
+- نکتہ: registration page
+- سادہ tool
+- دستاویز plus landing page combo
 
 دو یا تین ایسے mini projects آپ کو beginner سے practical creator بنا دیتے ہیں۔
 

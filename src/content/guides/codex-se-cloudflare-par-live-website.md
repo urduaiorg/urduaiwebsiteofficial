@@ -1,6 +1,6 @@
 ---
-title: Codex سے website کو Cloudflare پر live کیسے کریں؟ — beginners کے لیے آسان Urdu guide
-description: Codex سے بنے project کو GitHub سے Cloudflare Pages پر live کیسے کیا جائے؟ build command، output folder اور public URL کو step-by-step سمجھیں۔
+title: کوڈیکس سے website کو کلاوڈ فلیئر پر live کیسے کریں؟ — ابتدائی صارفین کے لیے آسان Urdu guide
+description: کوڈیکس سے بنے project کو گٹ ہب سے کلاوڈ فلیئر پیجز پر live کیسے کیا جائے؟ build command، output folder اور public URL کو step-by-step سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -26,46 +26,46 @@ faq:
 
 بہت سے beginners project بنا لیتے ہیں، GitHub پر بھی چڑھا دیتے ہیں، لیکن وہیں رک جاتے ہیں۔ اصل فرق تب آتا ہے جب آپ کی website کا ایک public link بن جائے جسے کوئی بھی کھول سکے۔
 
-Cloudflare Pages اسی کام کے لیے بہترین beginner option ہے۔
+کلاوڈ فلیئر پیجز اسی کام کے لیے بہترین beginner option ہے۔
 
 ![GitHub and Cloudflare cover](/images/guides/codex-guide-series/codex-github-cloudflare.png)
 
-## live کرنے کا مطلب کیا ہے؟
+## لائیو کرنے کا مطلب کیا ہے؟
 
-simple الفاظ میں:
+سادہ الفاظ میں:
 
-- project آپ کے computer پر تھا
+- پروجیکٹ آپ کے computer پر تھا
 - پھر GitHub پر گیا
 - اب Cloudflare اسے internet پر public کر دیتا ہے
 
 یعنی کوئی بھی شخص browser میں link کھول کر آپ کی website دیکھ سکتا ہے۔
 
-## Cloudflare Pages کیا کرتی ہے؟
+## کلاوڈ فلیئر پیجز کیا کرتی ہے؟
 
-Cloudflare Pages GitHub repository سے project پڑھتی ہے، پھر:
+کلاوڈ فلیئر پیجز GitHub repository سے project پڑھتی ہے، پھر:
 
-- project build کرتی ہے
-- final website files تیار کرتی ہے
-- public URL دیتی ہے
+- پروجیکٹ build کرتی ہے
+- آخری website files تیار کرتی ہے
+- عوامی URL دیتی ہے
 
 اگر آپ بعد میں GitHub پر update push کریں تو website دوبارہ update ہو سکتی ہے۔
 
-## beginners کے لیے یہ کیوں useful ہے؟
+## ابتدائی صارفین کے لیے یہ کیوں useful ہے؟
 
 کیونکہ آپ کو:
 
 - اپنا server خود نہیں چلانا
-- hosting setup manually نہیں کرنا
-- complicated deployment process نہیں سیکھنا
+- نکتہ: hosting setup manually نہیں کرنا
+- نکتہ: complicated deployment process نہیں سیکھنا
 
 بس repository connect کریں، settings دیں، اور deploy کر دیں۔
 
-## live کرنے سے پہلے کیا ready ہونا چاہیے؟
+## لائیو کرنے سے پہلے کیا ready ہونا چاہیے؟
 
-Cloudflare پر جانے سے پہلے یہ چیزیں ready ہوں:
+کلاوڈ فلیئر پر جانے سے پہلے یہ چیزیں ready ہوں:
 
-- project GitHub پر موجود ہو
-- project locally ایک بار چل چکا ہو
+- پروجیکٹ GitHub پر موجود ہو
+- پروجیکٹ locally ایک بار چل چکا ہو
 - آپ کو پتا ہو build command کیا ہے
 - آپ کو پتا ہو output folder کیا ہے
 
@@ -75,31 +75,31 @@ Cloudflare پر جانے سے پہلے یہ چیزیں ready ہوں:
 
 یہ بہت useful beginner prompt ہے۔
 
-## build command کیا ہوتی ہے؟
+## موضوع: build command کیا ہوتی ہے؟
 
-Cloudflare کو یہ بتانا پڑتا ہے کہ project کو final site میں کیسے تبدیل کرنا ہے۔
+کلاوڈ فلیئر کو یہ بتانا پڑتا ہے کہ project کو final site میں کیسے تبدیل کرنا ہے۔
 
 عام examples:
 
-- `npm run build`
-- `pnpm build`
+- مثال: `npm run build`
+- مثال: `pnpm build`
 - یا کچھ static projects میں شاید build کی ضرورت ہی نہ ہو
 
-beginners کو guess نہیں کرنا چاہیے۔ project کے مطابق دیکھنا چاہیے۔
+ابتدائی صارفین کو guess نہیں کرنا چاہیے۔ project کے مطابق دیکھنا چاہیے۔
 
-## output folder کیا ہوتا ہے؟
+## نتیجہ folder کیا ہوتا ہے؟
 
-build کے بعد final website files ایک folder میں آتی ہیں۔ یہی output folder ہوتا ہے۔
+نوٹ: build کے بعد final website files ایک folder میں آتی ہیں۔ یہی output folder ہوتا ہے۔
 
 عام examples:
 
-- `dist`
-- `out`
+- فولڈر: `dist`
+- فولڈر: `out`
 - یا static projects میں root output structure
 
 اگر یہ غلط دیا تو deploy fail ہو سکتا ہے یا blank site آ سکتی ہے۔
 
-## Cloudflare workflow step by step
+## کلاوڈ فلیئر workflow step by step
 
 ### مرحلہ 1: Cloudflare account بنائیں
 
@@ -107,7 +107,7 @@ build کے بعد final website files ایک folder میں آتی ہیں۔ یہ�
 
 ### مرحلہ 2: Pages section کھولیں
 
-Workers & Pages کے اندر نئی project creation کا option ملتا ہے۔
+نوٹ: Workers & Pages کے اندر نئی project creation کا option ملتا ہے۔
 
 ### مرحلہ 3: GitHub repository connect کریں
 
@@ -123,17 +123,17 @@ Workers & Pages کے اندر نئی project creation کا option ملتا ہے�
 
 ### مرحلہ 6: deploy کریں
 
-Cloudflare website build کرے گا اور public URL دے دے گا۔
+کلاوڈ فلیئر website build کرے گا اور public URL دے دے گا۔
 
-## Codex اس مرحلے میں کیا مدد کر سکتا ہے؟
+## کوڈیکس اس مرحلے میں کیا مدد کر سکتا ہے؟
 
-Codex سے آپ یہ سب کرا سکتے ہیں:
+کوڈیکس سے آپ یہ سب کرا سکتے ہیں:
 
-- build command identify
-- output folder identify
-- deployment checklist
-- post-deploy fixes
-- live update workflow explanation
+- نکتہ: build command identify
+- نتیجہ folder identify
+- نکتہ: deployment checklist
+- نکتہ: post-deploy fixes
+- لائیو update workflow explanation
 
 مثلاً:
 
@@ -143,15 +143,15 @@ Codex سے آپ یہ سب کرا سکتے ہیں:
 
 > اگر deploy fail ہو تو likely reasons کیا ہو سکتے ہیں؟
 
-## deploy کے بعد کیا check کریں؟
+## موضوع: deploy کے بعد کیا check کریں؟
 
-public URL کھلنے کے بعد یہ دیکھیں:
+عوامی URL کھلنے کے بعد یہ دیکھیں:
 
-- website open ہو رہی ہے؟
-- Urdu text صحیح آ رہا ہے؟
-- mobile پر layout ٹھیک ہے؟
-- buttons کام کر رہے ہیں؟
-- latest version ہی live ہے؟
+- ویب سائٹ open ہو رہی ہے؟
+- اردو text صحیح آ رہا ہے؟
+- موبائل پر layout ٹھیک ہے؟
+- بٹنز کام کر رہے ہیں؟
+- نکتہ: latest version ہی live ہے؟
 
 یعنی deploy complete ہونے کا مطلب یہ نہیں کہ result perfect بھی ہے۔ final check ضروری ہے۔
 
@@ -161,31 +161,31 @@ public URL کھلنے کے بعد یہ دیکھیں:
 
 آپ:
 
-1. Codex سے change کروائیں
-2. GitHub پر push کریں
-3. Cloudflare نئی deployment کر دے گا
+1. کوڈیکس سے change کروائیں
+2. گٹ ہب پر push کریں
+3. کلاوڈ فلیئر نئی deployment کر دے گا
 
 یعنی ایک repeatable loop بن جاتا ہے۔
 
 ## عام beginner mistakes
 
-### 1. build command guess کرنا
+### موضوع: 1. build command guess کرنا
 
 غلط command سے deploy fail ہو سکتا ہے۔
 
-### 2. output folder غلط دینا
+### موضوع: 2. output folder غلط دینا
 
-site blank کھل سکتی ہے۔
+نوٹ: site blank کھل سکتی ہے۔
 
-### 3. local test skip کرنا
+### موضوع: 3. local test skip کرنا
 
 جو چیز local نہیں چلتی، وہ live بھی مسئلہ دے سکتی ہے۔
 
-### 4. deploy کے بعد public URL check نہ کرنا
+### موضوع: 4. deploy کے بعد public URL check نہ کرنا
 
 کبھی build successful ہوتا ہے لیکن page expected نہیں ہوتا۔
 
-## beginners کے لیے ایک ready prompt
+## ابتدائی صارفین کے لیے ایک ready prompt
 
 > میرے project کو دیکھو اور مجھے Cloudflare Pages پر deploy کرنے کے لیے exact beginner-friendly steps دو۔ build command، output folder اور deploy کے بعد check list بھی شامل کرو۔
 
@@ -193,9 +193,9 @@ site blank کھل سکتی ہے۔
 
 کیونکہ یہی وہ لمحہ ہے جب آپ کا کام:
 
-- idea سے project
-- project سے repo
-- repo سے public product
+- خیال سے project
+- پروجیکٹ سے repo
+- نکتہ: repo سے public product
 
 بن جاتا ہے۔
 
@@ -205,11 +205,11 @@ site blank کھل سکتی ہے۔
 
 اگر آپ نے اس series کی گائیڈز follow کر لی ہیں تو اب آپ:
 
-- Codex سمجھتے ہیں
+- کوڈیکس سمجھتے ہیں
 - اس کے اہم features سمجھتے ہیں
-- document اور slides بنا سکتے ہیں
-- simple web page بنا سکتے ہیں
-- project GitHub پر ڈال سکتے ہیں
+- دستاویز اور slides بنا سکتے ہیں
+- سادہ web page بنا سکتے ہیں
+- پروجیکٹ GitHub پر ڈال سکتے ہیں
 - اسے Cloudflare پر live کر سکتے ہیں
 
 یہ beginners کے لیے بہت مضبوط starting point ہے۔

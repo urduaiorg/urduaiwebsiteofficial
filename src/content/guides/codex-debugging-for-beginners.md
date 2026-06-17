@@ -1,6 +1,6 @@
 ---
-title: Codex سے debugging کیسے کریں؟ — error آئے تو کیا کرنا ہے
-description: Codex کے ساتھ errors، broken layout، failed builds اور common mistakes کو کیسے ٹھیک کریں؟ beginners کے لیے آسان Urdu debugging guide۔
+title: کوڈیکس سے خرابی کیسے دور کریں؟ — error آئے تو کیا کرنا ہے
+description: کوڈیکس کے ساتھ errors، broken layout، failed builds اور عام غلطیوں کو کیسے ٹھیک کریں؟ ابتدائی صارفین کے لیے آسان اردو debugging guide۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -22,32 +22,32 @@ faq:
     answer: نہیں۔ بہت سی errors simple configuration، missing import، typo یا layout issue کی وجہ سے ہوتی ہیں۔
 ---
 
-Beginners کے لیے سب سے مشکل لمحہ وہ ہوتا ہے جب app یا page اچانک کام کرنا بند کر دے۔ یہی جگہ ہے جہاں بہت سے لوگ سمجھتے ہیں کہ شاید coding ان کے بس کی بات نہیں۔ حقیقت اس کے برعکس ہے: **debugging ایک skill ہے، اور Codex اس skill کو آسان بنا سکتا ہے۔**
+ابتدائی صارفین کے لیے سب سے مشکل لمحہ وہ ہوتا ہے جب app یا page اچانک کام کرنا بند کر دے۔ یہی جگہ ہے جہاں بہت سے لوگ سمجھتے ہیں کہ شاید coding ان کے بس کی بات نہیں۔ حقیقت اس کے برعکس ہے: **debugging ایک skill ہے، اور Codex اس skill کو آسان بنا سکتا ہے۔**
 
 ![Codex debugging cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
 
-## debugging کا سادہ مطلب
+## خرابی دور کرنا کا سادہ مطلب
 
-debugging کے تین حصے ہوتے ہیں:
+خرابی دور کرنا کے تین حصے ہوتے ہیں:
 
 1. مسئلہ دیکھنا
 2. اصل وجہ سمجھنا
-3. focused fix لگانا
+3. نکتہ: focused fix لگانا
 
 یعنی صرف fix نہیں، پہلے cause سمجھنا بھی ضروری ہے۔
 
-## beginners کو error آتے ہی کیا کرنا چاہیے؟
+## ابتدائی صارفین کو error آتے ہی کیا کرنا چاہیے؟
 
-سب سے پہلے panic نہ کریں۔  
+سب سے پہلے panic نہ کریں۔
 پھر یہ چیزیں کریں:
 
-- exact error note کریں
+- نکتہ: exact error note کریں
 - کیا expected تھا وہ بھی لکھیں
 - کون سی screen یا file پر issue ہے وہ identify کریں
 
 یہ تین چیزیں Codex کو clear problem statement دیتی ہیں۔
 
-## Codex کو debugging prompt کیسے دیں؟
+## کوڈیکس کو debugging prompt کیسے دیں؟
 
 مثلاً:
 
@@ -55,53 +55,53 @@ debugging کے تین حصے ہوتے ہیں:
 
 یہ بہت اچھا debugging prompt ہے۔
 
-## debugging میں Codex کیوں useful ہے؟
+## خرابی دور کرنا میں Codex کیوں useful ہے؟
 
 کیونکہ Codex:
 
-- error text پڑھ سکتا ہے
-- related file identify کر سکتا ہے
-- common pattern پہچان سکتا ہے
-- focused fix دے سکتا ہے
+- خرابی text پڑھ سکتا ہے
+- نکتہ: related file identify کر سکتا ہے
+- نکتہ: common pattern پہچان سکتا ہے
+- نکتہ: focused fix دے سکتا ہے
 - بعد میں دوبارہ check بھی کر سکتا ہے
 
 یہ beginners کے لیے بہت مددگار ہے کیونکہ انہیں ہر error manually interpret نہیں کرنی پڑتی۔
 
-## common beginner errors
+## موضوع: common beginner errors
 
-### 1. typo یا missing import
+### موضوع: 1. typo یا missing import
 
 ایک چھوٹا سا spelling issue پوری file توڑ سکتا ہے۔
 
-### 2. layout break
+### موضوع: 2. layout break
 
-page بن گیا لیکن:
+نوٹ: page بن گیا لیکن:
 
-- text overlap کر رہا ہے
-- button نیچے چلا گیا
-- mobile view ٹوٹ گئی
+- متن overlap کر رہا ہے
+- نکتہ: button نیچے چلا گیا
+- موبائل view ٹوٹ گئی
 
 یہ بھی debugging ہے۔
 
-### 3. build failure
+### موضوع: 3. build failure
 
-project run ہی نہیں ہو رہا یا deploy fail ہو رہا ہے۔
+پروجیکٹ run ہی نہیں ہو رہا یا deploy fail ہو رہا ہے۔
 
-### 4. logic issue
+### موضوع: 4. logic issue
 
-button click ہو رہا ہے مگر expected کام نہیں ہو رہا۔
+نوٹ: button click ہو رہا ہے مگر expected کام نہیں ہو رہا۔
 
-## Codex کے ساتھ debugging workflow
+## کوڈیکس کے ساتھ debugging workflow
 
 ### مرحلہ 1: exact problem لکھیں
 
 مثلاً:
 
-> mobile view میں button cut ہو رہا ہے
+> موبائل view میں button cut ہو رہا ہے
 
 یا:
 
-> build کرتے وقت یہ error آتی ہے
+> مثال: build کرتے وقت یہ error آتی ہے
 
 ### مرحلہ 2: expected result بھی بتائیں
 
@@ -121,26 +121,26 @@ button click ہو رہا ہے مگر expected کام نہیں ہو رہا۔
 
 دیکھیں:
 
-- issue واقعی حل ہوا؟
+- نکتہ: issue واقعی حل ہوا؟
 - کچھ اور تو نہیں ٹوٹا؟
 
-## good debugging prompt examples
+## موضوع: good debugging prompt examples
 
-### error message والی debugging
+### خرابی کا پیغام والی debugging
 
 > یہ exact error ہے: [paste کریں]۔ likely cause بتاؤ اور smallest fix دو۔
 
-### layout debugging
+### لے آؤٹ debugging
 
-> hero section mobile پر ٹوٹ رہی ہے۔ relevant layout دیکھو اور صرف spacing اور alignment بہتر کرو۔
+> مثال: hero section mobile پر ٹوٹ رہی ہے۔ relevant layout دیکھو اور صرف spacing اور alignment بہتر کرو۔
 
-### deploy debugging
+### موضوع: deploy debugging
 
-> Cloudflare deploy fail ہو رہا ہے۔ build command اور output folder check کرو اور likely issue بتاؤ۔
+> کلاوڈ فلیئر deploy fail ہو رہا ہے۔ build command اور output folder check کرو اور likely issue بتاؤ۔
 
-## Codex سے یہ بھی کہیں
+## کوڈیکس سے یہ بھی کہیں
 
-debugging prompt میں یہ extra lines بھی useful ہوتی ہیں:
+خرابی دور کرنا prompt میں یہ extra lines بھی useful ہوتی ہیں:
 
 - باقی structure نہ توڑو
 - صرف متعلقہ حصہ fix کرو
@@ -149,13 +149,13 @@ debugging prompt میں یہ extra lines بھی useful ہوتی ہیں:
 
 یہ Codex کو disciplined رکھتا ہے۔
 
-## beginners کی عام غلطیاں
+## ابتدائی صارفین کی عام غلطیاں
 
-### 1. error پورا paste نہ کرنا
+### موضوع: 1. error پورا paste نہ کرنا
 
 آدھا error دینے سے diagnosis کمزور ہوتی ہے۔
 
-### 2. random changes کرنا
+### موضوع: 2. random changes کرنا
 
 یہ مسئلہ بڑھا دیتی ہیں۔
 
@@ -163,13 +163,13 @@ debugging prompt میں یہ extra lines بھی useful ہوتی ہیں:
 
 بعض اوقات ایک fix سے دوسرا مسئلہ پیدا ہو جاتا ہے۔
 
-### 4. visual issue کو technical issue نہ سمجھنا
+### موضوع: 4. visual issue کو technical issue نہ سمجھنا
 
-layout problem بھی real bug ہوتی ہے۔
+لے آؤٹ problem بھی real bug ہوتی ہے۔
 
 ## ایک useful mindset
 
-error failure نہیں، signal ہے۔  
+خرابی failure نہیں، signal ہے۔
 وہ آپ کو بتا رہی ہے کہ کیا چیز align نہیں ہو رہی۔
 
 جتنا جلدی learner یہ mindset لے لیتا ہے، اتنی جلدی confidence بنتا ہے۔
@@ -178,14 +178,14 @@ error failure نہیں، signal ہے۔
 
 > یہ exact مسئلہ ہے: [issue لکھیں]۔ مجھے expected تھا کہ [expected result]۔ relevant files inspect کرو، likely cause simple Urdu میں سمجھاؤ، پھر smallest safe fix apply کرو اور دوبارہ check کرو۔
 
-## practice exercise
+## موضوع: practice exercise
 
 اپنی current app یا page میں کسی ایک چھوٹے issue کو identify کریں:
 
-- layout
-- button
-- wording
-- build
+- لے آؤٹ
+- نکتہ: button
+- نکتہ: wording
+- نکتہ: build
 
 پھر اوپر والا prompt استعمال کریں۔
 

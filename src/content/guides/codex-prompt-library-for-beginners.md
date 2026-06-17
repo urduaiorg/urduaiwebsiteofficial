@@ -1,6 +1,6 @@
 ---
-title: "Codex prompt library — beginners کے لیے ready-to-use Urdu prompts"
-description: "Codex کے لیے ready-made prompts: documents، slides، web pages، apps، debugging، GitHub اور Cloudflare کے لیے آسان Urdu prompt library۔"
+title: "کوڈیکس پرامپٹ لائبریری — ابتدائی صارفین کے لیے تیار اردو پرامپٹس"
+description: "کوڈیکس کے لیے تیار پرامپٹس: دستاویزات، سلائیڈز، ویب صفحات، ایپس، debugging، گٹ ہب اور کلاوڈ فلیئر کے لیے آسان Urdu prompt library۔"
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -34,169 +34,169 @@ faq:
 
 ہر prompt کو تین حصوں میں دیکھیں:
 
-- base prompt
+- نکتہ: base prompt
 - کب useful ہے
 - کس چیز کو اپنے مطابق بدلنا ہے
 
 یعنی blindly copy نہ کریں، بلکہ:
 
-- topic بدلیں
-- audience بدلیں
-- output format بدلیں
+- موضوع بدلیں
+- سامعین بدلیں
+- نتیجہ format بدلیں
 
 بس اتنا کافی ہوتا ہے۔
 
-## 1. document prompts
+## موضوع: 1. document prompts
 
-### simple handout prompt
+### سادہ handout prompt
 
 > میرے لیے ایک simple Urdu handout بناؤ جس کا موضوع [topic] ہو۔ audience [parents/students/teachers] ہیں۔ short intro، 5 key points، 3 common mistakes اور final advice شامل کرو۔ language بہت آسان رکھو۔
 
-Useful when:
+استعمال کی جگہ:
 
-- class handout چاہیے
-- workshop note چاہیے
-- one-page explainery content چاہیے
+- نکتہ: class handout چاہیے
+- نکتہ: workshop note چاہیے
+- نکتہ: one-page explainery content چاہیے
 
-### professional note prompt
+### موضوع: professional note prompt
 
-> [topic] پر ایک professional مگر beginner-friendly note لکھو۔ اس میں heading، short overview، main sections اور آخر میں summary شامل ہو۔
+> [موضوع] پر ایک professional مگر beginner-friendly note لکھو۔ اس میں heading، short overview، main sections اور آخر میں summary شامل ہو۔
 
-## 2. slide prompts
+## موضوع: 2. slide prompts
 
-### training presentation prompt
+### ٹریننگ presentation prompt
 
-> [topic] کے لیے Urdu beginners کی 8-slide presentation بناؤ۔ ہر slide میں short title، 3 bullets اور presenter note دو۔ tone simple اور non-technical ہو۔
+> [موضوع] کے لیے Urdu beginners کی 8-slide presentation بناؤ۔ ہر slide میں short title، 3 bullets اور presenter note دو۔ tone simple اور non-technical ہو۔
 
-### workshop deck prompt
+### موضوع: workshop deck prompt
 
-> [topic] پر workshop deck بناؤ۔ پہلی slide title ہو، پھر problem، benefits، examples، common mistakes اور final recap شامل کرو۔
+> [موضوع] پر workshop deck بناؤ۔ پہلی slide title ہو، پھر problem، benefits، examples، common mistakes اور final recap شامل کرو۔
 
-Useful when:
+استعمال کی جگہ:
 
-- class لینی ہو
-- training دینی ہو
-- YouTube lesson کو slides میں بدلنا ہو
+- نکتہ: class لینی ہو
+- ٹریننگ دینی ہو
+- یوٹیوب lesson کو slides میں بدلنا ہو
 
-## 3. website and landing page prompts
+## موضوع: 3. website and landing page prompts
 
-### simple landing page prompt
+### سادہ landing page prompt
 
-> [audience] کے لیے [topic] landing page بناؤ۔ اس میں heading، short intro، 4 benefits، who this is for section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> [سامعین] کے لیے [topic] landing page بناؤ۔ اس میں heading، short intro، 4 benefits، who this is for section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
 
-### registration page prompt
+### موضوع: registration page prompt
 
-> [workshop/course/event] کے لیے Urdu registration page بناؤ۔ heading، date/time section، benefits، instructor section اور registration button شامل ہو۔
+> [مثال: workshop/course/event] کے لیے Urdu registration page بناؤ۔ heading، date/time section، benefits، instructor section اور registration button شامل ہو۔
 
-### portfolio page prompt
+### پورٹ فولیو page prompt
 
 > میرے لیے ایک simple personal portfolio page بناؤ۔ اس میں intro، services، selected work اور contact section شامل ہو۔ audience non-technical clients ہیں۔
 
-## 4. app prompts
+## موضوع: 4. app prompts
 
-### simple app prompt
+### سادہ ایپ prompt
 
-> [audience] کے لیے ایک simple app بناؤ جو [problem] solve کرے۔ first version میں صرف [feature 1]، [feature 2] اور [feature 3] شامل ہوں۔ design clean اور mobile-friendly ہو۔
+> [سامعین] کے لیے ایک simple app بناؤ جو [problem] solve کرے۔ first version میں صرف [feature 1]، [feature 2] اور [feature 3] شامل ہوں۔ design clean اور mobile-friendly ہو۔
 
-### todo app prompt
+### موضوع: todo app prompt
 
-> beginners کے لیے ایک simple todo app بناؤ۔ task add، complete اور delete feature ہو۔ layout صاف اور easy-to-use ہو۔
+> ابتدائی صارفین کے لیے ایک simple todo app بناؤ۔ task add، complete اور delete feature ہو۔ layout صاف اور easy-to-use ہو۔
 
-### calculator prompt
+### کیلکولیٹر prompt
 
-> small business users کے لیے ایک simple price calculator app بناؤ۔ input fields clear ہوں، result area واضح ہو، اور mobile layout ٹھیک ہو۔
+> چھوٹے کاروبار users کے لیے ایک simple price calculator app بناؤ۔ input fields clear ہوں، result area واضح ہو، اور mobile layout ٹھیک ہو۔
 
-## 5. editing and improvement prompts
+## موضوع: 5. editing and improvement prompts
 
-### rewrite prompt
+### موضوع: rewrite prompt
 
 > موجودہ text کو زیادہ simple Urdu میں rewrite کرو۔ meaning وہی رکھو مگر language beginners کے لیے آسان کر دو۔
 
-### section improvement prompt
+### موضوع: section improvement prompt
 
 > موجودہ page دیکھو اور صرف hero section کی writing بہتر کرو۔ باقی structure اور layout تبدیل نہ کرو۔
 
-### shorten prompt
+### موضوع: shorten prompt
 
 > اس content کو مختصر کرو مگر main points preserve رکھو۔ tone friendly اور beginner-focused ہو۔
 
-## 6. debugging prompts
+## موضوع: 6. debugging prompts
 
-### general debugging prompt
+### موضوع: general debugging prompt
 
 > یہ exact مسئلہ ہے: [issue لکھیں]۔ مجھے expected تھا کہ [expected result]۔ relevant files inspect کرو، likely cause simple Urdu میں سمجھاؤ، پھر smallest safe fix apply کرو۔
 
-### mobile layout prompt
+### موبائل layout prompt
 
-> mobile layout check کرو۔ اگر text overlap، button cut یا spacing issue ہو تو صرف متعلقہ fix لگاؤ۔ باقی design نہ توڑو۔
+> موبائل layout check کرو۔ اگر text overlap، button cut یا spacing issue ہو تو صرف متعلقہ fix لگاؤ۔ باقی design نہ توڑو۔
 
-### build error prompt
+### موضوع: build error prompt
 
-> build کرتے وقت یہ error آ رہی ہے: [error paste کریں]۔ likely cause بتاؤ، پھر smallest safe fix دو، اور آخر میں دوبارہ verify بھی کرو۔
+> مثال: build کرتے وقت یہ error آ رہی ہے: [error paste کریں]۔ likely cause بتاؤ، پھر smallest safe fix دو، اور آخر میں دوبارہ verify بھی کرو۔
 
-## 7. GitHub prompts
+## موضوع: 7. GitHub prompts
 
-### README prompt
+### ریڈ می prompt
 
 > میرے current project کے لیے ایک simple README لکھو۔ اس میں project purpose، main features، setup note اور live link کے لیے جگہ شامل ہو۔
 
-### GitHub-ready review prompt
+### گٹ ہب-ready review prompt
 
 > میرے project folder کو GitHub-ready نظر سے دیکھو۔ بتاؤ کون سی files useful ہیں، کون سی unnecessary ہو سکتی ہیں، اور first commit message کیا ہونا چاہیے۔
 
-### commit message prompt
+### موضوع: commit message prompt
 
 > میری recent changes کو دیکھو اور 5 clear commit message options دو جو beginner project کے لیے مناسب ہوں۔
 
-## 8. Cloudflare prompts
+## موضوع: 8. Cloudflare prompts
 
-### deployment prompt
+### موضوع: deployment prompt
 
 > میرے project کو دیکھو اور Cloudflare Pages پر deploy کرنے کے لیے exact beginner-friendly steps دو۔ build command، output folder اور deploy کے بعد check list بھی شامل کرو۔
 
-### deploy failure prompt
+### موضوع: deploy failure prompt
 
-> Cloudflare deploy fail ہو رہی ہے۔ likely causes بتاؤ، پھر build command، output folder اور config میں کیا check کرنا چاہیے وہ simple language میں سمجھاؤ۔
+> کلاوڈ فلیئر deploy fail ہو رہی ہے۔ likely causes بتاؤ، پھر build command، output folder اور config میں کیا check کرنا چاہیے وہ simple language میں سمجھاؤ۔
 
-## 9. portfolio prompts
+## موضوع: 9. portfolio prompts
 
-### case study prompt
+### موضوع: case study prompt
 
 > اس project کے لیے 3 سے 5 line کی simple case study لکھو جس میں مسئلہ، solution اور user benefit واضح ہو۔
 
-### service description prompt
+### موضوع: service description prompt
 
 > میری services کے لیے short description لکھو۔ focus ہو landing pages، simple websites، slides اور Codex-assisted small tools پر۔ tone professional مگر easy ہو۔
 
-## 10. prompt upgrade prompts
+## موضوع: 10. prompt upgrade prompts
 
 کبھی prompt کام تو کرتا ہے مگر result average آتا ہے۔ تب یہ follow-up prompts useful ہیں:
 
-### clarity follow-up
+### موضوع: clarity follow-up
 
 > اسے زیادہ clear اور beginner-friendly کرو۔
 
-### tone follow-up
+### لہجہ follow-up
 
-> tone کو زیادہ warm، simple اور non-technical کرو۔
+> لہجہ کو زیادہ warm، simple اور non-technical کرو۔
 
-### structure follow-up
+### موضوع: structure follow-up
 
-> structure بہتر کرو، headings clear رکھو، اور repetition کم کرو۔
+> مثال: structure بہتر کرو، headings clear رکھو، اور repetition کم کرو۔
 
-### visual follow-up
+### موضوع: visual follow-up
 
-> layout clean کرو، spacing بہتر کرو، اور mobile view کو مضبوط بناؤ۔
+> لے آؤٹ clean کرو، spacing بہتر کرو، اور mobile view کو مضبوط بناؤ۔
 
-## beginners کے لیے best starter pack
+## ابتدائی صارفین کے لیے best starter pack
 
 اگر آپ پہلی بار Codex use کر رہے ہیں تو صرف یہ 5 prompts try کریں:
 
-1. simple handout prompt
-2. training presentation prompt
-3. simple landing page prompt
-4. simple app prompt
-5. general debugging prompt
+1. سادہ handout prompt
+2. ٹریننگ presentation prompt
+3. سادہ landing page prompt
+4. سادہ ایپ prompt
+5. نکتہ: general debugging prompt
 
 یہ پانچ prompts beginner learner کو Codex کی اصل طاقت دکھا دیتے ہیں۔
 
@@ -208,7 +208,7 @@ Useful when:
 
 اب اسے بہتر بنائیں:
 
-> Urdu parents کے لیے AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple، mobile-friendly اور beginner-focused ہو۔
+> اردو parents کے لیے AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple، mobile-friendly اور beginner-focused ہو۔
 
 یہی فرق weak اور strong prompting میں ہے۔
 
@@ -216,11 +216,11 @@ Useful when:
 
 اپنے لیے ایک چھوٹی personal library رکھیں:
 
-- document prompts
-- slides prompts
-- page prompts
-- app prompts
-- fix prompts
+- دستاویز prompts
+- سلائیڈز prompts
+- نکتہ: page prompts
+- ایپ prompts
+- نکتہ: fix prompts
 
 جوں جوں آپ Codex use کریں گے، آپ کی personal library بہتر ہوتی جائے گی۔
 
@@ -230,7 +230,7 @@ Useful when:
 
 1. تین prompts copy کریں
 2. اپنے topic کے مطابق edit کریں
-3. Codex میں run کریں
+3. کوڈیکس میں run کریں
 4. پھر result compare کریں
 
 یہ practice آپ کو theoretical learner سے practical user بناتی ہے۔

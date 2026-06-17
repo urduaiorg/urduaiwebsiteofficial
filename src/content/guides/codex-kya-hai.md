@@ -1,6 +1,6 @@
 ---
-title: Codex کیا ہے؟ — بغیر روایتی coding کے practical کام شروع کریں
-description: Codex کیا ہے، یہ ChatGPT سے کیسے مختلف ہے، اور عام لوگ اس سے documents، ویب پیجز اور apps کیسے بنا سکتے ہیں؟ مکمل آسان اردو گائیڈ۔
+title: کوڈیکس کیا ہے؟ — بغیر روایتی coding کے عملی کام شروع کریں
+description: کوڈیکس کیا ہے، یہ چیٹ جی پی ٹی سے کیسے مختلف ہے، اور عام لوگ اس سے دستاویزات، ویب پیجز اور ایپس کیسے بنا سکتے ہیں؟ مکمل آسان اردو گائیڈ۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -23,37 +23,37 @@ faq:
     answer: ایک واضح idea، سادہ ہدایات، اور اگر آپ website یا app بنانا چاہتے ہیں تو ایک project folder کافی ہے۔
 ---
 
-Codex کو سادہ لفظوں میں یوں سمجھیں: یہ صرف "بات کرنے والا AI" نہیں بلکہ "کام کرنے والا AI assistant" ہے۔ آپ اسے کہتے ہیں کہ document بنا دو، web page تیار کر دو، error ڈھونڈ دو، یا project GitHub پر چڑھا دو — اور یہ صرف مشورہ نہیں دیتا بلکہ عملی قدم بھی اٹھا سکتا ہے۔
+کوڈیکس کو سادہ لفظوں میں یوں سمجھیں: یہ صرف "بات کرنے والا AI" نہیں بلکہ "کام کرنے والا AI assistant" ہے۔ آپ اسے کہتے ہیں کہ document بنا دو، web page تیار کر دو، error ڈھونڈ دو، یا project GitHub پر چڑھا دو — اور یہ صرف مشورہ نہیں دیتا بلکہ عملی قدم بھی اٹھا سکتا ہے۔
 
 ![Codex guide cover](/images/guides/codex-guide-series/codex-kya-hai.png)
 
 بہت سے لوگوں کو شروع میں لگتا ہے کہ Codex صرف developers کے لیے ہے۔ حقیقت یہ ہے کہ اگر آپ کو اپنا مقصد واضح کرنا آتا ہے تو Codex عام لوگوں کے لیے بھی بہت مفید ہے۔ خاص طور پر وہ لوگ جو:
 
 - اپنی پہلی website بنانا چاہتے ہیں
-- documents اور slides تیزی سے تیار کرنا چاہتے ہیں
-- idea کو app یا simple tool میں بدلنا چاہتے ہیں
-- GitHub اور live publishing کو آسان طریقے سے سمجھنا چاہتے ہیں
+- دستاویزات اور slides تیزی سے تیار کرنا چاہتے ہیں
+- خیال کو app یا simple tool میں بدلنا چاہتے ہیں
+- گٹ ہب اور live publishing کو آسان طریقے سے سمجھنا چاہتے ہیں
 
-## Codex عام ChatGPT سے کیسے مختلف ہے؟
+## کوڈیکس عام ChatGPT سے کیسے مختلف ہے؟
 
 عام ChatGPT سے آپ سوال پوچھتے ہیں اور وہ جواب دیتا ہے۔ Codex میں ایک اضافی طاقت ہے: یہ آپ کے project کے اندر جا کر کام کر سکتا ہے۔
 
 مثلاً:
 
-- file پڑھ سکتا ہے
-- file میں تبدیلی کر سکتا ہے
+- نکتہ: file پڑھ سکتا ہے
+- نکتہ: file میں تبدیلی کر سکتا ہے
 - نئی file بنا سکتا ہے
-- app چلا کر check کر سکتا ہے
-- error دیکھ کر fix کر سکتا ہے
-- changes کو verify بھی کر سکتا ہے
+- ایپ چلا کر check کر سکتا ہے
+- خرابی دیکھ کر fix کر سکتا ہے
+- نکتہ: changes کو verify بھی کر سکتا ہے
 
 یہی وجہ ہے کہ Codex کو صرف chatbot کہنا درست نہیں۔ یہ ایک **working assistant** ہے۔
 
-## Codex سے کیا کیا کام ہو سکتے ہیں؟
+## کوڈیکس سے کیا کیا کام ہو سکتے ہیں؟
 
 شروع کرنے والوں کے لیے سب سے useful کام یہ ہیں:
 
-### 1. Documents بنانا
+### موضوع: 1. Documents بنانا
 
 اگر آپ کہیں:
 
@@ -63,16 +63,16 @@ Codex کو سادہ لفظوں میں یوں سمجھیں: یہ صرف "بات �
 
 تو Codex draft، headings، bullet points، table اور cleaner version بنا سکتا ہے۔
 
-### 2. Slides بنانا
+### موضوع: 2. Slides بنانا
 
 آپ اگر topic دیں تو Codex:
 
-- outline بنا سکتا ہے
-- slide titles لکھ سکتا ہے
-- presenter notes تیار کر سکتا ہے
-- editable presentation بھی بنا سکتا ہے
+- نکتہ: outline بنا سکتا ہے
+- سلائیڈ titles لکھ سکتا ہے
+- نکتہ: presenter notes تیار کر سکتا ہے
+- نکتہ: editable presentation بھی بنا سکتا ہے
 
-### 3. Simple web page بنانا
+### موضوع: 3. Simple web page بنانا
 
 آپ کہیں:
 
@@ -80,65 +80,65 @@ Codex کو سادہ لفظوں میں یوں سمجھیں: یہ صرف "بات �
 
 تو Codex HTML، CSS یا framework-based page تیار کر سکتا ہے، پھر آپ کو local preview بھی دکھا سکتا ہے۔
 
-### 4. Basic app بنانا
+### موضوع: 4. Basic app بنانا
 
 مثلاً:
 
-- todo app
-- calculator
-- student directory
-- form-based tool
+- نکتہ: todo app
+- کیلکولیٹر
+- طالب علم directory
+- نکتہ: form-based tool
 
-Codex ان کا basic version تیزی سے بنا دیتا ہے۔
+کوڈیکس ان کا basic version تیزی سے بنا دیتا ہے۔
 
-### 5. Bug fix اور cleanup
+### موضوع: 5. Bug fix اور cleanup
 
 اگر کچھ خراب ہو جائے تو Codex error پڑھ کر fix تلاش کر سکتا ہے۔ یہ beginners کے لیے بہت بڑی سہولت ہے کیونکہ اکثر لوگ error آتے ہی رک جاتے ہیں۔
 
-## Codex کن لوگوں کے لیے سب سے زیادہ useful ہے؟
+## کوڈیکس کن لوگوں کے لیے سب سے زیادہ useful ہے؟
 
-Codex خاص طور پر ان لوگوں کے لیے useful ہے جو:
+کوڈیکس خاص طور پر ان لوگوں کے لیے useful ہے جو:
 
-- coding expert نہیں ہیں
+- کوڈنگ expert نہیں ہیں
 - جلدی prototype بنانا چاہتے ہیں
-- business idea test کرنا چاہتے ہیں
-- Urdu یا simple English میں کام سمجھانا چاہتے ہیں
-- repetitive technical steps خود نہیں کرنا چاہتے
+- کاروباری idea test کرنا چاہتے ہیں
+- اردو یا simple English میں کام سمجھانا چاہتے ہیں
+- بار بار ہونے والے technical steps خود نہیں کرنا چاہتے
 
 اگر آپ teacher، freelancer، student، small business owner، یا content creator ہیں تو Codex آپ کے لیے strong advantage بن سکتا ہے۔
 
-## Codex استعمال کرنے کا basic طریقہ
+## کوڈیکس استعمال کرنے کا basic طریقہ
 
-Codex کے ساتھ اچھا result لینے کے لیے آپ کو صرف یہ تین چیزیں clear رکھنی ہیں:
+کوڈیکس کے ساتھ اچھا result لینے کے لیے آپ کو صرف یہ تین چیزیں clear رکھنی ہیں:
 
 ### 1. مقصد
 
 پہلے بتائیں کہ آپ کیا بنانا چاہتے ہیں:
 
-- document
-- slide
-- web page
-- app
-- fix
+- دستاویز
+- سلائیڈ
+- ویب صفحہ
+- ایپ
+- نکتہ: fix
 
-### 2. context
+### موضوع: 2. context
 
 پھر بتائیں:
 
-- audience کون ہے؟
-- style کیسی ہو؟
+- سامعین کون ہے؟
+- نکتہ: style کیسی ہو؟
 - کون سی files important ہیں؟
 - کیا چیز preserve رکھنی ہے؟
 
-### 3. output
+### موضوع: 3. output
 
 آخر میں بتائیں آپ کو نتیجہ کس شکل میں چاہیے:
 
-- Urdu میں
-- short version
-- editable
-- mobile-friendly
-- GitHub-ready
+- اردو میں
+- نکتہ: short version
+- نکتہ: editable
+- موبائل-friendly
+- گٹ ہب-ready
 
 ## عام beginners کہاں غلطی کرتے ہیں؟
 
@@ -158,12 +158,12 @@ Codex کے ساتھ اچھا result لینے کے لیے آپ کو صرف یہ �
 
 مثلاً آپ:
 
-- clients کے لیے landing pages بنا سکتے ہیں
-- proposal اور pitch decks تیار کر سکتے ہیں
-- simple business tools بنا سکتے ہیں
-- training material اور educational content create کر سکتے ہیں
+- کلائنٹس کے لیے landing pages بنا سکتے ہیں
+- پروپوزل اور pitch decks تیار کر سکتے ہیں
+- سادہ business tools بنا سکتے ہیں
+- ٹریننگ material اور educational content create کر سکتے ہیں
 
-Codex خود پیسے نہیں کماتا۔ Codex آپ کی speed بڑھاتا ہے تاکہ آپ کم وقت میں زیادہ useful کام کر سکیں۔
+کوڈیکس خود پیسے نہیں کماتا۔ Codex آپ کی speed بڑھاتا ہے تاکہ آپ کم وقت میں زیادہ useful کام کر سکیں۔
 
 ## ابھی آپ کو کیا کرنا چاہیے؟
 
@@ -182,7 +182,7 @@ Codex خود پیسے نہیں کماتا۔ Codex آپ کی speed بڑھاتا �
 
 ## ایک سادہ پہلی exercise
 
-Codex کھولیں اور یہ instruction دیں:
+کوڈیکس کھولیں اور یہ instruction دیں:
 
 > میرے لیے ایک Urdu one-page guide بناؤ جس کا موضوع ہو: والدین کے لیے AI کیوں اہم ہے۔ headings، short intro، 5 points اور ending advice شامل کرو۔
 

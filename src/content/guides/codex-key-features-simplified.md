@@ -1,6 +1,6 @@
 ---
-title: Codex کے اہم features — Skills، Plugins، Context اور باقی سب آسان اردو میں
-description: Codex کے اہم features کیا ہیں؟ Skills، Plugins، Context، Workspace، Threads، Prompts اور approvals کو عام لوگوں کے لیے سادہ اردو میں سمجھیں۔
+title: کوڈیکس کے اہم فیچرز — اسکلز، پلگ اِنز، سیاق و سباق اور باقی سب آسان اردو میں
+description: کوڈیکس کے اہم فیچرز کیا ہیں؟ اسکلز، پلگ اِنز، سیاق و سباق، ورک اسپیس، تھریڈز، پرامپٹس اور approvals کو عام لوگوں کے لیے سادہ اردو میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
 author: اردو اے آئی ٹیم
@@ -22,38 +22,38 @@ faq:
     answer: Workspace وہ folder یا project جگہ ہے جہاں Codex آپ کی files دیکھتا اور بدلتا ہے۔
 ---
 
-Codex کو صحیح سمجھنے کے لیے اس کے چند بنیادی الفاظ سمجھنا بہت ضروری ہے۔ اچھی بات یہ ہے کہ یہ سب technical لگتے ضرور ہیں، لیکن اصل میں ان کا مطلب بہت سادہ ہے۔
+کوڈیکس کو صحیح سمجھنے کے لیے اس کے چند بنیادی الفاظ سمجھنا بہت ضروری ہے۔ اچھی بات یہ ہے کہ یہ سب technical لگتے ضرور ہیں، لیکن اصل میں ان کا مطلب بہت سادہ ہے۔
 
 اس گائیڈ میں ہم وہی terms سمجھیں گے جو beginners کو سب سے زیادہ confuse کرتی ہیں۔
 
-## Skill کیا ہوتی ہے؟
+## اسکل کیا ہوتی ہے؟
 
-Skill کو سادہ لفظوں میں **تیار شدہ کام کرنے کا طریقہ** سمجھیں۔
+اسکل کو سادہ لفظوں میں **تیار شدہ کام کرنے کا طریقہ** سمجھیں۔
 
 مثلاً اگر Codex کے پاس presentation بنانے کی skill ہو تو اسے پہلے سے پتا ہوتا ہے کہ:
 
-- slide structure کیسے بنانا ہے
-- headings کیسے لکھنی ہیں
-- editable deck کیسے تیار کرنا ہے
-- final output کیسے verify کرنا ہے
+- سلائیڈ structure کیسے بنانا ہے
+- نکتہ: headings کیسے لکھنی ہیں
+- نکتہ: editable deck کیسے تیار کرنا ہے
+- آخری output کیسے verify کرنا ہے
 
 یعنی skill، Codex کو smarter workflow دیتی ہے۔
 
-## Plugin کیا ہوتا ہے؟
+## پلگ اِن کیا ہوتا ہے؟
 
-Plugin ایک ایسا add-on ہے جو Codex کو extra طاقت دیتا ہے۔
+پلگ اِن ایک ایسا add-on ہے جو Codex کو extra طاقت دیتا ہے۔
 
 مثلاً:
 
-- GitHub plugin
-- Google Drive plugin
-- Cloudflare plugin
+- گٹ ہب plugin
+- گوگل ڈرائیو plugin
+- کلاوڈ فلیئر plugin
 
 اگر skill "کام کرنے کا طریقہ" ہے تو plugin "extra tool" ہے۔
 
-## Context کیا ہوتا ہے؟
+## سیاق و سباق کیا ہوتا ہے؟
 
-Context کا مطلب ہے وہ ساری relevant information جو Codex کے پاس موجود ہو۔
+سیاق و سباق کا مطلب ہے وہ ساری relevant information جو Codex کے پاس موجود ہو۔
 
 مثلاً:
 
@@ -64,22 +64,22 @@ Context کا مطلب ہے وہ ساری relevant information جو Codex کے پ
 
 اگر context clear ہو تو Codex بہتر کام کرتا ہے۔ اگر context کم ہو تو وہ guess زیادہ کرتا ہے۔
 
-## Workspace کیا ہے؟
+## ورک اسپیس کیا ہے؟
 
-Workspace وہ جگہ ہے جہاں آپ کے project کی files ہوتی ہیں۔
+ورک اسپیس وہ جگہ ہے جہاں آپ کے project کی files ہوتی ہیں۔
 
 یہی وہ جگہ ہے جہاں Codex:
 
-- file پڑھتا ہے
-- file بناتا ہے
-- file edit کرتا ہے
-- project run کرتا ہے
+- نکتہ: file پڑھتا ہے
+- نکتہ: file بناتا ہے
+- نکتہ: file edit کرتا ہے
+- پروجیکٹ run کرتا ہے
 
 اسے اپنے "کام کے کمرے" کی طرح سمجھیں۔
 
-## Prompt کیا ہوتا ہے؟
+## پرامپٹ کیا ہوتا ہے؟
 
-Prompt وہ instruction ہے جو آپ Codex کو دیتے ہیں۔
+پرامپٹ وہ instruction ہے جو آپ Codex کو دیتے ہیں۔
 
 مثلاً:
 
@@ -89,9 +89,9 @@ Prompt وہ instruction ہے جو آپ Codex کو دیتے ہیں۔
 
 بہترین prompt وہ ہے جس میں مقصد، انداز، اور required output واضح ہو۔
 
-## Thread کیا ہوتا ہے؟
+## تھریڈ کیا ہوتا ہے؟
 
-Thread ایک جاری conversation یا work session ہوتا ہے۔
+تھریڈ ایک جاری conversation یا work session ہوتا ہے۔
 
 سادہ الفاظ میں:
 
@@ -99,7 +99,7 @@ Thread ایک جاری conversation یا work session ہوتا ہے۔
 
 اگر آپ ایک ہی thread میں کام جاری رکھتے ہیں تو Codex کو continuity ملتی ہے اور وہ کم confuse ہوتا ہے۔
 
-## Plan کیا ہوتا ہے؟
+## منصوبہ کیا ہوتا ہے؟
 
 کبھی Codex پہلے plan بناتا ہے اور پھر کام کرتا ہے۔ یہ خاص طور پر useful ہوتا ہے جب project بڑا ہو۔
 
@@ -112,42 +112,42 @@ Thread ایک جاری conversation یا work session ہوتا ہے۔
 
 یہ plan آپ کو بھی clarity دیتا ہے۔
 
-## Approval کیا ہوتا ہے؟
+## منظوری کیا ہوتا ہے؟
 
 کچھ کام ایسے ہوتے ہیں جو Codex ہر بار خود نہیں کر سکتا، خاص طور پر sensitive کام:
 
-- risky command
-- major delete
-- external system action
+- نکتہ: risky command
+- نکتہ: major delete
+- نکتہ: external system action
 
 ایسے cases میں approval درکار ہو سکتی ہے۔ یعنی پہلے user کی اجازت۔
 
-## Sandbox کیا ہوتا ہے؟
+## سینڈ باکس کیا ہوتا ہے؟
 
-Sandbox ایک safety boundary ہے۔
+سینڈ باکس ایک safety boundary ہے۔
 
 سادہ مثال:
 
-- Codex کو کہاں تک access ہے؟
+- کوڈیکس کو کہاں تک access ہے؟
 - کون سی files تک رسائی ہے؟
 - کیا internet allowed ہے؟
 
 یہ rules safety کے لیے ہوتے ہیں۔
 
-## Hook کیا ہوتا ہے؟
+## ہک کیا ہوتا ہے؟
 
-Hook ایک automatic rule ہوتا ہے جو کسی خاص وقت پر چلتا ہے۔
+ہک ایک automatic rule ہوتا ہے جو کسی خاص وقت پر چلتا ہے۔
 
 مثلاً:
 
-- file edit سے پہلے check
-- command کے بعد validation
+- نکتہ: file edit سے پہلے check
+- نکتہ: command کے بعد validation
 
 عام user کو hooks بنانا ضروری نہیں، لیکن advanced teams یہ استعمال کرتی ہیں۔
 
-## MCP کیا ہے؟
+## ایم سی پی کیا ہے؟
 
-MCP ایک bridge ہے جس کے ذریعے Codex دوسری systems سے جڑتا ہے۔
+ایم سی پی ایک bridge ہے جس کے ذریعے Codex دوسری systems سے جڑتا ہے۔
 
 عام user کے لیے اتنا سمجھنا کافی ہے:
 
@@ -156,48 +156,48 @@ MCP ایک bridge ہے جس کے ذریعے Codex دوسری systems سے جڑت
 
 تو MCP جیسے systems کام آتے ہیں۔
 
-## Browser کیا کرتا ہے؟
+## براؤزر کیا کرتا ہے؟
 
 اگر آپ website یا app بنا رہے ہیں تو browser preview بہت اہم ہے۔ Codex اس preview کو کھول کر check کر سکتا ہے:
 
-- page کھل رہا ہے یا نہیں
-- layout ٹوٹ تو نہیں رہا
-- button کام کر رہا ہے یا نہیں
+- نکتہ: page کھل رہا ہے یا نہیں
+- لے آؤٹ ٹوٹ تو نہیں رہا
+- نکتہ: button کام کر رہا ہے یا نہیں
 
 یہ beginners کے لیے بہت helpful ہے کیونکہ صرف code دیکھنے سے مسئلہ ہمیشہ clear نہیں ہوتا۔
 
-## Review کیا ہوتا ہے؟
+## جائزہ کیا ہوتا ہے؟
 
-Review کا مطلب ہے Codex changes کو check کرے:
+جائزہ کا مطلب ہے Codex changes کو check کرے:
 
-- bug تو نہیں؟
-- risk تو نہیں؟
+- بگ تو نہیں؟
+- نکتہ: risk تو نہیں؟
 - کچھ ٹوٹ تو نہیں گیا؟
 
 یعنی صرف بنانا نہیں، verify بھی کرنا۔
 
-## Beginners کے لیے سب سے اہم کون سی چیزیں ہیں؟
+## ابتدائی صارفین کے لیے سب سے اہم کون سی چیزیں ہیں؟
 
 اگر آپ نئے ہیں تو شروع میں بس یہ terms اچھی طرح سمجھ لیں:
 
-- Prompt
-- Context
-- Workspace
-- Thread
-- Skill
-- Plugin
+- پرامپٹ
+- سیاق و سباق
+- ورک اسپیس
+- تھریڈ
+- اسکل
+- پلگ اِن
 
 باقی چیزیں آہستہ آہستہ clear ہو جائیں گی۔
 
 ## ایک یاد رکھنے والا formula
 
-Codex کے ساتھ کام کو یوں سمجھیں:
+کوڈیکس کے ساتھ کام کو یوں سمجھیں:
 
-- `Prompt` = آپ کیا کہہ رہے ہیں
-- `Context` = Codex کیا جانتا ہے
-- `Workspace` = Codex کہاں کام کر رہا ہے
-- `Skill` = Codex یہ کام کیسے بہتر کرے گا
-- `Plugin` = Codex کے پاس extra tool کون سا ہے
+- `پرامپٹ` = آپ کیا کہہ رہے ہیں
+- `سیاق و سباق` = Codex کیا جانتا ہے
+- `ورک اسپیس` = Codex کہاں کام کر رہا ہے
+- `اسکل` = Codex یہ کام کیسے بہتر کرے گا
+- `پلگ اِن` = Codex کے پاس extra tool کون سا ہے
 
 یہ پانچ چیزیں clear ہوں تو زیادہ تر beginner problems حل ہو جاتی ہیں۔
 
@@ -205,10 +205,10 @@ Codex کے ساتھ کام کو یوں سمجھیں:
 
 اب جب یہ بنیادی الفاظ clear ہو گئے ہیں، تو اگلا قدم یہ ہونا چاہیے کہ Codex سے کوئی simple practical output بنوایا جائے، جیسے:
 
-- document
-- slide
-- handout
-- web page
+- دستاویز
+- سلائیڈ
+- ہینڈ آؤٹ
+- ویب صفحہ
 
 اسی سے اصل learning شروع ہوتی ہے۔
 

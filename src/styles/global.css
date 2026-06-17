@@ -136,14 +136,37 @@ p {
 
 /* Article prose — wider line height for Nastaliq readability */
 .prose {
+  direction: rtl;
+  text-align: right;
   line-height: var(--lh-prose);
   max-width: var(--max-width);
+  unicode-bidi: isolate;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
 }
 
 .prose p,
 .prose li {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+  text-wrap: pretty;
   font-size: var(--text-base);
   line-height: var(--lh-prose);
+}
+
+.prose :where(h1, h2, h3, h4, h5, h6, p, li, blockquote, figcaption, th, td, summary, details) {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+}
+
+.prose :where(a, strong, em, b, i, span) {
+  unicode-bidi: isolate;
 }
 
 /* ============================================================
@@ -167,7 +190,7 @@ kbd,
 pre,
 samp {
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.9rem;
   background: var(--paper-warm);
@@ -191,7 +214,7 @@ pre code {
 .ltr,
 [dir="ltr"] {
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
 }
 
 /* ============================================================
@@ -236,7 +259,7 @@ pre code {
   text-decoration: none;
   flex-shrink: 0;
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
 }
 
 .site-logo span {
@@ -674,6 +697,9 @@ blockquote strong {
    Article layout (2-column with sidebar)
    ============================================================ */
 .article-layout {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: var(--space-xl);
@@ -685,6 +711,8 @@ blockquote strong {
 
 .article-layout__main {
   min-width: 0;
+  direction: rtl;
+  unicode-bidi: isolate;
 }
 
 .article-layout__sidebar {
@@ -797,6 +825,9 @@ img {
    ============================================================ */
 .prose ul,
 .prose ol {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
   padding-inline-start: var(--space-lg);
   margin-block-end: var(--space-sm);
 }
@@ -938,7 +969,7 @@ img {
   font-weight: 800;
   color: #ffffff;
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
 }
 
 .hero__brand span {
@@ -1708,6 +1739,9 @@ img {
    Article Header — Clean Card Style
    ============================================================ */
 .article-header {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
   padding-block-start: var(--space-lg);
   padding-block-end: var(--space-md);
   max-width: var(--max-wide);
@@ -1718,6 +1752,13 @@ img {
 }
 
 .article-header__title {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+  text-wrap: balance;
   color: var(--ink);
   font-size: 2.4rem;
   line-height: 1.8;
@@ -1786,8 +1827,8 @@ img {
 
 @media (max-width: 768px) {
   .article-header__title {
-    font-size: 1.7rem;
-    line-height: 1.9;
+    font-size: 1.48rem;
+    line-height: 2;
   }
   .article-header__cover {
     border-radius: 12px;
@@ -1992,7 +2033,7 @@ img {
   color: var(--ink-muted);
   font-size: 0.8rem;
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
   display: inline;
 }
 
@@ -2079,7 +2120,7 @@ img {
   color: var(--ink-muted);
   font-size: 0.8rem;
   direction: ltr;
-  unicode-bidi: embed;
+  unicode-bidi: isolate;
 }
 .mobile-toc__list a:hover,
 .mobile-toc__list a:active {
@@ -2163,12 +2204,36 @@ img {
    Enhanced Prose Typography — Premium Feel
    ============================================================ */
 
+.prose h1 {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+  text-wrap: balance;
+  font-size: 2rem;
+  line-height: 1.85;
+  margin-block: var(--space-lg) var(--space-md);
+}
+
+@media (max-width: 768px) {
+  .prose h1 {
+    font-size: 1.48rem;
+    line-height: 2;
+  }
+}
+
 /* h2 accent bar */
 .prose h2 {
   position: relative;
   padding-inline-start: var(--space-md);
   border-inline-start: 4px solid var(--gold);
   margin-block-start: var(--space-xl);
+}
+
+.prose :where(h1, h2, h3, h4, h5, h6) {
+  text-wrap: balance;
 }
 
 /* First paragraph drop-cap effect (Nastaliq-safe) */
