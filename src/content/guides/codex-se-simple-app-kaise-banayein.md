@@ -31,18 +31,18 @@ faq:
 سادہ ایپ وہ ہے جس میں:
 
 - مقصد ایک ہو
-- نکتہ: screens کم ہوں
+- screens کم ہوں
 - فیچرز محدود ہوں
-- نکتہ: user flow صاف ہو
+- user flow صاف ہو
 
 مثلاً:
 
-- نکتہ: todo app
+- todo app
 - طالب علم list
 - سادہ registration form
 - کیلکولیٹر
-- نکتہ: expense tracker
-- نکتہ: appointment request page
+- expense tracker
+- appointment request page
 
 یہ Codex کے ساتھ شروع کرنے کے لیے بہترین مثالیں ہیں۔
 
@@ -119,12 +119,12 @@ faq:
 
 اگر آپ practice کرنا چاہتے ہیں تو ان میں سے ایک try کریں:
 
-- نکتہ: daily task app
-- نکتہ: workshop registration tool
+- daily task app
+- workshop registration tool
 - طالب علم directory
-- نکتہ: invoice calculator
-- نکتہ: quote generator
-- نکتہ: parent contact form
+- invoice calculator
+- quote generator
+- parent contact form
 
 ان میں data flow بھی simple ہوتا ہے اور learning بھی جلدی ہوتی ہے۔
 
@@ -140,9 +140,9 @@ faq:
 
 صرف 3 features:
 
-- نکتہ: add student
-- نکتہ: mark attendance
-- نکتہ: view list
+- add student
+- mark attendance
+- view list
 
 ### مرحلہ 3: Codex سے first version بنوائیں
 
@@ -186,11 +186,11 @@ faq:
 
 سادہ ایپ میں Codex ان چیزوں میں خاص مفید ہوتا ہے:
 
-- نکتہ: initial structure
-- نکتہ: form creation
+- initial structure
+- form creation
 - بٹنز اور layout
 - بنیادی logic
-- نکتہ: visual cleanup
+- visual cleanup
 - موبائل responsiveness
 
 ابتدائی صارفین کے لیے یہی چیزیں سب سے زیادہ useful ہوتی ہیں۔

@@ -64,9 +64,9 @@ faq:
 
 - دستاویز
 - سلائیڈز
-- نکتہ: page
+- page
 - ایپ
-- نکتہ: fix
+- fix
 
 ### موضوع: 2. audience
 
@@ -87,9 +87,9 @@ faq:
 آخر میں واضح کریں:
 
 - اردو میں
-- نکتہ: short version
+- short version
 - موبائل-friendly
-- نکتہ: editable
+- editable
 - ابتدائی-friendly
 
 ### موضوع: 5. constraints
@@ -117,8 +117,8 @@ faq:
 مثلاً:
 
 - اسے زیادہ simple کرو
-- نکتہ: intro مختصر کرو
-- نکتہ: bullets بہتر کرو
+- intro مختصر کرو
+- bullets بہتر کرو
 - موبائل view بہتر کرو
 - اردو زیادہ natural کرو
 
@@ -202,7 +202,7 @@ faq:
 
 - دستاویز کے لیے
 - سلائیڈز کے لیے
-- نکتہ: page کے لیے
+- page کے لیے
 
 اس سے آپ کو فوراً سمجھ آ جائے گی کہ format بدلنے سے prompt بھی بدلتا ہے۔
 

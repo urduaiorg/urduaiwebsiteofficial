@@ -82,16 +82,16 @@ faq:
 پہلا result اکثر:
 
 - ڈرافٹ ہوتا ہے
-- نکتہ: wording weak ہو سکتی ہے
-- نکتہ: structure بہتر کیا جا سکتا ہے
+- wording weak ہو سکتی ہے
+- structure بہتر کیا جا سکتا ہے
 - ڈیزائن rough ہو سکتی ہے
 
 صحیح workflow:
 
-1. نکتہ: first draft لیں
-2. نکتہ: review کریں
-3. نکتہ: follow-up prompt دیں
-4. نکتہ: polish کروائیں
+1. first draft لیں
+2. review کریں
+3. follow-up prompt دیں
+4. polish کروائیں
 5. دوبارہ check کریں
 
 ## موضوع: 4. context نہ دینا
@@ -132,8 +132,8 @@ faq:
 - موبائل layout broken
 - اردو awkward
 - کال ٹو ایکشن غائب
-- نکتہ: section order weak
-- نکتہ: spacing خراب
+- section order weak
+- spacing خراب
 
 اصول:
 
@@ -151,10 +151,10 @@ faq:
 
 بہتر approach:
 
-- نکتہ: exact issue لکھیں
-- نکتہ: expected result لکھیں
+- exact issue لکھیں
+- expected result لکھیں
 - کوڈیکس سے cause پوچھیں
-- نکتہ: smallest safe fix لگوائیں
+- smallest safe fix لگوائیں
 
 ## موضوع: 8. GitHub پر save نہ کرنا
 
@@ -163,8 +163,8 @@ faq:
 اگر آپ project save نہیں کرتے تو:
 
 - اچھا version کھو سکتے ہیں
-- نکتہ: share نہیں کر سکتے
-- نکتہ: deployment مشکل ہو جاتی ہے
+- share نہیں کر سکتے
+- deployment مشکل ہو جاتی ہے
 - پورٹ فولیو weak رہتا ہے
 
 اصول:
@@ -177,9 +177,9 @@ faq:
 
 اس سے:
 
-- نکتہ: confidence کم رہتا ہے
+- confidence کم رہتا ہے
 - کلائنٹ کو دکھانا مشکل ہوتا ہے
-- نکتہ: learning loop ادھورا رہتا ہے
+- learning loop ادھورا رہتا ہے
 
 کلاوڈ فلیئر یا دوسرے simple hosting flow سے public link بنانا beginner کے لیے بڑا milestone ہوتا ہے۔
 
@@ -190,8 +190,8 @@ faq:
 یہ چیزیں check کریں:
 
 - زبان awkward تو نہیں
-- نکتہ: English mix ضرورت سے زیادہ تو نہیں
-- نکتہ: sentence بہت لمبے تو نہیں
+- English mix ضرورت سے زیادہ تو نہیں
+- sentence بہت لمبے تو نہیں
 - ابتدائی tone برقرار ہے یا نہیں
 
 خاص طور پر Urdu AI audience کے لیے final human read ضروری ہے۔
@@ -226,10 +226,10 @@ faq:
 
 صحیح conclusion:
 
-- نکتہ: prompt بہتر کرنا ہے
+- prompt بہتر کرنا ہے
 - دائرہ کار چھوٹا کرنا ہے
-- نکتہ: context بڑھانا ہے
-- نکتہ: issue isolate کرنا ہے
+- context بڑھانا ہے
+- issue isolate کرنا ہے
 
 کوڈیکس learning میں iteration normal ہے۔
 
@@ -237,10 +237,10 @@ faq:
 
 اگر آپ ان غلطیوں سے بچنا چاہتے ہیں تو یہ workflow follow کریں:
 
-1. نکتہ: clear goal لکھیں
+1. clear goal لکھیں
 2. سامعین بتائیں
-3. نکتہ: small scope رکھیں
-4. نکتہ: first draft لیں
+3. small scope رکھیں
+4. first draft لیں
 5. پریویو یا review کریں
 6. گٹ ہب پر save کریں
 7. لائیو کریں

@@ -40,12 +40,12 @@ faq:
 
 مثلاً:
 
-- نکتہ: file پڑھ سکتا ہے
-- نکتہ: file میں تبدیلی کر سکتا ہے
+- file پڑھ سکتا ہے
+- file میں تبدیلی کر سکتا ہے
 - نئی file بنا سکتا ہے
 - ایپ چلا کر check کر سکتا ہے
 - خرابی دیکھ کر fix کر سکتا ہے
-- نکتہ: changes کو verify بھی کر سکتا ہے
+- changes کو verify بھی کر سکتا ہے
 
 یہی وجہ ہے کہ Codex کو صرف chatbot کہنا درست نہیں۔ یہ ایک **working assistant** ہے۔
 
@@ -67,10 +67,10 @@ faq:
 
 آپ اگر topic دیں تو Codex:
 
-- نکتہ: outline بنا سکتا ہے
+- outline بنا سکتا ہے
 - سلائیڈ titles لکھ سکتا ہے
-- نکتہ: presenter notes تیار کر سکتا ہے
-- نکتہ: editable presentation بھی بنا سکتا ہے
+- presenter notes تیار کر سکتا ہے
+- editable presentation بھی بنا سکتا ہے
 
 ### موضوع: 3. Simple web page بنانا
 
@@ -84,10 +84,10 @@ faq:
 
 مثلاً:
 
-- نکتہ: todo app
+- todo app
 - کیلکولیٹر
 - طالب علم directory
-- نکتہ: form-based tool
+- form-based tool
 
 کوڈیکس ان کا basic version تیزی سے بنا دیتا ہے۔
 
@@ -119,14 +119,14 @@ faq:
 - سلائیڈ
 - ویب صفحہ
 - ایپ
-- نکتہ: fix
+- fix
 
 ### موضوع: 2. context
 
 پھر بتائیں:
 
 - سامعین کون ہے؟
-- نکتہ: style کیسی ہو؟
+- style کیسی ہو؟
 - کون سی files important ہیں؟
 - کیا چیز preserve رکھنی ہے؟
 
@@ -135,8 +135,8 @@ faq:
 آخر میں بتائیں آپ کو نتیجہ کس شکل میں چاہیے:
 
 - اردو میں
-- نکتہ: short version
-- نکتہ: editable
+- short version
+- editable
 - موبائل-friendly
 - گٹ ہب-ready
 

@@ -37,12 +37,12 @@ faq:
 
 ## کوڈیکس سے کس قسم کے web pages بنوائے جا سکتے ہیں؟
 
-- نکتہ: course registration page
-- نکتہ: product landing page
-- نکتہ: personal profile page
-- نکتہ: event announcement page
+- course registration page
+- product landing page
+- personal profile page
+- event announcement page
 - اسکول or workshop info page
-- نکتہ: contact page
+- contact page
 
 یہ سب شروع کے لیے بہترین ہیں۔
 
@@ -50,8 +50,8 @@ faq:
 
 ویب صفحہ prompt دیتے وقت یہ پانچ چیزیں clear کریں:
 
-1. نکتہ: page کس کے لیے ہے
-2. نکتہ: page کا مقصد کیا ہے
+1. page کس کے لیے ہے
+2. page کا مقصد کیا ہے
 3. کون سے sections چاہئیں
 4. زبان کون سی ہو
 5. آخری action کیا ہو
@@ -94,9 +94,9 @@ faq:
 
 آخر میں button:
 
-- نکتہ: Register now
+- Register now
 - واٹس ایپ now
-- نکتہ: Learn more
+- Learn more
 
 ## کوڈیکس سے mobile-friendly page کیوں بنوانا چاہیے؟
 
@@ -133,7 +133,7 @@ faq:
 
 ### مرحلہ 5: refinements دیں
 
-- نکتہ: heading چھوٹی کرو
+- heading چھوٹی کرو
 - رنگ softer کرو
 - واٹس ایپ button اوپر لے آؤ
 - اردو text آسان کرو
@@ -147,8 +147,8 @@ faq:
 - اسے زیادہ professional بناؤ
 - والدین کے لیے tone نرم کرو
 - زیادہ white space دو
-- نکتہ: 3 cards شامل کرو
-- نکتہ: footer میں contact info شامل کرو
+- 3 cards شامل کرو
+- footer میں contact info شامل کرو
 
 یعنی Codex ایک بار کا tool نہیں، iterative partner ہے۔
 

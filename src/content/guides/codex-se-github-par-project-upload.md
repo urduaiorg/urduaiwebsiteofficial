@@ -37,7 +37,7 @@ faq:
 یہاں آپ:
 
 - پروجیکٹ save کرتے ہیں
-- نکتہ: updates track کرتے ہیں
+- updates track کرتے ہیں
 - دوسروں کو link دیتے ہیں
 - لائیو deployment کے لیے project connect کرتے ہیں
 
@@ -75,7 +75,7 @@ faq:
 
 گٹ ہب پر upload سے پہلے یہ ضرور دیکھیں:
 
-- نکتہ: page یا app چل رہی ہے؟
+- page یا app چل رہی ہے؟
 - غیر ضروری files تو نہیں؟
 - پروجیکٹ folder واضح ہے؟
 - ریڈ می یا short note موجود ہے؟
@@ -89,8 +89,8 @@ faq:
 - پروجیکٹ files review
 - غیر ضروری files کی نشاندہی
 - ریڈ می draft
-- نکتہ: commit message ideas
-- نکتہ: next steps explanation
+- commit message ideas
+- next steps explanation
 
 مثلاً:
 
@@ -110,8 +110,8 @@ faq:
 
 ایک new repository بنائیں، مثلاً:
 
-- نکتہ: codex-first-page
-- نکتہ: urdu-ai-codex-demo
+- codex-first-page
+- urdu-ai-codex-demo
 - والدین-ai-landing-page
 
 ### مرحلہ 3: project connect کریں
@@ -122,8 +122,8 @@ faq:
 
 نوٹ: clear message لکھیں:
 
-- نکتہ: first landing page
-- نکتہ: initial Codex project
+- first landing page
+- initial Codex project
 - اردو workshop page draft
 
 ### مرحلہ 5: push کریں
@@ -134,15 +134,15 @@ faq:
 
 کمزور:
 
-- نکتہ: update
-- نکتہ: changes
+- update
+- changes
 - آخری
 
 بہتر:
 
-- نکتہ: add first Urdu landing page
-- نکتہ: add course registration section
-- نکتہ: fix mobile spacing and CTA
+- add first Urdu landing page
+- add course registration section
+- fix mobile spacing and CTA
 
 نوٹ: clear message future میں بہت مدد دیتا ہے۔
 
@@ -184,9 +184,9 @@ faq:
 
 ایک اچھا GitHub link آپ کو یہ سب دیتا ہے:
 
-- نکتہ: proof کہ project واقعی بنایا گیا
+- proof کہ project واقعی بنایا گیا
 - کلائنٹ یا student کے ساتھ sharing
-- نکتہ: future updates کا record
+- future updates کا record
 - کلاوڈ فلیئر یا دوسری hosting سے connection
 
 یعنی GitHub صرف storage نہیں، publishing pipeline کا حصہ ہے۔
