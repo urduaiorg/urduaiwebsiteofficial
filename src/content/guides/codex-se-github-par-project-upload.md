@@ -3,15 +3,16 @@ title: کوڈیکس سے project گٹ ہب پر کیسے upload کریں؟ — �
 description: کوڈیکس سے بنائی گئی files یا web page کو گٹ ہب پر کیسے محفوظ کریں؟ repository، commit، push اور share link کو beginners کے لیے سادہ Urdu میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: GitHub
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-github-cloudflare.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: GitHub پر project ڈالنا کیوں ضروری ہے؟
     answer: GitHub پر project محفوظ ہو جاتا ہے، دوسروں کے ساتھ share کیا جا سکتا ہے، اور بعد میں changes track کرنا آسان ہو جاتا ہے۔
@@ -37,7 +38,7 @@ faq:
 یہاں آپ:
 
 - پروجیکٹ save کرتے ہیں
-- updates track کرتے ہیں
+- نکتہ: updates track کرتے ہیں
 - دوسروں کو link دیتے ہیں
 - لائیو deployment کے لیے project connect کرتے ہیں
 
@@ -75,7 +76,7 @@ faq:
 
 گٹ ہب پر upload سے پہلے یہ ضرور دیکھیں:
 
-- page یا app چل رہی ہے؟
+- نکتہ: page یا app چل رہی ہے؟
 - غیر ضروری files تو نہیں؟
 - پروجیکٹ folder واضح ہے؟
 - ریڈ می یا short note موجود ہے؟
@@ -89,8 +90,8 @@ faq:
 - پروجیکٹ files review
 - غیر ضروری files کی نشاندہی
 - ریڈ می draft
-- commit message ideas
-- next steps explanation
+- نکتہ: commit message ideas
+- نکتہ: next steps explanation
 
 مثلاً:
 
@@ -110,8 +111,8 @@ faq:
 
 ایک new repository بنائیں، مثلاً:
 
-- codex-first-page
-- urdu-ai-codex-demo
+- نکتہ: codex-first-page
+- نکتہ: urdu-ai-codex-demo
 - والدین-ai-landing-page
 
 ### مرحلہ 3: project connect کریں
@@ -122,8 +123,8 @@ faq:
 
 نوٹ: clear message لکھیں:
 
-- first landing page
-- initial Codex project
+- نکتہ: first landing page
+- نکتہ: initial Codex project
 - اردو workshop page draft
 
 ### مرحلہ 5: push کریں
@@ -134,15 +135,15 @@ faq:
 
 کمزور:
 
-- update
-- changes
+- نکتہ: update
+- نکتہ: changes
 - آخری
 
 بہتر:
 
-- add first Urdu landing page
-- add course registration section
-- fix mobile spacing and CTA
+- نکتہ: add first Urdu landing page
+- نکتہ: add course registration section
+- نکتہ: fix mobile spacing and CTA
 
 نوٹ: clear message future میں بہت مدد دیتا ہے۔
 
@@ -184,9 +185,9 @@ faq:
 
 ایک اچھا GitHub link آپ کو یہ سب دیتا ہے:
 
-- proof کہ project واقعی بنایا گیا
+- نکتہ: proof کہ project واقعی بنایا گیا
 - کلائنٹ یا student کے ساتھ sharing
-- future updates کا record
+- نکتہ: future updates کا record
 - کلاوڈ فلیئر یا دوسری hosting سے connection
 
 یعنی GitHub صرف storage نہیں، publishing pipeline کا حصہ ہے۔
