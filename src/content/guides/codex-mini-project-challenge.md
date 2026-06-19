@@ -1,18 +1,19 @@
 ---
-title: "کوڈیکس منی پروجیکٹ چیلنج — اپنی پہلی مکمل build آسان طریقے سے کریں"
-description: "کوڈیکس سے ایک چھوٹا مگر مکمل عملی پروجیکٹ کیسے بنائیں؟ idea، prompt، page، گٹ ہب، کلاوڈ فلیئر اور final share تک step-by-step Urdu challenge۔"
+title: کوڈیکس منی پروجیکٹ چیلنج — اپنی پہلی مکمل build آسان طریقے سے کریں
+description: کوڈیکس سے ایک چھوٹا مگر مکمل عملی پروجیکٹ کیسے بنائیں؟ idea، prompt، page، گٹ ہب، کلاوڈ فلیئر اور final share تک step-by-step Urdu challenge۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-roadmap-challenge.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: mini project challenge کیا ہے؟
     answer: یہ ایک guided exercise ہے جس میں learner Codex کی مدد سے ایک چھوٹا مگر مکمل practical project بناتا ہے، save کرتا ہے، اور live بھی کرتا ہے۔
@@ -46,19 +47,19 @@ faq:
 
 بہترین examples:
 
-- workshop registration page
+- نکتہ: workshop registration page
 - اسکول parent information page
 - سادہ todo app
 - طالب علم contact directory
-- quote calculator
-- small service landing page
+- نکتہ: quote calculator
+- نکتہ: small service landing page
 
 غلط choice:
 
 - مکمل marketplace
-- advanced SaaS
-- multi-role dashboard
-- complex login system with many screens
+- نکتہ: advanced SaaS
+- نکتہ: multi-role dashboard
+- نکتہ: complex login system with many screens
 
 ## موضوع: challenge کے لیے ایک ready idea
 
@@ -69,9 +70,9 @@ faq:
 اس میں شامل ہو:
 
 - ایک clear heading
-- short intro
-- 4 benefits
-- instructor section
+- نکتہ: short intro
+- نکتہ: 4 benefits
+- نکتہ: instructor section
 - واٹس ایپ یا registration CTA
 
 یہ beginner-friendly بھی ہے اور practical بھی۔
@@ -104,8 +105,8 @@ faq:
 پہلے یہ check کریں:
 
 - پروجیکٹ بن گیا؟
-- structure سمجھ آ رہا ہے؟
-- sections موجود ہیں؟
+- نکتہ: structure سمجھ آ رہا ہے؟
+- نکتہ: sections موجود ہیں؟
 
 پہلا version صرف foundation ہے۔
 
@@ -114,8 +115,8 @@ faq:
 کوڈیکس کو follow-up دیں:
 
 - اردو زیادہ natural کرو
-- heading کو strong کرو
-- spacing بہتر کرو
+- نکتہ: heading کو strong کرو
+- نکتہ: spacing بہتر کرو
 - کال ٹو ایکشن زیادہ واضح کرو
 - موبائل layout بہتر کرو
 
@@ -134,8 +135,8 @@ faq:
 
 اب project save کریں:
 
-- repository بنائیں
-- clear commit کریں
+- نکتہ: repository بنائیں
+- نکتہ: clear commit کریں
 - گٹ ہب link تیار کریں
 
 ضرورت ہو تو پہلے یہ guide دیکھیں:
@@ -145,10 +146,10 @@ faq:
 
 اب project public link میں بدلیں:
 
-- repository connect کریں
-- build command confirm کریں
+- نکتہ: repository connect کریں
+- نکتہ: build command confirm کریں
 - نتیجہ folder confirm کریں
-- deploy کریں
+- نکتہ: deploy کریں
 
 ضرورت ہو تو یہ guide دیکھیں:
 [کلاوڈ فلیئر live guide](/guides/codex-se-cloudflare-par-live-website/)
@@ -222,7 +223,7 @@ faq:
 نوٹ: challenge مکمل ہو جائے تو اس same pattern پر دوسرا project بنائیں۔
 مثلاً:
 
-- registration page
+- نکتہ: registration page
 - سادہ tool
 - دستاویز plus landing page combo
 
