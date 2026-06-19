@@ -122,19 +122,34 @@
         root.append(style);
       };
 
+      const setAttr = (el, name, value) => {
+        if (el?.getAttribute(name) !== value) {
+          el.setAttribute(name, value);
+        }
+      };
+
       const applyRtl = () => {
-        document.documentElement.setAttribute('dir', 'rtl');
-        document.documentElement.setAttribute('lang', 'ur');
-        document.body?.setAttribute('dir', 'rtl');
+        setAttr(document.documentElement, 'dir', 'rtl');
+        setAttr(document.documentElement, 'lang', 'ur');
+        setAttr(document.body, 'dir', 'rtl');
         ensureStyle(document.head);
         document.querySelectorAll('*').forEach((el) => {
           if (el.shadowRoot) ensureStyle(el.shadowRoot);
         });
       };
 
+      let scheduled = false;
+      const scheduleApplyRtl = () => {
+        if (scheduled) return;
+        scheduled = true;
+        requestAnimationFrame(() => {
+          scheduled = false;
+          applyRtl();
+        });
+      };
+
       applyRtl();
-      new MutationObserver(applyRtl).observe(document.documentElement, {
-        attributes: true,
+      new MutationObserver(scheduleApplyRtl).observe(document.documentElement, {
         childList: true,
         subtree: true,
       });
