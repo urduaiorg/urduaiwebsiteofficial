@@ -3,14 +3,15 @@ title: کوڈیکس کو صحیح پرامپٹ کیسے دیں؟ — ابتدا�
 description: کوڈیکس سے بہتر result لینے کے لیے prompt کیسے لکھیں؟ واضح instructions، context، output اور عام غلطیوں کو عام Urdu learners کے لیے step-by-step سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-prompts-app-debug.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: prompt کیا ہوتا ہے؟
     answer: prompt وہ instruction ہے جو آپ Codex کو دیتے ہیں تاکہ وہ سمجھ سکے کہ آپ کیا بنوانا یا ٹھیک کروانا چاہتے ہیں۔
@@ -64,9 +65,9 @@ faq:
 
 - دستاویز
 - سلائیڈز
-- page
+- نکتہ: page
 - ایپ
-- fix
+- نکتہ: fix
 
 ### موضوع: 2. audience
 
@@ -87,9 +88,9 @@ faq:
 آخر میں واضح کریں:
 
 - اردو میں
-- short version
+- نکتہ: short version
 - موبائل-friendly
-- editable
+- نکتہ: editable
 - ابتدائی-friendly
 
 ### موضوع: 5. constraints
@@ -117,8 +118,8 @@ faq:
 مثلاً:
 
 - اسے زیادہ simple کرو
-- intro مختصر کرو
-- bullets بہتر کرو
+- نکتہ: intro مختصر کرو
+- نکتہ: bullets بہتر کرو
 - موبائل view بہتر کرو
 - اردو زیادہ natural کرو
 
@@ -202,7 +203,7 @@ faq:
 
 - دستاویز کے لیے
 - سلائیڈز کے لیے
-- page کے لیے
+- نکتہ: page کے لیے
 
 اس سے آپ کو فوراً سمجھ آ جائے گی کہ format بدلنے سے prompt بھی بدلتا ہے۔
 
