@@ -1,18 +1,19 @@
 ---
-title: "کوڈیکس ماسٹر کلاس روڈ میپ — ابتدائی صارفین کے لیے مکمل learning path"
-description: "کوڈیکس سیکھنے کے لیے مکمل ابتدائی روڈ میپ: پہلے کیا پڑھنا ہے، پھر کیا بنانا ہے، اور کس ترتیب سے دستاویزات، صفحات، ایپس، گٹ ہب اور کلاوڈ فلیئر تک جانا ہے۔"
+title: کوڈیکس ماسٹر کلاس روڈ میپ — ابتدائی صارفین کے لیے مکمل learning path
+description: 'کوڈیکس سیکھنے کے لیے مکمل ابتدائی روڈ میپ: پہلے کیا پڑھنا ہے، پھر کیا بنانا ہے، اور کس ترتیب سے دستاویزات، صفحات، ایپس، گٹ ہب اور کلاوڈ فلیئر تک جانا ہے۔'
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-roadmap-challenge.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: کیا یہ roadmap بالکل beginners کے لیے ہے؟
     answer: جی ہاں، یہ roadmap ایسے learners کے لیے بنایا گیا ہے جن کی technical background کم یا نہ ہونے کے برابر ہے۔
