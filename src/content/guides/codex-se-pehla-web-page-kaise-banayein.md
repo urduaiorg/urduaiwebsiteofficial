@@ -3,14 +3,15 @@ title: کوڈیکس سے اپنا پہلا web page کیسے بنائیں؟ — 
 description: کوڈیکس سے پہلی website یا simple landing page کیسے بنائیں؟ ابتدائی صارفین کے لیے آسان Urdu guide — structure، prompt، preview اور common mistakes کے ساتھ۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-kya-hai.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: کیا Codex سے بغیر coding کے web page بن سکتا ہے؟
     answer: جی ہاں۔ اگر آپ واضح بتائیں کہ page کس کے لیے ہے اور اس میں کیا ہونا چاہیے، تو Codex basic web page یا landing page بنا سکتا ہے۔
