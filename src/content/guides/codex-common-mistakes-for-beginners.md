@@ -1,18 +1,19 @@
 ---
-title: "کوڈیکس کے ابتدائی صارفین کی عام غلطیاں — کن باتوں سے بچنا چاہیے"
-description: "کوڈیکس استعمال کرتے وقت ابتدائی صارفین کون سی عام غلطیاں کرتے ہیں؟ کمزور پرامپٹس، بڑا دائرہ کار، پریویو skip کرنا، گٹ ہب نہ کرنا اور دوسری غلطیاں آسان اردو میں۔"
+title: کوڈیکس کے ابتدائی صارفین کی عام غلطیاں — کن باتوں سے بچنا چاہیے
+description: کوڈیکس استعمال کرتے وقت ابتدائی صارفین کون سی عام غلطیاں کرتے ہیں؟ کمزور پرامپٹس، بڑا دائرہ کار، پریویو skip کرنا، گٹ ہب نہ کرنا اور دوسری غلطیاں آسان اردو میں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-common-mistakes.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: beginners Codex میں سب سے بڑی غلطی کیا کرتے ہیں؟
     answer: سب سے عام غلطی vague prompt دینا اور ایک ہی بار میں بہت بڑا project مانگ لینا ہے۔
