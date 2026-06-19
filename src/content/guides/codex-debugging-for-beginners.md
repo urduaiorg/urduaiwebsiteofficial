@@ -3,14 +3,15 @@ title: کوڈیکس سے خرابی کیسے دور کریں؟ — error آئے 
 description: کوڈیکس کے ساتھ errors، broken layout، failed builds اور عام غلطیوں کو کیسے ٹھیک کریں؟ ابتدائی صارفین کے لیے آسان اردو debugging guide۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-prompts-app-debug.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: debugging کیا ہوتی ہے؟
     answer: debugging کا مطلب ہے مسئلہ یا error ڈھونڈنا، اس کی وجہ سمجھنا، اور پھر درست fix لگانا۔
@@ -32,7 +33,7 @@ faq:
 
 1. مسئلہ دیکھنا
 2. اصل وجہ سمجھنا
-3. focused fix لگانا
+3. نکتہ: focused fix لگانا
 
 یعنی صرف fix نہیں، پہلے cause سمجھنا بھی ضروری ہے۔
 
@@ -41,7 +42,7 @@ faq:
 سب سے پہلے panic نہ کریں۔
 پھر یہ چیزیں کریں:
 
-- exact error note کریں
+- نکتہ: exact error note کریں
 - کیا expected تھا وہ بھی لکھیں
 - کون سی screen یا file پر issue ہے وہ identify کریں
 
@@ -60,9 +61,9 @@ faq:
 کیونکہ Codex:
 
 - خرابی text پڑھ سکتا ہے
-- related file identify کر سکتا ہے
-- common pattern پہچان سکتا ہے
-- focused fix دے سکتا ہے
+- نکتہ: related file identify کر سکتا ہے
+- نکتہ: common pattern پہچان سکتا ہے
+- نکتہ: focused fix دے سکتا ہے
 - بعد میں دوبارہ check بھی کر سکتا ہے
 
 یہ beginners کے لیے بہت مددگار ہے کیونکہ انہیں ہر error manually interpret نہیں کرنی پڑتی۔
@@ -78,7 +79,7 @@ faq:
 نوٹ: page بن گیا لیکن:
 
 - متن overlap کر رہا ہے
-- button نیچے چلا گیا
+- نکتہ: button نیچے چلا گیا
 - موبائل view ٹوٹ گئی
 
 یہ بھی debugging ہے۔
@@ -121,7 +122,7 @@ faq:
 
 دیکھیں:
 
-- issue واقعی حل ہوا؟
+- نکتہ: issue واقعی حل ہوا؟
 - کچھ اور تو نہیں ٹوٹا؟
 
 ## موضوع: good debugging prompt examples
@@ -183,9 +184,9 @@ faq:
 اپنی current app یا page میں کسی ایک چھوٹے issue کو identify کریں:
 
 - لے آؤٹ
-- button
-- wording
-- build
+- نکتہ: button
+- نکتہ: wording
+- نکتہ: build
 
 پھر اوپر والا prompt استعمال کریں۔
 
