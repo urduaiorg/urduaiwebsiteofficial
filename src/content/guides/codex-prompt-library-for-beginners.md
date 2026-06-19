@@ -1,18 +1,19 @@
 ---
-title: "کوڈیکس پرامپٹ لائبریری — ابتدائی صارفین کے لیے تیار اردو پرامپٹس"
-description: "کوڈیکس کے لیے تیار پرامپٹس: دستاویزات، سلائیڈز، ویب صفحات، ایپس، debugging، گٹ ہب اور کلاوڈ فلیئر کے لیے آسان Urdu prompt library۔"
+title: کوڈیکس پرامپٹ لائبریری — ابتدائی صارفین کے لیے تیار اردو پرامپٹس
+description: 'کوڈیکس کے لیے تیار پرامپٹس: دستاویزات، سلائیڈز، ویب صفحات، ایپس، debugging، گٹ ہب اور کلاوڈ فلیئر کے لیے آسان Urdu prompt library۔'
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-prompt-library.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: prompt library کیا ہوتی ہے؟
     answer: prompt library ready-made instructions کا مجموعہ ہوتی ہے جنہیں learner copy، edit اور reuse کر سکتا ہے۔
@@ -34,7 +35,7 @@ faq:
 
 ہر prompt کو تین حصوں میں دیکھیں:
 
-- base prompt
+- نکتہ: base prompt
 - کب useful ہے
 - کس چیز کو اپنے مطابق بدلنا ہے
 
@@ -54,9 +55,9 @@ faq:
 
 استعمال کی جگہ:
 
-- class handout چاہیے
-- workshop note چاہیے
-- one-page explainery content چاہیے
+- نکتہ: class handout چاہیے
+- نکتہ: workshop note چاہیے
+- نکتہ: one-page explainery content چاہیے
 
 ### موضوع: professional note prompt
 
@@ -74,7 +75,7 @@ faq:
 
 استعمال کی جگہ:
 
-- class لینی ہو
+- نکتہ: class لینی ہو
 - ٹریننگ دینی ہو
 - یوٹیوب lesson کو slides میں بدلنا ہو
 
@@ -196,7 +197,7 @@ faq:
 2. ٹریننگ presentation prompt
 3. سادہ landing page prompt
 4. سادہ ایپ prompt
-5. general debugging prompt
+5. نکتہ: general debugging prompt
 
 یہ پانچ prompts beginner learner کو Codex کی اصل طاقت دکھا دیتے ہیں۔
 
@@ -218,9 +219,9 @@ faq:
 
 - دستاویز prompts
 - سلائیڈز prompts
-- page prompts
+- نکتہ: page prompts
 - ایپ prompts
-- fix prompts
+- نکتہ: fix prompts
 
 جوں جوں آپ Codex use کریں گے، آپ کی personal library بہتر ہوتی جائے گی۔
 
