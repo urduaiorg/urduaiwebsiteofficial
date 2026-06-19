@@ -3,16 +3,17 @@ title: کوڈیکس سے portfolio اور client work کیسے بنائیں؟ �
 description: کوڈیکس سے بنے pages، apps اور documents کو portfolio، freelancing اور client work میں کیسے تبدیل کریں؟ non-technical Urdu learners کے لیے آسان practical guide۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-github-cloudflare.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: کیا Codex سے واقعی earning شروع کی جا سکتی ہے؟
     answer: جی ہاں، اگر آپ Codex سے useful outputs بنانا سیکھ لیں جیسے landing pages، documents، simple tools اور client-ready demos، تو انہیں paid work میں بدلا جا سکتا ہے۔
@@ -75,8 +76,8 @@ faq:
 آپ کو expert programmer ہونے کی ضرورت نہیں، لیکن یہ skills ضروری ہیں:
 
 - مسئلہ سمجھنا
-- clear brief بنانا
-- good prompt دینا
+- نکتہ: clear brief بنانا
+- نکتہ: good prompt دینا
 - نتیجہ review کرنا
 - آخری polish کرنا
 
@@ -92,7 +93,7 @@ faq:
 
 - اردو اے آئی workshop landing page
 - اسکول registration page
-- parent info portal
+- نکتہ: parent info portal
 
 ### موضوع: 2. short explanation
 
@@ -114,16 +115,16 @@ faq:
 
 مثلاً:
 
-- one landing page
-- one simple app
-- one document/slide sample
+- نکتہ: one landing page
+- نکتہ: one simple app
+- نکتہ: one document/slide sample
 
 ### مرحلہ 2: ہر project کو polish کریں
 
 - متن clear
 - موبائل-friendly
-- working CTA
-- no obvious bugs
+- نکتہ: working CTA
+- نکتہ: no obvious bugs
 
 ### مرحلہ 3: GitHub پر ڈالیں
 
@@ -144,9 +145,9 @@ faq:
 شروع میں بڑے marketplaces کے بجائے یہ جگہیں زیادہ آسان ہوتی ہیں:
 
 - لوکل business circle
-- schools
-- trainers
-- community groups
+- نکتہ: schools
+- نکتہ: trainers
+- نکتہ: community groups
 - واٹس ایپ contacts
 - فیس بک groups
 
@@ -169,8 +170,8 @@ faq:
 کوڈیکس سے آپ:
 
 - کلائنٹ brief کو structure کر سکتے ہیں
-- demo page جلدی بنا سکتے ہیں
-- revisions handle کر سکتے ہیں
+- نکتہ: demo page جلدی بنا سکتے ہیں
+- نکتہ: revisions handle کر سکتے ہیں
 - سلائیڈز اور proposal ساتھ دے سکتے ہیں
 - ریڈ می یا handover note لکھ سکتے ہیں
 
@@ -225,7 +226,7 @@ faq:
 
 - کوڈیکس کو basic level پر سمجھتے ہیں
 - اس کے اہم features جانتے ہیں
-- prompts بہتر لکھ سکتے ہیں
+- نکتہ: prompts بہتر لکھ سکتے ہیں
 - دستاویزات اور slides بنوا سکتے ہیں
 - سادہ web page اور app بنا سکتے ہیں
 - گٹ ہب اور Cloudflare استعمال کر سکتے ہیں
