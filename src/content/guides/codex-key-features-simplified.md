@@ -3,14 +3,15 @@ title: کوڈیکس کے اہم فیچرز — اسکلز، پلگ اِنز، س
 description: کوڈیکس کے اہم فیچرز کیا ہیں؟ اسکلز، پلگ اِنز، سیاق و سباق، ورک اسپیس، تھریڈز، پرامپٹس اور approvals کو عام لوگوں کے لیے سادہ اردو میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-kya-hai.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: Skill کیا ہوتی ہے؟
     answer: Skill ایک تیار شدہ طریقہ کار ہے جو Codex کو خاص قسم کا کام بہتر طریقے سے کرنے میں مدد دیتا ہے، جیسے presentation بنانا یا document لکھنا۔
@@ -33,8 +34,8 @@ faq:
 مثلاً اگر Codex کے پاس presentation بنانے کی skill ہو تو اسے پہلے سے پتا ہوتا ہے کہ:
 
 - سلائیڈ structure کیسے بنانا ہے
-- headings کیسے لکھنی ہیں
-- editable deck کیسے تیار کرنا ہے
+- نکتہ: headings کیسے لکھنی ہیں
+- نکتہ: editable deck کیسے تیار کرنا ہے
 - آخری output کیسے verify کرنا ہے
 
 یعنی skill، Codex کو smarter workflow دیتی ہے۔
@@ -70,9 +71,9 @@ faq:
 
 یہی وہ جگہ ہے جہاں Codex:
 
-- file پڑھتا ہے
-- file بناتا ہے
-- file edit کرتا ہے
+- نکتہ: file پڑھتا ہے
+- نکتہ: file بناتا ہے
+- نکتہ: file edit کرتا ہے
 - پروجیکٹ run کرتا ہے
 
 اسے اپنے "کام کے کمرے" کی طرح سمجھیں۔
@@ -116,9 +117,9 @@ faq:
 
 کچھ کام ایسے ہوتے ہیں جو Codex ہر بار خود نہیں کر سکتا، خاص طور پر sensitive کام:
 
-- risky command
-- major delete
-- external system action
+- نکتہ: risky command
+- نکتہ: major delete
+- نکتہ: external system action
 
 ایسے cases میں approval درکار ہو سکتی ہے۔ یعنی پہلے user کی اجازت۔
 
@@ -140,8 +141,8 @@ faq:
 
 مثلاً:
 
-- file edit سے پہلے check
-- command کے بعد validation
+- نکتہ: file edit سے پہلے check
+- نکتہ: command کے بعد validation
 
 عام user کو hooks بنانا ضروری نہیں، لیکن advanced teams یہ استعمال کرتی ہیں۔
 
@@ -160,9 +161,9 @@ faq:
 
 اگر آپ website یا app بنا رہے ہیں تو browser preview بہت اہم ہے۔ Codex اس preview کو کھول کر check کر سکتا ہے:
 
-- page کھل رہا ہے یا نہیں
+- نکتہ: page کھل رہا ہے یا نہیں
 - لے آؤٹ ٹوٹ تو نہیں رہا
-- button کام کر رہا ہے یا نہیں
+- نکتہ: button کام کر رہا ہے یا نہیں
 
 یہ beginners کے لیے بہت helpful ہے کیونکہ صرف code دیکھنے سے مسئلہ ہمیشہ clear نہیں ہوتا۔
 
@@ -171,7 +172,7 @@ faq:
 جائزہ کا مطلب ہے Codex changes کو check کرے:
 
 - بگ تو نہیں؟
-- risk تو نہیں؟
+- نکتہ: risk تو نہیں؟
 - کچھ ٹوٹ تو نہیں گیا؟
 
 یعنی صرف بنانا نہیں، verify بھی کرنا۔
