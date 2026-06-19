@@ -3,14 +3,15 @@ title: کوڈیکس سے دستاویزات اور سلائیڈز کیسے بن�
 description: کوڈیکس سے report، outline، handout، proposal اور presentation slides کیسے بنائی جائیں؟ عام Urdu users کے لیے step-by-step guide۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-documents-slides.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: کیا Codex سے مکمل document لکھوایا جا سکتا ہے؟
     answer: جی ہاں۔ Codex outline، headings، body text، table اور summary سمیت مکمل document draft تیار کر سکتا ہے۔
@@ -31,14 +32,14 @@ faq:
 کوڈیکس سے آپ یہ چیزیں آسانی سے بنوا سکتے ہیں:
 
 - ٹریننگ outline
-- lesson plan
+- نکتہ: lesson plan
 - رپورٹ
 - پروپوزل
 - کاروباری note
-- event handout
-- one-page summary
-- checklist
-- FAQ sheet
+- نکتہ: event handout
+- نکتہ: one-page summary
+- نکتہ: checklist
+- نکتہ: FAQ sheet
 
 اور اگر آپ کہیں تو یہی چیز Urdu یا English دونوں میں بن سکتی ہے۔
 
@@ -79,10 +80,10 @@ faq:
 
 کوڈیکس عام طور پر:
 
-- heading دے گا
-- structured sections دے گا
-- bullet points دے گا
-- readable flow دے گا
+- نکتہ: heading دے گا
+- نکتہ: structured sections دے گا
+- نکتہ: bullet points دے گا
+- نکتہ: readable flow دے گا
 
 اگر آپ مطمئن نہ ہوں تو follow-up دیں:
 
@@ -100,7 +101,7 @@ faq:
 یہ Codex کو واضح direction دیتا ہے کہ:
 
 - سلائیڈ-heavy format چاہیے
-- verbose paragraph نہیں چاہیے
+- نکتہ: verbose paragraph نہیں چاہیے
 - سامعین beginner ہے
 
 ## کوڈیکس سے بنوائے گئے document کو فوراً final نہ سمجھیں
@@ -109,9 +110,9 @@ faq:
 
 - سامعین واقعی یہی ہے؟
 - لہجہ بہت مشکل تو نہیں؟
-- facts درست ہیں؟
+- نکتہ: facts درست ہیں؟
 - بہت لمبا تو نہیں؟
-- repetition تو نہیں؟
+- نکتہ: repetition تو نہیں؟
 
 یعنی Codex speed دیتا ہے، final editorial فیصلہ اب بھی آپ کا ہے۔
 
@@ -129,7 +130,7 @@ faq:
 مثلاً اگر آپ master class چلا رہے ہیں تو ایک ہی topic سے Codex سے یہ سب نکال سکتے ہیں:
 
 - مکمل article
-- class notes
+- نکتہ: class notes
 - سلائیڈ outline
 - واٹس ایپ summary
 - یوٹیوب description
@@ -178,11 +179,11 @@ faq:
 ## کوڈیکس slides کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
 
 - سلائیڈ sequence بنانا
-- session timing کے مطابق تقسیم
-- titles کو short کرنا
-- key points کو bullets میں بدلنا
-- presenter notes تیار کرنا
-- recap اور homework sections بنانا
+- نکتہ: session timing کے مطابق تقسیم
+- نکتہ: titles کو short کرنا
+- نکتہ: key points کو bullets میں بدلنا
+- نکتہ: presenter notes تیار کرنا
+- نکتہ: recap اور homework sections بنانا
 
 اگر آپ trainer یا instructor ہیں تو یہ بہت بڑی saving ہے۔
 
@@ -225,7 +226,7 @@ faq:
 - اپنا workshop handout
 - اپنی پہلی presentation
 - یوٹیوب video outline
-- parent session notes
+- نکتہ: parent session notes
 - ٹریننگ FAQ
 
 ## اگلی گائیڈ میں
