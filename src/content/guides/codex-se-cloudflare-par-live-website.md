@@ -3,16 +3,17 @@ title: کوڈیکس سے website کو کلاوڈ فلیئر پر live کیسے �
 description: کوڈیکس سے بنے project کو گٹ ہب سے کلاوڈ فلیئر پیجز پر live کیسے کیا جائے؟ build command، output folder اور public URL کو step-by-step سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Cloudflare
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-github-cloudflare.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
   - Cloudflare
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: Cloudflare Pages کیا ہے؟
     answer: Cloudflare Pages ایک hosting service ہے جو GitHub repository سے website build کر کے اسے live public link دیتی ہے۔
@@ -55,8 +56,8 @@ faq:
 کیونکہ آپ کو:
 
 - اپنا server خود نہیں چلانا
-- hosting setup manually نہیں کرنا
-- complicated deployment process نہیں سیکھنا
+- نکتہ: hosting setup manually نہیں کرنا
+- نکتہ: complicated deployment process نہیں سیکھنا
 
 بس repository connect کریں، settings دیں، اور deploy کر دیں۔
 
@@ -129,10 +130,10 @@ faq:
 
 کوڈیکس سے آپ یہ سب کرا سکتے ہیں:
 
-- build command identify
+- نکتہ: build command identify
 - نتیجہ folder identify
-- deployment checklist
-- post-deploy fixes
+- نکتہ: deployment checklist
+- نکتہ: post-deploy fixes
 - لائیو update workflow explanation
 
 مثلاً:
@@ -151,7 +152,7 @@ faq:
 - اردو text صحیح آ رہا ہے؟
 - موبائل پر layout ٹھیک ہے؟
 - بٹنز کام کر رہے ہیں؟
-- latest version ہی live ہے؟
+- نکتہ: latest version ہی live ہے؟
 
 یعنی deploy complete ہونے کا مطلب یہ نہیں کہ result perfect بھی ہے۔ final check ضروری ہے۔
 
@@ -195,7 +196,7 @@ faq:
 
 - خیال سے project
 - پروجیکٹ سے repo
-- repo سے public product
+- نکتہ: repo سے public product
 
 بن جاتا ہے۔
 
