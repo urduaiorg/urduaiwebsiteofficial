@@ -3,14 +3,15 @@ title: کوڈیکس سے simple app کیسے بنائیں؟ — ابتدائی �
 description: کوڈیکس سے پہلی simple app کیسے بنائی جائے؟ app idea، features، first version، preview اور improvement workflow کو آسان Urdu میں سمجھیں۔
 date: 2026-06-16
 category: گائیڈ
-author: اردو اے آئی ٹیم
 tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-prompts-app-debug.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
+last_updated: ''
+author: اردو اے آئی ٹیم
 faq:
   - question: کیا beginners Codex سے app بنوا سکتے ہیں؟
     answer: جی ہاں، اگر app simple ہو اور آپ واضح بتائیں کہ user کون ہے اور app کیا کرے گی، تو Codex basic version بنا سکتا ہے۔
