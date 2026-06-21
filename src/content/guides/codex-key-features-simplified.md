@@ -7,7 +7,7 @@ tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-kya-hai.png
 adsense: true
-draft: true
+draft: false
 tools:
   - Codex
 last_updated: ''
