@@ -1,7 +1,7 @@
 ---
 title: کوڈیکس کو صحیح پرامپٹ کیسے دیں؟ — ابتدائی صارفین کے لیے آسان اردو گائیڈ
 description: کوڈیکس سے بہتر result لینے کے لیے prompt کیسے لکھیں؟ واضح instructions، context، output اور عام غلطیوں کو عام Urdu learners کے لیے step-by-step سمجھیں۔
-date: 2026-06-16
+date: 2026-06-15
 category: گائیڈ
 tool: Codex
 level: ابتدائی
