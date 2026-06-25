@@ -7,7 +7,7 @@ tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-prompts-app-debug.png
 adsense: true
-draft: true
+draft: false
 tools:
   - Codex
 last_updated: ''
