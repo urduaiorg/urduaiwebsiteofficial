@@ -65,9 +65,34 @@
       unicode-bidi: isolate !important;
       font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
     }
+
+    .publish-note {
+      position: fixed;
+      inset-block-end: 14px;
+      inset-inline-start: 14px;
+      z-index: 99999;
+      max-width: 360px;
+      padding: 12px 14px;
+      border: 1px solid #d9c999;
+      border-radius: 8px;
+      background: #fff8df;
+      color: #2b2112;
+      box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
+      font-size: 13px;
+      line-height: 1.9;
+      text-align: right;
+    }
+
+    .publish-note strong {
+      color: #0e6b5e;
+    }
   </style>
 </head>
 <body>
+  <div class="publish-note" dir="rtl" lang="ur">
+    <strong>Publish Live:</strong>
+    ڈرافٹ موڈ OFF کریں، پھر Save دبائیں۔ GitHub deploy مکمل ہونے کے بعد صفحہ ویب سائٹ پر نظر آئے گا۔
+  </div>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" defer></script>
   <script>
     (() => {

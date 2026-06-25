@@ -4,10 +4,9 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.qaisar-roonjha.workers.dev
 
-publish_mode: editorial_workflow
 # CMS-first workflow:
-# Create all new articles in /admin first.
-# Main branch is the source of truth for CMS visibility.
+# Save writes to main. Keep Draft Mode ON while writing.
+# Turn Draft Mode OFF and Save to publish after the GitHub deploy finishes.
 
 media_folder: public/images
 public_folder: /images
@@ -42,7 +41,7 @@ collections:
       - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/blog", public_folder: "/images/blog" }
       - { label: "مصنف", name: author, widget: select, options: ["قیصر رونجھا", "معراج احمد", "اردو اے آئی ٹیم"], default: "اردو اے آئی ٹیم" }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "AI ٹولز", name: tools, widget: list, required: false, hint: "متعلقہ ٹولز کے نام انگریزی میں" }
       - { label: "FAQ", name: faq, widget: list, required: false, collapsed: true, fields: [
           { label: "سوال", name: question, widget: string },
@@ -70,7 +69,7 @@ collections:
       - { label: "سطح", name: level, widget: select, options: ["ابتدائی", "درمیانہ", "ماہر"], default: "ابتدائی" }
       - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/guides", public_folder: "/images/guides" }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "AI ٹولز", name: tools, widget: list, required: false }
       - { label: "آخری اپڈیٹ", name: last_updated, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
       - { label: "مواد", name: body, widget: markdown }
@@ -96,7 +95,7 @@ collections:
       - { label: "درکار وقت", name: time_required, widget: string, required: false }
       - { label: "اسکرین شاٹس", name: screenshots, widget: boolean, default: false }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "AI ٹولز", name: tools, widget: list, required: false }
       - { label: "مواد", name: body, widget: markdown }
 
@@ -119,7 +118,7 @@ collections:
       - { label: "پرامٹس کی تعداد", name: prompt_count, widget: number, default: 0 }
       - { label: "کور تصویر", name: image, widget: image, required: false, media_folder: "/public/images/prompts", public_folder: "/images/prompts" }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "مواد", name: body, widget: markdown }
 
   # ============================================================
@@ -139,7 +138,7 @@ collections:
       - { label: "زمرہ", name: category, widget: string, default: "اردو اے آئی لغت" }
       - { label: "انگریزی اصطلاح", name: term_english, widget: string, required: true }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: true }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "مواد", name: body, widget: markdown }
 
   # ============================================================
@@ -160,5 +159,5 @@ collections:
       - { label: "مدت", name: duration, widget: string, required: false }
       - { label: "سطح", name: level, widget: select, options: ["ابتدائی", "درمیانہ", "ماہر"], default: "ابتدائی" }
       - { label: "اشتہارات", name: adsense, widget: boolean, default: false }
-      - { label: "ڈرافٹ", name: draft, widget: boolean, default: true }
+      - { label: "ڈرافٹ موڈ", name: draft, widget: boolean, default: true, hint: "ON = محفوظ ڈرافٹ، ویب سائٹ پر نہیں آئے گا۔ OFF کر کے Save کریں = Publish Live، GitHub deploy کے بعد صفحہ نظر آئے گا۔" }
       - { label: "مواد", name: body, widget: markdown }
