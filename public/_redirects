@@ -1,11 +1,8 @@
 # urduai.org — generated WordPress to Astro redirects
-# Regenerate with: python3 repo/scripts/generate_redirects.py
+# Regenerate with: python3 scripts/generate_redirects.py
 
-# www → non-www canonical redirect (fixes 5,243 duplicate canonicals in Search Console)
+# www → non-www canonical redirect
 https://www.urduai.org/* https://urduai.org/:splat 301
-
-# New guide canonical moved from blog to guides
-/blog/ai-image-expression-prompts-urdu-guide/ /guides/ai-image-expression-prompts-urdu-guide/ 301
 
 # Generic WordPress patterns
 /category/blog/*         /blog/                 301
@@ -29,29 +26,26 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /urduai-chat/ /chat/ 301
 /urduai-code/ /code/ 301
 
+# Special canonical moves
+/blog/ai-image-expression-prompts-urdu-guide/ /guides/ai-image-expression-prompts-urdu-guide/ 301
+
 # Renamed static pages
 /about-us/ /about/ 301
 /apps/ /tools/ 301
 /automation/ /courses/automation/ 301
 /blogs/ /blog/ 301
 /champs/ /courses/champs/ 301
-/class/ /courses/masterclass/ 301
-/class/* /courses/masterclass/ 301
 /contact-us/ /contact/ 301
 /masterclass/ /courses/masterclass/ 301
 /our-partners/ /partners/ 301
 /our-team/ /team/ 301
 /privacy-policy/ /privacy/ 301
 /urduai-master-class-guides/ /guides/ 301
-/welcome-to-urdu-ai-free-master-class/ /courses/masterclass/ 301
 
 # Mapped content slugs
 /%d8%a2%d8%a6%db%8c%da%88%db%8c%da%af%d8%b1%d8%a7%d9%85-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%b9%db%8c%da%a9%d8%b3%d9%b9-%d8%b3%db%92-%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d8%aa%da%a9-%da%a9%d8%a7-%d8%a7/ /blog/post-3093/ 301
 /%d8%a2%d8%b1%d9%b9%db%8c%d9%81%db%8c%d8%b4%d9%84-%d8%a7%d9%86%d9%b9%db%8c%d9%84%db%8c%d8%ac%d9%86%d8%b3-%da%a9%d8%b3%d8%a7%d9%86%d9%88%da%ba-%da%a9%db%8c-%da%a9%d8%b3-%d8%b7%d8%b1%d8%ad-%d9%85%d8%af/ /blog/post-722/ 301
-/%d8%a2%d9%be-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81%d8%a7%d9%86%d8%aa-%da%a9%db%8c-%d8%af%d9%86%db%8c%d8%a7-%d9%85%db%8c%da%ba-%d8%a2%da%86%da%a9%db%92-%db%81%db%8c%da%ba%db%94/ /blog/post-2022/ 301
-/%d8%a7%d8%a8-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%da%a9%d8%b3%db%8c-%d8%a8%da%be%db%8c-%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d8%a8%d9%84%d9%88%d8%a7%d8%b3%da%a9%d8%aa/ /blog/post-2028/ 301
 /%d8%a7%d8%a8-%db%81%d8%b1-%d8%b4%d8%ae%d8%b5-%d8%aa%d8%ae%d9%84%db%8c%d9%82-%da%a9%d8%a7%d8%b1-%db%81%db%92/ /blog/post-1401/ 301
-/%d8%a7%d8%b1%d8%af%d9%88-%d8%a7%db%92%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d9%84%da%a9%da%be-%d8%a7%d9%88%d8%b1-%d8%a8%d9%88%d9%84-%da%a9%d8%b1%d8%a8%d8%a7%d8%aa-%da%a9%d8%b1%db%8c%da%ba%db%94/ /blog/post-1996/ 301
 /%d8%a7%d8%b1%d8%af%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%db%8c%d9%be-%da%a9%db%81%d8%a7%da%ba-%d8%b3%db%92-%da%88%d8%a7%d8%a4%d9%86%d9%84%d9%88%da%88-%da%a9%d8%b1%db%8c%da%ba/ /blog/post-3191/ 301
 /%d8%a7%d8%b1%d8%af%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88-%da%a9%db%8c%d8%b3%db%92-%d8%a7%d8%b3%d8%aa%d8%b9%d9%85%d8%a7%d9%84-%da%a9%d8%b1%db%8c%da%ba%db%94/ /blog/post-2366/ 301
 /%d8%a7%d8%b1%d8%af%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d9%85%d9%81%d8%aa-%da%af%d8%a7%d8%a6%db%8c%da%88%d8%b2-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81%d8%a7%d9%86%d8%aa/ /blog/post-2574/ 301
@@ -63,51 +57,32 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /%d8%a7%db%8c%da%88%d9%88%d8%a8-%d9%81%d8%a7%d8%a6%db%8c%d8%b1%d9%81%d9%84%d8%a7%d8%a6%db%8c-%d8%a7%db%92-%d8%a2%db%8c-%da%a9%db%92-%d9%85%d8%af%d8%af-%d8%b3%db%92-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%d9%88/ /blog/post-744/ 301
 /%d8%a7%db%8c%da%88%d9%88%d9%be-%da%a9%db%8c-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81%d8%a7%d9%86%d8%aa-%da%a9%db%92-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d8%aa%d8%ae%d9%84%db%8c%d9%82%db%8c/ /blog/post-2684/ 301
 /%d8%a7%db%8c-%d8%a2%d8%a6%db%8c-%d8%a7%d9%88%d8%b1-%d8%b3%d8%a7%d8%a6%d8%a8%d8%b1-%d8%b3%da%a9%db%8c%d9%88%d8%b1%d9%b9%db%8c-%da%88%db%8c%d9%b9%d8%a7-%da%a9%db%8c-%d8%ad%d9%81%d8%a7%d8%b8%d8%aa-%d9%85/ /blog/post-730/ 301
-/%d8%a7%db%92%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%da%a9%d8%b3%db%8c-%d8%a8%da%be%db%8c-%d8%a2%d8%a6%db%8c%da%88%db%8c%d8%a7-%d9%be%db%81-%d9%85%d8%b4%db%81%d9%88%d8%b1%db%81-%d9%84%db%8c%da%ba/ /blog/post-918/ 301
 /%d8%a7%db%92%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d8%aa%d8%ae%d9%84%db%8c%d9%82-%da%a9%d8%b1%d9%86%db%92-%da%a9%db%8c-%d9%88%d8%b1%da%a9%d8%b4/ /blog/post-2343/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%d8%a8-%d8%a2%d9%be-%da%a9%db%8c-%d8%b2%d8%a8%d8%a7%d9%86-%d8%a8%d9%88%d9%84%db%92-%da%af%db%8c/ /blog/post-940/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b1%d9%88%d8%a8%d9%88%d9%b9-%d8%a7%db%8c%d9%86%db%8c-%d8%a2%d9%be-%da%a9%db%92-%d9%81%d9%88%d9%86-%d9%85%db%8c%da%ba%db%94/ /blog/post-2114/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d8%a7%d8%b9%d9%84%db%8c-%d9%85%d8%b9%db%8c%d8%a7%d8%b1-%da%a9%db%8c-%d8%aa%d8%b5%d8%a7%d9%88%db%8c%d8%b1-%da%a9%db%8c%d8%b3%db%92-%d8%a8%d9%86%d9%88%d8%a7/ /blog/post-2016/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d8%a7%d9%86%da%af%d8%b1%db%8c%d8%b2%db%8c-%d8%b3%db%8c%da%a9%da%be%d9%86%db%92-%da%a9%d8%a7-%d8%a2%d8%b3%d8%a7%d9%86-%d8%b7%d8%b1%db%8c%d9%82%db%81/ /blog/post-2694/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d8%a8%d8%a7%d8%aa-%da%a9%d8%b1%d9%86%db%92-%da%a9%db%92-%d8%b7%d8%b1%db%8c%d9%82%db%92/ /blog/post-911/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d8%a8%d8%a7%d8%aa-%da%a9%d8%b1%d9%86%db%92-%da%a9%db%92-%d9%84%d8%a6%db%92-%da%86%d8%a7%d8%b1-%d8%a8%db%81%d8%aa%d8%b1%db%8c%d9%86-%d8%a7%db%8c%d9%be/ /blog/post-2937/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d9%86%d8%a7%d8%b4%d8%aa%db%81-%d8%a8%d9%86%d9%88%d8%a7%db%8c%d8%a7/ /blog/post-1989/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d9%be%db%8c%d8%b3%db%92-%d9%85%da%af%d8%b1-%da%a9%db%8c%d8%b3%db%92%d8%9f/ /blog/post-1929/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d9%be%db%8c%d8%b3%db%92-%da%a9%db%8c%d8%b3%db%92-%da%a9%d9%85%d8%a7%d8%a6%db%92-%d8%ac%d8%a7%d8%a6%db%8c%da%ba/ /blog/post-1078/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%da%88%d8%b1%db%8c%d8%b3%d9%86%da%af-%da%a9%db%92-%d9%84%db%8c%db%92-%d9%85%d8%b4%d9%88%d8%b1%db%81/ /blog/post-2352/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%85%db%8c%d9%85-%d9%88%db%8c%da%88%db%8c%d9%88%d8%b2-%d8%a8%d9%86%d8%a7%d8%a6%db%8c%da%ba-%d8%a7%d9%88%d8%b1-%d9%88%d8%a7%d8%a6%d8%b1%d9%84-%da%a9%d8%b1/ /blog/post-2634/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%88%da%98%d9%86-%d9%81%d9%86%da%a9%d8%b4%d9%86/ /blog/post-1962/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%b9%d9%88%d9%84%d8%b2-%d8%a7%d9%88%d8%b1-%d9%be%d8%b1%d9%88%d8%b3%db%8c%d8%b3/ /blog/post-2096/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%b9%db%8c%da%a9%d9%86%d8%a7%d9%84%d9%88%d8%ac%db%8c-%d9%86%db%92-%d8%a7%db%8c%da%a9-%d8%a7%d9%88%d8%b1-%d8%b4%d8%b9%d8%a8%db%92-%d9%85%db%8c%da%ba-%d8%a7%d9%86%d8%b3/ /blog/post-712/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88%d9%86%d8%b3%db%8c-%d9%85%d9%84%d8%a7%d8%b2%d9%85%d8%aa%db%8c%da%ba-%d8%a8%d8%af%d9%84%db%92-%da%af%d8%a7%d8%9f/ /blog/post-47/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88-%d8%a7%d9%be%d9%86%d8%a7%d8%a6%db%8c%da%ba%d8%8c-%d8%aa%d8%b1%d9%82%db%8c-%da%a9%db%8c-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a8%da%91%da%be%db%8c%da%ba/ /blog/post-2820/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88-%d8%b3%d9%85%d8%ac%da%be%d9%86%db%92-%da%a9%db%92-%d8%aa%db%8c%d9%86-%d9%85%d8%ae%d8%aa%d9%84%d9%81-%d8%b7%d8%b1%db%8c%d9%82%db%92/ /blog/post-2328/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d8%a2%d9%86%da%a9%da%be%db%8c%da%ba/ /blog/post-1102/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d8%aa%db%8c%d9%86-%da%af%d8%a7%d8%a6%db%8c%da%88%d8%b2-%d8%a7%d8%b1%d8%af%d9%88%d9%85%db%8c%da%ba/ /blog/post-903/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d8%af%d9%86%db%8c%d8%a7-%d9%85%db%8c%da%ba-%d8%af%d9%84%da%86%d8%b3%d9%be-%d8%ae%d8%a8%d8%b1%db%8c%da%ba-%d8%ad%db%8c%d8%b1%d8%a7%d9%86-%da%a9%d9%86/ /blog/post-2360/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d9%85%d8%af%d8%af-%d8%b3%db%92-%da%a9%db%8c%d8%b3%db%92-%d8%a8%d9%86%db%8c%da%ba-%d8%a7%d9%be%d9%86%db%8c-%d8%b2%d9%86%d8%af%da%af%db%8c-%da%a9%db%92/ /blog/post-2583/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%da%86%d8%a7%d8%b1-%d8%a8%da%91%da%be%db%92-%d9%be%d9%84%db%8c%d9%b9-%d8%a7%d9%88%d8%b1-%d8%a7%d9%86-%da%a9%db%92-%d9%81%d9%86%da%a9%d8%b4%d9%86%d8%b2/ /blog/post-823/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d8%a8%da%86%d9%88%da%ba-%da%a9%d9%88-%da%a9%db%8c%d8%a7-%d8%b3%db%8c%da%a9%da%be%d9%86%d8%a7-%da%86%d8%a7%db%81/ /blog/post-1406/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d8%a8%da%86%d9%88%da%ba-%da%a9%db%8c-%d8%aa%d8%b9%d9%84%db%8c%d9%85/ /blog/post-2009/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d8%b3%db%8c%da%a9%da%be%d9%86%db%92-%d8%b3%da%a9%da%be%d8%a7%d9%86%db%92-%da%a9%d8%a7-%d9%86%db%8c%d8%a7-%d8%af/ /blog/post-2681/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d9%86%d9%88%da%a9%d8%b1%db%8c%d8%a7%da%ba/ /blog/post-799/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92%da%a9%db%8c%d8%b3%db%92-%db%81%d9%88%d9%b9%d9%84-%d8%b3%db%92-%d8%b1%db%8c-%d9%81%d9%86%da%88-%da%a9%d8%b1%d9%88%d8%a7%db%8c/ /blog/post-1109/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d8%a7%d9%86%da%af%d8%b1%db%8c%d8%b2%db%8c-%d8%b3%db%8c%da%a9%da%be%d9%86%d8%a7-%d8%a2%d8%b3%d8%a7%d9%86-%d8%a7%d9%88%d8%b1/ /blog/post-3132/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d8%a7%d9%be%d9%86%db%92-%d9%be%db%8c%d8%b3%db%92-%d9%88%d8%a7%d9%be%d8%b3-%d9%84%d8%a6%db%92/ /blog/post-1117/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d8%a7%db%8c-%d9%85%db%8c%d9%84-%da%a9%db%8c%d8%b3%db%92-%d9%84%da%a9%da%be%db%8c-%d8%ac%d8%a7%d8%a6%db%92%d8%9f/ /blog/post-2223/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d8%a8%da%86%d9%88%da%ba-%da%a9%db%92-%d9%84%db%8c%db%92-%da%a9%db%81%d8%a7%d9%86%db%8c%d8%a7%da%ba-%d9%84%da%a9%da%be%db%8c/ /blog/post-2320/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d9%86%d9%88%da%a9%d8%b1%db%8c-%da%a9%db%92-%d9%84%d8%a6%db%92-%da%a9%db%8c%d8%b3%db%92-%d8%a7%d9%be%d9%84%d8%a7%d8%a6%db%8c/ /blog/post-1969/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%da%a9%db%8c%d8%b3%db%92-%d9%84%da%a9%da%be%d8%a7-%d8%ac%d8%a7%d8%a6%db%92%d8%9f/ /blog/post-2213/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%da%a9%db%8c%d8%b3%db%92-%d9%86%d9%88%da%a9%d8%b1%db%8c%d9%88%da%ba-%da%a9%db%92-%d9%84%d8%a6%db%92-%d8%a7%d9%be%d9%84%d8%a7/ /blog/post-1094/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%db%81%d9%85-%da%a9%db%8c%d8%b3%db%92%d8%a2%d8%b3%d8%a7%d9%86%db%8c-%d8%b3%db%92-%da%a9%d8%aa%d8%a7%d8%a8%db%8c%da%ba/ /blog/post-3103/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b3%d8%a7%d8%aa%da%be-%d8%a7%d8%b1%d8%af%d9%88-%d8%b2%d8%a8%d8%a7%d9%86-%da%a9%db%8c-%d9%be%db%81%d9%84%db%8c-%d9%be%d9%88%da%88%da%a9%d8%a7%d8%b3%d9%b9/ /blog/post-571/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b3%d8%a7%d8%aa%da%be-%d8%a7%d9%86%da%af%d8%b1%db%8c%d8%b2%db%8c-%d8%b3%db%8c%da%a9%da%be%db%8c%da%ba/ /blog/post-2628/ 301
-/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d9%86%d8%a6%db%92-%d9%b9%d9%88%d9%84%d8%b2/ /blog/post-2002/ 301
 /%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-3-%d9%88%d8%a7%d8%a6%d8%b3-%d9%b9%d9%88%d9%84%d8%b2/ /blog/post-3085/ 301
 /%d8%aa%d8%ad%d9%82%db%8c%d9%82-%d8%ac%d9%86%d8%b1%db%8c%d9%b9%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%84%db%8c%d8%a8%d8%b1-%d9%85%d8%a7%d8%b1%da%a9%db%8c%d9%b9-%da%a9%d9%88-%da%a9%db%8c%d8%b3%db%92/ /blog/post-2989/ 301
 /%d8%aa%d8%b5%d8%a7%d9%88%db%8c%d8%b1-%da%a9%d9%88-%d8%a7%db%8c%d9%86%db%8c-%d9%85%db%8c%d9%b9-%da%a9%d8%b1%d9%86%db%92-%da%a9%db%92-%d9%86%d8%a6%db%92-%d8%b7%d8%b1%db%8c%d9%82%db%92/ /blog/post-2187/ 301
 /%d8%ac%db%8c%d9%86%d8%b1%db%8c%d9%b9%db%8c%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%8c%da%a9%da%be%d9%86%db%92-%da%a9%d8%a7-%d9%85%da%a9%d9%85%d9%84-%d8%b1%d9%88%da%88-%d9%85%db%8c%d9%be/ /blog/post-2636/ 301
-/%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-4-%da%a9%d9%88-%d9%85%d9%81%d8%aa-%d9%85%db%8c%da%ba-%d8%a7%d8%b3%d8%aa%d8%b9%d9%85%d8%a7%d9%84-%da%a9%d8%b1%db%8c%da%ba%db%94/ /blog/post-2103/ 301
 /%d8%ad%d9%82%db%8c%d9%82%db%8c-%db%8c%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%b3%db%92-%d8%a8%d9%86%d8%a7%d8%a6%db%8c-%da%af%d8%a6%db%8c-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%d8%9f/ /blog/post-2204/ 301
 /%d8%af%d9%88-%d8%b3%d9%88-%d8%a8%d8%b2%d9%86%d8%b3-%d8%a2%d8%a6%db%8c%da%88%db%8c%d8%a7%d8%b2-%da%a9%db%92-%d9%85%d9%82%d8%a7%d8%a8%d9%84%db%92-%d9%85%db%8c%da%ba-%da%a9%d9%88%d9%86-%d8%b2%db%8c%d8%a7/ /blog/post-2685/ 301
 /%d8%b1%d9%88%d8%a8%d9%88%d9%b9-%da%a9%db%92-%d9%84%db%8c%db%92-%d8%a7%d9%86%d8%b3%d8%a7%d9%86%d9%88%da%ba-%da%a9%db%8c-%d8%b7%d8%b1%d8%ad-%d9%be%d9%84%da%a9-%d8%ac%da%be%d9%be%da%a9%d9%86%d8%a7-%d8%a7/ /blog/post-208/ 301
@@ -127,17 +102,10 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /%d9%85%d9%81%d8%aa-%d9%85%db%8c%da%ba-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d9%85%db%8c%d9%88%d8%b2%da%a9-%d9%88%db%8c%da%88%db%8c%d9%88-%d8%aa%d8%ae%d9%84%db%8c/ /blog/post-2338/ 301
 /%d9%85%d9%86%db%8c-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%d9%81%d9%88%d8%b1-%da%a9%db%8c-%d8%af%d9%84%da%86%d8%b3%d9%be-%d8%af%d9%86%db%8c%d8%a7/ /blog/post-2364/ 301
 /%d9%85%da%88%d8%ac%d8%b1%d9%86%db%8c-%da%a9%d8%a7-%d8%a7%d8%b3%d8%aa%d8%b9%d9%85%d8%a7%d9%84-%da%a9%d8%b1-%da%a9%db%92-%d8%ad%db%8c%d8%b1%d8%aa-%d8%a7%d9%86%da%af%db%8c%d8%b2-%d8%aa%d8%b5%d8%a7%d9%88/ /blog/post-2414/ 301
-/%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%a8%d9%86%db%8c%d8%a7%d8%af%db%8c-%da%a9%d9%88%d8%b1%d8%b3%d8%b2%da%a9%db%8c-%d8%aa%db%8c%d8%b3%d8%b1%db%8c-%da%a9%d9%84%d8%a7/ /blog/post-869/ 301
-/%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%a8%d9%86%db%8c%d8%a7%d8%af%db%8c-%da%a9%d9%88%d8%b1%d8%b3%d8%b2%da%a9%db%8c-%d8%af%d9%88%d8%b3%d8%b1%db%8c-%da%a9%d9%84%d8%a7/ /blog/post-859/ 301
-/%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%a8%d9%86%db%8c%d8%a7%d8%af%db%8c-%da%a9%d9%88%d8%b1%d8%b3%d8%b2%da%a9%db%8c-%d9%be%db%81%d9%84%db%8c-%da%a9%d9%84%d8%a7%d8%b3/ /blog/post-852/ 301
-/%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%a8%d9%86%db%8c%d8%a7%d8%af%db%8c-%da%a9%d9%88%d8%b1%d8%b3%d8%b2%da%a9%db%8c-%da%86%d9%88%d8%aa%da%be%db%8c-%da%a9%d9%84%d8%a7/ /blog/post-879/ 301
 /%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%af%d9%88-%d9%86%d8%a6%db%92-%d9%81%db%8c%da%86%d8%b1%d8%b2/ /blog/post-2924/ 301
-/%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d9%88%db%8c%da%88%db%8c%d9%88-%d8%a8%d9%86%d8%a7%d9%86%db%92-%da%a9%d8%a7-%d8%b7%d8%b1%db%8c%d9%82/ /blog/post-835/ 301
 /%d9%85%db%8c%d9%b9%d8%a7-%da%a9%d8%a7-%d9%85%d9%88%d9%88%db%8c-%d8%ac%d9%86-%d9%b9%d9%88%d9%84%d8%8c-%d9%88%db%8c%da%88%db%8c%d9%88-%d8%a7%db%8c%da%88%db%8c%d9%b9%d9%86%da%af-%d8%a7/ /blog/post-2622/ 301
 /%d9%86%d8%a6%db%92-%d9%84%d9%88%da%af-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c%d8%b3%db%92-%d8%b4%d8%b1%d9%88%d8%b9-%da%a9%d8%b1%db%8c%da%ba%d8%9f/ /blog/post-2196/ 301
 /%d9%88%d8%a7%d8%a6%d8%b3-%d8%a7%d9%88%d8%b1-%d9%88%da%98%d9%86-%da%a9%d8%a7-%da%a9%d9%85%d8%a7%d9%84/ /blog/post-3671/ 301
-/%d9%88%d9%b9%d8%b2%d8%a7%db%8c%d9%be-%d9%85%db%8c%da%ba-%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88-%da%a9%db%8c%d8%b3%db%92-%d8%a7%d8%b3%d8%aa%d8%b9%d9%85%d8%a7%d9%84-%da%a9/ /blog/post-770/ 301
-/%d9%88%db%81-%d9%84%d9%88%da%af-%d8%ac%d9%86-%da%a9%d9%88-%d8%a7%d9%86%da%af%d8%b1%db%8c%d8%b2%db%8c-%d9%86%db%81%db%8c%da%ba-%d8%a2%d8%aa%db%8c-%da%a9%db%8c%d8%a7-%d9%88%db%81-%d8%a7%db%92-%d8%a2/ /blog/post-845/ 301
 /%d9%b9%d9%88%d9%85-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d9%b9%d9%88%d9%84-%da%a9%db%8c-%da%a9%db%81%d8%a7%d9%86%db%8c%d9%88%da%ba-%d8%a7%d9%88%d8%b1-%d9%be%d8%b1%db%8c%d8%b2%d9%86%d9%b9%db%8c%d8%b4%d9%86/ /blog/post-2437/ 301
 /%d9%b9%db%8c%da%a9%d8%b3%d9%b9-%d9%b9%d9%88-%d9%88%db%8c%da%88%db%8c%d9%88-%d9%b9%d9%88%d9%84-%da%a9%db%8c%d8%b3%db%92-%d8%a7%d8%b3%d8%aa%d8%b9%d9%85%d8%a7%d9%84-%da%a9%d8%b1%db%8c%da%ba-%d8%a7%d9%88/ /blog/post-2476/ 301
 /%d9%be%d8%a7%d9%86%da%86-%d8%b7%d8%b1%db%8c%d9%82%db%92-%d8%ac%d9%86-%d8%b3%db%92-%d8%a7%d8%b1%d8%af%d9%88-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%d8%b3%d8%a7%d8%aa%d8%b0%db%81-%da%a9%db%8c-%d9%85/ /blog/post-2817/ 301
@@ -146,11 +114,8 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%d8%a8%d9%86%da%af-%d8%a7%d9%88%d8%b1-%da%af%d9%88%da%af%d9%84-%d8%a8%d8%a7%d8%b1%da%88-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81/ /blog/post-161/ 301
 /%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%d8%ae%d8%b7%d8%b1%d9%86%d8%a7%da%a9-%db%8c%d8%a7-%d9%85%d8%af%d8%af%da%af%d8%a7%d8%b1%d8%9f/ /blog/post-734/ 301
 /%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%d9%88%db%8c%d8%a8-%d8%b3%d8%b1%da%86-%d9%81%db%8c%da%86%d8%b1-%da%a9%d8%a7-%d8%aa%d8%b9%d8%a7%d8%b1%d9%81/ /blog/post-2957/ 301
-/%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%da%a9%d8%a7-%d8%b3%d8%a7%d8%aa%da%be-%da%af%d9%81%d8%aa%da%af%d9%88%db%94/ /blog/post-1068/ 301
-/%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%da%a9%db%8c-%d9%86%d8%a6%db%8c-%d8%a7%d9%be%da%88%db%8c%d9%b9%d8%b3/ /blog/post-933/ 301
 /%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d9%b9%db%8c%da%a9%d8%b3%d9%b9-%d9%85%db%8c%d8%b3%d8%ac-%d8%b3%db%92-%d8%b3%db%8c-%d9%88%db%8c/ /blog/post-2432/ 301
 /%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%da%a9%db%92-%d9%86%d8%a6%db%92-%d9%88%db%8c%d8%a8-%d8%b3%d8%b1%da%86-%d9%81%db%8c%da%86%d8%b1/ /blog/post-2814/ 301
-/%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-4-%da%a9%db%92-%d8%a7%db%8c%da%88%d9%88%d8%a7%d9%86%d8%b3-%d9%88%d8%a7%d8%a6%d8%b3-%d9%81%db%8c%da%86%d8%b2/ /blog/post-2166/ 301
 /%da%88%d8%a7%d8%a6%d9%86%d9%86%da%af-%d8%a7%d9%88%d8%b1-%d8%b1%db%8c%d8%b3%d9%b9%d9%88%d8%b1%d9%86%d9%b9-%d9%85%db%8c%da%ba-%da%af%d9%81%d8%aa%da%af%d9%88-%d8%a7%d9%86%da%af%d8%b1%db%8c%d8%b2%db%8c/ /blog/post-3215/ 301
 /%da%88%d8%a7%da%a9%d9%b9%d8%b1%d9%88%da%ba-%da%a9%db%92-%d8%b3%d8%a7%d8%aa%da%be-%d9%85%d9%84-%da%a9%d8%b1-%d9%a9%d9%a2%d9%a6-%d9%85%d8%b1%db%8c%d8%b6%d9%88%da%ba-%da%a9%d8%a7-%d8%b9%d9%84%d8%a7/ /blog/post-3529/ 301
 /%da%88%d8%a7%da%a9%d9%b9%d8%b1%d9%88%da%ba-%da%a9%db%92-%d9%85%d9%82%d8%a7%d8%a8%d9%84%db%92-%d9%85%db%8c%da%ba-%da%86%db%8c%d9%b9-%d8%ac%db%8c-%d9%be%db%8c-%d9%b9%db%8c-%da%a9%db%8c-%d8%aa%db%8c/ /blog/post-2993/ 301
@@ -159,10 +124,6 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /%da%88%db%8c%d8%ac%db%8c%d9%b9%d9%84-%d8%af%d9%88%d8%b1-%d9%85%db%8c%da%ba-%d8%b2%d8%a8%d8%a7%d9%86%d9%88%da%ba-%da%a9%db%8c-%da%a9%db%81%d8%a7%d9%86%db%8c/ /blog/post-3181/ 301
 /%da%88%db%8c%d9%be%d8%aa%da%be-%d9%be%d8%b1%d9%88-%d8%a7%db%8c%d9%be%d9%84-%da%a9%db%8c-%d8%aa%da%be%d8%b1%db%8c-%da%88%db%8c-%d9%88%db%8c%da%98%d9%86-%d9%85%db%8c%da%ba-%d8%a7%d9%86%d9%82%d9%84%d8%a7/ /blog/post-2665/ 301
 /%da%a9%d8%a7%d8%b1%d9%88%d8%a8%d8%a7%d8%b1-%d9%85%db%8c%da%ba-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%b0%db%81%d8%a7%d9%86%d8%aa-%da%a9%d8%a7-%d8%a7%d8%ab%d8%b1-%d9%86%d8%a6%db%92-%d9%85%d9%88%d8%a7/ /blog/post-2377/ 301
-/%da%a9%d8%b3%d8%b7%d8%b1%d8%ad-%d9%85%db%8c%d9%b9%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%d9%85%db%8c%da%ba-%d9%86%db%92-%da%a9%d8%b3%db%8c-%da%a9%db%8c/ /blog/post-791/ 301
-/%da%a9%d9%88%d9%be%d8%a7%d8%a6%d9%84%d9%b9-%da%a9%db%8c%d8%b3%db%92%d9%85%d8%af%d8%af%da%a9%d8%b1%db%8c%da%af%d8%a7%d8%9f/ /blog/post-1953/ 301
-/%da%a9%d9%88-%d9%be%d8%a7%d8%a6%d9%84%db%8c%d9%b9-%da%a9%db%8c%d8%b3%db%92-%d9%85%d8%af%d8%af-%da%a9%d8%b1%db%8c%da%af%d8%a7/ /blog/post-1085/ 301
-/%da%a9%db%8c%d8%a7-%d8%a7%db%92%d8%a2%d8%a6%db%8c-%db%81%d9%85%d8%a7%d8%b1%db%92-%d8%aa%d8%b9%d9%84%db%8c%d9%85%db%8c-%d9%86%d8%b8%d8%a7%d9%85-%da%a9%d9%88-%d8%a8%d8%af%d9%84-%d8%af%db%8c%da%af%d8%a7/ /blog/post-171/ 301
 /%da%a9%db%8c%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%d8%b3%d8%a7%d8%aa%d8%b0%db%81-%da%a9%db%92-%d9%84%db%8c%db%92-%d9%81%d8%a7%d8%a6%d8%af%db%81-%d9%85%d9%86%d8%af-%d8%ab%d8%a7%d8%a8/ /blog/post-2970/ 301
 /%da%a9%db%8c%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%a7%d9%86%d8%b3%d8%a7%d9%86%d9%88%da%ba-%da%a9%db%8c-%d8%b7%d8%b1%d8%ad-%d8%b3%d9%88%da%86-%d8%b3%da%a9%d8%aa%db%8c-%db%81%db%92%d8%9f/ /blog/post-2673/ 301
 /%da%a9%db%8c%d8%a7-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%d8%af%d9%86%db%8c%d8%a7-%da%a9%d9%88-%d8%a8%d8%af%d9%84-%d8%b1%db%81%db%8c-%db%81%db%92%d8%9f/ /blog/post-2433/ 301
@@ -172,7 +133,6 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /%da%a9%db%8c%d8%a7-%d8%ba%db%8c%d8%b1-%d9%85%d8%ad%d8%af%d9%88%d8%af-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%db%81%d8%b1-%da%86%db%8c%d8%b2-%d8%aa%d8%ae%d9%84%db%8c%d9%82-%da%a9%d8%b1%db%92-%da%af%db%8c/ /blog/post-2379/ 301
 /%da%a9%db%8c%d8%a7-%d9%85%d9%8f%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%da%a9%db%92-%d8%ae%d8%b7%d8%a8%db%92-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d9%85%d8%af%d8%af-%d8%b3%db%92-%d9%84%da%a9%da%be/ /blog/post-751/ 301
 /%da%a9%db%8c%d8%a7-%da%a9%d9%85%d9%be%db%8c%d9%88%d9%b9%d8%b1-%d8%ae%d9%88%d8%af-%d8%b3%db%92-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c%da%ba%d8%8c-%d9%88%db%8c%da%88%db%8c%d9%88%d8%b2-%db%8c%d8%a7-%d9%85/ /blog/post-3116/ 301
-/%da%a9%db%8c%d8%b3%db%92-%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%92-%d8%b0%d8%b1%db%8c%d8%b9%db%92-%db%81%d9%88%d9%b9%d9%84-%d8%b3%db%92-%d8%b1%db%8c-%d9%81%d9%86%da%88-%da%a9%d8%b1%d9%88%d8%a7/ /blog/post-1983/ 301
 /%da%af%d9%88%da%af%d9%84-%d8%a7%db%8c%d9%85%db%8c%d8%ac%d9%86-%da%a9%d8%a7-%d9%be%d8%a8%d9%84%da%a9-%d8%b1%db%8c%d9%84%db%8c%d8%b2-%d8%a7%db%8c%da%a9-%d9%86%d8%a6%db%8c-%d8%af%d9%86%db%8c%d8%a7-%da%a9/ /blog/post-2340/ 301
 /%da%af%d9%88%da%af%d9%84-%d8%a8%d8%a7%d8%b1%da%88-%da%a9%db%92-%d9%86%d8%a6%db%92-%d9%81%d9%86%da%a9%d8%b4%d9%86%d8%b2-%d8%a7%d9%88%d8%b1-%d8%a7%d9%86-%da%a9%db%8c-%d8%a7%db%81%d9%85%db%8c%d8%aa/ /blog/post-2362/ 301
 /%da%af%d9%88%da%af%d9%84-%d8%ac%db%8c%d9%85%db%8c%d9%86%db%8c-%da%a9%d8%a7-%d9%81%d8%b1%db%8c-%d9%84%d8%a7%d8%a6%db%8c%d9%88-%d9%81%db%8c%da%86%d8%b1-%db%81%d8%b1-%da%a9%d8%b3%db%8c-%da%a9%db%92/ /blog/post-2892/ 301
@@ -332,25 +292,7 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /easy-way-to-download-deepseek-ai-and-create-an-account/ /blog/easy-way-to-download-deepseek-ai-and-create-an-account/ 301
 /easy-way-to-run-chat-gpt-on-whatsapp/ /blog/easy-way-to-run-chat-gpt-on-whatsapp/ 301
 /eep-ai-agent-will-it-be-a-challenge-for-openai-and-microsoft/ /blog/eep-ai-agent-will-it-be-a-challenge-for-openai-and-microsoft/ 301
-/elementor-453/ /blog/post-453/ 301
-/elementor-459/ /blog/post-459/ 301
-/elementor-466/ /blog/post-466/ 301
-/elementor-473/ /blog/post-473/ 301
-/elementor-481/ /blog/post-481/ 301
-/elementor-487/ /blog/post-487/ 301
-/elementor-493/ /blog/post-493/ 301
-/elementor-499/ /blog/post-499/ 301
-/elementor-514/ /blog/post-514/ 301
-/elementor-521/ /blog/post-521/ 301
-/elementor-527/ /blog/post-527/ 301
-/elementor-533/ /blog/post-533/ 301
-/elementor-539/ /blog/post-539/ 301
 /elementor-545/ /blog/post-545/ 301
-/elementor-551/ /blog/post-551/ 301
-/elementor-557/ /blog/post-557/ 301
-/elementor-565/ /blog/post-565/ 301
-/elementor-577/ /blog/post-577/ 301
-/elementor-583/ /blog/post-583/ 301
 /eleven-labs-introduces-text-to-speech-app-a-new-convenience-for-mobile-users/ /blog/eleven-labs-introduces-text-to-speech-app-a-new-convenience-for-mobile-users/ 301
 /eleven-labs-text-to-bark-feature-talk-to-dogs/ /blog/eleven-labs-text-to-bark-feature-talk-to-dogs/ 301
 /elon-musk-reveals-end-of-human-data-now-the-age-of-artificial-data/ /blog/elon-musk-reveals-end-of-human-data-now-the-age-of-artificial-data/ 301
@@ -794,60 +736,3 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /yann-likons-advice-how-to-promote-innovation-in-europe/ /how-to/yann-likons-advice-how-to-promote-innovation-in-europe/ 301
 /you-can-run-from-artificial-intelligence-but-you-cant-escape-it/ /blog/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/ 301
 /zoom-meeting-with-an-ai-avatar/ /blog/zoom-meeting-with-an-ai-avatar/ 301
-
-# Deleted stub posts — 301 to blog index
-/blog/post-1068/ /blog/ 301
-/blog/post-1078/ /blog/ 301
-/blog/post-1085/ /blog/ 301
-/blog/post-1094/ /blog/ 301
-/blog/post-1102/ /blog/ 301
-/blog/post-1109/ /blog/ 301
-/blog/post-1117/ /blog/ 301
-/blog/post-171/ /blog/ 301
-/blog/post-1953/ /blog/ 301
-/blog/post-1962/ /blog/ 301
-/blog/post-1969/ /blog/ 301
-/blog/post-1983/ /blog/ 301
-/blog/post-1989/ /blog/ 301
-/blog/post-1996/ /blog/ 301
-/blog/post-2002/ /blog/ 301
-/blog/post-2009/ /blog/ 301
-/blog/post-2016/ /blog/ 301
-/blog/post-2022/ /blog/ 301
-/blog/post-2028/ /blog/ 301
-/blog/post-2096/ /blog/ 301
-/blog/post-2103/ /blog/ 301
-/blog/post-2114/ /blog/ 301
-/blog/post-2166/ /blog/ 301
-/blog/post-453/ /blog/ 301
-/blog/post-459/ /blog/ 301
-/blog/post-466/ /blog/ 301
-/blog/post-473/ /blog/ 301
-/blog/post-481/ /blog/ 301
-/blog/post-487/ /blog/ 301
-/blog/post-493/ /blog/ 301
-/blog/post-499/ /blog/ 301
-/blog/post-514/ /blog/ 301
-/blog/post-521/ /blog/ 301
-/blog/post-527/ /blog/ 301
-/blog/post-533/ /blog/ 301
-/blog/post-539/ /blog/ 301
-/blog/post-551/ /blog/ 301
-/blog/post-557/ /blog/ 301
-/blog/post-565/ /blog/ 301
-/blog/post-571/ /blog/ 301
-/blog/post-577/ /blog/ 301
-/blog/post-583/ /blog/ 301
-/blog/post-770/ /blog/ 301
-/blog/post-791/ /blog/ 301
-/blog/post-823/ /blog/ 301
-/blog/post-835/ /blog/ 301
-/blog/post-845/ /blog/ 301
-/blog/post-852/ /blog/ 301
-/blog/post-859/ /blog/ 301
-/blog/post-869/ /blog/ 301
-/blog/post-879/ /blog/ 301
-/blog/post-911/ /blog/ 301
-/blog/post-918/ /blog/ 301
-/blog/post-933/ /blog/ 301
-/blog/post-940/ /blog/ 301

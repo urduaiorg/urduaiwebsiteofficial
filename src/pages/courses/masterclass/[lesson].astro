@@ -38,6 +38,12 @@ const nextLesson = lesson.number < lessons.length ? lesson.number + 1 : null;
 
 // Extract first paragraph as plain text for description
 const firstPara = lesson.description.split('\n\n').find(b => !b.trim().startsWith('##'))?.replace(/\*\*/g, '').trim().slice(0, 160) || lesson.title;
+const pageTitle = lesson.number === 1
+  ? 'AI کیا ہے؟ اردو میں آسان تعریف — اردو اے آئی ماسٹرکلاس'
+  : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
+const pageDescription = lesson.number === 1
+  ? 'AI کیا ہے؟ اس پہلے سبق میں مصنوعی ذہانت کی آسان تعریف، مشین لرننگ، روزمرہ مثالیں اور اردو اے آئی ماسٹرکلاس کا آغاز سمجھیں۔'
+  : `${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`;
 
 const courseSchema = {
   "@context": "https://schema.org",
@@ -91,8 +97,8 @@ const breadcrumbSchema = {
 ---
 
 <Base
-  title={`سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`}
-  description={`${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`}
+  title={pageTitle}
+  description={pageDescription}
   canonical={`https://urduai.org/courses/masterclass/${lesson.number}/`}
   adsense={false}
   schema={courseSchema}

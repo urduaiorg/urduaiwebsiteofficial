@@ -1,6 +1,6 @@
 ---
-title: Claude Opus 4.8 جاری — Anthropic کا نیا agentic flagship model
-description: Anthropic نے Claude Opus 4.8 جاری کر دیا ہے — بہتر agentic judgment، کوڈ میں چار گنا کم غلطیاں، اور وہی پرانی قیمت۔ پاکستانی developers کے لیے اصل صورتحال کیا ہے؟
+title: Claude Opus 4.8 کیا ہے؟ Anthropic کا agentic AI model
+description: Claude Opus 4.8 Anthropic کا نیا agentic AI model ہے جس میں code review، tool-calling اور طویل tasks کے لیے بہتر judgment پر زور دیا گیا ہے۔
 date: 2026-05-28
 category: اے آئی اپڈیٹ
 tags:
@@ -23,9 +23,9 @@ faq:
 last_updated: ''
 ---
 
-# Claude Opus 4.8 جاری — Anthropic کا نیا agentic flagship model
+# Claude Opus 4.8 کیا ہے؟ Anthropic کا agentic AI model
 
-Claude Opus 4.8 Anthropic کا نیا سب سے مضبوط model ہے جو ۲۸ مئی ۲۰۲۶ کو جاری ہوا اور تمام platforms پر فوراً دستیاب ہے۔ کمپنی کے مطابق یہ خاص طور پر agentic tasks یعنی وہ کام جہاں model خود کئی steps چلائے میں بہتر judgment رکھتا ہے، اور code میں خامیاں پکڑنے میں Opus 4.7 کے مقابلے میں چار گنا زیادہ قابلِ بھروسہ ہے۔
+Claude Opus 4.8 Anthropic کا agentic AI model ہے جو ۲۸ مئی ۲۰۲۶ کو جاری ہوا۔ کمپنی کے مطابق اس اپڈیٹ میں code review، tool-calling، طویل tasks اور ایسے کاموں پر توجہ دی گئی ہے جہاں model کو کئی steps کے بعد بہتر فیصلہ کرنا ہوتا ہے۔
 
 ## اس اپڈیٹ میں کیا نیا ہے؟
 
