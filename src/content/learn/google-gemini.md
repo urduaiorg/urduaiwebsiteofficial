@@ -28,6 +28,8 @@ Gemini عام سوالات، لکھائی، خلاصہ، ideas، planning اور
 
 آفیشل معلومات کے لیے [Google Gemini کی آفیشل ویب سائٹ](https://gemini.google.com/) دیکھیں۔ دستیابی، features اور limits وقت کے ساتھ بدل سکتے ہیں، اس لیے اہم کام سے پہلے آفیشل معلومات چیک کرنا بہتر ہے۔
 
+عملی استعمال کے لیے [Gemini اردو میں کیسے استعمال کریں؟](/how-to/how-to-use-gemini-in-urdu/) والی step-by-step گائیڈ کھولیں، جہاں prompt examples، file upload احتیاطیں اور Pakistani use cases دیے گئے ہیں۔
+
 ## پاکستان میں Gemini کا عام استعمال
 
 - طالب علم نوٹس کا خلاصہ بنا سکتا ہے۔
