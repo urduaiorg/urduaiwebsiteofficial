@@ -11,6 +11,57 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const totalTools = tools.length;
 const freeTools = tools.filter(t => t.pricing === 'free').length;
 const trendingTools = tools.filter(t => t.trending).length;
+const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+const quickPaths = [
+  { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/guides/ai-kya-hai-urdu-ai-master-class-1/', text: 'AI کی آسان تعریف سے شروع کریں' },
+  { title: 'اردو میں Gemini چلانا ہے', href: '/how-to/how-to-use-gemini-in-urdu/', text: 'Google Gemini کا مکمل طریقہ' },
+  { title: 'Google AI Studio سیکھنا ہے', href: '/blog/google-ai-studio-kia-hai/', text: 'API، Build Mode اور prototype' },
+  { title: 'مفت AI کورس چاہیے', href: '/courses/masterclass/', text: '9 اسباق، اردو ویڈیوز، سرٹیفکیٹ' },
+];
+
+const toolsSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "AI Tools in Urdu",
+    "description": "پاکستانی صارفین کے لیے منتخب AI tools کی اردو ڈائریکٹری",
+    "numberOfItems": tools.length,
+    "itemListElement": tools.map((tool, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `https://urduai.org/tools/#${toolAnchor(tool.name)}`,
+      "name": tool.name,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": tool.name,
+        "alternateName": tool.urduName,
+        "applicationCategory": tool.category,
+        "url": tool.url,
+      },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "شروع میں ChatGPT، Gemini، Claude، NotebookLM اور Google AI Studio دیکھیں۔ روزمرہ سوالات کے لیے Gemini، لکھائی کے لیے Claude، اور prototype کے لیے Google AI Studio بہتر آغاز ہیں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "کیا اس ڈائریکٹری کے tools پاکستان میں چلتے ہیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "ڈائریکٹری میں Pakistan badge والے tools پاکستانی صارفین کے لیے منتخب کیے گئے ہیں۔ قیمت، limits اور دستیابی وقت کے ساتھ بدل سکتی ہے، اس لیے اہم کام سے پہلے آفیشل سائٹ ضرور چیک کریں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "AI tools سیکھنے کا آسان راستہ کیا ہے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر Gemini یا ChatGPT میں اردو پرامٹس آزمائیں، اس کے بعد Google AI Studio یا اردو اے آئی ماسٹرکلاس سے عملی مشق کریں۔" },
+      },
+    ],
+  },
+];
 ---
 
 <Base
@@ -18,6 +69,7 @@ const trendingTools = tools.filter(t => t.trending).length;
   description="پاکستانی صارفین کے لیے منتخب AI tools: لکھائی، تصویر، ویڈیو، آواز، کوڈنگ اور تحقیق کے ٹولز ایک جگہ، اردو گائیڈز کے ساتھ۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
+  schema={toolsSchema}
 >
   <!-- Hero Section -->
   <section class="tools-hero">
@@ -82,12 +134,29 @@ const trendingTools = tools.filter(t => t.trending).length;
       })}
     </div>
 
+    <section class="tools-paths" aria-labelledby="tools-paths-title">
+      <div class="tools-paths__intro">
+        <h2 id="tools-paths-title">کس کام کے لیے کون سا راستہ چنیں؟</h2>
+        <p>
+          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ اپنے مقصد کے مطابق ایک راستہ چنیں، پھر اسی سے جڑا ہوا tool کھولیں۔
+        </p>
+      </div>
+      <div class="tools-paths__links">
+        {quickPaths.map(path => (
+          <a href={path.href} class="tools-path">
+            <strong>{path.title}</strong>
+            <span>{path.text}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
     <!-- Tools grid -->
     <div class="tools-grid" id="tools-grid">
       {tools.map(tool => (
         <article
           class="tool-card"
-          id={tool.name.toLowerCase().replace(/\s+/g, '-')}
+          id={toolAnchor(tool.name)}
           data-category={tool.category}
           data-name={tool.name.toLowerCase()}
           data-urdu={tool.urduName}
@@ -154,8 +223,24 @@ const trendingTools = tools.filter(t => t.trending).length;
 
     <!-- Last updated -->
     <p class="tools-updated">
-      آخری اپڈیٹ: اپریل 2026 — ہر ٹول پاکستان سے ٹیسٹ کیا گیا
+      آخری اپڈیٹ: جون 2026 — ہر ٹول پاکستان سے ٹیسٹ کیا گیا
     </p>
+
+    <section class="tools-faq" aria-labelledby="tools-faq-title">
+      <h2 id="tools-faq-title">عام سوالات</h2>
+      <details>
+        <summary>پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟</summary>
+        <p>شروع میں ChatGPT، Gemini، Claude، NotebookLM اور Google AI Studio دیکھیں۔ روزمرہ سوالات کے لیے Gemini، لکھائی کے لیے Claude، اور prototype یا API تجربے کے لیے Google AI Studio بہتر آغاز ہے۔</p>
+      </details>
+      <details>
+        <summary>کیا اس ڈائریکٹری کے tools پاکستان میں چلتے ہیں؟</summary>
+        <p>Pakistan badge والے tools پاکستانی صارفین کے لیے منتخب کیے گئے ہیں۔ قیمت، limits اور دستیابی وقت کے ساتھ بدل سکتی ہے، اس لیے اہم کام سے پہلے tool کی آفیشل سائٹ ضرور چیک کریں۔</p>
+      </details>
+      <details>
+        <summary>AI tools سیکھنے کا آسان راستہ کیا ہے؟</summary>
+        <p>پہلے <a href="/guides/ai-kya-hai-urdu-ai-master-class-1/">AI کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini</a> میں اردو سوالات آزمائیں، اور اس کے بعد <a href="/blog/google-ai-studio-kia-hai/">Google AI Studio</a> یا <a href="/courses/masterclass/">ماسٹرکلاس</a> سے عملی مشق کریں۔</p>
+      </details>
+    </section>
   </div>
 
   <div class="container" style="margin-block-start: var(--space-2xl);">
@@ -300,6 +385,61 @@ const trendingTools = tools.filter(t => t.trending).length;
   .tools-filter--active .tools-filter__count {
     background: rgba(255, 255, 255, 0.2);
     color: white;
+  }
+
+  /* ── Guided paths ── */
+  .tools-paths {
+    border-block: 1px solid var(--border);
+    padding-block: var(--space-lg);
+    margin-block-end: var(--space-lg);
+  }
+
+  .tools-paths__intro {
+    max-width: 760px;
+    margin-block-end: var(--space-md);
+  }
+
+  .tools-paths__intro h2 {
+    font-size: var(--text-h2);
+    line-height: var(--lh-heading);
+    margin-block-end: var(--space-xs);
+  }
+
+  .tools-paths__intro p {
+    color: var(--ink-soft);
+    line-height: var(--lh-prose);
+    margin: 0;
+  }
+
+  .tools-paths__links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-sm);
+  }
+
+  .tools-path {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: var(--space-sm);
+    background: var(--paper-card);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .tools-path:hover {
+    border-color: var(--teal);
+  }
+
+  .tools-path strong,
+  .tools-path span {
+    display: block;
+  }
+
+  .tools-path span {
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
+    margin-block-start: 0.2em;
   }
 
   /* ── Grid ── */
@@ -458,6 +598,39 @@ const trendingTools = tools.filter(t => t.trending).length;
     margin-block: var(--space-xl);
     padding-block-start: var(--space-md);
     border-block-start: 1px solid var(--border);
+  }
+
+  .tools-faq {
+    max-width: 820px;
+    margin-inline: auto;
+    margin-block: var(--space-xl);
+  }
+
+  .tools-faq h2 {
+    font-size: var(--text-h2);
+    line-height: var(--lh-heading);
+    margin-block-end: var(--space-sm);
+  }
+
+  .tools-faq details {
+    border-block-start: 1px solid var(--border);
+    padding-block: var(--space-sm);
+  }
+
+  .tools-faq details:last-child {
+    border-block-end: 1px solid var(--border);
+  }
+
+  .tools-faq summary {
+    cursor: pointer;
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .tools-faq p {
+    color: var(--ink-soft);
+    line-height: var(--lh-prose);
+    margin-block: var(--space-xs) 0;
   }
 
   /* ── Mobile ── */

@@ -90,6 +90,11 @@ const faqSchema = {
       "name": "کیا یہ کورس موبائل پر چلتا ہے؟",
       "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔" },
     },
+    {
+      "@type": "Question",
+      "name": "کورس شروع کرنے سے پہلے کون سا سبق یا گائیڈ پڑھوں؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "اگر آپ بالکل نئے ہیں تو پہلے AI کیا ہے والا بنیادی سبق پڑھیں، پھر Gemini کو اردو میں استعمال کرنے کی گائیڈ دیکھیں، اور اس کے بعد ماسٹرکلاس کا پہلا سبق شروع کریں۔" },
+    },
   ],
 };
 
@@ -138,6 +143,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
     </div>
+
+    <section class="mc-start-path" aria-labelledby="mc-start-path-title">
+      <h2 id="mc-start-path-title">اگر آپ بالکل نئے ہیں تو یہاں سے شروع کریں</h2>
+      <p>
+        ماسٹرکلاس شروع کرنے سے پہلے بنیاد صاف رکھیں: پہلے AI کی آسان تعریف پڑھیں، پھر Gemini میں اردو سوال پوچھنے کی مشق کریں، اور پھر سبق 1 شروع کریں۔
+      </p>
+      <div class="mc-start-path__links">
+        <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a>
+        <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a>
+        <a href={`${base}/blog/google-ai-studio-kia-hai/`}>Google AI Studio گائیڈ</a>
+        <a href={`${base}/tools/`}>AI Tools Directory</a>
+      </div>
+    </section>
 
     <!-- Subscribe + enroll section -->
     <div class="mc-subscribe" id="mc-subscribe">
@@ -231,6 +249,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <summary>کیا یہ کورس موبائل پر چلتا ہے؟</summary>
         <p>جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔</p>
       </details>
+      <details>
+        <summary>کورس شروع کرنے سے پہلے کون سا سبق یا گائیڈ پڑھوں؟</summary>
+        <p>اگر آپ بالکل نئے ہیں تو پہلے <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a> پڑھیں، پھر <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a> دیکھیں، اور اس کے بعد سبق 1 شروع کریں۔</p>
+      </details>
     </div>
 
     <!-- WhatsApp CTA -->
@@ -259,6 +281,46 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       color: var(--ink-soft);
       max-width: 600px;
     }
+
+    .mc-start-path {
+      border-block: 1px solid var(--border);
+      padding-block: var(--space-lg);
+      margin-block: var(--space-lg);
+    }
+
+    .mc-start-path h2 {
+      font-size: var(--text-h2);
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .mc-start-path p {
+      color: var(--ink-soft);
+      line-height: var(--lh-prose);
+      max-width: 680px;
+    }
+
+    .mc-start-path__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-xs);
+      margin-block-start: var(--space-sm);
+    }
+
+    .mc-start-path__links a {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.45em 0.9em;
+      background: var(--paper-card);
+      color: var(--teal);
+      text-decoration: none;
+      font-size: var(--text-sm);
+    }
+
+    .mc-start-path__links a:hover {
+      border-color: var(--teal);
+    }
+
     .badge--gold {
       background: var(--gold);
       color: var(--ink);
