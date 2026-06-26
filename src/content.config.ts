@@ -101,6 +101,10 @@ const learn = defineCollection({
     term_english: z.string(),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 

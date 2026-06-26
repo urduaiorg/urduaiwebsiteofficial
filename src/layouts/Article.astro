@@ -60,8 +60,11 @@ const legacyCommentsData = legacyCommentsPayload as {
   commentsByCollection: Record<string, Record<string, unknown[]>>;
 };
 
-// Format date in Urdu-readable form
-const dateObj = new Date(date);
+// Date-only frontmatter should display as the same calendar day in every timezone.
+const dateParts = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+const dateObj = dateParts
+  ? new Date(Number(dateParts[1]), Number(dateParts[2]) - 1, Number(dateParts[3]))
+  : new Date(date);
 const formattedDate = dateObj.toLocaleDateString('ur-PK', {
   year: 'numeric',
   month: 'long',
