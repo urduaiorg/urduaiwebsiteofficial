@@ -22,9 +22,9 @@ EXPECTED_STATIC_SNIPPETS = [
     "RedirectMatch 301 ^/blog/ai\\-image\\-expression\\-prompts\\-urdu\\-guide/?$ /guides/ai-image-expression-prompts-urdu-guide/",
     "RedirectMatch 301 ^/blogs/?$ /blog/",
     "RedirectMatch 301 ^/about\\-us/?$ /about/",
-    "RewriteCond %{REQUEST_URI} ^/12\\-best\\-ai\\-tools\\-that\\-make\\-work\\-faster\\-and\\-easier/?(?:\\?.*)?$ [NC]",
+    "RewriteCond %{THE_REQUEST} \\s/+12\\-best\\-ai\\-tools\\-that\\-make\\-work\\-faster\\-and\\-easier/?(?:\\?|\\s) [NC]",
     "RewriteRule ^ /blog/12-best-ai-tools-that-make-work-faster-and-easier/ [R=301,L]",
-    "RewriteCond %{REQUEST_URI} ^/ai\\-kya\\-hai\\-urdu\\-ai\\-master\\-class\\-1/?(?:\\?.*)?$ [NC]",
+    "RewriteCond %{THE_REQUEST} \\s/+ai\\-kya\\-hai\\-urdu\\-ai\\-master\\-class\\-1/?(?:\\?|\\s) [NC]",
     "RewriteRule ^ /guides/ai-kya-hai-urdu-ai-master-class-1/ [R=301,L]",
 ]
 

@@ -144,6 +144,14 @@ def format_request_uri_rewrite(source: str, target: str) -> str:
     ])
 
 
+def format_the_request_rewrite(source: str, target: str) -> str:
+    escaped_source = re.escape(source)
+    return "\n".join([
+        f"RewriteCond %{{THE_REQUEST}} \\s/+{escaped_source}/?(?:\\?|\\s) [NC]",
+        f"RewriteRule ^ {target} [R=301,L]",
+    ])
+
+
 def write_redirects() -> tuple[int, int]:
     content_redirects = build_content_redirects()
     page_redirects = build_page_redirects()
@@ -189,7 +197,7 @@ def write_redirects() -> tuple[int, int]:
         *(format_redirect_match(source, target) for source, target in SPECIAL_REDIRECTS),
         "",
         "# Mapped content slugs",
-        *(format_request_uri_rewrite(source, target) for source, target in content_redirects),
+        *(format_the_request_rewrite(source, target) for source, target in content_redirects),
         "",
         HTACCESS_FOOTER.strip(),
         "",
