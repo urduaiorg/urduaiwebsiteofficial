@@ -1,76 +1,115 @@
 ---
-title: Claude Opus 4.8 کیا ہے؟ Anthropic کا agentic AI model
-description: Claude Opus 4.8 Anthropic کا نیا agentic AI model ہے جس میں code review، tool-calling اور طویل tasks کے لیے بہتر judgment پر زور دیا گیا ہے۔
+title: "Claude Opus 4.8 کیا ہے؟ قیمت، فیچرز اور استعمال"
+description: "Claude Opus 4.8 Anthropic کا نیا coding اور agentic AI model ہے۔ قیمت، code review، tool-calling اور پاکستانی users کے لیے فائدہ سمجھیں۔"
 date: 2026-05-28
-category: اے آئی اپڈیٹ
+category: "اے آئی اپڈیٹ"
 tags:
   - Claude
   - Anthropic
   - Claude Opus 4.8
   - ایجنٹک اے آئی
   - کوڈنگ
-image: /images/blog/HJa8K9QWsAMaKFt.jpeg
-author: معراج احمد
+image: "/images/blog/HJa8K9QWsAMaKFt.jpeg"
+author: "معراج احمد"
 adsense: true
+tools: ["Claude"]
 draft: false
 faq:
-  - question: Claude Opus 4.8 میں Opus 4.7 کے مقابلے میں نیا کیا ہے؟
-    answer: Anthropic کے مطابق یہ model agentic tasks میں بہتر judgment رکھتا ہے، کوڈ کی خامیاں پکڑنے میں چار گنا زیادہ بہتر ہے، tool-calling میں زیادہ efficient ہے، اور sessions کے درمیان context بہتر یاد رکھتا ہے۔
-  - question: اس کی قیمت کیا ہے؟
-    answer: 'قیمت Opus 4.7 جیسی ہی رکھی گئی ہے: $5 per million input tokens اور $25 per million output tokens۔ Fast mode $10 input اور $50 output per million ہے۔'
-  - question: کیا عام پاکستانی user کو فرق محسوس ہوگا؟
-    answer: اگر آپ صرف عام چیٹ یا summaries کے لیے استعمال کرتے ہیں تو فرق ہلکا لگے گا۔ اصل فائدہ ان لوگوں کو ہے جو coding، long-running tasks، اور agentic workflows پر کام کرتے ہیں۔
-last_updated: ''
+  - question: "Claude Opus 4.8 کیا ہے؟"
+    answer: "Claude Opus 4.8 Anthropic کا advanced AI model ہے جسے coding، code review، tool-calling اور لمبے agentic tasks کے لیے بہتر بنایا گیا ہے۔"
+  - question: "Claude Opus 4.8 کی قیمت کیا ہے؟"
+    answer: "Anthropic کے اعلان کے مطابق standard pricing $5 per million input tokens اور $25 per million output tokens ہے۔ Fast mode کی قیمت $10 input اور $50 output per million tokens بتائی گئی ہے۔"
+  - question: "Claude Opus 4.8 عام user کے لیے مفید ہے؟"
+    answer: "عام chat یا simple summaries میں فرق کم محسوس ہو سکتا ہے۔ اصل فائدہ developers، code reviewers، researchers اور long-running workflows پر کام کرنے والوں کو ہے۔"
+  - question: "Claude Opus 4.8 اور Claude AI میں فرق کیا ہے؟"
+    answer: "Claude AI assistant کا عام نام ہے، جبکہ Opus 4.8 Claude family کا ایک خاص model ہے جو زیادہ پیچیدہ coding اور agentic tasks کے لیے بنایا گیا ہے۔"
+last_updated: 2026-06-26
 ---
+Claude Opus 4.8 Anthropic کا advanced AI model ہے جو 28 مئی 2026 کو جاری ہوا۔ کمپنی کے مطابق یہ release code review، tool-calling، long-running tasks اور agentic workflows کے لیے بہتر judgment دیتی ہے، جبکہ pricing Opus 4.7 جیسی رکھی گئی ہے۔
 
-# Claude Opus 4.8 کیا ہے؟ Anthropic کا agentic AI model
+## Claude Opus 4.8 کس کے لیے اہم ہے؟
 
-Claude Opus 4.8 Anthropic کا agentic AI model ہے جو ۲۸ مئی ۲۰۲۶ کو جاری ہوا۔ کمپنی کے مطابق اس اپڈیٹ میں code review، tool-calling، طویل tasks اور ایسے کاموں پر توجہ دی گئی ہے جہاں model کو کئی steps کے بعد بہتر فیصلہ کرنا ہوتا ہے۔
+اگر آپ Claude کو صرف عام سوالات، summaries یا casual writing کے لیے استعمال کرتے ہیں تو Opus 4.8 کا فرق بہت بڑا محسوس نہیں ہوگا۔ لیکن اگر آپ coding، debugging، code review، multi-step research یا automated workflows پر کام کرتے ہیں تو یہ update زیادہ اہم ہے۔
 
-## اس اپڈیٹ میں کیا نیا ہے؟
+عام الفاظ میں: یہ model ان کاموں کے لیے بنایا گیا ہے جہاں AI کو ایک جواب لکھ کر رکنا نہیں، بلکہ کئی steps میں سوچنا، tools استعمال کرنا، اپنی uncertainty بتانا، اور context برقرار رکھنا پڑتا ہے۔
 
-Anthropic نے چند واضح بہتریوں پر زور دیا ہے، اور سب سے نمایاں بات code review ہے۔
+Claude کا بنیادی مطلب سمجھنے کے لیے پہلے [Claude AI کیا ہے؟](/learn/claude-ai/) پڑھیں۔ یہ page خاص طور پر Opus 4.8 model کی تبدیلیوں پر ہے۔
 
-کمپنی کا دعویٰ ہے کہ یہ model code میں موجود غلطیاں نظر انداز کرنے کا امکان پہلے سے چار گنا کم رکھتا ہے۔ اس کے علاوہ یہ tool-calling میں زیادہ efficient ہے، uncertainty یعنی جہاں اسے یقین نہ ہو وہاں زیادہ ایمانداری سے بتاتا ہے، اور ایک ہی کام کی کئی sessions کے درمیان context بہتر یاد رکھتا ہے۔ یہی آخری بات لمبے، کئی دن چلنے والے کاموں کے لیے سب سے کارآمد ہے۔
+## اس update میں کیا نیا ہے؟
 
-ساتھ ہی تین نئی چیزیں آج سے شروع ہوئی ہیں: Claude Code کے لیے dynamic workflows (ابھی research preview میں)، claude.ai اور Cowork میں effort control یعنی آپ خود طے کریں کہ model کتنی محنت لگائے، اور Messages API میں system entries اپڈیٹ کرنے کی سہولت۔
+Anthropic نے Opus 4.8 میں code review کو نمایاں improvement کے طور پر پیش کیا ہے۔ کمپنی کے مطابق یہ model code میں موجود غلطیاں miss کرنے کا امکان پہلے سے کم رکھتا ہے، tool-calling زیادہ efficient کرتا ہے، اور long-running tasks میں context بہتر سنبھالتا ہے۔
 
-##  بینچ مارکس کیا کہتے ہیں؟
+یہاں ایک اہم caveat ہے: یہ claims Anthropic کے اپنے announcement سے آتے ہیں۔ آزاد benchmarks اور real-world developer testing کے بعد ہی پتا چلتا ہے کہ روزمرہ projects میں فرق کتنا مضبوط ہے۔
 
-Anthropic کا کہنا ہے کہ Opus 4.8 کئی benchmarks پر Opus 4.7 سے آگے ہے۔ مثال کے طور پر Online-Mind2Web ٹیسٹ پر اس نے ۸۴ فیصد score حاصل کیا، جو کمپنی کے مطابق Opus 4.7 اور GPT-5.5 دونوں سے واضح آگے ہے۔ Legal Agent Benchmark پر یہ پہلا model بتایا گیا ہے جس نے سخت ترین "all-pass" معیار پر ۱۰ فیصد کی حد عبور کی۔
+## قیمت کیا ہے؟
 
-یہ نمبر Anthropic کے اپنے ہیں، اس لیے انہیں marketing claim کے طور پر دیکھیں — حتمی فیصلہ آزاد ٹیسٹنگ کے بعد ہی ہوتا ہے۔
+Anthropic کے اعلان کے مطابق Claude Opus 4.8 کی standard pricing یہ ہے:
 
-## یہ پرامٹ کاپی کریں:
+- $5 per million input tokens
+- $25 per million output tokens
+- Fast mode: $10 input اور $50 output per million tokens
 
-─────────────────────────────
+یہ API pricing ہے، عام claude.ai subscription سے الگ معاملہ ہو سکتا ہے۔ اگر آپ paid استعمال، API یا business workflow بنا رہے ہیں تو تازہ قیمت ہمیشہ Anthropic کی آفیشل pricing یا announcement سے چیک کریں۔
+
+## پاکستانی users کے لیے کیا مطلب ہے؟
+
+پاکستان میں زیادہ تر users Claude کو writing، proposal، research notes یا coding help کے لیے دیکھتے ہیں۔ Opus 4.8 کا practical فائدہ خاص طور پر ان لوگوں کے لیے ہو سکتا ہے:
+
+- software developers جو code review اور debugging کرتے ہیں
+- students جو programming assignments سمجھنا چاہتے ہیں
+- freelancers جو client projects میں AI coding assistant استعمال کرتے ہیں
+- teams جو documentation، test planning یا workflow automation کرتی ہیں
+
+لیکن اگر آپ صرف اردو مضمون لکھوانا، email بہتر کرنا یا خلاصہ لینا چاہتے ہیں تو [Claude سے اردو میں لکھنے کی گائیڈ](/how-to/how-to-use-claude-for-writing/) پہلے زیادہ مفید ہے۔
+
+## Agentic AI یہاں کیوں اہم ہے؟
+
+Agentic AI سے مراد ایسا AI workflow ہے جہاں model صرف جواب نہیں دیتا بلکہ کئی steps میں task آگے بڑھاتا ہے۔ مثال کے طور پر code پڑھنا، bug identify کرنا، test سوچنا، پھر اگلا file دیکھنا، اور آخر میں recommendation دینا۔
+
+اسی لیے Opus 4.8 کا اصل angle عام chatbot نہیں بلکہ work execution ہے۔ اگر آپ اس concept کو الگ سے سمجھنا چاہتے ہیں تو [AI agent کیا ہے؟](/learn/ai-agent/) پڑھیں۔
+
+## یہ پرامٹ آزما کر دیکھیں
+
+```text
 آپ ایک senior code reviewer ہیں۔
 نیچے دیے گئے code کے لیے:
-1) سب سے خطرناک bug پہلے بتائیں
-2) ہر مسئلے کے ساتھ ایک سطر میں وجہ لکھیں
-3) جہاں آپ کو یقین نہ ہو، صاف کہیں "یہاں مجھے یقین نہیں"
+1. سب سے خطرناک bug پہلے بتائیں
+2. ہر مسئلے کے ساتھ ایک سطر میں وجہ لکھیں
+3. جہاں evidence کم ہو، صاف لکھیں "یہاں مجھے یقین نہیں"
+4. آخر میں fix کی priority list دیں
+
 جواب اردو میں، مختصر اور عملی رکھیں۔
-─────────────────────────────
-کہاں استعمال کریں: Claude / ChatGPT
+```
 
-## آگے کیا آ رہا ہے؟
+یہ پرامٹ Claude، ChatGPT یا Gemini میں استعمال ہو سکتا ہے، مگر long code review کے لیے Claude Opus 4.8 کا اصل فائدہ تب سامنے آتا ہے جب context لمبا ہو اور task کئی steps پر مشتمل ہو۔
 
-Anthropic نے دو اشارے دیے ہیں۔ پہلا، کم قیمت والے Opus-جیسے models بنانے کا منصوبہ، جو پاکستان جیسی قیمت کے حساس مارکیٹ کے لیے اہم ہو سکتا ہے۔ دوسرا، Claude Mythos نامی نئی نسل کے models، جو ابھی محدود cybersecurity استعمال میں ہیں اور کمپنی کے مطابق آنے والے ہفتوں میں عام دستیاب ہوں گے۔
+## کیا آپ کو فوراً upgrade کرنا چاہیے؟
+
+اگر آپ developer، product builder یا automation workflow پر کام کرنے والے user ہیں تو Opus 4.8 دیکھنے کے قابل ہے۔ اگر آپ عام writing، Urdu summaries یا learning کے لیے AI استعمال کرتے ہیں تو پہلے [AI tools directory](/tools/#tool-claude) سے Claude کا basic use سمجھیں، پھر ضرورت ہو تو advanced model پر جائیں۔
+
+اچھا اصول یہ ہے: model کے نام سے متاثر نہ ہوں، اپنا کام دیکھیں۔ اگر task simple ہے تو cheaper یا basic model کافی ہو سکتا ہے۔ اگر task complex، coding-heavy یا long-running ہے تو Opus 4.8 زیادہ relevant بنتا ہے۔
 
 ## اکثر پوچھے گئے سوالات
 
-- کیا Opus 4.8 صرف developers کے لیے ہے؟
-  نہیں، مگر سب سے زیادہ فائدہ انہی کو ہے۔ عام لکھائی اور docs میں بھی responses زیادہ صاف لگ سکتے ہیں۔
-- کیا قیمت بڑھی ہے؟
-  نہیں، Opus 4.7 جیسی ہی ہے۔
-- اس release کا سب سے اہم نکتہ کیا ہے؟
-  کوڈ کی خامیاں پکڑنے میں چار گنا بہتری اور agentic کاموں میں بہتر judgment۔
+### Claude Opus 4.8 کیا ہے؟
 
-اگر آپ مشکل code، لمبے tasks، اور ایسے کاموں پر چلتے ہیں جہاں model کو خود فیصلے کرنے ہوں، تو Claude Opus 4.8 آزمانے کے قابل اپڈیٹ ہے — اور چونکہ قیمت نہیں بڑھی، آزمانے میں کوئی اضافی خرچ بھی نہیں۔
+Claude Opus 4.8 Anthropic کا advanced AI model ہے جسے coding، code review، tool-calling اور لمبے agentic tasks کے لیے بہتر بنایا گیا ہے۔
+
+### Claude Opus 4.8 کی قیمت کیا ہے؟
+
+Anthropic کے اعلان کے مطابق standard pricing $5 per million input tokens اور $25 per million output tokens ہے۔ Fast mode کی قیمت $10 input اور $50 output per million tokens بتائی گئی ہے۔
+
+### Claude Opus 4.8 عام user کے لیے مفید ہے؟
+
+عام chat یا simple summaries میں فرق کم محسوس ہو سکتا ہے۔ اصل فائدہ developers، code reviewers، researchers اور long-running workflows پر کام کرنے والوں کو ہے۔
+
+### Claude Opus 4.8 اور Claude AI میں فرق کیا ہے؟
+
+Claude AI assistant کا عام نام ہے، جبکہ Opus 4.8 Claude family کا ایک خاص model ہے جو زیادہ پیچیدہ coding اور agentic tasks کے لیے بنایا گیا ہے۔
 
 ## اب آگے کیا سیکھیں؟
 
-اب جب آپ جانتے ہیں Opus 4.8 میں کیا نیا ہے — اگلا قدم: [Claude Opus 4.7 کیا لایا تھا، وہ بھی پڑھیں ←](/blog/anthropic-claude-opus-4-7/)
+اگر آپ Claude کو روزمرہ لکھائی میں استعمال کرنا چاہتے ہیں تو [Claude AI سے اردو میں لکھنا کیسے سیکھیں](/how-to/how-to-use-claude-for-writing/) پڑھیں۔
 
 ## اصل اعلان
 

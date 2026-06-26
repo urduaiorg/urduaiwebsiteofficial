@@ -34,6 +34,8 @@ Claude کو Anthropic نے بنایا ہے۔ Anthropic اپنی docs میں Clau
 - code سمجھنا یا debugging میں مدد لینا
 - document سے اہم نکات نکالنا
 
+اگر آپ Claude کے advanced models دیکھ رہے ہیں تو [Claude Opus 4.8 کیا ہے؟](/blog/anthropic-claude-opus-4-8/) بھی پڑھیں۔ اس میں coding، agentic tasks اور pricing کی مختصر وضاحت ہے۔
+
 ## Claude، Gemini اور ChatGPT میں فرق
 
 یہ تینوں AI assistants ہیں، مگر ہر tool کا انداز اور مضبوط پہلو مختلف ہو سکتا ہے۔ Gemini گوگل ecosystem کے ساتھ قریب ہے، ChatGPT عام سوالات اور tools کے لیے مشہور ہے، اور Claude کو بہت سے لوگ لمبی تحریر، reasoning اور editing کے لیے استعمال کرتے ہیں۔

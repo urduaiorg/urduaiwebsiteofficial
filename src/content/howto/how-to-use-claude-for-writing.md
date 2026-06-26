@@ -78,7 +78,7 @@ Claude کی مدد سے لکھنے کا مطلب یہ نہیں کہ ہر بات 
 
 اگر آپ Claude سے لکھائی اور ایڈیٹنگ سیکھ رہے ہیں تو ساتھ [Gemini اردو گائیڈ](/how-to/how-to-use-gemini-in-urdu/) بھی دیکھیں، کیونکہ Gemini گوگل اکاؤنٹ، Drive اور روزمرہ سرچ ورک فلو کے ساتھ زیادہ قریب ہے۔ اگر آپ لکھائی سے آگے بڑھ کر app یا prototype بنانا چاہتے ہیں تو [Google AI Studio گائیڈ](/blog/google-ai-studio-kia-hai/) اگلا بہتر قدم ہے۔
 
-عام فیصلہ یہ ہے: لمبی تحریر اور revision کے لیے Claude، روزمرہ سوال اور Google ecosystem کے لیے Gemini، اور model testing یا prototype کے لیے Google AI Studio۔ مزید متبادل دیکھنے کے لیے [AI tools directory](/tools/) استعمال کریں۔
+عام فیصلہ یہ ہے: لمبی تحریر اور revision کے لیے Claude، روزمرہ سوال اور Google ecosystem کے لیے Gemini، اور model testing یا prototype کے لیے Google AI Studio۔ اگر آپ coding یا long-running workflows کے لیے advanced Claude model دیکھ رہے ہیں تو [Claude Opus 4.8 کی وضاحت](/blog/anthropic-claude-opus-4-8/) پڑھیں۔ مزید متبادل دیکھنے کے لیے [AI tools directory](/tools/) استعمال کریں۔
 
 ## عام مسائل اور حل
 
