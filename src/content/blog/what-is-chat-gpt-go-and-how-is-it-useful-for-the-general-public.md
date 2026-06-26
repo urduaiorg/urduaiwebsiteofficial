@@ -1,59 +1,111 @@
 ---
-title: "چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگوں کے لیے کیسے مفید ہے؟"
-description: "چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگوں کے لیے کیسے مفید ہے؟  دنیا بھر میں ٹیکنالوجی کا استعمال تیزی سے بڑھ رہا ہے اور اب ہر فرد چاہتا ہے کہ وہ بھی جدید سمارٹ ٹ"
+title: "ChatGPT Go کیا ہے؟ قیمت، limits اور پاکستان کے لیے فائدہ"
+description: "ChatGPT Go اوپن اے آئی کا کم قیمت پلان ہے۔ جانیں 8 ڈالر ماہانہ میں کیا ملتا ہے، Free اور Plus سے فرق کیا ہے، اور پاکستان میں پہلے کیا چیک کریں۔"
 date: 2026-01-23
-category: "اے آئی اپڈیٹ"
+category: "گائیڈ"
 image: "/images/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public.jpg"
 author: "اردو اے آئی ٹیم"
 adsense: true
+tools: ["ChatGPT", "OpenAI"]
 draft: false
+last_updated: 2026-06-26
 faq:
-  - question: "چیٹ جی پی ٹی گو کیا ہے؟"
-    answer: "چیٹ جی پی ٹی گو اوپن اے آئی کا ایک کم قیمت سبسکرپشن پلان ہے جو صرف 8 امریکی ڈالر ماہانہ میں GPT-5.2 ماڈل تک رسائی دیتا ہے۔ یہ عام لوگوں کے لیے بنایا گیا ہے۔"
-  - question: "چیٹ جی پی ٹی گو کی قیمت کتنی ہے؟"
-    answer: "چیٹ جی پی ٹی گو کی قیمت 8 امریکی ڈالر ماہانہ ہے جو پاکستانی روپوں میں تقریبا 2236 روپے بنتے ہیں۔"
-  - question: "چیٹ جی پی ٹی گو اور پلس میں کیا فرق ہے؟"
-    answer: "چیٹ جی پی ٹی گو سستا پلان ہے جو بنیادی AI فیچرز دیتا ہے جبکہ پلس زیادہ قیمت پر زیادہ فیچرز فراہم کرتا ہے۔ گو میں مفت پلان سے دس گنا زیادہ پیغامات بھیجے جا سکتے ہیں۔"
-  - question: "کیا چیٹ جی پی ٹی گو پاکستان میں دستیاب ہے؟"
-    answer: "ہاں، چیٹ جی پی ٹی گو 170 سے زائد ممالک میں دستیاب ہے جن میں پاکستان بھی شامل ہے۔"
+  - question: "ChatGPT Go کیا ہے؟"
+    answer: "ChatGPT Go اوپن اے آئی کا کم قیمت paid plan ہے جو Free plan کے مقابلے میں زیادہ messages، file uploads، image generation اور memory access دیتا ہے۔"
+  - question: "ChatGPT Go کی قیمت کتنی ہے؟"
+    answer: "OpenAI کی pricing page کے مطابق ChatGPT Go کی قیمت 8 امریکی ڈالر ماہانہ ہے۔ taxes، app store charges اور مقامی payment method کے باعث اصل رقم مختلف ہو سکتی ہے۔"
+  - question: "ChatGPT Go اور ChatGPT Plus میں کیا فرق ہے؟"
+    answer: "ChatGPT Go کم قیمت plan ہے جو Free سے زیادہ limits دیتا ہے، جبکہ Plus زیادہ usage، advanced features اور زیادہ طاقتور workflows کے لیے بنایا گیا ہے۔"
+  - question: "کیا ChatGPT Go پاکستان میں لینا چاہیے؟"
+    answer: "اگر آپ Free plan کی limits روزانہ hit کرتے ہیں اور ChatGPT سے لکھائی، فائل خلاصہ، image generation یا study help لیتے ہیں تو Go useful ہو سکتا ہے۔ پہلے OpenAI pricing page پر availability اور payment options چیک کریں۔"
 ---
+ChatGPT Go اوپن اے آئی کا کم قیمت paid plan ہے جو Free plan سے زیادہ messages، file uploads، image generation، memory access اور GPT-5.5 Instant تک expanded access دیتا ہے۔ 26 جون 2026 تک OpenAI کی pricing page پر اس کی قیمت 8 امریکی ڈالر ماہانہ لکھی ہے، لیکن taxes، app store charges اور payment method کے حساب سے اصل رقم مختلف ہو سکتی ہے۔
 
-# چیٹ جی پی ٹی گو کیا ہے اور یہ عام لوگوں کے لیے کیسے مفید ہے؟
+پاکستانی صارف کے لیے اصل سوال یہ نہیں کہ ChatGPT Go نیا ہے یا مشہور ہے۔ اصل سوال یہ ہے: کیا آپ Free plan کی limits سے واقعی رک رہے ہیں؟ اگر آپ ہفتے میں کبھی کبھار سوال پوچھتے ہیں تو Free plan کافی ہو سکتا ہے۔ اگر آپ روزانہ assignments، proposals، posts، documents یا image ideas پر کام کرتے ہیں تو Go plan پر غور کیا جا سکتا ہے۔
 
+آفیشل معلومات کے لیے [OpenAI کا ChatGPT Go help page](https://help.openai.com/en/articles/11989085-what-is-chatgpt-go) اور [ChatGPT pricing page](https://chatgpt.com/pricing) دیکھیں۔ Plans، limits اور availability بدل سکتی ہیں، اس لیے payment کرنے سے پہلے تازہ details ضرور چیک کریں۔
 
-دنیا بھر میں ٹیکنالوجی کا استعمال تیزی سے بڑھ رہا ہے اور اب ہر فرد چاہتا ہے کہ وہ بھی جدید سمارٹ ٹولز سے فائدہ اٹھائے، خاص طور پر ایسے ٹولز جو زندگی کے عام کاموں کو آسان بناتے ہیں۔ لیکن کئی لوگ اس لیے پیچھے رہ جاتے ہیں کیونکہ مہنگے سبسکرپشن پلان ان کی پہنچ سے باہر ہوتے ہیں۔ ایسے میں اوپن اے آئی کا چیٹ جی پی ٹی گو ایک بڑی تبدیلی کے طور پر سامنے آیا ہے، جس نے مصنوعی ذہانت تک عام لوگوں کی رسائی ممکن بنا دی ہے۔
+## ChatGPT Go میں کیا ملتا ہے؟
 
+OpenAI کے مطابق ChatGPT Go Free plan کے مقابلے میں popular features کی زیادہ access دیتا ہے۔ Help page پر اسے GPT-5.5 Instant تک expanded access، زیادہ messages، زیادہ file uploads، زیادہ image generation اور بہتر memory access کے طور پر بیان کیا گیا ہے۔
 
-چیٹ جی پی ٹی گوایک کم قیمت والا سبسکرپشن پلان ہے جو اوپن اے آئی نے متعارف کروایا ہے تاکہ عام لوگ بھی جدید مصنوعی ذہانت سے فائدہ اٹھا سکیں۔ اگست 2025 میں بھارت سے آغاز کرنے کے بعد اسے تیزی سے دنیا کے 170 سے زائد ممالک میں متعارف کرایا گیا، اور آج یہ سب سے تیزی سے مقبول ہونے والی سروس بن چکی ہے۔ [چیٹ جی پی ٹی گو متعارف](https://openai.com/index/introducing-chatgpt-go/) کرانے کا مقصد تھا کہ ٹیکنالوجی صرف ماہرین یا امیر افراد کے لیے نہ ہو بلکہ ہر وہ شخص جو کچھ سیکھنا یا کام مکمل کرنا چاہتا ہے، وہ اسے استعمال کر سکے۔ یہ پلان خاص طور پر ان لوگوں کے لیے بنایا گیا ہے جو سستی، آسان اور قابل اعتماد اے آئی سروس چاہتے ہیں۔ ایسے میں چیٹ جی پی ٹی گو کی قیمت صرف 8 امریکی ڈالر ماہانہ ہے۔جو پاکستان 2236 روپے بنتے ہیں۔ اس میں صارفین کو [GPT-5.2](https://urduai.org/if-youre-not-using-gpt-5-2-youre-missing-these-14-features/) انسٹنٹ ماڈل تک رسائی دی جاتی ہے، جو کہ تیز، سمجھدار اور عام استعمال کے لیے بہترین ہے۔ اس میں مفت پلان کے مقابلے میں دس گنا زیادہ پیغامات، فائل اپلوڈز، اور تصویریں بنانے کی سہولت دی جاتی ہے۔
+یہ limits fixed وعدہ نہیں ہوتیں۔ OpenAI system demand، safety checks اور product changes کے حساب سے limits بدل سکتا ہے، اس لیے اہم کام سے پہلے app یا pricing page پر current detail دیکھنا بہتر ہے۔
 
+اس کا مطلب یہ نہیں کہ Go plan ہر advanced کام کے لیے کافی ہے۔ اگر آپ بہت heavy research، coding، data analysis یا business workflows چلاتے ہیں تو Plus یا Pro plans زیادہ مناسب ہو سکتے ہیں۔ لیکن ایک طالب علم، teacher، freelancer یا small business owner کے لیے Go Free اور Plus کے درمیان practical درمیانی راستہ ہے۔
 
-یہ پلان خاص طور پر طالبعلموں، اساتذہ، فری لانسرز، کاروباری افراد، اور گھریلو خواتین کے لیے مفید ہے۔ مثال کے طور پر، ایک طالبعلم ریسرچ یا ہوم ورک کے لیے چیٹ جی پی ٹی گو کا استعمال کر سکتا ہے۔ ایک استاد نوٹس بنانے، لیکچر ترتیب دینے یا طلبہ کے سوالات کے جواب دینے کے لیے اس سے مدد لے سکتا ہے۔ فری لانسرز بلاگز لکھنے، سوشل میڈیا مواد بنانے یا کلائنٹس کے سوالات کا جواب دینے کے لیے اسے استعمال کرتے ہیں۔ ایک گھریلو خاتون کھانے کی ترکیب، تقریر لکھوانے یا بچوں کے اسکول کے کام میں رہنمائی حاصل کرنے کے لیے چیٹ جی پی ٹی گو [استعمال](https://urduai.org/do-you-know-how-people-use-chatgpt/) کر سکتی ہے۔ یہ صرف ایک ٹول نہیں بلکہ ایک ایسا ڈیجیٹل ساتھی ہے جو ہر وقت مدد کے لیے تیار ہوتا ہے۔  چیٹ جی پی ٹی گو کی ایک خاص بات اس کی لمبی یادداشت ہے۔ اگر آپ بار بار کسی خاص موضوع پر بات کرتے ہیں تو یہ سسٹم آپ کی پچھلی گفتگو یاد رکھتا ہے اور اگلی بار بہتر، مربوط اور ذاتی نوعیت کا جواب دیتا ہے۔ یہ خصوصیت ان لوگوں کے لیے نہایت کارآمد ہے جو طویل منصوبوں یا مسلسل موضوعات پر کام کرتے ہیں۔
+## Free plan، Go plan اور Plus میں فرق
 
+Free plan شروع کرنے کے لیے اچھا ہے۔ آپ basic سوالات، مختصر لکھائی، brainstorming اور عام help لے سکتے ہیں۔ مسئلہ تب آتا ہے جب usage limit ختم ہو جائے یا آپ کو file upload اور image generation بار بار چاہیے ہو۔
 
-اوپن اے آئی نے چیٹ جی پی ٹی گو کو دنیا بھر میں لانچ کرنے سے پہلے محدود مارکیٹس میں آزمائشی بنیادوں پر متعارف کرایا۔ ان ابتدائی صارفین نے سروس کو مثبت فیڈبیک دیا اور کمپنی نے دیکھا کہ لوگ اسے تعلیم، کام، مواد نویسی، اور تصویری تخلیق کے لیے باقاعدگی سے استعمال کر رہے ہیں۔ اس کامیابی نے عالمی لانچ کی بنیاد رکھی۔ اوپن اے آئی اس وقت تین مرکزی پلانز پیش کر رہی ہے: چیٹ جی پی ٹی گو، پلس، اور پرو۔
+ChatGPT Go اسی gap کو کم کرتا ہے۔ یہ Plus جتنا مہنگا نہیں، لیکن Free سے زیادہ room دیتا ہے۔ Plus ان لوگوں کے لیے بہتر ہے جو روزانہ لمبے documents، advanced reasoning، coding، data analysis یا professional workflows پر depend کرتے ہیں۔
 
+آسان فیصلہ یہ ہے:
 
- پلس پلان ان صارفین کے لیے ہے جو زیادہ گہرائی والے کام کرتے ہیں جیسے تجزیہ، تحقیق، یا ڈیٹا اینالیسس۔ اس میں GPT-5.2 Thinking ماڈل دستیاب ہے، جو کہ پیچیدہ سوالات پر بہتر نتائج دیتا ہے۔ اس کی قیمت 20 ڈالر ہے۔
+- ہفتے میں کبھی کبھار استعمال: Free plan سے شروع کریں۔
+- روزانہ study، writing یا social content: ChatGPT Go دیکھیں۔
+- professional heavy work، coding یا analysis: Plus compare کریں۔
 
+## پاکستان میں کس کے لیے مفید ہو سکتا ہے؟
 
-پرو پلان ان صارفین کے لیے ہے جو جدید اور اعلیٰ سطح کے استعمال کے خواہاں ہیں جیسے سافٹ ویئر ڈویلپرز یا ریسرچ سائنسدان۔ اس میں GPT-5.2 Pro ماڈل، بڑی میموری، زیادہ لمبی کانٹیکسٹ، اور جلدی نئے فیچرز تک رسائی حاصل ہوتی ہے۔ اس کی قیمت 200 ڈالر ہے۔
+طالب علم ChatGPT Go سے notes کا خلاصہ، essay outline، quiz questions اور مشکل English text کی آسان اردو explanation لے سکتا ہے۔ لیکن assignment کو سیدھا copy کرنا غلط عادت بناتا ہے؛ AI سے draft لیں، اپنی سمجھ سے final کریں۔
 
+Teacher lesson plan، worksheet، MCQs اور parent message کا draft بنا سکتا ہے۔ فری لانسر proposal، client reply، blog outline اور LinkedIn post بہتر کر سکتا ہے۔ چھوٹا کاروبار WhatsApp product description، Facebook caption، customer reply اور ad ideas کے لیے اسے استعمال کر سکتا ہے۔
 
-اب سوال یہ ہے کہ چیٹ جی پی ٹی گو کیسے استعمال کیا جا سکتا ہے؟ یہ استعمال میں نہایت آسان ہے۔ آپ [https://chatgpt.com/pricing](https://chatgpt.com/pricing) پر جائیں، اکاؤنٹ بنائیں، گو پلان منتخب کریں اور سبسکرپشن خرید لیں۔ اس کے بعد آپ موبائل یا کمپیوٹر سے ہر وقت چیٹ جی پی ٹی تک رسائی حاصل کر سکتے ہیں۔ اس کے لیے کسی خاص تکنیکی مہارت کی ضرورت نہیں۔ یہ سروس بچوں، نوجوانوں، بڑوں، اساتذہ، طلبہ، کاروباری افراد، اور فری لانسرز سب کے لیے مفید ہے۔ چاہے آپ کو مضمون لکھوانا ہو، تقریر تیار کروانی ہو، یا کسی سادہ سوال کا جواب درکار ہو، چیٹ جی پی ٹی گو ہمیشہ مدد کے لیے تیار ہے۔
+یہ سب کام Free plan میں بھی شروع ہو سکتے ہیں۔ Go plan تب معنی رکھتا ہے جب آپ روزانہ اتنا استعمال کر رہے ہوں کہ limits کام روک رہی ہوں۔
 
+## payment سے پہلے کیا چیک کریں؟
 
-چیٹ جی پی ٹی گو کا دائرہ کار صرف الفاظ اور جملوں کی حد تک محدود نہیں۔ اب اس میں تصویر سازی یعنی image generation کا فیچر بھی شامل ہے۔ اگر آپ کوئی گرافک یا تخلیقی تصویر بنانا چاہتے ہیں، جیسے کسی تقریب کا دعوت نامہ، سوشل میڈیا پوسٹ یا بچوں کے پراجیکٹ کے لیے خاکہ، تو چیٹ جی پی ٹی گو آپ کی رہنمائی کر سکتا ہے۔
+سب سے پہلے [ChatGPT کی آفیشل app install کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/) دیکھیں تاکہ آپ جعلی apps یا ملتے جلتے ناموں سے بچ سکیں۔ App یا website میں publisher اور domain OpenAI ہی ہونا چاہیے۔
 
+دوسرا قدم pricing page چیک کرنا ہے۔ بعض اوقات plan availability، taxes، app store billing اور payment method کے حساب سے final amount مختلف ہو سکتا ہے۔ Pakistani card یا mobile billing کا تجربہ ہر user کے لیے ایک جیسا نہیں ہوتا، اس لیے payment screen پر shown total کو final سمجھیں۔
 
-اس کے[ علاوہ](https://urduai.org/when-and-how-to-use-different-chatgpt-models-important-guidance-from-openai/) اس میں فائل اپلوڈ کا آپشن بھی شامل ہے۔ یعنی اگر آپ کوئی ڈاکیومنٹ یا پی ڈی ایف چیٹ جی پی ٹی کے ساتھ شیئر کریں، تو یہ فائل کو پڑھ کر اس کی وضاحت دے سکتا ہے یا سوالات کے جواب نکال سکتا ہے۔ یہ خاص طور پر ان افراد کے لیے فائدہ مند ہے جو تعلیمی یا تحقیقی کام کرتے ہیں۔ چیٹ جی پی ٹی گو کے استعمال کی ایک اور مثال کاروباری افراد ہیں۔ وہ اس سے مارکیٹنگ ای میلز، پروڈکٹ کی تفصیل، سیلز پیجز، اشتہاری نعرے اور یہاں تک کہ کلائنٹس کے سوالات کے جوابات بھی تیار کرا سکتے ہیں۔ اس سے وقت اور پیسے دونوں کی بچت ہوتی ہے، اور کام میں تیزی آتی ہے۔
+تیسرا قدم اپنی need لکھنا ہے۔ اگر آپ کو صرف "کبھی کبھی سوال" چاہیے تو subscription جلدی نہ لیں۔ پہلے Free plan پر 7 دن اپنا استعمال دیکھیں: روزانہ کتنے messages، کتنی files، کتنی images، اور کتنے serious tasks؟
 
+## ChatGPT Go سے بہتر نتیجہ کیسے لیں؟
 
-اگر آپ یوٹیوبر یا سوشل میڈیا کنٹینٹ کریئیٹر ہیں، تو چیٹ جی پی ٹی گو آپ کے لیے اسکرپٹ لکھ سکتا ہے، تھمب نیل کے لیے ٹیکسٹ تجویز کر سکتا ہے، اور ویڈیو ٹائٹل یا تفصیل تیار کر سکتا ہے۔ یہ فیچر خاص طور پر ان افراد کے لیے اہم ہے جو روزانہ نیا مواد بناتے ہیں اور تیزی سے آئیڈیاز کی ضرورت ہوتی ہے۔
+Go plan خریدنے سے جواب خود بخود useful نہیں ہو جاتا۔ اصل فرق prompt میں ہے۔ صرف "essay لکھو" کے بجائے یہ لکھیں:
 
+> "میں intermediate کا student ہوں۔ مجھے climate change پر 500 الفاظ کا آسان اردو essay چاہیے۔ زبان سادہ ہو، 5 headings ہوں، اور آخر میں 5 MCQs شامل کریں۔"
 
-یہ کہنا درست ہوگا کہ چیٹ جی پی ٹی گو صرف ایک سروس نہیں بلکہ ایک تحریک ہے۔ ایسی تحریک جو ٹیکنالوجی کو عام انسان کے ہاتھ میں دے رہی ہے۔ اب صرف ماہرین ہی نہیں بلکہ ہر شخص ٹیکنالوجی سے فائدہ اٹھا سکتا ہے۔ اگر آپ بھی چاہتے ہیں کہ آپ کا روزمرہ کا کام آسان ہو، آپ سیکھنے میں مدد حاصل کریں، یا اپنی کارکردگی میں بہتری لائیں تو چیٹ جی پی ٹی گو آپ کے لیے ایک بہترین انتخاب ہو سکتا ہے۔ اب وقت ہے کہ ہم سب اس جدید سہولت سے فائدہ اٹھائیں، کیونکہ یہ ٹیکنالوجی اب سب کے لیے ہے، نہ کہ صرف چند لوگوں کے لیے۔
+اسی طرح freelancer یہ لکھ سکتا ہے:
 
-## لغت میں اور پڑھیں
+> "میں Pakistani small business کے لیے Facebook ad لکھ رہا ہوں۔ product: handmade bags۔ audience: women age 20-35۔ 5 short captions دیں، ہر caption 20 words سے کم ہو۔"
 
-- [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
-- [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
+اگر جواب کمزور آئے تو نیا chat شروع کرنے کے بجائے follow-up دیں: "اسے آسان اردو میں کریں"، "tone زیادہ professional کریں"، یا "یہ answer بہت generic ہے، local Pakistani example شامل کریں"۔
+
+## privacy اور sensitive data
+
+ChatGPT میں passwords، bank details، CNIC، private student records، client contracts یا confidential business files نہ ڈالیں جب تک آپ کو data policy، permission اور risk واضح نہ ہو۔ AI tool helpful ہو سکتا ہے، لیکن private information کا فیصلہ user کی ذمہ داری ہے۔
+
+اگر document sensitive ہے تو اسے summarize کرنے سے پہلے names، phone numbers، addresses اور account details remove کریں۔ یہ عادت Free، Go، Plus، ہر plan میں ضروری ہے۔
+
+## کیا ChatGPT Go لینا چاہیے؟
+
+اگر آپ Free plan سے رک نہیں رہے تو پہلے Free استعمال کرتے رہیں۔ اگر آپ کا کام روزانہ ChatGPT پر چلتا ہے، آپ files upload کرتے ہیں، image ideas بناتے ہیں، یا writing اور study میں زیادہ messages چاہیے ہوتے ہیں تو Go plan ایک reasonable upgrade ہو سکتا ہے۔
+
+لیکن اگر آپ ChatGPT سے income، client work یا heavy analysis کرتے ہیں تو صرف Go دیکھ کر فیصلہ نہ کریں۔ [ChatGPT models کب استعمال کریں؟](/how-to/when-and-how-to-use-different-chatgpt-models-important-guidance-from-openai/) اور [AI tools directory](/tools/) بھی دیکھیں تاکہ آپ ChatGPT، Gemini، Claude اور دوسرے tools کا فرق سمجھ سکیں۔
+
+## اکثر پوچھے گئے سوالات
+
+### ChatGPT Go کیا ہے؟
+
+ChatGPT Go اوپن اے آئی کا کم قیمت paid plan ہے جو Free plan کے مقابلے میں زیادہ messages، file uploads، image generation اور memory access دیتا ہے۔
+
+### ChatGPT Go کی قیمت کتنی ہے؟
+
+OpenAI کی pricing page کے مطابق ChatGPT Go کی قیمت 8 امریکی ڈالر ماہانہ ہے۔ taxes، app store charges اور مقامی payment method کے باعث اصل رقم مختلف ہو سکتی ہے۔
+
+### ChatGPT Go اور ChatGPT Plus میں کیا فرق ہے؟
+
+ChatGPT Go کم قیمت plan ہے جو Free سے زیادہ limits دیتا ہے۔ Plus زیادہ usage، advanced features اور heavy workflows کے لیے بنایا گیا ہے۔
+
+### کیا ChatGPT Go پاکستان میں لینا چاہیے؟
+
+اگر آپ Free plan کی limits روزانہ hit کرتے ہیں اور ChatGPT سے لکھائی، فائل خلاصہ، image generation یا study help لیتے ہیں تو Go useful ہو سکتا ہے۔ پہلے OpenAI pricing page پر availability اور payment options چیک کریں۔
+
+## اب آگے کیا پڑھیں؟
+
+- [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
+- [12 AI tools: کس کام کے لیے کون سا؟](/blog/12-best-ai-tools-that-make-work-faster-and-easier/)
+- [لارج لینگویج ماڈل کیا ہے؟](/learn/large-language-model/)
+- [جینریٹو AI کیا ہے؟](/learn/generative-ai/)
