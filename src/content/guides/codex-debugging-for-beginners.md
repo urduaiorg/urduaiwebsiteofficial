@@ -33,7 +33,7 @@ faq:
 
 1. مسئلہ دیکھنا
 2. اصل وجہ سمجھنا
-3. نکتہ: focused fix لگانا
+3. focused fix لگانا
 
 یعنی صرف fix نہیں، پہلے cause سمجھنا بھی ضروری ہے۔
 
@@ -42,7 +42,7 @@ faq:
 سب سے پہلے panic نہ کریں۔
 پھر یہ چیزیں کریں:
 
-- نکتہ: exact error note کریں
+- exact error note کریں
 - کیا expected تھا وہ بھی لکھیں
 - کون سی screen یا file پر issue ہے وہ identify کریں
 
@@ -61,9 +61,9 @@ faq:
 کیونکہ Codex:
 
 - خرابی text پڑھ سکتا ہے
-- نکتہ: related file identify کر سکتا ہے
-- نکتہ: common pattern پہچان سکتا ہے
-- نکتہ: focused fix دے سکتا ہے
+- related file identify کر سکتا ہے
+- common pattern پہچان سکتا ہے
+- focused fix دے سکتا ہے
 - بعد میں دوبارہ check بھی کر سکتا ہے
 
 یہ beginners کے لیے بہت مددگار ہے کیونکہ انہیں ہر error manually interpret نہیں کرنی پڑتی۔
@@ -79,7 +79,7 @@ faq:
 نوٹ: page بن گیا لیکن:
 
 - متن overlap کر رہا ہے
-- نکتہ: button نیچے چلا گیا
+- button نیچے چلا گیا
 - موبائل view ٹوٹ گئی
 
 یہ بھی debugging ہے۔
@@ -122,7 +122,7 @@ faq:
 
 دیکھیں:
 
-- نکتہ: issue واقعی حل ہوا؟
+- issue واقعی حل ہوا؟
 - کچھ اور تو نہیں ٹوٹا؟
 
 ## موضوع: good debugging prompt examples
@@ -184,9 +184,9 @@ faq:
 اپنی current app یا page میں کسی ایک چھوٹے issue کو identify کریں:
 
 - لے آؤٹ
-- نکتہ: button
-- نکتہ: wording
-- نکتہ: build
+- button
+- wording
+- build
 
 پھر اوپر والا prompt استعمال کریں۔
 

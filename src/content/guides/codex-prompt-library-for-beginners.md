@@ -35,7 +35,7 @@ faq:
 
 ہر prompt کو تین حصوں میں دیکھیں:
 
-- نکتہ: base prompt
+- base prompt
 - کب useful ہے
 - کس چیز کو اپنے مطابق بدلنا ہے
 
@@ -55,9 +55,9 @@ faq:
 
 استعمال کی جگہ:
 
-- نکتہ: class handout چاہیے
-- نکتہ: workshop note چاہیے
-- نکتہ: one-page explainery content چاہیے
+- class handout چاہیے
+- workshop note چاہیے
+- one-page explainery content چاہیے
 
 ### موضوع: professional note prompt
 
@@ -75,7 +75,7 @@ faq:
 
 استعمال کی جگہ:
 
-- نکتہ: class لینی ہو
+- class لینی ہو
 - ٹریننگ دینی ہو
 - یوٹیوب lesson کو slides میں بدلنا ہو
 
@@ -197,7 +197,7 @@ faq:
 2. ٹریننگ presentation prompt
 3. سادہ landing page prompt
 4. سادہ ایپ prompt
-5. نکتہ: general debugging prompt
+5. general debugging prompt
 
 یہ پانچ prompts beginner learner کو Codex کی اصل طاقت دکھا دیتے ہیں۔
 
@@ -219,9 +219,9 @@ faq:
 
 - دستاویز prompts
 - سلائیڈز prompts
-- نکتہ: page prompts
+- page prompts
 - ایپ prompts
-- نکتہ: fix prompts
+- fix prompts
 
 جوں جوں آپ Codex use کریں گے، آپ کی personal library بہتر ہوتی جائے گی۔
 

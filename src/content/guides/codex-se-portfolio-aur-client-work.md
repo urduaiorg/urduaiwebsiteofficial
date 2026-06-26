@@ -76,8 +76,8 @@ faq:
 آپ کو expert programmer ہونے کی ضرورت نہیں، لیکن یہ skills ضروری ہیں:
 
 - مسئلہ سمجھنا
-- نکتہ: clear brief بنانا
-- نکتہ: good prompt دینا
+- clear brief بنانا
+- good prompt دینا
 - نتیجہ review کرنا
 - آخری polish کرنا
 
@@ -93,7 +93,7 @@ faq:
 
 - اردو اے آئی workshop landing page
 - اسکول registration page
-- نکتہ: parent info portal
+- parent info portal
 
 ### موضوع: 2. short explanation
 
@@ -115,16 +115,16 @@ faq:
 
 مثلاً:
 
-- نکتہ: one landing page
-- نکتہ: one simple app
-- نکتہ: one document/slide sample
+- one landing page
+- one simple app
+- one document/slide sample
 
 ### مرحلہ 2: ہر project کو polish کریں
 
 - متن clear
 - موبائل-friendly
-- نکتہ: working CTA
-- نکتہ: no obvious bugs
+- working CTA
+- no obvious bugs
 
 ### مرحلہ 3: GitHub پر ڈالیں
 
@@ -145,9 +145,9 @@ faq:
 شروع میں بڑے marketplaces کے بجائے یہ جگہیں زیادہ آسان ہوتی ہیں:
 
 - لوکل business circle
-- نکتہ: schools
-- نکتہ: trainers
-- نکتہ: community groups
+- schools
+- trainers
+- community groups
 - واٹس ایپ contacts
 - فیس بک groups
 
@@ -170,8 +170,8 @@ faq:
 کوڈیکس سے آپ:
 
 - کلائنٹ brief کو structure کر سکتے ہیں
-- نکتہ: demo page جلدی بنا سکتے ہیں
-- نکتہ: revisions handle کر سکتے ہیں
+- demo page جلدی بنا سکتے ہیں
+- revisions handle کر سکتے ہیں
 - سلائیڈز اور proposal ساتھ دے سکتے ہیں
 - ریڈ می یا handover note لکھ سکتے ہیں
 
@@ -226,7 +226,7 @@ faq:
 
 - کوڈیکس کو basic level پر سمجھتے ہیں
 - اس کے اہم features جانتے ہیں
-- نکتہ: prompts بہتر لکھ سکتے ہیں
+- prompts بہتر لکھ سکتے ہیں
 - دستاویزات اور slides بنوا سکتے ہیں
 - سادہ web page اور app بنا سکتے ہیں
 - گٹ ہب اور Cloudflare استعمال کر سکتے ہیں

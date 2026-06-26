@@ -47,19 +47,19 @@ faq:
 
 بہترین examples:
 
-- نکتہ: workshop registration page
+- workshop registration page
 - اسکول parent information page
 - سادہ todo app
 - طالب علم contact directory
-- نکتہ: quote calculator
-- نکتہ: small service landing page
+- quote calculator
+- small service landing page
 
 غلط choice:
 
 - مکمل marketplace
-- نکتہ: advanced SaaS
-- نکتہ: multi-role dashboard
-- نکتہ: complex login system with many screens
+- advanced SaaS
+- multi-role dashboard
+- complex login system with many screens
 
 ## موضوع: challenge کے لیے ایک ready idea
 
@@ -70,9 +70,9 @@ faq:
 اس میں شامل ہو:
 
 - ایک clear heading
-- نکتہ: short intro
-- نکتہ: 4 benefits
-- نکتہ: instructor section
+- short intro
+- 4 benefits
+- instructor section
 - واٹس ایپ یا registration CTA
 
 یہ beginner-friendly بھی ہے اور practical بھی۔
@@ -105,8 +105,8 @@ faq:
 پہلے یہ check کریں:
 
 - پروجیکٹ بن گیا؟
-- نکتہ: structure سمجھ آ رہا ہے؟
-- نکتہ: sections موجود ہیں؟
+- structure سمجھ آ رہا ہے؟
+- sections موجود ہیں؟
 
 پہلا version صرف foundation ہے۔
 
@@ -115,8 +115,8 @@ faq:
 کوڈیکس کو follow-up دیں:
 
 - اردو زیادہ natural کرو
-- نکتہ: heading کو strong کرو
-- نکتہ: spacing بہتر کرو
+- heading کو strong کرو
+- spacing بہتر کرو
 - کال ٹو ایکشن زیادہ واضح کرو
 - موبائل layout بہتر کرو
 
@@ -135,8 +135,8 @@ faq:
 
 اب project save کریں:
 
-- نکتہ: repository بنائیں
-- نکتہ: clear commit کریں
+- repository بنائیں
+- clear commit کریں
 - گٹ ہب link تیار کریں
 
 ضرورت ہو تو پہلے یہ guide دیکھیں:
@@ -146,10 +146,10 @@ faq:
 
 اب project public link میں بدلیں:
 
-- نکتہ: repository connect کریں
-- نکتہ: build command confirm کریں
+- repository connect کریں
+- build command confirm کریں
 - نتیجہ folder confirm کریں
-- نکتہ: deploy کریں
+- deploy کریں
 
 ضرورت ہو تو یہ guide دیکھیں:
 [کلاوڈ فلیئر live guide](/guides/codex-se-cloudflare-par-live-website/)
@@ -223,7 +223,7 @@ faq:
 نوٹ: challenge مکمل ہو جائے تو اس same pattern پر دوسرا project بنائیں۔
 مثلاً:
 
-- نکتہ: registration page
+- registration page
 - سادہ tool
 - دستاویز plus landing page combo
 

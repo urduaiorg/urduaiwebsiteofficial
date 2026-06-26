@@ -32,14 +32,14 @@ faq:
 کوڈیکس سے آپ یہ چیزیں آسانی سے بنوا سکتے ہیں:
 
 - ٹریننگ outline
-- نکتہ: lesson plan
+- lesson plan
 - رپورٹ
 - پروپوزل
 - کاروباری note
-- نکتہ: event handout
-- نکتہ: one-page summary
-- نکتہ: checklist
-- نکتہ: FAQ sheet
+- event handout
+- one-page summary
+- checklist
+- FAQ sheet
 
 اور اگر آپ کہیں تو یہی چیز Urdu یا English دونوں میں بن سکتی ہے۔
 
@@ -80,10 +80,10 @@ faq:
 
 کوڈیکس عام طور پر:
 
-- نکتہ: heading دے گا
-- نکتہ: structured sections دے گا
-- نکتہ: bullet points دے گا
-- نکتہ: readable flow دے گا
+- heading دے گا
+- structured sections دے گا
+- bullet points دے گا
+- readable flow دے گا
 
 اگر آپ مطمئن نہ ہوں تو follow-up دیں:
 
@@ -101,7 +101,7 @@ faq:
 یہ Codex کو واضح direction دیتا ہے کہ:
 
 - سلائیڈ-heavy format چاہیے
-- نکتہ: verbose paragraph نہیں چاہیے
+- verbose paragraph نہیں چاہیے
 - سامعین beginner ہے
 
 ## کوڈیکس سے بنوائے گئے document کو فوراً final نہ سمجھیں
@@ -110,9 +110,9 @@ faq:
 
 - سامعین واقعی یہی ہے؟
 - لہجہ بہت مشکل تو نہیں؟
-- نکتہ: facts درست ہیں؟
+- facts درست ہیں؟
 - بہت لمبا تو نہیں؟
-- نکتہ: repetition تو نہیں؟
+- repetition تو نہیں؟
 
 یعنی Codex speed دیتا ہے، final editorial فیصلہ اب بھی آپ کا ہے۔
 
@@ -130,7 +130,7 @@ faq:
 مثلاً اگر آپ master class چلا رہے ہیں تو ایک ہی topic سے Codex سے یہ سب نکال سکتے ہیں:
 
 - مکمل article
-- نکتہ: class notes
+- class notes
 - سلائیڈ outline
 - واٹس ایپ summary
 - یوٹیوب description
@@ -179,11 +179,11 @@ faq:
 ## کوڈیکس slides کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
 
 - سلائیڈ sequence بنانا
-- نکتہ: session timing کے مطابق تقسیم
-- نکتہ: titles کو short کرنا
-- نکتہ: key points کو bullets میں بدلنا
-- نکتہ: presenter notes تیار کرنا
-- نکتہ: recap اور homework sections بنانا
+- session timing کے مطابق تقسیم
+- titles کو short کرنا
+- key points کو bullets میں بدلنا
+- presenter notes تیار کرنا
+- recap اور homework sections بنانا
 
 اگر آپ trainer یا instructor ہیں تو یہ بہت بڑی saving ہے۔
 
@@ -226,7 +226,7 @@ faq:
 - اپنا workshop handout
 - اپنی پہلی presentation
 - یوٹیوب video outline
-- نکتہ: parent session notes
+- parent session notes
 - ٹریننگ FAQ
 
 ## اگلی گائیڈ میں

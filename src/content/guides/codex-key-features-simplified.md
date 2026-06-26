@@ -34,8 +34,8 @@ faq:
 مثلاً اگر Codex کے پاس presentation بنانے کی skill ہو تو اسے پہلے سے پتا ہوتا ہے کہ:
 
 - سلائیڈ structure کیسے بنانا ہے
-- نکتہ: headings کیسے لکھنی ہیں
-- نکتہ: editable deck کیسے تیار کرنا ہے
+- headings کیسے لکھنی ہیں
+- editable deck کیسے تیار کرنا ہے
 - آخری output کیسے verify کرنا ہے
 
 یعنی skill، Codex کو smarter workflow دیتی ہے۔
@@ -71,9 +71,9 @@ faq:
 
 یہی وہ جگہ ہے جہاں Codex:
 
-- نکتہ: file پڑھتا ہے
-- نکتہ: file بناتا ہے
-- نکتہ: file edit کرتا ہے
+- file پڑھتا ہے
+- file بناتا ہے
+- file edit کرتا ہے
 - پروجیکٹ run کرتا ہے
 
 اسے اپنے "کام کے کمرے" کی طرح سمجھیں۔
@@ -117,9 +117,9 @@ faq:
 
 کچھ کام ایسے ہوتے ہیں جو Codex ہر بار خود نہیں کر سکتا، خاص طور پر sensitive کام:
 
-- نکتہ: risky command
-- نکتہ: major delete
-- نکتہ: external system action
+- risky command
+- major delete
+- external system action
 
 ایسے cases میں approval درکار ہو سکتی ہے۔ یعنی پہلے user کی اجازت۔
 
@@ -141,8 +141,8 @@ faq:
 
 مثلاً:
 
-- نکتہ: file edit سے پہلے check
-- نکتہ: command کے بعد validation
+- file edit سے پہلے check
+- command کے بعد validation
 
 عام user کو hooks بنانا ضروری نہیں، لیکن advanced teams یہ استعمال کرتی ہیں۔
 
@@ -161,9 +161,9 @@ faq:
 
 اگر آپ website یا app بنا رہے ہیں تو browser preview بہت اہم ہے۔ Codex اس preview کو کھول کر check کر سکتا ہے:
 
-- نکتہ: page کھل رہا ہے یا نہیں
+- page کھل رہا ہے یا نہیں
 - لے آؤٹ ٹوٹ تو نہیں رہا
-- نکتہ: button کام کر رہا ہے یا نہیں
+- button کام کر رہا ہے یا نہیں
 
 یہ beginners کے لیے بہت helpful ہے کیونکہ صرف code دیکھنے سے مسئلہ ہمیشہ clear نہیں ہوتا۔
 
@@ -172,7 +172,7 @@ faq:
 جائزہ کا مطلب ہے Codex changes کو check کرے:
 
 - بگ تو نہیں؟
-- نکتہ: risk تو نہیں؟
+- risk تو نہیں؟
 - کچھ ٹوٹ تو نہیں گیا؟
 
 یعنی صرف بنانا نہیں، verify بھی کرنا۔

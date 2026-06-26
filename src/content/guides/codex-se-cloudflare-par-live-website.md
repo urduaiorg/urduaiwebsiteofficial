@@ -56,8 +56,8 @@ faq:
 کیونکہ آپ کو:
 
 - اپنا server خود نہیں چلانا
-- نکتہ: hosting setup manually نہیں کرنا
-- نکتہ: complicated deployment process نہیں سیکھنا
+- hosting setup manually نہیں کرنا
+- complicated deployment process نہیں سیکھنا
 
 بس repository connect کریں، settings دیں، اور deploy کر دیں۔
 
@@ -130,10 +130,10 @@ faq:
 
 کوڈیکس سے آپ یہ سب کرا سکتے ہیں:
 
-- نکتہ: build command identify
+- build command identify
 - نتیجہ folder identify
-- نکتہ: deployment checklist
-- نکتہ: post-deploy fixes
+- deployment checklist
+- post-deploy fixes
 - لائیو update workflow explanation
 
 مثلاً:
@@ -152,7 +152,7 @@ faq:
 - اردو text صحیح آ رہا ہے؟
 - موبائل پر layout ٹھیک ہے؟
 - بٹنز کام کر رہے ہیں؟
-- نکتہ: latest version ہی live ہے؟
+- latest version ہی live ہے؟
 
 یعنی deploy complete ہونے کا مطلب یہ نہیں کہ result perfect بھی ہے۔ final check ضروری ہے۔
 
@@ -196,7 +196,7 @@ faq:
 
 - خیال سے project
 - پروجیکٹ سے repo
-- نکتہ: repo سے public product
+- repo سے public product
 
 بن جاتا ہے۔
 
