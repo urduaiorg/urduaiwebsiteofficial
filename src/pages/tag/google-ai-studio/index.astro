@@ -1,0 +1,461 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+export const prerender = true;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const title = 'Google AI Studio Urdu: API key، Build Mode، app guide';
+const description = 'Google AI Studio Urdu hub: Gemini API key، Build Mode، free tier limits، app prototype، Android app، prompts اور beginner guides ایک جگہ۔';
+const canonical = 'https://urduai.org/tag/google-ai-studio/';
+
+const featuredGuides = [
+  {
+    title: 'Google AI Studio Urdu: free tier، API اور app build',
+    href: '/blog/google-ai-studio-kia-hai/',
+    text: 'AI Studio کیا ہے، Gemini API key کیسے ملتی ہے، Build Mode کب استعمال کریں، اور پاکستان میں beginners کہاں سے شروع کریں۔',
+  },
+  {
+    title: 'گوگل اے آئی اسٹوڈیو میں ایک prompt سے Android app',
+    href: '/blog/google-ai-studio-android-app-builder/',
+    text: 'Google I/O 2026 کے Android app builder feature کی Urdu explanation، practical limits اور simple app ideas۔',
+  },
+  {
+    title: 'Gemini کیا ہے؟ Google AI assistant کا آسان اردو مطلب',
+    href: '/learn/google-gemini/',
+    text: 'Gemini اور Google AI Studio کا فرق سمجھیں تاکہ chat assistant اور builder workspace کو الگ پہچان سکیں۔',
+  },
+  {
+    title: 'Gemini اردو میں کیسے استعمال کریں؟',
+    href: '/how-to/how-to-use-gemini-in-urdu/',
+    text: 'اگر آپ ابھی app یا API نہیں بنانا چاہتے تو پہلے Gemini میں اردو prompts، study اور writing workflow آزمائیں۔',
+  },
+  {
+    title: 'AI سے web apps بنانے کی گائیڈ',
+    href: '/how-to/how-to-build-web-apps-with-ai-free/',
+    text: 'چھوٹے web app ideas کو AI کے ساتھ step-by-step prototype میں بدلنے کا beginner راستہ۔',
+  },
+  {
+    title: 'Vibe coding کیا ہے؟',
+    href: '/guides/vibe-coding-kya-hai/',
+    text: 'AI سے app، website یا code بنوانے سے پہلے prompt، testing، debugging اور human review کی بنیاد سمجھیں۔',
+  },
+];
+
+const useCases = [
+  'استاد: quiz app، lesson helper یا worksheet generator کا prototype',
+  'طالب علم: study notes، flashcards یا Urdu explanation tool',
+  'فری لانسر: client demo، landing page idea یا small automation mockup',
+  'چھوٹا کاروبار: WhatsApp reply helper، product description tool یا order tracker',
+  'developer: Gemini API key، model testing، structured output اور code export',
+];
+
+const quickSteps = [
+  'aistudio.google.com کھولیں اور Google account سے sign in کریں۔',
+  'پہلے chat prompt یا prompt testing سے شروع کریں؛ فوراً production app نہ بنائیں۔',
+  'اگر app idea ہے تو Build Mode میں user، screens، data اور output صاف لکھیں۔',
+  'API key بنائیں تو اسے public GitHub، frontend JavaScript یا screenshot میں نہ ڈالیں۔',
+  'free tier، pricing، limits اور billing کو official Google pages پر دوبارہ check کریں۔',
+];
+
+const faq = [
+  {
+    question: 'Google AI Studio کیا ہے؟',
+    answer: 'Google AI Studio گوگل کا builder workspace ہے جہاں آپ Gemini models test کر سکتے ہیں، prompts بنا سکتے ہیں، Gemini API key لے سکتے ہیں، اور Build Mode میں web یا Android app prototype شروع کر سکتے ہیں۔',
+  },
+  {
+    question: 'Google AI Studio اور Gemini میں کیا فرق ہے؟',
+    answer: 'Gemini عام users کے لیے chat-style AI assistant ہے، جبکہ Google AI Studio developers، creators اور learners کے لیے prompt testing، API key، model settings اور app prototype workspace ہے۔',
+  },
+  {
+    question: 'کیا Google AI Studio free ہے؟',
+    answer: 'Google AI Studio میں start کرنے کے لیے free access اور Gemini API key options موجود ہو سکتے ہیں، مگر limits، pricing، supported models اور regional access بدل سکتے ہیں۔ اہم کام سے پہلے official pricing ضرور چیک کریں۔',
+  },
+  {
+    question: 'Google AI Studio سے API key کیسے ملتی ہے؟',
+    answer: 'AI Studio میں Google account سے sign in کریں، API key section کھولیں، project منتخب کریں اور key بنائیں۔ key کو secret سمجھیں؛ public code، shared document یا browser-only app میں paste نہ کریں۔',
+  },
+  {
+    question: 'Google AI Studio Build Mode کیا کرتا ہے؟',
+    answer: 'Build Mode natural language prompt سے web app، full-stack runtime یا native Android prototype شروع کرنے میں مدد دیتا ہے۔ final app publish کرنے سے پہلے security، data، cost اور testing خود check کریں۔',
+  },
+  {
+    question: 'کیا beginners Google AI Studio استعمال کر سکتے ہیں؟',
+    answer: 'جی ہاں، beginners prompt testing اور small prototypes سے شروع کر سکتے ہیں۔ لیکن API keys، billing، user data اور production deployment کے لیے احتیاط اور basic technical review ضروری ہے۔',
+  },
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: title,
+    description,
+    url: canonical,
+    inLanguage: 'ur',
+    about: {
+      '@type': 'SoftwareApplication',
+      name: 'Google AI Studio',
+      applicationCategory: 'DeveloperApplication',
+      operatingSystem: 'Web',
+      url: 'https://aistudio.google.com/',
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      name: 'Google AI Studio Urdu learning path',
+      itemListElement: featuredGuides.map((guide, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: guide.title,
+        url: `https://urduai.org${guide.href}`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'ہوم', item: 'https://urduai.org/' },
+      { '@type': 'ListItem', position: 2, name: 'Google AI Studio', item: canonical },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  },
+];
+---
+
+<Base
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage="/images/blog/google-ai-studio-kia-hai.jpg"
+  adsense={true}
+  schema={schema}
+>
+  <section class="studio-hero">
+    <div class="container">
+      <nav aria-label="بریڈکرمب">
+        <ol class="breadcrumb breadcrumb--light">
+          <li><a href={`${base}/`}>ہوم</a></li>
+          <li aria-current="page">Google AI Studio</li>
+        </ol>
+      </nav>
+      <div class="studio-hero__grid">
+        <div>
+          <p class="studio-kicker">Google AI Studio Urdu Hub</p>
+          <h1>Google AI Studio Urdu: API key، Build Mode، app guide</h1>
+          <p class="studio-hero__lead">
+            Google AI Studio Urdu hub کا مقصد beginners کو ایک صاف راستہ دینا ہے: پہلے Gemini اور AI Studio کا فرق سمجھیں، پھر prompt testing کریں، Gemini API key کو محفوظ رکھنا سیکھیں، اور آخر میں Build Mode سے web یا Android app prototype آزمائیں۔
+          </p>
+          <div class="studio-actions">
+            <a class="studio-btn studio-btn--primary" href="/blog/google-ai-studio-kia-hai/">مرکزی گائیڈ پڑھیں</a>
+            <a class="studio-btn" href="https://aistudio.google.com/" rel="noopener" target="_blank">Google AI Studio کھولیں</a>
+          </div>
+        </div>
+        <img src="/images/blog/google-ai-studio-kia-hai.jpg" alt="Google AI Studio Urdu guide" loading="eager" width="640" height="360" />
+      </div>
+    </div>
+  </section>
+
+  <section class="studio-band">
+    <div class="container studio-summary">
+      <h2>فوری جواب: Google AI Studio کس کے لیے ہے؟</h2>
+      <p>
+        Google AI Studio عام chat app نہیں؛ یہ Gemini models کو test کرنے، prompts بہتر بنانے، API key لینے، model settings دیکھنے اور app prototype بنانے کا workspace ہے۔ اگر آپ کو صرف روزمرہ سوالات، خلاصہ یا writing چاہیے تو پہلے Gemini استعمال کریں۔ اگر آپ app، API، prototype یا developer workflow دیکھ رہے ہیں تو Google AI Studio کھولیں۔
+      </p>
+      <div class="studio-facts">
+        <div><strong>شروع کہاں سے؟</strong><span>Google account + aistudio.google.com</span></div>
+        <div><strong>اہم skill</strong><span>صاف prompt، data privacy، API key safety</span></div>
+        <div><strong>بہتر device</strong><span>prompt mobile پر، Build/API laptop پر بہتر</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container studio-layout">
+    <main class="studio-main">
+      <section class="studio-section" aria-labelledby="guides-title">
+        <h2 id="guides-title">Google AI Studio guides اردو میں</h2>
+        <div class="studio-guide-grid">
+          {featuredGuides.map(guide => (
+            <a class="studio-guide" href={guide.href}>
+              <strong>{guide.title}</strong>
+              <span>{guide.text}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="studio-section" aria-labelledby="steps-title">
+        <h2 id="steps-title">شروع کرنے کا محفوظ راستہ</h2>
+        <ol class="studio-steps">
+          {quickSteps.map(step => <li>{step}</li>)}
+        </ol>
+        <p>
+          Google کی official documentation کے مطابق AI Studio prompt testing کے بعد Get code کے ذریعے Gemini API تک جانے کا راستہ دیتا ہے، اور Build Mode میں natural language prompting سے web اور Android prototypes شروع کیے جا سکتے ہیں۔ یہ powerful ہے، مگر production app سے پہلے human review ضروری ہے۔
+        </p>
+      </section>
+
+      <section class="studio-section" aria-labelledby="use-cases-title">
+        <h2 id="use-cases-title">پاکستانی users کے لیے practical ideas</h2>
+        <ul class="studio-list">
+          {useCases.map(item => <li>{item}</li>)}
+        </ul>
+      </section>
+
+      <section class="studio-section" aria-labelledby="prompt-title">
+        <h2 id="prompt-title">یہ prompt copy کریں</h2>
+        <pre dir="ltr"><code>میں Google AI Studio میں ایک چھوٹا prototype بنانا چاہتا ہوں۔
+
+Idea: [اپنا idea لکھیں]
+User: [طالب علم / استاد / دکاندار / freelancer]
+Screens: [home, input, result]
+Data: کوئی personal data محفوظ نہ ہو
+Language: Urdu UI, simple labels
+
+مجھے پہلے app plan، پھر Build Mode کے لیے بہتر prompt دیں۔</code></pre>
+      </section>
+
+      <section class="studio-section" aria-labelledby="faq-title">
+        <h2 id="faq-title">اکثر پوچھے گئے سوالات</h2>
+        <div class="studio-faq">
+          {faq.map(item => (
+            <details>
+              <summary>{item.question}</summary>
+              <p>{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    </main>
+
+    <aside class="studio-aside" aria-label="Google AI Studio resources">
+      <div class="studio-panel">
+        <h2>Official links</h2>
+        <a href="https://aistudio.google.com/" rel="noopener" target="_blank">Google AI Studio</a>
+        <a href="https://ai.google.dev/gemini-api/docs/ai-studio-quickstart" rel="noopener" target="_blank">AI Studio quickstart</a>
+        <a href="https://ai.google.dev/gemini-api/docs/aistudio-build-mode" rel="noopener" target="_blank">Build Mode docs</a>
+        <a href="https://ai.google.dev/gemini-api/docs/pricing" rel="noopener" target="_blank">Gemini API pricing</a>
+        <a href="https://ai.google.dev/gemini-api/docs/api-key" rel="noopener" target="_blank">API key safety</a>
+      </div>
+
+      <div class="studio-panel">
+        <h2>کب AI Studio نہ کھولیں؟</h2>
+        <p>
+          اگر آپ کو صرف مضمون، email، summary یا عام سوال کا جواب چاہیے تو پہلے Gemini، ChatGPT یا Claude کافی ہو سکتے ہیں۔ AI Studio تب بہتر ہے جب آپ app idea، API، model settings یا prototype پر کام کر رہے ہوں۔
+        </p>
+      </div>
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .studio-hero {
+    background: #184f47;
+    color: var(--paper-card);
+    padding-block: var(--space-xl);
+  }
+
+  .studio-hero__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+    gap: var(--space-lg);
+    align-items: center;
+  }
+
+  .studio-hero h1 {
+    margin-block: var(--space-sm);
+    color: var(--paper-card);
+    max-width: 760px;
+  }
+
+  .studio-hero__lead {
+    max-width: 820px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.08rem;
+  }
+
+  .studio-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 16px 45px rgba(0, 0, 0, 0.25);
+  }
+
+  .studio-kicker {
+    color: var(--gold-light);
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .studio-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-block-start: var(--space-md);
+  }
+
+  .studio-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.35rem 1rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    color: var(--paper-card);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .studio-btn--primary {
+    background: var(--gold-light);
+    border-color: var(--gold-light);
+    color: var(--ink);
+  }
+
+  .studio-band {
+    background: var(--paper-warm);
+    border-block-end: 1px solid var(--border);
+  }
+
+  .studio-summary {
+    padding-block: var(--space-lg);
+  }
+
+  .studio-summary h2,
+  .studio-section h2,
+  .studio-panel h2 {
+    margin-block-start: 0;
+  }
+
+  .studio-facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-sm);
+    margin-block-start: var(--space-md);
+  }
+
+  .studio-facts div,
+  .studio-guide,
+  .studio-panel,
+  .studio-faq details {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .studio-facts div {
+    padding: var(--space-sm);
+  }
+
+  .studio-facts strong,
+  .studio-facts span,
+  .studio-guide strong,
+  .studio-guide span {
+    display: block;
+  }
+
+  .studio-facts span,
+  .studio-guide span {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+  }
+
+  .studio-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: var(--space-lg);
+    padding-block: var(--space-xl);
+  }
+
+  .studio-section + .studio-section {
+    margin-block-start: var(--space-xl);
+  }
+
+  .studio-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-sm);
+  }
+
+  .studio-guide {
+    padding: var(--space-sm);
+    text-decoration: none;
+    color: var(--ink);
+  }
+
+  .studio-guide:hover {
+    border-color: var(--teal);
+  }
+
+  .studio-steps,
+  .studio-list {
+    padding-inline-start: 1.4rem;
+  }
+
+  .studio-steps li,
+  .studio-list li {
+    margin-block: 0.45rem;
+  }
+
+  .studio-section pre {
+    direction: ltr;
+    text-align: left;
+    white-space: pre-wrap;
+    background: #1f2933;
+    color: #f8fafc;
+    border-radius: 8px;
+    padding: var(--space-md);
+    overflow-x: auto;
+  }
+
+  .studio-faq {
+    display: grid;
+    gap: var(--space-sm);
+  }
+
+  .studio-faq details {
+    padding: var(--space-sm);
+  }
+
+  .studio-faq summary {
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .studio-aside {
+    display: grid;
+    align-content: start;
+    gap: var(--space-md);
+  }
+
+  .studio-panel {
+    padding: var(--space-md);
+  }
+
+  .studio-panel a {
+    display: block;
+    padding-block: 0.35rem;
+  }
+
+  @media (max-width: 900px) {
+    .studio-hero__grid,
+    .studio-layout,
+    .studio-guide-grid,
+    .studio-facts {
+      grid-template-columns: 1fr;
+    }
+
+    .studio-hero {
+      padding-block: var(--space-lg);
+    }
+  }
+</style>
