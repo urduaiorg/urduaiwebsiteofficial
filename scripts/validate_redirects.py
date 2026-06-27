@@ -16,6 +16,9 @@ EXPECTED_STATIC_SNIPPETS = [
     "RewriteCond %{HTTP_HOST} ^www\\.urduai\\.org$ [NC]",
     "RewriteCond %{QUERY_STRING} (^|&)p= [NC,OR]",
     "RedirectMatch 301 ^/category/blog/.*$ /blog/",
+    "RedirectMatch 301 ^/tag/google-ai-studio/?$ /blog/google-ai-studio-kia-hai/",
+    "RedirectMatch 301 ^/tag/gemini-ai/?$ /learn/google-gemini/",
+    "RedirectMatch 301 ^/tag/google-gemini/?$ /learn/google-gemini/",
     "RedirectMatch 301 ^/tag/.*$ /blog/",
     "RedirectMatch 301 ^/wp-content/uploads/(.*)$ /images/$1",
     "RedirectMatch 301 ^/urduai-chatgpt/?$ /chat/",
@@ -30,7 +33,9 @@ EXPECTED_STATIC_SNIPPETS = [
 
 EXPECTED_LIVE_REDIRECTS = [
     ("https://www.urduai.org/", "https://urduai.org/"),
-    ("/tag/google-ai-studio/", "/blog/"),
+    ("/tag/google-ai-studio/", "/blog/google-ai-studio-kia-hai/"),
+    ("/tag/gemini-ai/", "/learn/google-gemini/"),
+    ("/tag/google-gemini/", "/learn/google-gemini/"),
     ("/category/blog/openai/", "/blog/"),
     ("/wp-content/uploads/2025/01/example.jpg", "/images/2025/01/example.jpg"),
     ("/wp-admin", "/"),
@@ -72,6 +77,10 @@ def assert_static_files() -> list[str]:
         failures.append("Missing _redirects www canonical rule")
     if "/tag/* /blog/ 301" not in redirects:
         failures.append("Missing _redirects tag archive rule")
+    if "/tag/google-ai-studio/ /blog/google-ai-studio-kia-hai/ 301" not in redirects:
+        failures.append("Missing _redirects Google AI Studio tag rule")
+    if "/tag/gemini-ai/ /learn/google-gemini/ 301" not in redirects:
+        failures.append("Missing _redirects Gemini AI tag rule")
     if "/?p=*                    /                      301" not in redirects:
         failures.append("Missing _redirects WordPress ?p rule")
 

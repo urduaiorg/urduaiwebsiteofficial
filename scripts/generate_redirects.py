@@ -50,6 +50,9 @@ RedirectMatch 301 ^/category/guides/.*$ /guides/
 RedirectMatch 301 ^/category/how-to/.*$ /how-to/
 RedirectMatch 301 ^/category/prompts/.*$ /prompts/
 RedirectMatch 301 ^/category/learn/.*$ /learn/
+RedirectMatch 301 ^/tag/google-ai-studio/?$ /blog/google-ai-studio-kia-hai/
+RedirectMatch 301 ^/tag/gemini-ai/?$ /learn/google-gemini/
+RedirectMatch 301 ^/tag/google-gemini/?$ /learn/google-gemini/
 RedirectMatch 301 ^/tag/.*$ /blog/
 RedirectMatch 301 ^/wp-content/uploads/(.*)$ /images/$1
 RedirectMatch 301 ^/wp-admin/?$ /
@@ -167,6 +170,9 @@ def write_redirects() -> tuple[int, int]:
         *GENERIC_RULES,
         "",
         "# WordPress tag archives — redirect to blog",
+        "/tag/google-ai-studio/ /blog/google-ai-studio-kia-hai/ 301",
+        "/tag/gemini-ai/ /learn/google-gemini/ 301",
+        "/tag/google-gemini/ /learn/google-gemini/ 301",
         "/tag/* /blog/ 301",
         "",
         "# Legacy tool pages",
