@@ -14,6 +14,7 @@ const trendingTools = tools.filter(t => t.trending).length;
 const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const quickPaths = [
   { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/learn/artificial-intelligence/', text: 'AI کی بنیادی تعریف پہلے سمجھیں' },
+  { title: 'AI step-by-step سیکھنا ہے', href: '/guides/free-ai-course-urdu/', text: 'free AI course Urdu learning path' },
   { title: 'Free AI tools list چاہیے', href: '/blog/12-best-ai-tools-that-make-work-faster-and-easier/', text: 'beginners کے لیے 12 tools by work type' },
   { title: 'ChatGPT موبائل پر چلانا ہے', href: '/how-to/how-to-install-original-chatgpt-app/', text: 'آفیشل app download guide' },
   { title: 'CV یا نوکری کے لیے AI چاہیے', href: '/prompts/job-seekers/', text: 'CV، cover letter اور interview prompts' },
@@ -87,12 +88,27 @@ const toolsSchema = [
       {
         "@type": "Question",
         "name": "AI tools سیکھنے کا شروع کا راستہ کیا ہے؟",
-        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر ChatGPT یا Gemini میں ایک اردو prompt آزمائیں، اس کے بعد prompt engineering، CV prompts، student guides یا freelancer guides سے اپنے کام کے مطابق مشق کریں۔" },
+        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر free AI course Urdu guide سے ترتیب بنائیں، ChatGPT یا Gemini میں ایک اردو prompt آزمائیں، اور پھر prompt engineering یا کام کے حساب سے guide کھولیں۔" },
       },
       {
         "@type": "Question",
         "name": "Free AI tools استعمال کرتے وقت کیا check کرنا چاہیے؟",
         "acceptedAnswer": { "@type": "Answer", "text": "Free یا freemium tools میں limits، model access، image/video quota، privacy settings اور paid upgrade conditions بدل سکتی ہیں۔ اہم کام سے پہلے ہر tool کی آفیشل website پر current limits چیک کریں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "AI tools کو course کے ساتھ کیسے سیکھیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "سب tools ایک ساتھ نہ کھولیں۔ پہلے free AI course Urdu guide یا Masterclass lesson 1 سے بنیاد بنائیں، پھر tools directory سے اپنے کام کے لیے ایک tool چنیں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "ChatGPT، Gemini اور Claude میں beginner کے لیے کیا فرق ہے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "روزمرہ سوالات اور mobile learning کے لیے ChatGPT یا Gemini سے شروع کریں۔ لمبی writing، editing اور feedback کے لیے Claude بعد میں آزمائیں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "کیا AI tools mobile پر سیکھے جا سکتے ہیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں، beginner learning، prompts، summaries، CV drafts اور study help mobile browser یا app میں شروع ہو سکتے ہیں۔ coding، long files اور detailed editing کے لیے laptop زیادہ آرام دہ رہتا ہے۔" },
       },
     ],
   },
@@ -173,7 +189,7 @@ const toolsSchema = [
       <div class="tools-paths__intro">
         <h2 id="tools-paths-title">کس کام کے لیے کون سا راستہ چنیں؟</h2>
         <p>
-          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے اپنا مقصد چنیں: پڑھائی، CV، freelancing، business، prompt writing یا Google AI Studio۔ پھر اسی سے جڑا ہوا guide اور tool کھولیں۔
+          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے اپنا مقصد چنیں: پڑھائی، CV، freelancing، business، prompt writing یا Google AI Studio۔ اگر بنیاد کمزور ہے تو پہلے <a href={`${base}/guides/free-ai-course-urdu/`}>free AI course Urdu guide</a> یا <a href={`${base}/courses/masterclass/1/`}>Masterclass lesson 1</a> کھولیں، پھر اسی سے جڑا ہوا guide اور tool استعمال کریں۔
         </p>
       </div>
       <div class="tools-paths__links">
@@ -183,6 +199,33 @@ const toolsSchema = [
             <span>{path.text}</span>
           </a>
         ))}
+      </div>
+    </section>
+
+    <section class="tools-learning" aria-labelledby="tools-learning-title">
+      <div class="tools-learning__intro">
+        <h2 id="tools-learning-title">AI tools سیکھنے کی صحیح ترتیب کیا ہے؟</h2>
+        <p>
+          Tool بدلنے سے skill نہیں بنتی۔ پہلے ایک چھوٹا کام چنیں، پھر ایک tool میں prompt لکھیں، جواب کو verify کریں، اور آخر میں اپنے کام کے لیے اگلا guide کھولیں۔
+        </p>
+      </div>
+      <div class="tools-learning__grid">
+        <a href={`${base}/guides/free-ai-course-urdu/`} class="tools-learning__item">
+          <strong>1. بنیاد بنائیں</strong>
+          <span>AI course in Urdu free guide سے learning path، Masterclass اور certificate route سمجھیں۔</span>
+        </a>
+        <a href={`${base}/how-to/how-to-install-original-chatgpt-app/`} class="tools-learning__item">
+          <strong>2. پہلا assistant کھولیں</strong>
+          <span>ChatGPT app guide یا Gemini Urdu guide سے mobile پر پہلا Urdu prompt آزمائیں۔</span>
+        </a>
+        <a href={`${base}/learn/prompt-engineering/`} class="tools-learning__item">
+          <strong>3. prompt بہتر کریں</strong>
+          <span>Task، audience، tone اور format صاف لکھیں تاکہ جواب generic نہ رہے۔</span>
+        </a>
+        <a href={`${base}/blog/12-best-ai-tools-that-make-work-faster-and-easier/`} class="tools-learning__item">
+          <strong>4. کام کے حساب سے tool چنیں</strong>
+          <span>Study، CV، research، design، presentation، coding یا business کے لیے الگ route دیکھیں۔</span>
+        </a>
       </div>
     </section>
 
@@ -293,11 +336,23 @@ const toolsSchema = [
       </details>
       <details>
         <summary>AI tools سیکھنے کا شروع کا راستہ کیا ہے؟</summary>
-        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/how-to/how-to-install-original-chatgpt-app/">ChatGPT app guide</a> یا <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini اردو گائیڈ</a> سے پہلا prompt لکھیں۔ اس کے بعد <a href="/learn/prompt-engineering/">prompt engineering</a> سے سوال بہتر بنانا سیکھیں۔</p>
+        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/guides/free-ai-course-urdu/">free AI course Urdu guide</a> سے ترتیب بنائیں۔ اس کے بعد <a href="/how-to/how-to-install-original-chatgpt-app/">ChatGPT app guide</a> یا <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini اردو گائیڈ</a> سے پہلا prompt لکھیں، پھر <a href="/learn/prompt-engineering/">prompt engineering</a> پڑھیں۔</p>
       </details>
       <details>
         <summary>Free AI tools استعمال کرتے وقت کیا check کرنا چاہیے؟</summary>
         <p>Free یا freemium tools میں limits، model access، image/video quota، privacy settings اور paid upgrade conditions بدل سکتی ہیں۔ اہم کام سے پہلے ہر tool کی آفیشل website پر current limits چیک کریں۔</p>
+      </details>
+      <details>
+        <summary>AI tools کو course کے ساتھ کیسے سیکھیں؟</summary>
+        <p>سب tools ایک ساتھ نہ کھولیں۔ پہلے <a href="/guides/free-ai-course-urdu/">free AI course Urdu guide</a> یا <a href="/courses/masterclass/1/">Masterclass lesson 1</a> سے foundation بنائیں، پھر اس directory سے ایک tool چنیں اور اسی پر چھوٹی practice کریں۔</p>
+      </details>
+      <details>
+        <summary>ChatGPT، Gemini اور Claude میں beginner کے لیے کیا فرق ہے؟</summary>
+        <p>روزمرہ سوالات، mobile learning اور first prompt کے لیے <a href="/how-to/how-to-install-original-chatgpt-app/">ChatGPT</a> یا <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini</a> سے شروع کریں۔ لمبی writing، editing اور feedback کے لیے <a href="/learn/claude-ai/">Claude AI</a> بعد میں آزمائیں۔</p>
+      </details>
+      <details>
+        <summary>کیا AI tools mobile پر سیکھے جا سکتے ہیں؟</summary>
+        <p>جی ہاں، beginner learning، prompts، summaries، CV drafts اور study help mobile browser یا app میں شروع ہو سکتے ہیں۔ coding، long files اور detailed editing کے لیے laptop زیادہ آرام دہ رہتا ہے۔</p>
       </details>
     </section>
   </div>
@@ -499,6 +554,63 @@ const toolsSchema = [
     color: var(--ink-muted);
     font-size: var(--text-sm);
     margin-block-start: 0.2em;
+  }
+
+  .tools-learning {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: var(--space-lg);
+    background: var(--paper-warm);
+    margin-block-end: var(--space-lg);
+  }
+
+  .tools-learning__intro {
+    max-width: 760px;
+    margin-block-end: var(--space-md);
+  }
+
+  .tools-learning__intro h2 {
+    font-size: var(--text-h2);
+    line-height: var(--lh-heading);
+    margin-block-end: var(--space-xs);
+  }
+
+  .tools-learning__intro p {
+    color: var(--ink-soft);
+    line-height: var(--lh-prose);
+    margin: 0;
+  }
+
+  .tools-learning__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-sm);
+  }
+
+  .tools-learning__item {
+    display: block;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: var(--space-sm);
+    background: var(--paper-card);
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .tools-learning__item:hover {
+    border-color: var(--teal);
+  }
+
+  .tools-learning__item strong,
+  .tools-learning__item span {
+    display: block;
+  }
+
+  .tools-learning__item span {
+    color: var(--ink-soft);
+    font-size: var(--text-sm);
+    line-height: var(--lh-body);
+    margin-block-start: 0.25em;
   }
 
   /* ── Grid ── */

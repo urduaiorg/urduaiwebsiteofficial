@@ -43,7 +43,7 @@ OpenAI کے مطابق ChatGPT Go Free plan کے مقابلے میں popular fea
 
 اس کا مطلب یہ نہیں کہ Go plan ہر advanced کام کے لیے کافی ہے۔ اگر آپ بہت heavy research، coding، data analysis یا business workflows چلاتے ہیں تو Plus یا Pro plans زیادہ مناسب ہو سکتے ہیں۔ لیکن ایک طالب علم، teacher، freelancer یا small business owner کے لیے Go Free اور Plus کے درمیان practical درمیانی راستہ ہے۔
 
-اگر آپ ابھی ChatGPT کو بنیادی طور پر سمجھ رہے ہیں تو پہلے [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/)، [ChatGPT tool card](/tools/#tool-chatgpt) اور [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔ Plan خریدنے سے پہلے tool اور prompt دونوں کی basic سمجھ زیادہ فائدہ دیتی ہے۔
+اگر آپ ابھی ChatGPT کو بنیادی طور پر سمجھ رہے ہیں تو پہلے [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/)، [ChatGPT tool card](/tools/#tool-chatgpt) اور [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔ Plan خریدنے سے پہلے tool اور prompt دونوں کی basic سمجھ زیادہ فائدہ دیتی ہے۔
 
 ## Free plan، Go plan اور Plus میں فرق
 
@@ -167,7 +167,7 @@ OpenAI کے pricing page پر Go plan کے لیے لکھا ہے کہ یہ plan a
 
 ## اب آگے کیا پڑھیں؟
 
-- [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/)
+- [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
 - [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)

@@ -295,4 +295,4 @@ Gemini ایپ میں مائیک والے نشان (جیمنائی لائیو) پ
 
 ## اب آگے کیا سیکھیں؟
 
-اب جب آپ کے پاس اے آئی استاد تیار ہے — اگلا قدم: اپنے ٹول کو اچھی طرح سمجھیں۔ [ChatGPT مکمل اردو گائیڈ](/blog/chatgpt-complete-urdu-guide/) پڑھیں، اور طلبہ کے لیے [Gemini کی اردو گائیڈ](/guides/gemini-for-students-urdu/) بھی دیکھیں ←
+اب جب آپ کے پاس اے آئی استاد تیار ہے — اگلا قدم: اپنے ٹول کو اچھی طرح سمجھیں۔ [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) پڑھیں، اور طلبہ کے لیے [Gemini کی اردو گائیڈ](/guides/gemini-for-students-urdu/) بھی دیکھیں ←
