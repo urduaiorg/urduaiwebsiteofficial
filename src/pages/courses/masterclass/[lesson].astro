@@ -47,10 +47,10 @@ function toPlainText(text: string): string {
 
 const firstPara = toPlainText(lesson.description.split('\n\n').find(b => !b.trim().startsWith('##')) || '').slice(0, 160) || lesson.title;
 const pageTitle = lesson.number === 1
-  ? 'AI course Urdu: AI کیا ہے؟ پہلا سبق'
+  ? 'Free AI course Urdu: AI کیا ہے؟ پہلا سبق'
   : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
 const pageDescription = lesson.number === 1
-  ? 'AI course Urdu کے پہلے سبق میں AI کیا ہے، مصنوعی ذہانت کی تعریف، machine learning، everyday examples، Gemini/ChatGPT practice اور quiz سیکھیں۔'
+  ? 'Free AI course Urdu کا پہلا سبق: AI کیا ہے، مصنوعی ذہانت کی تعریف، machine learning، everyday examples، Gemini/ChatGPT practice اور quiz سیکھیں۔'
   : `${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`;
 
 const courseSchema = {
@@ -62,6 +62,20 @@ const courseSchema = {
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
+  ...(lesson.number === 1 ? {
+    "educationalLevel": "Beginner",
+    "teaches": [
+      "AI kya hai in Urdu",
+      "AI meaning in Urdu",
+      "Machine learning basics",
+      "Beginner AI practice with ChatGPT and Gemini",
+    ],
+    "about": [
+      { "@type": "Thing", "name": "Artificial Intelligence" },
+      { "@type": "Thing", "name": "Machine Learning" },
+      { "@type": "Thing", "name": "AI course Urdu" },
+    ],
+  } : {}),
   "url": `https://urduai.org/courses/masterclass/${lesson.number}/`,
   "isPartOf": {
     "@type": "Course",
@@ -108,6 +122,10 @@ const lessonOneFaq = lesson.number === 1 ? [
   {
     question: "کیا یہ AI course Urdu میں beginners کے لیے ہے؟",
     answer: "جی ہاں۔ یہ پہلا سبق beginners کے لیے ہے۔ اس میں AI کی تعریف، machine learning، روزمرہ examples، ChatGPT/Gemini practice اور quiz شامل ہے۔",
+  },
+  {
+    question: "کیا یہ free AI course Urdu ہے؟",
+    answer: "جی ہاں۔ اردو اے آئی ماسٹرکلاس کا یہ پہلا سبق مفت ہے، ad-free ہے، اور beginners کو AI کی بنیادی تعریف، examples، practice prompt اور quiz سے شروع کرواتا ہے۔",
   },
   {
     question: "AI course شروع کرنے کے لیے کیا پہلے coding آنا ضروری ہے؟",
@@ -205,6 +223,29 @@ const breadcrumbSchema = {
         loading="lazy"
       ></iframe>
     </div>
+
+    {lesson.number === 1 && (
+      <section class="lesson-start" aria-labelledby="lesson-start-title">
+        <h2 id="lesson-start-title">AI course Urdu شروع کرنے کا صحیح طریقہ</h2>
+        <p>
+          اگر آپ پاکستان یا کسی بھی اردو بولنے والی کمیونٹی میں AI پہلی بار سیکھ رہے ہیں تو یہی پہلا سبق شروع کریں۔ پہلے AI کا آسان مطلب سمجھیں، پھر ایک چھوٹا prompt Gemini یا ChatGPT میں آزمائیں، اور آخر میں quiz دے کر lesson 2 پر جائیں۔
+        </p>
+        <div class="lesson-start__grid">
+          <a href={`${base}/learn/artificial-intelligence/`}>
+            <strong>1. تعریف سمجھیں</strong>
+            <span>مصنوعی ذہانت کیا ہے؟</span>
+          </a>
+          <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>
+            <strong>2. عملی مشق کریں</strong>
+            <span>Gemini میں اردو سوال پوچھیں</span>
+          </a>
+          <a href={`${base}/guides/free-ai-course-urdu/`}>
+            <strong>3. مکمل راستہ دیکھیں</strong>
+            <span>مفت AI کورس اردو میں کہاں سے شروع کریں</span>
+          </a>
+        </div>
+      </section>
+    )}
 
     <!-- Written lesson content -->
     <article class="lesson-content prose" set:html={lessonHtml} />
@@ -351,6 +392,45 @@ const breadcrumbSchema = {
       width: 100%;
       height: 100%;
       border: 0;
+    }
+
+    .lesson-start {
+      background: var(--paper-warm);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: var(--space-md);
+      margin-block: var(--space-lg);
+    }
+    .lesson-start h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-xs);
+    }
+    .lesson-start p {
+      margin-block-end: var(--space-md);
+    }
+    .lesson-start__grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-sm);
+    }
+    .lesson-start__grid a {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      min-height: 96px;
+      padding: var(--space-sm);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--paper-card);
+      text-decoration: none;
+    }
+    .lesson-start__grid strong {
+      color: var(--navy);
+    }
+    .lesson-start__grid span {
+      color: var(--ink-soft);
+      font-size: var(--text-sm);
+      line-height: var(--lh-body);
     }
 
     /* Lesson content */
@@ -549,6 +629,9 @@ const breadcrumbSchema = {
     @media (max-width: 600px) {
       .quiz-section {
         padding: var(--space-sm);
+      }
+      .lesson-start__grid {
+        grid-template-columns: 1fr;
       }
       .lesson-nav {
         flex-direction: column;
