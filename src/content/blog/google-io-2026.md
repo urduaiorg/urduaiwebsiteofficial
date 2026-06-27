@@ -1,6 +1,6 @@
 ---
-title: 'گوگل I/O 2026: دس بڑے اعلانات — پاکستانیوں کے لیے مکمل گائیڈ'
-description: 'گوگل I/O 2026 کے دس اہم اعلانات: جیمینی 3.5، جیمینی اسپارک، Docs Live، Daily Brief، Antigravity UI، Google Flow، AI Studio اور مزید — کیا مفت ہے، کیا نہیں'
+title: 'Google I/O 2026 Urdu: Gemini، AI Studio اور Flow updates'
+description: 'Google I/O 2026 Urdu guide: Gemini 3.5، AI Studio، Flow، Docs Live، Daily Brief، Antigravity UI، free features اور Pakistan users کے لیے مطلب۔'
 date: 2026-05-20
 category: اے آئی اپڈیٹ
 tags:
@@ -12,7 +12,7 @@ image: /images/blog/Screenshot 2026-05-20 at 9.13.08 AM.png
 author: معراج احمد
 adsense: true
 draft: false
-last_updated: ''
+last_updated: 2026-06-27
 ---
 
 <!-- New terms added to terminology log: Gemini Spark = جیمینی اسپارک | World model = ورلڈ ماڈل | Stitch (Google) = اسٹچ | Agentic era = ایجنٹک دور | Daily Brief = ڈیلی بریف | Docs Live = ڈاکس لائیو | Neural Expressive = نیورل ایکسپریسو | Generative UI = جنریٹو UI | C2PA = سی ٹو پی اے -->

@@ -1,6 +1,6 @@
 ---
-title: "AI سے مفت ویب سائٹ کیسے بنائیں؟ Blogger step-by-step"
-description: "AI سے مفت ویب سائٹ بنانے کا آسان طریقہ: Blogger theme، HTML prompt، pages، images، errors اور next steps اردو میں سیکھیں۔"
+title: "AI سے free website کیسے بنائیں؟ Blogger Urdu guide"
+description: "AI سے free website بنانے کا آسان طریقہ: Blogger theme، HTML prompt، pages، images، errors، hosting limits اور next steps اردو میں۔"
 date: 2025-10-27
 category: "ہاؤ ٹو"
 tool: "Blogger + AI"

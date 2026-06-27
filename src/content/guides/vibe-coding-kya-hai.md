@@ -1,6 +1,6 @@
 ---
-title: وائب کوڈنگ کیا ہے؟ — بغیر کوڈ سیکھے ایپس اور ویب سائٹس بنائیں
-description: وائب کوڈنگ کیا ہے اور اس سے بغیر کوڈنگ سیکھے ایپس، ویب سائٹس اور ٹولز کیسے بنائے جاتے ہیں؟ مکمل اردو گائیڈ — پہلی بار کوڈنگ کرنے والوں کے لیے۔
+title: "Vibe coding کیا ہے؟ AI سے app، website اور code بنائیں"
+description: "Vibe coding اردو guide: AI سے app، website، tool یا code بنوانے کا طریقہ، prompts، testing، hosting، mistakes اور beginners کے لیے safe workflow۔"
 date: 2026-04-10
 category: گائیڈ
 tool: ''
@@ -8,7 +8,7 @@ level: ابتدائی
 image: /images/guides/Coding123.png
 adsense: true
 draft: false
-last_updated: ''
+last_updated: 2026-06-27
 faq:
   - question: وائب کوڈنگ کیا ہے؟
     answer: وائب کوڈنگ ایک نیا طریقہ ہے جس میں آپ AI کو اردو یا انگریزی میں بتاتے ہیں کہ آپ کیا بنانا چاہتے ہیں اور AI خود کوڈ لکھ دیتا ہے۔ اس میں کوڈنگ سیکھنے کی ضرورت نہیں۔

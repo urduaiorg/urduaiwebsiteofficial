@@ -1,11 +1,10 @@
 ---
-title: "مصنوعی ذہانت سے مفت ویب ایپ کیسے بنائیں؟"
-description: "مصنوعی ذہانت سے مفت ویب ایپ کیسے بنائیں؟
- ٹیکنالوجی کی دنیا میں ایک عام تاثر یہ ہے کہ ویب ایپ یا سافٹ ویئر بنانا صرف اُنہی افراد کا کام ہے جنہیں کوڈنگ آتی ہو یا"
+title: "AI سے free web app کیسے بنائیں؟ اردو coding guide"
+description: "AI سے free web app بنانے کا Urdu guide: beginner prompt، Gemini/AI coding، HTML file، mobile preview، publish options اور no-code limits آسان steps میں۔"
 date: 2025-04-27
 category: "ہاؤ ٹو"
 tool: "AI Coding"
-last_verified: 2025-04-27
+last_verified: 2026-06-27
 difficulty: "آسان"
 time_required: "5 منٹ"
 screenshots: false

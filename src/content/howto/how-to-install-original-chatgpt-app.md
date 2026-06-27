@@ -1,6 +1,6 @@
 ---
-title: "ChatGPT Urdu app download: آفیشل ایپ محفوظ انسٹال کریں"
-description: "ChatGPT Urdu app download کے لیے OpenAI کا آفیشل download page کھولیں، Play Store یا App Store میں publisher چیک کریں، پھر اردو میں پہلا سوال پوچھیں۔"
+title: "ChatGPT app download Urdu: آفیشل ایپ محفوظ طریقہ"
+description: "ChatGPT app download Urdu guide: OpenAI کا آفیشل download page، Play Store/App Store publisher check، fake apps سے بچاؤ اور پہلا Urdu prompt۔"
 date: 2025-01-03
 category: "ہاؤ ٹو"
 tool: "ChatGPT"

@@ -1,6 +1,6 @@
 ---
-title: "History of AI in Urdu: مصنوعی ذہانت کی timeline guide"
-description: "History of AI in Urdu: Turing Test، Dartmouth 1956، AI winters، machine learning، deep learning، transformers، ChatGPT اور AGI timeline آسان اردو میں۔"
+title: "AI history in Urdu: Turing سے ChatGPT تک timeline"
+description: "AI history in Urdu guide: Turing Test، Dartmouth 1956، AI winters، machine learning، deep learning، transformers، ChatGPT اور AGI timeline۔"
 date: 2025-10-13
 category: "اے آئی اپڈیٹ"
 author: "اردو اے آئی ٹیم"

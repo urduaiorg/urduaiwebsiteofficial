@@ -1,6 +1,6 @@
 ---
-title: "AI image generator Urdu: تصویر بنانے والا app guide"
-description: "AI image generator Urdu میں تصویر بنانے والا app، free limits، ChatGPT، Gemini، Canva AI، prompts، privacy اور Pakistani style workflow سیکھیں۔"
+title: "AI image generator اردو: free app، prompts، تصویر بنائیں"
+description: "AI image generator اردو guide: تصویر بنانے والا app، ChatGPT، Gemini، Canva AI، prompts، privacy، free limits اور Pakistani style workflow۔"
 date: 2025-04-10
 category: "گائیڈ"
 author: "اردو اے آئی ٹیم"

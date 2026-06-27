@@ -1,6 +1,6 @@
 ---
-title: "Gemini AI Urdu: Google Gemini app، phone اور prompts"
-description: "Gemini AI Urdu guide: Google Gemini app download، phone setup، Urdu prompts، student use، privacy، files اور Google AI Studio کا فرق سیکھیں۔"
+title: "Google Gemini اردو میں کیسے استعمال کریں؟ phone app guide"
+description: "Google Gemini اردو guide: phone پر app، gemini.google.com، Urdu prompts، student use، privacy، files اور AI Studio کا فرق آسان steps میں۔"
 date: 2026-04-04
 last_verified: 2026-06-27
 category: "ہاؤ ٹو"

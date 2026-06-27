@@ -1,6 +1,6 @@
 ---
-title: "چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ جی پی ٹی کا نیا فیچر"
-description: "چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ جی پی ٹی کا نیا فیچر  کیا آپ نے کبھی سوچا ہے کہ چیٹ جی پی ٹی سے ایسے بات ہو جیسے کسی انسان سے فون پر بات کرتے ہیں؟ اب ی"
+title: "1-800-ChatGPT کیا ہے؟ phone call، WhatsApp update"
+description: "1-800-ChatGPT guide: امریکہ/کینیڈا phone call access، 30 free minutes، WhatsApp integration ختم، privacy limits اور ChatGPT app alternative۔"
 date: 2025-06-20
 category: "اے آئی اپڈیٹ"
 image: "/images/blog/chatgpt-now-available-on-call-1-800-chatgpt-new-feature.jpg"
@@ -12,7 +12,7 @@ draft: false
 # چیٹ جی پی ٹی اب کال پر دستیاب: 1-800-چیٹ جی پی ٹی کا نیا فیچر
 
 
-کیا آپ نے کبھی سوچا ہے کہ چیٹ جی پی ٹی سے ایسے بات ہو جیسے کسی انسان سے فون پر بات کرتے ہیں؟ اب یہ ممکن ہے۔ اوپن اے آئی نے ایک نیا تجرباتی فیچر متعارف کرایا ہے۔ جس کے ذریعے صارفین امریکا اور کینیڈا میں 1-800-CHATGPT نمبر پر فون کال یا واٹس ایپ پیغام کے ذریعے براہِ راست چیٹ جی پی ٹی سے بات چیت کر سکتے ہیں۔ چیٹ جی پی ٹی اب کال پر دستیاب ہے۔[اوپن اے آئی کی مکمل رہنمائی یہاں دیکھیں](https://help.openai.com/en/articles/10193193-1-800-chatgpt-calling-and-messaging-chatgpt-with-your-phone)
+1-800-ChatGPT اوپن اے آئی کا phone call feature ہے جس سے supported countries میں امریکی یا کینیڈین نمبر سے 1-800-242-8478 پر کال کر کے ChatGPT سے بات کی جا سکتی ہے۔ 27 جون 2026 تک OpenAI Help کے مطابق WhatsApp integration 15 جنوری 2026 سے ختم ہو چکی ہے، اس لیے WhatsApp پر ChatGPT چلانے کے بجائے ChatGPT app، website یا phone call option کی current availability چیک کریں۔ [اوپن اے آئی کی مکمل رہنمائی یہاں دیکھیں](https://help.openai.com/en/articles/10193193-1-800-chatgpt-calling-and-messaging-chatgpt-with-your-phone)
 
 ## بغیر اکاؤنٹ، بغیر رکاوٹ
 

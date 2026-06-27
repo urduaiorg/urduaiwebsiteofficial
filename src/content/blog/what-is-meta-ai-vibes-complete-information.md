@@ -1,6 +1,6 @@
 ---
-title: "Meta AI Vibes کیا ہے؟ AI videos بنانے اور remix کرنے کا طریقہ"
-description: "Meta AI Vibes کیا ہے؟ Meta AI app اور meta.ai پر short AI videos create، remix، share کرنے کا آسان اردو تعارف، limits اور safety tips۔"
+title: "Meta AI Vibes کیا ہے؟ AI videos، remix اور safety"
+description: "Meta AI Vibes guide: Meta AI app اور meta.ai پر short AI videos create، remix، share کرنے کا آسان اردو تعارف، limits، privacy اور safety tips۔"
 date: 2025-09-28
 category: "اے آئی اپڈیٹ"
 author: "اردو اے آئی ٹیم"

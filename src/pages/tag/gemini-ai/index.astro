@@ -1,0 +1,219 @@
+---
+import Base from '../../../layouts/Base.astro';
+
+export const prerender = true;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const title = 'Gemini AI Urdu: Google Gemini app، guide اور prompts';
+const description = 'Gemini AI Urdu hub: Google Gemini app، phone setup، Urdu prompts، student use، Gemini meaning، Google AI Studio فرق اور beginner guides۔';
+const canonical = 'https://urduai.org/tag/gemini-ai/';
+
+const guides = [
+  {
+    title: 'Google Gemini اردو میں کیسے استعمال کریں؟',
+    href: '/how-to/how-to-use-gemini-in-urdu/',
+    text: 'Phone app، browser، Urdu prompts، privacy، files اور Google AI Studio کا فرق step-by-step سمجھیں۔',
+  },
+  {
+    title: 'Gemini کیا ہے؟ Google AI assistant کا آسان مطلب',
+    href: '/learn/google-gemini/',
+    text: 'Gemini کا basic meaning، ChatGPT سے فرق، اور beginner کے لیے practical use cases۔',
+  },
+  {
+    title: 'طالب علموں کے لیے Gemini AI گائیڈ',
+    href: '/guides/gemini-for-students-urdu/',
+    text: 'Study notes، revision، summaries، self-test questions اور responsible learning workflow۔',
+  },
+  {
+    title: 'Google AI Studio Urdu hub',
+    href: '/tag/google-ai-studio/',
+    text: 'Gemini API key، Build Mode، prompt testing اور app prototype کے لیے advanced راستہ۔',
+  },
+  {
+    title: 'AI tools directory',
+    href: '/tools/',
+    text: 'Gemini، ChatGPT، Claude، NotebookLM اور دوسرے tools کو کام کے حساب سے compare کریں۔',
+  },
+  {
+    title: 'Prompt engineering کیا ہے؟',
+    href: '/learn/prompt-engineering/',
+    text: 'Gemini سے بہتر جواب لینے کے لیے task، audience، tone اور format واضح لکھنا سیکھیں۔',
+  },
+];
+
+const faqItems = [
+  {
+    question: 'Gemini AI Urdu میں کہاں سے شروع کریں؟',
+    answer: 'اگر آپ beginner ہیں تو پہلے Gemini کیا ہے والا glossary page پڑھیں، پھر Google Gemini اردو guide سے phone یا browser میں پہلا prompt آزمائیں۔',
+  },
+  {
+    question: 'Google Gemini app اور Gemini website میں کیا فرق ہے؟',
+    answer: 'دونوں Gemini assistant تک access دے سکتے ہیں، مگر app features device، account، language اور country کے حساب سے بدل سکتے ہیں۔ Basic use کے لیے gemini.google.com بھی کافی ہو سکتا ہے۔',
+  },
+  {
+    question: 'Gemini اور Google AI Studio میں کیا فرق ہے؟',
+    answer: 'Gemini عام users کے لیے chat assistant ہے۔ Google AI Studio prompt testing، Gemini API key، model settings اور prototype بنانے کے لیے workspace ہے۔',
+  },
+  {
+    question: 'Gemini Urdu prompts کیسے لکھیں؟',
+    answer: 'Prompt میں اپنا کام، audience، tone، length اور format صاف لکھیں۔ مثلا: class 8 student کے لیے آسان Urdu explanation دیں اور آخر میں 5 self-test سوالات بنائیں۔',
+  },
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: title,
+    description,
+    url: canonical,
+    inLanguage: 'ur',
+    about: {
+      '@type': 'SoftwareApplication',
+      name: 'Google Gemini',
+      applicationCategory: 'AIApplication',
+      operatingSystem: 'Web, Android, iOS',
+      url: 'https://gemini.google.com/',
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      name: 'Gemini AI Urdu learning path',
+      itemListElement: guides.map((guide, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: guide.title,
+        url: `https://urduai.org${guide.href}`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: { '@type': 'Answer', text: answer },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'ہوم', item: 'https://urduai.org/' },
+      { '@type': 'ListItem', position: 2, name: 'Gemini AI', item: canonical },
+    ],
+  },
+];
+---
+
+<Base
+  title={title}
+  description={description}
+  canonical={canonical}
+  adsense={true}
+  schema={schema}
+>
+  <div class="container gemini-hub">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li aria-current="page">Gemini AI</li>
+      </ol>
+    </nav>
+
+    <h1>Gemini AI Urdu: Google Gemini app، guide اور prompts</h1>
+    <p class="gemini-hub__intro">
+      Gemini AI Urdu hub پاکستانی beginners، students، teachers اور creators کے لیے Google Gemini سیکھنے کا راستہ ہے۔ پہلے Gemini کا مطلب سمجھیں، پھر phone یا browser میں Urdu prompt لکھیں، اور جب API یا app prototype چاہیے ہو تو Google AI Studio کی طرف جائیں۔
+    </p>
+
+    <section class="gemini-answer" aria-labelledby="gemini-answer-title">
+      <h2 id="gemini-answer-title">فوری جواب: پہلے کون سا page کھولیں؟</h2>
+      <p>
+        اگر آپ صرف Gemini شروع کرنا چاہتے ہیں تو <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Google Gemini اردو guide</a> کھولیں۔ اگر definition چاہیے تو <a href={`${base}/learn/google-gemini/`}>Gemini کیا ہے؟</a> پڑھیں۔ اگر app، API یا prototype بنانا ہے تو <a href={`${base}/tag/google-ai-studio/`}>Google AI Studio Urdu hub</a> بہتر اگلا قدم ہے۔
+      </p>
+    </section>
+
+    <section class="gemini-grid" aria-labelledby="gemini-guides-title">
+      <h2 id="gemini-guides-title">Gemini guides اردو میں</h2>
+      <div class="gemini-grid__items">
+        {guides.map((guide) => (
+          <a class="gemini-card" href={guide.href}>
+            <strong>{guide.title}</strong>
+            <span>{guide.text}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="gemini-prompt" aria-labelledby="gemini-prompt-title">
+      <h2 id="gemini-prompt-title">پہلا Gemini prompt</h2>
+      <pre dir="ltr"><code>میں پاکستان میں beginner ہوں۔ مجھے [topic] آسان اردو میں سمجھائیں۔
+Audience: student / teacher / freelancer
+Format: 5 bullet points + 3 self-test questions
+Tone: simple, practical, no hype</code></pre>
+    </section>
+
+    <section class="gemini-faq" aria-labelledby="gemini-faq-title">
+      <h2 id="gemini-faq-title">اکثر پوچھے گئے سوالات</h2>
+      {faqItems.map((item) => (
+        <details>
+          <summary>{item.question}</summary>
+          <p>{item.answer}</p>
+        </details>
+      ))}
+    </section>
+  </div>
+</Base>
+
+<style>
+  .gemini-hub {
+    margin-block-start: var(--space-xl);
+  }
+
+  .gemini-hub__intro,
+  .gemini-answer p {
+    max-width: 820px;
+    line-height: var(--lh-prose);
+  }
+
+  .gemini-answer,
+  .gemini-grid,
+  .gemini-prompt,
+  .gemini-faq {
+    margin-block-start: var(--space-xl);
+  }
+
+  .gemini-grid__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr));
+    gap: var(--space-sm);
+  }
+
+  .gemini-card {
+    display: block;
+    padding: var(--space-md);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--paper-card);
+    text-decoration: none;
+  }
+
+  .gemini-card strong,
+  .gemini-card span {
+    display: block;
+  }
+
+  .gemini-card span {
+    color: var(--ink-soft);
+    margin-block-start: 0.35rem;
+  }
+
+  .gemini-prompt pre {
+    overflow-x: auto;
+  }
+
+  .gemini-faq details {
+    border-block-start: 1px solid var(--border);
+    padding-block: var(--space-sm);
+  }
+</style>

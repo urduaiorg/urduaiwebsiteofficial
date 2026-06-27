@@ -1,6 +1,6 @@
 ---
-title: "Claude Opus 4.8: price، fast mode اور API model id"
-description: "Claude Opus 4.8 کا آسان Urdu explainer: release date، API price، fast mode، coding improvements، model id اور Claude AI سے فرق۔"
+title: "Claude Opus 4.8 کیا ہے؟ price، fast mode، API id"
+description: "Claude Opus 4.8 Urdu explainer: release date، API price، fast mode، coding improvements، model id، Opus 4.7 فرق اور ChatGPT comparison۔"
 date: 2026-05-28
 category: "اے آئی اپڈیٹ"
 tags:

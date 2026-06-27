@@ -1,6 +1,6 @@
 ---
-title: 'جمینی 3.1 فلیش لائیو: گوگل کا نیا آوازی اے آئی ماڈل اور بہتر استعمال کا طریقہ'
-description: گوگل نے جمینی 3.1 فلیش لائیو متعارف کرایا ہے جو کم تاخیر، بہتر لہجے کی سمجھ اور زیادہ قدرتی گفتگو کے ساتھ وائس اے آئی کو اگلے درجے پر لے جاتا ہے۔ اس گائیڈ میں بہتر نتائج لینے کے عملی طریقے بھی شامل ہیں۔
+title: 'Gemini 3.1 Flash Live: voice AI model اور audio tags'
+description: 'Gemini 3.1 Flash Live Urdu guide: voice AI model، low latency، audio tags، tone control، practical prompts، limits اور بہتر results کا طریقہ۔'
 date: 2026-04-15
 category: اے آئی اپڈیٹ
 tags:
@@ -22,7 +22,7 @@ faq:
     answer: گوگل کے مطابق 3.1 Flash Live سے بننے والی آڈیو SynthID watermark کے ساتھ آتی ہے تاکہ AI-generated content کی شناخت میں مدد مل سکے۔
   - question: بہترین نتائج کے لیے کتنے audio tags استعمال کرنے چاہئیں؟
     answer: عام طور پر 3 سے 5 audio tags کافی ہوتے ہیں۔ بہت زیادہ tags دینے سے delivery غیر فطری ہو سکتی ہے۔
-last_updated: 2026-04-15
+last_updated: 2026-06-27
 ---
 
 # جمینی 3.1 فلیش لائیو: گوگل کا نیا آوازی اے آئی ماڈل اور بہتر استعمال کا طریقہ

@@ -1,6 +1,6 @@
 ---
-title: "AGI meaning in Urdu: AI vs AGI فرق آسان الفاظ میں گائیڈ"
-description: "AGI meaning in Urdu guide: Artificial General Intelligence کا مطلب، AGI stands for کیا ہے، AI vs AGI فرق، examples، risks اور beginner next step۔"
+title: "AGI meaning in Urdu: Artificial General Intelligence کیا ہے؟"
+description: "AGI meaning in Urdu guide: Artificial General Intelligence، AGI full form، AI vs AGI فرق، examples، risks، myths اور beginner next step۔"
 date: 2026-06-27
 category: "اردو اے آئی لغت"
 term_english: "Artificial General Intelligence"

@@ -1,6 +1,6 @@
 ---
-title: "Claude meaning in Urdu: writing اور editing guide"
-description: "Claude meaning in Urdu guide: Claude AI سے اردو writing، editing، summary، ChatGPT/Gemini فرق، prompts اور fact-check workflow سیکھیں۔"
+title: "Claude AI اردو writing guide: meaning، prompts، editing"
+description: "Claude AI اردو writing guide: Claude meaning، Urdu writing، editing، summary، ChatGPT/Gemini فرق، prompts اور fact-check workflow۔"
 date: 2026-04-04
 last_verified: 2026-06-27
 category: "ہاؤ ٹو"
