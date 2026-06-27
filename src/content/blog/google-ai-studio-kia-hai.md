@@ -84,7 +84,7 @@ Google کی [آفیشل AI Studio quickstart](https://ai.google.dev/gemini-api/d
 
 ## Free tier، pricing اور API key
 
-Google AI Studio شروع کرنے کے لیے free tier دے سکتا ہے، مگر API usage، rate limits، paid models، sharing اور deployment کے rules الگ ہو سکتے ہیں۔ اس لیے "free" کو permanent promise نہ سمجھیں۔ اہم project یا client work سے پہلے [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing) اور [official AI Studio](https://aistudio.google.com/) page check کریں۔
+Google AI Studio شروع کرنے کے لیے free tier دے سکتا ہے، مگر API usage، rate limits، paid models، sharing اور deployment کے rules الگ ہو سکتے ہیں۔ اس لیے "free" کو permanent promise نہ سمجھیں۔ اہم project یا client work سے پہلے [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing) اور [آفیشل AI Studio](https://aistudio.google.com/) page check کریں۔
 
 API key بناتے وقت تین احتیاطیں رکھیں:
 
