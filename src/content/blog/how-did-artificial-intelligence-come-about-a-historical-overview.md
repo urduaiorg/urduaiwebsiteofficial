@@ -19,10 +19,14 @@ faq:
     answer: "ChatGPT generative AI اور large language models کے دور کی نمایاں مثال ہے، جس کی بنیاد transformers، deep learning اور بہت بڑے text datasets پر ہے۔"
   - question: "AGI کیا AI history کا اگلا مرحلہ ہے؟"
     answer: "AGI ابھی research اور debate کا موضوع ہے۔ آج کے AI tools خاص کاموں میں مدد دیتے ہیں، مگر انسان جیسی عمومی ذہانت ابھی ثابت شدہ حقیقت نہیں۔"
+  - question: "AI history پڑھنے کے بعد beginner کو کیا کرنا چاہیے؟"
+    answer: "AI history کے بعد پہلے AI کی آسان تعریف پڑھیں، پھر Masterclass lesson 1 مکمل کریں، اور اس کے بعد Gemini یا ChatGPT میں ایک چھوٹا Urdu prompt آزمائیں۔"
 ---
 History of AI in Urdu کا مختصر جواب یہ ہے کہ مصنوعی ذہانت کی کہانی 1950 میں Alan Turing کے سوال "کیا مشین سوچ سکتی ہے؟" سے شروع ہو کر 1956 کے Dartmouth workshop، AI winters، expert systems، machine learning، deep learning، transformers اور آج کے generative AI tools تک پہنچتی ہے۔ یہ ایک سیدھی لکیر نہیں بلکہ کئی بار امید، ناکامی، دوبارہ تحقیق اور practical tools کا سفر ہے۔
 
 اگر آپ پہلے AI کا basic مطلب سمجھنا چاہتے ہیں تو [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پڑھیں۔ اگر آپ مکمل beginner lesson چاہتے ہیں تو [AI کیا ہے؟ آسان اردو تعریف، مثالیں اور پہلا قدم](/guides/ai-kya-hai-urdu-ai-master-class-1/) بہتر آغاز ہے۔
+
+History پڑھنے کے بعد اگلا practical قدم یہ ہے کہ [AI course Urdu کا lesson 1](/courses/masterclass/1/) مکمل کریں، پھر [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/) سے اپنا learning path ترتیب دیں۔ تاریخ context دیتی ہے؛ skill practice سے بنتی ہے۔
 
 ## فوری timeline: AI history کے بڑے موڑ
 
@@ -100,9 +104,15 @@ ChatGPT generative AI اور large language models کے دور کی نمایاں
 
 AGI ابھی research اور debate کا موضوع ہے۔ آج کے AI tools خاص کاموں میں مدد دیتے ہیں، مگر انسان جیسی عمومی ذہانت ابھی ثابت شدہ حقیقت نہیں۔
 
+### AI history پڑھنے کے بعد beginner کو کیا کرنا چاہیے؟
+
+AI history کے بعد پہلے AI کی آسان تعریف پڑھیں، پھر Masterclass lesson 1 مکمل کریں، اور اس کے بعد Gemini یا ChatGPT میں ایک چھوٹا Urdu prompt آزمائیں۔
+
 ## لغت میں اور پڑھیں
 
 - [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/)
+- [AI course Urdu کا lesson 1](/courses/masterclass/1/)
+- [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/)
 - [لارج لینگویج ماڈل (LLM) کیا ہے؟](/learn/large-language-model/)
 - [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
 - [مشین لرننگ کیا ہے؟](/learn/machine-learning/)
