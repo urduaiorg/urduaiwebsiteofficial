@@ -47,10 +47,10 @@ function toPlainText(text: string): string {
 
 const firstPara = toPlainText(lesson.description.split('\n\n').find(b => !b.trim().startsWith('##')) || '').slice(0, 160) || lesson.title;
 const pageTitle = lesson.number === 1
-  ? 'Free AI course Urdu: AI کیا ہے؟ پہلا سبق'
+  ? 'AI course Urdu free: AI kya hai in Urdu'
   : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
 const pageDescription = lesson.number === 1
-  ? 'Free AI course Urdu کا پہلا سبق: AI کیا ہے، مصنوعی ذہانت کی تعریف، machine learning، everyday examples، Gemini/ChatGPT practice اور quiz سیکھیں۔'
+  ? 'AI course Urdu free کا پہلا سبق: AI kya hai in Urdu، مصنوعی ذہانت کی تعریف، examples، Gemini/ChatGPT practice، quiz اور certificate path۔'
   : `${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`;
 
 const courseSchema = {
@@ -69,6 +69,8 @@ const courseSchema = {
       "AI meaning in Urdu",
       "Machine learning basics",
       "Beginner AI practice with ChatGPT and Gemini",
+      "AI courses online free in Pakistan",
+      "Artificial intelligence course for beginners",
     ],
     "about": [
       { "@type": "Thing", "name": "Artificial Intelligence" },
@@ -126,6 +128,14 @@ const lessonOneFaq = lesson.number === 1 ? [
   {
     question: "کیا یہ free AI course Urdu ہے؟",
     answer: "جی ہاں۔ اردو اے آئی ماسٹرکلاس کا یہ پہلا سبق مفت ہے، ad-free ہے، اور beginners کو AI کی بنیادی تعریف، examples، practice prompt اور quiz سے شروع کرواتا ہے۔",
+  },
+  {
+    question: "AI course online free Pakistan میں کیسے شروع کریں؟",
+    answer: "سب سے پہلے lesson 1 سے AI kya hai in Urdu سمجھیں، پھر Gemini یا ChatGPT میں ایک practical prompt آزمائیں، اور Masterclass کے 9 lessons ترتیب سے مکمل کریں۔",
+  },
+  {
+    question: "Artificial intelligence course free certificate کا راستہ کیا ہے؟",
+    answer: "Urdu AI Masterclass میں lessons اور quizzes مکمل کریں، پھر certificate form پر جائیں۔ یہ Urdu AI completion certificate ہے، university degree نہیں۔",
   },
   {
     question: "AI course شروع کرنے کے لیے کیا پہلے coding آنا ضروری ہے؟",
@@ -212,6 +222,35 @@ const breadcrumbSchema = {
     <div id="lesson-content">
     <!-- Lesson title -->
     <h1>سبق {lesson.number}: {lesson.title}</h1>
+
+    {lesson.number === 1 && (
+      <section class="lesson-answer" aria-labelledby="lesson-answer-title">
+        <h2 id="lesson-answer-title">فوری جواب: AI kya hai in Urdu؟</h2>
+        <p>
+          AI یعنی artificial intelligence یا مصنوعی ذہانت کمپیوٹر کی وہ صلاحیت ہے جس سے وہ examples سے pattern سیکھ کر writing، translation، image، recommendation اور decision support جیسے کاموں میں مدد دیتا ہے۔ یہ free AI course Urdu کا پہلا سبق ہے: پہلے تعریف سمجھیں، پھر Gemini یا ChatGPT میں ایک prompt آزمائیں، پھر quiz دے کر اگلا lesson کھولیں۔
+        </p>
+        <table>
+          <tbody>
+            <tr>
+              <th>Course type</th>
+              <td>Free online AI course in Urdu</td>
+            </tr>
+            <tr>
+              <th>Beginner topic</th>
+              <td>AI kya hai in Urdu، AI meaning، machine learning basics</td>
+            </tr>
+            <tr>
+              <th>Practice</th>
+              <td>Gemini یا ChatGPT میں آسان Urdu prompt لکھنا</td>
+            </tr>
+            <tr>
+              <th>Next step</th>
+              <td><a href={`${base}/courses/masterclass/2/`}>سبق 2: AI کی اقسام</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    )}
 
     <!-- YouTube embed -->
     <div class="video-embed">
@@ -362,6 +401,53 @@ const breadcrumbSchema = {
       border-radius: 4px;
       overflow: hidden;
       border: 1px solid var(--border);
+    }
+
+    .lesson-answer {
+      border-block: 1px solid var(--border);
+      padding-block: var(--space-md);
+      margin-block: var(--space-md);
+    }
+
+    .lesson-answer h2 {
+      font-size: var(--text-h2);
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .lesson-answer p {
+      color: var(--ink-soft);
+      line-height: var(--lh-prose);
+      max-width: 760px;
+    }
+
+    .lesson-answer table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-block-start: var(--space-sm);
+      background: var(--paper-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .lesson-answer th,
+    .lesson-answer td {
+      border-block-end: 1px solid var(--border);
+      padding: 0.75rem;
+      text-align: start;
+      vertical-align: top;
+    }
+
+    .lesson-answer tr:last-child th,
+    .lesson-answer tr:last-child td {
+      border-block-end: 0;
+    }
+
+    .lesson-answer th {
+      color: var(--ink);
+      width: 34%;
+      background: var(--paper-warm);
     }
     .mc-progress__fill {
       height: 100%;
