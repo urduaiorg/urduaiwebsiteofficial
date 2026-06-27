@@ -187,7 +187,7 @@ Urdu AI ایک اردو learning platform ہے جو ChatGPT، Gemini اور AI t
 - [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)
-- [ChatGPT complete Urdu guide](/blog/chatgpt-complete-urdu-guide/)
+- [کاروبار کے لیے ChatGPT اردو گائیڈ](/guides/chatgpt-for-business-urdu/)
 - [ChatGPT Go price in Pakistan](/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public/)
 - [Prompt engineering کیا ہے؟](/learn/prompt-engineering/)
 - [12 AI tools: کس کام کے لیے کون سا؟](/blog/12-best-ai-tools-that-make-work-faster-and-easier/)
