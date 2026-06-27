@@ -1,9 +1,33 @@
 ---
-// /app/ — App landing page
+// /app/ - App landing page
 // NO ads. NO App CTA strip. This entire page IS the CTA.
 // Drives Play Store downloads.
 
 import Base from '../../layouts/Base.astro';
+
+const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed';
+const appFaqItems = [
+  {
+    question: 'Urdu AI app download کہاں سے کریں؟',
+    answer: 'Urdu AI app Android users کے لیے Google Play Store پر دستیاب ہے۔ محفوظ طریقہ یہی ہے کہ ایپ Play Store سے install کریں، کسی غیر معروف APK link سے نہیں۔',
+  },
+  {
+    question: 'کیا اردو اے آئی ایپ Android کے لیے ہے؟',
+    answer: 'جی ہاں۔ اردو اے آئی ایپ Android phones پر AI guides، videos، prompts، courses اور Urdu AI updates تک آسان رسائی دیتی ہے۔',
+  },
+  {
+    question: 'Urdu AI app میں کیا سیکھ سکتے ہیں؟',
+    answer: 'آپ AI basics، ChatGPT، Gemini، prompt engineering، AI tools، Urdu guides، videos اور beginner courses ایک جگہ سے شروع کر سکتے ہیں۔',
+  },
+  {
+    question: 'کیا اردو اے آئی ایپ Play Store پر موجود ہے؟',
+    answer: 'جی ہاں۔ موجودہ Play Store listing کے مطابق اردو اے آئی ایپ کے 50K+ downloads، 5.0 star rating اور 556 reviews ہیں۔',
+  },
+  {
+    question: 'کیا APK download کرنا چاہیے؟',
+    answer: 'نہیں۔ privacy اور security کے لیے unknown APK files سے بچیں۔ Urdu AI app کے لیے Google Play Store کا آفیشل link استعمال کریں۔',
+  },
+];
 
 const appSchema = {
   "@context": "https://schema.org",
@@ -19,62 +43,106 @@ const appSchema = {
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "ratingCount": "500",
+    "ratingValue": "5.0",
+    "ratingCount": "556",
   },
-  "downloadUrl": "https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed",
+  "downloadUrl": playStoreUrl,
   "url": "https://urduai.org/app/",
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": appFaqItems.map(({ question, answer }) => ({
+    "@type": "Question",
+    "name": question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": answer,
+    },
+  })),
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ہوم", "item": "https://urduai.org/" },
+    { "@type": "ListItem", "position": 2, "name": "اردو اے آئی ایپ", "item": "https://urduai.org/app/" },
+  ],
 };
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
-  title="اردو اے آئی ایپ ڈاؤنلوڈ — Android پر مفت AI سیکھیں"
-  description="اردو اے آئی ایپ Android صارفین کے لیے AI سیکھنے، اردو گائیڈز پڑھنے اور کورسز تک پہنچنے کا آسان راستہ ہے۔ 50 ہزار سے زیادہ ڈاؤنلوڈز۔"
+  title="Urdu AI app download: Android پر AI اردو میں سیکھیں"
+  description="Urdu AI app download: Android پر AI، ChatGPT، Gemini، prompts، videos، guides اور free Urdu AI course ایک app میں سیکھیں۔ 50K+ downloads۔"
   canonical="https://urduai.org/app/"
   adsense={false}
-  schema={appSchema}
+  schema={[appSchema, faqSchema, breadcrumbSchema]}
 >
-  <!-- Hero — Play Store button above fold -->
-  <section style="background:var(--ink); color:var(--paper); padding-block:var(--space-2xl); text-align:center;">
+  <!-- Hero - Play Store button above fold -->
+  <section class="app-hero">
     <div class="container">
-      <h1 style="color:var(--paper); font-size:2.5rem;">
-        اردو اے آئی ایپ ڈاؤنلوڈ
+      <nav aria-label="بریڈکرمب">
+        <ol class="breadcrumb app-hero__breadcrumb">
+          <li><a href={`${base}/`}>ہوم</a></li>
+          <li aria-current="page">اردو اے آئی ایپ</li>
+        </ol>
+      </nav>
+
+      <h1>
+        Urdu AI app download
       </h1>
-      <p style="font-size:1.15rem; color:var(--gold-pale); max-width:560px; margin-inline:auto; margin-block-end:var(--space-sm);">
-        اردو اے آئی ایپ Android پر AI سیکھنے، اردو گائیڈز پڑھنے، کورسز دیکھنے اور روزانہ نئی اپڈیٹس تک پہنچنے کا آسان راستہ ہے۔
+      <p class="app-hero__intro">
+        Urdu AI app download کا محفوظ طریقہ Google Play Store ہے۔ Android پر اردو میں AI basics، ChatGPT، Gemini، prompts، videos، guides اور Urdu AI course ایک جگہ سے شروع کریں۔
       </p>
 
-      <!-- Download count — prominent -->
-      <div style="margin-block: var(--space-md);">
-        <span style="font-size:3rem; font-weight:700; color:var(--gold-light);" dir="ltr">50,000+</span>
-        <p style="color:var(--gold-pale); margin-block-start:0;">ڈاؤنلوڈز</p>
+      <!-- Download count - prominent -->
+      <div class="app-stats" aria-label="Play Store معلومات">
+        <div>
+          <span dir="ltr">50K+</span>
+          <p>downloads</p>
+        </div>
+        <div>
+          <span dir="ltr">5.0</span>
+          <p>Play Store rating</p>
+        </div>
+        <div>
+          <span dir="ltr">556</span>
+          <p>reviews</p>
+        </div>
       </div>
 
-      <!-- Play Store CTA — above fold -->
+      <!-- Play Store CTA - above fold -->
       <a
-        href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed"
+        href={playStoreUrl}
         class="btn-playstore"
-        style="font-size:1.2rem; padding:0.8em 2.5em;"
+        style="font-size:1.2rem; padding:0.8em 2.5em; margin-block-start:var(--space-sm);"
         rel="noopener"
         target="_blank"
       >
-        Google Play سے مفت ڈاؤنلوڈ کریں
+        Google Play سے download کریں
       </a>
 
-      <p style="color:var(--ink-muted); font-size:var(--text-sm); margin-block-start:var(--space-sm);">
-        صرف Android — iOS جلد آ رہا ہے
+      <p class="app-hero__note">
+        Android app؛ unknown APK links سے بچیں
       </p>
     </div>
+  </section>
+
+  <section class="container app-answer" aria-labelledby="app-answer-title">
+    <h2 id="app-answer-title">فوری جواب: اردو اے آئی ایپ کیا ہے؟</h2>
+    <p>
+      اردو اے آئی ایپ Android users کے لیے Urdu AI website کا آسان mobile راستہ ہے۔ اس میں آپ <a href={`${base}/learn/artificial-intelligence/`}>AI basics</a>، <a href={`${base}/guides/`}>اردو guides</a>، <a href={`${base}/courses/masterclass/`}>Urdu AI course</a>، <a href={`${base}/prompts/`}>prompts</a> اور <a href={`${base}/tools/`}>AI tools</a> تک تیزی سے پہنچ سکتے ہیں۔
+    </p>
   </section>
 
   <!-- App screenshots -->
   <section class="container" style="margin-block-start:var(--space-2xl);">
     <h2 class="section-heading">ایپ کا نظارہ</h2>
     <div style="display:flex; gap:var(--space-md); justify-content:center; flex-wrap:wrap; margin-block-top:var(--space-md);">
-      <img src={`${base}/images/app/screenshot-home.png`} alt="اردو اے آئی ایپ — ہوم اسکرین" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
-      <img src={`${base}/images/app/screenshot-courses.png`} alt="اردو اے آئی ایپ — کورسز" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
-      <img src={`${base}/images/app/screenshot-videos.png`} alt="اردو اے آئی ایپ — ویڈیوز" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+      <img src={`${base}/images/app/screenshot-home.png`} alt="اردو اے آئی ایپ، ہوم اسکرین" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+      <img src={`${base}/images/app/screenshot-courses.png`} alt="اردو اے آئی ایپ، کورسز" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
+      <img src={`${base}/images/app/screenshot-videos.png`} alt="اردو اے آئی ایپ، ویڈیوز" width="220" height="480" loading="lazy" style="border-radius:12px; border:1px solid var(--border);" />
     </div>
   </section>
 
@@ -83,41 +151,192 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <h2 class="section-heading">ایپ کیوں ڈاؤنلوڈ کریں؟</h2>
     <div class="post-grid" style="margin-block-top:var(--space-md);">
       <div class="card">
-        <h3 class="card__title">مکمل اردو میں</h3>
-        <p class="card__excerpt">تمام مواد خالص اردو میں — کوئی انگریزی اصطلاح بغیر وضاحت کے نہیں</p>
+        <h3 class="card__title">اردو میں AI سیکھیں</h3>
+        <p class="card__excerpt">AI، ChatGPT، Gemini اور tools کو عام اردو مثالوں کے ساتھ سمجھیں۔</p>
       </div>
       <div class="card">
-        <h3 class="card__title">موبائل پر آسان استعمال</h3>
-        <p class="card__excerpt">ویب سائٹ، گائیڈز اور کورسز ایک ہی Android ایپ میں کھل جاتے ہیں</p>
+        <h3 class="card__title">موبائل پر آسان راستہ</h3>
+        <p class="card__excerpt">Guides، videos، courses اور prompts ایک Android app سے کھولیں۔</p>
       </div>
       <div class="card">
-        <h3 class="card__title">مفت — کوئی سبسکرپشن نہیں</h3>
-        <p class="card__excerpt">تمام مضامین، گائیڈز اور پرامٹس بالکل مفت</p>
+        <h3 class="card__title">Beginner learning path</h3>
+        <p class="card__excerpt">پہلے AI basics، پھر Gemini، prompt engineering اور practical tools۔</p>
       </div>
       <div class="card">
-        <h3 class="card__title">آف لائن پڑھیں</h3>
-        <p class="card__excerpt">ایک بار لوڈ کریں، بغیر انٹرنیٹ پڑھتے رہیں</p>
+        <h3 class="card__title">Play Store پر موجود</h3>
+        <p class="card__excerpt">50K+ downloads، 5.0 star rating اور 556 reviews والی Android listing۔</p>
       </div>
       <div class="card">
-        <h3 class="card__title">روزانہ اپڈیٹ</h3>
-        <p class="card__excerpt">تازہ ترین اے آئی خبریں ہر روز — سیدھے آپ کے فون پر</p>
+        <h3 class="card__title">APK risk کم کریں</h3>
+        <p class="card__excerpt">Unknown APK کے بجائے آفیشل Google Play link سے install کریں۔</p>
       </div>
     </div>
+  </section>
+
+  <section class="container app-learning" aria-labelledby="app-learning-title">
+    <h2 id="app-learning-title" class="section-heading">ایپ میں کہاں سے شروع کریں؟</h2>
+    <div class="app-learning__links">
+      <a href={`${base}/learn/artificial-intelligence/`}>AI meaning in Urdu</a>
+      <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI beginner guide</a>
+      <a href={`${base}/learn/google-gemini/`}>Gemini کیا ہے؟</a>
+      <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini Urdu guide</a>
+      <a href={`${base}/learn/prompt-engineering/`}>Prompt engineering</a>
+      <a href={`${base}/courses/masterclass/`}>Urdu AI course</a>
+    </div>
+  </section>
+
+  <section class="container app-faq" aria-labelledby="app-faq-title">
+    <h2 id="app-faq-title">اکثر پوچھے گئے سوالات</h2>
+    {appFaqItems.map((item) => (
+      <div class="app-faq__item">
+        <h3>{item.question}</h3>
+        <p>{item.answer}</p>
+      </div>
+    ))}
   </section>
 
   <!-- Second CTA -->
   <section style="background:var(--gold-pale); border-block:2px solid var(--gold); padding-block:var(--space-xl); margin-block-start:var(--space-2xl); text-align:center;">
     <div class="container">
-      <h2 style="color:var(--ink);">ابھی ڈاؤنلوڈ کریں — بالکل مفت</h2>
+      <h2 style="color:var(--ink);">Android پر اردو AI learning شروع کریں</h2>
       <a
-        href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed"
+        href={playStoreUrl}
         class="btn-playstore"
         style="font-size:1.1rem; padding:0.7em 2em; margin-block-start:var(--space-md);"
         rel="noopener"
         target="_blank"
       >
-        Google Play پر جائیں
+        Google Play Store پر جائیں
       </a>
     </div>
   </section>
+
+  <style>
+    .app-hero {
+      background: var(--ink);
+      color: var(--paper);
+      padding-block: var(--space-2xl);
+      text-align: center;
+    }
+
+    .app-hero__breadcrumb {
+      justify-content: center;
+      color: var(--gold-pale);
+    }
+
+    .app-hero__breadcrumb a {
+      color: var(--gold-light);
+    }
+
+    .app-hero h1 {
+      color: var(--paper);
+      font-size: 2.4rem;
+      margin-block-start: var(--space-md);
+    }
+
+    .app-hero__intro {
+      font-size: 1.15rem;
+      color: var(--gold-pale);
+      max-width: 680px;
+      margin-inline: auto;
+      margin-block-end: var(--space-sm);
+      line-height: var(--lh-prose);
+    }
+
+    .app-stats {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+      margin-block: var(--space-md);
+    }
+
+    .app-stats div {
+      min-width: 110px;
+    }
+
+    .app-stats span {
+      display: block;
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1.2;
+    }
+
+    .app-stats p,
+    .app-hero__note {
+      color: var(--gold-pale);
+      font-size: var(--text-sm);
+      margin-block-start: 0.35em;
+    }
+
+    .app-answer {
+      margin-block-start: var(--space-xl);
+      border-block-start: 1px solid var(--border);
+      padding-block-start: var(--space-md);
+      max-width: 900px;
+    }
+
+    .app-answer h2,
+    .app-faq h2 {
+      font-size: 1.35rem;
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .app-answer p {
+      line-height: var(--lh-prose);
+      margin: 0;
+    }
+
+    .app-learning {
+      margin-block-start: var(--space-xl);
+    }
+
+    .app-learning__links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-xs);
+      margin-block-start: var(--space-md);
+    }
+
+    .app-learning__links a {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.45em 0.9em;
+      background: var(--paper-card);
+      color: var(--teal);
+      text-decoration: none;
+      font-size: var(--text-sm);
+    }
+
+    .app-learning__links a:hover {
+      border-color: var(--teal);
+    }
+
+    .app-faq {
+      margin-block-start: var(--space-xl);
+      border-block-start: 1px solid var(--border);
+      padding-block-start: var(--space-md);
+      max-width: 860px;
+    }
+
+    .app-faq__item {
+      border-block-end: 1px solid var(--border);
+      padding-block: var(--space-xs);
+    }
+
+    .app-faq__item h3 {
+      font-size: 1.08rem;
+      line-height: var(--lh-heading);
+      margin-block-end: 0.35em;
+    }
+
+    .app-faq__item p {
+      font-size: var(--text-sm);
+      line-height: var(--lh-prose);
+      margin-block-end: 0.45em;
+    }
+  </style>
 </Base>
