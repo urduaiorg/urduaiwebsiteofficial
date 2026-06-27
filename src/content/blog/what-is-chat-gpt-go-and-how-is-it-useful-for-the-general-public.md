@@ -168,7 +168,7 @@ OpenAI کے pricing page پر Go plan کے لیے لکھا ہے کہ یہ plan a
 ## اب آگے کیا پڑھیں؟
 
 - [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
-- [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
+- [مفت AI کورس اردو میں مکمل سیکھیں](/guides/free-ai-course-urdu/)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)
 - [کاروبار کے لیے ChatGPT اردو گائیڈ](/guides/chatgpt-for-business-urdu/)
