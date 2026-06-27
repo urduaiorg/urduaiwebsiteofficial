@@ -19,7 +19,6 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 /feed/                   /rss.xml               301
 
 # WordPress tag archives — redirect to blog
-/tag/google-ai-studio/ /blog/google-ai-studio-kia-hai/ 301
 /tag/gemini-ai/ /learn/google-gemini/ 301
 /tag/google-gemini/ /learn/google-gemini/ 301
 /tag/* /blog/ 301
