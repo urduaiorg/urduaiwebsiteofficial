@@ -9,7 +9,7 @@ tags:
   - ChatGPT
   - Codex
   - Cybersecurity
-image: "/images/blog/openai-gpt-5-6-sol-terra-luna-urdu.jpg"
+image: "/images/blog/openai-gpt-5-6-sol-terra-luna-urdu-cover.jpg"
 author: "اردو اے آئی ٹیم"
 adsense: true
 tools: ["ChatGPT"]
