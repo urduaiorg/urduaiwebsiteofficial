@@ -1,6 +1,6 @@
 ---
-title: "AI kya hai in Urdu: meaning، examples اور پہلا قدم"
-description: "AI kya hai in Urdu guide: AI meaning in Urdu، AI full form، مصنوعی ذہانت کی تعریف، روزمرہ مثالیں، tools اور پہلا prompt سیکھیں۔"
+title: "AI kya hai in Urdu: what is AI, meaning اور مثالیں"
+description: "AI kya hai in Urdu guide: what is AI in Urdu، AI meaning، artificial intelligence in Urdu، مصنوعی ذہانت کی تعریف، examples اور پہلا prompt سیکھیں۔"
 date: 2025-02-14
 category: "گائیڈ"
 tool: "Artificial Intelligence"
@@ -18,6 +18,12 @@ faq:
     answer: "AI کی full form Artificial Intelligence ہے۔ اردو میں اسے مصنوعی ذہانت کہتے ہیں۔"
   - question: "AI meaning in Urdu کیا ہے؟"
     answer: "AI meaning in Urdu مصنوعی ذہانت ہے: ایسی کمپیوٹر ٹیکنالوجی جو language، image، voice یا data کو سمجھ کر انسان کی مدد کرتی ہے۔"
+  - question: "What is AI in Urdu کا مختصر جواب کیا ہے؟"
+    answer: "What is AI in Urdu کا جواب یہ ہے کہ AI یعنی مصنوعی ذہانت کمپیوٹر کی مددگار صلاحیت ہے جو سوال، زبان، تصویر، آواز یا data کو سمجھ کر جواب، summary، idea یا draft بنا سکتی ہے۔"
+  - question: "Artificial intelligence in Urdu کسے کہتے ہیں؟"
+    answer: "Artificial intelligence in Urdu کو مصنوعی ذہانت کہتے ہیں۔ اس میں computer systems data اور examples سے patterns سیکھ کر انسان کے کام میں مدد دیتے ہیں۔"
+  - question: "AI kya hai urdu mein bataen؟"
+    answer: "AI ایک computer helper ہے۔ آپ اسے Urdu میں سوال، task یا prompt دیتے ہیں؛ یہ جواب، summary، plan، image idea یا writing draft بنا دیتا ہے، مگر final checking انسان کو کرنی چاہیے۔"
   - question: "AI technology کیا ہوتی ہے؟"
     answer: "AI technology ایسے computer systems کو کہتے ہیں جو data اور examples سے pattern سیکھ کر جواب، prediction، summary، image، voice یا code بنا سکتے ہیں۔"
   - question: "AI سیکھنے کا پہلا قدم کیا ہے؟"
@@ -29,7 +35,7 @@ faq:
   - question: "کیا AI کے جواب ہمیشہ درست ہوتے ہیں؟"
     answer: "نہیں۔ AI مددگار draft دے سکتا ہے، مگر news، health، law، finance، prices یا sensitive معلومات خود verify کرنا ضروری ہے۔"
 ---
-AI kya hai in Urdu کا مختصر جواب یہ ہے کہ AI یعنی Artificial Intelligence، جسے اردو میں مصنوعی ذہانت کہتے ہیں، کمپیوٹر کی وہ صلاحیت ہے جس سے وہ زبان، تصویر، آواز، ڈیٹا یا سوال سمجھ کر انسان کی مدد کے لیے جواب، خلاصہ، تجویز یا نیا مواد بنا سکتا ہے۔ آسان الفاظ میں AI ایک helper ہے: یہ آپ کا کام تیز کر سکتا ہے، مگر ہر جواب کو خود check کرنا ضروری ہے۔
+AI kya hai in Urdu کا مختصر جواب یہ ہے کہ AI یعنی Artificial Intelligence، جسے اردو میں مصنوعی ذہانت کہتے ہیں، کمپیوٹر کی وہ صلاحیت ہے جس سے وہ زبان، تصویر، آواز، ڈیٹا یا سوال سمجھ کر انسان کی مدد کے لیے جواب، خلاصہ، تجویز یا نیا مواد بنا سکتا ہے۔ اگر آپ "what is AI in Urdu" یا "artificial intelligence in Urdu" تلاش کر رہے ہیں تو آسان جواب یہی ہے: AI ایک helper ہے؛ یہ کام تیز کر سکتا ہے، مگر ہر جواب کو خود check کرنا ضروری ہے۔
 
 یہ Urdu AI Masterclass کا بنیادی سبق ہے۔ اگر آپ پہلی بار AI کے بارے میں سن رہے ہیں تو یہاں سے شروع کریں: پہلے definition سمجھیں، پھر روزمرہ مثالیں دیکھیں، پھر ایک چھوٹا prompt لکھ کر AI سے بات کرنا شروع کریں۔
 
@@ -39,11 +45,12 @@ AI kya hai in Urdu کا مختصر جواب یہ ہے کہ AI یعنی Artificia
 |---|---|
 | AI full form کیا ہے؟ | Artificial Intelligence |
 | AI meaning in Urdu کیا ہے؟ | مصنوعی ذہانت |
+| What is AI in Urdu؟ | computer helper جو سوال، data یا language سمجھ کر مددگار جواب بناتا ہے |
 | AI technology کیا کرتی ہے؟ | data، language، image یا voice سمجھ کر مددگار جواب بناتی ہے |
 | beginner پہلے کیا کرے؟ | ایک اردو prompt لکھ کر Gemini یا ChatGPT میں test کرے |
 | کون سا سبق پہلے پڑھیں؟ | [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پھر یہ guide |
 
-اگر آپ صرف definition چاہتے ہیں تو [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) glossary page کافی ہے۔ اگر آپ عملی مشق کے ساتھ سیکھنا چاہتے ہیں تو یہ Masterclass lesson مکمل کریں، پھر [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/) پڑھیں۔
+اگر آپ صرف definition چاہتے ہیں تو [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) glossary page کافی ہے۔ اگر آپ عملی مشق کے ساتھ سیکھنا چاہتے ہیں تو [Masterclass lesson 1](/courses/masterclass/1/) مکمل کریں، پھر [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/) پڑھیں۔
 
 ## AI کی آسان مثال
 
@@ -136,7 +143,7 @@ AI کبھی کبھی confident انداز میں غلط بات لکھ دیتا �
 
 ## Urdu AI Masterclass میں یہ سبق کہاں fit ہوتا ہے؟
 
-یہ lesson foundation ہے۔ پہلے AI کا مطلب سمجھیں، پھر [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/) پڑھیں۔ اس کے بعد [Urdu AI Masterclass](/courses/masterclass/) کے video lessons شروع کریں۔
+یہ lesson foundation ہے۔ پہلے AI کا مطلب سمجھیں، پھر [AI course Urdu کا lesson 1](/courses/masterclass/1/) کھولیں۔ اس کے بعد [مفت AI کورس اردو میں کہاں سے شروع کریں](/guides/free-ai-course-urdu/) پڑھیں اور [Urdu AI Masterclass](/courses/masterclass/) کے video lessons ترتیب سے شروع کریں۔
 
 ایک بہتر learning path یہ ہے:
 
@@ -159,6 +166,18 @@ AI کی full form Artificial Intelligence ہے۔ اردو میں اسے مصنو
 ### AI meaning in Urdu کیا ہے؟
 
 AI meaning in Urdu مصنوعی ذہانت ہے: ایسی کمپیوٹر ٹیکنالوجی جو language، image، voice یا data کو سمجھ کر انسان کی مدد کرتی ہے۔
+
+### What is AI in Urdu کا مختصر جواب کیا ہے؟
+
+What is AI in Urdu کا جواب یہ ہے کہ AI یعنی مصنوعی ذہانت کمپیوٹر کی مددگار صلاحیت ہے جو سوال، زبان، تصویر، آواز یا data کو سمجھ کر جواب، summary، idea یا draft بنا سکتی ہے۔
+
+### Artificial intelligence in Urdu کسے کہتے ہیں؟
+
+Artificial intelligence in Urdu کو مصنوعی ذہانت کہتے ہیں۔ اس میں computer systems data اور examples سے patterns سیکھ کر انسان کے کام میں مدد دیتے ہیں۔
+
+### AI kya hai urdu mein bataen؟
+
+AI ایک computer helper ہے۔ آپ اسے Urdu میں سوال، task یا prompt دیتے ہیں؛ یہ جواب، summary، plan، image idea یا writing draft بنا دیتا ہے، مگر final checking انسان کو کرنی چاہیے۔
 
 ### AI technology کیا ہوتی ہے؟
 
