@@ -31,6 +31,8 @@ faq:
     answer: "Urdu AI ایک اردو learning platform ہے جو ChatGPT، Gemini اور AI tools سکھاتا ہے۔ ChatGPT OpenAI کی app اور website ہے؛ دونوں ایک چیز نہیں۔"
   - question: "ChatGPT Urdu free download کا کیا مطلب ہے؟"
     answer: "اس کا مطلب یہ ہے کہ app download کے لیے ہمیشہ OpenAI کا آفیشل page استعمال کریں۔ کچھ features free plan میں آتے ہیں، paid plans اور limits OpenAI کی current policy کے مطابق بدل سکتے ہیں۔"
+  - question: "ChatGPT install کرنے کے بعد beginner کو کیا سیکھنا چاہیے؟"
+    answer: "پہلے آسان اردو prompt لکھنا سیکھیں، پھر prompt engineering، CV writing، personal assistant use case اور free AI course سے practical مشق شروع کریں۔"
 ---
 
 ChatGPT Urdu app download کا محفوظ طریقہ یہ ہے کہ پہلے OpenAI کا آفیشل download page، [chatgpt.com/download](https://chatgpt.com/download)، کھولیں، پھر اپنے فون کے حساب سے Play Store یا App Store پر جائیں اور publisher کا نام OpenAI چیک کریں۔ اس کے بعد ایپ انسٹال کریں، سائن ان کریں، اور اردو میں لکھ کر یا voice option دستیاب ہو تو بول کر ChatGPT in Urdu استعمال شروع کریں۔
@@ -115,6 +117,8 @@ Writing کے لیے ChatGPT کو صرف topic نہ دیں۔ اسے audience، to
 
 اگر آپ کو کسی app پر شک ہو تو اسے install نہ کریں۔ ChatGPT کو browser میں [chatgpt.com](https://chatgpt.com) سے بھی استعمال کیا جا سکتا ہے۔
 
+OpenAI کی تازہ guidance کے لیے یہ آفیشل pages دیکھیں: [ChatGPT download](https://chatgpt.com/download)، [ChatGPT Android App FAQ](https://help.openai.com/en/articles/8142208-chatgpt-android-app-faq)، [ChatGPT iOS App FAQ](https://help.openai.com/en/articles/7908378-where-can-i-download-the-openai-chatgpt-ios-app-on-the-apple-app-store)، اور [Voice Mode FAQ](https://help.openai.com/en/articles/8400625-voice-mode-faq)۔
+
 ## Urdu AI ChatGPT ہے یا الگ platform؟
 
 Urdu AI ایک learning platform ہے جہاں ChatGPT، Gemini، Claude، prompt engineering اور AI tools کو اردو میں سمجھایا جاتا ہے۔ ChatGPT OpenAI کی app اور website ہے۔ اگر آپ "Urdu AI ChatGPT" search کر رہے ہیں تو آسان فرق یہ ہے: ChatGPT tool ہے، Urdu AI اس tool کو اردو میں استعمال کرنا سکھاتا ہے۔
@@ -173,11 +177,17 @@ Urdu AI ایک اردو learning platform ہے جو ChatGPT، Gemini اور AI t
 
 اس کا مطلب یہ ہے کہ app download کے لیے ہمیشہ OpenAI کا آفیشل page استعمال کریں۔ کچھ features free plan میں آتے ہیں، paid plans اور limits OpenAI کی current policy کے مطابق بدل سکتے ہیں۔
 
+### ChatGPT install کرنے کے بعد beginner کو کیا سیکھنا چاہیے؟
+
+پہلے [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں، پھر ChatGPT میں ایک آسان Urdu prompt آزمائیں۔ اس کے بعد [ChatGPT CV maker guide](/how-to/how-to-write-cv-with-chatgpt/)، [personal assistant guide](/how-to/how-to-make-chatgpt-your-personal-assistant/) یا [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/) سے practical مشق شروع کریں۔
+
 ## اگلا قدم
 
 - [AI tools directory میں ChatGPT card](/tools/#tool-chatgpt)
+- [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)
+- [ChatGPT complete Urdu guide](/blog/chatgpt-complete-urdu-guide/)
 - [ChatGPT Go price in Pakistan](/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public/)
 - [Prompt engineering کیا ہے؟](/learn/prompt-engineering/)
 - [12 AI tools: کس کام کے لیے کون سا؟](/blog/12-best-ai-tools-that-make-work-faster-and-easier/)
