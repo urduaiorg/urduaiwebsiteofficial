@@ -39,10 +39,10 @@ const nextLesson = lesson.number < lessons.length ? lesson.number + 1 : null;
 // Extract first paragraph as plain text for description
 const firstPara = lesson.description.split('\n\n').find(b => !b.trim().startsWith('##'))?.replace(/\*\*/g, '').trim().slice(0, 160) || lesson.title;
 const pageTitle = lesson.number === 1
-  ? 'AI کیا ہے؟ اردو میں آسان تعریف — اردو اے آئی ماسٹرکلاس'
+  ? 'AI course Urdu: AI کیا ہے؟ پہلا سبق'
   : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
 const pageDescription = lesson.number === 1
-  ? 'AI کیا ہے؟ اس پہلے سبق میں مصنوعی ذہانت کی آسان تعریف، مشین لرننگ، روزمرہ مثالیں اور اردو اے آئی ماسٹرکلاس کا آغاز سمجھیں۔'
+  ? 'AI course Urdu کے پہلے سبق میں AI کیا ہے، مصنوعی ذہانت کی تعریف، machine learning، everyday examples، Gemini/ChatGPT practice اور quiz سیکھیں۔'
   : `${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`;
 
 const courseSchema = {
@@ -84,6 +84,35 @@ const videoSchema = {
   },
 };
 
+const lessonOneFaq = lesson.number === 1 ? [
+  {
+    question: "AI کیا ہے؟",
+    answer: "AI یعنی artificial intelligence کمپیوٹر کی وہ صلاحیت ہے جس سے وہ examples سے pattern سیکھ کر writing، translation، image، recommendation یا decision جیسے کاموں میں مدد دے سکتا ہے۔",
+  },
+  {
+    question: "کیا یہ AI course Urdu میں beginners کے لیے ہے؟",
+    answer: "جی ہاں۔ یہ پہلا سبق beginners کے لیے ہے۔ اس میں AI کی تعریف، machine learning، روزمرہ examples، ChatGPT/Gemini practice اور quiz شامل ہے۔",
+  },
+  {
+    question: "AI course شروع کرنے کے لیے کیا پہلے coding آنا ضروری ہے؟",
+    answer: "نہیں۔ پہلے سبق کے لیے coding ضروری نہیں۔ آپ phone یا laptop پر Gemini یا ChatGPT میں سادہ Urdu prompt لکھ کر practice شروع کر سکتے ہیں۔",
+  },
+  {
+    question: "سبق 1 کے بعد اگلا قدم کیا ہے؟",
+    answer: "سبق 1 کے بعد Masterclass کا lesson 2 کھولیں، AI tools directory دیکھیں، اور Gemini Urdu guide یا ChatGPT app guide سے ایک real task پر practice کریں۔",
+  },
+] : [];
+
+const faqSchema = lessonOneFaq.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": lessonOneFaq.map(({ question, answer }) => ({
+    "@type": "Question",
+    "name": question,
+    "acceptedAnswer": { "@type": "Answer", "text": answer },
+  })),
+} : null;
+
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -105,6 +134,7 @@ const breadcrumbSchema = {
 >
   <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
   <div class="container lesson-page" style="margin-block-start: var(--space-xl);">
     <!-- Breadcrumb -->
@@ -158,6 +188,18 @@ const breadcrumbSchema = {
 
     <!-- Written lesson content -->
     <article class="lesson-content prose" set:html={lessonHtml} />
+
+    {lesson.number === 1 && (
+      <section class="lesson-faq" aria-labelledby="lesson-faq-title">
+        <h2 id="lesson-faq-title">سبق 1 کے عام سوالات</h2>
+        {lessonOneFaq.map(({ question, answer }) => (
+          <details>
+            <summary>{question}</summary>
+            <p>{answer}</p>
+          </details>
+        ))}
+      </section>
+    )}
 
     <!-- Tools box -->
     {lesson.tools.length > 0 && (
@@ -305,6 +347,31 @@ const breadcrumbSchema = {
     }
     .lesson-content :global(p) {
       margin-block-end: var(--space-sm);
+    }
+
+    .lesson-faq {
+      margin-block: var(--space-xl);
+    }
+    .lesson-faq h2 {
+      color: var(--navy);
+      margin-block-end: var(--space-sm);
+    }
+    .lesson-faq details {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-block-end: var(--space-xs);
+      overflow: hidden;
+      background: var(--paper-card);
+    }
+    .lesson-faq summary {
+      padding: var(--space-sm) var(--space-md);
+      cursor: pointer;
+      font-weight: bold;
+      background: var(--paper-warm);
+    }
+    .lesson-faq p {
+      padding: var(--space-sm) var(--space-md);
+      margin: 0;
     }
 
     /* Tools box */

@@ -5,16 +5,16 @@ import { lessons } from '../../../data/masterclass-lessons';
 const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
-  "name": "اردو اے آئی ماسٹرکلاس",
-  "description": "اردو اے آئی ماسٹرکلاس ایک مفت اردو AI کورس ہے جس میں 9 ویڈیو اسباق، کوئزز، اور سرٹیفکیٹ شامل ہیں۔ ChatGPT، Gemini، Claude، وائب کوڈنگ، AI تصاویر، آواز، اوتار — سب اردو میں سیکھیں۔",
+  "name": "AI course Urdu free: اردو اے آئی ماسٹرکلاس",
+  "description": "AI course Urdu free: اردو اے آئی ماسٹرکلاس beginners کے لیے 9 ویڈیو اسباق، quizzes اور certificate کے ساتھ AI، ChatGPT، Gemini، Claude، prompts، images اور vibe coding سکھاتا ہے۔",
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
   "numberOfCredits": 9,
   "educationalLevel": "Beginner",
   "url": "https://urduai.org/courses/masterclass/",
-  "coursePrerequisites": "کوئی پیشگی تجربہ درکار نہیں — بالکل شروع سے",
-  "teaches": "مصنوعی ذہانت کے بنیادی تصورات، AI ٹولز کا استعمال، وائب کوڈنگ، AI سے مواد بنانا",
+  "coursePrerequisites": "کوئی پیشگی تجربہ درکار نہیں",
+  "teaches": "مصنوعی ذہانت کی بنیاد، AI tools کا استعمال، prompts، ChatGPT، Gemini، Claude، وائب کوڈنگ، AI images، voice اور website building",
   "totalHistoricalEnrollment": 50000,
   "offers": {
     "@type": "Offer",
@@ -67,28 +67,33 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "کیا اردو اے آئی ماسٹرکلاس مفت ہے؟",
-      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں، یہ کورس بغیر فیس کے دستیاب ہے۔ اس میں 9 ویڈیو اسباق، کوئزز، اور کورس مکمل کرنے کے بعد سرٹیفکیٹ شامل ہے۔" },
+      "name": "کیا یہ AI course Urdu میں free ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں، اردو اے آئی ماسٹرکلاس بغیر فیس کے دستیاب ہے۔ اس میں 9 ویڈیو اسباق، quizzes، beginner practice اور کورس مکمل کرنے کے بعد certificate شامل ہے۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "اردو اے آئی ماسٹرکلاس میں کیا سکھایا جاتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "اس کورس میں AI کیا ہے، ChatGPT، Gemini، Claude، prompts، AI writing، images، voice، avatars، vibe coding اور اپنی پہلی website بنانے کا راستہ سکھایا جاتا ہے۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا beginners اس AI course سے شروع کر سکتے ہیں؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ یہ course beginners کے لیے ہے۔ پہلے سبق میں AI کیا ہے سمجھایا جاتا ہے، پھر tools، prompts، content creation اور web/app ideas کی طرف لے جایا جاتا ہے۔" },
     },
     {
       "@type": "Question",
       "name": "ماسٹرکلاس مکمل کرنے میں کتنا وقت لگتا ہے؟",
-      "acceptedAnswer": { "@type": "Answer", "text": "کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں — کوئی ڈیڈ لائن نہیں۔" },
+      "acceptedAnswer": { "@type": "Answer", "text": "کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں؛ کوئی مقررہ deadline نہیں۔" },
     },
     {
       "@type": "Question",
-      "name": "کیا مجھے پہلے سے AI کا تجربہ ہونا چاہیے؟",
-      "acceptedAnswer": { "@type": "Answer", "text": "بالکل نہیں۔ یہ کورس بالکل شروع سے شروع ہوتا ہے — AI کیا ہے سے لے کر ویب سائٹ بنانے تک۔ کوئی پیشگی تجربہ درکار نہیں۔" },
+      "name": "AI course certificate کیسے ملتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "تمام 9 اسباق کے quizzes پاس کرنے کے بعد certificate form بھریں۔ PDF certificate آپ کے email پر بھیجا جاتا ہے۔" },
     },
     {
       "@type": "Question",
-      "name": "سرٹیفکیٹ کیسے ملتا ہے؟",
-      "acceptedAnswer": { "@type": "Answer", "text": "تمام 9 اسباق کے کوئزز پاس کرنے کے بعد سرٹیفکیٹ فارم بھریں۔ PDF سرٹیفکیٹ آپ کے ای میل پر خودکار طور پر بھیج دیا جائے گا۔" },
-    },
-    {
-      "@type": "Question",
-      "name": "کیا یہ کورس موبائل پر چلتا ہے؟",
-      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔" },
+      "name": "کیا یہ AI course mobile پر چلتا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ کورس website اور Urdu AI app دونوں پر mobile-friendly ہے۔ آپ browser میں urduai.org کھول سکتے ہیں یا app استعمال کر سکتے ہیں۔" },
     },
     {
       "@type": "Question",
@@ -102,8 +107,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
-  title="مفت AI کورس اردو میں — اردو اے آئی ماسٹرکلاس"
-  description="اردو اے آئی ماسٹرکلاس میں AI کی بنیادی باتیں، ChatGPT، Gemini، Claude، وائب کوڈنگ اور AI مواد بنانا 9 ویڈیو اسباق میں سیکھیں۔"
+  title="AI course Urdu free: 9 lessons اور certificate"
+  description="AI course Urdu free میں 9 video lessons، quizzes اور certificate کے ساتھ AI، ChatGPT، Gemini، Claude، prompts، images اور vibe coding سیکھیں۔"
   canonical="https://urduai.org/courses/masterclass/"
   adsense={false}
   schema={courseSchema}
@@ -123,10 +128,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <!-- Hero -->
     <div class="mc-hero">
-      <span class="badge badge--gold">مفت کورس</span>
-      <h1>مفت AI کورس اردو میں</h1>
+      <span class="badge badge--gold">Free AI course</span>
+      <h1>AI course Urdu free: 9 lessons اور certificate</h1>
       <p class="mc-hero__subtitle">
-        اردو اے آئی ماسٹرکلاس ایک مفت AI کورس ہے جو اردو میں مصنوعی ذہانت بالکل شروع سے سکھاتا ہے۔ اس میں 9 ویڈیو اسباق ہیں: ChatGPT، Google Gemini، Claude، وائب کوڈنگ، AI تصاویر، آواز، اوتار، اور ویب سائٹ بنانا۔ ہر سبق کے بعد کوئز دیں اور تمام اسباق مکمل کرنے پر مفت سرٹیفکیٹ حاصل کریں۔
+        AI course Urdu free کا واضح راستہ اردو اے آئی ماسٹرکلاس ہے: beginners کے لیے 9 video lessons، quizzes اور certificate۔ اس میں AI کیا ہے، ChatGPT، Gemini، Claude، prompts، AI images، voice، avatars، vibe coding اور website building سادہ ترتیب سے سکھائی جاتی ہے۔
       </p>
       <div class="mc-stats">
         <div class="mc-stat">
@@ -139,7 +144,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
         <div class="mc-stat">
           <span class="mc-stat__number">مفت</span>
-          <span class="mc-stat__label">سرٹیفکیٹ</span>
+          <span class="mc-stat__label">certificate</span>
         </div>
       </div>
     </div>
@@ -147,7 +152,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <section class="mc-start-path" aria-labelledby="mc-start-path-title">
       <h2 id="mc-start-path-title">اگر آپ بالکل نئے ہیں تو یہاں سے شروع کریں</h2>
       <p>
-        ماسٹرکلاس شروع کرنے سے پہلے بنیاد صاف رکھیں: پہلے AI کی آسان تعریف پڑھیں، پھر Gemini میں اردو سوال پوچھنے کی مشق کریں، اور پھر سبق 1 شروع کریں۔
+        ماسٹرکلاس شروع کرنے سے پہلے بنیاد صاف رکھیں: پہلے AI کی سادہ تعریف پڑھیں، پھر Gemini میں اردو سوال پوچھنے کی مشق کریں، اور پھر سبق 1 شروع کریں۔
       </p>
       <div class="mc-start-path__links">
         <a href={`${base}/learn/artificial-intelligence/`}>مصنوعی ذہانت کیا ہے؟</a>
@@ -160,7 +165,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <!-- Subscribe + enroll section -->
     <div class="mc-subscribe" id="mc-subscribe">
-      <h2>کورس شروع کرنے کے لیے سبسکرائب کریں</h2>
+      <h2>AI course شروع کریں</h2>
       <p class="text-muted">اپنا ای میل درج کریں — اردو اے آئی اپڈیٹس آپ کو ملتی رہیں گی اور کورس شروع ہو جائے گا۔</p>
       <form id="subscribe-form" class="mc-subscribe__form">
         <div class="mc-subscribe__input-group">
@@ -231,24 +236,28 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="mc-faq">
       <h2>عام سوالات</h2>
       <details>
-        <summary>کیا اردو اے آئی ماسٹرکلاس مفت ہے؟</summary>
-        <p>جی ہاں، یہ کورس بغیر فیس کے دستیاب ہے۔ اس میں 9 ویڈیو اسباق، کوئزز، اور کورس مکمل کرنے کے بعد سرٹیفکیٹ شامل ہے۔</p>
+        <summary>کیا یہ AI course Urdu میں free ہے؟</summary>
+        <p>جی ہاں، اردو اے آئی ماسٹرکلاس بغیر فیس کے دستیاب ہے۔ اس میں 9 ویڈیو اسباق، quizzes، beginner practice اور کورس مکمل کرنے کے بعد certificate شامل ہے۔</p>
+      </details>
+      <details>
+        <summary>اردو اے آئی ماسٹرکلاس میں کیا سکھایا جاتا ہے؟</summary>
+        <p>اس کورس میں AI کیا ہے، ChatGPT، Gemini، Claude، prompts، AI writing، images، voice، avatars، vibe coding اور اپنی پہلی website بنانے کا راستہ سکھایا جاتا ہے۔</p>
+      </details>
+      <details>
+        <summary>کیا beginners اس AI course سے شروع کر سکتے ہیں؟</summary>
+        <p>جی ہاں۔ یہ course beginners کے لیے ہے۔ پہلے سبق میں AI کیا ہے سمجھایا جاتا ہے، پھر tools، prompts، content creation اور web/app ideas کی طرف لے جایا جاتا ہے۔</p>
       </details>
       <details>
         <summary>ماسٹرکلاس مکمل کرنے میں کتنا وقت لگتا ہے؟</summary>
-        <p>کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں — کوئی ڈیڈ لائن نہیں۔</p>
+        <p>کل 9 ویڈیو اسباق ہیں جو تقریباً 3 گھنٹے میں مکمل ہو جاتے ہیں۔ آپ اپنی رفتار سے سیکھ سکتے ہیں؛ کوئی مقررہ deadline نہیں۔</p>
       </details>
       <details>
-        <summary>کیا مجھے پہلے سے AI کا تجربہ ہونا چاہیے؟</summary>
-        <p>بالکل نہیں۔ یہ کورس بالکل شروع سے شروع ہوتا ہے — AI کیا ہے سے لے کر ویب سائٹ بنانے تک۔ کوئی پیشگی تجربہ درکار نہیں۔</p>
+        <summary>AI course certificate کیسے ملتا ہے؟</summary>
+        <p>تمام 9 اسباق کے quizzes پاس کرنے کے بعد certificate form بھریں۔ PDF certificate آپ کے email پر بھیجا جاتا ہے۔</p>
       </details>
       <details>
-        <summary>سرٹیفکیٹ کیسے ملتا ہے؟</summary>
-        <p>تمام 9 اسباق کے کوئزز پاس کرنے کے بعد سرٹیفکیٹ فارم بھریں۔ PDF سرٹیفکیٹ آپ کے ای میل پر خودکار طور پر بھیج دیا جائے گا۔</p>
-      </details>
-      <details>
-        <summary>کیا یہ کورس موبائل پر چلتا ہے؟</summary>
-        <p>جی ہاں۔ ویب سائٹ اور اردو اے آئی ایپ دونوں پر یہ کورس موبائل فرینڈلی ہے۔ Play Store سے ایپ ڈاؤن لوڈ کریں یا براؤزر میں urduai.org کھولیں۔</p>
+        <summary>کیا یہ AI course mobile پر چلتا ہے؟</summary>
+        <p>جی ہاں۔ کورس website اور Urdu AI app دونوں پر mobile-friendly ہے۔ آپ browser میں urduai.org کھول سکتے ہیں یا app استعمال کر سکتے ہیں۔</p>
       </details>
       <details>
         <summary>کورس شروع کرنے سے پہلے کون سا سبق یا گائیڈ پڑھوں؟</summary>
