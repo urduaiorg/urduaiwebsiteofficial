@@ -1,6 +1,6 @@
 ---
-title: "Gemini AI Urdu: Google Gemini app استعمال کرنے کا طریقہ"
-description: "Gemini AI Urdu guide: Google Gemini app، phone، prompts، Urdu answer، student use، file upload، privacy اور Google AI Studio کا فرق سیکھیں۔"
+title: "Gemini AI Urdu: Google Gemini app، phone اور prompts"
+description: "Gemini AI Urdu guide: Google Gemini app download، phone setup، Urdu prompts، student use، privacy، files اور Google AI Studio کا فرق سیکھیں۔"
 date: 2026-04-04
 last_verified: 2026-06-27
 category: "ہاؤ ٹو"
@@ -20,10 +20,16 @@ faq:
     answer: "جی ہاں، Gemini اردو سوالات سمجھتا ہے اور اردو میں جواب دے سکتا ہے۔ بہتر جواب کے لیے سوال میں مقصد، audience، لمبائی اور مطلوبہ انداز ضرور لکھیں۔"
   - question: "Google Gemini app download کہاں سے کریں؟"
     answer: "Gemini app ہمیشہ اپنے phone کے آفیشل app store یا gemini.google.com سے کھولیں۔ مشکوک APK، clone app یا غیر واضح download link استعمال نہ کریں۔"
+  - question: "جیمنی کیا ہے؟"
+    answer: "جیمنی Google کا AI assistant ہے جو سوالات کے جواب، writing، summary، brainstorming، image understanding اور study help میں مدد دیتا ہے۔"
+  - question: "کیا Google Gemini پاکستان میں phone پر چلتا ہے؟"
+    answer: "Gemini browser میں gemini.google.com پر استعمال ہو سکتا ہے، اور mobile app کی availability device، account، language اور location کے حساب سے بدل سکتی ہے۔"
   - question: "Gemini استعمال کرنے کے لیے کیا چاہیے؟"
     answer: "آپ کو Google اکاؤنٹ، انٹرنیٹ، جدید browser یا Gemini app چاہیے۔ features، limits اور availability وقت کے ساتھ بدل سکتے ہیں، اس لیے اہم کام سے پہلے Google کی آفیشل معلومات چیک کریں۔"
   - question: "Gemini میں اردو prompt کیسے لکھیں؟"
     answer: "صرف موضوع نہ لکھیں۔ اپنا مقصد، audience، انداز، لمبائی اور output format واضح کریں، پھر follow-up سے جواب بہتر بنائیں۔"
+  - question: "Gemini AI Urdu میں پہلا prompt کیا لکھیں؟"
+    answer: "پہلے prompt میں اپنا کام، audience، desired style اور output format لکھیں، مثلا: اس topic کو beginner student کے لیے آسان اردو میں سمجھائیں اور آخر میں 5 سوالات دیں۔"
   - question: "Gemini اور Google AI Studio میں کیا فرق ہے؟"
     answer: "Gemini عام users کے لیے chat-style AI assistant ہے۔ Google AI Studio prompts، model settings، API experiments اور prototype بنانے کے لیے advanced workspace ہے۔"
   - question: "Gemini سیکھنے کے بعد اگلا قدم کیا ہے؟"
@@ -45,11 +51,24 @@ Gemini AI Urdu میں استعمال کرنے کا طریقہ یہ ہے کہ gem
 |---|---|
 | Gemini AI Urdu میں کیسے چلائیں؟ | gemini.google.com یا app کھولیں، Google account سے sign in کریں، Urdu prompt لکھیں |
 | Phone پر کیا چاہیے؟ | internet، Google account، supported browser یا Gemini app |
+| App download کہاں سے ہو؟ | phone کے آفیشل app store، Google app، یا gemini.google.com سے شروع کریں |
 | پہلا prompt کیا ہو؟ | اپنا کام، audience، انداز اور output format ایک ساتھ لکھیں |
 | student کہاں سے شروع کرے؟ | پہلے basic prompt آزمائیں، پھر [Gemini for students guide](/guides/gemini-for-students-urdu/) پڑھیں |
+| student offer کیسے check ہو؟ | [Google Gemini for Students](https://gemini.google/students/) یا Google One کے آفیشل page پر account سے status check کریں |
 | privacy میں کیا احتیاط ہے؟ | CNIC، password، bank detail، student record یا client file بغیر ضرورت upload نہ کریں |
 
 اگر آپ صرف definition چاہتے ہیں تو [Gemini کیا ہے؟](/learn/google-gemini/) پڑھیں۔ اگر آپ عملی steps چاہتے ہیں تو اسی guide کو follow کریں، پھر [prompt engineering](/learn/prompt-engineering/) سے بہتر سوال لکھنا سیکھیں۔
+
+## Gemini search سے آئے ہیں؟ یہاں سے شروع کریں
+
+| آپ کا مقصد | بہترین اگلا قدم |
+|---|---|
+| "جیمنی کیا ہے؟" سمجھنا | [Gemini کیا ہے؟](/learn/google-gemini/) |
+| phone پر app چلانا | اس page کے app اور download sections follow کریں |
+| Urdu prompt لکھنا | نیچے دیے گئے prompt examples copy کر کے بدلیں |
+| طالب علم کے طور پر استعمال | [طالب علموں کے لیے Gemini AI گائیڈ](/guides/gemini-for-students-urdu/) |
+| AI tools compare کرنا | [AI tools directory](/tools/) |
+| Gemini API یا prototype | [Google AI Studio Urdu hub](/tag/google-ai-studio/) |
 
 ## قدم 1: Gemini کھولیں اور Google اکاؤنٹ سے sign in کریں
 
@@ -154,7 +173,7 @@ Google Connected Apps کے لیے permission ضروری ہو سکتی ہے۔ ذ�
 
 ## قدم 7: جواب کو verify کریں
 
-Gemini مددگار ہے، مگر ہر جواب درست نہیں ہوتا۔ تاریخ، خبر، قانون، صحت، finance، school policy یا official deadline جیسے کاموں میں جواب کو source سے verify کریں۔
+Gemini مددگار ہے، مگر ہر جواب درست نہیں ہوتا۔ تاریخ، خبر، قانون، صحت، finance، school policy یا آفیشل deadline جیسے کاموں میں جواب کو source سے verify کریں۔
 
 اچھا practical طریقہ یہ ہے کہ Gemini سے draft لیں، پھر اس میں موجود facts خود check کریں۔ AI وقت بچاتا ہے؛ ذمہ داری ختم نہیں کرتا۔
 
@@ -253,6 +272,14 @@ Android یا iPhone پر Gemini app کھولیں، Google account سے sign in �
 
 Gemini app ہمیشہ اپنے phone کے آفیشل app store یا gemini.google.com سے کھولیں۔ مشکوک APK، clone app یا غیر واضح download link استعمال نہ کریں۔
 
+### جیمنی کیا ہے؟
+
+جیمنی Google کا AI assistant ہے جو سوالات کے جواب، writing، summary، brainstorming، image understanding اور study help میں مدد دیتا ہے۔ اگر آپ basic definition چاہتے ہیں تو [Gemini کیا ہے؟](/learn/google-gemini/) الگ سے پڑھیں۔
+
+### کیا Google Gemini پاکستان میں phone پر چلتا ہے؟
+
+Gemini browser میں [gemini.google.com](https://gemini.google.com/) پر استعمال ہو سکتا ہے، اور mobile app کی availability device، account، language اور location کے حساب سے بدل سکتی ہے۔ اگر app store میں app نظر نہ آئے تو پہلے browser version سے basic prompts آزمائیں۔
+
 ### Gemini استعمال کرنے کے لیے کیا چاہیے؟
 
 آپ کو Google اکاؤنٹ، انٹرنیٹ، جدید browser یا Gemini app چاہیے۔ features، limits اور availability وقت کے ساتھ بدل سکتے ہیں، اس لیے اہم کام سے پہلے Google کی آفیشل معلومات چیک کریں۔
@@ -260,6 +287,10 @@ Gemini app ہمیشہ اپنے phone کے آفیشل app store یا gemini.googl
 ### Gemini میں اردو prompt کیسے لکھیں؟
 
 صرف موضوع نہ لکھیں۔ اپنا مقصد، audience، انداز، لمبائی اور output format واضح کریں، پھر follow-up سے جواب بہتر بنائیں۔
+
+### Gemini AI Urdu میں پہلا prompt کیا لکھیں؟
+
+پہلے prompt میں اپنا کام، audience، desired style اور output format لکھیں۔ مثال: "اس topic کو beginner student کے لیے آسان اردو میں سمجھائیں، مشکل الفاظ الگ list کریں، اور آخر میں 5 سوالات دیں۔"
 
 ### Gemini اور Google AI Studio میں کیا فرق ہے؟
 
@@ -279,12 +310,13 @@ Gemini student offer ہر ملک، account اور تاریخ کے حساب سے 
 
 ## اب آگے کیا سیکھیں؟
 
-- [Gemini کیا ہے؟](/learn/google-gemini/)
-- [طالب علموں کے لیے Gemini AI گائیڈ](/guides/gemini-for-students-urdu/)
-- [Prompt engineering کیا ہے؟](/learn/prompt-engineering/)
-- [Google AI Studio Urdu hub](/tag/google-ai-studio/)
-- [NotebookLM گائیڈ](/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/)
-- [Job seekers کے لیے AI prompts](/prompts/job-seekers/)
-- [AI tools for freelancers Pakistan](/guides/ai-tools-for-freelancers-pakistan/)
-- [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/)
-- [AI tools directory](/tools/)
+Gemini کو ایک دن میں مکمل نہ سیکھیں۔ پہلے ایک real کام چنیں، اس page سے prompt لکھیں، پھر اپنے مقصد کے حساب سے اگلا page کھولیں۔
+
+| مقصد | اگلا page |
+|---|---|
+| basic meaning | [Gemini کیا ہے؟](/learn/google-gemini/) |
+| student workflow | [طالب علموں کے لیے Gemini AI گائیڈ](/guides/gemini-for-students-urdu/) |
+| بہتر prompts | [Prompt engineering کیا ہے؟](/learn/prompt-engineering/) |
+| documents پر study | [NotebookLM گائیڈ](/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/) |
+| مکمل learning path | [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/) |
+| tools compare کرنا | [AI tools directory](/tools/) |
