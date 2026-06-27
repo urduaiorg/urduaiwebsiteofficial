@@ -18,8 +18,8 @@ faq:
     answer: "بنیادی تصویر کے لیے کافی ہو سکتا ہے، مگر بہتر اور cinematic نتیجے کے لیے emotion کے ساتھ facial cues، location، lighting اور کرداروں کی reaction بھی لکھنی چاہیے۔"
   - question: "reference image استعمال کرتے وقت identity copy سے کیسے بچیں؟"
     answer: "پرامپٹ میں صاف لکھیں کہ reference image کو صرف mood، lighting، clothing، composition یا expression style کے لیے استعمال کریں، exact face یا identity copy نہ کریں۔"
-  - question: "سب سے مضبوط visual contrast کون سا ہے؟"
-    answer: "شرارتی چچا، AU12A + AU14B، اور ناپسندیدگی دکھاتی لڑکی، AU9B + AU10B + AU23B، بہت مضبوط contrast بناتے ہیں کیونکہ دونوں expressions ایک دوسرے کو directly react کرتے ہیں۔"
+  - question: "کون سی expression pairing مضبوط visual contrast دیتی ہے؟"
+    answer: "شرارتی چچا، AU12A + AU14B، اور ناپسندیدگی دکھاتی لڑکی، AU9B + AU10B + AU23B، مضبوط contrast بناتے ہیں کیونکہ دونوں expressions ایک دوسرے کو directly react کرتے ہیں۔"
   - question: "کیا یہ پرامپٹس موبائل پر استعمال ہو سکتے ہیں؟"
     answer: "جی ہاں۔ آپ انہیں چیٹ جی پی ٹی، جیمینائی، کوپائلٹ یا کسی بھی AI image generator میں موبائل سے copy paste کر سکتے ہیں۔ کچھ advanced tools paid ہو سکتے ہیں یا region کے حساب سے محدود ہو سکتے ہیں۔"
 ---
@@ -27,6 +27,8 @@ faq:
 اے آئی سے تصویر بنوانا اب صرف یہ لکھنے کا نام نہیں رہا کہ “ایک لڑکی گاؤں میں کھڑی ہے” یا “ایک چچا مسکرا رہے ہیں”۔ اچھی تصویر تب بنتی ہے جب چہرے پر واضح کہانی نظر آئے۔ viewer کو فوراً سمجھ آ جائے کہ اس scene میں کون شرارتی ہے، کون ناراض ہے، کون حیران ہے، اور کون کسی بات پر یقین نہیں کر رہا۔
 
 اس گائیڈ میں ہم basic emotions سے آگے بڑھ کر story-driven expressions سیکھیں گے۔ آپ کو اے یو کوڈز، پاکستانی locations، دو کرداروں کے reactions، ready-made demo prompts، اور reference image کے ساتھ prompt لکھنے کا مکمل طریقہ ملے گا۔
+
+اگر آپ ابھی image tools شروع ہی کر رہے ہیں تو پہلے [اپنا AI image generator کیسے بنائیں؟](/blog/how-to-make-your-own-ai-image-generator/) پڑھیں۔ وہاں reusable style prompt اور beginner workflow دیا گیا ہے۔
 
 اوپر والی تصویر کی مثال: چچا کے چہرے پر شرارتی مسکراہٹ، یعنی AU12A + AU14B، جبکہ لڑکی کے چہرے پر ناپسندیدگی، یعنی AU9B + AU10B + AU23B۔ یہی contrast تصویر کو فوراً کہانی بنا دیتا ہے۔
 
@@ -64,7 +66,7 @@ faq:
 
 یہی فرق ایک خوبصورت تصویر اور ایک یاد رہ جانے والی تصویر میں ہوتا ہے۔
 
-## بہترین story-driven expressions
+## مضبوط story-driven expressions
 
 یہ table آپ image prompt لکھتے وقت directly استعمال کر سکتے ہیں۔
 
@@ -83,9 +85,9 @@ faq:
 
 ## دو کرداروں کے تاثرات ملا کر کہانی بنائیں
 
-اے آئی تصاویر میں سب سے طاقتور چیز contrast ہے۔ اگر دونوں کردار صرف خوش ہیں تو تصویر خوبصورت ہوگی، مگر شاید دلچسپ نہ ہو۔ لیکن اگر ایک کردار شرارتی ہے اور دوسرا ناپسندیدگی سے دیکھ رہا ہے تو تصویر میں فوراً کہانی آ جاتی ہے۔
+اے آئی تصاویر میں contrast بہت طاقتور ہوتا ہے۔ اگر دونوں کردار صرف خوش ہیں تو تصویر خوبصورت ہوگی، مگر شاید دلچسپ نہ ہو۔ لیکن اگر ایک کردار شرارتی ہے اور دوسرا ناپسندیدگی سے دیکھ رہا ہے تو تصویر میں فوراً کہانی آ جاتی ہے۔
 
-سب سے strong visual contrast یہ ہے:
+ایک strong visual contrast یہ ہے:
 
 چچا: شرارت، AU12A + AU14B
 
@@ -105,7 +107,7 @@ faq:
 پاکستانی گاؤں کی روایتی گلی، سنہری شام کی روشنی، مٹی کی دیواریں، ایک بزرگ چچا سفید شلوار قمیض اور رنگین سندھی ٹوپی میں، چہرے پر شرارتی smirk، AU12A + AU14B، ایک طرفہ مسکراہٹ، آنکھوں میں شرارت، سامنے ایک نوجوان لڑکی ناپسندیدگی سے دیکھ رہی ہے، AU9B + AU10B + AU23B، ناک ہلکی سکیڑی ہوئی، اوپر والا ہونٹ اٹھا ہوا، ہونٹ دبے ہوئے، دونوں کرداروں کے درمیان واضح reaction، cinematic realistic photography، natural skin texture، shallow depth of field، warm golden-hour light، no text، no watermark
 ```
 
-یہ prompt guide کی demo image کے لیے بہترین ہے کیونکہ اس میں subject، expression، relation، location، light، اور visual style سب شامل ہیں۔
+یہ prompt guide کی demo image کے لیے مفید ہے کیونکہ اس میں subject، expression، relation، location، light، اور visual style سب شامل ہیں۔
 
 ### نمونہ اشارہ: چائے ہوٹل والا مزاحیہ منظر
 
@@ -267,7 +269,7 @@ constraints: no text، no watermark، no distorted hands، no plastic skin
 
 ## access checklist
 
-چیٹ جی پی ٹی: مفت پلان میں محدود image generation دستیاب ہو سکتی ہے، paid plan میں زیادہ سہولت ملتی ہے۔ موبائل پر کام کرتا ہے۔ VPN کی ضرورت عموماً نہیں، مگر availability region کے حساب سے بدل سکتی ہے۔
+چیٹ جی پی ٹی: مفت پلان میں محدود image generation دستیاب ہو سکتی ہے، paid plan میں زیادہ سہولت ملتی ہے۔ availability region، account اور plan کے حساب سے بدل سکتی ہے۔
 
 جیمینائی: موبائل اور ویب دونوں پر استعمال ہو سکتا ہے۔ کچھ image features region اور account type کے حساب سے محدود ہو سکتے ہیں۔
 
@@ -305,9 +307,9 @@ constraints: no text، no watermark، no distorted hands، no plastic skin
 
 گاؤں کی گلی، چائے ہوٹل، university campus، بازار، شادی ہال، ہسپتال corridor، گھر کا صحن، بارش والی شام، اور sunset village home بہت اچھے visual contexts ہیں۔
 
-### سب سے strong expression pairing کون سی ہے؟
+### کون سی expression pairing strong contrast دیتی ہے؟
 
-چچا کی شرارتی مسکراہٹ اور لڑکی کی ناپسندیدگی سب سے strong contrast دیتی ہے، کیونکہ دونوں expressions ایک دوسرے سے directly react کرتے ہیں۔
+چچا کی شرارتی مسکراہٹ اور لڑکی کی ناپسندیدگی strong contrast دیتی ہے، کیونکہ دونوں expressions ایک دوسرے سے directly react کرتے ہیں۔
 
 ### کیا reference image استعمال کرنا safe ہے؟
 
