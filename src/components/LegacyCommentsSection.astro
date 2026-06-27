@@ -129,6 +129,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   .legacy-comments__item {
     margin-inline-start: calc(var(--comment-depth, 0) * 1.25rem);
+    min-width: 0;
   }
 
   .legacy-comments__card {
@@ -137,6 +138,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     border-radius: 12px;
     padding: var(--space-sm) var(--space-md);
     position: relative;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .legacy-comments__card::before {
@@ -157,17 +161,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     margin-block-end: var(--space-xs);
     color: var(--ink-muted);
     font-size: var(--text-sm);
+    overflow-wrap: anywhere;
   }
 
   .legacy-comments__meta strong {
     color: var(--ink);
     font-size: 1rem;
+    overflow-wrap: anywhere;
   }
 
   .legacy-comments__content {
     margin: 0;
     white-space: pre-line;
     line-height: var(--lh-prose);
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   @media (max-width: 720px) {
@@ -181,7 +189,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     }
 
     .legacy-comments__item {
-      margin-inline-start: calc(var(--comment-depth, 0) * 0.75rem);
+      margin-inline-start: 0;
     }
   }
 </style>

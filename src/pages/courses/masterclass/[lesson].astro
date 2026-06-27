@@ -47,10 +47,10 @@ function toPlainText(text: string): string {
 
 const firstPara = toPlainText(lesson.description.split('\n\n').find(b => !b.trim().startsWith('##')) || '').slice(0, 160) || lesson.title;
 const pageTitle = lesson.number === 1
-  ? 'AI course Urdu free: AI kya hai in Urdu'
+  ? 'AI kya hai in Urdu: free course کا پہلا سبق'
   : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
 const pageDescription = lesson.number === 1
-  ? 'AI course Urdu free کا پہلا سبق: AI kya hai in Urdu، مصنوعی ذہانت کی تعریف، examples، Gemini/ChatGPT practice، quiz اور certificate path۔'
+  ? 'AI kya hai in Urdu کا آسان جواب، مصنوعی ذہانت کی تعریف، روزمرہ examples، Gemini/ChatGPT practice، quiz اور free course path۔'
   : `${firstPara.slice(0, 140)}۔ ویڈیو دیکھیں، سیکھیں، کوئز دیں — مفت اردو AI کورس۔`;
 
 const courseSchema = {
