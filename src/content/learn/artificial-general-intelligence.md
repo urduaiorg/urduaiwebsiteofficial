@@ -19,6 +19,8 @@ faq:
     answer: "AGI اگر کبھی بن گیا تو اس کے فائدے بھی بڑے ہو سکتے ہیں اور risks بھی۔ اسی لیے safety، rules، human oversight اور غلط استعمال سے بچاؤ پر research ضروری ہے۔"
   - question: "AGI سمجھنے کے بعد کیا پڑھیں؟"
     answer: "پہلے AI basics، machine learning، large language model، AI agent، hallucination اور prompt engineering سمجھیں تاکہ AGI کا فرق واضح ہو جائے۔"
+  - question: "AGI beginners کے لیے practical course کون سا ہے؟"
+    answer: "اگر آپ AGI کا concept سمجھنے کے بعد practical AI سیکھنا چاہتے ہیں تو Urdu AI Masterclass lesson 1 یا free AI course Urdu guide سے شروع کریں۔"
 ---
 AGI meaning in Urdu کا مختصر جواب یہ ہے کہ AGI یعنی Artificial General Intelligence ایسے future AI کا idea ہے جو صرف ایک کام نہیں بلکہ کئی نئے ذہنی کام انسان جیسی flexibility سے سیکھ اور کر سکے۔ آج کے ChatGPT، Gemini یا Claude جیسے tools useful narrow AI systems ہیں؛ AGI ابھی ثابت شدہ روزمرہ حقیقت نہیں۔
 
@@ -33,6 +35,7 @@ AGI meaning in Urdu کا مختصر جواب یہ ہے کہ AGI یعنی Artific
 | پہلے کیا پڑھیں؟ | [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) سے بنیاد شروع کریں |
 
 اگر آپ AI بالکل پہلی بار سمجھ رہے ہیں تو پہلے [AI کیا ہے؟ آسان اردو تعریف، مثالیں اور پہلا قدم](/guides/ai-kya-hai-urdu-ai-master-class-1/) پڑھیں۔ اس کے بعد AGI کا فرق زیادہ صاف ہو جائے گا۔
+اگر آپ definitions کے بجائے practical course سے شروع کرنا چاہتے ہیں تو [Urdu AI Masterclass lesson 1](/courses/masterclass/1/) یا [free AI course Urdu guide](/guides/free-ai-course-urdu/) کھولیں۔
 
 ## AGI vs AI: فرق کیا ہے؟
 
@@ -76,11 +79,14 @@ AGI ابھی research اور debate کا موضوع ہے، اس لیے اس کا
 شروع کے لیے یہ learning path بہتر ہے:
 
 - [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/)
+- [AI glossary in Urdu](/learn/)
 - [مشین لرننگ کیا ہے؟](/learn/machine-learning/)
 - [لارج لینگویج ماڈل کیا ہے؟](/learn/large-language-model/)
 - [AI ایجنٹ کیا ہے؟](/learn/ai-agent/)
 - [AI hallucination کیا ہے؟](/learn/hallucination/)
 - [پرامٹ انجینئرنگ کیا ہے؟](/learn/prompt-engineering/)
+- [Free AI course Urdu guide](/guides/free-ai-course-urdu/)
+- [Urdu AI Masterclass lesson 1](/courses/masterclass/1/)
 
 ## متعلقہ اصطلاحات
 
@@ -115,3 +121,7 @@ AGI اگر کبھی بن گیا تو اس کے فائدے بھی بڑے ہو س�
 ### AGI سمجھنے کے بعد کیا پڑھیں؟
 
 پہلے AI basics، machine learning، large language model، AI agent، hallucination اور prompt engineering سمجھیں تاکہ AGI کا فرق واضح ہو جائے۔ اگلا practical قدم [پرامٹ انجینئرنگ](/learn/prompt-engineering/) ہے۔
+
+### AGI beginners کے لیے practical course کون سا ہے؟
+
+اگر آپ AGI کا concept سمجھنے کے بعد practical AI سیکھنا چاہتے ہیں تو [Urdu AI Masterclass lesson 1](/courses/masterclass/1/) یا [free AI course Urdu guide](/guides/free-ai-course-urdu/) سے شروع کریں۔
