@@ -14,6 +14,7 @@ const trendingTools = tools.filter(t => t.trending).length;
 const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const quickPaths = [
   { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/learn/artificial-intelligence/', text: 'AI کی بنیادی تعریف پہلے سمجھیں' },
+  { title: 'Free AI tools list چاہیے', href: '/blog/12-best-ai-tools-that-make-work-faster-and-easier/', text: 'beginners کے لیے 12 tools by work type' },
   { title: 'ChatGPT موبائل پر چلانا ہے', href: '/how-to/how-to-install-original-chatgpt-app/', text: 'آفیشل app download guide' },
   { title: 'CV یا نوکری کے لیے AI چاہیے', href: '/prompts/job-seekers/', text: 'CV، cover letter اور interview prompts' },
   { title: 'Students کے لیے tools چاہیے', href: '/guides/gemini-for-students-urdu/', text: 'study، notes اور learning workflow' },
@@ -60,6 +61,16 @@ const toolsSchema = [
       },
       {
         "@type": "Question",
+        "name": "Free AI tools list میں beginners کے لیے کیا ہونا چاہیے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "Beginner free AI tools list میں writing کے لیے ChatGPT یا Gemini، research کے لیے Perplexity، notes/files کے لیے NotebookLM، design کے لیے Canva AI، اور coding practice کے لیے Cursor جیسے tools شامل ہو سکتے ہیں۔ ہر tool کی current free limits آفیشل website پر چیک کریں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "AI tools like ChatGPT کون سے ہیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "ChatGPT جیسے tools میں Gemini، Claude، Perplexity، Meta AI اور NotebookLM شامل ہیں، لیکن ہر tool کا کام مختلف ہے۔ ChatGPT/Gemini روزمرہ سوالات، Claude لمبی writing، Perplexity source-backed research، اور NotebookLM اپنی files کے لیے بہتر fit ہو سکتا ہے۔" },
+      },
+      {
+        "@type": "Question",
         "name": "کیا اس ڈائریکٹری کے tools پاکستان میں چلتے ہیں؟",
         "acceptedAnswer": { "@type": "Answer", "text": "ڈائریکٹری میں Pakistan badge والے tools پاکستانی صارفین کے لیے منتخب کیے گئے ہیں۔ قیمت، limits اور دستیابی وقت کے ساتھ بدل سکتی ہے، اس لیے اہم کام سے پہلے آفیشل سائٹ ضرور چیک کریں۔" },
       },
@@ -89,8 +100,8 @@ const toolsSchema = [
 ---
 
 <Base
-  title="AI Tools in Urdu: ChatGPT، Gemini اور Claude گائیڈز"
-  description="AI Tools in Urdu directory: ChatGPT، Gemini، Claude، image، video، coding اور research tools کو Urdu guides، job، study اور business paths کے ساتھ چنیں۔"
+  title="AI Tools in Urdu: free AI tools list for beginners"
+  description="AI Tools in Urdu directory: free AI tools list، ChatGPT جیسے tools، Gemini، Claude، image، video، coding اور research tools کو Urdu guides کے ساتھ چنیں۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
   schema={toolsSchema}
@@ -104,9 +115,9 @@ const toolsSchema = [
           <li aria-current="page">اے آئی ٹولز</li>
         </ol>
       </nav>
-      <h1 class="tools-hero__title">AI Tools in Urdu: ChatGPT، Gemini اور Claude گائیڈز</h1>
+      <h1 class="tools-hero__title">AI Tools in Urdu: free AI tools list for beginners</h1>
       <p class="tools-hero__sub">
-        AI Tools in Urdu پاکستانی beginners، students، freelancers، job seekers اور small businesses کے لیے منتخب tools کی directory ہے۔ یہاں ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools کے ساتھ صاف Urdu وضاحت، pricing label اور متعلقہ guide ملتا ہے۔
+        AI Tools in Urdu پاکستانی beginners، students، freelancers، job seekers اور small businesses کے لیے منتخب tools کی directory ہے۔ یہاں free AI tools list، AI tools like ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools کے ساتھ صاف Urdu وضاحت، pricing label اور متعلقہ guide ملتا ہے۔
       </p>
       <div class="tools-hero__stats">
         <div class="tools-hero__stat">
@@ -259,6 +270,14 @@ const toolsSchema = [
       <details>
         <summary>پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟</summary>
         <p>شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype یا API تجربے کے لیے Google AI Studio دیکھیں۔</p>
+      </details>
+      <details>
+        <summary>Free AI tools list میں beginners کے لیے کیا ہونا چاہیے؟</summary>
+        <p>Beginner free AI tools list میں writing کے لیے ChatGPT یا Gemini، research کے لیے Perplexity، notes/files کے لیے NotebookLM، design کے لیے Canva AI، اور coding practice کے لیے Cursor جیسے tools شامل ہو سکتے ہیں۔ ہر tool کی current free limits آفیشل website پر چیک کریں۔ مزید مثالیں <a href="/blog/12-best-ai-tools-that-make-work-faster-and-easier/">12 AI tools list Urdu</a> میں ہیں۔</p>
+      </details>
+      <details>
+        <summary>AI tools like ChatGPT کون سے ہیں؟</summary>
+        <p>ChatGPT جیسے tools میں Gemini، Claude، Perplexity، Meta AI اور NotebookLM شامل ہیں، لیکن ہر tool کا کام مختلف ہے۔ ChatGPT/Gemini روزمرہ سوالات، Claude لمبی writing، Perplexity source-backed research، اور NotebookLM اپنی files کے لیے بہتر fit ہو سکتا ہے۔</p>
       </details>
       <details>
         <summary>کیا اس ڈائریکٹری کے tools پاکستان میں چلتے ہیں؟</summary>
