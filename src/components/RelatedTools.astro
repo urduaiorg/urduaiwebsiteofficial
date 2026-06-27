@@ -12,6 +12,7 @@ export interface Props {
 const { toolNames } = Astro.props;
 const matchedTools = getToolsByNames(toolNames);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 
 // Don't render if no tools matched
 if (matchedTools.length === 0) return null;
@@ -23,13 +24,13 @@ if (matchedTools.length === 0) return null;
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
         <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
       </svg>
-      اس مضمون میں استعمال ہونے والے ٹولز
+      متعلقہ AI ٹولز
     </h2>
 
     <div class="related-tools__grid">
       {matchedTools.map((tool: Tool) => (
         <a
-          href={`${base}/tools/#${tool.name.toLowerCase().replace(/[\s.]+/g, '-')}`}
+          href={`${base}/tools/#${toolAnchor(tool.name)}`}
           class="related-tool"
         >
           <img
@@ -54,7 +55,7 @@ if (matchedTools.length === 0) return null;
     </div>
 
     <a href={`${base}/tools/`} class="related-tools__all">
-      تمام {matchedTools.length > 1 ? '50+' : ''} اے آئی ٹولز دیکھیں ←
+      تمام اے آئی ٹولز دیکھیں ←
     </a>
   </section>
 )}

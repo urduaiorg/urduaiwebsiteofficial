@@ -14,11 +14,12 @@ const trendingTools = tools.filter(t => t.trending).length;
 const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const quickPaths = [
   { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/learn/artificial-intelligence/', text: 'AI کی مختصر اور آسان تعریف' },
-  { title: 'کام کے حساب سے tool چننا ہے', href: '/blog/12-best-ai-tools-that-make-work-faster-and-easier/', text: '12 AI tools کی عملی فہرست' },
+  { title: 'کام کے حساب سے tool چننا ہے', href: '/guides/free-ai-course-urdu/', text: 'beginner learning path' },
   { title: 'AI سے تصاویر بنانی ہیں', href: '/blog/how-to-make-your-own-ai-image-generator/', text: 'اپنا image prompt generator بنائیں' },
   { title: 'اردو میں Gemini چلانا ہے', href: '/how-to/how-to-use-gemini-in-urdu/', text: 'step-by-step Gemini گائیڈ' },
+  { title: 'prompt بہتر لکھنا ہے', href: '/learn/prompt-engineering/', text: 'سوال کو واضح بنانے کا طریقہ' },
   { title: 'Google AI Studio سیکھنا ہے', href: '/blog/google-ai-studio-kia-hai/', text: 'API، Build Mode اور prototype' },
-  { title: 'مفت AI کورس چاہیے', href: '/guides/free-ai-course-urdu/', text: 'صحیح ترتیب سے course شروع کریں' },
+  { title: 'AI tools کی بنیاد سمجھنی ہے', href: '/guides/ai-kya-hai-urdu-ai-master-class-1/', text: 'AI کیا ہے؟ آسان اردو سبق' },
 ];
 
 const toolsSchema = [
@@ -49,7 +50,7 @@ const toolsSchema = [
       {
         "@type": "Question",
         "name": "پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟",
-        "acceptedAnswer": { "@type": "Answer", "text": "شروع میں ChatGPT، Gemini، Claude، NotebookLM اور Google AI Studio دیکھیں۔ روزمرہ سوالات کے لیے Gemini، لکھائی کے لیے Claude، اور prototype کے لیے Google AI Studio بہتر آغاز ہیں۔" },
+        "acceptedAnswer": { "@type": "Answer", "text": "شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype کے لیے Google AI Studio دیکھیں۔" },
       },
       {
         "@type": "Question",
@@ -59,7 +60,7 @@ const toolsSchema = [
       {
         "@type": "Question",
         "name": "AI tools سیکھنے کا آسان راستہ کیا ہے؟",
-        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر Gemini یا ChatGPT میں اردو پرامٹس آزمائیں، اس کے بعد Google AI Studio یا اردو اے آئی ماسٹرکلاس سے عملی مشق کریں۔" },
+        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر Gemini یا ChatGPT میں اردو prompt آزمائیں، اس کے بعد prompt engineering اور اردو اے آئی ماسٹرکلاس سے عملی مشق کریں۔" },
       },
     ],
   },
@@ -68,7 +69,7 @@ const toolsSchema = [
 
 <Base
   title="AI Tools in Urdu — پاکستان کے لیے منتخب اے آئی ٹولز"
-  description="پاکستانی صارفین کے لیے منتخب AI tools: لکھائی، تصویر، ویڈیو، آواز، کوڈنگ اور تحقیق کے ٹولز ایک جگہ، اردو گائیڈز کے ساتھ۔"
+  description="AI Tools in Urdu: پاکستانی users کے لیے لکھائی، تصویر، ویڈیو، آواز، coding اور research tools ایک جگہ، Urdu guides اور beginner path کے ساتھ۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
   schema={toolsSchema}
@@ -84,7 +85,7 @@ const toolsSchema = [
       </nav>
       <h1 class="tools-hero__title">پاکستان کے لیے منتخب AI Tools</h1>
       <p class="tools-hero__sub">
-        یہ ڈائریکٹری پاکستانی صارفین کے لیے منتخب AI tools کو ایک جگہ جمع کرتی ہے: ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، کوڈنگ اور تحقیق کے ٹولز، ہر ایک کے ساتھ آسان اردو وضاحت۔
+        AI Tools in Urdu پاکستانی users کے لیے منتخب tools کی directory ہے: ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools، ہر tool کے ساتھ صاف Urdu وضاحت اور متعلقہ guide۔
       </p>
       <div class="tools-hero__stats">
         <div class="tools-hero__stat">
@@ -93,7 +94,7 @@ const toolsSchema = [
         </div>
         <div class="tools-hero__stat">
           <span class="tools-hero__stat-num" dir="ltr">{freeTools}</span>
-          <span class="tools-hero__stat-label">مفت پلان</span>
+          <span class="tools-hero__stat-label">مفت درج tools</span>
         </div>
         <div class="tools-hero__stat">
           <span class="tools-hero__stat-num" dir="ltr">{trendingTools}</span>
@@ -140,7 +141,7 @@ const toolsSchema = [
       <div class="tools-paths__intro">
         <h2 id="tools-paths-title">کس کام کے لیے کون سا راستہ چنیں؟</h2>
         <p>
-          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ اپنے مقصد کے مطابق ایک راستہ چنیں، پھر اسی سے جڑا ہوا tool کھولیں۔
+          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے ایک مقصد چنیں، پھر اسی سے جڑا ہوا guide اور tool کھولیں۔
         </p>
       </div>
       <div class="tools-paths__links">
@@ -225,14 +226,14 @@ const toolsSchema = [
 
     <!-- Last updated -->
     <p class="tools-updated">
-      آخری اپڈیٹ: جون 2026 — ہر ٹول پاکستان سے ٹیسٹ کیا گیا
+      آخری اپڈیٹ: جون 2026 — pricing، limits اور availability بدل سکتے ہیں، اس لیے اہم کام سے پہلے ہر tool کی آفیشل site چیک کریں۔
     </p>
 
     <section class="tools-faq" aria-labelledby="tools-faq-title">
       <h2 id="tools-faq-title">عام سوالات</h2>
       <details>
         <summary>پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟</summary>
-        <p>شروع میں ChatGPT، Gemini، Claude، NotebookLM اور Google AI Studio دیکھیں۔ روزمرہ سوالات کے لیے Gemini، لکھائی کے لیے Claude، اور prototype یا API تجربے کے لیے Google AI Studio بہتر آغاز ہے۔</p>
+        <p>شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype یا API تجربے کے لیے Google AI Studio دیکھیں۔</p>
       </details>
       <details>
         <summary>کیا اس ڈائریکٹری کے tools پاکستان میں چلتے ہیں؟</summary>
@@ -240,7 +241,7 @@ const toolsSchema = [
       </details>
       <details>
         <summary>AI tools سیکھنے کا آسان راستہ کیا ہے؟</summary>
-        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/learn/google-gemini/">Gemini</a> کا مطلب پڑھیں، اور اس کے بعد <a href="/guides/free-ai-course-urdu/">مفت AI کورس اردو میں</a> یا <a href="/courses/masterclass/">ماسٹرکلاس</a> سے عملی مشق کریں۔</p>
+        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini اردو گائیڈ</a> سے پہلا prompt لکھیں، اور اس کے بعد <a href="/learn/prompt-engineering/">prompt engineering</a> یا <a href="/guides/free-ai-course-urdu/">مفت AI کورس اردو میں</a> سے عملی مشق کریں۔</p>
       </details>
     </section>
   </div>
