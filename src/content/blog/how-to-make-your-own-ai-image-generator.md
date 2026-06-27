@@ -24,6 +24,8 @@ faq:
     answer: "کسی شخص کی private تصویر، بچوں کی تصاویر، client product files یا شناختی معلومات upload کرنے سے پہلے اجازت اور privacy risk سمجھیں۔ ضرورت ہو تو reference image کے بجائے text description استعمال کریں۔"
   - question: "Pakistani style AI images کے لیے prompt میں کیا لکھیں؟"
     answer: "Prompt میں city، clothing، location، lighting، camera angle، no text، no watermark اور exact identity copy نہ کرنے کی ہدایت شامل کریں۔ اس سے generic western image کے بجائے local context آتا ہے۔"
+  - question: "کیا Google AI Studio سے اپنا image generator app بنایا جا سکتا ہے؟"
+    answer: "Google AI Studio app یا prototype بنانے کے لیے useful ہو سکتا ہے، لیکن beginner کو پہلے reusable prompt system بنانا چاہیے۔ جب workflow clear ہو جائے تو Google AI Studio میں prototype یا API experiment کی طرف جائیں۔"
 ---
 AI image generator Urdu guide کا مختصر جواب یہ ہے کہ تصویر بنانے والا app خود بنانا عموما نیا AI model train کرنا نہیں ہوتا؛ beginner کے لیے اس کا مطلب reusable prompt، style guide یا custom assistant بنانا ہے جو ہر بار آپ کے selected انداز میں image prompt تیار کرے۔ ChatGPT، Gemini، Canva AI یا کسی image tool میں محفوظ ہدایات اس کام کے لیے کافی ہو سکتی ہیں۔
 
@@ -31,11 +33,19 @@ AI image generator Urdu guide کا مختصر جواب یہ ہے کہ تصویر
 
 آفیشل access اور current limits کے لیے [ChatGPT](https://chatgpt.com/) اور [Gemini](https://gemini.google.com/) کی websites دیکھیں۔ Image generation tools کے free limits، pricing اور features وقت کے ساتھ بدلتے رہتے ہیں۔
 
+## فوری workflow: پہلے یہ 3 کام کریں
+
+1. اپنا idea اردو میں صاف لکھیں: کون، کہاں، کس مقصد کے لیے؟
+2. ChatGPT یا Gemini سے اسے English image prompt میں بدلوا لیں۔
+3. image tool میں prompt paste کریں، پھر چہرہ، ہاتھ، text، logo، privacy اور local context خود check کریں۔
+
+یہی beginner کے لیے سب سے عملی AI image generator workflow ہے۔ app یا API بنانے سے پہلے یہ ثابت کریں کہ آپ کے prompts مسلسل اچھا result دے رہے ہیں۔
+
 اگر آپ پہلے یہ سمجھنا چاہتے ہیں کہ generative AI تصویر کیسے بناتا ہے تو [جینریٹو AI کیا ہے؟](/learn/generative-ai/) پڑھیں۔ اگر صرف tool چننا ہے تو [AI tools directory](/tools/) کھولیں، اور اگر expression prompts چاہیے تو [AI image expression prompts](/guides/ai-image-expression-prompts-urdu-guide/) اگلا قدم ہے۔
 
 ## جلد فیصلہ: کون سا image app کھولیں؟
 
-اگر آپ کا مقصد صرف prompt بنانا ہے تو ChatGPT یا Gemini کھولیں۔ اگر ready design template چاہیے تو Canva AI بہتر route ہے۔ اگر poster-style image یا logo-style idea چاہیے تو Ideogram یا Microsoft Designer دیکھ سکتے ہیں۔ اگر آپ app یا prototype بنانا چاہتے ہیں تو [Google AI Studio Urdu guide](/blog/google-ai-studio-kia-hai/) دیکھیں۔
+اگر آپ کا مقصد صرف prompt بنانا ہے تو ChatGPT یا Gemini کھولیں۔ اگر ready design template چاہیے تو Canva AI بہتر route ہے۔ اگر poster-style image یا logo-style idea چاہیے تو Ideogram یا Microsoft Designer دیکھ سکتے ہیں۔ اگر آپ app یا prototype بنانا چاہتے ہیں تو [Google AI Studio Urdu hub](/tag/google-ai-studio/) دیکھیں۔
 
 | کام | شروع کا راستہ |
 |---|---|
@@ -202,7 +212,7 @@ Topic: ایک پاکستانی طالب علم موبائل پر AI course دی�
 
 ## Google AI Studio کب استعمال کریں؟
 
-اگر آپ prompt assistant سے آگے بڑھ کر app یا prototype بنانا چاہتے ہیں تو [Google AI Studio](/blog/google-ai-studio-kia-hai/) دیکھیں۔ وہاں prompt testing، model settings اور prototype ideas پر کام کیا جا سکتا ہے۔ لیکن اگر آپ صرف images کے لیے prompts بنانا چاہتے ہیں تو ChatGPT یا Gemini میں reusable prompt کافی ہے۔
+اگر آپ prompt assistant سے آگے بڑھ کر app یا prototype بنانا چاہتے ہیں تو [Google AI Studio](/tag/google-ai-studio/) دیکھیں۔ وہاں prompt testing، model settings اور prototype ideas پر کام کیا جا سکتا ہے۔ لیکن اگر آپ صرف images کے لیے prompts بنانا چاہتے ہیں تو ChatGPT یا Gemini میں reusable prompt کافی ہے۔
 
 ## AI image generator free استعمال کرتے وقت احتیاط
 
@@ -246,10 +256,15 @@ ChatGPT اور Gemini اردو سمجھ سکتے ہیں، مگر بہت سے ima
 
 Prompt میں city، clothing، location، lighting، camera angle، no text، no watermark اور exact identity copy نہ کرنے کی ہدایت شامل کریں۔ اس سے generic western image کے بجائے local context آتا ہے۔
 
+### کیا Google AI Studio سے اپنا image generator app بنایا جا سکتا ہے؟
+
+Google AI Studio app یا prototype بنانے کے لیے useful ہو سکتا ہے، لیکن beginner کو پہلے reusable prompt system بنانا چاہیے۔ جب workflow clear ہو جائے تو [Google AI Studio Urdu hub](/tag/google-ai-studio/) سے prototype یا API experiment کی طرف جائیں۔
+
 ## اب آگے کیا پڑھیں؟
 
 - [اے آئی امیج پرامپٹس میں چہرے کے تاثرات](/guides/ai-image-expression-prompts-urdu-guide/)
 - [AI studio headshot prompts](/prompts/ai-studio-headshot-prompts/)
+- [Google AI Studio Urdu hub](/tag/google-ai-studio/)
 - [Gemini اردو میں کیسے استعمال کریں؟](/how-to/how-to-use-gemini-in-urdu/)
 - [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/)
 - [12 AI tools: کس کام کے لیے کون سا؟](/blog/12-best-ai-tools-that-make-work-faster-and-easier/)
