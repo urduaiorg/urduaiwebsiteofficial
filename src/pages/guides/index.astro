@@ -16,13 +16,36 @@ const legacyCommentsData = legacyCommentsPayload as {
 const legacyGuideHubComments =
   legacyCommentsData.commentsByCollection.pages?.['guides-index'] ?? [];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const guideHubSchema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "اردو اے آئی گائیڈز",
+    "description": "ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سیکھنے کے لیے beginners اور practical learners کے لیے گائیڈز۔",
+    "url": "https://urduai.org/guides/",
+    "inLanguage": "ur",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "اردو اے آئی beginner learning path",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "AI کیا ہے؟ آسان اردو تعریف، مثالیں اور پہلا قدم", "url": "https://urduai.org/guides/ai-kya-hai-urdu-ai-master-class-1/" },
+      { "@type": "ListItem", "position": 2, "name": "مفت AI کورس اردو میں کہاں سے شروع کریں", "url": "https://urduai.org/guides/free-ai-course-urdu/" },
+      { "@type": "ListItem", "position": 3, "name": "Gemini اردو میں استعمال کرنے کا طریقہ", "url": "https://urduai.org/how-to/how-to-use-gemini-in-urdu/" },
+      { "@type": "ListItem", "position": 4, "name": "Prompt engineering کیا ہے؟", "url": "https://urduai.org/learn/prompt-engineering/" },
+      { "@type": "ListItem", "position": 5, "name": "AI Tools Directory", "url": "https://urduai.org/tools/" },
+    ],
+  },
+];
 ---
 
 <Base
   title="اردو اے آئی گائیڈز — ChatGPT، Gemini اور Claude اردو میں سیکھیں"
-  description="ChatGPT، Gemini، Claude اور دیگر اے آئی ٹولز کی مکمل اردو گائیڈز — ابتدائی سے ماہر تک، پاکستانی نقطہ نظر سے، بالکل مفت۔"
+  description="ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سیکھیں؛ beginners کے لیے عملی گائیڈز، پاکستانی مثالوں کے ساتھ۔"
   canonical="https://urduai.org/guides/"
   adsense={true}
+  schema={guideHubSchema}
 >
   <div class="container" style="margin-block-start: var(--space-xl);">
     <nav aria-label="بریڈکرمب">
@@ -32,10 +55,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </ol>
     </nav>
 
-    <h1>گائیڈز</h1>
-    <p class="text-muted" style="margin-block-end: var(--space-lg);">
-      اے آئی ٹولز کو پاکستان میں استعمال کرنے کی مکمل اردو گائیڈز
+    <h1>اردو اے آئی گائیڈز</h1>
+    <p class="text-muted guides-intro">
+      اردو اے آئی گائیڈز beginners کو ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سکھاتی ہیں۔ اگر آپ نئے ہیں تو پہلے AI کی بنیاد سمجھیں، پھر ایک tool پر مشق کریں، اور اس کے بعد مفت اردو ماسٹرکلاس شروع کریں۔
     </p>
+
+    <section class="guides-start" aria-labelledby="guides-start-title">
+      <h2 id="guides-start-title">بالکل نئے ہیں؟ یہاں سے شروع کریں</h2>
+      <div class="guides-start__links">
+        <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a>
+        <a href={`${base}/guides/free-ai-course-urdu/`}>مفت AI کورس گائیڈ</a>
+        <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a>
+        <a href={`${base}/learn/prompt-engineering/`}>Prompt engineering</a>
+        <a href={`${base}/tools/`}>AI tools directory</a>
+      </div>
+    </section>
 
     <div class="post-grid">
       {guides.map(g => (
@@ -56,4 +90,44 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     <LegacyCommentsSection comments={legacyGuideHubComments} />
   </div>
+
+  <style>
+    .guides-intro {
+      max-width: 760px;
+      margin-block-end: var(--space-md);
+      line-height: var(--lh-prose);
+    }
+
+    .guides-start {
+      border-block: 1px solid var(--border);
+      padding-block: var(--space-md);
+      margin-block-end: var(--space-lg);
+    }
+
+    .guides-start h2 {
+      font-size: 1.35rem;
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .guides-start__links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-xs);
+    }
+
+    .guides-start__links a {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.45em 0.9em;
+      background: var(--paper-card);
+      color: var(--teal);
+      text-decoration: none;
+      font-size: var(--text-sm);
+    }
+
+    .guides-start__links a:hover {
+      border-color: var(--teal);
+    }
+  </style>
 </Base>
