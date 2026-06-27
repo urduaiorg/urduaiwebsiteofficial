@@ -17,6 +17,10 @@ faq:
     answer: "طالب علم سبق کا خلاصہ، استاد کوئز، فری لانسر proposal، اور عام صارف اردو ترجمہ یا روزمرہ سوالات کے لیے Gemini سے شروع کر سکتا ہے۔"
   - question: "Gemini سیکھنے کا آسان اگلا قدم کیا ہے؟"
     answer: "پہلے Gemini اردو گائیڈ سے basic استعمال سیکھیں، پھر prompt engineering پڑھیں، اور اپنے کام کے لیے AI tools directory سے tool چنیں۔"
+  - question: "Gemini app download کہاں سے کریں؟"
+    answer: "Gemini ہمیشہ gemini.google.com، phone کے آفیشل app store، یا Google app کے ذریعے استعمال کریں۔ غیر واضح APK یا clone app سے بچیں۔"
+  - question: "Gemini سیکھنے کے لیے Urdu course کہاں سے شروع کریں؟"
+    answer: "اگر آپ Gemini کے ساتھ مکمل AI learning path چاہتے ہیں تو free AI course Urdu guide اور Urdu AI Masterclass lesson 1 سے شروع کریں۔"
 ---
 Gemini گوگل کا AI assistant ہے جو لکھائی، منصوبہ بندی، خلاصہ، brainstorming، تصویر سمجھنے اور سوالات کے جواب دینے میں مدد دیتا ہے۔ 27 جون 2026 تک اسے اردو یا انگریزی میں بات کر کے روزمرہ learning، writing اور idea work کے لیے استعمال کیا جا سکتا ہے، لیکن features اور limits account کے حساب سے بدل سکتے ہیں۔
 
@@ -32,6 +36,16 @@ Gemini عام سوالات، لکھائی، خلاصہ، ideas، planning اور
 
 عملی استعمال کے لیے [Gemini اردو میں کیسے استعمال کریں؟](/how-to/how-to-use-gemini-in-urdu/) والی step-by-step گائیڈ کھولیں، جہاں prompt examples، file upload احتیاطیں اور Pakistani use cases دیے گئے ہیں۔ اگر آپ prompt لکھنے کی basic skill الگ سے سمجھنا چاہتے ہیں تو [Prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔
 
+## Gemini AI سیکھنے کا beginner path
+
+اگر آپ Google Gemini AI کے بارے میں search کر کے یہاں آئے ہیں تو یہ ترتیب follow کریں:
+
+- پہلے یہی page پڑھ کر Gemini کا basic مطلب سمجھیں۔
+- پھر [Gemini Urdu guide](/how-to/how-to-use-gemini-in-urdu/) سے app، prompt اور privacy basics سیکھیں۔
+- Student ہیں تو [Gemini for students guide](/guides/gemini-for-students-urdu/) کھولیں۔
+- Prompt بہتر کرنا چاہتے ہیں تو [prompt engineering](/learn/prompt-engineering/) پڑھیں۔
+- مکمل AI learning path چاہیے تو [free AI course Urdu guide](/guides/free-ai-course-urdu/) اور [Masterclass lesson 1](/courses/masterclass/1/) سے شروع کریں۔
+
 ## پاکستان میں Gemini کا عام استعمال
 
 - طالب علم نوٹس کا خلاصہ بنا سکتا ہے۔
@@ -44,7 +58,7 @@ Gemini عام سوالات، لکھائی، خلاصہ، ideas، planning اور
 
 ## Gemini اور Google AI Studio میں فرق
 
-Gemini عام صارف کے لیے chat-style AI assistant ہے۔ [Google AI Studio](/blog/google-ai-studio-kia-hai/) developers، creators اور advanced users کے لیے ہے جہاں Gemini API، prompts اور prototypes پر کام کیا جا سکتا ہے۔
+Gemini عام صارف کے لیے chat-style AI assistant ہے۔ [Google AI Studio Urdu hub](/tag/google-ai-studio/) developers، creators اور advanced users کے لیے ہے جہاں Gemini API، prompts اور prototypes پر کام کیا جا سکتا ہے۔
 
 اگر آپ صرف سوال پوچھنا، لکھائی بہتر کرنا یا خلاصہ لینا چاہتے ہیں تو Gemini سے شروع کریں۔ اگر آپ app، API یا prototype بنانا چاہتے ہیں تو Google AI Studio دیکھیں۔
 
@@ -83,6 +97,14 @@ Gemini عام صارف کے لیے AI assistant ہے، جبکہ Google AI Studio
 ### Gemini سیکھنے کا آسان اگلا قدم کیا ہے؟
 
 پہلے [Gemini اردو گائیڈ](/how-to/how-to-use-gemini-in-urdu/) سے basic استعمال سیکھیں، پھر [prompt engineering](/learn/prompt-engineering/) پڑھیں، اور اپنے کام کے لیے [AI tools directory](/tools/) سے tool چنیں۔
+
+### Gemini app download کہاں سے کریں؟
+
+Gemini ہمیشہ [gemini.google.com](https://gemini.google.com/) یا phone کے آفیشل app store سے استعمال کریں۔ غیر واضح APK، clone app یا غیر معتبر download link استعمال نہ کریں۔
+
+### Gemini سیکھنے کے لیے Urdu course کہاں سے شروع کریں؟
+
+اگر آپ Gemini کے ساتھ مکمل AI learning path چاہتے ہیں تو [free AI course Urdu guide](/guides/free-ai-course-urdu/) اور [Urdu AI Masterclass lesson 1](/courses/masterclass/1/) سے شروع کریں۔
 
 ## اب آگے کیا سیکھیں؟
 
