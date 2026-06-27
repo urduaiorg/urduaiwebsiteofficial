@@ -1,6 +1,6 @@
 ---
-title: "Gemini Urdu guide: Google Gemini app استعمال کرنے کا طریقہ"
-description: "Gemini Urdu guide میں Google Gemini app، اردو prompts، phone پر استعمال، file/image upload، student use، privacy checks اور Google AI Studio کا فرق سیکھیں۔"
+title: "Gemini AI Urdu: Google Gemini app استعمال کرنے کا طریقہ"
+description: "Gemini AI Urdu guide: Google Gemini app، phone، prompts، Urdu answer، student use، file upload، privacy اور Google AI Studio کا فرق سیکھیں۔"
 date: 2026-04-04
 last_verified: 2026-06-27
 category: "ہاؤ ٹو"
@@ -30,12 +30,26 @@ faq:
     answer: "پہلے prompt engineering کی basic skill سیکھیں، پھر AI tools directory سے اپنے کام کا tool چنیں، اور اگر structured path چاہیے تو مفت AI کورس اردو میں شروع کریں۔"
   - question: "کیا Gemini میں private documents upload کرنے چاہئیں؟"
     answer: "Sensitive documents، passwords، CNIC، bank details، student records یا client files upload کرنے سے پہلے privacy risk سمجھیں۔ ضرورت ہو تو ذاتی معلومات remove کر کے file دیں۔"
+  - question: "Gemini student offer کیسے check کریں؟"
+    answer: "Gemini student offer ہر ملک، account اور تاریخ کے حساب سے بدل سکتی ہے۔ current eligibility کے لیے Google Gemini for Students یا Google One کا آفیشل page کھول کر اپنے Google account سے status check کریں۔"
 ---
-Google Gemini AI اردو میں استعمال کرنے کا طریقہ یہ ہے کہ gemini.google.com یا Gemini app کھولیں، Google اکاؤنٹ سے sign in کریں، اپنا کام واضح prompt میں لکھیں، اور جواب کو follow-up سوالات سے بہتر بنائیں۔ 27 جون 2026 تک Gemini لکھائی، خلاصہ، brainstorming، تصویر سمجھنے، file upload اور Google ecosystem کے ساتھ کچھ مربوط کاموں میں مدد دے سکتا ہے، لیکن features اور limits account کے حساب سے بدل سکتے ہیں۔
+Gemini AI Urdu میں استعمال کرنے کا طریقہ یہ ہے کہ gemini.google.com یا Google Gemini app کھولیں، Google اکاؤنٹ سے sign in کریں، اپنا کام واضح Urdu prompt میں لکھیں، اور جواب کو follow-up سوالات سے بہتر بنائیں۔ 27 جون 2026 تک Gemini لکھائی، خلاصہ، brainstorming، تصویر سمجھنے، file upload اور Google ecosystem کے ساتھ کچھ مربوط کاموں میں مدد دے سکتا ہے، لیکن features اور limits account کے حساب سے بدل سکتے ہیں۔
 
 اگر آپ پہلی بار AI استعمال کر رہے ہیں تو Gemini کو "جادو" نہ سمجھیں۔ اسے ایک helper سمجھیں جو اچھا جواب تب دیتا ہے جب آپ اچھا سوال دیتے ہیں۔ پاکستانی طالب علم، teacher، freelancer یا چھوٹا کاروبار اسی اصول سے فائدہ اٹھا سکتا ہے: پہلے کام صاف کریں، پھر prompt لکھیں، پھر جواب کو check کریں۔
 
 آفیشل access اور تازہ features کے لیے [Gemini کی آفیشل ویب سائٹ](https://gemini.google.com/) اور [Google Gemini Help](https://support.google.com/gemini/?hl=en) دیکھیں۔ اگر آپ پہلے Gemini کا basic مطلب سمجھنا چاہتے ہیں تو [Gemini کیا ہے؟](/learn/google-gemini/) سے شروع کریں، اور اگر AI itself نیا ہے تو [AI کیا ہے؟](/guides/ai-kya-hai-urdu-ai-master-class-1/) والا بنیادی سبق پڑھیں۔
+
+## فوری جواب: Gemini AI Urdu میں شروع کرنے کا آسان راستہ
+
+| سوال | مختصر جواب |
+|---|---|
+| Gemini AI Urdu میں کیسے چلائیں؟ | gemini.google.com یا app کھولیں، Google account سے sign in کریں، Urdu prompt لکھیں |
+| Phone پر کیا چاہیے؟ | internet، Google account، supported browser یا Gemini app |
+| پہلا prompt کیا ہو؟ | اپنا کام، audience، انداز اور output format ایک ساتھ لکھیں |
+| student کہاں سے شروع کرے؟ | پہلے basic prompt آزمائیں، پھر [Gemini for students guide](/guides/gemini-for-students-urdu/) پڑھیں |
+| privacy میں کیا احتیاط ہے؟ | CNIC، password، bank detail، student record یا client file بغیر ضرورت upload نہ کریں |
+
+اگر آپ صرف definition چاہتے ہیں تو [Gemini کیا ہے؟](/learn/google-gemini/) پڑھیں۔ اگر آپ عملی steps چاہتے ہیں تو اسی guide کو follow کریں، پھر [prompt engineering](/learn/prompt-engineering/) سے بہتر سوال لکھنا سیکھیں۔
 
 ## قدم 1: Gemini کھولیں اور Google اکاؤنٹ سے sign in کریں
 
@@ -48,6 +62,12 @@ Google Gemini AI اردو میں استعمال کرنے کا طریقہ یہ ہ
 Google Help کے مطابق Gemini mobile app Android اور iOS پر مختلف شکلوں میں دستیاب ہو سکتی ہے، لیکن availability ہر language، device، account یا location کے لیے ایک جیسی نہیں ہوتی۔ اسی لیے اگر آپ کے phone میں Gemini app، voice، camera یا assistant option نظر نہ آئے تو پہلے app store، Google app اور account settings چیک کریں۔
 
 Phone پر Gemini سے text لکھ کر، voice prompt دے کر، image یا camera input کے ذریعے سوال پوچھا جا سکتا ہے۔ Android پر بعض devices میں Gemini assistant کے طور پر بھی آ سکتا ہے، لیکن کچھ Google Assistant features ہر زبان یا ملک میں available نہیں ہوتے۔ اس page کا مقصد basic use سکھانا ہے؛ advanced phone controls ہمیشہ اپنے device کی settings سے verify کریں۔
+
+## Google Gemini app download کہاں سے کریں؟
+
+Gemini app کے لیے ہمیشہ phone کا آفیشل app store، Google app، یا [gemini.google.com](https://gemini.google.com/) استعمال کریں۔ APK websites، clone apps، WhatsApp download links یا غیر واضح files سے بچیں، کیونکہ AI app کے نام پر fake apps بھی data یا account risk بنا سکتی ہیں۔
+
+اگر app store میں Gemini نظر نہ آئے تو اس کا مطلب یہ نہیں کہ آپ غلط کر رہے ہیں۔ Google Help کے مطابق Gemini mobile app availability language، device، account اور location کے حساب سے بدل سکتی ہے۔ ایسی صورت میں browser میں gemini.google.com کھول کر basic prompts آزمائیں۔
 
 ## قدم 2: پہلے اپنا کام ایک لائن میں لکھیں
 
@@ -75,6 +95,24 @@ Gemini اردو سمجھتا ہے، لیکن بہتر جواب کے لیے promp
 یہ prompt صرف "post لکھ دیں" سے زیادہ واضح ہے۔ اگر آپ prompt کی basic skill الگ سے سیکھنا چاہتے ہیں تو [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔
 
 اگر آپ student ہیں تو یہی اصول پڑھائی میں بھی کام آتا ہے۔ homework کا direct جواب لینے کے بجائے Gemini سے آسان وضاحت، outline، self-test questions اور revision plan مانگیں۔ اس کے لیے الگ [طالب علموں کے لیے Gemini AI گائیڈ](/guides/gemini-for-students-urdu/) بھی موجود ہے۔
+
+## Gemini AI Urdu prompt examples
+
+یہ تین prompts copy کر کے اپنے کام کے مطابق بدل سکتے ہیں:
+
+```text
+میں پاکستان میں beginner student ہوں۔ اس topic کو آسان اردو میں سمجھائیں، پھر 5 self-test سوالات دیں۔
+```
+
+```text
+میرے small business کے لیے WhatsApp پر بھیجنے والی 5 short Urdu product descriptions لکھیں۔ انداز دوستانہ ہو۔
+```
+
+```text
+اس English paragraph کو آسان اردو میں سمجھائیں، مشکل الفاظ الگ list کریں، اور آخر میں 3 line summary دیں۔
+```
+
+اچھا prompt ہمیشہ context دیتا ہے۔ صرف "summary بنا دیں" کے بجائے لکھیں کہ summary کس audience کے لیے ہے، کتنی لمبی چاہیے، اور کس format میں چاہیے۔
 
 ## قدم 4: پہلا جواب final نہ سمجھیں
 
@@ -164,6 +202,12 @@ Gemini مددگار ہے، مگر ہر جواب درست نہیں ہوتا۔ ت�
 
 اگر آپ prompts test کرنا، Gemini API سمجھنا یا app prototype بنانا چاہتے ہیں تو [Google AI Studio اردو گائیڈ](/blog/google-ai-studio-kia-hai/) اگلا قدم ہے۔ اگر آپ صرف tool چننا چاہتے ہیں تو [AI tools directory](/tools/) دیکھیں۔ اگر آپ ChatGPT بھی compare کرنا چاہتے ہیں تو [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) مدد دے گی۔
 
+## Gemini student offer کیسے check کریں؟
+
+Gemini student offer یا Google AI Pro student access ہر country، age، institution، account type اور date کے حساب سے بدل سکتا ہے۔ اس لیے کسی social post یا old video پر اعتماد نہ کریں۔ current eligibility کے لیے [Google Gemini for Students](https://gemini.google/students/) یا [Google One AI Pro membership](https://support.google.com/googleone/answer/16476811?hl=en) کا آفیشل page کھولیں، اپنے Google account سے sign in کریں، اور وہاں دکھائی گئی conditions پڑھیں۔
+
+اگر offer آپ کے account میں available نہ ہو تو بھی Gemini کے basic استعمال، Urdu prompts، summary، translation اور study planning سے شروع کیا جا سکتا ہے۔ structured learning کے لیے [مفت AI کورس اردو میں](/guides/free-ai-course-urdu/) اور [Urdu AI Masterclass](/courses/masterclass/) بہتر اگلا قدم ہیں۔
+
 ## Gemini کو اپنے کام کے حساب سے کہاں لے جائیں؟
 
 Gemini سیکھنے کے بعد اگلا قدم آپ کے مقصد پر depend کرتا ہے۔
@@ -228,6 +272,10 @@ Gemini عام users کے لیے chat-style AI assistant ہے۔ Google AI Studio 
 ### کیا Gemini میں private documents upload کرنے چاہئیں؟
 
 Sensitive documents، passwords، CNIC، bank details، student records یا client files upload کرنے سے پہلے privacy risk سمجھیں۔ ضرورت ہو تو ذاتی معلومات remove کر کے file دیں۔
+
+### Gemini student offer کیسے check کریں؟
+
+Gemini student offer ہر ملک، account اور تاریخ کے حساب سے بدل سکتی ہے۔ current eligibility کے لیے [Google Gemini for Students](https://gemini.google/students/) یا Google One کا آفیشل page کھول کر اپنے Google account سے status check کریں۔
 
 ## اب آگے کیا سیکھیں؟
 
