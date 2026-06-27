@@ -37,7 +37,7 @@ Free AI tools list Urdu کا اصل فائدہ تب ہوتا ہے جب beginner 
 
 قیمتیں، free limits اور regional availability وقت کے ساتھ بدل سکتی ہیں۔ اس لیے یہاں focus practical use پر ہے؛ تازہ pricing کے لیے ہمیشہ tool کی آفیشل website دیکھیں۔ Urdu AI کی tools directory بھی ساتھ رکھیں: [پاکستان کے لیے منتخب AI tools](/tools/)۔
 
-اگر آپ AI tools like ChatGPT تلاش کر رہے ہیں تو یاد رکھیں کہ ہر assistant ایک جیسا نہیں ہوتا۔ ChatGPT اور Gemini روزمرہ سوالات اور writing drafts کے لیے، Claude لمبی تحریر اور editing کے لیے، Perplexity sources کے ساتھ research کے لیے، اور NotebookLM اپنی files یا notes پر سوال کرنے کے لیے زیادہ مناسب ہو سکتا ہے۔
+اگر آپ AI tools like ChatGPT تلاش کر رہے ہیں تو یاد رکھیں کہ ہر assistant ایک جیسا نہیں ہوتا۔ ChatGPT اور Gemini روزمرہ سوالات اور writing drafts کے لیے، Claude لمبی تحریر اور editing کے لیے، Perplexity sources کے ساتھ research کے لیے، اور NotebookLM اپنی files یا notes پر سوال کرنے کے لیے زیادہ مناسب ہو سکتا ہے۔ ChatGPT کا اردو راستہ الگ سے سمجھنا ہو تو [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/) کھولیں۔
 
 اگر آپ ابھی AI سیکھنا شروع کر رہے ہیں تو پہلے [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پڑھیں، پھر [prompt engineering](/learn/prompt-engineering/) کی basic skill سیکھیں۔ students کے لیے [Gemini study workflow](/guides/gemini-for-students-urdu/)، job seekers کے لیے [CV اور interview prompts](/prompts/job-seekers/)، freelancers کے لیے [AI tools for freelancers](/guides/ai-tools-for-freelancers-pakistan/) اور business users کے لیے [ChatGPT for business](/guides/chatgpt-for-business-urdu/) زیادہ سیدھا راستہ ہے۔
 
@@ -46,7 +46,7 @@ Free AI tools list Urdu کا اصل فائدہ تب ہوتا ہے جب beginner 
 اگر آپ کے پاس وقت کم ہے تو پہلے یہ راستہ چنیں:
 
 - AI پہلی بار سمجھنا ہے: [AI کیا ہے؟](/learn/artificial-intelligence/)
-- phone پر AI assistant چاہیے: [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) یا [Gemini Urdu guide](/how-to/how-to-use-gemini-in-urdu/)
+- phone پر AI assistant چاہیے: [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/)، [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) یا [Gemini Urdu guide](/how-to/how-to-use-gemini-in-urdu/)
 - ChatGPT جیسے دوسرے tools چاہیے: Gemini، Claude، Perplexity اور NotebookLM کے cards [AI tools directory](/tools/) میں دیکھیں
 - پڑھائی کے لیے tool چاہیے: [Gemini for students](/guides/gemini-for-students-urdu/)
 - CV، cover letter یا interview چاہیے: [job seekers prompts](/prompts/job-seekers/)
@@ -121,7 +121,7 @@ social posts کے لیے ready prompts چاہیے ہوں تو [small business pr
 
 ## prototype اور API ideas کے لیے Google AI Studio
 
-[Google AI Studio](/blog/google-ai-studio-kia-hai/) Gemini models، prompts، API experiments اور simple prototypes کے لیے useful ہے۔ اگر آپ app idea test کرنا چاہتے ہیں یا AI کو کسی workflow میں لگانا چاہتے ہیں تو یہ ChatGPT-style chat سے ایک قدم آگے ہے۔
+[Google AI Studio](/tag/google-ai-studio/) Gemini models، prompts، API experiments اور simple prototypes کے لیے useful ہے۔ اگر آپ app idea test کرنا چاہتے ہیں یا AI کو کسی workflow میں لگانا چاہتے ہیں تو یہ ChatGPT-style chat سے ایک قدم آگے ہے۔
 
 Beginner کے لیے بہتر راستہ یہ ہے: پہلے Gemini میں simple prompt آزمائیں، پھر Google AI Studio میں prompt یا prototype test کریں، اور پھر ضرورت ہو تو coding tool کھولیں۔
 

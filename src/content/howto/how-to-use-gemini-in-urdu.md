@@ -200,7 +200,7 @@ Gemini مددگار ہے، مگر ہر جواب درست نہیں ہوتا۔ ت�
 
 اگر آپ Google account، Gmail، Drive یا Android phone کے قریب رہ کر کام کرتے ہیں تو Gemini سے شروع کریں۔ اگر آپ general writing یا conversation چاہتے ہیں تو ChatGPT بھی دیکھ سکتے ہیں۔ لمبی writing اور revision کے لیے Claude مفید ہو سکتا ہے۔
 
-اگر آپ prompts test کرنا، Gemini API سمجھنا یا app prototype بنانا چاہتے ہیں تو [Google AI Studio اردو گائیڈ](/blog/google-ai-studio-kia-hai/) اگلا قدم ہے۔ اگر آپ صرف tool چننا چاہتے ہیں تو [AI tools directory](/tools/) دیکھیں۔ اگر آپ ChatGPT بھی compare کرنا چاہتے ہیں تو [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) مدد دے گی۔
+اگر آپ prompts test کرنا، Gemini API سمجھنا یا app prototype بنانا چاہتے ہیں تو [Google AI Studio Urdu hub](/tag/google-ai-studio/) اگلا قدم ہے۔ اگر آپ صرف tool چننا چاہتے ہیں تو [AI tools directory](/tools/) دیکھیں۔ اگر آپ ChatGPT بھی compare کرنا چاہتے ہیں تو [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) مدد دے گی۔
 
 ## Gemini student offer کیسے check کریں؟
 
@@ -282,7 +282,7 @@ Gemini student offer ہر ملک، account اور تاریخ کے حساب سے 
 - [Gemini کیا ہے؟](/learn/google-gemini/)
 - [طالب علموں کے لیے Gemini AI گائیڈ](/guides/gemini-for-students-urdu/)
 - [Prompt engineering کیا ہے؟](/learn/prompt-engineering/)
-- [Google AI Studio کیا ہے؟](/blog/google-ai-studio-kia-hai/)
+- [Google AI Studio Urdu hub](/tag/google-ai-studio/)
 - [NotebookLM گائیڈ](/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/)
 - [Job seekers کے لیے AI prompts](/prompts/job-seekers/)
 - [AI tools for freelancers Pakistan](/guides/ai-tools-for-freelancers-pakistan/)

@@ -126,7 +126,7 @@ AI آپ کو expert نہیں بناتا، مگر شروع کرنے کی رکاو
 
 شروع میں ایک tool کافی ہے۔ اگر آپ Google account اور Android phone استعمال کرتے ہیں تو [Gemini اردو میں استعمال کرنے کا طریقہ](/how-to/how-to-use-gemini-in-urdu/) دیکھیں۔ اگر آپ writing یا editing بہتر کرنا چاہتے ہیں تو [Claude AI سے اردو writing کیسے کریں؟](/how-to/how-to-use-claude-for-writing/) پڑھیں۔ اگر آپ tools کی پوری فہرست دیکھنا چاہتے ہیں تو [AI tools directory](/tools/) کھولیں۔
 
-Advanced apps، API یا prototypes کے لیے [Google AI Studio گائیڈ](/blog/google-ai-studio-kia-hai/) اگلا قدم ہو سکتا ہے، مگر beginner کے لیے پہلے basic prompt practice کافی ہے۔
+Advanced apps، API یا prototypes کے لیے [Google AI Studio Urdu hub](/tag/google-ai-studio/) اگلا قدم ہو سکتا ہے، مگر beginner کے لیے پہلے basic prompt practice کافی ہے۔
 
 ## AI کے ساتھ احتیاط
 

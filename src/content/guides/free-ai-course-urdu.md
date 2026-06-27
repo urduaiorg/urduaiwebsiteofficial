@@ -56,7 +56,7 @@ faq:
 
 - سوالات اور روزمرہ learning کے لیے Gemini یا ChatGPT
 - لمبی تحریر اور editing کے لیے [Claude AI](/learn/claude-ai/)
-- apps، API یا prototypes کے لیے [Google AI Studio](/blog/google-ai-studio-kia-hai/)
+- apps، API یا prototypes کے لیے [Google AI Studio Urdu hub](/tag/google-ai-studio/)
 - نئے tools دیکھنے کے لیے [AI Tools Directory](/tools/)
 
 ## قدم 5: ایک چھوٹا project بنائیں
@@ -91,7 +91,7 @@ faq:
 
 ### AI course مکمل کرنے کے بعد کیا سیکھیں؟
 
-بنیادی کورس کے بعد [پرامٹ انجینئرنگ](/learn/prompt-engineering/)، [Google AI Studio](/blog/google-ai-studio-kia-hai/)، [AI tools directory](/tools/)، اور اپنی practical project practice شروع کریں۔
+بنیادی کورس کے بعد [پرامٹ انجینئرنگ](/learn/prompt-engineering/)، [Google AI Studio Urdu hub](/tag/google-ai-studio/)، [AI tools directory](/tools/)، اور اپنی practical project practice شروع کریں۔
 
 ## اب آگے کیا سیکھیں؟
 
