@@ -13,13 +13,14 @@ const freeTools = tools.filter(t => t.pricing === 'free').length;
 const trendingTools = tools.filter(t => t.trending).length;
 const toolAnchor = (name: string) => `tool-${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
 const quickPaths = [
-  { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/learn/artificial-intelligence/', text: 'AI کی مختصر اور آسان تعریف' },
-  { title: 'کام کے حساب سے tool چننا ہے', href: '/guides/free-ai-course-urdu/', text: 'beginner learning path' },
-  { title: 'AI سے تصاویر بنانی ہیں', href: '/blog/how-to-make-your-own-ai-image-generator/', text: 'اپنا image prompt generator بنائیں' },
-  { title: 'اردو میں Gemini چلانا ہے', href: '/how-to/how-to-use-gemini-in-urdu/', text: 'step-by-step Gemini گائیڈ' },
+  { title: 'پہلی بار AI استعمال کر رہے ہیں', href: '/learn/artificial-intelligence/', text: 'AI کی بنیادی تعریف پہلے سمجھیں' },
+  { title: 'ChatGPT موبائل پر چلانا ہے', href: '/how-to/how-to-install-original-chatgpt-app/', text: 'آفیشل app download guide' },
+  { title: 'CV یا نوکری کے لیے AI چاہیے', href: '/prompts/job-seekers/', text: 'CV، cover letter اور interview prompts' },
+  { title: 'Students کے لیے tools چاہیے', href: '/guides/gemini-for-students-urdu/', text: 'study، notes اور learning workflow' },
+  { title: 'Freelancing work بہتر کرنا ہے', href: '/guides/ai-tools-for-freelancers-pakistan/', text: 'writing، research اور client work' },
+  { title: 'Small business کے لیے AI چاہیے', href: '/prompts/small-business/', text: 'marketing، product اور customer replies' },
   { title: 'prompt بہتر لکھنا ہے', href: '/learn/prompt-engineering/', text: 'سوال کو واضح بنانے کا طریقہ' },
   { title: 'Google AI Studio سیکھنا ہے', href: '/blog/google-ai-studio-kia-hai/', text: 'API، Build Mode اور prototype' },
-  { title: 'AI tools کی بنیاد سمجھنی ہے', href: '/guides/ai-kya-hai-urdu-ai-master-class-1/', text: 'AI کیا ہے؟ آسان اردو سبق' },
 ];
 
 const toolsSchema = [
@@ -49,8 +50,13 @@ const toolsSchema = [
     "mainEntity": [
       {
         "@type": "Question",
+        "name": "AI Tools in Urdu directory کس کے لیے ہے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "یہ directory پاکستانی beginners، students، freelancers، job seekers، teachers اور small businesses کے لیے ہے جو ChatGPT، Gemini، Claude اور دوسرے AI tools کو اردو رہنمائی کے ساتھ چننا چاہتے ہیں۔" },
+      },
+      {
+        "@type": "Question",
         "name": "پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟",
-        "acceptedAnswer": { "@type": "Answer", "text": "شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype کے لیے Google AI Studio دیکھیں۔" },
+        "acceptedAnswer": { "@type": "Answer", "text": "شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype یا API تجربے کے لیے Google AI Studio دیکھیں۔" },
       },
       {
         "@type": "Question",
@@ -59,8 +65,23 @@ const toolsSchema = [
       },
       {
         "@type": "Question",
-        "name": "AI tools سیکھنے کا آسان راستہ کیا ہے؟",
-        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر Gemini یا ChatGPT میں اردو prompt آزمائیں، اس کے بعد prompt engineering اور اردو اے آئی ماسٹرکلاس سے عملی مشق کریں۔" },
+        "name": "Job seekers کے لیے کون سے AI tools مفید ہیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "Job seekers پہلے ChatGPT یا Claude سے CV، cover letter، LinkedIn summary اور interview practice کے drafts بنوا سکتے ہیں۔ final text بھیجنے سے پہلے facts، dates اور contact details خود verify کریں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "Students اور freelancers کے لیے tool کیسے چنیں؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "Students notes، summaries اور study planning کے لیے Gemini یا NotebookLM سے شروع کر سکتے ہیں۔ Freelancers research، proposal writing، client replies اور content drafts کے لیے ChatGPT، Claude یا Perplexity دیکھ سکتے ہیں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "AI tools سیکھنے کا شروع کا راستہ کیا ہے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "پہلے AI کی بنیادی تعریف پڑھیں، پھر ChatGPT یا Gemini میں ایک اردو prompt آزمائیں، اس کے بعد prompt engineering، CV prompts، student guides یا freelancer guides سے اپنے کام کے مطابق مشق کریں۔" },
+      },
+      {
+        "@type": "Question",
+        "name": "Free AI tools استعمال کرتے وقت کیا check کرنا چاہیے؟",
+        "acceptedAnswer": { "@type": "Answer", "text": "Free یا freemium tools میں limits، model access، image/video quota، privacy settings اور paid upgrade conditions بدل سکتی ہیں۔ اہم کام سے پہلے ہر tool کی آفیشل website پر current limits چیک کریں۔" },
       },
     ],
   },
@@ -68,8 +89,8 @@ const toolsSchema = [
 ---
 
 <Base
-  title="AI Tools in Urdu — پاکستان کے لیے منتخب اے آئی ٹولز"
-  description="AI Tools in Urdu: پاکستانی users کے لیے لکھائی، تصویر، ویڈیو، آواز، coding اور research tools ایک جگہ، Urdu guides اور beginner path کے ساتھ۔"
+  title="AI Tools in Urdu: ChatGPT، Gemini اور Claude گائیڈز"
+  description="AI Tools in Urdu directory: ChatGPT، Gemini، Claude، image، video، coding اور research tools کو Urdu guides، job، study اور business paths کے ساتھ چنیں۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
   schema={toolsSchema}
@@ -83,9 +104,9 @@ const toolsSchema = [
           <li aria-current="page">اے آئی ٹولز</li>
         </ol>
       </nav>
-      <h1 class="tools-hero__title">پاکستان کے لیے منتخب AI Tools</h1>
+      <h1 class="tools-hero__title">AI Tools in Urdu: ChatGPT، Gemini اور Claude گائیڈز</h1>
       <p class="tools-hero__sub">
-        AI Tools in Urdu پاکستانی users کے لیے منتخب tools کی directory ہے: ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools، ہر tool کے ساتھ صاف Urdu وضاحت اور متعلقہ guide۔
+        AI Tools in Urdu پاکستانی beginners، students، freelancers، job seekers اور small businesses کے لیے منتخب tools کی directory ہے۔ یہاں ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools کے ساتھ صاف Urdu وضاحت، pricing label اور متعلقہ guide ملتا ہے۔
       </p>
       <div class="tools-hero__stats">
         <div class="tools-hero__stat">
@@ -94,7 +115,7 @@ const toolsSchema = [
         </div>
         <div class="tools-hero__stat">
           <span class="tools-hero__stat-num" dir="ltr">{freeTools}</span>
-          <span class="tools-hero__stat-label">مفت درج tools</span>
+          <span class="tools-hero__stat-label">free label والے</span>
         </div>
         <div class="tools-hero__stat">
           <span class="tools-hero__stat-num" dir="ltr">{trendingTools}</span>
@@ -141,7 +162,7 @@ const toolsSchema = [
       <div class="tools-paths__intro">
         <h2 id="tools-paths-title">کس کام کے لیے کون سا راستہ چنیں؟</h2>
         <p>
-          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے ایک مقصد چنیں، پھر اسی سے جڑا ہوا guide اور tool کھولیں۔
+          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے اپنا مقصد چنیں: پڑھائی، CV، freelancing، business، prompt writing یا Google AI Studio۔ پھر اسی سے جڑا ہوا guide اور tool کھولیں۔
         </p>
       </div>
       <div class="tools-paths__links">
@@ -232,6 +253,10 @@ const toolsSchema = [
     <section class="tools-faq" aria-labelledby="tools-faq-title">
       <h2 id="tools-faq-title">عام سوالات</h2>
       <details>
+        <summary>AI Tools in Urdu directory کس کے لیے ہے؟</summary>
+        <p>یہ directory پاکستانی beginners، students، freelancers، job seekers، teachers اور small businesses کے لیے ہے جو ChatGPT، Gemini، Claude اور دوسرے AI tools کو اردو رہنمائی کے ساتھ چننا چاہتے ہیں۔</p>
+      </details>
+      <details>
         <summary>پاکستان میں کون سے AI tools سے شروع کرنا بہتر ہے؟</summary>
         <p>شروع میں ایک یا دو tools کافی ہیں۔ روزمرہ سوالات کے لیے Gemini یا ChatGPT، لمبی writing کے لیے Claude، documents کے لیے NotebookLM، اور prototype یا API تجربے کے لیے Google AI Studio دیکھیں۔</p>
       </details>
@@ -240,8 +265,20 @@ const toolsSchema = [
         <p>Pakistan badge والے tools پاکستانی صارفین کے لیے منتخب کیے گئے ہیں۔ قیمت، limits اور دستیابی وقت کے ساتھ بدل سکتی ہے، اس لیے اہم کام سے پہلے tool کی آفیشل سائٹ ضرور چیک کریں۔</p>
       </details>
       <details>
-        <summary>AI tools سیکھنے کا آسان راستہ کیا ہے؟</summary>
-        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini اردو گائیڈ</a> سے پہلا prompt لکھیں، اور اس کے بعد <a href="/learn/prompt-engineering/">prompt engineering</a> یا <a href="/guides/free-ai-course-urdu/">مفت AI کورس اردو میں</a> سے عملی مشق کریں۔</p>
+        <summary>Job seekers کے لیے کون سے AI tools مفید ہیں؟</summary>
+        <p>Job seekers پہلے ChatGPT یا Claude سے <a href="/prompts/job-seekers/">CV، cover letter، LinkedIn summary اور interview practice prompts</a> استعمال کر سکتے ہیں۔ final text بھیجنے سے پہلے facts، dates اور contact details خود verify کریں۔</p>
+      </details>
+      <details>
+        <summary>Students اور freelancers کے لیے tool کیسے چنیں؟</summary>
+        <p>Students notes، summaries اور study planning کے لیے <a href="/guides/gemini-for-students-urdu/">Gemini for students guide</a> سے شروع کر سکتے ہیں۔ Freelancers research، proposal writing، client replies اور content drafts کے لیے <a href="/guides/ai-tools-for-freelancers-pakistan/">AI tools for freelancers Pakistan</a> دیکھ سکتے ہیں۔</p>
+      </details>
+      <details>
+        <summary>AI tools سیکھنے کا شروع کا راستہ کیا ہے؟</summary>
+        <p>پہلے <a href="/learn/artificial-intelligence/">مصنوعی ذہانت کیا ہے؟</a> سے بنیاد سمجھیں، پھر <a href="/how-to/how-to-install-original-chatgpt-app/">ChatGPT app guide</a> یا <a href="/how-to/how-to-use-gemini-in-urdu/">Gemini اردو گائیڈ</a> سے پہلا prompt لکھیں۔ اس کے بعد <a href="/learn/prompt-engineering/">prompt engineering</a> سے سوال بہتر بنانا سیکھیں۔</p>
+      </details>
+      <details>
+        <summary>Free AI tools استعمال کرتے وقت کیا check کرنا چاہیے؟</summary>
+        <p>Free یا freemium tools میں limits، model access، image/video quota، privacy settings اور paid upgrade conditions بدل سکتی ہیں۔ اہم کام سے پہلے ہر tool کی آفیشل website پر current limits چیک کریں۔</p>
       </details>
     </section>
   </div>
