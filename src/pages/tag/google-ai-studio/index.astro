@@ -50,6 +50,25 @@ const useCases = [
   'developer: Gemini API key، model testing، structured output اور code export',
 ];
 
+const quickAnswers = [
+  {
+    question: 'Google AI Studio کیا ہے؟',
+    answer: 'Gemini models، prompts، API key اور app prototype test کرنے کا Google workspace۔',
+  },
+  {
+    question: 'شروع کہاں سے کریں؟',
+    answer: 'پہلے مرکزی Urdu guide پڑھیں، پھر aistudio.google.com پر ایک چھوٹا prompt آزمائیں۔',
+  },
+  {
+    question: 'Gemini سے فرق کیا ہے؟',
+    answer: 'Gemini عام chat assistant ہے؛ AI Studio prompt testing، API اور prototype کے لیے ہے۔',
+  },
+  {
+    question: 'API key میں احتیاط؟',
+    answer: 'API key کو password سمجھیں؛ public code، frontend app یا screenshot میں نہ ڈالیں۔',
+  },
+];
+
 const quickSteps = [
   'aistudio.google.com کھولیں اور Google account سے sign in کریں۔',
   'پہلے chat prompt یا prompt testing سے شروع کریں؛ فوراً production app نہ بنائیں۔',
@@ -82,6 +101,18 @@ const faq = [
   {
     question: 'کیا beginners Google AI Studio استعمال کر سکتے ہیں؟',
     answer: 'جی ہاں، beginners prompt testing اور small prototypes سے شروع کر سکتے ہیں۔ لیکن API keys، billing، user data اور production deployment کے لیے احتیاط اور basic technical review ضروری ہے۔',
+  },
+  {
+    question: 'Google AI Studio app download کہاں سے کریں؟',
+    answer: 'شروع کے لیے aistudio.google.com کو browser میں کھولیں۔ mobile یا desktop app کے نام سے کوئی file download کرنے سے پہلے ہمیشہ آفیشل Google page یا اپنے phone کے آفیشل app store سے verify کریں۔',
+  },
+  {
+    question: 'Google AI Studio میں پہلا prompt کیا لکھیں؟',
+    answer: 'پہلے اپنا idea، user، screens، data، language اور output صاف لکھیں۔ مثال: "Class 8 کے لیے Urdu quiz app بنائیں، login نہ ہو، result آخر میں دکھائیں"۔',
+  },
+  {
+    question: 'کیا Google AI Studio سے production app بنانی چاہیے؟',
+    answer: 'AI Studio prototype اور learning کے لیے اچھا آغاز ہے۔ production app سے پہلے security، API cost، user data، login، hosting اور human code review الگ سے check کریں۔',
   },
 ];
 
@@ -170,6 +201,14 @@ const schema = [
       <p>
         Google AI Studio عام chat app نہیں؛ یہ Gemini models کو test کرنے، prompts بہتر بنانے، API key لینے، model settings دیکھنے اور app prototype بنانے کا workspace ہے۔ اگر آپ کو صرف روزمرہ سوالات، خلاصہ یا writing چاہیے تو پہلے Gemini استعمال کریں۔ اگر آپ app، API، prototype یا developer workflow دیکھ رہے ہیں تو Google AI Studio کھولیں۔
       </p>
+      <div class="studio-answer-grid" aria-label="Google AI Studio quick answers">
+        {quickAnswers.map(item => (
+          <div>
+            <strong>{item.question}</strong>
+            <span>{item.answer}</span>
+          </div>
+        ))}
+      </div>
       <div class="studio-facts">
         <div><strong>شروع کہاں سے؟</strong><span>Google account + aistudio.google.com</span></div>
         <div><strong>اہم skill</strong><span>صاف prompt، data privacy، API key safety</span></div>
@@ -343,7 +382,15 @@ Language: Urdu UI, simple labels
     margin-block-start: var(--space-md);
   }
 
+  .studio-answer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-sm);
+    margin-block-start: var(--space-md);
+  }
+
   .studio-facts div,
+  .studio-answer-grid div,
   .studio-guide,
   .studio-panel,
   .studio-faq details {
@@ -356,14 +403,21 @@ Language: Urdu UI, simple labels
     padding: var(--space-sm);
   }
 
+  .studio-answer-grid div {
+    padding: var(--space-sm);
+  }
+
   .studio-facts strong,
   .studio-facts span,
+  .studio-answer-grid strong,
+  .studio-answer-grid span,
   .studio-guide strong,
   .studio-guide span {
     display: block;
   }
 
   .studio-facts span,
+  .studio-answer-grid span,
   .studio-guide span {
     color: var(--ink-soft);
     font-size: 0.92rem;
@@ -450,6 +504,7 @@ Language: Urdu UI, simple labels
     .studio-hero__grid,
     .studio-layout,
     .studio-guide-grid,
+    .studio-answer-grid,
     .studio-facts {
       grid-template-columns: 1fr;
     }

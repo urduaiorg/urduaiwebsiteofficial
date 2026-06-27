@@ -100,4 +100,4 @@ aistudio.google.com پر جائیں، اپنی ایپ کا خیال لکھیں،
 
 ## اب آگے کیا سیکھیں؟
 
-اگر Google AI Studio سے ایپ بنانا ہے تو پہلا قدم: [Google AI Studio اردو گائیڈ — پرامٹ سے اینڈرائیڈ ایپ کیسے بنائیں](/guides/google-ai-studio-urdu-guide/)
+اگر Google AI Studio سے ایپ بنانا ہے تو پہلا قدم: [Google AI Studio Urdu hub](/tag/google-ai-studio/) کھولیں، پھر [مرکزی گائیڈ](/blog/google-ai-studio-kia-hai/) سے API key، Build Mode اور prototype کا راستہ سمجھیں۔
