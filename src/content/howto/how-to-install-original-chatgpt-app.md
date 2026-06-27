@@ -23,11 +23,19 @@ faq:
     answer: "اگر publisher OpenAI نہیں، app غیر ضروری permissions مانگ رہی ہے، یا download سے پہلے payment مانگتی ہے تو اسے انسٹال نہ کریں۔"
   - question: "ChatGPT Free، Go اور Plus میں کیا فرق ہے؟"
     answer: "Free plan شروع کرنے کے لیے کافی ہے، Go کم قیمت paid upgrade ہے، اور Plus زیادہ advanced work کے لیے ہے۔ فیصلہ کرنے سے پہلے اپنی daily usage دیکھیں۔"
+  - question: "ChatGPT Urdu speaking کے لیے voice mode کیسے چلائیں؟"
+    answer: "آفیشل ChatGPT app کھولیں، اگر voice یا headphones option نظر آئے تو اسے tap کریں اور اردو میں بولیں۔ اگر option نہ آئے تو app update، account availability یا device support چیک کریں۔"
+  - question: "ChatGPT Urdu writing کے لیے پہلا prompt کیا لکھیں؟"
+    answer: "یہ prompt لکھیں: مجھے آسان اردو میں جواب دیں، میری بات کا خلاصہ بنائیں، مشکل الفاظ کم کریں، اور آخر میں 3 practical steps دیں۔"
+  - question: "Urdu AI ChatGPT ہے یا الگ website؟"
+    answer: "Urdu AI ایک اردو learning platform ہے جو ChatGPT، Gemini اور AI tools سکھاتا ہے۔ ChatGPT OpenAI کی app اور website ہے؛ دونوں ایک چیز نہیں۔"
+  - question: "ChatGPT Urdu free download کا کیا مطلب ہے؟"
+    answer: "اس کا مطلب یہ ہے کہ app download کے لیے ہمیشہ OpenAI کا آفیشل page استعمال کریں۔ کچھ features free plan میں آتے ہیں، paid plans اور limits OpenAI کی current policy کے مطابق بدل سکتے ہیں۔"
 ---
 
-ChatGPT Urdu app download کا محفوظ طریقہ یہ ہے کہ پہلے OpenAI کا آفیشل download page، [chatgpt.com/download](https://chatgpt.com/download)، کھولیں، پھر اپنے فون کے حساب سے Play Store یا App Store پر جائیں اور publisher کا نام OpenAI چیک کریں۔ اس کے بعد ایپ انسٹال کریں، سائن ان کریں، اور اردو میں اپنا پہلا سوال لکھ کر ChatGPT in Urdu استعمال شروع کریں۔
+ChatGPT Urdu app download کا محفوظ طریقہ یہ ہے کہ پہلے OpenAI کا آفیشل download page، [chatgpt.com/download](https://chatgpt.com/download)، کھولیں، پھر اپنے فون کے حساب سے Play Store یا App Store پر جائیں اور publisher کا نام OpenAI چیک کریں۔ اس کے بعد ایپ انسٹال کریں، سائن ان کریں، اور اردو میں لکھ کر یا voice option دستیاب ہو تو بول کر ChatGPT in Urdu استعمال شروع کریں۔
 
-یہ گائیڈ خاص طور پر ان پاکستانی صارفین کے لیے ہے جو پہلی بار ChatGPT install کر رہے ہیں۔ مقصد صرف app download کروانا نہیں، بلکہ یہ سمجھانا ہے کہ آفیشل ایپ کیسے پہچاننی ہے، جعلی apps سے کیسے بچنا ہے، اور اردو میں بہتر جواب کیسے لینا ہے۔
+یہ گائیڈ خاص طور پر ان پاکستانی صارفین کے لیے ہے جو پہلی بار ChatGPT install کر رہے ہیں۔ مقصد صرف app download کروانا نہیں، بلکہ یہ سمجھانا ہے کہ آفیشل ایپ کیسے پہچاننی ہے، جعلی apps سے کیسے بچنا ہے، Urdu AI اور ChatGPT کا فرق کیا ہے، اور اردو writing یا speaking میں بہتر جواب کیسے لینا ہے۔
 
 ## مرحلہ 1: OpenAI کا آفیشل download page کھولیں
 
@@ -73,6 +81,26 @@ ChatGPT سے اردو میں جواب لینے کے لیے English prompt لکھ
 
 اگر آپ کو prompt لکھنے کی basic skill سیکھنی ہے تو [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔ اچھا prompt اکثر paid plan سے بھی زیادہ فرق ڈال دیتا ہے۔
 
+## ChatGPT Urdu speaking کیسے کریں؟
+
+اگر آفیشل ChatGPT app میں voice یا headphones option نظر آئے تو اسے tap کریں اور اردو میں بولیں۔ مثال کے طور پر کہیں:
+
+> مجھے آسان اردو میں سمجھائیں کہ job interview میں اپنا تعارف کیسے دوں۔
+
+اگر voice option نظر نہ آئے تو گھبرانے کی ضرورت نہیں۔ کبھی feature account، app version، device یا OpenAI کی availability کے حساب سے مختلف ہوتا ہے۔ app update کریں، official website دیکھیں، یا فی الحال text prompt سے کام شروع کریں۔
+
+Voice mode میں بھی وہی اصول کام آتا ہے جو writing میں ہے: اپنی ضرورت صاف بتائیں۔ "مجھے English سکھائیں" کے بجائے کہیں: "میں Karachi میں call center job کے لیے English speaking practice کر رہا ہوں، روزانہ 10 minutes کی practice کروائیں۔"
+
+## ChatGPT Urdu writing کے لیے پہلا prompt
+
+Writing کے لیے ChatGPT کو صرف topic نہ دیں۔ اسے audience، tone اور format بھی بتائیں۔ یہ starter prompt copy کر سکتے ہیں:
+
+```text
+مجھے آسان اردو میں جواب دیں۔ قاری beginner ہے۔ مشکل English الفاظ کم رکھیں۔ جواب کو 5 short points میں لکھیں، اور آخر میں 3 practical steps دیں۔
+```
+
+اگر آپ CV بنا رہے ہیں تو [ChatGPT CV maker guide](/how-to/how-to-write-cv-with-chatgpt/) کھولیں۔ روزمرہ planning، reminders، email drafts اور ideas کے لیے [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/) بہتر اگلا قدم ہے۔
+
 ## جعلی ChatGPT apps سے کیسے بچیں؟
 
 جعلی apps عام طور پر تین چیزوں سے پہچانی جا سکتی ہیں: publisher OpenAI نہیں ہوتا، app غیر ضروری permissions مانگتی ہے، یا user کو جلدی payment پر دھکیلتی ہے۔
@@ -86,6 +114,12 @@ ChatGPT سے اردو میں جواب لینے کے لیے English prompt لکھ
 - Account: اپنا email اور password صرف آفیشل ChatGPT app یا website پر دیں
 
 اگر آپ کو کسی app پر شک ہو تو اسے install نہ کریں۔ ChatGPT کو browser میں [chatgpt.com](https://chatgpt.com) سے بھی استعمال کیا جا سکتا ہے۔
+
+## Urdu AI ChatGPT ہے یا الگ platform؟
+
+Urdu AI ایک learning platform ہے جہاں ChatGPT، Gemini، Claude، prompt engineering اور AI tools کو اردو میں سمجھایا جاتا ہے۔ ChatGPT OpenAI کی app اور website ہے۔ اگر آپ "Urdu AI ChatGPT" search کر رہے ہیں تو آسان فرق یہ ہے: ChatGPT tool ہے، Urdu AI اس tool کو اردو میں استعمال کرنا سکھاتا ہے۔
+
+ChatGPT کے علاوہ دوسرے tools compare کرنے ہوں تو [AI tools directory](/tools/) دیکھیں۔ وہاں beginner کے لیے tool، کام، link اور related guide ایک جگہ ملتے ہیں۔
 
 ## پاکستان میں ChatGPT کس کام آ سکتا ہے؟
 
@@ -123,8 +157,25 @@ ChatGPT ایپ یا website کھول کر اپنا سوال اردو میں لک
 
 Free plan شروع کرنے کے لیے کافی ہے، Go کم قیمت paid upgrade ہے، اور Plus زیادہ advanced work کے لیے ہے۔ فیصلہ کرنے سے پہلے اپنی daily usage دیکھیں۔
 
+### ChatGPT Urdu speaking کے لیے voice mode کیسے چلائیں؟
+
+آفیشل ChatGPT app کھولیں، اگر voice یا headphones option نظر آئے تو اسے tap کریں اور اردو میں بولیں۔ اگر option نہ آئے تو app update، account availability یا device support چیک کریں۔
+
+### ChatGPT Urdu writing کے لیے پہلا prompt کیا لکھیں؟
+
+یہ prompt لکھیں: "مجھے آسان اردو میں جواب دیں، میری بات کا خلاصہ بنائیں، مشکل الفاظ کم کریں، اور آخر میں 3 practical steps دیں۔"
+
+### Urdu AI ChatGPT ہے یا الگ website؟
+
+Urdu AI ایک اردو learning platform ہے جو ChatGPT، Gemini اور AI tools سکھاتا ہے۔ ChatGPT OpenAI کی app اور website ہے؛ دونوں ایک چیز نہیں۔
+
+### ChatGPT Urdu free download کا کیا مطلب ہے؟
+
+اس کا مطلب یہ ہے کہ app download کے لیے ہمیشہ OpenAI کا آفیشل page استعمال کریں۔ کچھ features free plan میں آتے ہیں، paid plans اور limits OpenAI کی current policy کے مطابق بدل سکتے ہیں۔
+
 ## اگلا قدم
 
+- [AI tools directory میں ChatGPT card](/tools/#tool-chatgpt)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)
 - [ChatGPT Go price in Pakistan](/blog/what-is-chat-gpt-go-and-how-is-it-useful-for-the-general-public/)
