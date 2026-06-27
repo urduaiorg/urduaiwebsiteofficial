@@ -1,6 +1,6 @@
 ---
-title: "AI course in Urdu free: مفت کورس کہاں سے شروع کریں"
-description: "AI course in Urdu free کے لیے پہلے AI basics، پھر ChatGPT یا Gemini prompt، 9 lesson Urdu AI Masterclass، quizzes اور certificate کا راستہ دیکھیں۔"
+title: "اردو میں مفت اے آئی کورس: کہاں سے شروع کریں؟"
+description: "اردو میں مفت اے آئی کورس کے لیے پہلے بنیادی باتیں، پھر چیٹ جی پی ٹی یا جیمینائی پر مشق، 9 اسباق، quizzes اور certificate کا راستہ دیکھیں۔"
 date: 2026-06-26
 category: "گائیڈ"
 tool: "Artificial Intelligence"
@@ -11,61 +11,61 @@ tools: ["ChatGPT", "Gemini", "Claude", "Google AI Studio"]
 draft: false
 last_updated: 2026-06-27
 faq:
-  - question: "مفت AI کورس اردو میں کہاں سے شروع کریں؟"
-    answer: "پہلے AI کی آسان تعریف پڑھیں، پھر Gemini میں اردو سوال پوچھیں، اس کے بعد اردو اے آئی ماسٹرکلاس کا سبق 1 شروع کریں۔ یہی beginner learning path ہے۔"
+  - question: "مفت اے آئی کورس اردو میں کہاں سے شروع کریں؟"
+    answer: "پہلے اے آئی کی آسان تعریف پڑھیں، پھر جیمینائی میں اردو سوال پوچھیں، اس کے بعد اردو اے آئی ماسٹرکلاس کا سبق 1 شروع کریں۔ یہی beginner learning path ہے۔"
   - question: "کیا اردو اے آئی ماسٹرکلاس مفت ہے؟"
     answer: "جی ہاں، اردو اے آئی ماسٹرکلاس 9 اردو ویڈیو اسباق اور quizzes کے ساتھ بغیر فیس کے دستیاب ہے۔"
-  - question: "کیا AI course کے لیے laptop ضروری ہے؟"
-    answer: "نہیں، شروع میں موبائل کافی ہے۔ Gemini، ChatGPT، Claude اور اردو اے آئی کے اسباق موبائل browser یا app میں استعمال کیے جا سکتے ہیں۔"
-  - question: "AI course مکمل کرنے کے بعد کیا سیکھیں؟"
-    answer: "بنیادی کورس کے بعد prompt engineering، Google AI Studio، AI tools directory، اور اپنی practical project practice شروع کریں۔"
-  - question: "ChatGPT، Gemini یا Claude میں سے پہلے کیا کھولیں؟"
-    answer: "اگر آپ روزمرہ سوالات اور موبائل learning چاہتے ہیں تو Gemini یا ChatGPT سے شروع کریں۔ لمبی writing اور editing کے لیے Claude بعد میں آزمائیں۔"
-  - question: "کیا free AI course کے بعد certificate ملتا ہے؟"
+  - question: "کیا اے آئی course کے لیے laptop ضروری ہے؟"
+    answer: "نہیں، شروع میں موبائل کافی ہے۔ جیمینائی، چیٹ جی پی ٹی، کلاڈ اور اردو اے آئی کے اسباق موبائل browser یا app میں استعمال کیے جا سکتے ہیں۔"
+  - question: "اے آئی course مکمل کرنے کے بعد کیا سیکھیں؟"
+    answer: "بنیادی کورس کے بعد پرامپٹ انجینیئرنگ، گوگل اے آئی اسٹوڈیو، اے آئی tools directory، اور اپنی عملی project practice شروع کریں۔"
+  - question: "چیٹ جی پی ٹی، جیمینائی یا کلاڈ میں سے پہلے کیا کھولیں؟"
+    answer: "اگر آپ روزمرہ سوالات اور موبائل learning چاہتے ہیں تو جیمینائی یا چیٹ جی پی ٹی سے شروع کریں۔ لمبی writing اور editing کے لیے کلاڈ بعد میں آزمائیں۔"
+  - question: "کیا مفت اے آئی course کے بعد certificate ملتا ہے؟"
     answer: "Urdu AI Masterclass میں 9 lessons اور quizzes مکمل کرنے کے بعد certificate form کے ذریعے completion certificate حاصل کیا جا سکتا ہے۔"
-  - question: "AI course in Urdu free اور Masterclass میں کیا فرق ہے؟"
-    answer: "یہ guide beginner کو صحیح ترتیب دکھاتی ہے، جبکہ Urdu AI Masterclass اصل 9 lesson course ہے جہاں videos، quizzes اور certificate کا pathway ملتا ہے۔"
+  - question: "اردو میں مفت اے آئی course اور Masterclass میں کیا فرق ہے؟"
+    answer: "یہ guide beginner کو صحیح ترتیب دکھاتی ہے، جبکہ اردو اے آئی Masterclass اصل 9 lesson course ہے جہاں videos، quizzes اور certificate کا pathway ملتا ہے۔"
 ---
-AI course in Urdu free شروع کرنے کا صاف راستہ یہ ہے کہ پہلے مصنوعی ذہانت کی آسان تعریف سمجھیں، پھر Gemini یا ChatGPT میں ایک اردو prompt لکھیں، اور اس کے بعد اردو اے آئی ماسٹرکلاس کے 9 ویڈیو اسباق، quizzes اور certificate pathway ترتیب سے مکمل کریں۔ یہ learning path موبائل user کے لیے بھی قابل عمل ہے۔
+اردو میں مفت اے آئی کورس شروع کرنے کا صاف راستہ یہ ہے کہ پہلے مصنوعی ذہانت کی آسان تعریف سمجھیں، پھر جیمینائی (Gemini) یا چیٹ جی پی ٹی (ChatGPT) میں ایک اردو پرامپٹ لکھیں، اور اس کے بعد اردو اے آئی ماسٹرکلاس کے 9 ویڈیو اسباق، quizzes اور certificate pathway ترتیب سے مکمل کریں۔ یہ learning path موبائل user کے لیے بھی قابل عمل ہے۔
 
 ## کس ترتیب سے شروع کریں؟
 
-ایک نئے learner کے لیے مسئلہ tools کی کمی نہیں، ترتیب کی کمی ہے۔ ChatGPT، Gemini، Claude، Google AI Studio، image tools اور coding tools ایک ساتھ کھولنے سے ذہن الجھ جاتا ہے۔ بہتر راستہ یہ ہے کہ پہلے بنیاد، پھر مشق، پھر project۔
+ایک نئے سیکھنے والے کے لیے مسئلہ tools کی کمی نہیں، ترتیب کی کمی ہے۔ چیٹ جی پی ٹی، جیمینائی، کلاڈ (Claude)، گوگل اے آئی اسٹوڈیو (Google AI Studio)، تصویر سازی اور کوڈنگ کے tools ایک ساتھ کھولنے سے ذہن الجھ جاتا ہے۔ بہتر راستہ یہ ہے کہ پہلے بنیاد، پھر مشق، پھر پروجیکٹ۔
 
-## قدم 1: AI کی بنیادی تعریف سمجھیں
+## قدم 1: اے آئی کی بنیادی تعریف سمجھیں
 
-پہلے [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پڑھیں۔ آپ کو یہ سمجھنا ہے کہ AI کوئی جادو نہیں، بلکہ ایسی ٹیکنالوجی ہے جو مثالوں سے پیٹرن سیکھ کر انسان کی مدد کرتی ہے۔
+پہلے [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پڑھیں۔ آپ کو یہ سمجھنا ہے کہ اے آئی کوئی جادو نہیں، بلکہ ایسی ٹیکنالوجی ہے جو مثالوں سے پیٹرن سیکھ کر انسان کی مدد کرتی ہے۔
 
-اس کے بعد [AI کیا ہے؟ آسان اردو تعریف، مثالیں اور پہلا قدم](/guides/ai-kya-hai-urdu-ai-master-class-1/) والا تفصیلی سبق پڑھیں۔ یہ ماسٹرکلاس کا بنیادی سبق ہے۔
+اس کے بعد [اے آئی کیا ہے؟ آسان اردو تعریف، مثالیں اور پہلا قدم](/guides/ai-kya-hai-urdu-ai-master-class-1/) والا تفصیلی سبق پڑھیں۔ یہ ماسٹرکلاس کا بنیادی سبق ہے۔
 
 ## قدم 2: ایک tool پر عملی مشق کریں
 
-شروع میں صرف ایک tool چنیں۔ اگر آپ موبائل پر ہیں تو [Gemini کیا ہے؟](/learn/google-gemini/) پڑھیں، پھر [Gemini اردو میں استعمال کرنے کا طریقہ](/how-to/how-to-use-gemini-in-urdu/) دیکھیں۔ اگر آپ ChatGPT سے شروع کرنا چاہتے ہیں تو پہلے [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) کھولیں تاکہ آفیشل app اور جعلی apps کا فرق سمجھ آ جائے۔
+شروع میں صرف ایک tool چنیں۔ اگر آپ موبائل پر ہیں تو [جیمینائی کیا ہے؟](/learn/google-gemini/) پڑھیں، پھر [جیمینائی اردو میں استعمال کرنے کا طریقہ](/how-to/how-to-use-gemini-in-urdu/) دیکھیں۔ اگر آپ چیٹ جی پی ٹی سے شروع کرنا چاہتے ہیں تو پہلے [چیٹ جی پی ٹی ایپ install guide](/how-to/how-to-install-original-chatgpt-app/) کھولیں تاکہ آفیشل ایپ اور جعلی ایپس کا فرق سمجھ آ جائے۔
 
-پہلی مشق کے لیے یہ prompt لکھیں:
+پہلی مشق کے لیے یہ پرامپٹ لکھیں:
 
 ```text
 مجھے مصنوعی ذہانت 12 سال کے طالب علم کی زبان میں سمجھائیں، تین پاکستانی مثالوں کے ساتھ۔
 ```
 
-جو جواب ملے اسے فوراً درست نہ مانیں۔ پوچھیں: "اس کو مزید آسان کریں" یا "اس میں ایک practical مثال شامل کریں"۔ AI سیکھنے کا اصل ہنر یہی ہے کہ آپ سوال بہتر بناتے جائیں۔
+جو جواب ملے اسے فوراً درست نہ مانیں۔ پوچھیں: "اس کو مزید آسان کریں" یا "اس میں ایک عملی مثال شامل کریں"۔ اے آئی سیکھنے کا اصل ہنر یہی ہے کہ آپ سوال بہتر بناتے جائیں۔
 
-## ChatGPT، Gemini یا Claude: پہلے کیا کھولیں؟
+## چیٹ جی پی ٹی، جیمینائی یا کلاڈ: پہلے کیا کھولیں؟
 
-AI course شروع کرنے والے learner کے لیے tool کا انتخاب مقصد کے حساب سے ہونا چاہیے، popularity کے حساب سے نہیں۔ یہ سادہ ترتیب رکھیں:
+اے آئی course شروع کرنے والے سیکھنے والے کے لیے tool کا انتخاب مقصد کے حساب سے ہونا چاہیے، popularity کے حساب سے نہیں۔ یہ سادہ ترتیب رکھیں:
 
 | مقصد | پہلے tool | اگلا سبق |
 |---|---|---|
-| عام سوالات، homework، روزمرہ learning | [Gemini](/how-to/how-to-use-gemini-in-urdu/) یا [ChatGPT](/how-to/how-to-install-original-chatgpt-app/) | [prompt engineering](/learn/prompt-engineering/) |
-| لمبی writing، editing، feedback | [Claude AI](/learn/claude-ai/) | [Claude writing guide](/how-to/how-to-use-claude-for-writing/) |
-| CV، cover letter، job practice | ChatGPT یا Claude | [ChatGPT CV maker](/how-to/how-to-write-cv-with-chatgpt/) |
-| app idea، API، prototype | [Google AI Studio](/tag/google-ai-studio/) | [AI Tools Directory](/tools/) |
+| عام سوالات، homework، روزمرہ learning | [جیمینائی](/how-to/how-to-use-gemini-in-urdu/) یا [چیٹ جی پی ٹی](/how-to/how-to-install-original-chatgpt-app/) | [پرامپٹ انجینیئرنگ](/learn/prompt-engineering/) |
+| لمبی writing، editing، feedback | [کلاڈ اے آئی](/learn/claude-ai/) | [کلاڈ writing guide](/how-to/how-to-use-claude-for-writing/) |
+| CV، cover letter، job practice | چیٹ جی پی ٹی یا کلاڈ | [چیٹ جی پی ٹی CV maker](/how-to/how-to-write-cv-with-chatgpt/) |
+| ایپ idea، API، prototype | [گوگل اے آئی اسٹوڈیو](/tag/google-ai-studio/) | [اے آئی ٹولز کی فہرست](/tools/) |
 
-اگر آپ کو ابھی بھی confusion ہے تو پہلے Gemini یا ChatGPT میں ایک آسان Urdu prompt لکھیں۔ paid plan یا advanced settings بعد کی چیز ہیں۔
+اگر آپ کو ابھی بھی confusion ہے تو پہلے جیمینائی یا چیٹ جی پی ٹی میں ایک آسان Urdu پرامپٹ لکھیں۔ پیڈ پلان یا advanced settings بعد کی چیز ہیں۔
 
 ## قدم 3: مفت اردو اے آئی ماسٹرکلاس شروع کریں
 
-[اردو اے آئی ماسٹرکلاس](/courses/masterclass/) beginners کے لیے مفت AI course ہے۔ اس میں 9 ویڈیو اسباق ہیں جن میں AI کی بنیاد، ChatGPT، Gemini، Claude، وائب کوڈنگ، AI تصاویر، آواز، اوتار اور ویب سائٹ بنانے کی مشق شامل ہے۔
+[اردو اے آئی ماسٹرکلاس](/courses/masterclass/) ابتدائی صارفین کے لیے مفت اے آئی course ہے۔ اس میں 9 ویڈیو اسباق ہیں جن میں اے آئی کی بنیاد، چیٹ جی پی ٹی، جیمینائی، کلاڈ، وائب کوڈنگ، اے آئی تصاویر، آواز، اوتار اور ویب سائٹ بنانے کی مشق شامل ہے۔
 
 اگر آپ course شروع کرنے سے پہلے صرف ایک صفحہ دیکھنا چاہتے ہیں تو [ماسٹرکلاس کا سبق 1](/courses/masterclass/1/) کھولیں۔
 
@@ -73,74 +73,74 @@ AI course شروع کرنے والے learner کے لیے tool کا انتخاب 
 
 ہر tool ہر کام کے لیے نہیں ہوتا۔ عام ترتیب یہ رکھیں:
 
-- سوالات اور روزمرہ learning کے لیے Gemini یا ChatGPT
-- لمبی تحریر اور editing کے لیے [Claude AI](/learn/claude-ai/)
-- apps، API یا prototypes کے لیے [Google AI Studio Urdu hub](/tag/google-ai-studio/)
-- نئے tools دیکھنے کے لیے [AI Tools Directory](/tools/)
+- سوالات اور روزمرہ learning کے لیے جیمینائی یا چیٹ جی پی ٹی
+- لمبی تحریر اور editing کے لیے [کلاڈ اے آئی](/learn/claude-ai/)
+- ایپس، API یا prototypes کے لیے [گوگل اے آئی اسٹوڈیو Urdu hub](/tag/google-ai-studio/)
+- نئے tools دیکھنے کے لیے [اے آئی ٹولز کی فہرست](/tools/)
 
-## قدم 5: ایک چھوٹا project بنائیں
+## قدم 5: ایک چھوٹا پروجیکٹ بنائیں
 
-کورس صرف دیکھنے سے skill نہیں بنتی۔ ایک چھوٹا project بنائیں:
+کورس صرف دیکھنے سے skill نہیں بنتی۔ ایک چھوٹا پروجیکٹ بنائیں:
 
 - اپنے کاروبار کے لیے 10 WhatsApp posts
 - طالب علم کے لیے ایک ہفتے کا study plan
 - استاد کے لیے ایک quiz sheet
 - فری لانسر کے لیے profile bio اور proposal
-- اپنی پہلی simple website کا content
+- اپنی پہلی آسان ویب سائٹ کا content
 
-ہر project میں AI کو helper بنائیں، final فیصلہ خود کریں۔
+ہر پروجیکٹ میں اے آئی کو helper بنائیں، حتمی فیصلہ خود کریں۔
 
-## 7 دن کا beginner plan
+## 7 دن کا ابتدائی صارف plan
 
 اگر آپ روزانہ 20 سے 30 minutes دے سکتے ہیں تو یہ ترتیب کافی ہے:
 
 - دن 1: [مصنوعی ذہانت کیا ہے؟](/learn/artificial-intelligence/) پڑھیں
 - دن 2: [ماسٹرکلاس سبق 1](/courses/masterclass/1/) مکمل کریں
-- دن 3: [Gemini اردو گائیڈ](/how-to/how-to-use-gemini-in-urdu/) یا [ChatGPT app guide](/how-to/how-to-install-original-chatgpt-app/) سے پہلا prompt لکھیں
-- دن 4: [prompt engineering](/learn/prompt-engineering/) پڑھ کر اپنا prompt بہتر کریں
-- دن 5: CV، study plan، WhatsApp posts یا quiz sheet میں سے ایک practical project بنائیں
-- دن 6: [AI Tools Directory](/tools/) سے اپنے کام کا دوسرا tool چنیں
-- دن 7: [Urdu AI Masterclass](/courses/masterclass/) کے اگلے lessons جاری رکھیں
+- دن 3: [جیمینائی اردو گائیڈ](/how-to/how-to-use-gemini-in-urdu/) یا [چیٹ جی پی ٹی ایپ guide](/how-to/how-to-install-original-chatgpt-app/) سے پہلا پرامپٹ لکھیں
+- دن 4: [پرامپٹ انجینیئرنگ](/learn/prompt-engineering/) پڑھ کر اپنا پرامپٹ بہتر کریں
+- دن 5: CV، study plan، WhatsApp posts یا quiz sheet میں سے ایک عملی پروجیکٹ بنائیں
+- دن 6: [اے آئی ٹولز کی فہرست](/tools/) سے اپنے کام کا دوسرا tool چنیں
+- دن 7: [اردو اے آئی Masterclass](/courses/masterclass/) کے اگلے lessons جاری رکھیں
 
 یہ plan certificate سے زیادہ skill پر focus کرتا ہے۔ certificate اچھا proof ہے، لیکن اصل فائدہ تب آتا ہے جب آپ ہر lesson کے بعد ایک چھوٹا کام خود بناتے ہیں۔
 
-## پاکستان میں beginners کے لیے اہم باتیں
+## پاکستان میں ابتدائی صارفین کے لیے اہم باتیں
 
-موبائل سے شروع کرنا بالکل ٹھیک ہے۔ شروع میں paid plans، expensive laptop یا coding ضروری نہیں۔ پہلے prompt لکھنا، جواب چیک کرنا، اور اپنا مقصد صاف بتانا سیکھیں۔ جب بنیاد مضبوط ہو جائے تو advanced tools پر جائیں۔
+موبائل سے شروع کرنا بالکل ٹھیک ہے۔ شروع میں paid plans، expensive laptop یا coding ضروری نہیں۔ پہلے پرامپٹ لکھنا، جواب چیک کرنا، اور اپنا مقصد صاف بتانا سیکھیں۔ جب بنیاد مضبوط ہو جائے تو advanced tools پر جائیں۔
 
 ## عام سوالات
 
-### مفت AI کورس اردو میں کہاں سے شروع کریں؟
+### مفت اے آئی کورس اردو میں کہاں سے شروع کریں؟
 
-پہلے AI کی آسان تعریف پڑھیں، پھر Gemini میں اردو سوال پوچھیں، اس کے بعد اردو اے آئی ماسٹرکلاس کا سبق 1 شروع کریں۔ یہی beginner learning path ہے۔
+پہلے اے آئی کی آسان تعریف پڑھیں، پھر جیمینائی میں اردو سوال پوچھیں، اس کے بعد اردو اے آئی ماسٹرکلاس کا سبق 1 شروع کریں۔ یہی ابتدائی صارف learning path ہے۔
 
 ### کیا اردو اے آئی ماسٹرکلاس مفت ہے؟
 
 جی ہاں، اردو اے آئی ماسٹرکلاس 9 اردو ویڈیو اسباق اور quizzes کے ساتھ بغیر فیس کے دستیاب ہے۔
 
-### کیا AI course کے لیے laptop ضروری ہے؟
+### کیا اے آئی course کے لیے laptop ضروری ہے؟
 
-نہیں، شروع میں موبائل کافی ہے۔ Gemini، ChatGPT، Claude اور اردو اے آئی کے اسباق موبائل browser یا app میں استعمال کیے جا سکتے ہیں۔
+نہیں، شروع میں موبائل کافی ہے۔ جیمینائی، چیٹ جی پی ٹی، کلاڈ اور اردو اے آئی کے اسباق موبائل browser یا ایپ میں استعمال کیے جا سکتے ہیں۔
 
-### AI course مکمل کرنے کے بعد کیا سیکھیں؟
+### اے آئی course مکمل کرنے کے بعد کیا سیکھیں؟
 
-بنیادی کورس کے بعد [پرامٹ انجینئرنگ](/learn/prompt-engineering/)، [Google AI Studio Urdu hub](/tag/google-ai-studio/)، [AI tools directory](/tools/)، اور اپنی practical project practice شروع کریں۔
+بنیادی کورس کے بعد [پرامپٹ انجینیئرنگ](/learn/prompt-engineering/)، [گوگل اے آئی اسٹوڈیو Urdu hub](/tag/google-ai-studio/)، [اے آئی ٹولز کی فہرست](/tools/)، اور اپنی عملی پروجیکٹ practice شروع کریں۔
 
-### ChatGPT، Gemini یا Claude میں سے پہلے کیا کھولیں؟
+### چیٹ جی پی ٹی، جیمینائی یا کلاڈ میں سے پہلے کیا کھولیں؟
 
-اگر آپ روزمرہ سوالات، homework یا mobile learning چاہتے ہیں تو [Gemini](/how-to/how-to-use-gemini-in-urdu/) یا [ChatGPT](/how-to/how-to-install-original-chatgpt-app/) سے شروع کریں۔ لمبی writing، editing اور feedback کے لیے [Claude AI](/learn/claude-ai/) بعد میں آزمائیں۔
+اگر آپ روزمرہ سوالات، homework یا موبائل پر سیکھنا چاہتے ہیں تو [جیمینائی](/how-to/how-to-use-gemini-in-urdu/) یا [چیٹ جی پی ٹی](/how-to/how-to-install-original-chatgpt-app/) سے شروع کریں۔ لمبی writing، editing اور feedback کے لیے [کلاڈ اے آئی](/learn/claude-ai/) بعد میں آزمائیں۔
 
-### کیا free AI course کے بعد certificate ملتا ہے؟
+### کیا مفت اے آئی کورس کے بعد certificate ملتا ہے؟
 
-[Urdu AI Masterclass](/courses/masterclass/) میں 9 lessons اور quizzes مکمل کرنے کے بعد certificate form کے ذریعے completion certificate حاصل کیا جا سکتا ہے۔ یہ Urdu AI کا learning proof ہے، university degree نہیں۔
+[اردو اے آئی Masterclass](/courses/masterclass/) میں 9 lessons اور quizzes مکمل کرنے کے بعد certificate form کے ذریعے completion certificate حاصل کیا جا سکتا ہے۔ یہ اردو اے آئی کا learning proof ہے، university degree نہیں۔
 
-### AI course in Urdu free اور Masterclass میں کیا فرق ہے؟
+### اردو میں مفت اے آئی کورس اور Masterclass میں کیا فرق ہے؟
 
-یہ guide beginner کو صحیح ترتیب دکھاتی ہے۔ [Urdu AI Masterclass](/courses/masterclass/) اصل 9 lesson course ہے جہاں videos، quizzes اور certificate کا pathway ملتا ہے۔
+یہ guide ابتدائی صارف کو صحیح ترتیب دکھاتی ہے۔ [اردو اے آئی Masterclass](/courses/masterclass/) اصل 9 lesson course ہے جہاں videos، quizzes اور certificate کا pathway ملتا ہے۔
 
 ## اب آگے کیا سیکھیں؟
 
 - کورس شروع کریں: [مفت اردو اے آئی ماسٹرکلاس](/courses/masterclass/)
-- پہلا سبق کھولیں: [AI کیا ہے؟](/courses/masterclass/1/)
-- tool چنیں: [AI Tools Directory](/tools/)
-- سوال بہتر بنانا سیکھیں: [Prompt engineering](/learn/prompt-engineering/)
+- پہلا سبق کھولیں: [اے آئی کیا ہے؟](/courses/masterclass/1/)
+- tool چنیں: [اے آئی ٹولز کی فہرست](/tools/)
+- سوال بہتر بنانا سیکھیں: [پرامپٹ انجینیئرنگ](/learn/prompt-engineering/)

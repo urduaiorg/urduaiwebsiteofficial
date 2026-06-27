@@ -23,23 +23,23 @@ faq:
     answer: اکثر ہاں۔ Codex local preview کھول کر check کر سکتا ہے کہ page صحیح render ہو رہا ہے یا نہیں۔
 ---
 
-اگر آپ پہلی بار website بنا رہے ہیں تو سب سے اچھا آغاز **simple web page** یا **landing page** سے ہوتا ہے۔ پورا بڑا app فوراً بنانے کے بجائے ایک page بنانا زیادہ آسان اور سمجھنے میں بھی بہتر ہے۔
+اگر آپ پہلی بار ویب سائٹ بنا رہے ہیں تو سب سے اچھا آغاز **آسان ویب پیج** یا **لینڈنگ پیج** سے ہوتا ہے۔ پورا بڑا ایپ فوراً بنانے کے بجائے ایک page بنانا زیادہ آسان اور سمجھنے میں بھی بہتر ہے۔
 
-کوڈیکس اس کام میں خاص طور پر useful ہے کیونکہ آپ کو HTML، CSS یا JavaScript پوری detail میں جاننے کی ضرورت نہیں ہوتی۔
+کوڈیکس اس کام میں خاص طور پر مفید ہے کیونکہ آپ کو HTML، CSS یا JavaScript پوری detail میں جاننے کی ضرورت نہیں ہوتی۔
 
-## ویب صفحہ اور app میں فرق کیا ہے؟
+## ویب صفحہ اور ایپ میں فرق کیا ہے؟
 
 ابتدائی صارفین کے لیے ایک آسان فرق:
 
 - **ویب صفحہ** = ایک صفحہ یا چند سادہ صفحات
 - **ایپ** = اس میں actions، data، login، forms یا tools زیادہ ہوتے ہیں
 
-اس لیے اگر آپ نئے ہیں تو پہلے web page بنائیں۔
+اس لیے اگر آپ نئے ہیں تو پہلے ویب پیج بنائیں۔
 
-## کوڈیکس سے کس قسم کے web pages بنوائے جا سکتے ہیں؟
+## کوڈیکس سے کس قسم کے ویب صفحات بنوائے جا سکتے ہیں؟
 
 - course registration page
-- product landing page
+- product لینڈنگ پیج
 - personal profile page
 - event announcement page
 - اسکول or workshop info page
@@ -49,7 +49,7 @@ faq:
 
 ## کوڈیکس کو start میں کیا بتانا چاہیے؟
 
-ویب صفحہ prompt دیتے وقت یہ پانچ چیزیں clear کریں:
+ویب صفحہ پرامپٹ دیتے وقت یہ پانچ چیزیں واضح کریں:
 
 1. page کس کے لیے ہے
 2. page کا مقصد کیا ہے
@@ -59,21 +59,21 @@ faq:
 
 مثلاً:
 
-> اردو parents کے لیے AI awareness workshop landing page بناؤ۔ اس میں heading، short intro، 3 benefits، instructor section، WhatsApp button اور registration call-to-action ہو۔ language Urdu ہو اور design simple ہو۔
+> اردو والدین کے لیے اے آئی awareness workshop لینڈنگ پیج بناؤ۔ اس میں heading، مختصر تعارف، 3 benefits، instructor section، WhatsApp button اور registration call-to-action ہو۔ language Urdu ہو اور design آسان ہو۔
 
-یہ strong prompt ہے۔
+یہ مضبوط پرامپٹ ہے۔
 
-## موضوع: weak prompt اور strong prompt میں فرق
+## موضوع: weak پرامپٹ اور مضبوط پرامپٹ میں فرق
 
-### کمزور prompt
+### کمزور پرامپٹ
 
-> ایک اچھی website بنا دو
+> ایک اچھی ویب سائٹ بنا دو
 
-### بہتر prompt
+### بہتر پرامپٹ
 
-> اردو audience کے لیے simple landing page بناؤ جس کا مقصد AI course registration ہے۔ heading، benefits، course details، instructor bio اور WhatsApp CTA شامل ہو۔ design clean اور mobile-friendly ہو۔
+> اردو سامعین کے لیے آسان لینڈنگ پیج بناؤ جس کا مقصد اے آئی course registration ہے۔ heading، benefits، course details، instructor bio اور WhatsApp CTA شامل ہو۔ design clean اور موبائل پر درست ہو۔
 
-دوسرے prompt میں Codex کو guess کم کرنا پڑتا ہے۔
+دوسرے پرامپٹ میں کوڈیکس (Codex) کو guess کم کرنا پڑتا ہے۔
 
 ## پہلا page بنوانے کے لیے بہترین structure
 
@@ -99,27 +99,27 @@ faq:
 - واٹس ایپ now
 - Learn more
 
-## کوڈیکس سے mobile-friendly page کیوں بنوانا چاہیے؟
+## کوڈیکس سے موبائل پر درست page کیوں بنوانا چاہیے؟
 
-اردو اے آئی audience میں بہت سے لوگ موبائل پر content دیکھتے ہیں۔ اس لیے آپ کو prompt میں شروع ہی میں کہنا چاہیے:
+اردو اے آئی سامعین میں بہت سے لوگ موبائل پر content دیکھتے ہیں۔ اس لیے آپ کو پرامپٹ میں شروع ہی میں کہنا چاہیے:
 
-> مثال: page mobile-friendly ہو
+> مثال: page موبائل پر درست ہو
 
 یہ ایک چھوٹی line ہے لیکن result پر بڑا فرق ڈالتی ہے۔
 
-## کوڈیکس کے ساتھ beginner workflow
+## کوڈیکس کے ساتھ ابتدائی صارف ورک فلو
 
 ### مرحلہ 1: page idea لکھیں
 
 مثلاً:
 
-> والدین کے لیے AI workshop page
+> والدین کے لیے اے آئی workshop page
 
-### مرحلہ 2: Codex سے sections کی list مانگیں
+### مرحلہ 2: کوڈیکس سے sections کی list مانگیں
 
 > اس page کے لیے بہترین sections بتاؤ
 
-### مرحلہ 3: full prompt بنوائیں
+### مرحلہ 3: full پرامپٹ بنوائیں
 
 > اب انہی sections کے مطابق page تیار کرو
 
@@ -141,7 +141,7 @@ faq:
 
 ## کوڈیکس کے ساتھ page بہتر کیسے کریں؟
 
-بہت بار پہلا version final نہیں ہوتا۔ Codex کی اصل طاقت یہاں آتی ہے: آپ follow-up دے کر page بہتر کرتے جاتے ہیں۔
+بہت بار پہلا version حتمی نہیں ہوتا۔ کوڈیکس کی اصل طاقت یہاں آتی ہے: آپ follow-up دے کر page بہتر کرتے جاتے ہیں۔
 
 مثلاً:
 
@@ -151,17 +151,17 @@ faq:
 - 3 cards شامل کرو
 - footer میں contact info شامل کرو
 
-یعنی Codex ایک بار کا tool نہیں، iterative partner ہے۔
+یعنی کوڈیکس ایک بار کا tool نہیں، iterative partner ہے۔
 
-## ابتدائی صارفین کے لیے useful prompt examples
+## ابتدائی صارفین کے لیے مفید پرامپٹ examples
 
-### موضوع: course landing page
+### موضوع: course لینڈنگ پیج
 
-> ابتدائی صارفین کے لیے Urdu AI course landing page بناؤ۔ heading، who this is for، course benefits، fee، timing اور WhatsApp registration button شامل ہو۔
+> ابتدائی صارفین کے لیے Urdu اے آئی course لینڈنگ پیج بناؤ۔ heading، who this is for، course benefits، fee، timing اور WhatsApp registration button شامل ہو۔
 
 ### پروفائل صفحہ
 
-> میری personal Urdu profile website بناؤ۔ اس میں about me، skills، services اور contact section ہو۔
+> میری personal Urdu profile ویب سائٹ بناؤ۔ اس میں about me، skills، services اور contact section ہو۔
 
 ### موضوع: event page
 
@@ -171,7 +171,7 @@ faq:
 
 ### 1. بہت زیادہ چیزیں ایک page میں ڈال دینا
 
-پہلے simple page بنائیں۔ بعد میں expand کریں۔
+پہلے آسان page بنائیں۔ بعد میں expand کریں۔
 
 ### موضوع: 2. language واضح نہ کرنا
 
@@ -185,14 +185,14 @@ faq:
 
 صرف code بن جانا کافی نہیں۔ page دیکھنا ضروری ہے۔
 
-## ایک ready-to-use beginner prompt
+## ایک استعمال کے لیے تیار ابتدائی صارف پرامپٹ
 
-> میرے لیے ایک simple Urdu landing page بناؤ جو "Codex Master Class" کے لیے ہو۔ اس میں بڑی heading، short intro، 4 benefits، instructor section، اور WhatsApp registration button شامل ہو۔ design clean، modern اور mobile-friendly ہو۔
+> میرے لیے ایک آسان Urdu لینڈنگ پیج بناؤ جو "کوڈیکس Master Class" کے لیے ہو۔ اس میں بڑی heading، مختصر تعارف، 4 benefits، instructor section، اور WhatsApp registration button شامل ہو۔ design clean، modern اور موبائل پر درست ہو۔
 
 ## اگلا قدم کیا ہے؟
 
-جب آپ کا پہلا page بن جائے تو اسے صرف اپنے laptop میں نہ چھوڑیں۔ اگلا practical قدم یہ ہے کہ اسے محفوظ جگہ پر ڈالیں تاکہ future میں بھی رہے اور دوسروں کے ساتھ share بھی ہو سکے۔
+جب آپ کا پہلا page بن جائے تو اسے صرف اپنے laptop میں نہ چھوڑیں۔ اگلا عملی قدم یہ ہے کہ اسے محفوظ جگہ پر ڈالیں تاکہ future میں بھی رہے اور دوسروں کے ساتھ share بھی ہو سکے۔
 
 ## اگلی گائیڈ میں
 
-اب آپ نے پہلا web page بنا لیا۔ [اگلی گائیڈ: Codex سے project GitHub پر upload کرنا](/guides/codex-se-github-par-project-upload/) میں ہم سیکھیں گے کہ اسے محفوظ، shareable اور version-controlled کیسے بنایا جاتا ہے۔
+اب آپ نے پہلا ویب پیج بنا لیا۔ [اگلی گائیڈ: کوڈیکس سے پروجیکٹ GitHub پر upload کرنا](/guides/codex-se-github-par-project-upload/) میں ہم سیکھیں گے کہ اسے محفوظ، shareable اور version-controlled کیسے بنایا جاتا ہے۔

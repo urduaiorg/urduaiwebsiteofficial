@@ -25,9 +25,9 @@ faq:
     answer: output folder وہ final folder ہوتا ہے جہاں built website کی ready files رکھی جاتی ہیں، جیسے `dist` یا `out`۔
 ---
 
-بہت سے beginners project بنا لیتے ہیں، GitHub پر بھی چڑھا دیتے ہیں، لیکن وہیں رک جاتے ہیں۔ اصل فرق تب آتا ہے جب آپ کی website کا ایک public link بن جائے جسے کوئی بھی کھول سکے۔
+بہت سے ابتدائی صارفین پروجیکٹ بنا لیتے ہیں، GitHub پر بھی چڑھا دیتے ہیں، لیکن وہیں رک جاتے ہیں۔ اصل فرق تب آتا ہے جب آپ کی ویب سائٹ کا ایک public link بن جائے جسے کوئی بھی کھول سکے۔
 
-کلاوڈ فلیئر پیجز اسی کام کے لیے بہترین beginner option ہے۔
+کلاوڈ فلیئر پیجز اسی کام کے لیے بہترین ابتدائی صارف option ہے۔
 
 ![GitHub and Cloudflare cover](/images/guides/codex-guide-series/codex-github-cloudflare.png)
 
@@ -39,19 +39,19 @@ faq:
 - پھر GitHub پر گیا
 - اب Cloudflare اسے internet پر public کر دیتا ہے
 
-یعنی کوئی بھی شخص browser میں link کھول کر آپ کی website دیکھ سکتا ہے۔
+یعنی کوئی بھی شخص browser میں link کھول کر آپ کی ویب سائٹ دیکھ سکتا ہے۔
 
 ## کلاوڈ فلیئر پیجز کیا کرتی ہے؟
 
-کلاوڈ فلیئر پیجز GitHub repository سے project پڑھتی ہے، پھر:
+کلاوڈ فلیئر پیجز GitHub repository سے پروجیکٹ پڑھتی ہے، پھر:
 
 - پروجیکٹ build کرتی ہے
-- آخری website files تیار کرتی ہے
+- آخری ویب سائٹ فائلز تیار کرتی ہے
 - عوامی URL دیتی ہے
 
-اگر آپ بعد میں GitHub پر update push کریں تو website دوبارہ update ہو سکتی ہے۔
+اگر آپ بعد میں GitHub پر update push کریں تو ویب سائٹ دوبارہ update ہو سکتی ہے۔
 
-## ابتدائی صارفین کے لیے یہ کیوں useful ہے؟
+## ابتدائی صارفین کے لیے یہ کیوں مفید ہے؟
 
 کیونکہ آپ کو:
 
@@ -68,39 +68,39 @@ faq:
 - پروجیکٹ GitHub پر موجود ہو
 - پروجیکٹ locally ایک بار چل چکا ہو
 - آپ کو پتا ہو build command کیا ہے
-- آپ کو پتا ہو output folder کیا ہے
+- آپ کو پتا ہو نتیجہ folder کیا ہے
 
-اگر یہ clear نہ ہو تو Codex سے پوچھیں:
+اگر یہ واضح نہ ہو تو کوڈیکس (Codex) سے پوچھیں:
 
-> میرے project کو دیکھو اور بتاؤ Cloudflare Pages کے لیے build command اور output folder کیا ہونا چاہیے۔
+> میرے پروجیکٹ کو دیکھو اور بتاؤ Cloudflare Pages کے لیے build command اور نتیجہ folder کیا ہونا چاہیے۔
 
-یہ بہت useful beginner prompt ہے۔
+یہ بہت مفید ابتدائی صارف پرامپٹ ہے۔
 
 ## موضوع: build command کیا ہوتی ہے؟
 
-کلاوڈ فلیئر کو یہ بتانا پڑتا ہے کہ project کو final site میں کیسے تبدیل کرنا ہے۔
+کلاوڈ فلیئر کو یہ بتانا پڑتا ہے کہ پروجیکٹ کو حتمی site میں کیسے تبدیل کرنا ہے۔
 
 عام examples:
 
 - مثال: `npm run build`
 - مثال: `pnpm build`
-- یا کچھ static projects میں شاید build کی ضرورت ہی نہ ہو
+- یا کچھ static پروجیکٹس میں شاید build کی ضرورت ہی نہ ہو
 
-ابتدائی صارفین کو guess نہیں کرنا چاہیے۔ project کے مطابق دیکھنا چاہیے۔
+ابتدائی صارفین کو guess نہیں کرنا چاہیے۔ پروجیکٹ کے مطابق دیکھنا چاہیے۔
 
 ## نتیجہ folder کیا ہوتا ہے؟
 
-نوٹ: build کے بعد final website files ایک folder میں آتی ہیں۔ یہی output folder ہوتا ہے۔
+نوٹ: build کے بعد حتمی ویب سائٹ فائلز ایک folder میں آتی ہیں۔ یہی نتیجہ folder ہوتا ہے۔
 
 عام examples:
 
 - فولڈر: `dist`
 - فولڈر: `out`
-- یا static projects میں root output structure
+- یا static پروجیکٹس میں root نتیجہ structure
 
 اگر یہ غلط دیا تو deploy fail ہو سکتا ہے یا blank site آ سکتی ہے۔
 
-## کلاوڈ فلیئر workflow step by step
+## کلاوڈ فلیئر ورک فلو step by step
 
 ### مرحلہ 1: Cloudflare account بنائیں
 
@@ -108,7 +108,7 @@ faq:
 
 ### مرحلہ 2: Pages section کھولیں
 
-نوٹ: Workers & Pages کے اندر نئی project creation کا option ملتا ہے۔
+نوٹ: Workers & Pages کے اندر نئی پروجیکٹ creation کا option ملتا ہے۔
 
 ### مرحلہ 3: GitHub repository connect کریں
 
@@ -116,15 +116,15 @@ faq:
 
 ### مرحلہ 4: build command دیں
 
-یہ اپنے project کے مطابق دیں۔ اگر unsure ہوں تو پہلے Codex سے confirm کریں۔
+یہ اپنے پروجیکٹ کے مطابق دیں۔ اگر unsure ہوں تو پہلے کوڈیکس سے confirm کریں۔
 
-### مرحلہ 5: output folder دیں
+### مرحلہ 5: نتیجہ folder دیں
 
-یہ بھی project کے مطابق correct ہونا چاہیے۔
+یہ بھی پروجیکٹ کے مطابق correct ہونا چاہیے۔
 
 ### مرحلہ 6: deploy کریں
 
-کلاوڈ فلیئر website build کرے گا اور public URL دے دے گا۔
+کلاوڈ فلیئر ویب سائٹ build کرے گا اور public URL دے دے گا۔
 
 ## کوڈیکس اس مرحلے میں کیا مدد کر سکتا ہے؟
 
@@ -132,13 +132,13 @@ faq:
 
 - build command identify
 - نتیجہ folder identify
-- deployment checklist
+- deployment چیک لسٹ
 - post-deploy fixes
-- لائیو update workflow explanation
+- لائیو update ورک فلو explanation
 
 مثلاً:
 
-> میرے GitHub project کے لیے Cloudflare Pages deployment checklist بنا دو۔
+> میرے GitHub پروجیکٹ کے لیے Cloudflare Pages deployment چیک لسٹ بنا دو۔
 
 یا:
 
@@ -154,7 +154,7 @@ faq:
 - بٹنز کام کر رہے ہیں؟
 - latest version ہی live ہے؟
 
-یعنی deploy complete ہونے کا مطلب یہ نہیں کہ result perfect بھی ہے۔ final check ضروری ہے۔
+یعنی deploy complete ہونے کا مطلب یہ نہیں کہ result perfect بھی ہے۔ حتمی check ضروری ہے۔
 
 ## اگر update کرنی ہو تو؟
 
@@ -168,13 +168,13 @@ faq:
 
 یعنی ایک repeatable loop بن جاتا ہے۔
 
-## عام beginner mistakes
+## عام ابتدائی صارف mistakes
 
 ### موضوع: 1. build command guess کرنا
 
 غلط command سے deploy fail ہو سکتا ہے۔
 
-### موضوع: 2. output folder غلط دینا
+### موضوع: 2. نتیجہ folder غلط دینا
 
 نوٹ: site blank کھل سکتی ہے۔
 
@@ -186,15 +186,15 @@ faq:
 
 کبھی build successful ہوتا ہے لیکن page expected نہیں ہوتا۔
 
-## ابتدائی صارفین کے لیے ایک ready prompt
+## ابتدائی صارفین کے لیے ایک ready پرامپٹ
 
-> میرے project کو دیکھو اور مجھے Cloudflare Pages پر deploy کرنے کے لیے exact beginner-friendly steps دو۔ build command، output folder اور deploy کے بعد check list بھی شامل کرو۔
+> میرے پروجیکٹ کو دیکھو اور مجھے Cloudflare Pages پر deploy کرنے کے لیے exact ابتدائی صارف کے لیے آسان steps دو۔ build command، نتیجہ folder اور deploy کے بعد check list بھی شامل کرو۔
 
 ## یہ skill کیوں اہم ہے؟
 
 کیونکہ یہی وہ لمحہ ہے جب آپ کا کام:
 
-- خیال سے project
+- خیال سے پروجیکٹ
 - پروجیکٹ سے repo
 - repo سے public product
 
@@ -208,15 +208,15 @@ faq:
 
 - کوڈیکس سمجھتے ہیں
 - اس کے اہم features سمجھتے ہیں
-- دستاویز اور slides بنا سکتے ہیں
-- سادہ web page بنا سکتے ہیں
+- دستاویز اور سلائیڈز بنا سکتے ہیں
+- سادہ ویب پیج بنا سکتے ہیں
 - پروجیکٹ GitHub پر ڈال سکتے ہیں
 - اسے Cloudflare پر live کر سکتے ہیں
 
-یہ beginners کے لیے بہت مضبوط starting point ہے۔
+یہ ابتدائی صارفین کے لیے بہت مضبوط starting point ہے۔
 
 ## اگلی گائیڈ میں
 
-اب website live ہو گئی۔ اگلا اہم مرحلہ یہ ہے کہ Codex کے ساتھ آپ prompts اتنے اچھے کیسے لکھیں کہ result پہلی یا دوسری کوشش میں زیادہ درست آئے۔ [اگلی گائیڈ: Codex کو صحیح prompt کیسے دیں؟](/guides/codex-prompting-for-beginners/) میں ہم یہی سیکھیں گے۔
+اب ویب سائٹ live ہو گئی۔ اگلا اہم مرحلہ یہ ہے کہ کوڈیکس کے ساتھ آپ پرامپٹس اتنے اچھے کیسے لکھیں کہ result پہلی یا دوسری کوشش میں زیادہ درست آئے۔ [اگلی گائیڈ: کوڈیکس کو صحیح پرامپٹ کیسے دیں؟](/guides/codex-prompting-for-beginners/) میں ہم یہی سیکھیں گے۔
 
 یہ series اب اسی direction میں آسانی سے بڑھ سکتی ہے۔

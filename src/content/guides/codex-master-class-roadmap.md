@@ -68,11 +68,11 @@ faq:
 - تھریڈ
 - پرامپٹ
 
-جب یہ الفاظ clear ہو جاتے ہیں تو باقی series آسان لگتی ہے۔
+جب یہ الفاظ واضح ہو جاتے ہیں تو باقی series آسان لگتی ہے۔
 
 ### 3. پھر آسان نتیجے سے آغاز کریں
 
-سب سے پہلے document اور slides بنوانا بہتر رہتا ہے کیونکہ اس میں technical risk کم ہوتا ہے۔
+سب سے پہلے دستاویز اور سلائیڈز بنوانا بہتر رہتا ہے کیونکہ اس میں technical risk کم ہوتا ہے۔
 
 [کوڈیکس سے دستاویزات اور سلائیڈز بنانا](/guides/codex-se-documents-aur-slides/)
 
@@ -85,15 +85,15 @@ faq:
 
 ### 4. اب پہلی ویب سائٹ یا صفحہ بنائیں
 
-[کوڈیکس سے پہلا web page بنائیں](/guides/codex-se-pehla-web-page-kaise-banayein/)
+[کوڈیکس سے پہلا ویب پیج بنائیں](/guides/codex-se-pehla-web-page-kaise-banayein/)
 
 یہ ابتدائی confidence building step ہے کیونکہ یہاں idea screen پر نظر آتا ہے۔
 
 ### 5. پھر پروجیکٹ محفوظ کرنا سیکھیں
 
-[کوڈیکس سے گٹ ہب پر project upload کریں](/guides/codex-se-github-par-project-upload/)
+[کوڈیکس سے گٹ ہب پر پروجیکٹ upload کریں](/guides/codex-se-github-par-project-upload/)
 
-اس کے بغیر project:
+اس کے بغیر پروجیکٹ:
 
 - بکھر سکتا ہے
 - شیئر کرنا مشکل ہو سکتا ہے
@@ -101,27 +101,27 @@ faq:
 
 ### 6. پھر اسے لائیو کریں
 
-[کوڈیکس سے کلاوڈ فلیئر پر website live کریں](/guides/codex-se-cloudflare-par-live-website/)
+[کوڈیکس سے کلاوڈ فلیئر پر ویب سائٹ live کریں](/guides/codex-se-cloudflare-par-live-website/)
 
-یہ وہ مرحلہ ہے جہاں learner پہلی بار public result دیکھتا ہے۔
+یہ وہ مرحلہ ہے جہاں سیکھنے والا پہلی بار public result دیکھتا ہے۔
 
 ### 7. اب پرامپٹس بہتر بنائیں
 
-[کوڈیکس کو صحیح prompt کیسے دیں](/guides/codex-prompting-for-beginners/)
+[کوڈیکس کو صحیح پرامپٹ کیسے دیں](/guides/codex-prompting-for-beginners/)
 
-یہ گائیڈ پوری series کی quality بڑھا دیتی ہے کیونکہ strong prompt = بہتر output۔
+یہ گائیڈ پوری series کی quality بڑھا دیتی ہے کیونکہ مضبوط پرامپٹ = بہتر نتیجہ۔
 
 ### 8. تیار پرامپٹس اپنے پاس رکھیں
 
-[کوڈیکس prompt library](/guides/codex-prompt-library-for-beginners/)
+[کوڈیکس پرامپٹ library](/guides/codex-prompt-library-for-beginners/)
 
-یہ گائیڈ خاص طور پر ان ابتدائی صارفین کے لیے useful ہے جو theory سمجھنے کے بعد copy-edit-run style میں جلدی practical کام شروع کرنا چاہتے ہیں۔
+یہ گائیڈ خاص طور پر ان ابتدائی صارفین کے لیے مفید ہے جو theory سمجھنے کے بعد کاپی-ایڈٹ-run style میں جلدی عملی کام شروع کرنا چاہتے ہیں۔
 
 ### 9. پھر پہلی سادہ ایپ بنائیں
 
-[کوڈیکس سے simple app بنائیں](/guides/codex-se-simple-app-kaise-banayein/)
+[کوڈیکس سے آسان ایپ بنائیں](/guides/codex-se-simple-app-kaise-banayein/)
 
-یہاں آپ page سے آگے بڑھ کر interactive tool یا app کی طرف جاتے ہیں۔
+یہاں آپ page سے آگے بڑھ کر interactive tool یا ایپ کی طرف جاتے ہیں۔
 
 ### 10. مسئلہ آئے تو رکنے کے بجائے خرابی دور کریں
 
@@ -131,9 +131,9 @@ faq:
 
 ### 11. عام غلطیاں سمجھیں
 
-[کوڈیکس beginners کی common mistakes](/guides/codex-common-mistakes-for-beginners/)
+[کوڈیکس ابتدائی صارفین کی عام غلطیاں](/guides/codex-common-mistakes-for-beginners/)
 
-یہ گائیڈ خاص طور پر ان learners کے لیے ہے جو بار بار weak prompts، بڑے scope، random edits یا review skip کرنے کی وجہ سے اٹک جاتے ہیں۔
+یہ گائیڈ خاص طور پر ان سیکھنے والے کے لیے ہے جو بار بار weak پرامپٹس، بڑے scope، random edits یا جائزہ skip کرنے کی وجہ سے اٹک جاتے ہیں۔
 
 ### 12. آخر میں اسے عملی کمائی سے جوڑیں
 
@@ -152,21 +152,21 @@ faq:
 - پہلا قدم: [کوڈیکس کیا ہے؟](/guides/codex-kya-hai/)
 - دوسرا قدم: [اہم فیچرز](/guides/codex-key-features-simplified/)
 - تیسرا قدم: [دستاویزات اور سلائیڈز](/guides/codex-se-documents-aur-slides/)
-- چوتھا قدم: [پہلا web page](/guides/codex-se-pehla-web-page-kaise-banayein/)
+- چوتھا قدم: [پہلا ویب پیج](/guides/codex-se-pehla-web-page-kaise-banayein/)
 - پانچواں قدم: [prompting guide](/guides/codex-prompting-for-beginners/)
 
-یہ پانچ guides beginner کے لیے minimum strong base دیتی ہیں۔
+یہ پانچ guides ابتدائی صارف کے لیے minimum مضبوط base دیتی ہیں۔
 
 ## اگر آپ عملی نتیجہ جلدی چاہتے ہیں
 
 یہ fast action path استعمال کریں:
 
-- پہلا قدم: [پہلا web page](/guides/codex-se-pehla-web-page-kaise-banayein/)
+- پہلا قدم: [پہلا ویب پیج](/guides/codex-se-pehla-web-page-kaise-banayein/)
 - دوسرا قدم: [گٹ ہب upload](/guides/codex-se-github-par-project-upload/)
 - تیسرا قدم: [کلاوڈ فلیئر live](/guides/codex-se-cloudflare-par-live-website/)
 - چوتھا قدم: [portfolio guide](/guides/codex-se-portfolio-aur-client-work/)
 
-یہ path خاص طور پر freelancers اور creators کے لیے useful ہے۔
+یہ path خاص طور پر فری لانسرز اور creators کے لیے مفید ہے۔
 
 ## ابتدائی صارفین کے لیے سیکھنے کا اصول
 
@@ -182,12 +182,12 @@ faq:
 
 ## اس سیریز کو پڑھتے وقت کیا مشق کریں؟
 
-ہر گائیڈ کے بعد کم از کم ایک عملی output بنائیں:
+ہر گائیڈ کے بعد کم از کم ایک عملی نتیجہ بنائیں:
 
-- ایک document
-- ایک slide outline
-- ایک web page
-- ایک app idea
+- ایک دستاویز
+- ایک سلائیڈ outline
+- ایک ویب پیج
+- ایک ایپ idea
 - ایک گٹ ہب repository
 - ایک live link
 
@@ -196,4 +196,4 @@ faq:
 ## بہترین اگلا قدم
 
 اگر آپ روڈ میپ follow کر چکے ہیں تو اب theory سے آگے بڑھیں اور ایک guided build کریں۔
-[کوڈیکس mini project challenge](/guides/codex-mini-project-challenge/) اسی مقصد کے لیے ہے تاکہ آپ ایک چھوٹا مگر مکمل practical project خود بنوا سکیں۔
+[کوڈیکس mini پروجیکٹ challenge](/guides/codex-mini-project-challenge/) اسی مقصد کے لیے ہے تاکہ آپ ایک چھوٹا مگر مکمل عملی پروجیکٹ خود بنوا سکیں۔

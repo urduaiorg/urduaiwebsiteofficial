@@ -25,34 +25,34 @@ faq:
     answer: ایک واضح project idea، working output، GitHub repository، live link، اور مختصر portfolio explanation۔
 ---
 
-اگر آپ نے Codex کی بنیادی guides پڑھ لی ہیں تو اب صرف پڑھتے رہنا کافی نہیں۔ اصل learning تب ہوتی ہے جب آپ ایک **چھوٹا مگر مکمل project** بنا کر finish کرتے ہیں۔ یہی اس mini project challenge کا مقصد ہے۔
+اگر آپ نے کوڈیکس (Codex) کی بنیادی guides پڑھ لی ہیں تو اب صرف پڑھتے رہنا کافی نہیں۔ اصل learning تب ہوتی ہے جب آپ ایک **چھوٹا مگر مکمل پروجیکٹ** بنا کر finish کرتے ہیں۔ یہی اس mini پروجیکٹ challenge کا مقصد ہے۔
 
-![Codex mini project challenge cover](/images/guides/codex-guide-series/codex-roadmap-challenge.png)
+![کوڈیکس mini پروجیکٹ challenge cover](/images/guides/codex-guide-series/codex-roadmap-challenge.png)
 
 ## اس challenge کا مقصد کیا ہے؟
 
 اس challenge کے آخر میں آپ کے پاس یہ پانچ چیزیں ہونی چاہئیں:
 
-- ایک simple project idea
-- کوڈیکس سے بنا ہوا working output
+- ایک آسان پروجیکٹ idea
+- کوڈیکس سے بنا ہوا working نتیجہ
 - گٹ ہب repository
 - کلاوڈ فلیئر پر live link
-- دو یا تین line کی project explanation
+- دو یا تین line کی پروجیکٹ explanation
 
 یعنی theory سے real result تک پورا loop۔
 
 ## پروجیکٹ کتنا بڑا ہونا چاہیے؟
 
-ابتدائی صارفین کے لیے صرف small scope project مناسب ہے۔
+ابتدائی صارفین کے لیے صرف small scope پروجیکٹ مناسب ہے۔
 
 بہترین examples:
 
 - workshop registration page
-- اسکول parent information page
-- سادہ todo app
+- اسکول والد یا والدہ information page
+- سادہ todo ایپ
 - طالب علم contact directory
 - quote calculator
-- small service landing page
+- small service لینڈنگ پیج
 
 غلط choice:
 
@@ -63,39 +63,39 @@ faq:
 
 ## موضوع: challenge کے لیے ایک ready idea
 
-اگر آپ decide نہیں کر پا رہے تو یہ project بنا لیں:
+اگر آپ decide نہیں کر پا رہے تو یہ پروجیکٹ بنا لیں:
 
-> اردو اے آئی workshop registration landing page
+> اردو اے آئی workshop registration لینڈنگ پیج
 
 اس میں شامل ہو:
 
-- ایک clear heading
-- short intro
+- ایک واضح heading
+- مختصر تعارف
 - 4 benefits
 - instructor section
 - واٹس ایپ یا registration CTA
 
-یہ beginner-friendly بھی ہے اور practical بھی۔
+یہ ابتدائی صارف کے لیے آسان بھی ہے اور عملی بھی۔
 
 ## موضوع: challenge step by step
 
-### مرحلہ 1: اپنا project idea ایک لائن میں لکھیں
+### مرحلہ 1: اپنا پروجیکٹ idea ایک لائن میں لکھیں
 
 مثلاً:
 
-> والدین کے لیے AI awareness workshop registration page
+> والدین کے لیے اے آئی awareness workshop registration page
 
 یا:
 
-> اساتذہ کے لیے simple attendance app
+> اساتذہ کے لیے آسان attendance ایپ
 
-بس ایک clear sentence کافی ہے۔
+بس ایک واضح sentence کافی ہے۔
 
-### مرحلہ 2: Codex کو strong prompt دیں
+### مرحلہ 2: کوڈیکس کو مضبوط پرامپٹ دیں
 
 مثال:
 
-> اردو-speaking parents کے لیے AI awareness workshop registration landing page بناؤ۔ اس میں heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> اردو-speaking والدین کے لیے اے آئی awareness workshop registration لینڈنگ پیج بناؤ۔ اس میں heading، مختصر تعارف، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design آسان اور موبائل پر درست ہو۔
 
 یہی challenge کا اصل آغاز ہے۔
 
@@ -115,7 +115,7 @@ faq:
 کوڈیکس کو follow-up دیں:
 
 - اردو زیادہ natural کرو
-- heading کو strong کرو
+- heading کو مضبوط کرو
 - spacing بہتر کرو
 - کال ٹو ایکشن زیادہ واضح کرو
 - موبائل layout بہتر کرو
@@ -127,16 +127,16 @@ faq:
 اگر کچھ ٹوٹ جائے تو random changes نہ کریں۔
 [خرابی دور کرنا guide](/guides/codex-debugging-for-beginners/) کے اصول follow کریں۔
 
-مثلاً Codex سے کہیں:
+مثلاً کوڈیکس سے کہیں:
 
 > موبائل view میں button cut ہو رہا ہے۔ cause دیکھو اور smallest fix لگاؤ۔
 
 ### مرحلہ 6: GitHub پر upload کریں
 
-اب project save کریں:
+اب پروجیکٹ save کریں:
 
 - repository بنائیں
-- clear commit کریں
+- واضح commit کریں
 - گٹ ہب link تیار کریں
 
 ضرورت ہو تو پہلے یہ guide دیکھیں:
@@ -144,7 +144,7 @@ faq:
 
 ### مرحلہ 7: Cloudflare پر live کریں
 
-اب project public link میں بدلیں:
+اب پروجیکٹ public link میں بدلیں:
 
 - repository connect کریں
 - build command confirm کریں
@@ -154,81 +154,81 @@ faq:
 ضرورت ہو تو یہ guide دیکھیں:
 [کلاوڈ فلیئر live guide](/guides/codex-se-cloudflare-par-live-website/)
 
-### مرحلہ 8: ایک short project note لکھیں
+### مرحلہ 8: ایک short پروجیکٹ note لکھیں
 
-اب اپنے project کے لیے دو یا تین lines لکھیں:
+اب اپنے پروجیکٹ کے لیے دو یا تین lines لکھیں:
 
-- یہ project کس کے لیے تھا
+- یہ پروجیکٹ کس کے لیے تھا
 - اس نے کون سا مسئلہ solve کیا
 - لائیو لنک کہاں ہے
 
 مثال:
 
-> یہ landing page Urdu-speaking parents کے لیے AI workshop registration آسان بنانے کے لیے بنایا گیا۔ اس میں benefits، instructor section اور quick WhatsApp CTA شامل ہے۔
+> یہ لینڈنگ پیج Urdu-speaking والدین کے لیے اے آئی workshop registration آسان بنانے کے لیے بنایا گیا۔ اس میں benefits، instructor section اور quick WhatsApp CTA شامل ہے۔
 
 یہی note portfolio میں کام آئے گا۔
 
-## ابتدائی صارفین کے لیے success checklist
+## ابتدائی صارفین کے لیے success چیک لسٹ
 
 اپنے آپ سے یہ سوال پوچھیں:
 
-- کیا project کا مقصد clear ہے؟
-- کیا page یا app open ہو رہی ہے؟
-- کیا language audience کے مطابق ہے؟
+- کیا پروجیکٹ کا مقصد واضح ہے؟
+- کیا page یا ایپ open ہو رہی ہے؟
+- کیا language سامعین کے مطابق ہے؟
 - کیا GitHub link موجود ہے؟
 - کیا live link کام کر رہا ہے؟
 
 اگر ان پانچ میں ہاں آ جائے تو challenge کامیاب ہے۔
 
-## موضوع: challenge کے دوران common mistakes
+## موضوع: challenge کے دوران عام غلطیاں
 
 ### 1. بہت بڑا idea چن لینا
 
 شروع ہمیشہ small scope سے کریں۔
 
-### 2. پہلا draft final سمجھ لینا
+### 2. پہلا draft حتمی سمجھ لینا
 
 کوڈیکس کے ساتھ refinement ضروری ہے۔
 
 ### موضوع: 3. save نہ کرنا
 
-گٹ ہب کے بغیر practical workflow ادھورا رہتا ہے۔
+گٹ ہب کے بغیر عملی ورک فلو ادھورا رہتا ہے۔
 
 ### موضوع: 4. live link نہ بنانا
 
-جب تک project public نہ ہو، confidence اور portfolio value دونوں کم رہتے ہیں۔
+جب تک پروجیکٹ public نہ ہو، confidence اور portfolio value دونوں کم رہتے ہیں۔
 
-اگر آپ detailed version پڑھنا چاہتے ہیں تو [Codex common mistakes guide](/guides/codex-common-mistakes-for-beginners/) اس challenge سے پہلے یا ساتھ دیکھیں۔
+اگر آپ detailed version پڑھنا چاہتے ہیں تو [کوڈیکس عام غلطیاں guide](/guides/codex-common-mistakes-for-beginners/) اس challenge سے پہلے یا ساتھ دیکھیں۔
 
-## موضوع: challenge کے لیے ready prompt pack
+## موضوع: challenge کے لیے ready پرامپٹ pack
 
-### موضوع: build prompt
+### موضوع: build پرامپٹ
 
-> میرے لیے Urdu-speaking parents کے لیے ایک AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> میرے لیے Urdu-speaking والدین کے لیے ایک اے آئی workshop registration لینڈنگ پیج بناؤ۔ heading، مختصر تعارف، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design آسان اور موبائل پر درست ہو۔
 
-### موضوع: polish prompt
+### موضوع: polish پرامپٹ
 
-> موجودہ page کو beginner-friendly Urdu کے ساتھ refine کرو۔ heading زیادہ clear کرو، spacing بہتر کرو، اور CTA نمایاں رکھو۔
+> موجودہ page کو ابتدائی صارف کے لیے آسان Urdu کے ساتھ refine کرو۔ heading زیادہ واضح کرو، spacing بہتر کرو، اور CTA نمایاں رکھو۔
 
-### خرابی دور کریں prompt
+### خرابی دور کریں پرامپٹ
 
 > موبائل layout check کرو۔ اگر button، text یا spacing issue ہو تو smallest safe fix لگاؤ۔
 
-### پورٹ فولیو prompt
+### پورٹ فولیو پرامپٹ
 
-> اس project کے لیے 3 line کی simple case study لکھو جس میں مقصد، فائدہ اور result واضح ہو۔
+> اس پروجیکٹ کے لیے 3 line کی آسان کیس اسٹڈی لکھو جس میں مقصد، فائدہ اور result واضح ہو۔
 
 ## موضوع: challenge مکمل ہونے کے بعد کیا کریں؟
 
-نوٹ: challenge مکمل ہو جائے تو اس same pattern پر دوسرا project بنائیں۔
+نوٹ: challenge مکمل ہو جائے تو اس same pattern پر دوسرا پروجیکٹ بنائیں۔
 مثلاً:
 
 - registration page
 - سادہ tool
-- دستاویز plus landing page combo
+- دستاویز plus لینڈنگ پیج combo
 
-دو یا تین ایسے mini projects آپ کو beginner سے practical creator بنا دیتے ہیں۔
+دو یا تین ایسے mini پروجیکٹس آپ کو ابتدائی صارف سے عملی creator بنا دیتے ہیں۔
 
 ## اگلا بہترین استعمال
 
-جب آپ یہ challenge مکمل کر لیں تو [portfolio اور client work guide](/guides/codex-se-portfolio-aur-client-work/) دوبارہ پڑھیں۔ اس بار وہ guide صرف theory نہیں لگے گی بلکہ آپ کے اپنے project کے ساتھ directly relate کرے گی۔
+جب آپ یہ challenge مکمل کر لیں تو [portfolio اور client work guide](/guides/codex-se-portfolio-aur-client-work/) دوبارہ پڑھیں۔ اس بار وہ guide صرف theory نہیں لگے گی بلکہ آپ کے اپنے پروجیکٹ کے ساتھ directly relate کرے گی۔

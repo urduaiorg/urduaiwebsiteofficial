@@ -24,7 +24,7 @@ faq:
     answer: جی ہاں، Codex آپ کو files review کرنے، commit message لکھنے اور upload steps سمجھانے میں مدد دے سکتا ہے۔
 ---
 
-اگر آپ نے Codex سے کوئی useful چیز بنائی ہے اور اسے صرف اپنے laptop تک محدود رکھ دیا ہے تو آپ نے آدھا کام کیا ہے۔ GitHub وہ جگہ ہے جہاں آپ کا project محفوظ بھی ہوتا ہے، share بھی ہوتا ہے، اور future changes بھی track ہوتے ہیں۔
+اگر آپ نے کوڈیکس (Codex) سے کوئی مفید چیز بنائی ہے اور اسے صرف اپنے laptop تک محدود رکھ دیا ہے تو آپ نے آدھا کام کیا ہے۔ GitHub وہ جگہ ہے جہاں آپ کا پروجیکٹ محفوظ بھی ہوتا ہے، share بھی ہوتا ہے، اور future changes بھی track ہوتے ہیں۔
 
 ![GitHub and Cloudflare guide cover](/images/guides/codex-guide-series/codex-github-cloudflare.png)
 
@@ -33,14 +33,14 @@ faq:
 گٹ ہب کو یوں سمجھیں:
 
 - گوگل ڈرائیو جیسی online جگہ
-- لیکن خاص طور پر code اور projects کے لیے
+- لیکن خاص طور پر code اور پروجیکٹس کے لیے
 
 یہاں آپ:
 
 - پروجیکٹ save کرتے ہیں
 - updates track کرتے ہیں
 - دوسروں کو link دیتے ہیں
-- لائیو deployment کے لیے project connect کرتے ہیں
+- لائیو deployment کے لیے پروجیکٹ connect کرتے ہیں
 
 ## کوڈیکس users کے لیے GitHub کیوں ضروری ہے؟
 
@@ -56,7 +56,7 @@ faq:
 
 ### موضوع: Repository
 
-یہ آپ کے project کا online folder ہے۔
+یہ آپ کے پروجیکٹ کا online folder ہے۔
 
 ### موضوع: Commit
 
@@ -64,11 +64,11 @@ faq:
 
 ### موضوع: Push
 
-اپنے computer یا local project سے GitHub پر upload کرنا۔
+اپنے computer یا local پروجیکٹ سے GitHub پر upload کرنا۔
 
 ### موضوع: Branch
 
-پروجیکٹ کی الگ working copy جہاں آپ experiment کر سکتے ہیں۔
+پروجیکٹ کی الگ working کاپی جہاں آپ experiment کر سکتے ہیں۔
 
 ابتدائی صارفین کے لیے شروع میں repository، commit اور push سمجھنا کافی ہے۔
 
@@ -76,32 +76,32 @@ faq:
 
 گٹ ہب پر upload سے پہلے یہ ضرور دیکھیں:
 
-- page یا app چل رہی ہے؟
-- غیر ضروری files تو نہیں؟
+- page یا ایپ چل رہی ہے؟
+- غیر ضروری فائلز تو نہیں؟
 - پروجیکٹ folder واضح ہے؟
 - ریڈ می یا short note موجود ہے؟
 
-یعنی پہلے project کو tidy کریں، پھر upload کریں۔
+یعنی پہلے پروجیکٹ کو tidy کریں، پھر upload کریں۔
 
 ## کوڈیکس اس مرحلے میں کہاں مدد دیتا ہے؟
 
 کوڈیکس سے آپ یہ کام کرا سکتے ہیں:
 
-- پروجیکٹ files review
-- غیر ضروری files کی نشاندہی
+- پروجیکٹ فائلز جائزہ
+- غیر ضروری فائلز کی نشاندہی
 - ریڈ می draft
 - commit message ideas
 - next steps explanation
 
 مثلاً:
 
-> میرے project folder کو دیکھو اور بتاؤ GitHub پر upload سے پہلے کون سی files ready ہیں اور کون سی غیر ضروری ہیں۔
+> میرے پروجیکٹ folder کو دیکھو اور بتاؤ GitHub پر upload سے پہلے کون سی فائلز ready ہیں اور کون سی غیر ضروری ہیں۔
 
 یا:
 
-> میرے project کے لیے ایک simple README لکھ دو۔
+> میرے پروجیکٹ کے لیے ایک آسان README لکھ دو۔
 
-## گٹ ہب workflow beginners کے لیے
+## گٹ ہب ورک فلو ابتدائی صارفین کے لیے
 
 ### مرحلہ 1: GitHub account بنائیں
 
@@ -115,21 +115,21 @@ faq:
 - urdu-ai-codex-demo
 - والدین-ai-landing-page
 
-### مرحلہ 3: project connect کریں
+### مرحلہ 3: پروجیکٹ connect کریں
 
-اپنی local files یا project folder کو GitHub repository کے ساتھ جوڑیں۔
+اپنی local فائلز یا پروجیکٹ folder کو GitHub repository کے ساتھ جوڑیں۔
 
 ### مرحلہ 4: پہلا commit کریں
 
-نوٹ: clear message لکھیں:
+نوٹ: واضح message لکھیں:
 
-- first landing page
-- initial Codex project
+- first لینڈنگ پیج
+- initial کوڈیکس پروجیکٹ
 - اردو workshop page draft
 
 ### مرحلہ 5: push کریں
 
-اب project GitHub پر چلا جائے گا۔
+اب پروجیکٹ GitHub پر چلا جائے گا۔
 
 ## اچھا commit message کیسا ہوتا ہے؟
 
@@ -141,11 +141,11 @@ faq:
 
 بہتر:
 
-- add first Urdu landing page
+- add first Urdu لینڈنگ پیج
 - add course registration section
 - fix mobile spacing and CTA
 
-نوٹ: clear message future میں بہت مدد دیتا ہے۔
+نوٹ: واضح message future میں بہت مدد دیتا ہے۔
 
 ## ریڈ می کیوں ضروری ہے؟
 
@@ -159,17 +159,17 @@ faq:
 
 کوڈیکس سے یہ فوراً لکھوایا جا سکتا ہے۔
 
-## ابتدائی صارفین کے لیے ایک useful Codex prompt
+## ابتدائی صارفین کے لیے ایک مفید کوڈیکس پرامپٹ
 
-> میرے موجودہ project کو GitHub-ready بناؤ۔ پہلے files review کرو، پھر ایک simple README draft دو، پھر مجھے واضح بتاؤ کہ first commit کے لیے کیا message مناسب ہوگا۔
+> میرے موجودہ پروجیکٹ کو GitHub-ready بناؤ۔ پہلے فائلز جائزہ کرو، پھر ایک آسان README draft دو، پھر مجھے واضح بتاؤ کہ first commit کے لیے کیا message مناسب ہوگا۔
 
 ## عام غلطیاں
 
 ### 1. ہر چیز upload کر دینا
 
-نوٹ: temporary files، random screenshots یا غیر ضروری folders upload نہ کریں۔
+نوٹ: temporary فائلز، random screenshots یا غیر ضروری folders upload نہ کریں۔
 
-### موضوع: 2. project چیک کیے بغیر push کر دینا
+### موضوع: 2. پروجیکٹ چیک کیے بغیر push کر دینا
 
 پہلے verify کریں کہ current version واقعی وہی ہے جو آپ share کرنا چاہتے ہیں۔
 
@@ -185,8 +185,8 @@ faq:
 
 ایک اچھا GitHub link آپ کو یہ سب دیتا ہے:
 
-- proof کہ project واقعی بنایا گیا
-- کلائنٹ یا student کے ساتھ sharing
+- proof کہ پروجیکٹ واقعی بنایا گیا
+- کلائنٹ یا طالب علم کے ساتھ sharing
 - future updates کا record
 - کلاوڈ فلیئر یا دوسری hosting سے connection
 
@@ -194,10 +194,10 @@ faq:
 
 ## اگلا قدم
 
-گٹ ہب پر project چڑھ گیا تو اب اصل مزہ شروع ہوتا ہے: اسے live کرنا۔
+گٹ ہب پر پروجیکٹ چڑھ گیا تو اب اصل مزہ شروع ہوتا ہے: اسے live کرنا۔
 
-یعنی اب لوگ صرف code نہیں دیکھیں گے بلکہ actual website کھول سکیں گے۔
+یعنی اب لوگ صرف code نہیں دیکھیں گے بلکہ actual ویب سائٹ کھول سکیں گے۔
 
 ## اگلی گائیڈ میں
 
-اب project GitHub پر محفوظ ہے۔ [اگلی گائیڈ: Codex سے Cloudflare پر website live کرنا](/guides/codex-se-cloudflare-par-live-website/) میں ہم سیکھیں گے کہ GitHub repository کو Cloudflare Pages سے جوڑ کر public link کیسے حاصل کیا جاتا ہے۔
+اب پروجیکٹ GitHub پر محفوظ ہے۔ [اگلی گائیڈ: کوڈیکس سے Cloudflare پر ویب سائٹ live کرنا](/guides/codex-se-cloudflare-par-live-website/) میں ہم سیکھیں گے کہ GitHub repository کو Cloudflare Pages سے جوڑ کر public link کیسے حاصل کیا جاتا ہے۔

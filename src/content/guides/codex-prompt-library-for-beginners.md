@@ -25,21 +25,21 @@ faq:
     answer: document، slides، web page اور simple app والے prompts beginners کے لیے بہترین starting points ہیں۔
 ---
 
-بہت سے beginners کو prompt کی theory سمجھ آ جاتی ہے، لیکن جب وہ Codex کھولتے ہیں تو پھر بھی یہی سوال رہتا ہے: **اب لکھوں کیا؟** یہی مسئلہ حل کرنے کے لیے یہ prompt library بنائی گئی ہے۔
+بہت سے ابتدائی صارفین کو پرامپٹ کی theory سمجھ آ جاتی ہے، لیکن جب وہ کوڈیکس (Codex) کھولتے ہیں تو پھر بھی یہی سوال رہتا ہے: **اب لکھوں کیا؟** یہی مسئلہ حل کرنے کے لیے یہ پرامپٹ library بنائی گئی ہے۔
 
-![Codex prompt library cover](/images/guides/codex-guide-series/codex-prompt-library.png)
+![کوڈیکس پرامپٹ library cover](/images/guides/codex-guide-series/codex-prompt-library.png)
 
-اس guide میں آپ کو ready-to-use prompts ملیں گے جنہیں آپ copy کر کے اپنے topic کے مطابق بدل سکتے ہیں۔
+اس guide میں آپ کو استعمال کے لیے تیار پرامپٹس ملیں گے جنہیں آپ کاپی کر کے اپنے topic کے مطابق بدل سکتے ہیں۔
 
 ## اس guide کو کیسے استعمال کریں؟
 
-ہر prompt کو تین حصوں میں دیکھیں:
+ہر پرامپٹ کو تین حصوں میں دیکھیں:
 
-- base prompt
-- کب useful ہے
+- base پرامپٹ
+- کب مفید ہے
 - کس چیز کو اپنے مطابق بدلنا ہے
 
-یعنی blindly copy نہ کریں، بلکہ:
+یعنی blindly کاپی نہ کریں، بلکہ:
 
 - موضوع بدلیں
 - سامعین بدلیں
@@ -47,11 +47,11 @@ faq:
 
 بس اتنا کافی ہوتا ہے۔
 
-## موضوع: 1. document prompts
+## موضوع: 1. دستاویز پرامپٹس
 
-### سادہ handout prompt
+### سادہ handout پرامپٹ
 
-> میرے لیے ایک simple Urdu handout بناؤ جس کا موضوع [topic] ہو۔ audience [parents/students/teachers] ہیں۔ short intro، 5 key points، 3 common mistakes اور final advice شامل کرو۔ language بہت آسان رکھو۔
+> میرے لیے ایک آسان Urdu handout بناؤ جس کا موضوع [topic] ہو۔ سامعین [والدین/طلبہ/اساتذہ] ہیں۔ مختصر تعارف، 5 اہم نکات، 3 عام غلطیاں اور حتمی advice شامل کرو۔ language بہت آسان رکھو۔
 
 استعمال کی جگہ:
 
@@ -59,131 +59,131 @@ faq:
 - workshop note چاہیے
 - one-page explainery content چاہیے
 
-### موضوع: professional note prompt
+### موضوع: professional note پرامپٹ
 
-> [موضوع] پر ایک professional مگر beginner-friendly note لکھو۔ اس میں heading، short overview، main sections اور آخر میں summary شامل ہو۔
+> [موضوع] پر ایک professional مگر ابتدائی صارف کے لیے آسان note لکھو۔ اس میں heading، short overview، main sections اور آخر میں summary شامل ہو۔
 
-## موضوع: 2. slide prompts
+## موضوع: 2. سلائیڈ پرامپٹس
 
-### ٹریننگ presentation prompt
+### ٹریننگ presentation پرامپٹ
 
-> [موضوع] کے لیے Urdu beginners کی 8-slide presentation بناؤ۔ ہر slide میں short title، 3 bullets اور presenter note دو۔ tone simple اور non-technical ہو۔
+> [موضوع] کے لیے Urdu ابتدائی صارفین کی 8-سلائیڈ presentation بناؤ۔ ہر سلائیڈ میں short title، 3 bullets اور presenter note دو۔ tone آسان اور غیر تکنیکی ہو۔
 
-### موضوع: workshop deck prompt
+### موضوع: workshop deck پرامپٹ
 
-> [موضوع] پر workshop deck بناؤ۔ پہلی slide title ہو، پھر problem، benefits، examples، common mistakes اور final recap شامل کرو۔
+> [موضوع] پر workshop deck بناؤ۔ پہلی سلائیڈ title ہو، پھر problem، benefits، examples، عام غلطیاں اور حتمی recap شامل کرو۔
 
 استعمال کی جگہ:
 
 - class لینی ہو
 - ٹریننگ دینی ہو
-- یوٹیوب lesson کو slides میں بدلنا ہو
+- یوٹیوب lesson کو سلائیڈز میں بدلنا ہو
 
-## موضوع: 3. website and landing page prompts
+## موضوع: 3. ویب سائٹ and لینڈنگ پیج پرامپٹس
 
-### سادہ landing page prompt
+### سادہ لینڈنگ پیج پرامپٹ
 
-> [سامعین] کے لیے [topic] landing page بناؤ۔ اس میں heading، short intro، 4 benefits، who this is for section اور WhatsApp CTA شامل ہو۔ design simple اور mobile-friendly ہو۔
+> [سامعین] کے لیے [topic] لینڈنگ پیج بناؤ۔ اس میں heading، مختصر تعارف، 4 benefits، who this is for section اور WhatsApp CTA شامل ہو۔ design آسان اور موبائل پر درست ہو۔
 
-### موضوع: registration page prompt
+### موضوع: registration page پرامپٹ
 
 > [مثال: workshop/course/event] کے لیے Urdu registration page بناؤ۔ heading، date/time section، benefits، instructor section اور registration button شامل ہو۔
 
-### پورٹ فولیو page prompt
+### پورٹ فولیو page پرامپٹ
 
-> میرے لیے ایک simple personal portfolio page بناؤ۔ اس میں intro، services، selected work اور contact section شامل ہو۔ audience non-technical clients ہیں۔
+> میرے لیے ایک آسان personal portfolio page بناؤ۔ اس میں intro، services، selected work اور contact section شامل ہو۔ سامعین غیر تکنیکی clients ہیں۔
 
-## موضوع: 4. app prompts
+## موضوع: 4. ایپ پرامپٹس
 
-### سادہ ایپ prompt
+### سادہ ایپ پرامپٹ
 
-> [سامعین] کے لیے ایک simple app بناؤ جو [problem] solve کرے۔ first version میں صرف [feature 1]، [feature 2] اور [feature 3] شامل ہوں۔ design clean اور mobile-friendly ہو۔
+> [سامعین] کے لیے ایک آسان ایپ بناؤ جو [problem] solve کرے۔ first version میں صرف [feature 1]، [feature 2] اور [feature 3] شامل ہوں۔ design clean اور موبائل پر درست ہو۔
 
-### موضوع: todo app prompt
+### موضوع: todo ایپ پرامپٹ
 
-> ابتدائی صارفین کے لیے ایک simple todo app بناؤ۔ task add، complete اور delete feature ہو۔ layout صاف اور easy-to-use ہو۔
+> ابتدائی صارفین کے لیے ایک آسان todo ایپ بناؤ۔ task add، complete اور delete feature ہو۔ layout صاف اور easy-to-use ہو۔
 
-### کیلکولیٹر prompt
+### کیلکولیٹر پرامپٹ
 
-> چھوٹے کاروبار users کے لیے ایک simple price calculator app بناؤ۔ input fields clear ہوں، result area واضح ہو، اور mobile layout ٹھیک ہو۔
+> چھوٹے کاروبار users کے لیے ایک آسان price calculator ایپ بناؤ۔ input fields واضح ہوں، result area واضح ہو، اور mobile layout ٹھیک ہو۔
 
-## موضوع: 5. editing and improvement prompts
+## موضوع: 5. editing and improvement پرامپٹس
 
-### موضوع: rewrite prompt
+### موضوع: rewrite پرامپٹ
 
-> موجودہ text کو زیادہ simple Urdu میں rewrite کرو۔ meaning وہی رکھو مگر language beginners کے لیے آسان کر دو۔
+> موجودہ text کو زیادہ آسان Urdu میں rewrite کرو۔ meaning وہی رکھو مگر language ابتدائی صارفین کے لیے آسان کر دو۔
 
-### موضوع: section improvement prompt
+### موضوع: section improvement پرامپٹ
 
 > موجودہ page دیکھو اور صرف hero section کی writing بہتر کرو۔ باقی structure اور layout تبدیل نہ کرو۔
 
-### موضوع: shorten prompt
+### موضوع: shorten پرامپٹ
 
-> اس content کو مختصر کرو مگر main points preserve رکھو۔ tone friendly اور beginner-focused ہو۔
+> اس content کو مختصر کرو مگر main points preserve رکھو۔ tone friendly اور ابتدائی صارف-focused ہو۔
 
-## موضوع: 6. debugging prompts
+## موضوع: 6. debugging پرامپٹس
 
-### موضوع: general debugging prompt
+### موضوع: general debugging پرامپٹ
 
-> یہ exact مسئلہ ہے: [issue لکھیں]۔ مجھے expected تھا کہ [expected result]۔ relevant files inspect کرو، likely cause simple Urdu میں سمجھاؤ، پھر smallest safe fix apply کرو۔
+> یہ exact مسئلہ ہے: [issue لکھیں]۔ مجھے expected تھا کہ [expected result]۔ relevant فائلز inspect کرو، likely cause آسان Urdu میں سمجھاؤ، پھر smallest safe fix apply کرو۔
 
-### موبائل layout prompt
+### موبائل layout پرامپٹ
 
 > موبائل layout check کرو۔ اگر text overlap، button cut یا spacing issue ہو تو صرف متعلقہ fix لگاؤ۔ باقی design نہ توڑو۔
 
-### موضوع: build error prompt
+### موضوع: build error پرامپٹ
 
 > مثال: build کرتے وقت یہ error آ رہی ہے: [error paste کریں]۔ likely cause بتاؤ، پھر smallest safe fix دو، اور آخر میں دوبارہ verify بھی کرو۔
 
-## موضوع: 7. GitHub prompts
+## موضوع: 7. GitHub پرامپٹس
 
-### ریڈ می prompt
+### ریڈ می پرامپٹ
 
-> میرے current project کے لیے ایک simple README لکھو۔ اس میں project purpose، main features، setup note اور live link کے لیے جگہ شامل ہو۔
+> میرے current پروجیکٹ کے لیے ایک آسان README لکھو۔ اس میں پروجیکٹ purpose، main features، setup note اور live link کے لیے جگہ شامل ہو۔
 
-### گٹ ہب-ready review prompt
+### گٹ ہب-ready جائزہ پرامپٹ
 
-> میرے project folder کو GitHub-ready نظر سے دیکھو۔ بتاؤ کون سی files useful ہیں، کون سی unnecessary ہو سکتی ہیں، اور first commit message کیا ہونا چاہیے۔
+> میرے پروجیکٹ folder کو GitHub-ready نظر سے دیکھو۔ بتاؤ کون سی فائلز مفید ہیں، کون سی unnecessary ہو سکتی ہیں، اور first commit message کیا ہونا چاہیے۔
 
-### موضوع: commit message prompt
+### موضوع: commit message پرامپٹ
 
-> میری recent changes کو دیکھو اور 5 clear commit message options دو جو beginner project کے لیے مناسب ہوں۔
+> میری recent changes کو دیکھو اور 5 واضح commit message options دو جو ابتدائی صارف پروجیکٹ کے لیے مناسب ہوں۔
 
-## موضوع: 8. Cloudflare prompts
+## موضوع: 8. Cloudflare پرامپٹس
 
-### موضوع: deployment prompt
+### موضوع: deployment پرامپٹ
 
-> میرے project کو دیکھو اور Cloudflare Pages پر deploy کرنے کے لیے exact beginner-friendly steps دو۔ build command، output folder اور deploy کے بعد check list بھی شامل کرو۔
+> میرے پروجیکٹ کو دیکھو اور Cloudflare Pages پر deploy کرنے کے لیے exact ابتدائی صارف کے لیے آسان steps دو۔ build command، نتیجہ folder اور deploy کے بعد check list بھی شامل کرو۔
 
-### موضوع: deploy failure prompt
+### موضوع: deploy failure پرامپٹ
 
-> کلاوڈ فلیئر deploy fail ہو رہی ہے۔ likely causes بتاؤ، پھر build command، output folder اور config میں کیا check کرنا چاہیے وہ simple language میں سمجھاؤ۔
+> کلاوڈ فلیئر deploy fail ہو رہی ہے۔ likely causes بتاؤ، پھر build command، نتیجہ folder اور config میں کیا check کرنا چاہیے وہ آسان language میں سمجھاؤ۔
 
-## موضوع: 9. portfolio prompts
+## موضوع: 9. portfolio پرامپٹس
 
-### موضوع: case study prompt
+### موضوع: کیس اسٹڈی پرامپٹ
 
-> اس project کے لیے 3 سے 5 line کی simple case study لکھو جس میں مسئلہ، solution اور user benefit واضح ہو۔
+> اس پروجیکٹ کے لیے 3 سے 5 line کی آسان کیس اسٹڈی لکھو جس میں مسئلہ، solution اور user benefit واضح ہو۔
 
-### موضوع: service description prompt
+### موضوع: service description پرامپٹ
 
-> میری services کے لیے short description لکھو۔ focus ہو landing pages، simple websites، slides اور Codex-assisted small tools پر۔ tone professional مگر easy ہو۔
+> میری services کے لیے short description لکھو۔ focus ہو لینڈنگ پیجز، آسان ویب سائٹس، سلائیڈز اور کوڈیکس-assisted small tools پر۔ tone professional مگر easy ہو۔
 
-## موضوع: 10. prompt upgrade prompts
+## موضوع: 10. پرامپٹ upgrade پرامپٹس
 
-کبھی prompt کام تو کرتا ہے مگر result average آتا ہے۔ تب یہ follow-up prompts useful ہیں:
+کبھی پرامپٹ کام تو کرتا ہے مگر result average آتا ہے۔ تب یہ follow-up پرامپٹس مفید ہیں:
 
 ### موضوع: clarity follow-up
 
-> اسے زیادہ clear اور beginner-friendly کرو۔
+> اسے زیادہ واضح اور ابتدائی صارف کے لیے آسان کرو۔
 
 ### لہجہ follow-up
 
-> لہجہ کو زیادہ warm، simple اور non-technical کرو۔
+> لہجہ کو زیادہ warm، آسان اور غیر تکنیکی کرو۔
 
 ### موضوع: structure follow-up
 
-> مثال: structure بہتر کرو، headings clear رکھو، اور repetition کم کرو۔
+> مثال: structure بہتر کرو، headings واضح رکھو، اور repetition کم کرو۔
 
 ### موضوع: visual follow-up
 
@@ -191,51 +191,51 @@ faq:
 
 ## ابتدائی صارفین کے لیے best starter pack
 
-اگر آپ پہلی بار Codex use کر رہے ہیں تو صرف یہ 5 prompts try کریں:
+اگر آپ پہلی بار کوڈیکس use کر رہے ہیں تو صرف یہ 5 پرامپٹس try کریں:
 
-1. سادہ handout prompt
-2. ٹریننگ presentation prompt
-3. سادہ landing page prompt
-4. سادہ ایپ prompt
-5. general debugging prompt
+1. سادہ handout پرامپٹ
+2. ٹریننگ presentation پرامپٹ
+3. سادہ لینڈنگ پیج پرامپٹ
+4. سادہ ایپ پرامپٹ
+5. general debugging پرامپٹ
 
-یہ پانچ prompts beginner learner کو Codex کی اصل طاقت دکھا دیتے ہیں۔
+یہ پانچ پرامپٹس ابتدائی صارف سیکھنے والا کو کوڈیکس کی اصل طاقت دکھا دیتے ہیں۔
 
-## ایک ہی prompt کو بہتر کیسے بنائیں؟
+## ایک ہی پرامپٹ کو بہتر کیسے بنائیں؟
 
-فرض کریں آپ کے پاس یہ prompt ہے:
+فرض کریں آپ کے پاس یہ پرامپٹ ہے:
 
-> ایک اچھی website بنا دو
+> ایک اچھی ویب سائٹ بنا دو
 
 اب اسے بہتر بنائیں:
 
-> اردو parents کے لیے AI workshop registration landing page بناؤ۔ heading، short intro، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design simple، mobile-friendly اور beginner-focused ہو۔
+> اردو والدین کے لیے اے آئی workshop registration لینڈنگ پیج بناؤ۔ heading، مختصر تعارف، 4 benefits، instructor section اور WhatsApp CTA شامل ہو۔ design آسان، موبائل پر درست اور ابتدائی صارف-focused ہو۔
 
-یہی فرق weak اور strong prompting میں ہے۔
+یہی فرق weak اور مضبوط prompting میں ہے۔
 
-## آپ اپنی prompt library کیسے بنائیں؟
+## آپ اپنی پرامپٹ library کیسے بنائیں؟
 
 اپنے لیے ایک چھوٹی personal library رکھیں:
 
-- دستاویز prompts
-- سلائیڈز prompts
-- page prompts
-- ایپ prompts
-- fix prompts
+- دستاویز پرامپٹس
+- سلائیڈز پرامپٹس
+- page پرامپٹس
+- ایپ پرامپٹس
+- fix پرامپٹس
 
-جوں جوں آپ Codex use کریں گے، آپ کی personal library بہتر ہوتی جائے گی۔
+جوں جوں آپ کوڈیکس use کریں گے، آپ کی personal library بہتر ہوتی جائے گی۔
 
 ## ابھی آپ کو کیا کرنا چاہیے؟
 
 اس guide سے:
 
-1. تین prompts copy کریں
-2. اپنے topic کے مطابق edit کریں
+1. تین پرامپٹس کاپی کریں
+2. اپنے topic کے مطابق ایڈٹ کریں
 3. کوڈیکس میں run کریں
 4. پھر result compare کریں
 
-یہ practice آپ کو theoretical learner سے practical user بناتی ہے۔
+یہ practice آپ کو theoretical سیکھنے والا سے عملی user بناتی ہے۔
 
 ## اگلی گائیڈ میں
 
-اب آپ کے پاس ready prompt bank بھی ہے۔ [اگلی گائیڈ: Codex سے simple app بنانا](/guides/codex-se-simple-app-kaise-banayein/) میں ہم انہی prompts کو use کر کے idea کو first working app میں بدلیں گے۔
+اب آپ کے پاس ready پرامپٹ bank بھی ہے۔ [اگلی گائیڈ: کوڈیکس سے آسان ایپ بنانا](/guides/codex-se-simple-app-kaise-banayein/) میں ہم انہی پرامپٹس کو use کر کے idea کو first working ایپ میں بدلیں گے۔

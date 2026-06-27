@@ -27,15 +27,15 @@ faq:
     answer: "Sol سب سے طاقتور flagship model ہے، Terra balanced lower-cost option ہے، اور Luna fast اور cost-efficient model ہے جو high-volume routine work کے لیے بنایا گیا ہے۔"
 last_updated: 2026-06-27
 ---
-اوپن اے آئی نے 26 جون 2026 کو GPT-5.6 model family کا limited preview شروع کیا، جس میں تین models شامل ہیں: GPT-5.6 Sol، GPT-5.6 Terra اور GPT-5.6 Luna۔ یہ update عام ChatGPT users کے لیے ابھی دستیاب نہیں؛ اوپن اے آئی کے مطابق preview API اور Codex میں صرف limited trusted partners اور organizations کے لیے ہے، جبکہ broader availability آنے والے weeks میں planned ہے۔
+اوپن اے آئی نے 26 جون 2026 کو GPT-5.6 model family کا limited preview شروع کیا، جس میں تین models شامل ہیں: GPT-5.6 Sol، GPT-5.6 Terra اور GPT-5.6 Luna۔ یہ update عام چیٹ جی پی ٹی (ChatGPT) users کے لیے ابھی دستیاب نہیں؛ اوپن اے آئی کے مطابق preview API اور کوڈیکس (Codex) میں صرف limited trusted partners اور organizations کے لیے ہے، جبکہ broader availability آنے والے weeks میں planned ہے۔
 
-یہ مضمون اوپن اے آئی کے [آفیشل announcement](https://openai.com/index/previewing-gpt-5-6-sol/)، [OpenAI Help Center preview page](https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna)، اور [GPT-5.6 Preview System Card](https://deploymentsafety.openai.com/gpt-5-6-preview) سے 27 جون 2026 کو verify کیا گیا ہے۔ چونکہ یہ preview release ہے، access، model labels، limits اور availability بدل سکتے ہیں۔
+یہ مضمون اوپن اے آئی کے [آفیشل announcement](https://openai.com/index/previewing-gpt-5-6-sol/)، [اوپن اے آئی (OpenAI) Help Center preview page](https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna)، اور [GPT-5.6 Preview System Card](https://deploymentsafety.openai.com/gpt-5-6-preview) سے 27 جون 2026 کو verify کیا گیا ہے۔ چونکہ یہ preview release ہے، access، model labels، limits اور availability بدل سکتے ہیں۔
 
-## سب سے پہلے: یہ عام ChatGPT update نہیں
+## سب سے پہلے: یہ عام چیٹ جی پی ٹی update نہیں
 
-اگر آپ موبائل پر ChatGPT app کھول کر GPT-5.6 ڈھونڈ رہے ہیں تو ابھی ممکن ہے آپ کو یہ model نظر نہ آئے۔ اوپن اے آئی Help Center صاف لکھتا ہے کہ preview کے دوران GPT-5.6 ChatGPT میں دستیاب نہیں۔ اس کا current access API اور Codex کے ذریعے ہے، وہ بھی limited group کے لیے۔
+اگر آپ موبائل پر چیٹ جی پی ٹی app کھول کر GPT-5.6 ڈھونڈ رہے ہیں تو ابھی ممکن ہے آپ کو یہ model نظر نہ آئے۔ اوپن اے آئی Help Center صاف لکھتا ہے کہ preview کے دوران GPT-5.6 چیٹ جی پی ٹی میں دستیاب نہیں۔ اس کا current access API اور کوڈیکس کے ذریعے ہے، وہ بھی limited group کے لیے۔
 
-اس لیے عام user کے لیے درست بات یہ ہے: یہ اعلان ابھی سمجھنے کے لیے اہم ہے، فوراً استعمال کرنے کے لیے نہیں۔ اگر آپ student، freelancer، teacher یا small business owner ہیں تو آپ کو اس وقت اپنے موجودہ ChatGPT، Gemini، Claude یا NotebookLM workflow کو بدلنے کی ضرورت نہیں۔ جب GPT-5.6 عام users کے لیے آئے گا، تب اس کا practical فرق بہتر انداز میں دیکھا جا سکے گا۔
+اس لیے عام user کے لیے درست بات یہ ہے: یہ اعلان ابھی سمجھنے کے لیے اہم ہے، فوراً استعمال کرنے کے لیے نہیں۔ اگر آپ student، freelancer، teacher یا small business owner ہیں تو آپ کو اس وقت اپنے موجودہ چیٹ جی پی ٹی، جیمینائی (Gemini)، کلاڈ (Claude) یا NotebookLM workflow کو بدلنے کی ضرورت نہیں۔ جب GPT-5.6 عام users کے لیے آئے گا، تب اس کا practical فرق بہتر انداز میں دیکھا جا سکے گا۔
 
 ## Sol، Terra اور Luna کیا ہیں؟
 
@@ -79,7 +79,7 @@ Ultra mode ایک قدم آگے جاتا ہے۔ اوپن اے آئی کے مطا
 | GPT-5.6 Terra | $2.50 | $15.00 |
 | GPT-5.6 Luna | $1.00 | $6.00 |
 
-یہ API pricing ہے، ChatGPT subscription pricing نہیں۔ اگر آپ عام ChatGPT user ہیں تو ابھی اس table کو صرف developer/API context کے طور پر سمجھیں۔ اگر آپ business یا developer ہیں، تو اصل cost output tokens سے زیادہ متاثر ہو سکتی ہے، کیونکہ model کے generated جواب بھی billed ہوتے ہیں۔
+یہ API pricing ہے، چیٹ جی پی ٹی subscription pricing نہیں۔ اگر آپ عام چیٹ جی پی ٹی user ہیں تو ابھی اس table کو صرف developer/API context کے طور پر سمجھیں۔ اگر آپ business یا developer ہیں، تو اصل cost output tokens سے زیادہ متاثر ہو سکتی ہے، کیونکہ model کے generated جواب بھی billed ہوتے ہیں۔
 
 اوپن اے آئی نے prompt caching میں بھی تبدیلی بتائی ہے۔ GPT-5.6 اور بعد کے models میں cache writes model کے uncached input rate کے 1.25x پر billed ہوں گے، جبکہ cache reads پر 90% cached-input discount جاری رہے گا۔ آسان لفظوں میں: اگر آپ ایک جیسے long prompts بار بار استعمال کرتے ہیں تو caching cost کم کر سکتی ہے، مگر setup سمجھ کر کرنا ہوگا۔
 
@@ -93,21 +93,21 @@ System card میں ایک اہم بات یہ ہے کہ Sol اور Terra vulnerab
 
 ## پاکستانی users کے لیے کیا مطلب ہے؟
 
-پاکستان میں زیادہ تر users کے لیے GPT-5.6 کا فوری فائدہ ابھی نہیں آئے گا، کیونکہ preview عام ChatGPT users کے لیے open نہیں۔ لیکن یہ update تین چیزیں واضح کرتا ہے۔
+پاکستان میں زیادہ تر users کے لیے GPT-5.6 کا فوری فائدہ ابھی نہیں آئے گا، کیونکہ preview عام چیٹ جی پی ٹی users کے لیے open نہیں۔ لیکن یہ update تین چیزیں واضح کرتا ہے۔
 
-پہلی بات: coding اور automation میں AI assistants زیادہ practical ہو رہے ہیں۔ Freelancers، software houses اور students کو prompt writing کے ساتھ code review، testing اور security basics بھی سیکھنے ہوں گے۔
+پہلی بات: coding اور automation میں اے آئی assistants زیادہ practical ہو رہے ہیں۔ Freelancers، software houses اور students کو prompt writing کے ساتھ code review، testing اور security basics بھی سیکھنے ہوں گے۔
 
-دوسری بات: قیمت کی جنگ تیز ہو رہی ہے۔ Terra اور Luna جیسے lower-cost tiers future میں AI apps، customer support bots، education tools اور business automation کو cheaper بنا سکتے ہیں۔
+دوسری بات: قیمت کی جنگ تیز ہو رہی ہے۔ Terra اور Luna جیسے lower-cost tiers future میں اے آئی apps، customer support bots، education tools اور business automation کو cheaper بنا سکتے ہیں۔
 
 تیسری بات: safety اور access policy اب product کا حصہ بن چکے ہیں۔ Frontier models صرف feature list سے نہیں چلیں گے؛ governments، companies، researchers اور users سب release process کا حصہ بنتے جا رہے ہیں۔
 
 ## ابھی آپ کیا کریں؟
 
-اگر آپ beginner ہیں تو GPT-5.6 کے انتظار میں نہ رکیں۔ پہلے current tools پر مضبوط foundation بنائیں: اچھا سوال کیسے لکھنا ہے، output verify کیسے کرنا ہے، اور AI کو اپنے کام کے workflow میں کہاں fit کرنا ہے۔
+اگر آپ beginner ہیں تو GPT-5.6 کے انتظار میں نہ رکیں۔ پہلے current tools پر مضبوط foundation بنائیں: اچھا سوال کیسے لکھنا ہے، output verify کیسے کرنا ہے، اور اے آئی کو اپنے کام کے workflow میں کہاں fit کرنا ہے۔
 
-شروع کرنے کے لیے [ChatGPT app download guide](/how-to/how-to-install-original-chatgpt-app/) پڑھیں۔ اگر آپ tools compare کرنا چاہتے ہیں تو [AI tools directory](/tools/) دیکھیں۔ اگر آپ coding اور app building سیکھنا چاہتے ہیں تو [vibe coding guide](/guides/vibe-coding-kya-hai/) بہتر next step ہے۔
+شروع کرنے کے لیے [چیٹ جی پی ٹی app download guide](/how-to/how-to-install-original-chatgpt-app/) پڑھیں۔ اگر آپ tools compare کرنا چاہتے ہیں تو [اے آئی tools directory](/tools/) دیکھیں۔ اگر آپ coding اور app building سیکھنا چاہتے ہیں تو [vibe coding guide](/guides/vibe-coding-kya-hai/) بہتر next step ہے۔
 
-GPT-5.6 کا اصل امتحان تب ہوگا جب یہ ChatGPT، Codex اور API میں عام طور پر دستیاب ہوگا۔ ابھی کے لیے درست headline یہ ہے: اوپن اے آئی نے next model family دکھا دی ہے، مگر عام users کے لیے دروازہ ابھی پوری طرح نہیں کھلا۔
+GPT-5.6 کا اصل امتحان تب ہوگا جب یہ چیٹ جی پی ٹی، کوڈیکس اور API میں عام طور پر دستیاب ہوگا۔ ابھی کے لیے درست headline یہ ہے: اوپن اے آئی نے next model family دکھا دی ہے، مگر عام users کے لیے دروازہ ابھی پوری طرح نہیں کھلا۔
 
 ## اکثر پوچھے گئے سوالات
 
@@ -115,13 +115,13 @@ GPT-5.6 کا اصل امتحان تب ہوگا جب یہ ChatGPT، Codex اور 
 
 GPT-5.6 Sol اوپن اے آئی کے GPT-5.6 family کا flagship model ہے۔ اسے difficult coding، professional knowledge work، science research، computer use اور cybersecurity workflows کے لیے preview کیا گیا ہے۔
 
-### کیا GPT-5.6 ابھی ChatGPT app میں آ گیا ہے؟
+### کیا GPT-5.6 ابھی چیٹ جی پی ٹی app میں آ گیا ہے؟
 
-نہیں۔ OpenAI Help Center کے مطابق preview کے دوران GPT-5.6 ChatGPT میں دستیاب نہیں۔ broader availability آنے والے weeks میں planned ہے، مگر exact date announce نہیں ہوئی۔
+نہیں۔ اوپن اے آئی Help Center کے مطابق preview کے دوران GPT-5.6 چیٹ جی پی ٹی میں دستیاب نہیں۔ broader availability آنے والے weeks میں planned ہے، مگر exact date announce نہیں ہوئی۔
 
 ### کیا عام users waitlist join کر سکتے ہیں؟
 
-نہیں۔ OpenAI Help Center کے مطابق preview کے لیے public application یا waitlist نہیں۔ access limited trusted partners اور organizations کے لیے ہے۔
+نہیں۔ اوپن اے آئی Help Center کے مطابق preview کے لیے public application یا waitlist نہیں۔ access limited trusted partners اور organizations کے لیے ہے۔
 
 ### GPT-5.6 Terra کس کے لیے ہے؟
 

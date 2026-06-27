@@ -23,9 +23,9 @@ faq:
     answer: اکثر ہاں۔ Codex project run کر کے local preview اور basic checks میں مدد دے سکتا ہے۔
 ---
 
-بہت سے لوگ Codex سے app بنوانا چاہتے ہیں، لیکن وہ ایک common غلطی کرتے ہیں: پہلے دن ہی بہت بڑا project مانگ لیتے ہیں۔ یہی وجہ ہے کہ beginners کے لیے بہترین راستہ **simple app** سے شروع کرنا ہے۔
+بہت سے لوگ کوڈیکس (Codex) سے ایپ بنوانا چاہتے ہیں، لیکن وہ ایک common غلطی کرتے ہیں: پہلے دن ہی بہت بڑا پروجیکٹ مانگ لیتے ہیں۔ یہی وجہ ہے کہ ابتدائی صارفین کے لیے بہترین راستہ **آسان ایپ** سے شروع کرنا ہے۔
 
-![Codex app and debugging cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
+![کوڈیکس ایپ and debugging cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
 
 ## سادہ ایپ سے مراد کیا ہے؟
 
@@ -38,26 +38,26 @@ faq:
 
 مثلاً:
 
-- todo app
+- todo ایپ
 - طالب علم list
 - سادہ registration form
 - کیلکولیٹر
 - expense tracker
 - appointment request page
 
-یہ Codex کے ساتھ شروع کرنے کے لیے بہترین مثالیں ہیں۔
+یہ کوڈیکس کے ساتھ شروع کرنے کے لیے بہترین مثالیں ہیں۔
 
-## پہلی app بنوانے سے پہلے 3 سوال
+## پہلی ایپ بنوانے سے پہلے 3 سوال
 
-کوڈیکس کو app بنوانے سے پہلے خود سے یہ پوچھیں:
+کوڈیکس کو ایپ بنوانے سے پہلے خود سے یہ پوچھیں:
 
 ### موضوع: 1. user کون ہے؟
 
-استاد؟ student؟ parent؟ customer؟
+استاد؟ طالب علم؟ والد یا والدہ؟ customer؟
 
 ### 2. مسئلہ کیا ہے؟
 
-یہ app کس چیز کو آسان بنائے گی؟
+یہ ایپ کس چیز کو آسان بنائے گی؟
 
 ### موضوع: 3. first version میں کیا ضروری ہے؟
 
@@ -65,34 +65,34 @@ faq:
 
 ## پہلا ورژن کیوں اہم ہے؟
 
-ابتدائی صارفین کو یہ سمجھنا چاہیے کہ پہلی app final product نہیں ہوتی۔
+ابتدائی صارفین کو یہ سمجھنا چاہیے کہ پہلی ایپ حتمی product نہیں ہوتی۔
 پہلا version صرف یہ ثابت کرتا ہے کہ idea کام کرتا ہے۔
 
-کوڈیکس کے ساتھ بہترین workflow یہ ہے:
+کوڈیکس کے ساتھ بہترین ورک فلو یہ ہے:
 
 1. پہلے small version بنوائیں
 2. پھر preview دیکھیں
 3. پھر ایک ایک feature بڑھائیں
 
-## کوڈیکس کو app prompt کیسے دیں؟
+## کوڈیکس کو ایپ پرامپٹ کیسے دیں؟
 
 مثلاً:
 
-> ابتدائی صارفین کے لیے ایک simple todo app بناؤ۔ اس میں task add، task complete اور task delete feature ہو۔ design clean اور mobile-friendly ہو۔
+> ابتدائی صارفین کے لیے ایک آسان todo ایپ بناؤ۔ اس میں task add، task complete اور task delete feature ہو۔ design clean اور موبائل پر درست ہو۔
 
-یہ strong start ہے۔
+یہ مضبوط start ہے۔
 
 اگر آپ یہ کہیں:
 
-> میرے لیے ایک زبردست app بنا دو
+> میرے لیے ایک زبردست ایپ بنا دو
 
 تو result مبہم ہو جائے گا۔
 
-## ایپ prompt میں کون سی چیزیں شامل کریں؟
+## ایپ پرامپٹ میں کون سی چیزیں شامل کریں؟
 
 ### موضوع: user
 
-یہ app کس کے لیے ہے؟
+یہ ایپ کس کے لیے ہے؟
 
 ### موضوع: problem
 
@@ -104,50 +104,50 @@ faq:
 
 ### ڈیزائن
 
-سادہ، modern، mobile-friendly، Urdu-friendly وغیرہ۔
+سادہ، modern، موبائل پر درست، Urdu-friendly وغیرہ۔
 
 ### نتیجہ
 
 نوٹ: first working version چاہیے یا polished version؟
 
-## ایک اچھا app prompt
+## ایک اچھا ایپ پرامپٹ
 
-> اردو-speaking teachers کے لیے ایک simple student attendance app بناؤ۔ first version میں student name add کرنا، حاضر/غیر حاضر mark کرنا اور list دیکھنا شامل ہو۔ design بہت simple ہو اور mobile-friendly ہو۔
+> اردو-speaking اساتذہ کے لیے ایک آسان طالب علم attendance ایپ بناؤ۔ first version میں طالب علم name add کرنا، حاضر/غیر حاضر mark کرنا اور list دیکھنا شامل ہو۔ design بہت آسان ہو اور موبائل پر درست ہو۔
 
-یہ beginner-friendly prompt ہے۔
+یہ ابتدائی صارف کے لیے آسان پرامپٹ ہے۔
 
-## پہلی app کے لیے best ideas
+## پہلی ایپ کے لیے best ideas
 
 اگر آپ practice کرنا چاہتے ہیں تو ان میں سے ایک try کریں:
 
-- daily task app
+- daily task ایپ
 - workshop registration tool
 - طالب علم directory
 - invoice calculator
 - quote generator
-- parent contact form
+- والد یا والدہ contact form
 
-ان میں data flow بھی simple ہوتا ہے اور learning بھی جلدی ہوتی ہے۔
+ان میں data flow بھی آسان ہوتا ہے اور learning بھی جلدی ہوتی ہے۔
 
-## کوڈیکس کے ساتھ app workflow
+## کوڈیکس کے ساتھ ایپ ورک فلو
 
 ### مرحلہ 1: idea لکھیں
 
 مثلاً:
 
-> اساتذہ کے لیے attendance app
+> اساتذہ کے لیے attendance ایپ
 
 ### مرحلہ 2: features limit کریں
 
 صرف 3 features:
 
-- add student
+- add طالب علم
 - mark attendance
 - view list
 
-### مرحلہ 3: Codex سے first version بنوائیں
+### مرحلہ 3: کوڈیکس سے first version بنوائیں
 
-اب full prompt دیں۔
+اب full پرامپٹ دیں۔
 
 ### مرحلہ 4: preview دیکھیں
 
@@ -177,15 +177,15 @@ faq:
 
 ### موضوع: 3. first version کو test کریں
 
-صرف code تیار ہو جانا کافی نہیں۔ app چلنا بھی چاہیے۔
+صرف code تیار ہو جانا کافی نہیں۔ ایپ چلنا بھی چاہیے۔
 
 ### موضوع: 4. follow-up improvements الگ الگ دیں
 
-ایک prompt میں 20 changes نہ دیں۔
+ایک پرامپٹ میں 20 changes نہ دیں۔
 
 ## کوڈیکس کہاں سب سے زیادہ مدد دیتا ہے؟
 
-سادہ ایپ میں Codex ان چیزوں میں خاص مفید ہوتا ہے:
+سادہ ایپ میں کوڈیکس ان چیزوں میں خاص مفید ہوتا ہے:
 
 - initial structure
 - form creation
@@ -194,15 +194,15 @@ faq:
 - visual cleanup
 - موبائل responsiveness
 
-ابتدائی صارفین کے لیے یہی چیزیں سب سے زیادہ useful ہوتی ہیں۔
+ابتدائی صارفین کے لیے یہی چیزیں سب سے زیادہ مفید ہوتی ہیں۔
 
 ## عام غلطیاں
 
-### موضوع: 1. app idea واضح نہ ہونا
+### موضوع: 1. ایپ idea واضح نہ ہونا
 
-اگر مسئلہ clear نہیں ہوگا تو app بھی clear نہیں ہوگی۔
+اگر مسئلہ واضح نہیں ہوگا تو ایپ بھی واضح نہیں ہوگی۔
 
-### 2. بہت بڑی app سے شروع کرنا
+### 2. بہت بڑی ایپ سے شروع کرنا
 
 پہلا قدم small رکھیں۔
 
@@ -214,14 +214,14 @@ faq:
 
 پہلا version اکثر کافی نہیں ہوتا۔
 
-## تیار استعمال beginner prompt
+## تیار استعمال ابتدائی صارف پرامپٹ
 
-> میرے لیے ایک simple Urdu-friendly todo app بناؤ۔ اس میں task add، complete اور delete feature ہو۔ layout clean ہو، mobile-friendly ہو، اور first version بہت simple رکھا جائے۔
+> میرے لیے ایک آسان Urdu-friendly todo ایپ بناؤ۔ اس میں task add، complete اور delete feature ہو۔ layout clean ہو، موبائل پر درست ہو، اور first version بہت آسان رکھا جائے۔
 
-## اگلا strong قدم کیا ہے؟
+## اگلا مضبوط قدم کیا ہے؟
 
-جب آپ simple app بنانا سیکھ لیں تو اگلا challenge یہ ہوتا ہے کہ اگر کچھ ٹوٹ جائے تو کیا کریں۔ beginners اکثر یہی جگہ پر رک جاتے ہیں۔
+جب آپ آسان ایپ بنانا سیکھ لیں تو اگلا challenge یہ ہوتا ہے کہ اگر کچھ ٹوٹ جائے تو کیا کریں۔ ابتدائی صارفین اکثر یہی جگہ پر رک جاتے ہیں۔
 
 ## اگلی گائیڈ میں
 
-اب app بن گئی۔ [اگلی گائیڈ: Codex سے debugging کیسے کریں](/guides/codex-debugging-for-beginners/) میں ہم سیکھیں گے کہ error آنے پر گھبرانا نہیں بلکہ Codex کی مدد سے مسئلہ ڈھونڈ کر ٹھیک کرنا ہے۔
+اب ایپ بن گئی۔ [اگلی گائیڈ: کوڈیکس سے debugging کیسے کریں](/guides/codex-debugging-for-beginners/) میں ہم سیکھیں گے کہ error آنے پر گھبرانا نہیں بلکہ کوڈیکس کی مدد سے مسئلہ ڈھونڈ کر ٹھیک کرنا ہے۔

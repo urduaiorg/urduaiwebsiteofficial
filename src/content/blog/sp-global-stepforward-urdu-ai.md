@@ -35,7 +35,7 @@ S&P Global اور S&P Global Foundation کے دس ملین ڈالر کے StepFor
 
 S&P Global کے سرکاری اعلامیے میں Urdu Ai کے بارے میں یہ الفاظ درج ہیں:
 
-> "Urdu AI provides accessible AI literacy training through mobile-friendly courses in Urdu combined with in-person learning hubs and facilitated workshops. The program reaches youth across Pakistan in both connected and low-infrastructure communities, enabling them to build practical AI, problem-solving and digital skills — serving a global Urdu-speaking community of over 1 million learners."
+> "Urdu اے آئی provides accessible اے آئی literacy training through mobile-friendly courses in Urdu combined with in-person learning hubs and facilitated workshops. The program reaches youth across Pakistan in both connected and low-infrastructure communities, enabling them to build practical اے آئی, problem-solving and digital skills — serving a global Urdu-speaking community of over 1 million learners."
 
 یعنی: Urdu Ai موبائل پر چلنے والے اردو زبان کے کورسز، ذاتی سیکھنے کے مراکز، اور ورکشاپس کے ذریعے مصنوعی ذہانت کی تعلیم فراہم کرتا ہے۔ یہ پروگرام پاکستان بھر میں نوجوانوں تک پہنچتا ہے — چاہے انٹرنیٹ کی سہولت ہو یا نہ ہو — اور دنیا بھر میں دس لاکھ سے زیادہ اردو سیکھنے والوں کی خدمت کرتا ہے۔
 

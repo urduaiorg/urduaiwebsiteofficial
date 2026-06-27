@@ -23,41 +23,41 @@ faq:
     answer: vague instruction دینا، جیسے صرف یہ کہنا کہ "ایک اچھی website بنا دو"۔ جتنی clarity ہوگی، اتنا بہتر result آئے گا۔
 ---
 
-کوڈیکس میں سب سے بڑی skill coding نہیں بلکہ **صحیح prompt دینا** ہے۔ اگر آپ clear instruction دے دیں تو Codex حیران کن حد تک اچھا کام کر سکتا ہے۔ اگر instruction vague ہو تو result بھی guesswork پر چلا جاتا ہے۔
+کوڈیکس میں سب سے بڑی skill coding نہیں بلکہ **صحیح پرامپٹ دینا** ہے۔ اگر آپ واضح instruction دے دیں تو کوڈیکس (Codex) حیران کن حد تک اچھا کام کر سکتا ہے۔ اگر instruction vague ہو تو result بھی guesswork پر چلا جاتا ہے۔
 
-![Codex prompt and app guide cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
+![کوڈیکس پرامپٹ and ایپ guide cover](/images/guides/codex-guide-series/codex-prompts-app-debug.png)
 
-## موضوع: prompt کو سادہ لفظوں میں کیسے سمجھیں؟
+## موضوع: پرامپٹ کو سادہ لفظوں میں کیسے سمجھیں؟
 
-نوٹ: prompt وہ بات ہے جو آپ Codex سے کہتے ہیں:
+نوٹ: پرامپٹ وہ بات ہے جو آپ کوڈیکس سے کہتے ہیں:
 
 - کیا بنانا ہے
 - کس کے لیے بنانا ہے
 - کس انداز میں بنانا ہے
-- آخر میں کیا output چاہیے
+- آخر میں کیا نتیجہ چاہیے
 
-اگر آپ یہ چار چیزیں clear کر دیں تو آدھا کام وہیں حل ہو جاتا ہے۔
+اگر آپ یہ چار چیزیں واضح کر دیں تو آدھا کام وہیں حل ہو جاتا ہے۔
 
-## موضوع: weak prompt اور strong prompt
+## موضوع: weak پرامپٹ اور مضبوط پرامپٹ
 
-### موضوع: weak prompt
+### موضوع: weak پرامپٹ
 
-> ایک اچھی website بنا دو
+> ایک اچھی ویب سائٹ بنا دو
 
-یہ کمزور ہے کیونکہ Codex کو یہ نہیں پتا:
+یہ کمزور ہے کیونکہ کوڈیکس کو یہ نہیں پتا:
 
 - ویب سائٹ کس موضوع کی ہے
 - سامعین کون ہے
 - مقصد کیا ہے
 - زبان کون سی ہو
 
-### موضوع: strong prompt
+### موضوع: مضبوط پرامپٹ
 
-> اردو parents کے لیے AI awareness workshop landing page بناؤ۔ اس میں heading، short intro، 4 benefits، instructor section اور WhatsApp registration button شامل ہو۔ design simple اور mobile-friendly ہو۔
+> اردو والدین کے لیے اے آئی awareness workshop لینڈنگ پیج بناؤ۔ اس میں heading، مختصر تعارف، 4 benefits، instructor section اور WhatsApp registration button شامل ہو۔ design آسان اور موبائل پر درست ہو۔
 
-اب Codex کے پاس direction clear ہے۔
+اب کوڈیکس کے پاس direction واضح ہے۔
 
-## اچھے prompt کے 5 حصے
+## اچھے پرامپٹ کے 5 حصے
 
 ### 1. مقصد
 
@@ -69,21 +69,21 @@ faq:
 - ایپ
 - fix
 
-### موضوع: 2. audience
+### موضوع: 2. سامعین
 
-یہ beginners ہیں؟ parents ہیں؟ freelancers ہیں؟ teachers ہیں؟
+یہ ابتدائی صارفین ہیں؟ والدین ہیں؟ فری لانسرز ہیں؟ اساتذہ ہیں؟
 
 یہ line بہت important ہے کیونکہ اسی سے language level بدلتا ہے۔
 
 ### موضوع: 3. context
 
-اگر project پہلے سے موجود ہے تو بتائیں:
+اگر پروجیکٹ پہلے سے موجود ہے تو بتائیں:
 
-- کون سی file دیکھنی ہے
+- کون سی فائل دیکھنی ہے
 - کیا preserve رکھنا ہے
 - پہلے کیا بن چکا ہے
 
-### موضوع: 4. output
+### موضوع: 4. نتیجہ
 
 آخر میں واضح کریں:
 
@@ -98,80 +98,80 @@ faq:
 کبھی کبھی یہ بھی کہنا ضروری ہوتا ہے:
 
 - بہت technical language استعمال نہ کرو
-- ڈیزائن simple رکھو
+- ڈیزائن آسان رکھو
 - موجودہ structure مت توڑو
 
-## ابتدائی صارفین کے لیے best prompt formula
+## ابتدائی صارفین کے لیے best پرامپٹ formula
 
-یہ formula بہت useful ہے:
+یہ formula بہت مفید ہے:
 
-> میرے لیے [چیز] بناؤ جو [audience] کے لیے ہو۔ اس کا مقصد [goal] ہے۔ اس میں [sections/features] شامل ہوں۔ language [Urdu/simple English] ہو۔ style [simple/professional/friendly] ہو۔ آخر میں [desired output] دو۔
+> میرے لیے [چیز] بناؤ جو [سامعین] کے لیے ہو۔ اس کا مقصد [goal] ہے۔ اس میں [sections/features] شامل ہوں۔ language [Urdu/آسان English] ہو۔ style [آسان/professional/friendly] ہو۔ آخر میں [desired نتیجہ] دو۔
 
 مثال:
 
-> میرے لیے ایک Urdu handout بناؤ جو school parents کے لیے ہو۔ اس کا مقصد AI awareness ہے۔ اس میں short intro، 5 benefits، 3 concerns اور final advice ہو۔ language آسان ہو۔
+> میرے لیے ایک Urdu handout بناؤ جو school والدین کے لیے ہو۔ اس کا مقصد اے آئی awareness ہے۔ اس میں مختصر تعارف، 5 benefits، 3 concerns اور حتمی advice ہو۔ language آسان ہو۔
 
-## موضوع: follow-up prompts کیوں ضروری ہیں؟
+## موضوع: follow-up پرامپٹس کیوں ضروری ہیں؟
 
 پہلا result اکثر draft ہوتا ہے۔ اصل quality follow-up میں آتی ہے۔
 
 مثلاً:
 
-- اسے زیادہ simple کرو
+- اسے زیادہ آسان کرو
 - intro مختصر کرو
 - bullets بہتر کرو
 - موبائل view بہتر کرو
 - اردو زیادہ natural کرو
 
-کوڈیکس کے ساتھ کام ایک ہی prompt پر ختم نہیں ہوتا۔ اچھا workflow iterative ہوتا ہے۔
+کوڈیکس کے ساتھ کام ایک ہی پرامپٹ پر ختم نہیں ہوتا۔ اچھا ورک فلو iterative ہوتا ہے۔
 
 ## کوڈیکس کو context کیسے دیں؟
 
-اگر آپ کے پاس پہلے سے file موجود ہے تو prompt میں یہ بھی شامل کریں:
+اگر آپ کے پاس پہلے سے فائل موجود ہے تو پرامپٹ میں یہ بھی شامل کریں:
 
-- پہلے موجود file دیکھو
+- پہلے موجود فائل دیکھو
 - صرف اسی حصے کو بہتر کرو
 - باقی structure preserve رکھو
 
 مثلاً:
 
-> موجودہ landing page دیکھو اور صرف hero section کی writing بہتر کرو۔ باقی layout تبدیل نہ کرو۔
+> موجودہ لینڈنگ پیج دیکھو اور صرف hero section کی writing بہتر کرو۔ باقی layout تبدیل نہ کرو۔
 
-یہ Codex کو focused رکھتا ہے۔
+یہ کوڈیکس کو focused رکھتا ہے۔
 
 ## ابتدائی صارفین کی عام غلطیاں
 
-### 1. بہت چھوٹا prompt
+### 1. بہت چھوٹا پرامپٹ
 
 صرف ایک لائن میں بڑا کام مانگنا۔
 
 ### 2. بہت مبہم language
 
-"اچھا"، "بہتر"، "زبردست" جیسے الفاظ useful نہیں جب تک آپ واضح نہ کریں کہ بہتر کس معنی میں۔
+"اچھا"، "بہتر"، "زبردست" جیسے الفاظ مفید نہیں جب تک آپ واضح نہ کریں کہ بہتر کس معنی میں۔
 
-### موضوع: 3. output format نہ بتانا
+### موضوع: 3. نتیجہ format نہ بتانا
 
-نوٹ: paragraph چاہیے یا bullets؟ slides چاہیے یا full article؟
+نوٹ: paragraph چاہیے یا bullets؟ سلائیڈز چاہیے یا full article؟
 
-### موضوع: 4. audience نہ بتانا
+### موضوع: 4. سامعین نہ بتانا
 
 یہ سب سے common غلطی ہے۔
 
 ## عملی examples
 
-### دستاویز prompt
+### دستاویز پرامپٹ
 
-> ایک Urdu training outline بناؤ جو non-technical teachers کے لیے ہو۔ اس کا موضوع "Codex سے documents اور slides بنانا" ہے۔ 6 sections اور آخر میں recap شامل کرو۔
+> ایک Urdu training outline بناؤ جو غیر تکنیکی اساتذہ کے لیے ہو۔ اس کا موضوع "کوڈیکس سے دستاویزات اور سلائیڈز بنانا" ہے۔ 6 sections اور آخر میں recap شامل کرو۔
 
-### سلائیڈ prompt
+### سلائیڈ پرامپٹ
 
-> اسی outline کو 8-slide presentation میں بدل دو۔ ہر slide کے لیے title، 3 points اور presenter note دو۔
+> اسی outline کو 8-سلائیڈ presentation میں بدل دو۔ ہر سلائیڈ کے لیے title، 3 points اور presenter note دو۔
 
-### موضوع: page prompt
+### موضوع: page پرامپٹ
 
 > کوڈیکس Master Class کے لیے Urdu registration page بناؤ۔ heading، benefits، who this is for اور WhatsApp CTA شامل ہو۔
 
-### موضوع: fix prompt
+### موضوع: fix پرامپٹ
 
 > موجودہ page کا mobile layout check کرو اور صرف spacing اور button alignment بہتر کرو۔
 
@@ -179,34 +179,34 @@ faq:
 
 کوڈیکس سے بات کرتے وقت یہ نہ سوچیں کہ آپ machine سے بات کر رہے ہیں۔ یوں سوچیں جیسے آپ ایک intelligent assistant کو brief دے رہے ہیں۔
 
-جتنا صاف brief ہوگا، اتنا اچھا output ہوگا۔
+جتنا صاف brief ہوگا، اتنا اچھا نتیجہ ہوگا۔
 
-## ابتدائی صارفین کے لیے ready prompts
+## ابتدائی صارفین کے لیے ready پرامپٹس
 
-### موضوع: prompt 1
+### موضوع: پرامپٹ 1
 
-> میرے لیے ایک simple Urdu guide بناؤ جس کا موضوع ہو "Codex کیا ہے"۔ audience beginners ہیں۔ short intro، 5 use cases، 4 key features اور ending advice شامل کرو۔
+> میرے لیے ایک آسان Urdu guide بناؤ جس کا موضوع ہو "کوڈیکس کیا ہے"۔ سامعین ابتدائی صارفین ہیں۔ مختصر تعارف، 5 استعمال کی مثالیں، 4 key features اور ending advice شامل کرو۔
 
-### موضوع: prompt 2
+### موضوع: پرامپٹ 2
 
-> میرے موجودہ project کو دیکھو اور صرف hero section کی writing زیادہ clear اور beginner-friendly کرو۔
+> میرے موجودہ پروجیکٹ کو دیکھو اور صرف hero section کی writing زیادہ واضح اور ابتدائی صارف کے لیے آسان کرو۔
 
-### موضوع: prompt 3
+### موضوع: پرامپٹ 3
 
-> ایک simple web page بناؤ جو parents کے لیے AI class registration page ہو۔ mobile-friendly اور Urdu میں ہو۔
+> ایک آسان ویب پیج بناؤ جو والدین کے لیے اے آئی class registration page ہو۔ موبائل پر درست اور Urdu میں ہو۔
 
-اگر آپ کو ایک ہی جگہ documents، slides، pages، apps، debugging، GitHub اور Cloudflare کے ready prompts چاہیے ہوں تو [Codex prompt library for beginners](/guides/codex-prompt-library-for-beginners/) دیکھیں۔
+اگر آپ کو ایک ہی جگہ دستاویزات، سلائیڈز، pages، ایپس، debugging، GitHub اور Cloudflare کے ready پرامپٹس چاہیے ہوں تو [کوڈیکس پرامپٹ library for ابتدائی صارفین](/guides/codex-prompt-library-for-beginners/) دیکھیں۔
 
 ## ابھی آپ کیا practice کریں؟
 
-کوڈیکس کھولیں اور ایک ہی topic پر تین prompts لکھیں:
+کوڈیکس کھولیں اور ایک ہی topic پر تین پرامپٹس لکھیں:
 
 - دستاویز کے لیے
 - سلائیڈز کے لیے
 - page کے لیے
 
-اس سے آپ کو فوراً سمجھ آ جائے گی کہ format بدلنے سے prompt بھی بدلتا ہے۔
+اس سے آپ کو فوراً سمجھ آ جائے گی کہ format بدلنے سے پرامپٹ بھی بدلتا ہے۔
 
 ## اگلی گائیڈ میں
 
-اب آپ prompt بہتر لکھ سکتے ہیں۔ اگر ready-made examples چاہیے ہوں تو پہلے [Codex prompt library](/guides/codex-prompt-library-for-beginners/) دیکھیں، پھر [Codex سے simple app بنانا](/guides/codex-se-simple-app-kaise-banayein/) follow کریں تاکہ idea کو first working app میں بدلا جا سکے۔
+اب آپ پرامپٹ بہتر لکھ سکتے ہیں۔ اگر ready-made examples چاہیے ہوں تو پہلے [کوڈیکس پرامپٹ library](/guides/codex-prompt-library-for-beginners/) دیکھیں، پھر [کوڈیکس سے آسان ایپ بنانا](/guides/codex-se-simple-app-kaise-banayein/) follow کریں تاکہ idea کو first working ایپ میں بدلا جا سکے۔

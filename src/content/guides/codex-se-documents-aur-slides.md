@@ -1,6 +1,6 @@
 ---
 title: کوڈیکس سے دستاویزات اور سلائیڈز کیسے بنائیں؟ — ابتدائی صارفین کے لیے آسان عملی گائیڈ
-description: کوڈیکس سے report، outline، handout، proposal اور presentation slides کیسے بنائی جائیں؟ عام Urdu users کے لیے step-by-step guide۔
+description: کوڈیکس سے رپورٹ، خاکہ، ہینڈ آؤٹ، پروپوزل اور سلائیڈز کیسے بنائی جائیں؟ عام اردو صارفین کے لیے آسان مرحلہ وار گائیڈ۔
 date: 2026-06-16
 category: گائیڈ
 tool: Codex
@@ -13,39 +13,39 @@ tools:
 last_updated: ''
 author: اردو اے آئی ٹیم
 faq:
-  - question: کیا Codex سے مکمل document لکھوایا جا سکتا ہے؟
-    answer: جی ہاں۔ Codex outline، headings، body text، table اور summary سمیت مکمل document draft تیار کر سکتا ہے۔
-  - question: Codex slides بھی بنا سکتا ہے؟
-    answer: جی ہاں، Codex slide outline، slide text، speaking notes اور editable presentation structure تیار کر سکتا ہے۔
+  - question: کیا کوڈیکس (Codex) سے مکمل دستاویز لکھوائی جا سکتی ہے؟
+    answer: جی ہاں۔ کوڈیکس خاکہ، headings، متن، table اور summary سمیت مکمل document draft تیار کر سکتا ہے۔
+  - question: کیا کوڈیکس slides بھی بنا سکتا ہے؟
+    answer: جی ہاں، کوڈیکس slide outline، slide text، speaking notes اور editable presentation structure تیار کر سکتا ہے۔
   - question: بہترین result کے لیے کیا بتانا چاہیے؟
     answer: audience، مقصد، tone، sections، length اور desired format واضح بتانا چاہیے۔
-  - question: کیا Codex سے اردو content بھی بن سکتا ہے؟
-    answer: بالکل۔ Urdu handout، lesson notes، training outline اور Urdu presentation سب بنائی جا سکتی ہیں۔
+  - question: کیا کوڈیکس سے اردو content بھی بن سکتا ہے؟
+    answer: بالکل۔ اردو ہینڈ آؤٹ، lesson notes، training outline اور اردو presentation سب بنائی جا سکتی ہیں۔
 ---
 
-بہت سے لوگ Codex کو صرف coding tool سمجھتے ہیں، جبکہ حقیقت میں یہ documents اور slides بنانے میں بھی بہت طاقتور ہے۔ اگر آپ teacher، trainer، consultant، freelancer یا student ہیں تو Codex آپ کے کئی گھنٹے بچا سکتا ہے۔
+بہت سے لوگ کوڈیکس (Codex) کو صرف کوڈ لکھنے کا ٹول سمجھتے ہیں، جبکہ حقیقت میں یہ دستاویزات اور سلائیڈز بنانے میں بھی بہت طاقتور ہے۔ اگر آپ استاد، ٹرینر، مشیر، فری لانسر یا طالب علم ہیں تو کوڈیکس آپ کے کئی گھنٹے بچا سکتا ہے۔
 
-![Codex documents and slides](/images/guides/codex-guide-series/codex-documents-slides.png)
+![کوڈیکس سے دستاویزات اور سلائیڈز](/images/guides/codex-guide-series/codex-documents-slides.png)
 
-## کوڈیکس سے کون کون سے documents بن سکتے ہیں؟
+## کوڈیکس سے کون کون سے دستاویزات بن سکتے ہیں؟
 
 کوڈیکس سے آپ یہ چیزیں آسانی سے بنوا سکتے ہیں:
 
-- ٹریننگ outline
-- lesson plan
+- ٹریننگ کا خاکہ
+- سبق کا منصوبہ
 - رپورٹ
 - پروپوزل
-- کاروباری note
-- event handout
-- one-page summary
-- checklist
-- FAQ sheet
+- کاروباری نوٹ
+- ایونٹ ہینڈ آؤٹ
+- ایک صفحے کا خلاصہ
+- چیک لسٹ
+- سوال جواب شیٹ
 
-اور اگر آپ کہیں تو یہی چیز Urdu یا English دونوں میں بن سکتی ہے۔
+اور اگر آپ کہیں تو یہی چیز اردو یا انگریزی دونوں میں بن سکتی ہے۔
 
-## سلائیڈ اور document میں فرق کیا ہے؟
+## سلائیڈ اور دستاویز میں فرق کیا ہے؟
 
-یہ فرق beginners کے لیے سمجھنا ضروری ہے:
+یہ فرق ابتدائی صارفین کے لیے سمجھنا ضروری ہے:
 
 - **دستاویز** = پڑھنے کے لیے
 - **سلائیڈ** = دکھانے اور سکھانے کے لیے
@@ -55,70 +55,70 @@ faq:
 
 کوڈیکس دونوں کے لیے الگ انداز میں کام کر سکتا ہے، بشرطیکہ آپ اسے شروع میں واضح بتائیں۔
 
-## اچھا prompt کیسا ہونا چاہیے؟
+## اچھا پرامپٹ کیسا ہونا چاہیے؟
 
 اگر آپ صرف یہ کہیں:
 
 > میرے لیے ایک presentation بنا دو
 
-تو result کمزور ہو سکتا ہے۔ بہتر یہ ہے:
+تو نتیجہ کمزور ہو سکتا ہے۔ بہتر یہ ہے:
 
-> ابتدائی parents کے لیے AI awareness workshop کی Urdu presentation بناؤ۔ 10 slides ہوں۔ ہر slide میں short title، 3 points اور presenter note بھی دو۔
+> ابتدائی والدین کے لیے اے آئی آگاہی ورکشاپ کی اردو presentation بناؤ۔ 10 سلائیڈز ہوں۔ ہر سلائیڈ میں مختصر عنوان، 3 نکات اور presenter note بھی دو۔
 
-یہاں آپ نے 4 چیزیں clear کر دیں:
+یہاں آپ نے 4 چیزیں واضح کر دیں:
 
 - سامعین
 - زبان
-- سلائیڈ count
-- نتیجہ format
+- سلائیڈز کی تعداد
+- نتیجے کا فارمیٹ
 
-## کوڈیکس سے document بنوانے کا سادہ طریقہ
+## کوڈیکس سے دستاویز بنوانے کا سادہ طریقہ
 
-فرض کریں آپ کو ایک one-page Urdu guide چاہیے۔ آپ ایسا prompt دے سکتے ہیں:
+فرض کریں آپ کو ایک صفحے کی اردو گائیڈ چاہیے۔ آپ ایسا پرامپٹ دے سکتے ہیں:
 
-> ایک Urdu one-page guide بناؤ جس کا موضوع ہو "school parents کے لیے AI کیوں اہم ہے"۔ short intro، 5 benefits، 3 risks اور آخر میں simple advice شامل کرو۔
+> ایک صفحے کی اردو گائیڈ بناؤ جس کا موضوع ہو "اسکول کے والدین کے لیے اے آئی کیوں اہم ہے"۔ مختصر تعارف، 5 فائدے، 3 خطرات اور آخر میں آسان مشورہ شامل کرو۔
 
 کوڈیکس عام طور پر:
 
-- heading دے گا
-- structured sections دے گا
+- headings دے گا
+- منظم sections دے گا
 - bullet points دے گا
-- readable flow دے گا
+- پڑھنے کے قابل flow دے گا
 
 اگر آپ مطمئن نہ ہوں تو follow-up دیں:
 
-- اسے زیادہ simple کرو
-- اسے زیادہ professional tone دو
-- ایک table شامل کرو
-- آخر میں summary شامل کرو
+- اسے زیادہ آسان کرو
+- اسے زیادہ پیشہ ورانہ لہجہ دو
+- ایک جدول شامل کرو
+- آخر میں خلاصہ شامل کرو
 
-## کوڈیکس سے slide deck بنوانے کا طریقہ
+## کوڈیکس سے سلائیڈ ڈیک بنوانے کا طریقہ
 
-سلائیڈز کے لیے prompt تھوڑا مختلف دیں:
+سلائیڈز کے لیے پرامپٹ تھوڑا مختلف دیں:
 
-> "کوڈیکس کیا ہے" کے موضوع پر Urdu beginners کے لیے 12-slide presentation بناؤ۔ ہر slide میں title، 3 short bullets اور presenter note دو۔ tone friendly اور non-technical رکھو۔
+> "کوڈیکس کیا ہے" کے موضوع پر اردو ابتدائی صارفین کے لیے 12 سلائیڈز کی presentation بناؤ۔ ہر سلائیڈ میں عنوان، 3 مختصر bullets اور presenter note دو۔ لہجہ دوستانہ اور غیر تکنیکی رکھو۔
 
-یہ Codex کو واضح direction دیتا ہے کہ:
+یہ کوڈیکس کو واضح direction دیتا ہے کہ:
 
-- سلائیڈ-heavy format چاہیے
-- verbose paragraph نہیں چاہیے
-- سامعین beginner ہے
+- سلائیڈز والا format چاہیے
+- لمبے paragraph نہیں چاہئیں
+- سامعین ابتدائی صارف ہے
 
-## کوڈیکس سے بنوائے گئے document کو فوراً final نہ سمجھیں
+## کوڈیکس سے بنوائے گئے دستاویز کو فوراً حتمی نہ سمجھیں
 
-یہ بہت اہم اصول ہے۔ Codex draft بہت تیزی سے دیتا ہے، لیکن آپ کو یہ چیزیں check کرنی چاہئیں:
+یہ بہت اہم اصول ہے۔ کوڈیکس draft بہت تیزی سے دیتا ہے، لیکن آپ کو یہ چیزیں ضرور چیک کرنی چاہئیں:
 
 - سامعین واقعی یہی ہے؟
 - لہجہ بہت مشکل تو نہیں؟
-- facts درست ہیں؟
+- معلومات درست ہیں؟
 - بہت لمبا تو نہیں؟
-- repetition تو نہیں؟
+- تکرار تو نہیں؟
 
-یعنی Codex speed دیتا ہے، final editorial فیصلہ اب بھی آپ کا ہے۔
+یعنی کوڈیکس رفتار دیتا ہے، حتمی editorial فیصلہ اب بھی آپ کا ہے۔
 
-## اردو learners کے لیے بہترین use cases
+## اردو سیکھنے والوں کے لیے بہترین استعمال کی مثالیں
 
-اگر آپ Urdu AI audience کے لیے content بنا رہے ہیں تو Codex ان کاموں میں خاص طور پر useful ہے:
+اگر آپ اردو اے آئی audience کے لیے content بنا رہے ہیں تو کوڈیکس ان کاموں میں خاص طور پر مفید ہے:
 
 - اردو workshop outline
 - اردو YouTube script summary
@@ -127,97 +127,97 @@ faq:
 - اردو deck outline
 - اردو FAQs
 
-مثلاً اگر آپ master class چلا رہے ہیں تو ایک ہی topic سے Codex سے یہ سب نکال سکتے ہیں:
+مثلاً اگر آپ masterclass چلا رہے ہیں تو ایک ہی topic سے کوڈیکس سے یہ سب نکال سکتے ہیں:
 
-- مکمل article
+- مکمل مضمون
 - class notes
 - سلائیڈ outline
 - واٹس ایپ summary
 - یوٹیوب description
 
-## دستاویز اور slide کے لیے دو الگ prompts استعمال کریں
+## دستاویز اور سلائیڈ کے لیے دو الگ پرامپٹس استعمال کریں
 
-یہ common mistake ہے کہ لوگ ایک ہی prompt سے دونوں چیزیں مانگتے ہیں۔
+یہ عام غلطی ہے کہ لوگ ایک ہی پرامپٹ سے دونوں چیزیں مانگتے ہیں۔
 
 بہتر طریقہ:
 
-1. پہلے Codex سے document بنوائیں
+1. پہلے کوڈیکس سے دستاویز بنوائیں
 2. پھر کہیں:
 
-> اس document کو 10-slide presentation میں بدل دو
+> اس دستاویز کو 10 سلائیڈز کی presentation میں بدل دو
 
-اس طرح quality بہتر ہوتی ہے کیونکہ slide structure document سے derive ہو جاتی ہے۔
+اس طرح quality بہتر ہوتی ہے کیونکہ سلائیڈ structure دستاویز سے نکل آتی ہے۔
 
-## ایک practical workflow
+## ایک عملی ورک فلو
 
-یہ beginners کے لیے بہت useful workflow ہے:
+یہ ابتدائی صارفین کے لیے بہت مفید ورک فلو ہے:
 
-### مرحلہ 1: rough idea لکھیں
+### مرحلہ 1: کچا خیال لکھیں
 
 مثلاً:
 
-> والدین کو AI کے فائدے سمجھانے ہیں
+> والدین کو اے آئی کے فائدے سمجھانے ہیں
 
-### مرحلہ 2: Codex سے outline بنوائیں
+### مرحلہ 2: کوڈیکس سے خاکہ بنوائیں
 
-> اس topic کے لیے Urdu outline بناؤ
+> اس موضوع کے لیے اردو outline بناؤ
 
-### مرحلہ 3: full handout بنوائیں
+### مرحلہ 3: مکمل handout بنوائیں
 
-> اسی outline سے one-page guide لکھو
+> اسی outline سے ایک صفحے کی گائیڈ لکھو
 
-### مرحلہ 4: اسی سے slides بنوائیں
+### مرحلہ 4: اسی سے سلائیڈز بنوائیں
 
-> اسی guide کو 8-slide presentation میں بدل دو
+> اسی guide کو 8 سلائیڈز کی presentation میں بدل دو
 
-### مرحلہ 5: simple version بھی بنوائیں
+### مرحلہ 5: آسان version بھی بنوائیں
 
 > اسی presentation کا WhatsApp summary version بھی دے دو
 
-یہی Codex کی طاقت ہے: ایک idea سے کئی formats۔
+یہی کوڈیکس کی طاقت ہے: ایک idea سے کئی formats۔
 
-## کوڈیکس slides کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
+## کوڈیکس سلائیڈز کے لیے کن چیزوں میں خاص مدد دیتا ہے؟
 
 - سلائیڈ sequence بنانا
 - session timing کے مطابق تقسیم
-- titles کو short کرنا
-- key points کو bullets میں بدلنا
+- titles کو مختصر کرنا
+- اہم نکات کو bullets میں بدلنا
 - presenter notes تیار کرنا
 - recap اور homework sections بنانا
 
-اگر آپ trainer یا instructor ہیں تو یہ بہت بڑی saving ہے۔
+اگر آپ ٹرینر یا instructor ہیں تو یہ وقت کی بڑی بچت ہے۔
 
 ## عام غلطیاں
 
-### موضوع: 1. audience نہ بتانا
+### موضوع: 1. سامعین نہ بتانا
 
-والدین، students، teachers، freelancers، business owners سب کے لیے الگ زبان چاہیے۔
+والدین، طلبہ، اساتذہ، فری لانسرز، کاروباری افراد سب کے لیے الگ زبان چاہیے۔
 
 ### موضوع: 2. tone نہ بتانا
 
-نوٹ: friendly، formal، professional، beginner-friendly — یہ پہلے بتائیں۔
+نوٹ: دوستانہ، formal، professional، ابتدائی صارف کے لیے آسان — یہ پہلے بتائیں۔
 
 ### 3. بہت زیادہ کام ایک ساتھ مانگنا
 
 پہلے outline
-پھر document
-پھر slide deck
+پھر دستاویز
+پھر سلائیڈ ڈیک
 
 نوٹ: step by step جائیں۔
 
 ### موضوع: 4. Urdu کے لیے verify نہ کرنا
 
-کوڈیکس Urdu اچھی لکھ سکتا ہے، لیکن final reading ضروری ہے تاکہ flow natural لگے۔
+کوڈیکس اردو اچھی لکھ سکتا ہے، لیکن حتمی reading ضروری ہے تاکہ flow natural لگے۔
 
-## ابتدائی صارفین کے لیے ایک ready prompt
+## ابتدائی صارفین کے لیے ایک تیار پرامپٹ
 
-> ایک Urdu training handout بناؤ جس کا موضوع ہو "Codex سے beginners کیا کیا کر سکتے ہیں"۔ audience non-technical learners ہیں۔ short intro، 5 use cases، 5 common mistakes، اور final advice شامل کرو۔ language بہت آسان رکھو۔
+> ایک اردو training handout بناؤ جس کا موضوع ہو "کوڈیکس سے ابتدائی صارفین کیا کیا کر سکتے ہیں"۔ سامعین غیر تکنیکی سیکھنے والے ہیں۔ مختصر تعارف، 5 استعمال کی مثالیں، 5 عام غلطیاں، اور آخری مشورہ شامل کرو۔ زبان بہت آسان رکھو۔
 
 سلائیڈز کے لیے:
 
-> اسی handout کو 8-slide presentation میں بدل دو۔ ہر slide میں short title، 3 bullets اور presenter notes دو۔
+> اسی handout کو 8 سلائیڈز کی presentation میں بدل دو۔ ہر سلائیڈ میں مختصر عنوان، 3 bullets اور presenter notes دو۔
 
-اگر آپ کو اور ready-to-use prompts چاہیے ہوں تو [Codex prompt library for beginners](/guides/codex-prompt-library-for-beginners/) میں documents، slides اور دوسری practical categories کے examples موجود ہیں۔
+اگر آپ کو اور استعمال کے لیے تیار پرامپٹس چاہیے ہوں تو [کوڈیکس پرامپٹ لائبریری](/guides/codex-prompt-library-for-beginners/) میں دستاویزات، سلائیڈز اور دوسری عملی categories کی مثالیں موجود ہیں۔
 
 ## ابھی آپ کیا بنوا سکتے ہیں؟
 
@@ -226,9 +226,9 @@ faq:
 - اپنا workshop handout
 - اپنی پہلی presentation
 - یوٹیوب video outline
-- parent session notes
+- والدین کے session notes
 - ٹریننگ FAQ
 
 ## اگلی گائیڈ میں
 
-اب document اور slides بن گئے۔ [اگلی گائیڈ: Codex سے پہلا web page](/guides/codex-se-pehla-web-page-kaise-banayein/) میں ہم سیکھیں گے کہ اسی style میں Codex سے simple landing page یا first web page کیسے بنوایا جاتا ہے۔
+اب دستاویز اور سلائیڈز بن گئے۔ [اگلی گائیڈ: کوڈیکس سے پہلا ویب پیج](/guides/codex-se-pehla-web-page-kaise-banayein/) میں ہم سیکھیں گے کہ اسی style میں کوڈیکس سے آسان لینڈنگ پیج یا پہلا ویب پیج کیسے بنوایا جاتا ہے۔
