@@ -16,12 +16,34 @@ const legacyCommentsData = legacyCommentsPayload as {
 const legacyGuideHubComments =
   legacyCommentsData.commentsByCollection.pages?.['guides-index'] ?? [];
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const faqItems = [
+  {
+    question: 'AI guides in Urdu کہاں سے شروع کریں؟',
+    answer: 'اگر آپ beginner ہیں تو پہلے AI کیا ہے؟ والی گائیڈ پڑھیں، پھر Gemini اردو گائیڈ سے پہلا practical prompt لکھیں، اور اس کے بعد free AI course یا prompt engineering پر جائیں۔',
+  },
+  {
+    question: 'کیا یہ گائیڈز beginners کے لیے ہیں؟',
+    answer: 'جی ہاں۔ اردو اے آئی گائیڈز عام mobile users، students، teachers، freelancers اور small business owners کے لیے آسان اردو اور پاکستانی مثالوں کے ساتھ لکھی گئی ہیں۔',
+  },
+  {
+    question: 'ChatGPT اور Gemini سیکھنے کے لیے کون سی گائیڈ پہلے پڑھیں؟',
+    answer: 'پہلے AI کی بنیادی گائیڈ پڑھیں، پھر Gemini اردو گائیڈ یا ChatGPT app guide کھولیں، اور آخر میں prompt engineering سیکھیں تاکہ جواب بہتر ملے۔',
+  },
+  {
+    question: 'کیا اردو اے آئی پر free AI course موجود ہے؟',
+    answer: 'اردو اے آئی پر free AI course اور ماسٹرکلاس کے راستے موجود ہیں۔ Guides hub سے آپ beginner course، practical tools اور topic-wise lessons تک جا سکتے ہیں۔',
+  },
+  {
+    question: 'AI tools سیکھنے کے لیے کون سا راستہ بہتر ہے؟',
+    answer: 'پہلے اپنی ضرورت چنیں: study، writing، freelancing، business یا coding۔ پھر اسی topic کی guide کھولیں اور ایک tool پر روزانہ چھوٹا practice task کریں۔',
+  },
+];
 const guideHubSchema = [
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "اردو اے آئی گائیڈز",
-    "description": "ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سیکھنے کے لیے beginners اور practical learners کے لیے گائیڈز۔",
+    "name": "AI گائیڈز اردو میں",
+    "description": "ChatGPT، Gemini، Claude، prompt engineering، free AI course اور beginner tools پاکستانی learners کے لیے آسان گائیڈز۔",
     "url": "https://urduai.org/guides/",
     "inLanguage": "ur",
   },
@@ -37,12 +59,24 @@ const guideHubSchema = [
       { "@type": "ListItem", "position": 5, "name": "AI Tools Directory", "url": "https://urduai.org/tools/" },
     ],
   },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqItems.map(({ question, answer }) => ({
+      "@type": "Question",
+      "name": question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": answer,
+      },
+    })),
+  },
 ];
 ---
 
 <Base
-  title="اردو اے آئی گائیڈز — ChatGPT، Gemini اور Claude اردو میں سیکھیں"
-  description="ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سیکھیں؛ beginners کے لیے عملی گائیڈز، پاکستانی مثالوں کے ساتھ۔"
+  title="AI گائیڈز اردو میں: ChatGPT، Gemini اور free course"
+  description="AI guides in Urdu: ChatGPT، Gemini، Claude، prompt engineering، free AI course اور beginner tools پاکستانی learners کے لیے آسان گائیڈز۔"
   canonical="https://urduai.org/guides/"
   adsense={true}
   schema={guideHubSchema}
@@ -57,8 +91,15 @@ const guideHubSchema = [
 
     <h1>اردو اے آئی گائیڈز</h1>
     <p class="text-muted guides-intro">
-      اردو اے آئی گائیڈز beginners کو ChatGPT، Gemini، Claude، prompt engineering اور AI tools اردو میں سکھاتی ہیں۔ اگر آپ نئے ہیں تو پہلے AI کی بنیاد سمجھیں، پھر ایک tool پر مشق کریں، اور اس کے بعد مفت اردو ماسٹرکلاس شروع کریں۔
+      AI guides in Urdu کا آسان راستہ یہ ہے کہ پہلے AI کی بنیاد سمجھیں، پھر ChatGPT، Gemini یا Claude میں ایک practical کام کریں، اور اس کے بعد prompt engineering، free AI course یا tools directory سے اپنی ضرورت کے مطابق اگلا سبق چنیں۔
     </p>
+
+    <section class="guides-answer" aria-labelledby="guides-answer-title">
+      <h2 id="guides-answer-title">فوری جواب: پہلے کیا پڑھیں؟</h2>
+      <p>
+        اگر آپ پہلی بار AI سیکھ رہے ہیں تو <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a> سے شروع کریں۔ اگر آپ پہلے ہی ChatGPT یا Gemini استعمال کر چکے ہیں تو <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a>، <a href={`${base}/guides/free-ai-course-urdu/`}>free AI course guide</a> یا <a href={`${base}/learn/prompt-engineering/`}>prompt engineering</a> پر جائیں۔
+      </p>
+    </section>
 
     <section class="guides-start" aria-labelledby="guides-start-title">
       <h2 id="guides-start-title">بالکل نئے ہیں؟ یہاں سے شروع کریں</h2>
@@ -66,8 +107,35 @@ const guideHubSchema = [
         <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a>
         <a href={`${base}/guides/free-ai-course-urdu/`}>مفت AI کورس گائیڈ</a>
         <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a>
+        <a href={`${base}/how-to/how-to-install-original-chatgpt-app/`}>ChatGPT app guide</a>
         <a href={`${base}/learn/prompt-engineering/`}>Prompt engineering</a>
         <a href={`${base}/tools/`}>AI tools directory</a>
+      </div>
+    </section>
+
+    <section class="guides-topics" aria-labelledby="guides-topics-title">
+      <h2 id="guides-topics-title">اپنی ضرورت کے مطابق گائیڈ چنیں</h2>
+      <div class="guides-topics__grid">
+        <article>
+          <h3>Students اور learning</h3>
+          <p>سبق سمجھنے، notes بنانے اور exam revision کے لیے practical AI workflow۔</p>
+          <a href={`${base}/guides/gemini-for-students-urdu/`}>Gemini for students پڑھیں</a>
+        </article>
+        <article>
+          <h3>Writing اور content</h3>
+          <p>تحریر، outline، editing، image prompts اور social content کے لیے آسان راستہ۔</p>
+          <a href={`${base}/guides/ai-image-expression-prompts-urdu-guide/`}>AI image prompts guide پڑھیں</a>
+        </article>
+        <article>
+          <h3>Freelancing اور business</h3>
+          <p>proposal، client work، small business content اور روزمرہ productivity کے لیے tools۔</p>
+          <a href={`${base}/guides/ai-tools-for-freelancers-pakistan/`}>Freelancers tools guide پڑھیں</a>
+        </article>
+        <article>
+          <h3>Coding اور websites</h3>
+          <p>وائب کوڈنگ، Codex، GitHub، hosting اور simple app بنانے کا beginner path۔</p>
+          <a href={`${base}/guides/vibe-coding-kya-hai/`}>Vibe coding کیا ہے؟</a>
+        </article>
       </div>
     </section>
 
@@ -88,6 +156,16 @@ const guideHubSchema = [
       ))}
     </div>
 
+    <section class="guides-faq" aria-labelledby="guides-faq-title">
+      <h2 id="guides-faq-title">اکثر پوچھے گئے سوالات</h2>
+      {faqItems.map(item => (
+        <div class="guides-faq__item">
+          <h3>{item.question}</h3>
+          <p>{item.answer}</p>
+        </div>
+      ))}
+    </section>
+
     <LegacyCommentsSection comments={legacyGuideHubComments} />
   </div>
 
@@ -96,6 +174,26 @@ const guideHubSchema = [
       max-width: 760px;
       margin-block-end: var(--space-md);
       line-height: var(--lh-prose);
+    }
+
+    .guides-answer {
+      max-width: 820px;
+      border-block-start: 1px solid var(--border);
+      padding-block-start: var(--space-md);
+      margin-block-end: var(--space-md);
+    }
+
+    .guides-answer h2,
+    .guides-topics h2,
+    .guides-faq h2 {
+      font-size: 1.35rem;
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .guides-answer p {
+      line-height: var(--lh-prose);
+      margin: 0;
     }
 
     .guides-start {
@@ -128,6 +226,50 @@ const guideHubSchema = [
 
     .guides-start__links a:hover {
       border-color: var(--teal);
+    }
+
+    .guides-topics {
+      margin-block-end: var(--space-lg);
+    }
+
+    .guides-topics__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: var(--space-sm);
+    }
+
+    .guides-topics__grid article {
+      border-block-start: 3px solid var(--gold);
+      background: var(--paper-warm);
+      padding: var(--space-sm);
+      border-radius: 8px;
+    }
+
+    .guides-topics__grid h3,
+    .guides-faq__item h3 {
+      font-size: 1.08rem;
+      line-height: var(--lh-heading);
+      margin-block-end: 0.35em;
+    }
+
+    .guides-topics__grid p,
+    .guides-faq__item p {
+      font-size: var(--text-sm);
+      line-height: var(--lh-prose);
+      margin-block-end: 0.45em;
+    }
+
+    .guides-faq {
+      border-block-start: 1px solid var(--border);
+      padding-block-start: var(--space-md);
+      margin-block-start: var(--space-xl);
+      margin-block-end: var(--space-lg);
+      max-width: 860px;
+    }
+
+    .guides-faq__item {
+      border-block-end: 1px solid var(--border);
+      padding-block: var(--space-xs);
     }
   </style>
 </Base>
