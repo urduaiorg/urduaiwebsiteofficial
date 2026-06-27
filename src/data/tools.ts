@@ -76,7 +76,7 @@ export const tools: Tool[] = [
     pakistan: true,
     trending: true,
     url: "https://claude.ai",
-    guideUrl: null,
+    guideUrl: "/how-to/how-to-use-claude-for-writing/",
     color: "#cc785c",
     logo: "/images/tools/claude.png",
   },

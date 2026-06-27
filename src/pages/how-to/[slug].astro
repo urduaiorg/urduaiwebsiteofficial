@@ -15,6 +15,35 @@ export async function getStaticPaths() {
 const { tutorial } = Astro.props;
 const { Content } = await render(tutorial);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+function stripMarkdown(value: string) {
+  return value
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_>#-]/g, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function deriveStepsFromBody(body = '') {
+  const headings = [...body.matchAll(/^##\s+((?:قدم|مرحلہ|Step)\s*[0-9۰-۹٠-٩]+[:：]?\s*.+)$/gmi)];
+  return headings
+    .map((match, index) => {
+      const next = headings[index + 1];
+      const start = (match.index ?? 0) + match[0].length;
+      const end = next?.index ?? body.length;
+      const text = stripMarkdown(body.slice(start, end)).slice(0, 420);
+      return {
+        name: stripMarkdown(match[1]),
+        text,
+      };
+    })
+    .filter((step) => step.name && step.text);
+}
+
+const steps = deriveStepsFromBody(tutorial.body);
 ---
 
 <HowTo
@@ -30,6 +59,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   slug={tutorial.id}
   tools={tutorial.data.tools}
   faq={tutorial.data.faq}
+  steps={steps}
 >
   <Content />
 </HowTo>
