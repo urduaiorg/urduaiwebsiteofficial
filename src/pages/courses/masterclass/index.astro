@@ -5,8 +5,8 @@ import { lessons } from '../../../data/masterclass-lessons';
 const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
-  "name": "AI course Urdu free: اردو اے آئی ماسٹرکلاس",
-  "description": "AI course Urdu free: اردو اے آئی ماسٹرکلاس beginners کے لیے 9 ویڈیو اسباق، quizzes اور certificate کے ساتھ AI، ChatGPT، Gemini، Claude، prompts، images اور vibe coding سکھاتا ہے۔",
+  "name": "AI course in Urdu free: اردو اے آئی ماسٹرکلاس",
+  "description": "AI course in Urdu: Pakistan کے beginners کے لیے 9 video lessons، quizzes، certificate، ChatGPT، Gemini، prompts، AI images اور vibe coding سیکھیں۔",
   "provider": { "@type": "Organization", "name": "اردو اے آئی", "url": "https://urduai.org" },
   "inLanguage": "ur",
   "isAccessibleForFree": true,
@@ -100,6 +100,26 @@ const faqSchema = {
       "name": "کورس شروع کرنے سے پہلے کون سا سبق یا گائیڈ پڑھوں؟",
       "acceptedAnswer": { "@type": "Answer", "text": "اگر آپ بالکل نئے ہیں تو پہلے AI کیا ہے والا بنیادی سبق پڑھیں، پھر Gemini کو اردو میں استعمال کرنے کی گائیڈ دیکھیں، اور اس کے بعد ماسٹرکلاس کا پہلا سبق شروع کریں۔" },
     },
+    {
+      "@type": "Question",
+      "name": "کیا یہ AI courses in Pakistan تلاش کرنے والوں کے لیے مناسب ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ یہ course پاکستان اور اردو بولنے والے beginners کے لیے بنایا گیا ہے، خاص طور پر ان users کے لیے جو mobile پر AI، ChatGPT، Gemini اور prompts سیکھنا چاہتے ہیں۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا AI course کے لیے coding آنا ضروری ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "نہیں۔ پہلے اسباق میں coding ضروری نہیں۔ course AI basics، prompts، writing، tools اور beginner workflows سے شروع ہوتا ہے؛ vibe coding بعد کے اسباق میں آتی ہے۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا certificate university یا حکومتی ادارے کا ہے؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "نہیں۔ یہ Urdu AI completion certificate ہے۔ اسے learning proof کے طور پر استعمال کیا جا سکتا ہے، مگر یہ university degree یا حکومتی qualification نہیں۔" },
+    },
+    {
+      "@type": "Question",
+      "name": "کیا course میں ChatGPT اور Gemini دونوں شامل ہیں؟",
+      "acceptedAnswer": { "@type": "Answer", "text": "جی ہاں۔ course میں ChatGPT، Gemini، Claude، Google AI Studio اور دوسرے beginner tools کا تعارف اور practical استعمال شامل ہے۔" },
+    },
   ],
 };
 
@@ -107,8 +127,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
-  title="AI course Urdu free: 9 lessons اور certificate"
-  description="AI course Urdu free میں 9 video lessons، quizzes اور certificate کے ساتھ AI، ChatGPT، Gemini، Claude، prompts، images اور vibe coding سیکھیں۔"
+  title="AI course in Urdu free: online lessons اور certificate"
+  description="AI course in Urdu: Pakistan کے beginners کے لیے 9 video lessons، quizzes، certificate، ChatGPT، Gemini، prompts، AI images اور vibe coding سیکھیں۔"
   canonical="https://urduai.org/courses/masterclass/"
   adsense={false}
   schema={courseSchema}
@@ -129,9 +149,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <!-- Hero -->
     <div class="mc-hero">
       <span class="badge badge--gold">Free AI course</span>
-      <h1>AI course Urdu free: 9 lessons اور certificate</h1>
+      <h1>AI course in Urdu free: online lessons اور certificate</h1>
       <p class="mc-hero__subtitle">
-        AI course Urdu free کا واضح راستہ اردو اے آئی ماسٹرکلاس ہے: beginners کے لیے 9 video lessons، quizzes اور certificate۔ اس میں AI کیا ہے، ChatGPT، Gemini، Claude، prompts، AI images، voice، avatars، vibe coding اور website building سادہ ترتیب سے سکھائی جاتی ہے۔
+        AI course in Urdu کا واضح راستہ اردو اے آئی ماسٹرکلاس ہے: Pakistan کے beginners کے لیے 9 online video lessons، quizzes اور certificate۔ اس میں AI کیا ہے، ChatGPT، Gemini، Claude، prompts، AI images، voice، avatars، vibe coding اور website building سادہ ترتیب سے سکھائی جاتی ہے۔
       </p>
       <div class="mc-stats">
         <div class="mc-stat">
@@ -149,6 +169,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </div>
 
+    <section class="mc-answer" aria-labelledby="mc-answer-title">
+      <h2 id="mc-answer-title">فوری جواب: یہ AI course کس کے لیے ہے؟</h2>
+      <p>
+        یہ AI course in Urdu ان beginners کے لیے ہے جو Pakistan یا اردو بولنے والی community میں mobile یا laptop پر AI سیکھنا چاہتے ہیں۔ پہلے سبق میں <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a> سمجھایا جاتا ہے، پھر <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini</a>، ChatGPT، Claude، prompts، AI images، voice اور beginner web ideas کی practice آتی ہے۔
+      </p>
+      <div class="mc-answer__grid">
+        <div>
+          <strong>شروع کرنے کے لیے</strong>
+          <span>Google account، internet اور 20-30 minutes روزانہ</span>
+        </div>
+        <div>
+          <strong>مناسب learners</strong>
+          <span>students، teachers، freelancers، job seekers، small business owners</span>
+        </div>
+        <div>
+          <strong>اگلا practical step</strong>
+          <span><a href={`${base}/courses/masterclass/1/`}>سبق 1 شروع کریں</a> یا پہلے <a href={`${base}/learn/artificial-intelligence/`}>مصنوعی ذہانت</a> پڑھیں</span>
+        </div>
+      </div>
+    </section>
+
     <section class="mc-start-path" aria-labelledby="mc-start-path-title">
       <h2 id="mc-start-path-title">اگر آپ بالکل نئے ہیں تو یہاں سے شروع کریں</h2>
       <p>
@@ -161,6 +202,19 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <a href={`${base}/blog/google-ai-studio-kia-hai/`}>Google AI Studio گائیڈ</a>
         <a href={`${base}/tools/`}>AI Tools Directory</a>
       </div>
+    </section>
+
+    <section class="mc-course-fit" aria-labelledby="mc-course-fit-title">
+      <h2 id="mc-course-fit-title">AI courses in Pakistan تلاش کر رہے ہیں؟</h2>
+      <p>
+        اگر آپ Google پر AI course، AI courses online free، artificial intelligence course یا AI courses in Pakistan تلاش کر رہے ہیں تو پہلے یہ دیکھیں کہ course beginner-friendly، Urdu/English mix کو سمجھنے والا، mobile پر readable، اور practical prompts کے ساتھ ہو۔ Urdu AI Masterclass اسی need کے لیے بنایا گیا ہے: پہلے foundation، پھر tools، پھر small practical projects۔
+      </p>
+      <ul>
+        <li>Beginners کے لیے: کوئی coding background ضروری نہیں۔</li>
+        <li>Students کے لیے: Gemini، prompts، summaries اور self-test practice سے شروع کریں۔</li>
+        <li>Freelancers کے لیے: writing، proposal، content اور client workflow کی بنیاد بنائیں۔</li>
+        <li>Small business کے لیے: WhatsApp posts، product descriptions اور basic marketing prompts سیکھیں۔</li>
+      </ul>
     </section>
 
     <!-- Subscribe + enroll section -->
@@ -263,6 +317,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <summary>کورس شروع کرنے سے پہلے کون سا سبق یا گائیڈ پڑھوں؟</summary>
         <p>اگر آپ بالکل نئے ہیں تو پہلے <a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`}>AI کیا ہے؟</a> پڑھیں، پھر <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a> دیکھیں، اور اس کے بعد سبق 1 شروع کریں۔</p>
       </details>
+      <details>
+        <summary>کیا یہ AI courses in Pakistan تلاش کرنے والوں کے لیے مناسب ہے؟</summary>
+        <p>جی ہاں۔ یہ course پاکستان اور اردو بولنے والے beginners کے لیے بنایا گیا ہے، خاص طور پر ان users کے لیے جو mobile پر AI، ChatGPT، Gemini اور prompts سیکھنا چاہتے ہیں۔</p>
+      </details>
+      <details>
+        <summary>کیا AI course کے لیے coding آنا ضروری ہے؟</summary>
+        <p>نہیں۔ پہلے اسباق میں coding ضروری نہیں۔ course AI basics، prompts، writing، tools اور beginner workflows سے شروع ہوتا ہے؛ vibe coding بعد کے اسباق میں آتی ہے۔</p>
+      </details>
+      <details>
+        <summary>کیا certificate university یا حکومتی ادارے کا ہے؟</summary>
+        <p>نہیں۔ یہ Urdu AI completion certificate ہے۔ اسے learning proof کے طور پر استعمال کیا جا سکتا ہے، مگر یہ university degree یا حکومتی qualification نہیں۔</p>
+      </details>
+      <details>
+        <summary>کیا course میں ChatGPT اور Gemini دونوں شامل ہیں؟</summary>
+        <p>جی ہاں۔ course میں ChatGPT، Gemini، Claude، Google AI Studio اور دوسرے beginner tools کا تعارف اور practical استعمال شامل ہے۔</p>
+      </details>
     </div>
 
     <!-- WhatsApp CTA -->
@@ -329,6 +399,61 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
     .mc-start-path__links a:hover {
       border-color: var(--teal);
+    }
+
+    .mc-answer,
+    .mc-course-fit {
+      border-block: 1px solid var(--border);
+      padding-block: var(--space-lg);
+      margin-block: var(--space-lg);
+    }
+
+    .mc-answer h2,
+    .mc-course-fit h2 {
+      font-size: var(--text-h2);
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .mc-answer p,
+    .mc-course-fit p {
+      color: var(--ink-soft);
+      line-height: var(--lh-prose);
+      max-width: 760px;
+    }
+
+    .mc-answer__grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-sm);
+      margin-block-start: var(--space-md);
+    }
+
+    .mc-answer__grid div {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: var(--space-sm);
+      background: var(--paper-card);
+    }
+
+    .mc-answer__grid strong,
+    .mc-answer__grid span {
+      display: block;
+    }
+
+    .mc-answer__grid span {
+      color: var(--ink-muted);
+      font-size: var(--text-sm);
+      margin-block-start: 0.35em;
+    }
+
+    .mc-course-fit ul {
+      margin-block-start: var(--space-sm);
+      padding-inline-start: var(--space-md);
+    }
+
+    .mc-course-fit li {
+      margin-block-end: var(--space-xs);
     }
 
     .badge--gold {
@@ -590,6 +715,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     @media (max-width: 600px) {
       .mc-stats {
         gap: var(--space-md);
+      }
+      .mc-answer__grid {
+        grid-template-columns: 1fr;
       }
       .mc-stat__number {
         font-size: var(--text-h3);
