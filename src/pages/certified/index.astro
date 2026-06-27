@@ -10,39 +10,88 @@ const certSchema = {
   "name": "اردو اے آئی",
   "alternateName": "Urdu AI",
   "url": "https://urduai.org",
-  "description": "اردو اے آئی Google، Oxford اور دیگر عالمی اداروں کے مفت سرٹیفکیشن کورسز اپنی کمیونٹی میں تقسیم کرتا ہے۔",
+  "description": "اردو اے آئی پاکستانی learners کے لیے Google AI certificate، AI courses اور global learning scholarships کی رہنمائی اردو میں فراہم کرتا ہے۔",
   "areaServed": "PK",
   "availableLanguage": ["ur", "en"]
+};
+
+const faqItems = [
+  {
+    question: 'Google AI certificate scholarship کیا ہے؟',
+    answer: 'یہ اردو اے آئی کمیونٹی کے ذریعے شیئر ہونے والا limited scholarship موقع ہے جس میں eligible learners کو Google AI Essentials یا اسی طرح کے AI certificate courses تک رسائی مل سکتی ہے۔ seats، timing اور course access ہر batch میں بدل سکتے ہیں۔',
+  },
+  {
+    question: 'کیا Google AI certificate ہر وقت مفت ملتا ہے؟',
+    answer: 'نہیں۔ Google اور Coursera پر قیمت، trial، region اور enrollment options بدل سکتے ہیں۔ اردو اے آئی جب scholarship seats دستیاب ہوں تو اپنی community، newsletter اور WhatsApp channel پر اطلاع دیتا ہے۔',
+  },
+  {
+    question: 'Google AI Essentials میں کیا سکھایا جاتا ہے؟',
+    answer: 'Google AI Essentials beginners کے لیے generative AI، prompting، responsible AI اور daily work میں AI tools کے استعمال کی بنیاد سمجھاتا ہے۔ Google کی آفیشل معلومات کے مطابق یہ self-paced course ہے اور completion پر certificate ملتا ہے۔',
+  },
+  {
+    question: 'کیا یہ course beginners کے لیے مناسب ہے؟',
+    answer: 'جی ہاں۔ اگر آپ طالب علم، teacher، freelancer یا small business owner ہیں اور AI شروع سے سیکھنا چاہتے ہیں تو پہلے Urdu AI Masterclass یا AI basics پڑھیں، پھر Google AI certificate جیسے course کی طرف جائیں۔',
+  },
+  {
+    question: 'Scholarship apply کرنے کا بہترین طریقہ کیا ہے؟',
+    answer: 'Urdu AI newsletter، WhatsApp channel اور Android app follow کریں۔ نیا batch کھلنے پر form یا instructions وہیں share ہوتے ہیں۔ اپنی Gmail ID، درست نام اور learning commitment پہلے سے تیار رکھیں۔',
+  },
+  {
+    question: 'Certificate ملنے کے بعد کیا فائدہ ہے؟',
+    answer: 'Certificate آپ کے CV، LinkedIn profile، freelance profile یا scholarship application میں AI learning کا ثبوت بن سکتا ہے، لیکن job guarantee نہیں ہے۔ اصل فائدہ course مکمل کر کے practical AI skills استعمال کرنے سے آتا ہے۔',
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqItems.map(({ question, answer }) => ({
+    "@type": "Question",
+    "name": question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": answer,
+    },
+  })),
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ہوم", "item": "https://urduai.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Google AI certificate scholarships", "item": "https://urduai.org/certified/" },
+  ],
 };
 ---
 
 <Base
-  title="مفت Google سرٹیفکیشن اور عالمی کورسز — اردو اے آئی اسکالرشپس"
-  description="Google، Oxford، IBM اور دیگر عالمی اداروں کے مفت سرٹیفکیشن کورسز۔ اردو اے آئی ہزاروں سیکھنے والوں کو مفت اسکالرشپس فراہم کرتا ہے۔ ابھی جوائن کریں۔"
+  title="Google AI certificate scholarships — Urdu AI free courses"
+  description="Google AI certificate scholarships، Urdu AI free courses، newsletter alerts اور beginner AI learning path ایک جگہ۔ seats limited ہوتی ہیں؛ batch کھلنے پر اطلاع ملتی ہے۔"
   canonical="https://urduai.org/certified/"
   adsense={true}
-  schema={certSchema}
+  schema={[certSchema, breadcrumbSchema, faqSchema]}
 >
   <!-- Hero -->
   <section style="background:var(--ink); padding-block:var(--space-2xl); margin-block-end:var(--space-2xl);">
     <div class="container" style="text-align:center;">
-      <h1 style="color:white; margin-block-end:var(--space-sm);">مفت Google سرٹیفکیشن اور عالمی کورسز</h1>
+      <h1 style="color:white; margin-block-end:var(--space-sm);">Google AI certificate scholarships</h1>
       <p style="color:var(--gold-pale); max-width:650px; margin-inline:auto; line-height:var(--lh-prose);">
-        اردو اے آئی اپنی کمیونٹی کے ہزاروں ممبرز کو Google، Oxford، IBM اور دیگر عالمی اداروں کے
-        اعلیٰ معیار کے کورسز تک مفت رسائی فراہم کرتا ہے
+        Urdu AI beginners کے لیے Google AI certificate، مفت AI courses، scholarship alerts
+        اور اردو learning path ایک جگہ
       </p>
     </div>
   </section>
 
   <div class="container" style="margin-block-end:var(--space-2xl);">
     <nav aria-label="بریڈکرمب">
-      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">مفت سرٹیفکیشن</li></ol>
+      <ol class="breadcrumb"><li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">Google AI certificate scholarships</li></ol>
     </nav>
 
     <!-- AEO first paragraph -->
     <div class="prose" style="margin-block-end:var(--space-2xl);">
       <p>
-        <strong>اردو اے آئی</strong> پاکستان کی سب سے بڑی اردو AI کمیونٹی ہے جو اپنے ممبرز کو Google، Oxford University، IBM، Harvard اور دیگر عالمی اداروں کے <strong>مفت سرٹیفکیشن کورسز</strong> کی اسکالرشپس فراہم کرتی ہے۔ اب تک ہزاروں سیکھنے والوں نے ان مواقع سے فائدہ اٹھایا ہے۔
+        <strong>Google AI certificate scholarships</strong> کے لیے اردو اے آئی پاکستانی beginners کو اردو میں رہنمائی، scholarship alerts اور <a href={`${base}/courses/`}>free Urdu AI courses</a> دیتا ہے۔ جب Google AI Essentials یا دوسرے عالمی AI certificate courses کی limited seats دستیاب ہوں، اردو اے آئی newsletter، WhatsApp channel اور <a href={`${base}/app/`}>Android app</a> پر واضح instructions شیئر کرتا ہے۔
       </p>
     </div>
 
@@ -63,46 +112,52 @@ const certSchema = {
     </div>
 
     <!-- How it works -->
-    <h2>یہ کیسے کام کرتا ہے؟</h2>
+    <h2>Scholarship ملنے کا طریقہ کیا ہے؟</h2>
     <div class="prose" style="margin-block-end:var(--space-xl);">
       <p>
-        اردو اے آئی عالمی اداروں کے ساتھ مل کر اپنی کمیونٹی کے لیے مفت سرٹیفکیشن کے مواقع تلاش کرتا ہے۔ جب بھی کوئی نیا موقع آتا ہے، ہم اسے اپنے نیوز لیٹر، واٹس ایپ چینل اور سوشل میڈیا پر شیئر کرتے ہیں۔
+        اردو اے آئی ہر وقت open enrollment کا وعدہ نہیں کرتا۔ درست طریقہ یہ ہے کہ پہلے community میں شامل ہوں، پھر جب scholarship batch کھلے تو اسی وقت apply کریں۔ seats محدود ہو سکتی ہیں، اس لیے نام، Gmail ID اور سیکھنے کا وقت پہلے سے تیار رکھیں۔
       </p>
       <ol>
-        <li><strong>اردو اے آئی کمیونٹی جوائن کریں</strong> — نیوز لیٹر سبسکرائب کریں یا واٹس ایپ چینل جوائن کریں</li>
-        <li><strong>مفت کورسز کی اطلاع حاصل کریں</strong> — جب بھی نیا موقع آئے گا آپ کو فوری اطلاع ملے گی</li>
-        <li><strong>اندراج کریں اور سیکھیں</strong> — کورس مکمل کریں اور سرٹیفکیٹ حاصل کریں</li>
+        <li><strong>اردو اے آئی community join کریں</strong> — newsletter، WhatsApp channel یا app سے updates لیں</li>
+        <li><strong>Batch announcement دیکھیں</strong> — form، deadline، eligibility اور course details پڑھیں</li>
+        <li><strong>Course مکمل کریں</strong> — videos، assignments یا modules مکمل کر کے certificate حاصل کریں</li>
       </ol>
+      <p>
+        پہلے سے تیاری کے لیے <a href={`${base}/learn/artificial-intelligence/`}>AI کیا ہے؟</a> اور <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو میں کیسے استعمال کریں؟</a> پڑھ لیں۔
+      </p>
     </div>
 
     <!-- Our courses -->
-    <h2>اردو اے آئی کے اپنے کورسز</h2>
+    <h2> پہلے کون سا Urdu AI course کریں؟</h2>
     <div class="cert-grid">
       <a href={`${base}/courses/masterclass/`} class="cert-card" style="text-decoration:none; color:inherit;">
         <h3 class="cert-card__title">اے آئی ماسٹرکلاس</h3>
-        <p class="cert-card__desc">AI کی بنیادی تعلیم — ابتدائی سطح سے شروع کریں اور AI کے اصول سمجھیں</p>
+        <p class="cert-card__desc">AI basics، prompts، tools اور beginner confidence کے لیے پہلا قدم</p>
         <span class="badge">مفت</span>
       </a>
       <a href={`${base}/courses/automation/`} class="cert-card" style="text-decoration:none; color:inherit;">
         <h3 class="cert-card__title">اے آئی آٹومیشن</h3>
-        <p class="cert-card__desc">AI سے اپنے کام خودکار بنائیں — عملی مہارتیں سیکھیں</p>
+        <p class="cert-card__desc">Google Forms، Sheets، email اور reports جیسے کام automate کرنا سمجھیں</p>
         <span class="badge">مفت</span>
       </a>
       <a href={`${base}/courses/champs/`} class="cert-card" style="text-decoration:none; color:inherit;">
         <h3 class="cert-card__title">اے آئی چیمپس</h3>
-        <p class="cert-card__desc">ماہر سطح کا کورس — AI میں مہارت حاصل کریں</p>
+        <p class="cert-card__desc">Young learners اور families کے لیے AI کو آسان، محفوظ انداز میں شروع کریں</p>
         <span class="badge">مفت</span>
       </a>
     </div>
 
     <!-- External scholarships -->
-    <h2>Google، Oxford اور عالمی اداروں کے مفت سرٹیفکیشن</h2>
+    <h2>Google AI Essentials certificate میں کیا ہوتا ہے؟</h2>
     <div class="prose" style="margin-block-end:var(--space-xl);">
       <p>
-        اردو اے آئی اپنے پلیٹ فارم کے ذریعے <strong>Google سرٹیفکیشن</strong>، <strong>Oxford University کورسز</strong> اور دیگر عالمی اداروں کے مفت کورسز باقاعدگی سے اپنی کمیونٹی میں تقسیم کرتا ہے اور یہ سلسلہ جاری ہے۔ اب تک ہزاروں ممبرز نے ان اسکالرشپس سے فائدہ اٹھایا ہے۔
+        Google کی آفیشل Grow with Google معلومات کے مطابق <a href="https://grow.google/ai-essentials/" target="_blank" rel="noopener noreferrer">Google AI Essentials</a> beginners کے لیے generative AI، prompting، responsible AI اور daily work میں AI tools کے استعمال کی training دیتا ہے۔ Course self-paced ہے، 5 modules پر مشتمل ہے، اور completion کے بعد Google certificate ملتا ہے۔
       </p>
       <p>
-        اس کے علاوہ ہم IBM، Coursera، Harvard اور دیگر اداروں کے مفت مواقع بھی شیئر کرتے رہتے ہیں۔ ہر نئے موقع کی فوری اطلاع کے لیے نیوز لیٹر سبسکرائب کریں یا واٹس ایپ چینل جوائن کریں — تاکہ کوئی موقع نہ چھوٹے۔
+        اہم بات: Google یا Coursera کی pricing، trial اور country availability بدل سکتی ہے۔ اسی لیے اردو اے آئی scholarship announcement میں واضح کرتا ہے کہ کس batch میں کون سا course، کتنی seats اور کیا deadline ہے۔ Google کے دیگر programs دیکھنے کے لیے <a href="https://grow.google/certificates/" target="_blank" rel="noopener noreferrer">Google Career Certificates</a> کی آفیشل page بھی check کریں۔
+      </p>
+      <p>
+        اردو اے آئی کی پچھلی Google scholarship story یہاں پڑھیں: <a href={`${base}/blog/google-ai-certified-specialist-scholarships/`}>گوگل کے سرٹیفکیٹ کے ساتھ کیریئر میں آگے بڑھنے کا موقع</a>۔
       </p>
     </div>
 
@@ -110,19 +165,39 @@ const certSchema = {
     <h2>یہ کس کے لیے ہے؟</h2>
     <div class="prose" style="margin-block-end:var(--space-xl);">
       <ul>
-        <li><strong>طلبہ</strong> — اپنے CV میں عالمی سرٹیفکیشن شامل کریں</li>
-        <li><strong>پیشہ ور افراد</strong> — AI اور ڈیجیٹل مہارتیں سیکھ کر ترقی کریں</li>
-        <li><strong>فری لانسرز</strong> — سرٹیفکیشن سے اپنی قیمت بڑھائیں</li>
-        <li><strong>اساتذہ</strong> — جدید ٹیکنالوجی سیکھیں اور طلبہ کو سکھائیں</li>
-        <li><strong>کوئی بھی جو سیکھنا چاہے</strong> — اردو اے آئی کمیونٹی سب کے لیے کھلی ہے</li>
+        <li><strong>طلبہ</strong> — CV، internship یا scholarship application میں AI learning کا ثبوت شامل کریں</li>
+        <li><strong>فری لانسرز</strong> — client communication، research، proposals اور delivery میں AI کو بہتر استعمال کریں</li>
+        <li><strong>اساتذہ</strong> — lesson planning، quizzes اور student support کے لیے AI basics سمجھیں</li>
+        <li><strong>چھوٹے کاروبار</strong> — marketing copy، customer replies اور simple reports میں AI کی مدد لیں</li>
+        <li><strong>نئے learners</strong> — اگر English course مشکل لگتا ہے تو پہلے اردو میں بنیاد مضبوط کریں</li>
       </ul>
+    </div>
+
+    <h2>Apply کرنے سے پہلے کیا تیار رکھیں؟</h2>
+    <div class="cert-grid cert-grid--two">
+      <div class="cert-card">
+        <h3 class="cert-card__title">Learning profile</h3>
+        <p class="cert-card__desc">اپنا درست نام، Gmail ID، شہر، profession اور سیکھنے کا مقصد لکھ کر رکھیں۔ غلط email سے invitation ضائع ہو سکتا ہے۔</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title">Time commitment</h3>
+        <p class="cert-card__desc">Certificate course صرف form بھرنے سے مکمل نہیں ہوتا۔ ہفتے میں کچھ گھنٹے videos، readings اور exercises کے لیے رکھیں۔</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title">AI basics</h3>
+        <p class="cert-card__desc">اگر AI بالکل نیا ہے تو پہلے <a href={`${base}/courses/masterclass/`}>Urdu AI Masterclass</a> یا <a href={`${base}/learn/generative-ai/`}>Generative AI</a> کی وضاحت پڑھیں۔</p>
+      </div>
+      <div class="cert-card">
+        <h3 class="cert-card__title">Proof of completion</h3>
+        <p class="cert-card__desc">Course مکمل ہونے کے بعد certificate کو CV، LinkedIn یا freelance profile میں لگائیں، لیکن skills کو practical examples سے بھی ثابت کریں۔</p>
+      </div>
     </div>
 
     <!-- CTA -->
     <div class="cert-cta">
       <h2 style="color:var(--gold-light); margin-block-end:var(--space-xs);">ابھی جوائن کریں — مفت مواقع سے فائدہ اٹھائیں</h2>
       <p style="color:var(--gold-pale); margin-block-end:var(--space-md); line-height:var(--lh-body);">
-        نیوز لیٹر سبسکرائب کریں یا واٹس ایپ چینل جوائن کریں — ہر نئے مفت کورس کی فوری اطلاع
+        Newsletter، WhatsApp channel یا Android app سے scholarship batch کی اطلاع حاصل کریں
       </p>
       <div style="display:flex; gap:0.8rem; justify-content:center; flex-wrap:wrap;">
         <a
@@ -135,6 +210,12 @@ const certSchema = {
           نیوز لیٹر سبسکرائب کریں
         </a>
         <a
+          href={`${base}/app/`}
+          class="cert-btn cert-btn--app"
+        >
+          Urdu AI app
+        </a>
+        <a
           href="https://whatsapp.com/channel/0029VaFMqhb002TnKByMOp0D"
           target="_blank"
           rel="noopener noreferrer"
@@ -145,6 +226,18 @@ const certSchema = {
         </a>
       </div>
     </div>
+
+    <section class="cert-faq" aria-labelledby="cert-faq-title">
+      <h2 id="cert-faq-title">Google AI certificate scholarships کے عام سوالات</h2>
+      <div class="prose">
+        {faqItems.map((item) => (
+          <details>
+            <summary>{item.question}</summary>
+            <p>{item.answer}</p>
+          </details>
+        ))}
+      </div>
+    </section>
 
     <!-- Impact program reference -->
     <div class="prose" style="margin-block-start:var(--space-2xl);">
@@ -198,6 +291,10 @@ const certSchema = {
     margin-block-end: var(--space-2xl);
   }
 
+  .cert-grid--two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @media (max-width: 768px) {
     .cert-grid {
       grid-template-columns: 1fr;
@@ -207,7 +304,7 @@ const certSchema = {
   .cert-card {
     background: var(--paper-card);
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 8px;
     padding: var(--space-md);
   }
 
@@ -256,5 +353,32 @@ const certSchema = {
   .cert-btn--whatsapp {
     background: #25D366;
     color: #fff;
+  }
+
+  .cert-btn--app {
+    background: var(--teal);
+    color: #fff;
+  }
+
+  .cert-faq {
+    margin-block: var(--space-2xl);
+  }
+
+  .cert-faq details {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: var(--space-sm) var(--space-md);
+    margin-block-end: var(--space-sm);
+  }
+
+  .cert-faq summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .cert-faq p {
+    margin-block-end: 0;
   }
 </style>
