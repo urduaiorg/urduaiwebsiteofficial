@@ -7,7 +7,7 @@ tool: Codex
 level: ابتدائی
 image: /images/guides/codex-guide-series/codex-roadmap-challenge.png
 adsense: true
-draft: false
+draft: true
 tools:
   - Codex
   - GitHub
