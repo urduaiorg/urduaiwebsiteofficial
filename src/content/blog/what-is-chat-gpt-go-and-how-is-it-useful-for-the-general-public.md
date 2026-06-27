@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Go price Pakistan: $8 plan، Free vs Plus"
+title: "پاکستان میں ChatGPT Go price: $8، Free vs Plus فرق"
 description: "ChatGPT Go price Pakistan guide میں $8 US price، Free vs Plus فرق، ChatGPT Urdu users، download، payment، ads caveat اور PKR final total سمجھیں۔"
 date: 2026-01-23
 category: "گائیڈ"

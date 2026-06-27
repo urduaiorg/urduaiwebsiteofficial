@@ -1,5 +1,5 @@
 ---
-title: "AI tools free Urdu: beginners کے لیے 12 AI apps"
+title: "ابتدائی صارفین کے لیے 12 free AI tools"
 description: "AI tools free Urdu guide میں ChatGPT، Gemini، Claude، Perplexity، NotebookLM اور Canva AI کو best AI app، study، research اور freelancing کے حساب سے چنیں۔"
 date: 2026-01-14
 category: "گائیڈ"

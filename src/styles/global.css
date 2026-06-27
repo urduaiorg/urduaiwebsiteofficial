@@ -217,6 +217,13 @@ pre code {
   unicode-bidi: isolate;
 }
 
+.bidi-ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline;
+  font: inherit;
+}
+
 /* ============================================================
    Layout containers
    ============================================================ */

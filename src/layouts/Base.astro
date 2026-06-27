@@ -254,6 +254,89 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       }
     </script>
 
+    <script>
+      (() => {
+        const latinRun = /[A-Za-z0-9][A-Za-z0-9+.#:/@&%$€£₹₨₽₺¥,.'’()_-]*(?:\s+[A-Za-z0-9+.#:/@&%$€£₹₨₽₺¥,.'’()_-]+)*/g;
+        const skipSelector = [
+          'script',
+          'style',
+          'noscript',
+          'template',
+          'code',
+          'pre',
+          'kbd',
+          'samp',
+          'textarea',
+          'input',
+          'select',
+          'option',
+          'svg',
+          'math',
+          'iframe',
+          'bdi',
+          '[dir="ltr"]',
+          '.ltr',
+          '.bidi-ltr',
+          '.site-logo',
+          '.adsbygoogle',
+          '.pagefind-ui'
+        ].join(',');
+
+        const shouldSkip = (node) => {
+          const parent = node.parentElement;
+          return !parent || parent.closest(skipSelector) || parent.closest('[data-bidi-skip]');
+        };
+
+        const isolateMixedText = (root = document.body) => {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              if (!node.nodeValue || !latinRun.test(node.nodeValue) || shouldSkip(node)) {
+                latinRun.lastIndex = 0;
+                return NodeFilter.FILTER_REJECT;
+              }
+              latinRun.lastIndex = 0;
+              return NodeFilter.FILTER_ACCEPT;
+            }
+          });
+
+          const textNodes = [];
+          while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+          textNodes.forEach((node) => {
+            const text = node.nodeValue;
+            const fragment = document.createDocumentFragment();
+            let lastIndex = 0;
+
+            text.replace(latinRun, (match, index) => {
+              if (index > lastIndex) {
+                fragment.appendChild(document.createTextNode(text.slice(lastIndex, index)));
+              }
+
+              const bdi = document.createElement('bdi');
+              bdi.dir = 'ltr';
+              bdi.className = 'bidi-ltr';
+              bdi.textContent = match;
+              fragment.appendChild(bdi);
+              lastIndex = index + match.length;
+              return match;
+            });
+
+            if (lastIndex < text.length) {
+              fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+            }
+
+            node.parentNode.replaceChild(fragment, node);
+          });
+        };
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', () => isolateMixedText(), { once: true });
+        } else {
+          isolateMixedText();
+        }
+      })();
+    </script>
+
     <!-- Site footer -->
     <footer class="site-footer">
       <div class="container">
