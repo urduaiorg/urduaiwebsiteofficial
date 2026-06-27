@@ -1,6 +1,6 @@
 ---
-title: "Claude Opus 4.8 کیا ہے؟ price، fast mode، coding"
-description: "Claude Opus 4.8 کیا ہے، Anthropic نے اسے coding، code review، fast mode، API model id اور agentic AI کے لیے کیوں اہم بنایا؟"
+title: "Claude Opus 4.8: price، fast mode اور API model id"
+description: "Claude Opus 4.8 کا آسان Urdu explainer: release date، API price، fast mode، coding improvements، model id اور Claude AI سے فرق۔"
 date: 2026-05-28
 category: "اے آئی اپڈیٹ"
 tags:
@@ -19,6 +19,10 @@ faq:
     answer: "Claude Opus 4.8 Anthropic کا advanced AI model ہے جسے coding، code review، tool-calling اور لمبے agentic tasks کے لیے بہتر بنایا گیا ہے۔"
   - question: "Claude Opus 4.8 کی قیمت کیا ہے؟"
     answer: "Anthropic کے اعلان کے مطابق standard pricing $5 per million input tokens اور $25 per million output tokens ہے۔ Fast mode کی قیمت $10 input اور $50 output per million tokens بتائی گئی ہے۔"
+  - question: "Claude Opus 4.8 کب release ہوا؟"
+    answer: "Anthropic کے announcement کے مطابق Claude Opus 4.8 28 مئی 2026 کو release ہوا۔ اس page کو 27 جون 2026 کو آفیشل announcement کے مطابق verify کیا گیا۔"
+  - question: "Claude Opus 4.8 کہاں استعمال کیا جا سکتا ہے؟"
+    answer: "Developers اسے Anthropic API میں claude-opus-4-8 model id سے استعمال کر سکتے ہیں۔ claude.ai app میں access plan، account اور current availability کے مطابق بدل سکتا ہے۔"
   - question: "Claude Opus 4.8 عام user کے لیے مفید ہے؟"
     answer: "عام chat یا simple summaries میں فرق کم محسوس ہو سکتا ہے۔ اصل فائدہ developers، code reviewers، researchers اور long-running workflows پر کام کرنے والوں کو ہے۔"
   - question: "Claude Opus 4.8 اور Claude AI میں فرق کیا ہے؟"
@@ -39,15 +43,19 @@ last_updated: 2026-06-27
 ---
 Claude Opus 4.8 Anthropic کا advanced AI model ہے جو 28 مئی 2026 کو جاری ہوا۔ 27 جون 2026 تک Anthropic اسے coding، code review، tool-calling، long-running tasks اور agentic workflows کے لیے Opus 4.7 سے بہتر update کے طور پر پیش کر رہا ہے، جبکہ regular API pricing $5 input اور $25 output per million tokens رکھی گئی ہے۔
 
+یہ خلاصہ Anthropic کے [Opus 4.8 announcement](https://www.anthropic.com/news/claude-opus-4-8) سے verify کیا گیا ہے۔ اگر آپ paid API، production app یا client workflow کے لیے فیصلہ کر رہے ہیں تو قیمت، model access اور limits Anthropic کے آفیشل page سے دوبارہ چیک کریں۔
+
 ## فوری جواب: Claude Opus 4.8 میں کیا جاننا ضروری ہے؟
 
 | سوال | مختصر جواب |
 |---|---|
 | یہ کیا ہے؟ | Anthropic کا advanced Claude model |
+| release date | 28 مئی 2026 |
 | کس کام کے لیے؟ | coding، code review، tool use، long tasks |
 | API model id | `claude-opus-4-8` |
 | standard API price | $5 input، $25 output per million tokens |
 | fast mode price | $10 input، $50 output per million tokens |
+| Opus 4.7 سے فرق | coding، tool use اور long-running tasks میں بہتر update |
 | عام user کے لیے؟ | writing یا simple chat کے بجائے advanced coding/workflows میں زیادہ relevant |
 
 اگر آپ صرف Claude کا اردو مطلب جاننا چاہتے ہیں تو پہلے [Claude AI کیا ہے؟](/learn/claude-ai/) پڑھیں۔ اگر آپ Claude کو writing میں استعمال کرنا چاہتے ہیں تو [Claude meaning in Urdu writing guide](/how-to/how-to-use-claude-for-writing/) زیادہ practical ہے۔
@@ -169,6 +177,14 @@ Claude Opus 4.8 Anthropic کا advanced AI model ہے جسے coding، code revie
 ### Claude Opus 4.8 کی قیمت کیا ہے؟
 
 Anthropic کے اعلان کے مطابق standard pricing $5 per million input tokens اور $25 per million output tokens ہے۔ Fast mode کی قیمت $10 input اور $50 output per million tokens بتائی گئی ہے۔
+
+### Claude Opus 4.8 کب release ہوا؟
+
+Anthropic کے announcement کے مطابق Claude Opus 4.8 28 مئی 2026 کو release ہوا۔ اس page کو 27 جون 2026 کو آفیشل announcement کے مطابق verify کیا گیا۔
+
+### Claude Opus 4.8 کہاں استعمال کیا جا سکتا ہے؟
+
+Developers اسے Anthropic API میں `claude-opus-4-8` model id سے استعمال کر سکتے ہیں۔ claude.ai app میں access plan، account اور current availability کے مطابق بدل سکتا ہے۔
 
 ### Claude Opus 4.8 عام user کے لیے مفید ہے؟
 
