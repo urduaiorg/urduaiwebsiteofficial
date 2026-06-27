@@ -26,12 +26,14 @@ faq:
     answer: "اگر آپ Free limits سے تھوڑا زیادہ room چاہتے ہیں تو Go دیکھیں۔ اگر روزانہ coding، data analysis، deep research، agent mode یا professional client work ہے تو Plus compare کریں۔"
   - question: "ChatGPT Go خریدنے سے پہلے کیا کرنا چاہیے؟"
     answer: "پہلے 7 دن Free plan پر اپنا استعمال لکھیں: messages، file uploads، images اور serious tasks۔ اگر limits واقعی کام روک رہی ہوں تو پھر Go یا Plus compare کریں۔"
+  - question: "کیا ChatGPT Go میں ads آ سکتے ہیں؟"
+    answer: "OpenAI کے pricing page پر Go plan کے لیے لکھا ہے کہ یہ plan ads شامل کر سکتا ہے۔ Ads availability اور testing country، account اور وقت کے حساب سے بدل سکتی ہے، اس لیے payment سے پہلے current pricing page دیکھیں۔"
 ---
 ChatGPT Go price in Pakistan کا سیدھا جواب یہ ہے کہ OpenAI کی موجودہ US pricing میں ChatGPT Go 8 ڈالر ماہانہ ہے، مگر پاکستان میں final رقم taxes، app store charges، exchange rate اور payment method کے حساب سے بدل سکتی ہے۔ یہ اوپن اے آئی کا کم قیمت paid plan ہے جو Free plan سے زیادہ messages، file uploads، image generation، memory access اور GPT-5.5 Instant تک expanded access دیتا ہے۔
 
 پاکستانی صارف کے لیے اصل سوال یہ نہیں کہ ChatGPT Go نیا ہے یا مشہور ہے۔ اصل سوال یہ ہے: کیا آپ Free plan کی limits سے واقعی رک رہے ہیں؟ اگر آپ ہفتے میں کبھی کبھار سوال پوچھتے ہیں تو Free plan کافی ہو سکتا ہے۔ اگر آپ روزانہ assignments، proposals، posts، documents یا image ideas پر کام کرتے ہیں تو Go plan پر غور کیا جا سکتا ہے۔
 
-آفیشل معلومات کے لیے [OpenAI کا ChatGPT Go help page](https://help.openai.com/en/articles/11989085-what-is-chatgpt-go) اور [ChatGPT pricing page](https://chatgpt.com/pricing) دیکھیں۔ Plans، limits اور availability بدل سکتی ہیں، اس لیے payment کرنے سے پہلے تازہ details ضرور چیک کریں۔
+آفیشل معلومات کے لیے [OpenAI کا ChatGPT Go help page](https://help.openai.com/en/articles/11989085-what-is-chatgpt-go) اور [ChatGPT pricing page](https://chatgpt.com/pricing) دیکھیں۔ Plans، limits، ads policy اور availability بدل سکتی ہیں، اس لیے payment کرنے سے پہلے تازہ details ضرور چیک کریں۔
 
 ## ChatGPT Go میں کیا ملتا ہے؟
 
@@ -41,7 +43,7 @@ OpenAI کے مطابق ChatGPT Go Free plan کے مقابلے میں popular fea
 
 اس کا مطلب یہ نہیں کہ Go plan ہر advanced کام کے لیے کافی ہے۔ اگر آپ بہت heavy research، coding، data analysis یا business workflows چلاتے ہیں تو Plus یا Pro plans زیادہ مناسب ہو سکتے ہیں۔ لیکن ایک طالب علم، teacher، freelancer یا small business owner کے لیے Go Free اور Plus کے درمیان practical درمیانی راستہ ہے۔
 
-اگر آپ ابھی ChatGPT کو بنیادی طور پر سمجھ رہے ہیں تو پہلے [ChatGPT tool card](/tools/#tool-chatgpt) اور [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔ Plan خریدنے سے پہلے tool اور prompt دونوں کی basic سمجھ زیادہ فائدہ دیتی ہے۔
+اگر آپ ابھی ChatGPT کو بنیادی طور پر سمجھ رہے ہیں تو پہلے [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/)، [ChatGPT tool card](/tools/#tool-chatgpt) اور [prompt engineering کیا ہے؟](/learn/prompt-engineering/) پڑھیں۔ Plan خریدنے سے پہلے tool اور prompt دونوں کی basic سمجھ زیادہ فائدہ دیتی ہے۔
 
 ## Free plan، Go plan اور Plus میں فرق
 
@@ -76,6 +78,12 @@ OpenAI کی current US price 8 ڈالر ماہانہ ہے، مگر پاکستا�
 اس لیے price کا عملی اصول یہ ہے: payment screen پر جو final total نظر آئے اسے ہی اصل رقم سمجھیں۔ اگر آپ web سے subscribe کر رہے ہیں تو ChatGPT کی website پر amount دیکھیں۔ اگر Android یا iPhone app سے subscribe کر رہے ہیں تو Google Play یا Apple App Store کی subscription screen پر final amount چیک کریں۔
 
 اگر آپ کو صرف کبھی کبھار help چاہیے تو صرف کم قیمت دیکھ کر subscribe نہ کریں۔ پہلے Free plan پر ایک ہفتہ استعمال لکھیں: کتنے messages ختم ہوئے، کتنی files upload کرنی پڑیں، اور image generation واقعی کتنی بار چاہیے ہوئی۔
+
+## کیا ChatGPT Go میں ads آ سکتے ہیں؟
+
+OpenAI کے current pricing page پر Go plan کے لیے یہ caveat موجود ہے کہ یہ plan ads شامل کر سکتا ہے۔ OpenAI نے اپنے ads approach میں یہ بھی کہا ہے کہ ads answers سے الگ اور clearly labeled ہونے چاہئیں، لیکن testing، availability اور countries وقت کے ساتھ بدل سکتے ہیں۔
+
+پاکستانی user کے لیے practical مطلب یہ ہے: Go کو automatically ad-free plan نہ سمجھیں۔ اگر ads آپ کے لیے مسئلہ ہیں، یا آپ client work اور sensitive workflow میں ChatGPT استعمال کرتے ہیں، تو payment سے پہلے pricing page، app screen اور plan comparison دوبارہ پڑھیں۔ Plus، Pro، Business اور Enterprise جیسے plans کی ad policy الگ ہو سکتی ہے۔
 
 ## پاکستان میں کس کے لیے مفید ہو سکتا ہے؟
 
@@ -153,8 +161,13 @@ OpenAI کی US pricing میں ChatGPT Plus عموماً 20 ڈالر ماہانہ
 
 پہلے 7 دن Free plan پر اپنا استعمال لکھیں: messages، file uploads، images اور serious tasks۔ اگر limits واقعی کام روک رہی ہوں تو پھر Go یا Plus compare کریں۔
 
+### کیا ChatGPT Go میں ads آ سکتے ہیں؟
+
+OpenAI کے pricing page پر Go plan کے لیے لکھا ہے کہ یہ plan ads شامل کر سکتا ہے۔ Ads availability اور testing country، account اور وقت کے حساب سے بدل سکتی ہے، اس لیے payment سے پہلے current pricing page دیکھیں۔
+
 ## اب آگے کیا پڑھیں؟
 
+- [ChatGPT Urdu app guide](/blog/chatgpt-urdu-app-complete-guide/)
 - [ChatGPT آفیشل ایپ ڈاؤنلوڈ اور انسٹال کرنے کا طریقہ](/how-to/how-to-install-original-chatgpt-app/)
 - [ChatGPT سے CV لکھنے کا طریقہ](/how-to/how-to-write-cv-with-chatgpt/)
 - [ChatGPT کو personal assistant بنانے کا طریقہ](/how-to/how-to-make-chatgpt-your-personal-assistant/)
