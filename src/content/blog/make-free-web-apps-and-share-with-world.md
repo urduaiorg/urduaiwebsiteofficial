@@ -28,12 +28,12 @@ draft: false
     -
 
 
-[اردو اے آئی چیٹ](https://urduai.org/urduai-chatgpt/): جہاں آپ اردو زبان میں اپنا مسئلہ بیان کرتے ہیں۔
+[اردو اے آئی چیٹ](/chat/): جہاں آپ اردو زبان میں اپنا مسئلہ بیان کرتے ہیں۔
 
     -
 
 
-[Google Gemini 2.5](https://urduai.org/gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever/): جو پرامپٹ کو کوڈ میں تبدیل کرتا ہے۔
+[Google Gemini 2.5](/blog/gemini-2-5-the-most-intelligent-artificial-intelligence-model-ever/): جو پرامپٹ کو کوڈ میں تبدیل کرتا ہے۔
 
     -
 

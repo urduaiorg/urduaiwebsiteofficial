@@ -15,7 +15,7 @@ draft: false
 
 ## یان لیکون کا مشورہ: یورپ میں جدت کو کیسے فروغ دیا جائے
 
-میٹا کے چیف اے آئی سائنسدان یان لیکون نے ورلڈ اکنامک فورم (WEF) [میں یورپ پر](https://www.thenews.com.pk/print/1275736-meta-guru-urges-europeto-gamble-more-on-ai#webview=1) زور دیا کہ وہ مصنوعی ذہانت (AI) میں زیادہ [سرمایہ کاری](https://urduai.org/microsoft-is-spending-80-billion-on-data-centers/) کرے اور بڑے مالیاتی خطرات مول لے۔ انہوں نے امریکی صدر ڈونلڈ ٹرمپ کے 500 ارب ڈالر کے [اے آئی منصوبے](https://urduai.org/microsoft-invests-3-billion-in-ai-and-cloud-infrastructure-in-india/) کو "کچھ غیر حقیقی" قرار دیا، جو کہ اوپن اے آئی اور جاپانی کمپنی سوفٹ بینک کی قیادت میں بنایا جا رہا ہے۔
+میٹا کے چیف اے آئی سائنسدان یان لیکون نے ورلڈ اکنامک فورم (WEF) [میں یورپ پر](https://www.thenews.com.pk/print/1275736-meta-guru-urges-europeto-gamble-more-on-ai#webview=1) زور دیا کہ وہ مصنوعی ذہانت (AI) میں زیادہ [سرمایہ کاری](/blog/microsoft-is-spending-80-billion-on-data-centers/) کرے اور بڑے مالیاتی خطرات مول لے۔ انہوں نے امریکی صدر ڈونلڈ ٹرمپ کے 500 ارب ڈالر کے [اے آئی منصوبے](/blog/microsoft-invests-3-billion-in-ai-and-cloud-infrastructure-in-india/) کو "کچھ غیر حقیقی" قرار دیا، جو کہ اوپن اے آئی اور جاپانی کمپنی سوفٹ بینک کی قیادت میں بنایا جا رہا ہے۔
 
 ### امریکہ اور یورپ کا موازنہ
 

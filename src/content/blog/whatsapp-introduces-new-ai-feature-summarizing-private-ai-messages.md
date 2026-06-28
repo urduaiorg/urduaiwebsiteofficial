@@ -37,12 +37,12 @@ draft: false
 ## اے آئی اور چیٹ انضمام کا اگلا قدم
 
 
-یہ اپ ڈیٹ واٹس ایپ کی جانب سے  اے آئی کو چیٹنگ میں شامل کرنے کی کوششوں کا تسلسل ہے۔ اس سے پہلے بھی واٹس ایپ [چیٹ جی پی ٹی کے ساتھ وائس اور امیج ان پٹ](https://urduai.org/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration/) جیسے فیچرز لا چکا ہے۔ اب نئے خلاصہ فیچر سے ظاہر ہوتا ہے کہ واٹس ایپ  اے آئی کے میدان میں مزید قدم بڑھا رہا ہے۔
+یہ اپ ڈیٹ واٹس ایپ کی جانب سے  اے آئی کو چیٹنگ میں شامل کرنے کی کوششوں کا تسلسل ہے۔ اس سے پہلے بھی واٹس ایپ [چیٹ جی پی ٹی کے ساتھ وائس اور امیج ان پٹ](/blog/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration/) جیسے فیچرز لا چکا ہے۔ اب نئے خلاصہ فیچر سے ظاہر ہوتا ہے کہ واٹس ایپ  اے آئی کے میدان میں مزید قدم بڑھا رہا ہے۔
 
 ## متبادل اور دلچسپ تجربات
 
 
-اگر آپ کو چیٹ اور خلاصے کے ساتھ نئی  اے آئی سہولیات کا تجربہ دلچسپ لگتا ہے تو [Perplexity کروم ایکسٹینشن](https://urduai.org/perplexity-chrome-extension-a-new-ai-experience-in-browsing/) اور [واٹس ایپ پر  اے آئی سوالات پوچھنے کی سہولت](https://urduai.org/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp/) بھی آپ کے لیے مفید ہو سکتی ہیں۔
+اگر آپ کو چیٹ اور خلاصے کے ساتھ نئی  اے آئی سہولیات کا تجربہ دلچسپ لگتا ہے تو [Perplexity کروم ایکسٹینشن](/blog/perplexity-chrome-extension-a-new-ai-experience-in-browsing/) اور [واٹس ایپ پر  اے آئی سوالات پوچھنے کی سہولت](/blog/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp/) بھی آپ کے لیے مفید ہو سکتی ہیں۔
 
 ## لغت میں اور پڑھیں
 

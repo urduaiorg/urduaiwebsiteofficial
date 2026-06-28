@@ -17,12 +17,12 @@ draft: false
 ### ہواوے اور ڈیپ سیک: چین کی اے آئی انقلابی کہانی
 
 
-[چین](https://urduai.org/chinese-artificial-intelligence-companies-that-can-counter-the-impact-of-deepseek/) میں اے آئی کی دنیا میں دو بڑے نام چھائے ہوئے ہیں۔ [ہواوے اور ڈیپ سیک۔ ہواوے جدید ترین اے آئی چپس بنا رہا ہے](https://www.huaweicentral.com/huawei-and-deepseek-set-to-change-chinas-ai-chronology-amid-us-ban/)، جو غیر ملکی چپس کا بہترین متبادل ثابت ہو سکتی ہیں، اور ڈیپ سیک بجٹ میں سب سے مؤثر اے آئی سروسز فراہم کر رہا ہے۔
+[چین](/blog/chinese-artificial-intelligence-companies-that-can-counter-the-impact-of-deepseek/) میں اے آئی کی دنیا میں دو بڑے نام چھائے ہوئے ہیں۔ [ہواوے اور ڈیپ سیک۔ ہواوے جدید ترین اے آئی چپس بنا رہا ہے](https://www.huaweicentral.com/huawei-and-deepseek-set-to-change-chinas-ai-chronology-amid-us-ban/)، جو غیر ملکی چپس کا بہترین متبادل ثابت ہو سکتی ہیں، اور ڈیپ سیک بجٹ میں سب سے مؤثر اے آئی سروسز فراہم کر رہا ہے۔
 
 ### امریکہ اور چین: نئی ٹیک وار؟
 
 
-گزشتہ دو ہفتوں میں[ امریکہ](https://urduai.org/us-stock-market-steady-after-shock-from-deepseek-ai-app/) اور چین کے درمیان خاصی ہلچل دیکھنے کو ملی۔ اس کی بڑی وجہ ہواوے کی اسینڈ 910C چپس پر مبنی نئے ڈیپ سیک اے آئی ماڈلز ہیں، جو جدید ترین ٹیکنالوجی سے لیس ہیں اور امریکہ کے لیے چیلنج بن رہے ہیں۔
+گزشتہ دو ہفتوں میں[ امریکہ](/blog/us-stock-market-steady-after-shock-from-deepseek-ai-app/) اور چین کے درمیان خاصی ہلچل دیکھنے کو ملی۔ اس کی بڑی وجہ ہواوے کی اسینڈ 910C چپس پر مبنی نئے ڈیپ سیک اے آئی ماڈلز ہیں، جو جدید ترین ٹیکنالوجی سے لیس ہیں اور امریکہ کے لیے چیلنج بن رہے ہیں۔
 
 ### ڈیپ سیک: چین کا اے آئی ماسٹر پلان
 
@@ -55,7 +55,7 @@ draft: false
 ### آگے کیا ہوگا؟
 
 
-اب سوال یہ ہے کہ کیا چین ان پابندیوں کو توڑ کر [عالمی اے آئی مارکیٹ میں](https://urduai.org/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years/) اپنی جگہ بنا پائے گا؟ کیا ہواوے مستقبل میں Nvidia سے بہتر چپس بنا سکے گا؟ یا امریکہ کی یہ پابندیاں چین کی ترقی کو روک دیں گی؟
+اب سوال یہ ہے کہ کیا چین ان پابندیوں کو توڑ کر [عالمی اے آئی مارکیٹ میں](/blog/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years/) اپنی جگہ بنا پائے گا؟ کیا ہواوے مستقبل میں Nvidia سے بہتر چپس بنا سکے گا؟ یا امریکہ کی یہ پابندیاں چین کی ترقی کو روک دیں گی؟
 
 
 دوستوں، یہ ایک دلچسپ جنگ ہے، اور میں آپ کو اس کے ہر نئے موڑ سے آگاہ کرتا رہوں گا! آپ کے کیا خیالات ہیں؟ کمنٹس میں ضرور بتائیں!

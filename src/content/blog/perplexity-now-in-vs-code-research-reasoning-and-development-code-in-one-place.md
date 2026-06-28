@@ -58,12 +58,12 @@ draft: false
 ## تحقیق اور کوڈنگ کا امتزاج
 
 
-یہ فیچر خاص طور پر اُن لوگوں کے لیے اہم ہے جو کوڈنگ کے دوران تحقیق اور سیکھنے کو خودکار بنانا چاہتے ہیں۔ جیسے کہ [چیٹ جی پی ٹی کا ڈیپ ریسرچ فیچر](https://urduai.org/chatgpts-deep-research-feature-available-for-free/) اب مفت دستیاب ہے، ویسے ہی پرپلکسیٹی اب تحقیق کو فوری نتائج میں تبدیل کرتا ہے۔
+یہ فیچر خاص طور پر اُن لوگوں کے لیے اہم ہے جو کوڈنگ کے دوران تحقیق اور سیکھنے کو خودکار بنانا چاہتے ہیں۔ جیسے کہ [چیٹ جی پی ٹی کا ڈیپ ریسرچ فیچر](/blog/chatgpts-deep-research-feature-available-for-free/) اب مفت دستیاب ہے، ویسے ہی پرپلکسیٹی اب تحقیق کو فوری نتائج میں تبدیل کرتا ہے۔
 
 ## دیگر دلچسپ استعمالات
 
 
-یہ صرف تحقیق تک محدود نہیں۔ پرپلکسیٹی اب [ٹریپ ایڈوائزر کی ہوٹل معلومات](https://urduai.org/perplexity-will-now-show-hotel-information-from-tripadvisor/) جیسے پیچیدہ ڈیٹا کو بھی دکھا سکتا ہے۔ یہی رجحان [گوگل جیمنی ۲٫۵](https://urduai.org/google-gemini-2-5-most-advanced-coding-version/) جیسے جدید ماڈلز اور [اردو اے آئی ماسٹر کلاس](https://urduai.org/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5/) میں بھی دیکھا جا رہا ہے جہاں کوڈنگ سیکھنا اب صرف تعلیم نہیں بلکہ تجربہ بن چکا ہے۔
+یہ صرف تحقیق تک محدود نہیں۔ پرپلکسیٹی اب [ٹریپ ایڈوائزر کی ہوٹل معلومات](/blog/perplexity-will-now-show-hotel-information-from-tripadvisor/) جیسے پیچیدہ ڈیٹا کو بھی دکھا سکتا ہے۔ یہی رجحان [گوگل جیمنی ۲٫۵](/blog/google-gemini-2-5-most-advanced-coding-version/) جیسے جدید ماڈلز اور [اردو اے آئی ماسٹر کلاس](/guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5/) میں بھی دیکھا جا رہا ہے جہاں کوڈنگ سیکھنا اب صرف تعلیم نہیں بلکہ تجربہ بن چکا ہے۔
 
 ## کیا مصنوعی ذہانت اب عام ٹیکنالوجی ہے؟
 
@@ -77,7 +77,7 @@ draft: false
 "کیا ہمیں اب مصنوعی ذہانت کو ایک عام اور معمول کی ٹیکنالوجی تسلیم کر لینا چاہیے؟"
 
 
-اس بارے میں مزید جاننے کے لیے [یہ تجزیاتی مضمون پڑھیں](https://urduai.org/is-it-time-for-us-to-consider-artificial-intelligence-as-a-normal-technology/)۔
+اس بارے میں مزید جاننے کے لیے [یہ تجزیاتی مضمون پڑھیں](/blog/is-it-time-for-us-to-consider-artificial-intelligence-as-a-normal-technology/)۔
 
 ### مزید پڑھیں:
 
@@ -85,17 +85,17 @@ draft: false
     -
 
 
-[پرپلکسیٹی پر ٹریپ ایڈوائزر کی معلومات](https://urduai.org/perplexity-will-now-show-hotel-information-from-tripadvisor/)
+[پرپلکسیٹی پر ٹریپ ایڈوائزر کی معلومات](/blog/perplexity-will-now-show-hotel-information-from-tripadvisor/)
 
     -
 
 
-[اے آئی سے ایپ، گیم اور ویب بنائیں    اردو اے آئی ماسٹر کلاس](https://urduai.org/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5/)
+[اے آئی سے ایپ، گیم اور ویب بنائیں    اردو اے آئی ماسٹر کلاس](/guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5/)
 
     -
 
 
-[جیمنی ۲.۵: اب تک کا سب سے جدید کوڈنگ ماڈل](https://urduai.org/google-gemini-2-5-most-advanced-coding-version/)
+[جیمنی ۲.۵: اب تک کا سب سے جدید کوڈنگ ماڈل](/blog/google-gemini-2-5-most-advanced-coding-version/)
 
 ## لغت میں اور پڑھیں
 

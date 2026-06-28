@@ -21,7 +21,7 @@ draft: false
 ### چیٹ جی پی ٹی کا انقلاب
 
 
-ساتھ ساتھ، ہم نے دیکھا کہ چیٹ جی پی ٹی بدستور دنیا پر چھایا رہا اور اس کا [ایڈوانس وائس ماڈل](https://urduai.org/advance-urdu-ai-new-technology-for-experts-in-every-field/) اے آئی کی دنیا میں ایک انقلاب کی صورت میں سامنے آیا۔ پھر ہم نے دیکھا کہ[ چیٹ جی پی ٹی](https://chatgpt.com/) نے جاتے جاتے اپنا [ویژن فنکشن](https://urduai.org/chatgpts-new-voice-and-video-feature/) دکھایا، جس کے بارے میں ہم اردو اے آئی پر بات کر رہے ہیں۔
+ساتھ ساتھ، ہم نے دیکھا کہ چیٹ جی پی ٹی بدستور دنیا پر چھایا رہا اور اس کا [ایڈوانس وائس ماڈل](/blog/advance-urdu-ai-new-technology-for-experts-in-every-field/) اے آئی کی دنیا میں ایک انقلاب کی صورت میں سامنے آیا۔ پھر ہم نے دیکھا کہ[ چیٹ جی پی ٹی](https://chatgpt.com/) نے جاتے جاتے اپنا [ویژن فنکشن](/blog/chatgpts-new-voice-and-video-feature/) دکھایا، جس کے بارے میں ہم اردو اے آئی پر بات کر رہے ہیں۔
 
 ### چھوٹی کمپنیوں کا کردار
 

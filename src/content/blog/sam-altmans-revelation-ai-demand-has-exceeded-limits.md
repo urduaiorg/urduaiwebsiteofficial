@@ -17,7 +17,7 @@ draft: false
 ## ہم نے یہ سب کبھی سوچا بھی نہیں تھا
 
 
-اوپن اے آئی کے سی ای او [سیم آلٹمین](https://urduai.org/sam-altmans-admission-will-ai-benefits-reach-everyone/) کا کہنا ہے کہ جب ایک دہائی پہلے انہوں نے اس تحقیقاتی لیب کی بنیاد رکھی، تو انہیں اندازہ نہیں تھا کہ اے آئی اتنی تیزی سے مقبول ہو جائے گی۔
+اوپن اے آئی کے سی ای او [سیم آلٹمین](/blog/sam-altmans-admission-will-ai-benefits-reach-everyone/) کا کہنا ہے کہ جب ایک دہائی پہلے انہوں نے اس تحقیقاتی لیب کی بنیاد رکھی، تو انہیں اندازہ نہیں تھا کہ اے آئی اتنی تیزی سے مقبول ہو جائے گی۔
 
 
 >
@@ -36,12 +36,12 @@ draft: false
 ## ماڈل پر اعتراضات اور تنقید
 
 
-یہ فیصلہ ایسے وقت میں سامنے آیا ہے۔ جب کمپنی کو اندرونی اور بیرونی سطح پر تنقید کا سامنا تھا۔ معروف سائنسدان جیوفری ہنٹن اور شریک بانی ایلون مسک نے اوپن اے آئی کی پالیسیوں پر سوالات اٹھائے تھے۔ ایلون مسک نے کمپنی کے غیر منافع بخش بازو کو خریدنے کی پیشکش بھی کی تاکہ اے آئی کو [محفوظ اور اوپن سورس](https://urduai.org/will-openai-have-to-change-its-strategy-confession-of-sam-altman/) رکھا جا سکے۔
+یہ فیصلہ ایسے وقت میں سامنے آیا ہے۔ جب کمپنی کو اندرونی اور بیرونی سطح پر تنقید کا سامنا تھا۔ معروف سائنسدان جیوفری ہنٹن اور شریک بانی ایلون مسک نے اوپن اے آئی کی پالیسیوں پر سوالات اٹھائے تھے۔ ایلون مسک نے کمپنی کے غیر منافع بخش بازو کو خریدنے کی پیشکش بھی کی تاکہ اے آئی کو [محفوظ اور اوپن سورس](/blog/will-openai-have-to-change-its-strategy-confession-of-sam-altman/) رکھا جا سکے۔
 
 ## دیگر کمپنیوں کا طرز عمل
 
 
-سیم آلٹمین کے مطابق، اوپن اے آئی اکیلی نہیں جو اس سمت جا رہی ہے۔ معروف کمپنیاں جیسے [Anthropic](https://urduai.org/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product/) اور xAI بھی اسی ماڈل کو اپنا چکی ہیں۔
+سیم آلٹمین کے مطابق، اوپن اے آئی اکیلی نہیں جو اس سمت جا رہی ہے۔ معروف کمپنیاں جیسے [Anthropic](/blog/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product/) اور xAI بھی اسی ماڈل کو اپنا چکی ہیں۔
 
 
 >
@@ -80,7 +80,7 @@ draft: false
 ## ایک نیا دور، نئی سوچ
 
 
-اوپن اے آئی کے اس فیصلے سے یہ ظاہر ہوتا ہے کہ دنیا کی سب سے بڑی اے آئی کمپنی اب مالی فائدے سے ہٹ کر انسانیت کے فائدے کو اپنا مقصد بنا چکی ہے۔ اگرچہ یہ فیصلہ کمپنی کی آزادی کو کسی حد تک محدود کر سکتا ہے۔ لیکن ایک ایسے دور میں جہاں [مصنوعی ذہانت](https://urduai.org/ai-kya-hai-urdu-ai-master-class-1/) پر سوالات بڑھتے جا رہے ہیں، یہ قدم ایک مثبت مثال بن سکتا ہے۔
+اوپن اے آئی کے اس فیصلے سے یہ ظاہر ہوتا ہے کہ دنیا کی سب سے بڑی اے آئی کمپنی اب مالی فائدے سے ہٹ کر انسانیت کے فائدے کو اپنا مقصد بنا چکی ہے۔ اگرچہ یہ فیصلہ کمپنی کی آزادی کو کسی حد تک محدود کر سکتا ہے۔ لیکن ایک ایسے دور میں جہاں [مصنوعی ذہانت](/guides/ai-kya-hai-urdu-ai-master-class-1/) پر سوالات بڑھتے جا رہے ہیں، یہ قدم ایک مثبت مثال بن سکتا ہے۔
 
 ### مزید پڑھیں:
 
@@ -88,18 +88,18 @@ draft: false
     -
 
 
-[مصنوعی ذہانت: کیا ہم اس سے بچ سکتے ہیں؟](https://urduai.org/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/)
+[مصنوعی ذہانت: کیا ہم اس سے بچ سکتے ہیں؟](/blog/you-can-run-from-artificial-intelligence-but-you-cant-escape-it/)
 
     -
 
 
-[ایلون مسک کی تنقید اور اوپن اے آئی کی حکمت عملی](https://urduai.org/will-openai-have-to-change-its-strategy-confession-of-sam-altman/)
+[ایلون مسک کی تنقید اور اوپن اے آئی کی حکمت عملی](/blog/will-openai-have-to-change-its-strategy-confession-of-sam-altman/)
 
     -
 
 
 [میرا مراتی کی نئی اے آئی کمپنی کو اربوں ڈالر کیسے ملے؟
-](https://urduai.org/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product/)
+](/blog/mira-muratis-new-artificial-intelligence-company-how-did-it-get-billions-of-dollars-in-investment-without-a-product/)
 
 ## لغت میں اور پڑھیں
 

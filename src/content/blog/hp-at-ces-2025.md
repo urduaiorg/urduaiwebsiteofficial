@@ -10,16 +10,16 @@ draft: false
 ---
 
 ## سی ای ایس٢٠٢٥ میں ایچ پی کا نیا دھماکہ - ایلایٹ بُک سیریز میں جدت اور اے آئی کا انقلاب!
-دوستوں![ ٢٠٢٥](https://urduai.org/ai-in-2025/) میں[ ایچ پی](https://www.hp.com/asia_pac-en/default.html) نے سی ای ایس  میں تین زبردست 14-انچ Elitebook ماڈلز کا اعلان کیا ہے، جو جدید[ Intel](https://www.intel.com/content/www/us/en/homepage.html) پروسیسرز سے لیس ہیں۔ یہ نئے لیپ ٹاپس Elitebook Ultra G1i اور دو Elitebook X ماڈلز پر مشتمل ہیں، جن میں سے ایک 360-ڈگری فولڈنگ 2-in-1 ہے۔
+دوستوں![ ٢٠٢٥](/blog/ai-in-2025/) میں[ ایچ پی](https://www.hp.com/asia_pac-en/default.html) نے سی ای ایس  میں تین زبردست 14-انچ Elitebook ماڈلز کا اعلان کیا ہے، جو جدید[ Intel](https://www.intel.com/content/www/us/en/homepage.html) پروسیسرز سے لیس ہیں۔ یہ نئے لیپ ٹاپس Elitebook Ultra G1i اور دو Elitebook X ماڈلز پر مشتمل ہیں، جن میں سے ایک 360-ڈگری فولڈنگ 2-in-1 ہے۔
 ### Elitebook Ultra G1i - اعلیٰ معیار کے فیچرز کے ساتھ!
 
 
 HP کے [Elitebook Ultra G1i](https://www.hp.com/us-en/laptops/business/elitebooks/ultra-ai-pc.html) میں زبردست خصوصیات شامل ہیں:
 
 
- 	- **3K [OLED](https://www.energy.gov/eere/ssl/oled-basics#:~:text=An%20OLED%20is%20a%20solid,the%20electrodes%20must%20be%20transparent.) ڈسپلے** (2,880 x 1,880 ریزولوشن)
- 	- **9MP ویب کیم** جو AI کے ذریعے ویڈیو کالز کو مزید بہتر بناتا ہے
- 	- **ہاپٹک ٹچ پیڈ**، جو پورے پیڈ پر یکساں "کلک" کا احساس فراہم کرتا ہے
+	- **3K [OLED](https://www.energy.gov/eere/ssl/oled-basics#:~:text=An%20OLED%20is%20a%20solid,the%20electrodes%20must%20be%20transparent.) ڈسپلے** (2,880 x 1,880 ریزولوشن)
+	- **9MP ویب کیم** جو AI کے ذریعے ویڈیو کالز کو مزید بہتر بناتا ہے
+	- **ہاپٹک ٹچ پیڈ**، جو پورے پیڈ پر یکساں "کلک" کا احساس فراہم کرتا ہے
 
 
 
@@ -32,8 +32,8 @@ HP کے [Elitebook Ultra G1i](https://www.hp.com/us-en/laptops/business/eliteboo
 Elitebook X G1i اور[ Elitebook X Flip G1i](https://www.hp.com/us-en/laptops/business/elitebooks/x-series.html) میں بنیادی فرق ان کی فارم فیکٹر کا ہے:
 
 
- 	- **Elitebook X Flip G1i**: 360-ڈگری ہینج کے ساتھ فولڈنگ ڈیزائن اور ٹچ اسکرین
- 	- **Elitebook X G1i**: روایتی کلیم شیل ڈیزائن
+	- **Elitebook X Flip G1i**: 360-ڈگری ہینج کے ساتھ فولڈنگ ڈیزائن اور ٹچ اسکرین
+	- **Elitebook X G1i**: روایتی کلیم شیل ڈیزائن
 
 
 
@@ -54,8 +54,8 @@ Flip ماڈل HP کے $99 کے ریچارج ایبل ایکٹیو پین کے س
 [HP ](https://www.hp.com/us-en/shop)کے ان ماڈلز میں درج ذیل آپشنز دستیاب ہیں:
 
 
- 	- RAM: 16GB یا 32GB
- 	- اسٹوریج: 256GB یا 512GB
+	- RAM: 16GB یا 32GB
+	- اسٹوریج: 256GB یا 512GB
 
 
 ### قیمت اور دستیابی؟
@@ -64,13 +64,13 @@ Flip ماڈل HP کے $99 کے ریچارج ایبل ایکٹیو پین کے س
 HP نے ابھی تک ان ماڈلز کی قیمت یا ریلیز ڈیٹ کے بارے میں کوئی اعلان نہیں کیا ہے۔  لیکن CES ٢٠٢٥  میں لاس ویگاس میں یہ لیپ ٹاپس نمائش کے لیے موجود ہوں گے۔
 
 
-دوستوں، HP نے اپنی Elitebook سیریز کو نئی بلندیوں تک پہنچا دیا ہے۔ چاہے آپ کو اعلیٰ ڈسپلے [اور ویب کیم چاہیے یا ایک](https://urduai.org/ریڈ-سی-وی-اور-پرپلکسٹی-ایک-نیا-ڈیجیٹل-آ/) ورسٹائل 2-in-1 لیپ ٹاپ، یہ ماڈلز آپ کی تمام ضروریات کو پورا کریں گے۔
+دوستوں، HP نے اپنی Elitebook سیریز کو نئی بلندیوں تک پہنچا دیا ہے۔ چاہے آپ کو اعلیٰ ڈسپلے [اور ویب کیم چاہیے یا ایک](/blog/red-cv-and-perplexity-a-new-digital-beginning/) ورسٹائل 2-in-1 لیپ ٹاپ، یہ ماڈلز آپ کی تمام ضروریات کو پورا کریں گے۔
 
 
 کیا آپ بھی ٢٠٢٥  میںHP کے ان نئے AI PCs کو دیکھنے کے لیے پرجوش ہیں؟ اپنی رائے ضرور شیئر کریں!
 
 
- مزید[ خبروں](https://urduai.org/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%db%8c-%d8%af%d9%86%db%8c%d8%a7-%d9%85%db%8c%da%ba-%d8%af%d9%84%da%86%d8%b3%d9%be-%d8%ae%d8%a8%d8%b1%db%8c%da%ba-%d8%ad%db%8c%d8%b1%d8%a7%d9%86-%da%a9%d9%86/) کے  لیے [ اردو اے آئی](https://urduai.org/) جڑے رہیں۔
+ مزید[ خبروں](/blog/post-2360/) کے  لیے [ اردو اے آئی](/) جڑے رہیں۔
 
 ## لغت میں اور پڑھیں
 

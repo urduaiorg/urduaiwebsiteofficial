@@ -32,6 +32,31 @@ https://www.urduai.org/* https://urduai.org/:splat 301
 # Special canonical moves
 /blog/ai-image-expression-prompts-urdu-guide/ /guides/ai-image-expression-prompts-urdu-guide/ 301
 
+# Manual high-volume legacy redirects
+/ریڈ-سی-وی-اور-پرپلکسٹی-ایک-نیا-ڈیجیٹل-آ/ /blog/red-cv-and-perplexity-a-new-digital-beginning/ 301
+/اے-آئی-اب-آپ-کی-زبان-بولے-گی/ /blog/does-omnilingual-asr-understand-your-language-too-over-1600-languages-now-in-one-system/ 301
+/اے-آئی-سے-بات-کرنے-کے-طریقے/ /blog/chatgpt-complete-urdu-guide/ 301
+/اے-آئی-سے-اعلی-معیار-کی-تصاویر-کیسے-بنوا/ /blog/best-ai-image-generators-urdu-guide/ 301
+/چیٹ-جی-پی-ٹی-کی-نئی-اپڈیٹس/ /blog/chatgpt-complete-urdu-guide/ 301
+/اے-آئی-کے-نئے-ٹولز/ /blog/12-best-ai-tools-that-make-work-faster-and-easier/ 301
+/اے-آئی-کے-دور-میں-بچوں-کی-تعلیم/ /blog/ai-and-children-education-training-and-a-bright-future/ 301
+/اے-آئی-ٹولز-اور-پروسیس/ /blog/12-best-ai-tools-that-make-work-faster-and-easier/ 301
+/اے-آئی-کے-ذریعے-کیسے-نوکریوں-کے-لئے-اپلا/ /how-to/how-to-write-cv-with-chatgpt/ 301
+/اے-آئی-کے-ذریعے-نوکری-کے-لئے-کیسے-اپلائی/ /how-to/how-to-write-cv-with-chatgpt/ 301
+/وٹزایپ-میں-میٹا-اے-آئی-کو-کیسے-استعمال-ک/ /blog/whatsapp-bringing-new-change-to-meta-ai-chatbot/ 301
+/اردو-اےآئی-سے-لکھ-اور-بول-کربات-کریں۔/ /blog/chatgpt-for-urdu-ai-writers/ 301
+/سورا-آگیا-ہے-کیا-آپ-تیار-ہیں؟/ /blog/sora-is-launched/ 301
+/class/ /courses/masterclass/ 301
+/gpt/ /chat/ 301
+/elementor-453/ /learn/artificial-intelligence/ 301
+/elementor-551/ /blog/chat-gpt-health-who-is-it-for-and-how-does-it-work/ 301
+/openais-new-model-gpt-4-1-when-writing-code-was-also-entrusted-to-ai/ /blog/the-arrival-of-gpt-4-1-a-new-era-of-programming/ 301
+/کو-پائلیٹ-کیسے-مدد-کریگا/ /blog/urdu-ai-interview-with-copilot/ 301
+/اے-آئی-کے-ذریعے-اپنے-پیسے-واپس-لئے/ /blog/will-the-subscription-service-for-the-meta-ai-chatbot-be-successful/ 301
+/میٹا-اے-آئی-کے-بنیادی-کورسزکی-تیسری-کلا/ /blog/meta-and-artificial-intelligence/ 301
+/میٹا-اے-آئی-کے-بنیادی-کورسزکی-دوسری-کلا/ /blog/meta-and-artificial-intelligence/ 301
+/ایلون-مسک-کی-انقلابی-ایجادات۔/ /blog/post-2594/ 301
+
 # Renamed static pages
 /about-us/ /about/ 301
 /apps/ /tools/ 301

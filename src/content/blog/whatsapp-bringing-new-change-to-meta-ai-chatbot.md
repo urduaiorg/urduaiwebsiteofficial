@@ -18,7 +18,7 @@ faq:
 
 ## واٹس ایپ کا زبردست نیا فیچرمیٹا اے آئی چیٹ بوٹ اب اور بھی قریب
 
-ہیلو دوستوں! میں ہوں معراج احمد، اور آج [ایک شاندار خبر](https://www.geo.tv/latest/592104-whatsapp-bringing-exciting-new-change-to-meta-ai-chatbot) لے کر آیا ہوں جو خاص طور پر ان لوگوں کے لیے ہے جو واٹس ایپ پر [میٹا](https://urduai.org/metas-big-layoff-is-artificial-intelligence-replacing-human-jobs/) اے آئی چیٹ بوٹ استعمال کرتے ہیں۔ اگر آپ بھی ہر بار ایپ کھول کر چیٹ ڈھونڈنے کی جھنجھٹ سے تنگ آ چکے ہیں، تو واٹس ایپ کی جانب سے ہوم اسکرین **ویجیٹ** جیسے تجربات کی خبریں آئی ہیں جو رسائی آسان بنا سکتی ہیں۔
+ہیلو دوستوں! میں ہوں معراج احمد، اور آج [ایک شاندار خبر](https://www.geo.tv/latest/592104-whatsapp-bringing-exciting-new-change-to-meta-ai-chatbot) لے کر آیا ہوں جو خاص طور پر ان لوگوں کے لیے ہے جو واٹس ایپ پر [میٹا](/blog/metas-big-layoff-is-artificial-intelligence-replacing-human-jobs/) اے آئی چیٹ بوٹ استعمال کرتے ہیں۔ اگر آپ بھی ہر بار ایپ کھول کر چیٹ ڈھونڈنے کی جھنجھٹ سے تنگ آ چکے ہیں، تو واٹس ایپ کی جانب سے ہوم اسکرین **ویجیٹ** جیسے تجربات کی خبریں آئی ہیں جو رسائی آسان بنا سکتی ہیں۔
 
 ### یہ نیا ویجیٹ کیا کرے گا؟
 
@@ -38,7 +38,7 @@ faq:
 
 #### سوال پوچھیں:
 
-کوئی بھی سوال کریں اور [میٹا اے آئی](https://urduai.org/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years/) سے فوری جواب حاصل کریں۔
+کوئی بھی سوال کریں اور [میٹا اے آئی](/blog/the-big-meta-announcement-the-global-spread-of-ai-characters-in-two-years/) سے فوری جواب حاصل کریں۔
 
 #### تصویر بھیجیں:
 
@@ -48,7 +48,7 @@ faq:
 
 ٹائپ کرنے کے بجائے، اپنی آواز کے ذریعے بات کریں اور میٹا اے آئی سے براہ راست گفتگو کریں۔
 
-یہ اپ ڈیٹ [واٹس ایپ کو](https://urduai.org/chatgpt-ko-whatsapp-main-istemal-karain/) مزید اسمارٹ اور صارف دوست بنا سکتی ہے۔ [اب بات چیٹ مزید آسان](https://urduai.org/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration/)، تیز اور دلچسپ ہو سکتی ہے۔
+یہ اپ ڈیٹ [واٹس ایپ کو](/blog/chatgpt-ko-whatsapp-main-istemal-karain/) مزید اسمارٹ اور صارف دوست بنا سکتی ہے۔ [اب بات چیٹ مزید آسان](/blog/whatsapp-brings-image-and-voice-inputs-to-its-chatgpt-integration/)، تیز اور دلچسپ ہو سکتی ہے۔
 
 ### پاکستان کے صارفین کے لیے احتیاط
 

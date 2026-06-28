@@ -34,7 +34,7 @@ draft: false
 اب تک پرپلیکسٹی کا ’ڈیپ ریسرچ‘ فیچر (جسے اب صرف ریسرچ کہا جاتا ہے) ایک تیز، مفصل تجزیہ فراہم کرنے کے لیے جانا جاتا تھا۔ لیکن لیبز اس سے بھی ایک قدم آگے ہے۔ یہ صرف معلومات نہیں دیتا، بلکہ ان معلومات پر خود عمل کر کے نتائج تخلیق کرتا ہے۔
 
 
-[ڈیپ ریسرچ فیچر](https://urduai.org/chatgpts-deep-research-feature-available-for-free/) اب بھی اپنی جگہ اہم ہے، لیکن لیبز ان کاموں کے لیے مفید ہے جہاں وقت، پیچیدگی اور مشینی مہارت درکار ہو۔
+[ڈیپ ریسرچ فیچر](/blog/chatgpts-deep-research-feature-available-for-free/) اب بھی اپنی جگہ اہم ہے، لیکن لیبز ان کاموں کے لیے مفید ہے جہاں وقت، پیچیدگی اور مشینی مہارت درکار ہو۔
 
 ## ایک ورچوئل ٹیم کی طرح
 
@@ -47,10 +47,10 @@ draft: false
 ## پرپلیکسٹی کا بڑھتا دائرہ
 
 
-اس فیچر کے ساتھ پرپلیکسٹی نے اپنا دائرہ مزید وسیع کر لیا ہے۔ اگرچہ اس سے پہلے کمپنی نے [واٹس ایپ انٹرفیس](https://urduai.org/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp/) اور [کروم ایکسٹینشن](https://urduai.org/perplexity-chrome-extension-a-new-ai-experience-in-browsing/) جیسے فیچرز متعارف کرائے تھے۔ جو روزمرہ سرچ کے تجربے کو بہتر بناتے ہیں۔ مگر لیبز تخلیقی اور عملی دونوں میدانوں میں نئی راہیں کھول رہا ہے۔
+اس فیچر کے ساتھ پرپلیکسٹی نے اپنا دائرہ مزید وسیع کر لیا ہے۔ اگرچہ اس سے پہلے کمپنی نے [واٹس ایپ انٹرفیس](/blog/its-now-easier-than-ever-to-ask-perplexity-questions-on-whatsapp/) اور [کروم ایکسٹینشن](/blog/perplexity-chrome-extension-a-new-ai-experience-in-browsing/) جیسے فیچرز متعارف کرائے تھے۔ جو روزمرہ سرچ کے تجربے کو بہتر بناتے ہیں۔ مگر لیبز تخلیقی اور عملی دونوں میدانوں میں نئی راہیں کھول رہا ہے۔
 
 
-مزید برآں، ویڈیو اور میڈیا کے شعبے میں بھی نئی اختراعات ہو رہی ہیں۔ جیسے veo[ 2 کا فیچر](https://urduai.org/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/) یا [چیٹ جی پی ٹی کا لائیو اسکرین شیئرنگ](https://urduai.org/new-screen-sharing-and-live-video-feature-in-chatgpt/)، جو پیشہ ور افراد کے لیے انقلابی حیثیت رکھتے ہیں۔
+مزید برآں، ویڈیو اور میڈیا کے شعبے میں بھی نئی اختراعات ہو رہی ہیں۔ جیسے veo[ 2 کا فیچر](/blog/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/) یا [چیٹ جی پی ٹی کا لائیو اسکرین شیئرنگ](/blog/new-screen-sharing-and-live-video-feature-in-chatgpt/)، جو پیشہ ور افراد کے لیے انقلابی حیثیت رکھتے ہیں۔
 
 ## اب صرف سوچیں، باقی کام لیبز کرے گا
 

@@ -31,17 +31,17 @@ faq:
 یہ محض ایک تصویری فیچر نہیں بلکہ ایک مکمل بصری معاون (Visual Assistant) ہے۔ جیمینی کیمرہ کے ذریعے:
 
 
- 	- 
+	-
 
 
 اشیاء کی شناخت کرتا ہے
 
- 	- 
+	-
 
 
 ان کے بارے میں معلومات فراہم کرتا ہے
 
- 	- 
+	-
 
 
 اور آپ سے عام فہم انداز میں بات چیت کرتا ہے
@@ -58,12 +58,12 @@ faq:
 گوگل کے مطابق، یہ فیچر ان تمام اینڈرائیڈ فونز پر کام کرے گا جو:
 
 
- 	- 
+	-
 
 
 اینڈرائیڈ 10 یا اس سے اوپر ورژن پر ہوں
 
- 	- 
+	-
 
 
 کم از کم 2 جی بی ریم رکھتے ہوں
@@ -94,18 +94,18 @@ faq:
 
 ### متعلقہ لنکس:
 
- 	- 
+	-
 
 
-[Gemini 2.5 Pro کا پیش نظارہ: ویب ڈیولپمنٹ میں نیا سنگ میل](https://urduai.org/gemini-2-5-pro-preview-a-new-milestone-in-web-development/)
+[Gemini 2.5 Pro کا پیش نظارہ: ویب ڈیولپمنٹ میں نیا سنگ میل](/blog/gemini-2-5-pro-preview-a-new-milestone-in-web-development/)
 
- 	- 
+	-
 
 
-[گوگل جیمینی ایپ میں آڈیو فیچر غیر فعال ہونے کی خرابی](https://urduai.org/google-gemini-app-error-audio-overview-feature-disabled/)
+[گوگل جیمینی ایپ میں آڈیو فیچر غیر فعال ہونے کی خرابی](/blog/google-gemini-app-error-audio-overview-feature-disabled/)
 
- 	- 
+	-
 
 
 [veo2: جیمینی اور وِسک میں ویڈیو تخلیق کا نیا طریقہ
-](https://urduai.org/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/)
+](/blog/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/)

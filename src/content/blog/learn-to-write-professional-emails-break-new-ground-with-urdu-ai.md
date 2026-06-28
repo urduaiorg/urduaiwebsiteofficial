@@ -11,7 +11,7 @@ draft: false
 
 # پروفیشنل ای میل لکھنا سیکھیں: اردو اے آئی کے ساتھ نئی راہیں کھولیں
 
-مصنوعی ذہانت (AI) کے اس دور میں جہاں ہر مہارت خودکار نظام سے جُڑ رہی ہے۔ وہاں ایک مؤثر اور پروفیشنل ای میل لکھنا بھی ایک ضروری صلاحیت بن چکی ہے۔ [اردو اے آئی](https://urduai.org/how-to-best-utilize-urdu-ai-platform/) کی حالیہ ویڈیو "[">Writing Professional Emails with AI](
+مصنوعی ذہانت (AI) کے اس دور میں جہاں ہر مہارت خودکار نظام سے جُڑ رہی ہے۔ وہاں ایک مؤثر اور پروفیشنل ای میل لکھنا بھی ایک ضروری صلاحیت بن چکی ہے۔ [اردو اے آئی](/blog/how-to-best-utilize-urdu-ai-platform/) کی حالیہ ویڈیو "[">Writing Professional Emails with AI](
 
 ## کیوں ضروری ہے پروفیشنل ای میل لکھنا؟
 
@@ -43,7 +43,7 @@ draft: false
 
 ## AI کی مدد کیسے لی جائے؟
 
-ویڈیو میں [Gmail کے AI رائٹر](https://urduai.org/gmail-gets-a-new-smart-addition-a-feature-that-changes-the-way-you-search/) کی مثال دی گئی۔ جو خودکار طور پر ای میل لکھنے میں مدد دیتا ہے۔ آپ اپنے لیے ایک ذاتی ای میل رائٹر جمز بنا سکتے ہیں:
+ویڈیو میں [Gmail کے AI رائٹر](/blog/gmail-gets-a-new-smart-addition-a-feature-that-changes-the-way-you-search/) کی مثال دی گئی۔ جو خودکار طور پر ای میل لکھنے میں مدد دیتا ہے۔ آپ اپنے لیے ایک ذاتی ای میل رائٹر جمز بنا سکتے ہیں:
 
 
     - "My Email Writer" جیسے نام سے جمز بنائیں۔

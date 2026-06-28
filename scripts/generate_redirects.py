@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
+from urllib.parse import quote
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -50,9 +51,8 @@ RedirectMatch 301 ^/category/guides/.*$ /guides/
 RedirectMatch 301 ^/category/how-to/.*$ /how-to/
 RedirectMatch 301 ^/category/prompts/.*$ /prompts/
 RedirectMatch 301 ^/category/learn/.*$ /learn/
-RedirectMatch 301 ^/tag/gemini-ai/?$ /learn/google-gemini/
 RedirectMatch 301 ^/tag/google-gemini/?$ /learn/google-gemini/
-RedirectMatch 301 ^/tag/(?!google-ai-studio/?$).*$ /blog/
+RedirectMatch 301 ^/tag/(?!(google-ai-studio|gemini-ai)/?$).*$ /blog/
 RedirectMatch 301 ^/wp-content/uploads/(.*)$ /images/$1
 RedirectMatch 301 ^/wp-admin/?$ /
 RedirectMatch 301 ^/wp-login\\.php$ /
@@ -87,6 +87,32 @@ RENAMED_PAGE_RULES = {
 
 SPECIAL_REDIRECTS = [
     ("blog/ai-image-expression-prompts-urdu-guide", "/guides/ai-image-expression-prompts-urdu-guide/"),
+]
+
+MANUAL_LEGACY_REDIRECTS = [
+    ("ریڈ-سی-وی-اور-پرپلکسٹی-ایک-نیا-ڈیجیٹل-آ", "/blog/red-cv-and-perplexity-a-new-digital-beginning/"),
+    ("اے-آئی-اب-آپ-کی-زبان-بولے-گی", "/blog/does-omnilingual-asr-understand-your-language-too-over-1600-languages-now-in-one-system/"),
+    ("اے-آئی-سے-بات-کرنے-کے-طریقے", "/blog/chatgpt-complete-urdu-guide/"),
+    ("اے-آئی-سے-اعلی-معیار-کی-تصاویر-کیسے-بنوا", "/blog/best-ai-image-generators-urdu-guide/"),
+    ("چیٹ-جی-پی-ٹی-کی-نئی-اپڈیٹس", "/blog/chatgpt-complete-urdu-guide/"),
+    ("اے-آئی-کے-نئے-ٹولز", "/blog/12-best-ai-tools-that-make-work-faster-and-easier/"),
+    ("اے-آئی-کے-دور-میں-بچوں-کی-تعلیم", "/blog/ai-and-children-education-training-and-a-bright-future/"),
+    ("اے-آئی-ٹولز-اور-پروسیس", "/blog/12-best-ai-tools-that-make-work-faster-and-easier/"),
+    ("اے-آئی-کے-ذریعے-کیسے-نوکریوں-کے-لئے-اپلا", "/how-to/how-to-write-cv-with-chatgpt/"),
+    ("اے-آئی-کے-ذریعے-نوکری-کے-لئے-کیسے-اپلائی", "/how-to/how-to-write-cv-with-chatgpt/"),
+    ("وٹزایپ-میں-میٹا-اے-آئی-کو-کیسے-استعمال-ک", "/blog/whatsapp-bringing-new-change-to-meta-ai-chatbot/"),
+    ("اردو-اےآئی-سے-لکھ-اور-بول-کربات-کریں۔", "/blog/chatgpt-for-urdu-ai-writers/"),
+    ("سورا-آگیا-ہے-کیا-آپ-تیار-ہیں؟", "/blog/sora-is-launched/"),
+    ("class", "/courses/masterclass/"),
+    ("gpt", "/chat/"),
+    ("elementor-453", "/learn/artificial-intelligence/"),
+    ("elementor-551", "/blog/chat-gpt-health-who-is-it-for-and-how-does-it-work/"),
+    ("openais-new-model-gpt-4-1-when-writing-code-was-also-entrusted-to-ai", "/blog/the-arrival-of-gpt-4-1-a-new-era-of-programming/"),
+    ("کو-پائلیٹ-کیسے-مدد-کریگا", "/blog/urdu-ai-interview-with-copilot/"),
+    ("اے-آئی-کے-ذریعے-اپنے-پیسے-واپس-لئے", "/blog/will-the-subscription-service-for-the-meta-ai-chatbot-be-successful/"),
+    ("میٹا-اے-آئی-کے-بنیادی-کورسزکی-تیسری-کلا", "/blog/meta-and-artificial-intelligence/"),
+    ("میٹا-اے-آئی-کے-بنیادی-کورسزکی-دوسری-کلا", "/blog/meta-and-artificial-intelligence/"),
+    ("ایلون-مسک-کی-انقلابی-ایجادات۔", "/blog/post-2594/"),
 ]
 
 
@@ -169,7 +195,8 @@ def write_redirects() -> tuple[int, int]:
         *GENERIC_RULES,
         "",
         "# WordPress tag archives — redirect to blog",
-        "/tag/gemini-ai/ /learn/google-gemini/ 301",
+        "/tag/gemini-ai/ /tag/gemini-ai/ 200",
+        "/tag/google-ai-studio/ /tag/google-ai-studio/ 200",
         "/tag/google-gemini/ /learn/google-gemini/ 301",
         "/tag/* /blog/ 301",
         "",
@@ -180,6 +207,9 @@ def write_redirects() -> tuple[int, int]:
         "",
         "# Special canonical moves",
         *(format_rule(source, target) for source, target in SPECIAL_REDIRECTS),
+        "",
+        "# Manual high-volume legacy redirects",
+        *(format_rule(source, target) for source, target in MANUAL_LEGACY_REDIRECTS),
         "",
         "# Renamed static pages",
         *(format_rule(source, target) for source, target in page_redirects),
@@ -199,6 +229,9 @@ def write_redirects() -> tuple[int, int]:
         "",
         "# Special canonical moves",
         *(format_redirect_match(source, target) for source, target in SPECIAL_REDIRECTS),
+        "",
+        "# Manual high-volume legacy redirects",
+        *(format_the_request_rewrite(quote(source), target) for source, target in MANUAL_LEGACY_REDIRECTS),
         "",
         "# Mapped content slugs",
         *(format_the_request_rewrite(source, target) for source, target in content_redirects),

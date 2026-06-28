@@ -17,7 +17,7 @@ draft: false
 ## پرپلیکسٹی کروم ایکسٹینشن ایک متبادل جو فرق پیدا کرتا ہے
 
 
-پرپلیکسٹی کروم ایکسٹینشن ایک ایسا ٹول ہے جو صرف خلاصہ بنانے والا سادہ بٹن ہی نہیں، بلکہ اے آئی پر مبنی [سرچ اور مواد تجزیے](https://urduai.org/ai-video-search-at-your-fingertips-is-your-privacy-protected/) کے لیے ایک مکمل نظام بن چکا ہے۔ اگر آپ یہ جاننا چاہتے ہیں کہ ویب پیج کا خلاصہ کیسے بنایا جائے؟ تو پرپلیکسٹی صرف ایک کلک میں یہ کام کر دیتا ہے۔
+پرپلیکسٹی کروم ایکسٹینشن ایک ایسا ٹول ہے جو صرف خلاصہ بنانے والا سادہ بٹن ہی نہیں، بلکہ اے آئی پر مبنی [سرچ اور مواد تجزیے](/blog/ai-video-search-at-your-fingertips-is-your-privacy-protected/) کے لیے ایک مکمل نظام بن چکا ہے۔ اگر آپ یہ جاننا چاہتے ہیں کہ ویب پیج کا خلاصہ کیسے بنایا جائے؟ تو پرپلیکسٹی صرف ایک کلک میں یہ کام کر دیتا ہے۔
 
 ## ویب پیج کا خلاصہ ایک کلک پر
 
@@ -51,22 +51,22 @@ draft: false
     -
 
 
-[اے آئی کو اپنائیں، ترقی کی جانب بڑھیں](https://urduai.org/%d8%a7%db%92-%d8%a2%d8%a6%db%8c-%da%a9%d9%88-%d8%a7%d9%be%d9%86%d8%a7%d8%a6%db%8c%da%ba%d8%8c-%d8%aa%d8%b1%d9%82%db%8c-%da%a9%db%8c-%d8%ac%d8%a7%d9%86%d8%a8-%d8%a8%da%91%da%be%db%8c%da%ba/)
+[اے آئی کو اپنائیں، ترقی کی جانب بڑھیں](/blog/post-2820/)
 
     -
 
 
-[اے آئی ویڈیو سرچ اور پرائیویسی](https://urduai.org/ai-video-search-at-your-fingertips-is-your-privacy-protected/)
+[اے آئی ویڈیو سرچ اور پرائیویسی](/blog/ai-video-search-at-your-fingertips-is-your-privacy-protected/)
 
     -
 
 
-[TripAdvisor سے Perplexity کا نیا فیچر](https://urduai.org/perplexity-will-now-show-hotel-information-from-tripadvisor/)
+[TripAdvisor سے Perplexity کا نیا فیچر](/blog/perplexity-will-now-show-hotel-information-from-tripadvisor/)
 
     -
 
 
-[Veo 2 کے ذریعے ویڈیو تخلیق](https://urduai.org/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/)
+[Veo 2 کے ذریعے ویڈیو تخلیق](/blog/the-magic-of-veo-2-a-new-way-to-create-videos-in-gemini-and-whisk/)
 
 ## لغت میں اور پڑھیں
 

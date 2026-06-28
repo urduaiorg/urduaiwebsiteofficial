@@ -20,7 +20,7 @@ draft: false
 پہلا قدم یہ ہے کہ آپ اپنے براؤزر میں جائیں اور درج ذیل ویب سائٹ اوپن کریں:
 
 
-**[Urdu AI Website](https://urduai.org/urduai-chatgpt/)**
+**[Urdu AI Website](/chat/)**
 
 
 یہاں آپ کو اردو اے آئی کا آفیشل چیٹ بوٹ ملے گا جو آپ کی رہنمائی کرے گا۔
