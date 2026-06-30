@@ -4,7 +4,7 @@ description: "گوگل نے نوٹ بک ایل ایم میں مختصر عمود
 date: 2026-06-30
 last_updated: 2026-06-30
 category: "اے آئی اپڈیٹ"
-image: "/images/blog/notebooklm-google-use-cases-urdu-ai.jpg"
+image: "/images/blog/google-notebooklm-short-video-overviews-gemini-omni-flash.jpg"
 author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
