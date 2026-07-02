@@ -9,7 +9,7 @@ tags:
   - Fable 5
   - AI Models
   - Coding
-image: "/images/tools/claude.png"
+image: "/images/blog/claude-fable-5-restored-after-us-export-ban-urdu.png"
 author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
