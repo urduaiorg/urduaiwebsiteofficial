@@ -9,7 +9,7 @@ tags:
   - Muse Video
   - AI image generation
   - AI video
-image: "/images/blog/meta-muse-image-video-urdu.svg"
+image: "/images/blog/meta-muse-image-video-msl-urdu.jpg"
 author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
