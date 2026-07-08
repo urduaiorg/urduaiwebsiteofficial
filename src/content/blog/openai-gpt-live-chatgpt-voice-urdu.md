@@ -9,7 +9,7 @@ tags:
   - GPT-Live
   - Voice AI
   - AI assistant
-image: "/images/blog/openai-gpt-live-chatgpt-voice-urdu.svg"
+image: "/images/blog/openai-gpt-live-chatgpt-voice-urdu.png"
 author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
