@@ -1,6 +1,6 @@
 ---
-title: "میٹا نے Muse Image لانچ اور Muse Video کا preview دکھا دیا"
-description: "میٹا نے Muse Image اور Muse Video متعارف کرا دیے۔ جانیے یہ image generation، video، audio، watermarking اور creators کے لیے کیوں اہم ہیں۔"
+title: "میٹا کا Muse Image آگیا، Muse Video کا preview بھی سامنے آ گیا"
+description: "7 جولائی 2026 کو میٹا نے Muse Image متعارف کرایا اور Muse Video کا preview دکھایا۔ جانیے limited rollout، Instagram photos، privacy اور creators کے لیے اس کے کیا معنی ہیں۔"
 date: 2026-07-07
 category: "اے آئی اپڈیٹ"
 tags:
@@ -27,7 +27,7 @@ faq:
     answer: "Content Seal میٹا کا invisible watermarking system ہے جو Muse Image سے بنی تصاویر میں hidden provenance signal شامل کرتا ہے تاکہ بعد میں پتہ چل سکے کہ تصویر Meta AI سے بنی تھی۔"
 ---
 
-میٹا نے 7 جولائی 2026 کو Muse Image لانچ کیا اور Muse Video کا early preview دکھایا۔ Muse Image میٹا کا نیا تصویر سازی ماڈل ہے جو پرامپٹ کو بہتر طریقے سے سمجھتا، تصاویر edit کرتا، کئی reference images کو ملا کر نئی تصویر بناتا، اور بعض کاموں میں search یا coding tools استعمال کر کے زیادہ درست نتیجہ دینے کی کوشش کرتا ہے۔ Muse Video ابھی مکمل طور پر عام دستیاب نہیں، مگر میٹا کے مطابق یہ native audio support کے ساتھ ویڈیو بنانے کی سمت اہم قدم ہے۔
+میٹا نے 7 جولائی 2026 کو Muse Image لانچ کیا اور Muse Video کا early preview دکھایا۔ Muse Image میٹا کا نیا تصویر سازی ماڈل ہے جو پرامپٹ کو بہتر طریقے سے سمجھتا، تصاویر edit کرتا، کئی reference images کو ملا کر نئی تصویر بناتا، اور بعض کاموں میں search یا coding tools استعمال کر کے زیادہ درست نتیجہ دینے کی کوشش کرتا ہے۔ سب سے نمایاں بات یہ ہے کہ یہ Meta AI app، meta.ai، امریکہ میں Instagram Stories اور چند محدود ممالک میں WhatsApp تک پہنچ رہا ہے، جبکہ public Instagram photos کے استعمال کی وجہ سے privacy پر بحث بھی شروع ہو گئی ہے۔
 
 یہ خبر صرف ایک اور image generator کی خبر نہیں۔ یہ اس بات کا اشارہ ہے کہ میٹا اب تصویر، ویڈیو، آواز، انسٹاگرام context، واٹس ایپ، فیس بک اور Meta AI کو ایک بڑے تخلیقی نظام میں جوڑنا چاہتا ہے۔ اردو اے آئی کے قارئین کے لیے اصل سوال یہ ہے کہ عام creator، چھوٹا کاروبار، استاد، freelancer یا طالب علم اس تبدیلی سے کیا سمجھیں؟
 
@@ -38,6 +38,8 @@ faq:
 Muse Video کے بارے میں میٹا نے زیادہ محتاط زبان استعمال کی ہے۔ یہ ابھی preview ہے، مکمل public launch نہیں۔ میٹا کے مطابق Muse Video creators اور Meta AI میں soon آئے گا، اور اس میں visual fidelity، temporal consistency، prompt adherence اور native audio support پر کام کیا جا رہا ہے۔
 
 سرکاری اعلان یہاں ہے: [Introducing Muse Image and Muse Video](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/)
+
+اس اعلان کی دوسری اہم تصدیق ٹیک کرنچ اور دی ورج کی reporting سے بھی ہوتی ہے، جنہوں نے خاص طور پر اس نکتے پر توجہ دی کہ Muse Image public Instagram accounts کو `@` mention کر کے visual context لے سکتا ہے۔ یعنی یہ خبر صرف "نیا image generator" نہیں بلکہ social media identity اور AI creation کے ملاپ کی خبر بھی ہے۔
 
 ## Muse Image کیا نیا کرتا ہے؟
 
@@ -101,11 +103,13 @@ Muse Video ابھی preview ہے، مگر میٹا کے مطابق یہ text-to-
 
 لیکن ایک احتیاط ضروری ہے۔ اگر آپ client، brand یا public campaign کے لیے AI image استعمال کر رہے ہیں تو final image کو لازماً human review سے گزاریں۔ text، logo، چہرے، cultural symbols، map، medicine، politics یا legal claims میں AI سے غلطی ہو سکتی ہے۔
 
-## Instagram context کا مطلب کیا ہے؟
+## public Instagram photos والا سوال کیوں اٹھا؟
 
 میٹا نے کہا ہے کہ Muse Image Instagram سے social context بھی لے سکتا ہے۔ اس کا مطلب یہ ہے کہ Meta ecosystem کے اندر public Instagram content، trends، visual styles اور social references image generation میں کردار ادا کر سکتے ہیں۔
 
-یہ creators کے لیے طاقتور فیچر بن سکتا ہے، مگر privacy اور consent کے سوال بھی اٹھاتا ہے۔ اگر public Instagram accounts یا @mentions generation میں استعمال ہوں گے تو brands، influencers اور عام users کو سمجھنا ہوگا کہ ان کا public visual identity AI tools میں کیسے reflect ہو سکتی ہے۔
+دی ورج کے مطابق users prompts میں public Instagram accounts کو `@` mention کر سکتے ہیں، اور Meta کے اپنے الفاظ میں اس سے Meta AI "public photos" سے visual بنا سکتا ہے۔ ٹیک کرنچ نے بھی اسی پہلو کو سب سے زیادہ متنازع نکتہ قرار دیا کیونکہ عام صارف شاید یہ نہ سمجھے کہ public account ہونے کا مطلب AI-generated visuals میں شامل ہو جانا بھی ہو سکتا ہے۔
+
+یہ creators کے لیے طاقتور فیچر بن سکتا ہے، مگر privacy اور consent کے سوال بھی اٹھاتا ہے۔ اگر public Instagram accounts یا @mentions generation میں استعمال ہوں گے تو brands، influencers اور عام users کو سمجھنا ہوگا کہ ان کا public visual identity AI tools میں کیسے reflect ہو سکتی ہے۔ میٹا کہتا ہے کہ Instagram پر content reuse controls موجود ہیں، لیکن practical سطح پر بہت سے users کو یہ settings پہلے سے معلوم نہیں ہوتیں۔
 
 اردو AI کے قارئین کے لیے آسان اصول یہ ہے: public ہونے کا مطلب یہ نہیں کہ ہر استعمال اخلاقی طور پر ٹھیک ہے۔ اگر آپ کسی شخص، brand یا community کی visual identity استعمال کر رہے ہیں تو اجازت، context اور fairness کا خیال رکھیں۔
 
@@ -156,5 +160,8 @@ Muse Image اور Muse Video سے واضح ہے کہ میٹا AI کو social med
 
 - [Meta AI: Introducing Muse Image and Muse Video](https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/)
 - [Meta AI](https://www.meta.ai/)
+- [Meta Newsroom: Introducing Muse Image](https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/)
+- [The Verge: Meta’s new Muse Image model can pull other Instagram users into AI photos](https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram)
+- [TechCrunch: Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos](https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/)
 - [جینریٹو اے آئی کیا ہے؟](/learn/generative-ai/)
 - [ملٹی موڈل اے آئی کیا ہے؟](/learn/multimodal-ai/)
