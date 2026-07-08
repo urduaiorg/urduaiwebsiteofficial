@@ -9,13 +9,12 @@ tags:
   - اے آئی کوڈنگ
   - پرامپٹ انجینیئرنگ
 image: /images/blog/google-ai-studio-android-app-builder.png
-author: قیصر رونجھا
+author: اردو اے آئی ٹیم
 adsense: true
 draft: false
 tools:
   - Google AI Studio
   - Gemini
-last_updated: 2026-07-07
 faq:
   - question: کیا گوگل اے آئی اسٹوڈیو سے واقعی اینڈرائیڈ ایپ بن سکتی ہے؟
     answer: جی ہاں۔ گوگل کی سرکاری دستاویزات کے مطابق گوگل اے آئی اسٹوڈیو میں قدرتی زبان کے پرامپٹ سے Kotlin اور Jetpack Compose پر مبنی نیٹو اینڈرائیڈ پروجیکٹ بن سکتا ہے۔
@@ -25,6 +24,7 @@ faq:
     answer: جی ہاں۔ Chrome یا Edge، USB کیبل، Developer Options اور USB debugging کے ذریعے AI Studio سے APK فون پر انسٹال کیا جا سکتا ہے۔
   - question: کیا یہ طریقہ Play Store پر ایپ شائع کرنے کے لیے کافی ہے؟
     answer: ٹیسٹنگ کے لیے اچھا ہے، مگر عوامی لانچ سے پہلے ایپ کی پالیسی، پرائیویسی، ڈیزائن، سیکیورٹی اور اصل ڈیوائس ٹیسٹنگ لازمی کریں۔
+last_updated: 2026-07-07
 ---
 
 گوگل اے آئی اسٹوڈیو (Google AI Studio) سے اینڈرائیڈ ایپ بنانا اب ابتدائی صارف کے لیے بھی ممکن ہے: آپ اپنا آئیڈیا عام زبان میں لکھتے ہیں، اے آئی Kotlin اور Jetpack Compose کا پروجیکٹ بناتا ہے، براؤزر میں ایپ دکھاتا ہے، اور پھر آپ اسے اپنے اینڈرائیڈ فون پر ٹیسٹ کر سکتے ہیں۔
