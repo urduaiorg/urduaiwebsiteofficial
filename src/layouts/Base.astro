@@ -149,13 +149,77 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       gtag('config', 'G-CW98PY3REY');
     </script>
 
-    <!-- AdSense — loads ONLY when adsense: true in frontmatter -->
+    <!-- AdSense — loads ONLY when adsense: true in frontmatter, except constrained in-app browsers -->
     {adsense && (
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532451951782012"
-        crossorigin="anonymous"
-      ></script>
+      <script>
+        window.urduAiAdsDisabled = /FBAN|FBAV|FB_IAB|Instagram/i.test(navigator.userAgent);
+
+        if (!window.urduAiAdsDisabled) {
+          const adsenseScript = document.createElement('script');
+          adsenseScript.async = true;
+          adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532451951782012';
+          adsenseScript.crossOrigin = 'anonymous';
+          document.head.appendChild(adsenseScript);
+        }
+      </script>
+    )}
+    {adsense && (
+      <script>
+        window.urduAiPushSingleAd = function (slot) {
+          if (!slot) return;
+          if (window.urduAiAdsDisabled) {
+            slot.dataset.urduAiAdState = 'skipped-in-app-browser';
+            return;
+          }
+
+          const state = slot.dataset.urduAiAdState;
+          if (state === 'pushed' || state === 'skipped-hidden' || state === 'error') return;
+
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+            slot.dataset.urduAiAdState = 'pushed';
+          } catch (error) {
+            slot.dataset.urduAiAdState = 'error';
+            console.warn('AdSense slot skipped:', error?.message || error);
+          }
+        };
+
+        window.urduAiPushAds = function () {
+          if (!window.urduAiAdTargets) {
+            window.urduAiAdTargets = new WeakMap();
+          }
+
+          if (!window.urduAiAdObserver && 'IntersectionObserver' in window) {
+            window.urduAiAdObserver = new IntersectionObserver((entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+
+                const slot = window.urduAiAdTargets.get(entry.target);
+                window.urduAiAdObserver.unobserve(entry.target);
+                window.urduAiPushSingleAd(slot);
+              });
+            }, { rootMargin: '600px 0px' });
+          }
+
+          document.querySelectorAll('.adsbygoogle:not([data-urdu-ai-ad-state])').forEach((slot) => {
+            const container = slot.closest('.ad-slot') || slot;
+            const box = container.getBoundingClientRect();
+            if (box.width < 1 || box.height < 1) {
+              slot.dataset.urduAiAdState = 'skipped-hidden';
+              return;
+            }
+
+            if (window.urduAiAdObserver) {
+              slot.dataset.urduAiAdState = 'waiting';
+              window.urduAiAdTargets.set(container, slot);
+              window.urduAiAdObserver.observe(container);
+              return;
+            }
+
+            window.urduAiPushSingleAd(slot);
+          });
+        };
+      </script>
     )}
   </head>
 
