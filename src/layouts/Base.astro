@@ -149,36 +149,62 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       gtag('config', 'G-CW98PY3REY');
     </script>
 
-    <!-- AdSense — loads ONLY when adsense: true in frontmatter, except constrained in-app browsers -->
+    <!-- AdSense — loads ONLY when adsense: true in frontmatter -->
     {adsense && (
       <script>
-        window.urduAiAdsDisabled = /FBAN|FBAV|FB_IAB|Instagram/i.test(navigator.userAgent);
+        window.urduAiAdsInAppBrowser = /FBAN|FBAV|FB_IAB|Instagram/i.test(navigator.userAgent);
 
-        if (!window.urduAiAdsDisabled) {
-          const adsenseScript = document.createElement('script');
-          adsenseScript.async = true;
-          adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532451951782012';
-          adsenseScript.crossOrigin = 'anonymous';
-          document.head.appendChild(adsenseScript);
-        }
+        const adsenseScript = document.createElement('script');
+        adsenseScript.async = true;
+        adsenseScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8532451951782012';
+        adsenseScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsenseScript);
       </script>
     )}
     {adsense && (
       <script>
-        window.urduAiPushSingleAd = function (slot) {
-          if (!slot) return;
-          if (window.urduAiAdsDisabled) {
-            slot.dataset.urduAiAdState = 'skipped-in-app-browser';
+        window.urduAiRetryAdSlot = function (slot, reason) {
+          const attempts = Number(slot.dataset.urduAiAdAttempts || '0');
+          const maxAttempts = window.urduAiAdsInAppBrowser ? 10 : 4;
+
+          if (attempts >= maxAttempts) {
+            slot.dataset.urduAiAdState = `skipped-${reason || 'unavailable'}`;
             return;
           }
 
+          slot.dataset.urduAiAdAttempts = String(attempts + 1);
+          slot.dataset.urduAiAdState = 'retrying';
+          window.setTimeout(() => {
+            delete slot.dataset.urduAiAdState;
+            window.urduAiPushSingleAd(slot);
+          }, window.urduAiAdsInAppBrowser ? 900 : 500);
+        };
+
+        window.urduAiPushSingleAd = function (slot) {
+          if (!slot) return;
+
           const state = slot.dataset.urduAiAdState;
-          if (state === 'pushed' || state === 'skipped-hidden' || state === 'error') return;
+          if (state === 'pushed' || state?.startsWith('skipped') || state === 'error') return;
+
+          const container = slot.closest('.ad-slot') || slot;
+          const slotBox = slot.getBoundingClientRect();
+          const containerBox = container.getBoundingClientRect();
+          const availableWidth = Math.max(slotBox.width, containerBox.width);
+
+          if (availableWidth < 160) {
+            window.urduAiRetryAdSlot(slot, 'no-width');
+            return;
+          }
 
           try {
             (window.adsbygoogle = window.adsbygoogle || []).push({});
             slot.dataset.urduAiAdState = 'pushed';
           } catch (error) {
+            if (/slot size|availableWidth|No slot/i.test(error?.message || '')) {
+              window.urduAiRetryAdSlot(slot, 'slot-size');
+              return;
+            }
+
             slot.dataset.urduAiAdState = 'error';
             console.warn('AdSense slot skipped:', error?.message || error);
           }
@@ -205,7 +231,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             const container = slot.closest('.ad-slot') || slot;
             const box = container.getBoundingClientRect();
             if (box.width < 1 || box.height < 1) {
-              slot.dataset.urduAiAdState = 'skipped-hidden';
+              window.urduAiRetryAdSlot(slot, 'hidden');
               return;
             }
 
