@@ -1,33 +1,33 @@
 ---
-title: "اوپن اے آئی کا GPT-Live آیا: ChatGPT Voice اب زیادہ فطری"
-description: "8 جولائی 2026 کو اوپن اے آئی نے GPT-Live لانچ کیا۔ جانیے ChatGPT Voice میں فطری گفتگو، فری اور paid users کی دستیابی، اور موجودہ حدود کیا ہیں۔"
+title: 'اوپن اے آئی کا GPT-Live آیا: ChatGPT Voice اب زیادہ فطری'
+description: 8 جولائی 2026 کو اوپن اے آئی نے GPT-Live لانچ کیا۔ جانیے ChatGPT Voice میں فطری گفتگو، فری اور paid users کی دستیابی، اور موجودہ حدود کیا ہیں۔
 date: 2026-07-08
-category: "اے آئی اپڈیٹ"
+category: اے آئی اپڈیٹ
 tags:
   - OpenAI
   - ChatGPT
   - GPT-Live
   - Voice AI
   - AI Assistant
-image: "/images/blog/openai-gpt-live-chatgpt-voice-urdu.png"
-author: "اردو اے آئی ٹیم"
+image: /images/blog/741447182_1843322103716590_5546552052399341952_n.png.jpeg
+author: اردو اے آئی ٹیم
 adsense: true
 draft: false
 tools:
-  - "ChatGPT"
-  - "GPT-Live"
-last_updated: 2026-07-08
+  - ChatGPT
+  - GPT-Live
 faq:
-  - question: "GPT-Live کیا ہے؟"
-    answer: "GPT-Live اوپن اے آئی کا نیا voice system ہے جو ChatGPT Voice کو زیادہ فطری، کم مداخلت کرنے والا، اور مسلسل گفتگو کے لیے بہتر بناتا ہے۔"
-  - question: "کیا GPT-Live فری صارفین کو بھی ملے گا؟"
-    answer: "جی ہاں۔ اوپن اے آئی کے مطابق GPT-Live-1 mini فری صارفین کے لیے اور GPT-Live-1 paid صارفین کے لیے rollout ہو رہا ہے۔"
-  - question: "کیا یہ پاکستان میں دستیاب ہے؟"
-    answer: "اوپن اے آئی نے اسے chatgpt.com اور iOS/Android apps کے supported regions میں rollout کہا ہے۔ پاکستان کا الگ نام نہیں دیا گیا، اس لیے app میں دستیابی اپنے account پر چیک کریں۔"
-  - question: "کیا GPT-Live میں video یا screen sharing بھی ہے؟"
-    answer: "نہیں۔ لانچ کے وقت GPT-Live video اور screen sharing کو support نہیں کرتا۔ اوپن اے آئی کے مطابق eligible subscribers یہ کام ابھی Advanced Voice Mode میں کر سکتے ہیں۔"
-  - question: "عام صارف کے لیے سب سے بڑا فائدہ کیا ہے؟"
-    answer: "اس کا بڑا فائدہ یہ ہے کہ AI کے ساتھ بات زیادہ قدرتی لگتی ہے۔ آپ pause لے سکتے ہیں، بیچ میں سوال کر سکتے ہیں، اور کچھ کاموں میں ہاتھ آزاد رکھ کر سیکھ یا planning کر سکتے ہیں۔"
+  - question: GPT-Live کیا ہے؟
+    answer: GPT-Live اوپن اے آئی کا نیا voice system ہے جو ChatGPT Voice کو زیادہ فطری، کم مداخلت کرنے والا، اور مسلسل گفتگو کے لیے بہتر بناتا ہے۔
+  - question: کیا GPT-Live فری صارفین کو بھی ملے گا؟
+    answer: جی ہاں۔ اوپن اے آئی کے مطابق GPT-Live-1 mini فری صارفین کے لیے اور GPT-Live-1 paid صارفین کے لیے rollout ہو رہا ہے۔
+  - question: کیا یہ پاکستان میں دستیاب ہے؟
+    answer: اوپن اے آئی نے اسے chatgpt.com اور iOS/Android apps کے supported regions میں rollout کہا ہے۔ پاکستان کا الگ نام نہیں دیا گیا، اس لیے app میں دستیابی اپنے account پر چیک کریں۔
+  - question: کیا GPT-Live میں video یا screen sharing بھی ہے؟
+    answer: نہیں۔ لانچ کے وقت GPT-Live video اور screen sharing کو support نہیں کرتا۔ اوپن اے آئی کے مطابق eligible subscribers یہ کام ابھی Advanced Voice Mode میں کر سکتے ہیں۔
+  - question: عام صارف کے لیے سب سے بڑا فائدہ کیا ہے؟
+    answer: اس کا بڑا فائدہ یہ ہے کہ AI کے ساتھ بات زیادہ قدرتی لگتی ہے۔ آپ pause لے سکتے ہیں، بیچ میں سوال کر سکتے ہیں، اور کچھ کاموں میں ہاتھ آزاد رکھ کر سیکھ یا planning کر سکتے ہیں۔
+last_updated: 2026-07-08
 ---
 
 اوپن اے آئی (OpenAI) نے 8 جولائی 2026 کو جی پی ٹی لائیو (GPT-Live) متعارف کرا دیا ہے، جو چیٹ جی پی ٹی وائس (ChatGPT Voice) کے لیے ایک نیا voice system ہے۔ اس اپڈیٹ کی اہم بات یہ ہے کہ اب ChatGPT صرف آپ کے بولنا ختم ہونے کا انتظار نہیں کرے گا، بلکہ بہتر انداز میں سن بھی سکے گا، وقفہ برداشت بھی کرے گا، اور فری صارفین کے لیے GPT-Live-1 mini جبکہ paid صارفین کے لیے GPT-Live-1 رول آؤٹ ہو رہا ہے۔ عام اردو بولنے والے صارف کے لیے اس کا مطلب یہ ہے کہ موبائل پر اے آئی سے بات کرنا پہلے کے مقابلے میں زیادہ قدرتی اور زیادہ عملی ہو سکتا ہے۔
