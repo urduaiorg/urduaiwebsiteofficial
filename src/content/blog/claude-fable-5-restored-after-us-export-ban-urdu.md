@@ -1,6 +1,6 @@
 ---
 title: "کلاڈ فیبل 5 واپس آ گیا: پابندی ختم، استعمال کیسے کریں؟"
-description: "کلاڈ فیبل 5 پر امریکی ایکسپورٹ کنٹرول ختم ہو گئے ہیں۔ جانیں یہ کہاں دستیاب ہے، کب تک شامل رہے گا، اور کس کام میں فائدہ دے سکتا ہے۔"
+description: "کلاڈ فیبل 5 دستیاب ہے، لیکن 12 جولائی 2026 کے بعد paid users کے لیے usage credits اور standard pricing لاگو ہو گی۔ جانیں اصل خرچ کیسے بدلے گا۔"
 date: 2026-07-02
 category: "اے آئی اپڈیٹ"
 tags:
@@ -21,17 +21,17 @@ faq:
   - question: "کلاڈ فیبل 5 کہاں استعمال ہو سکتا ہے؟"
     answer: "Anthropic کے مطابق یہ Claude Platform، Claude.ai، Claude Code اور Claude Cowork پر دستیاب ہے۔ AWS، Google Cloud اور Microsoft Foundry پر رسائی بتدریج بحال کی جا رہی ہے۔"
   - question: "کیا کلاڈ فیبل 5 مفت ہے؟"
-    answer: "یہ مکمل مفت ماڈل نہیں۔ Pro، Max، Team اور منتخب Enterprise plans میں 7 جولائی 2026 تک weekly limits کے 50 فیصد تک شامل استعمال دیا گیا ہے، اس کے بعد usage credits درکار ہوں گے۔"
+    answer: "یہ مکمل مفت ماڈل نہیں۔ Pro، Max، Team اور کچھ Enterprise plans میں 12 جولائی 2026 رات 11:59 PT تک promotional included access ہے، اس کے بعد usage credits اور standard pricing لاگو ہو گی۔"
   - question: "کلاڈ فیبل 5 اور Mythos 5 میں کیا فرق ہے؟"
     answer: "Fable 5 عام صارفین کے لیے حفاظتی پابندیوں کے ساتھ واپس آیا ہے، جبکہ Mythos 5 صرف منظور شدہ امریکی اداروں اور منتخب Glasswing partners کے لیے محدود ہے۔"
   - question: "کیا یہ کوڈنگ کے لیے بہتر ہے؟"
     answer: "Anthropic کے مطابق Fable 5 خاص طور پر لمبے کوڈنگ کاموں، code review، screenshots سے app سمجھنے، research اور document analysis جیسے پیچیدہ کاموں کے لیے بنایا گیا ہے۔"
-last_updated: 2026-07-02
+last_updated: 2026-07-10
 ---
 
-کلاڈ فیبل 5 (Claude Fable 5) پر امریکی ایکسپورٹ کنٹرول 30 جون 2026 کو ختم ہو گئے، اور اینتھروپک (Anthropic) نے 1 جولائی 2026 سے اس ماڈل کی رسائی دوبارہ بحال کر دی۔ اہم بات یہ ہے کہ فیبل 5 اب Claude.ai، Claude Platform، Claude Code اور Claude Cowork پر عالمی صارفین کے لیے واپس آ رہا ہے، لیکن 7 جولائی 2026 کے بعد زیادہ تر paid users کو اسے usage credits کے ذریعے استعمال کرنا ہوگا۔
+10 جولائی 2026 تک کلاڈ فیبل 5 (Claude Fable 5) بدستور دستیاب ہے، لیکن اہم نئی بات یہ ہے کہ paid users کے لیے اس کا promotional included access 12 جولائی 2026 رات 11:59 PT تک محدود ہے۔ اس کے بعد اینتھروپک (Anthropic) usage credits کے ذریعے standard pricing لاگو کرے گا، اور [Claude pricing page](https://claude.com/pricing) کے مطابق Fable 5 کی rate $10 فی ملین input tokens اور $50 فی ملین output tokens ہے۔ عام صارف، فری لانسر اور چھوٹی ٹیم کے لیے اصل سوال اب صرف access نہیں بلکہ خرچ بھی ہے۔
 
-یہ صرف ایک ماڈل کی واپسی نہیں؛ یہ اس بات کی مثال ہے کہ طاقتور اے آئی ماڈلز پر حکومت، کمپنیوں، سائبر سیکیورٹی اور عام صارفین کے درمیان توازن کتنا نازک ہو چکا ہے۔
+یہ صرف ایک ماڈل کی واپسی نہیں؛ یہ اس بات کی بھی مثال ہے کہ frontier اے آئی میں "subscription" اور "pay as you go" اب ایک ساتھ چل سکتے ہیں۔ یعنی آپ کا paid plan برقرار رہ سکتا ہے، لیکن کسی خاص model کے لیے الگ usage bill بھی آ سکتا ہے۔
 
 ## پابندی کیوں لگی تھی؟
 
@@ -43,7 +43,7 @@ last_updated: 2026-07-02
 
 ## اب کیا بدلا ہے؟
 
-اینتھروپک کے آفیشل اعلان کے مطابق 30 جون 2026 کو ایکسپورٹ کنٹرول ختم ہو گئے۔ اس کے بعد فیبل 5 کو نئے safety classifiers کے ساتھ دوبارہ deploy کیا گیا۔
+اینتھروپک کے آفیشل اعلان کے مطابق 30 جون 2026 کو ایکسپورٹ کنٹرول ختم ہو گئے۔ اس کے بعد فیبل 5 کو نئے safety classifiers کے ساتھ دوبارہ deploy کیا گیا، اور 1 جولائی سے اسے Claude.ai، Claude Platform، Claude Code اور Claude Cowork پر واپس لانا شروع کیا گیا۔
 
 یہ classifiers چھوٹے خودکار اے آئی systems ہیں جو یہ دیکھتے ہیں کہ صارف کا سوال خطرناک سائبر کام، exploit code، یا کسی ایسے task کی طرف تو نہیں جا رہا جس سے غلط استعمال کا امکان ہو۔ اگر request مشکوک لگے تو فیبل 5 جواب دینے کے بجائے اسے کلاڈ Opus 4.8 کی طرف route کر سکتا ہے، یا response روک سکتا ہے۔
 
@@ -71,15 +71,28 @@ last_updated: 2026-07-02
 
 یہ distinction اہم ہے۔ ایک freelancer کے لیے اپنے client کے code میں bug ڈھونڈنا جائز اور مفید کام ہے۔ کسی دوسرے کے system میں گھسنے کا طریقہ پوچھنا نقصان دہ کام ہے۔ نئے classifier اسی فرق کو زیادہ سختی سے handle کر رہے ہیں، اس لیے کبھی کبھی جائز request بھی Opus 4.8 پر fallback ہو سکتی ہے۔
 
+## 12 جولائی کے بعد بلنگ کیسے چلے گی؟
+
+یہی وہ حصہ ہے جو زیادہ تر readers کے لیے سب سے اہم ہے۔ اینتھروپک کے [usage credits help article](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans) کے مطابق paid Claude plans میں included limit ختم ہونے کے بعد user usage credits آن کر کے standard API rates پر کام جاری رکھ سکتا ہے۔
+
+Fable 5 کے لیے یہ standard rates اینتھروپک کی pricing page پر واضح درج ہیں:
+
+- input: $10 فی 1 million tokens
+- output: $50 فی 1 million tokens
+
+سادہ لفظوں میں: اگر آپ Fable 5 کو لمبے code review، research mode، بڑی فائلوں یا heavy agent-style کاموں کے لیے استعمال کرتے ہیں تو bill تیزی سے بڑھ سکتا ہے۔ خاص طور پر output cost زیادہ ہے، اس لیے لمبے جواب، iterative debugging اور repeated retries سستا کھیل نہیں۔
+
+یہاں ایک practical detail بھی اہم ہے۔ اگر آپ نے Claude کا paid plan iPhone یا Android app store کے ذریعے لیا ہے تو usage credits کو mobile app سے نہیں، بلکہ web version پر جا کر enable کرنا پڑے گا۔ Help Center کے مطابق spending cap، auto-reload اور alerts بھی وہیں سے control ہوتے ہیں۔ یہ feature useful ہے کیونکہ بغیر حد لگائے usage credits آن کرنا budget کے لیے خطرناک ہو سکتا ہے۔
+
 ## کتنا عرصہ دستیاب رہے گا؟
 
 اس وقت دو الگ باتیں سمجھنی ضروری ہیں۔
 
 پہلی بات: فیبل 5 کی overall availability کے لیے اینتھروپک نے کوئی آخری تاریخ نہیں دی۔ یعنی فی الحال یہ ماڈل واپس آ گیا ہے اور عام access بحال کی جا رہی ہے، جب تک کوئی نئی regulatory یا safety تبدیلی نہ آئے۔
 
-دوسری بات: subscription plans میں شامل promotional access محدود ہے۔ اینتھروپک کے مطابق Pro، Max، Team اور select Enterprise plans میں users 7 جولائی 2026 تک اپنی weekly usage limits کے 50 فیصد تک فیبل 5 استعمال کر سکتے ہیں۔ اس کے بعد فیبل 5 usage credits کے ذریعے دستیاب ہوگا۔ Standard Enterprise seats کے لیے included allowance نہیں، جب تک credits enabled نہ ہوں۔
+دوسری بات: subscription plans میں شامل promotional access محدود ہے۔ تازہ reporting کے مطابق Pro، Max، Team اور کچھ Enterprise plans میں users 12 جولائی 2026 رات 11:59 PT تک اپنی موجودہ limits کے اندر Fable 5 استعمال کر سکتے ہیں۔ اس کے بعد فیبل 5 usage credits کے ذریعے دستیاب ہوگا۔ Standard Enterprise seats کے لیے included allowance الگ policy کے تحت ہو سکتا ہے، اس لیے account-level billing ضرور چیک کریں۔
 
-سادہ الفاظ میں: ماڈل ختم نہیں ہو رہا، لیکن 7 جولائی کے بعد اسے استعمال کرنے کا طریقہ اور cost بدل سکتی ہے۔
+سادہ الفاظ میں: ماڈل ختم نہیں ہو رہا، لیکن 12 جولائی کے بعد اسے استعمال کرنے کا طریقہ اور cost بدل جائے گی۔
 
 ## کلاڈ فیبل 5 کہاں دستیاب ہے؟
 
@@ -100,11 +113,11 @@ AWS، Google Cloud اور Microsoft Foundry پر access بحال کرنے کا �
 
 ## پاکستانی users کے لیے practical فیصلہ
 
-اگر آپ طالب علم ہیں، teacher ہیں، یا عام writing کے لیے اے آئی استعمال کرتے ہیں تو فیبل 5 کے پیچھے بھاگنا ضروری نہیں۔ آپ پہلے Claude کے عام models، ChatGPT، Gemini یا دوسرے accessible tools سے کام لے سکتے ہیں۔
+اگر آپ طالب علم ہیں، teacher ہیں، یا عام writing کے لیے اے آئی استعمال کرتے ہیں تو فیبل 5 کے پیچھے بھاگنا ضروری نہیں۔ پہلے یہ سمجھیں کہ [اے آئی ایجنٹ](/learn/ai-agent/) اور [لارج لینگویج ماڈل](/learn/large-language-model/) اصل میں کہاں فائدہ دیتے ہیں۔ بہت سے روزمرہ کام Sonnet، ChatGPT، Gemini یا دوسرے accessible tools سے بھی ہو جاتے ہیں۔
 
 اگر آپ developer، freelancer، startup founder، researcher یا automation builder ہیں تو فیبل 5 test کرنے کے قابل ہے۔ خاص طور پر اس وقت جب آپ کے پاس ایسا task ہو جس میں code، documents، screenshots، data tables یا کئی دنوں کا project planning context شامل ہو۔
 
-لیکن paid usage شروع کرنے سے پہلے تین چیزیں دیکھیں: آپ کے account میں model available ہے یا نہیں، آپ کا plan promotional limit میں آتا ہے یا نہیں، اور 7 جولائی کے بعد usage credits کی cost آپ کے کام کے حساب سے reasonable ہے یا نہیں۔
+لیکن paid usage شروع کرنے سے پہلے تین چیزیں دیکھیں: آپ کے account میں model available ہے یا نہیں، آپ کا plan promotional limit میں آتا ہے یا نہیں، اور 12 جولائی کے بعد usage credits کی cost آپ کے کام کے حساب سے واقعی مناسب ہے یا نہیں۔ اگر آپ کو صرف occasional help چاہیے تو Claude کے نسبتاً سستے models یا [کلاڈ اے آئی](/learn/claude-ai/) کی بنیادی سمجھ زیادہ فائدہ دے سکتی ہے۔
 
 ## ایک آسان پرامپٹ جس سے آپ test کر سکتے ہیں
 
@@ -130,7 +143,7 @@ AWS، Google Cloud اور Microsoft Foundry پر access بحال کرنے کا �
 
 ### کیا یہ مکمل مفت ہے؟
 
-نہیں۔ 7 جولائی 2026 تک کچھ paid plans میں weekly limits کے 50 فیصد تک included access ہے۔ اس کے بعد usage credits کی ضرورت ہوگی۔
+نہیں۔ 12 جولائی 2026 رات 11:59 PT تک کچھ paid plans میں promotional included access ہے۔ اس کے بعد usage credits اور standard pricing لاگو ہوگی۔
 
 ### کیا عام users کو اسے فوراً استعمال کرنا چاہیے؟
 
@@ -147,6 +160,7 @@ Defensive اور جائز code review میں مدد مل سکتی ہے، لیک�
 ## ذرائع
 
 - اینتھروپک: [Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5)
-- اینتھروپک: [Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)
-- اینتھروپک: [Statement on the US government directive](https://www.anthropic.com/news/fable-mythos-access)
-- بزنس انسائیڈر: [Anthropic restores access to Fable 5](https://www.businessinsider.com/anthropic-restores-fable-5-mythos-access-trump-white-house-talks-2026-6)
+- اینتھروپک: [Manage usage credits for paid Claude plans](https://support.claude.com/en/articles/12429409-manage-usage-credits-for-paid-claude-plans)
+- Claude: [Plans & Pricing](https://claude.com/pricing)
+- Times of India: [Claude Fable 5 promotional offer through July 12](https://timesofindia.indiatimes.com/technology/tech-news/anthropic-extends-claude-fable-5-free-offer-till-july-12-eligibility-and-other-details-explained/articleshow/132255396.cms)
+- Wired: [Anthropic Wants You to Pay Up for Claude Fable 5](https://www.wired.com/story/model-behavior-anthropic-will-charge-consumers-extra-to-use-claude-fable-5)
