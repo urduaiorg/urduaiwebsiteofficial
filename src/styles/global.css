@@ -1832,6 +1832,14 @@ img {
   object-fit: cover;
 }
 
+.article-header__cover--contain {
+  background: #03162b;
+}
+
+.article-header__cover--contain .article-header__cover-img {
+  object-fit: contain;
+}
+
 @media (max-width: 768px) {
   .article-header__title {
     font-size: 1.48rem;

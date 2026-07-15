@@ -1,0 +1,479 @@
+/* Long-form downloadable guides adapted from their printable editions. */
+.prose .guide-download-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-md);
+  margin-block: var(--space-lg);
+  padding: var(--space-lg);
+  color: #fff;
+  background: linear-gradient(135deg, #17335f, #1d559f);
+  border: 1px solid rgba(232, 201, 122, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(23, 51, 95, 0.2);
+}
+
+.prose .guide-download-card__icon {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  color: var(--gold-light);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+}
+
+.prose .guide-download-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.prose .guide-download-card__eyebrow {
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+.prose .guide-download-card__title {
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.prose .guide-download-card__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.65rem 1.15rem;
+  color: #17335f;
+  background: var(--gold-light);
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.prose .guide-download-card__button:hover {
+  color: #17335f;
+  background: #f6d98e;
+}
+
+.prose .guide-fact-note {
+  padding: var(--space-sm) var(--space-md);
+  color: var(--ink-soft);
+  background: var(--gold-pale);
+  border-inline-start: 4px solid var(--gold);
+  border-radius: 8px;
+  font-size: 0.88rem;
+}
+
+.download-guide {
+  --guide-blue: #2b4d9e;
+  --guide-navy: #17335f;
+  --guide-yellow: #e8c97a;
+  --guide-line: #dfe5f0;
+  --guide-light: #eef2fa;
+  --guide-green: #3d9660;
+  --guide-orange: #e07b39;
+}
+
+.download-guide .guide-chapter {
+  scroll-margin-top: 5rem;
+  margin-block: var(--space-xl);
+}
+
+.download-guide .guide-chapter-title {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+}
+
+.download-guide .chap-no {
+  flex: none;
+  min-width: 2.25rem;
+  padding: 0.18rem 0.55rem;
+  color: #fff;
+  background: var(--guide-blue);
+  border-radius: 5px;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.download-guide .rule {
+  display: none;
+}
+
+.download-guide .lead {
+  color: var(--ink-soft);
+  font-size: 1.03rem;
+}
+
+.download-guide .en,
+.download-guide a[href^='http'] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.download-guide .tip,
+.download-guide .warn,
+.download-guide .principles,
+.download-guide .checklist {
+  margin-block: var(--space-md);
+  padding: var(--space-md);
+  border-radius: 10px;
+}
+
+.download-guide .tip {
+  background: #eff7f1;
+  border-inline-start: 4px solid var(--guide-green);
+}
+
+.download-guide .warn {
+  background: #fdf2e9;
+  border-inline-start: 4px solid var(--guide-orange);
+}
+
+.download-guide .principles {
+  background: var(--guide-light);
+  border-inline-start: 4px solid var(--guide-blue);
+}
+
+.download-guide .checklist {
+  background: var(--guide-light);
+  border-inline-start: 4px solid var(--gold);
+}
+
+.download-guide :is(.tip, .warn, .principles, .checklist) > .h {
+  margin-block-end: var(--space-xs);
+  color: var(--guide-navy);
+  font-weight: 700;
+}
+
+.download-guide .stats2,
+.download-guide .kv {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-sm);
+  margin-block: var(--space-md);
+}
+
+.download-guide .stat2 {
+  padding: var(--space-md) var(--space-sm);
+  background: var(--guide-light);
+  border: 1px solid #c9d4ea;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.download-guide .stat2 .n {
+  color: var(--guide-blue);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.download-guide .stat2 .c {
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.download-guide .guide-table-scroll {
+  width: 100%;
+  margin-block: var(--space-md);
+  overflow-x: auto;
+  border-radius: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.download-guide .guide-table-scroll table {
+  min-width: 620px;
+  margin-block: 0;
+}
+
+.download-guide table.tbl tr:first-child th {
+  color: #fff;
+  background: var(--guide-navy);
+}
+
+.download-guide .toc {
+  display: grid;
+  gap: 0.2rem;
+  margin-block: var(--space-md);
+}
+
+.download-guide .toc a {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+  padding-block: 0.45rem;
+  color: var(--ink-soft);
+  border-block-end: 1px dotted var(--border-dark);
+  text-decoration: none;
+}
+
+.download-guide .toc .tno {
+  flex: none;
+  padding: 0.05rem 0.45rem;
+  color: #fff;
+  background: var(--guide-blue);
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.download-guide .toc .tno.alt {
+  color: var(--guide-navy);
+  background: var(--guide-yellow);
+}
+
+.download-guide .zone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-block: var(--space-lg) var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  color: #fff;
+  background: var(--guide-navy);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.download-guide .zone .en {
+  color: var(--guide-yellow);
+  font-size: 0.72rem;
+}
+
+.download-guide .guide-prompt-card {
+  margin-block-end: var(--space-md);
+  overflow: hidden;
+  background: var(--paper-card);
+  border: 1px solid #c9d4ea;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(23, 51, 95, 0.05);
+}
+
+.download-guide .guide-prompt-card__head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--guide-light);
+}
+
+.download-guide .guide-prompt-card__number {
+  display: grid;
+  flex: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  place-items: center;
+  color: var(--guide-navy);
+  background: var(--guide-yellow);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.download-guide .guide-prompt-card__title {
+  color: var(--guide-navy);
+  font-weight: 700;
+}
+
+.download-guide .guide-prompt-card__body {
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+}
+
+.download-guide .guide-prompt-card__note {
+  margin-block-start: var(--space-xs);
+  color: var(--ink-muted);
+  font-size: 0.82rem;
+  line-height: 2;
+}
+
+.download-guide .master,
+.download-guide .exhibit,
+.download-guide .kbox,
+.download-guide .social {
+  margin-block: var(--space-md);
+  overflow: hidden;
+  background: var(--paper-card);
+  border: 1px solid #c9d4ea;
+  border-radius: 10px;
+}
+
+.download-guide .master,
+.download-guide .exhibit {
+  padding: var(--space-md);
+}
+
+.download-guide .master > .h,
+.download-guide .exhibit .etitle {
+  color: var(--guide-navy);
+  font-weight: 700;
+}
+
+.download-guide .flow {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-xs);
+  margin-block: var(--space-sm);
+}
+
+.download-guide .step {
+  flex: 1;
+  padding: var(--space-sm);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.download-guide .step b {
+  display: block;
+}
+
+.download-guide .step.s1 {
+  background: var(--guide-light);
+  border: 1px solid #c9d4ea;
+}
+
+.download-guide .step.s2 {
+  background: #dce6f8;
+  border: 1px solid #b3c5e8;
+}
+
+.download-guide .step.s3 {
+  color: #fff;
+  background: var(--guide-navy);
+}
+
+.download-guide .step.s4 {
+  color: #fff;
+  background: var(--guide-blue);
+}
+
+.download-guide .arrow {
+  align-self: center;
+  color: var(--guide-blue);
+  font-weight: 700;
+}
+
+.download-guide .exhibit .label,
+.download-guide .exhibit .foot {
+  color: var(--ink-muted);
+  font-size: 0.8rem;
+}
+
+.download-guide .kbox .kh {
+  padding: var(--space-xs) var(--space-sm);
+  color: #fff;
+  background: var(--guide-navy);
+  font-weight: 700;
+  text-align: center;
+}
+
+.download-guide .kbox .kb {
+  padding: var(--space-sm);
+}
+
+.download-guide .social {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+}
+
+.download-guide .social .ic {
+  display: grid;
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  color: #fff;
+  background: var(--guide-blue);
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.download-guide .social .st {
+  flex: 1;
+}
+
+.download-guide .band {
+  margin-block: var(--space-lg);
+  padding: var(--space-lg);
+  color: #fff;
+  background: var(--guide-blue);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.download-guide .band :is(.dot, .bu) {
+  color: var(--guide-yellow);
+}
+
+.download-guide .band .blogo {
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.download-guide .band .blogo span {
+  color: var(--guide-yellow);
+}
+
+.download-guide .band :is(.bt, .bu) {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .prose .guide-download-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: var(--space-md);
+  }
+
+  .prose .guide-download-card__button {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .download-guide .stats2,
+  .download-guide .kv {
+    grid-template-columns: 1fr;
+  }
+
+  .download-guide .guide-chapter-title {
+    align-items: flex-start;
+  }
+
+  .download-guide .flow {
+    flex-direction: column;
+  }
+
+  .download-guide .arrow {
+    transform: rotate(-90deg);
+  }
+
+  .download-guide .zone,
+  .download-guide .social {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .download-guide .social .st {
+    min-width: calc(100% - 3rem);
+  }
+
+  .download-guide .guide-table-scroll {
+    margin-inline: calc(-1 * var(--space-sm));
+    width: calc(100% + 2 * var(--space-sm));
+  }
+}

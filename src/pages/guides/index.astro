@@ -143,8 +143,14 @@ const guideHubSchema = [
       {guides.map(g => (
         <article class="card">
           {g.data.image && (
-            <img src={g.data.image} alt={g.data.title} width="400" height="225" loading="lazy"
-              style="border-radius:6px; margin-block-end:var(--space-sm);" />
+            <img
+              src={g.data.image}
+              alt={g.data.title}
+              width="400"
+              height="225"
+              loading="lazy"
+              class={`guide-card__image${g.data.image_fit === 'contain' ? ' guide-card__image--contain' : ''}`}
+            />
           )}
           <p class="card__meta">
             <span class="badge badge--teal">{g.data.level}</span>
@@ -170,6 +176,21 @@ const guideHubSchema = [
   </div>
 
   <style>
+    .guide-card__image {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-block-end: var(--space-sm);
+    }
+
+    .guide-card__image--contain {
+      object-fit: contain;
+      background: #03162b;
+    }
+
     .guides-intro {
       max-width: 760px;
       margin-block-end: var(--space-md);
