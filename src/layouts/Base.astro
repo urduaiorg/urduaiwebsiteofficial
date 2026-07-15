@@ -211,6 +211,20 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         };
 
         window.urduAiPushAds = function () {
+          if (window.matchMedia('(max-width: 768px)').matches) {
+            document.querySelectorAll(
+              '.ad-slot--desktop-only .adsbygoogle[data-ad-slot], .article-layout__sidebar .adsbygoogle[data-ad-slot]'
+            ).forEach((slot) => {
+              if (slot.dataset.urduAiAdState === 'pushed') return;
+
+              // AdSense always fills the first unprocessed .adsbygoogle node.
+              // Remove intentionally hidden desktop slots so a visible mobile
+              // in-article push cannot be assigned to a zero-width element.
+              slot.classList.remove('adsbygoogle');
+              slot.dataset.urduAiAdState = 'skipped-responsive';
+            });
+          }
+
           if (!window.urduAiAdTargets) {
             window.urduAiAdTargets = new WeakMap();
           }
@@ -227,7 +241,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             }, { rootMargin: '600px 0px' });
           }
 
-          document.querySelectorAll('.adsbygoogle:not([data-urdu-ai-ad-state])').forEach((slot) => {
+          document.querySelectorAll('.adsbygoogle[data-ad-slot]:not([data-urdu-ai-ad-state])').forEach((slot) => {
             const container = slot.closest('.ad-slot') || slot;
             const box = container.getBoundingClientRect();
             if (box.width < 1 || box.height < 1) {
