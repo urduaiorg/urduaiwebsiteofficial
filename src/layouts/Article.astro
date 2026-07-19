@@ -18,7 +18,7 @@ export interface Props {
   category?: string;
   tags?: string[];
   image?: string;
-  imageFit?: 'cover' | 'contain';
+  imageFit?: 'cover' | 'contain' | 'portrait';
   adsense?: boolean;
   slug: string;
   collection: string; // 'blog' | 'guides' | 'prompts'
@@ -116,8 +116,8 @@ const articleSchema = {
   ...(image ? { "image": {
     "@type": "ImageObject",
     "url": `https://urduai.org${image}`,
-    "width": 860,
-    "height": 480,
+    "width": imageFit === 'portrait' ? 1055 : 860,
+    "height": imageFit === 'portrait' ? 1491 : 480,
   }} : {}),
   // Schema.org mentions — links article to tool entities for AEO
   ...(resolvedTools.length > 0 ? { "mentions": resolvedTools.map(t => ({
@@ -241,7 +241,7 @@ const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(fa
 
     <!-- Cover image card — only for guides & how-to (visual tool reference) -->
     {image && (collection === 'guides' || collection === 'how-to') && (
-      <div class={`article-header__cover${imageFit === 'contain' ? ' article-header__cover--contain' : ''}`}>
+      <div class={`article-header__cover${imageFit === 'contain' ? ' article-header__cover--contain' : ''}${imageFit === 'portrait' ? ' article-header__cover--portrait' : ''}`}>
         <img src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" />
       </div>
     )}

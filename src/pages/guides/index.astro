@@ -149,7 +149,7 @@ const guideHubSchema = [
               width="400"
               height="225"
               loading="lazy"
-              class={`guide-card__image${g.data.image_fit === 'contain' ? ' guide-card__image--contain' : ''}`}
+              class={`guide-card__image${g.data.image_fit === 'contain' ? ' guide-card__image--contain' : ''}${g.data.image_fit === 'portrait' ? ' guide-card__image--portrait' : ''}`}
             />
           )}
           <p class="card__meta">
@@ -187,6 +187,12 @@ const guideHubSchema = [
     }
 
     .guide-card__image--contain {
+      object-fit: contain;
+      background: #03162b;
+    }
+
+    .guide-card__image--portrait {
+      aspect-ratio: 4 / 5;
       object-fit: contain;
       background: #03162b;
     }
