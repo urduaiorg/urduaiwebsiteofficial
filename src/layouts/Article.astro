@@ -18,12 +18,15 @@ export interface Props {
   category?: string;
   tags?: string[];
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   imageFit?: 'cover' | 'contain' | 'portrait';
   adsense?: boolean;
   slug: string;
   collection: string; // 'blog' | 'guides' | 'prompts'
   tools?: string[];
   faq?: { question: string; answer: string }[];
+  howToSteps?: { name: string; text: string }[];
   last_updated?: string;
 }
 
@@ -35,12 +38,15 @@ const {
   category,
   tags = [],
   image,
+  imageWidth,
+  imageHeight,
   imageFit = 'cover',
   adsense = true,
   slug,
   collection,
   tools: toolNames = [],
   faq = [],
+  howToSteps = [],
   last_updated,
 } = Astro.props;
 
@@ -116,8 +122,8 @@ const articleSchema = {
   ...(image ? { "image": {
     "@type": "ImageObject",
     "url": `https://urduai.org${image}`,
-    "width": imageFit === 'portrait' ? 1055 : 860,
-    "height": imageFit === 'portrait' ? 1491 : 480,
+    "width": imageWidth ?? (imageFit === 'portrait' ? 1055 : 860),
+    "height": imageHeight ?? (imageFit === 'portrait' ? 1491 : 480),
   }} : {}),
   // Schema.org mentions — links article to tool entities for AEO
   ...(resolvedTools.length > 0 ? { "mentions": resolvedTools.map(t => ({
@@ -160,6 +166,23 @@ const faqSchema = faq.length > 0 ? {
   })),
 } : null;
 
+// Guide-only HowTo schema. Existing guides opt in through frontmatter steps.
+const howToSchema = collection === 'guides' && howToSteps.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": title,
+  "description": description,
+  "url": canonical,
+  "inLanguage": "ur",
+  ...(image ? { "image": `https://urduai.org${image}` } : {}),
+  "step": howToSteps.map(({ name, text }, index) => ({
+    "@type": "HowToStep",
+    "position": index + 1,
+    "name": name,
+    "text": text,
+  })),
+} : null;
+
 // Breadcrumb schema
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -186,7 +209,13 @@ const breadcrumbSchema = {
   ]
 };
 
-const combinedSchema = [articleSchema, breadcrumbSchema, speakableSchema, ...(faqSchema ? [faqSchema] : [])];
+const combinedSchema = [
+  articleSchema,
+  breadcrumbSchema,
+  speakableSchema,
+  ...(howToSchema ? [howToSchema] : []),
+  ...(faqSchema ? [faqSchema] : []),
+];
 ---
 
 <Base

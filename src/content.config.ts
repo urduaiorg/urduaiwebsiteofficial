@@ -43,6 +43,8 @@ const guides = defineCollection({
     tool: z.string().optional(),
     level: z.enum(['ابتدائی', 'درمیانہ', 'ماہر']).default('ابتدائی'),
     image: z.string().optional(),
+    image_width: z.number().int().positive().optional(),
+    image_height: z.number().int().positive().optional(),
     image_fit: z.enum(['cover', 'contain', 'portrait']).default('cover'),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
@@ -50,6 +52,10 @@ const guides = defineCollection({
     faq: z.array(z.object({
       question: z.string(),
       answer: z.string(),
+    })).optional(),
+    howto_steps: z.array(z.object({
+      name: z.string(),
+      text: z.string(),
     })).optional(),
     last_updated: dateString.optional(),
   }),

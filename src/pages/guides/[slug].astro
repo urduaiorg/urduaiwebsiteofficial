@@ -25,12 +25,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   author={guide.data.author}
   category={guide.data.category}
   image={guide.data.image}
+  imageWidth={guide.data.image_width}
+  imageHeight={guide.data.image_height}
   imageFit={guide.data.image_fit}
   adsense={guide.data.adsense}
   slug={guide.id}
   collection="guides"
   tools={guide.data.tools}
   faq={guide.data.faq}
+  howToSteps={guide.data.howto_steps}
   last_updated={guide.data.last_updated}
 >
   <Content />
