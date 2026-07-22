@@ -8,15 +8,28 @@ const dateString = z.union([
   z.date().transform(d => d.toISOString().slice(0, 10)),
 ]);
 
+// New blog posts use an exact ISO-8601 publication time so the homepage can
+// reliably order multiple articles published on the same day.
+const dateTimeString = z.union([
+  z.string().refine(
+    value => value.includes('T') && !Number.isNaN(Date.parse(value)),
+    { message: 'published_at must be a valid ISO-8601 date-time' },
+  ),
+  z.date().transform(d => d.toISOString()),
+]);
+
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
     date: dateString,
+    published_at: dateTimeString.optional(),
     category: z.string().default('اے آئی اپڈیٹ'),
     tags: z.array(z.string()).default([]),
     image: z.string().optional(),
+    image_width: z.number().int().positive().optional(),
+    image_height: z.number().int().positive().optional(),
     author: z.string().default('قیصر رونجھا'),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),

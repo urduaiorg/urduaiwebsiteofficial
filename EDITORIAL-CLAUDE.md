@@ -22,7 +22,7 @@ Every sentence you write is for this person. Not for Silicon Valley. Not for Eng
 
 **Honest, not cynical.** We tell readers what a tool can do AND what it can't. We mention limitations before they discover them. Trust is the only currency we have.
 
-**Pakistani, not translated.** This is not English content run through Google Translate. We think in Urdu first. Local examples. Local context. A freelancer in Faisalabad, a teacher in Peshawar, a student in Quetta.
+**Pakistani, not translated.** This is not English content run through Google Translate. We think in Urdu first. Use local examples and context when they genuinely clarify the subject; never insert a city or profession merely to make a global story look local.
 
 ---
 
@@ -104,10 +104,10 @@ The difference: the first version has one short sentence, one long sentence with
 Headings are questions the reader would naturally ask — not template labels.
 
 **Good:**
-> ## پاکستان کے لیے کیا مطلب ہے؟
 > ## یہ کیسے کام کرتا ہے؟
 > ## کہاں مفید ثابت ہو سکتا ہے؟
 > ## مفت ٹائر میں کیا ملتا ہے؟
+> ## پاکستان میں قیمت مختلف ہے؟ *(only when the answer is materially different)*
 
 **Bad:**
 > ## خلاصہ
@@ -125,7 +125,7 @@ Don't follow this as a visible template. Bury it in the prose.
 
 1. **First paragraph** — What happened, why it matters, one specific detail (AEO)
 2. **Feature breakdown** — Each major feature gets 1-2 paragraphs. Urdu explanation + English term naturally mixed.
-3. **Local relevance** — How does this affect someone in Pakistan? Freelancers, teachers, students, small businesses. Be specific.
+3. **Audience relevance, when material** — Include Pakistan-specific access, price, payment, language, mobile use, policy, or practical consequences only when location changes the answer. Integrate it naturally; a separate local section is never compulsory.
 4. **How it works** — Brief mechanism or process. Not a technical whitepaper. Just enough for understanding.
 5. **Limitations** — What doesn't work, what costs money, what's not available in Pakistan yet. Be upfront.
 6. **Practical takeaway** — One clear line about what this actually means for the reader.
@@ -211,10 +211,10 @@ Before any article goes live, every one of these must be true:
 Not in text. Not in headings. Not in cards. Not anywhere. We use custom SVG icons in brand colors (navy #1d559f, yellow #f1cc11) for visual elements.
 
 ### Never use template headings as visible labels
-"سچا فیصلہ" is a concept in our editorial thinking — it is never a heading readers see. The honest verdict is woven into the text. Same for "خلاصہ" (summary), "نتیجہ" (conclusion).
+"سچا فیصلہ" is a concept in our editorial thinking — it is never a heading readers see. When a verdict genuinely helps, weave it into the text. Same for "خلاصہ" (summary), "نتیجہ" (conclusion).
 
-### Never mention VPN unless the tool actually requires one
-If ChatGPT works fine in Pakistan, don't write "VPN کی ضرورت نہیں۔" That's noise. Only mention VPN when there's a genuine access issue.
+### Never mention VPN
+Do not turn VPN into a routine availability field or workaround. Describe verified regional availability or access status directly without discussing VPN.
 
 ### Never inflate
 "انقلاب" (revolution) is earned, not given. Most updates are useful improvements, not revolutions. Call them what they are.
@@ -307,16 +307,83 @@ Tone: Encyclopedia entry written by a human. Clear, authoritative, concise.
 
 ---
 
-## The Pakistan Test
+## Daily Publishing Rule
 
-Before publishing, ask: does this article help someone in Pakistan specifically?
+Urdu AI is not a factory for daily posts. Publishing every day is optional. Publishing weak work is forbidden.
 
-- Did we mention if the tool works without VPN? (Only if relevant)
-- Did we mention if it's free? (Critical — most readers can't pay in dollars)
-- Did we give a use case a Pakistani freelancer/student/teacher would relate to?
-- Did we avoid assuming the reader has a credit card, a fast laptop, or fluent English?
+- If there is no genuinely publish-worthy AI news story, do not force a news article.
+- If verification is weak, the practical lesson is unclear, the story is too enterprise-only, or the benefit for Urdu-speaking ordinary users is thin, skip it.
+- A concise research memo is a valid outcome for the day. "No strong story today" is acceptable. A low-quality article is not.
+- The bar is always: would this help a beginner, student, teacher, freelancer, parent, or small business owner in Pakistan understand something useful today?
 
-If the article could be published on any generic AI blog with zero changes, it's not ready for Urdu AI.
+### Fallback Content Ladder When News Is Weak
+
+If the daily news cycle is not good enough, choose the strongest option below instead of forcing a blog post:
+
+1. **Explainer / Context article**
+   Example: what a newly trending AI concept means in simple Urdu, why it matters, and what readers should watch next.
+
+2. **Beginner guide**
+   Example: how to use one useful tool, feature, or workflow that already exists and can help ordinary users today.
+
+3. **How-to tutorial**
+   Example: a step-by-step mobile-first workflow with screenshots for a common user problem.
+
+4. **Prompt collection**
+   Example: prompts for teachers, students, job seekers, parents, freelancers, or small businesses.
+
+5. **Urdu AI glossary / knowledge base**
+   Example: explain one important AI term clearly and link it to real use cases.
+
+6. **Roundup only when it adds real value**
+   Example: "this week in AI" only if there are several solid items and the roundup teaches something coherent. Never pad a roundup with weak filler.
+
+### When Even Fallback Content Should Be Skipped
+
+Do not publish just to satisfy cadence if:
+
+- the research is thin,
+- the sources are weak or contradictory,
+- the practical use for Urdu AI readers is unclear,
+- the topic duplicates recent coverage without a meaningful new angle,
+- or the article would read like generic AI internet content rather than Urdu AI.
+
+In that case, document the top candidates, why they were rejected, and what to watch next. That is a successful editorial decision.
+
+---
+
+## The Pakistan Relevance Test — Never Forced
+
+Before publishing, ask whether Pakistan materially changes the answer. This is
+an editorial judgment test, not a compulsory section or heading.
+
+Include Pakistan-specific context when there is a verified difference in:
+
+- access, price, payment, or regional availability;
+- Urdu support, mobile use, or connectivity;
+- education, employment, law, safety, or public policy;
+- a genuinely useful local workflow that differs from the global one.
+
+When the difference is real, explain it naturally and specifically. Use a
+dedicated Pakistan section only when there is enough substance for one. If the
+facts and reader action are the same everywhere, omit the local angle. Never
+add a city, profession, or "پاکستان کے لیے کیا مطلب ہے؟" paragraph as decoration.
+
+Urdu AI remains locally relevant through language, clarity, accessibility,
+and judgment. A global fact does not become more useful merely because Lahore
+or Karachi is inserted into it.
+
+## The Editorial Verdict Test — Only When It Helps
+
+Not every article needs "our decision." Include an editorial verdict when the
+reader must choose, pay, compare, wait, trust a disputed claim, or separate
+real value from hype. Reviews, comparisons, paid tools, major model claims,
+and products with important limitations usually benefit from one.
+
+Straight factual news, definitions, routine announcements, and simple
+tutorials do not need a verdict when the verified facts already answer the
+question. If used, weave the judgment into a natural sentence; never force a
+visible "اردو اے آئی کا فیصلہ" heading. If it only repeats the summary, omit it.
 
 ---
 
@@ -337,7 +404,7 @@ Signs your writing feels human:
 - Sentences vary from 5 words to 30 words
 - You state a fact, then immediately add context or caveat
 - You use "لیکن" (but) to pivot, not "اس کے علاوہ" (in addition) to stack
-- You mention a specific Pakistani city, profession, or scenario
+- You use a specific, believable scenario when an example genuinely helps
 - You have an opinion and state it plainly
 - Some paragraphs are two sentences. Some are five. The content decides.
 
@@ -352,6 +419,7 @@ Before committing any article:
 title: ""              # Under 80 chars, specific, not clickbait
 description: ""        # 120-160 Urdu chars, adds info beyond title
 date: YYYY-MM-DD       # Publication date
+published_at: "YYYY-MM-DDTHH:MM:SSZ" # Exact UTC publication time; required for every new blog article
 category: ""           # Match existing categories exactly
 image: ""              # /images/blog/slug.png — from cover generator
 author: "اردو اے آئی ٹیم"   # Default. Use "معراج احمد" only when specifically asked.
@@ -366,6 +434,22 @@ File naming: all lowercase, hyphens, descriptive.
 
 ---
 
+## Homepage Ordering — Newest Article Always First
+
+The homepage lead story is chronological, not based on views, clicks, or an
+editorial guess. Every new blog article must include an exact ISO-8601 UTC
+`published_at` value in frontmatter. The homepage sorts this timestamp newest
+first; the most recently published article becomes the large featured card,
+and the next six follow below it.
+
+Older articles without `published_at` fall back to `date` at midnight UTC so
+the existing archive keeps working. `last_updated` never moves an article back
+to the top. Never alter a publication timestamp merely to promote an older
+article; a future manual pinning feature must be explicit and separate from
+chronological order.
+
+---
+
 ## Publishing Workflow
 
 1. Write the `.md` file following this guide
@@ -374,9 +458,24 @@ File naming: all lowercase, hyphens, descriptive.
 4. Verify frontmatter is complete
 5. Read the first paragraph out loud — does it answer the article's core question?
 6. Read the full article — delete any sentence that repeats information
-7. `git add` the article + cover image
-8. `git commit` + `git push`
-9. Article appears on homepage automatically after build
+7. Complete the mandatory cover gate before any build, commit, push, or deploy
+8. If no article clears the quality bar, stop and leave a concise research memo instead of publishing filler
+9. `git add` the article + cover image
+10. `git commit` + `git push`
+11. Article appears on homepage automatically after build
+
+## Mandatory Pre-Publication Gate
+
+This gate is absolute. Missing any item below means the article is not ready.
+
+- The story itself is strong enough to deserve publication; daily cadence alone is never a reason to publish.
+- The article is source-backed, useful for ordinary Urdu-speaking readers, and not a duplicate with a tiny update.
+- The final cover has been opened from its real `/public/images/...` path, not only previewed in generation output.
+- The Urdu cover headline has been checked character by character for correct rendering, no broken ligatures, no clipped glyphs, and no invented words.
+- If generated Urdu text looks uncertain, it must be rebuilt with deterministic rendering before publish.
+- The top-right `Urdu Ai` wordmark uses Montserrat SemiBold or a pre-approved exact equivalent, with `Urdu` in white and `Ai` in UrduAI gold.
+- Model-drawn or approximate brand lettering is not acceptable if exact controlled typography is possible.
+- Mobile readability, safe margins, subject relevance, and final live asset delivery have all been verified.
 
 ---
 
