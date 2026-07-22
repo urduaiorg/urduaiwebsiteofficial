@@ -18,6 +18,7 @@ export interface Props {
   category?: string;
   tags?: string[];
   image?: string;
+  ogImage?: string;
   imageWidth?: number;
   imageHeight?: number;
   imageFit?: 'cover' | 'contain' | 'portrait';
@@ -38,6 +39,7 @@ const {
   category,
   tags = [],
   image,
+  ogImage,
   imageWidth,
   imageHeight,
   imageFit = 'cover',
@@ -62,7 +64,7 @@ const authorBio = authorBios[author] ?? '';
 const resolvedTools = toolNames.length > 0 ? getToolsByNames(toolNames) : [];
 
 const canonical = `https://urduai.org/${collection}/${slug}/`;
-const ogImage = image ?? `/og/default.jpg`;
+const socialImage = ogImage ?? image ?? `/og/default.jpg`;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const legacyCommentsData = legacyCommentsPayload as {
   commentsByCollection: Record<string, Record<string, unknown[]>>;
@@ -222,7 +224,7 @@ const combinedSchema = [
   title={title}
   description={description}
   canonical={canonical}
-  ogImage={ogImage}
+  ogImage={socialImage}
   ogType="article"
   adsense={adsense}
   schema={combinedSchema}

@@ -56,6 +56,7 @@ const guides = defineCollection({
     tool: z.string().optional(),
     level: z.enum(['ابتدائی', 'درمیانہ', 'ماہر']).default('ابتدائی'),
     image: z.string().optional(),
+    og_image: z.string().optional(),
     image_width: z.number().int().positive().optional(),
     image_height: z.number().int().positive().optional(),
     image_fit: z.enum(['cover', 'contain', 'portrait']).default('cover'),
