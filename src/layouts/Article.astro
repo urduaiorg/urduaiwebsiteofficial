@@ -12,8 +12,10 @@ import legacyCommentsPayload from '../data/legacy-comments.json';
 
 export interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   date: string;
+  publishedAt?: string;
   author?: string;
   category?: string;
   tags?: string[];
@@ -27,14 +29,18 @@ export interface Props {
   collection: string; // 'blog' | 'guides' | 'prompts'
   tools?: string[];
   faq?: { question: string; answer: string }[];
+  focusKeyphrase?: string;
+  secondaryKeyphrases?: string[];
   howToSteps?: { name: string; text: string }[];
   last_updated?: string;
 }
 
 const {
   title,
+  seoTitle,
   description,
   date,
+  publishedAt,
   author = 'اردو اے آئی ٹیم',
   category,
   tags = [],
@@ -48,6 +54,8 @@ const {
   collection,
   tools: toolNames = [],
   faq = [],
+  focusKeyphrase,
+  secondaryKeyphrases = [],
   howToSteps = [],
   last_updated,
 } = Astro.props;
@@ -86,6 +94,9 @@ const legacyComments = collectionComments[slug] ?? [];
 
 // Article/NewsArticle schema — auto-switches type for اے آئی اپڈیٹ category
 const isNewsPost = category === 'اے آئی اپڈیٹ';
+const articleKeywords = [focusKeyphrase, ...secondaryKeyphrases].filter(
+  (keyword): keyword is string => Boolean(keyword),
+);
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": isNewsPost ? "NewsArticle" : "Article",
@@ -95,8 +106,9 @@ const articleSchema = {
   },
   "headline": title,
   "description": description,
-  "datePublished": date,
+  "datePublished": publishedAt ?? date,
   "dateModified": last_updated ?? date,
+  ...(articleKeywords.length > 0 ? { "keywords": articleKeywords } : {}),
   ...(isNewsPost ? {
     "articleSection": "اے آئی اپڈیٹ",
     "dateline": "پاکستان",
@@ -221,7 +233,7 @@ const combinedSchema = [
 ---
 
 <Base
-  title={title}
+  title={seoTitle ?? title}
   description={description}
   canonical={canonical}
   ogImage={socialImage}
@@ -229,7 +241,7 @@ const combinedSchema = [
   adsense={adsense}
   schema={combinedSchema}
   articleMeta={{
-    publishedTime: date,
+    publishedTime: publishedAt ?? date,
     author: author,
     section: category,
   }}

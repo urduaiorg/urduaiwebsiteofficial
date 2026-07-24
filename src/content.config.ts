@@ -22,9 +22,12 @@ const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
     title: z.string(),
+    seo_title: z.string().optional(),
     description: z.string(),
     date: dateString,
     published_at: dateTimeString.optional(),
+    focus_keyphrase: z.string().optional(),
+    secondary_keyphrases: z.array(z.string()).default([]),
     category: z.string().default('اے آئی اپڈیٹ'),
     tags: z.array(z.string()).default([]),
     image: z.string().optional(),
