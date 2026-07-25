@@ -18,7 +18,7 @@ tags:
 image: "/images/blog/pakistan-data-centers-ai-sky47-imagegen.png"
 image_width: 1731
 image_height: 909
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 last_updated: 2026-07-25
