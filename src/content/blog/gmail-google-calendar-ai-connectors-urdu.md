@@ -4,6 +4,7 @@ seo_title: "جی میل اور کیلنڈر کو اے آئی سے کیسے جو�
 description: "جی میل اور گوگل کیلنڈر کو ChatGPT، Claude، Grok، Meta AI اور DeepSeek سے جوڑنے کی سہولت، مفت رسائی، فائدے، حدود اور حفاظتی احتیاط جانیں۔"
 date: 2026-07-29
 published_at: "2026-07-29T13:03:30Z"
+last_updated: 2026-07-29
 focus_keyphrase: "جی میل اور گوگل کیلنڈر کو اے آئی سے جوڑیں"
 secondary_keyphrases:
   - "Gmail AI connector"
@@ -34,18 +35,20 @@ tools:
   - DeepSeek
 faq:
   - question: "کیا جی میل اور گوگل کیلنڈر کو اے آئی سے مفت جوڑا جا سکتا ہے؟"
-    answer: "ہاں۔ جولائی 2026 تک Claude کے Google Workspace connectors تمام صارفین کے لیے اور Grok کے connectors مفت پلان میں دستیاب ہیں، اگرچہ استعمال کی حدیں لاگو ہوتی ہیں۔ ChatGPT Free میں Apps محدود ہیں اور Gmail یا Calendar کی رسائی ہر اکاؤنٹ کے لیے یقینی نہیں۔"
+    answer: "ہاں۔ جولائی 2026 تک Claude کے Google Workspace connectors تمام صارفین کے لیے اور Grok کے connectors مفت پلان میں دستیاب ہیں، اگرچہ استعمال کی حدیں لاگو ہوتی ہیں۔ ChatGPT Free میں Apps محدود ہیں۔ Meta AI کے آزمائے گئے iPhone اکاؤنٹ میں Connect options کسی paid prompt کے بغیر نظر آئے، مگر Meta نے عمومی free-tier limits واضح نہیں کیں۔"
   - question: "کون سا اے آئی ٹول ای میل خود بھیج سکتا ہے؟"
     answer: "Grok مناسب write اور send permissions کے ساتھ ای میل بھیج سکتا ہے۔ Claude Gmail میں ڈرافٹ بنا سکتا ہے مگر اسے خود send نہیں کرتا۔ ChatGPT میں دستیاب write actions پلان، app configuration اور workspace permissions کے مطابق بدل سکتے ہیں۔"
   - question: "کیا Meta AI کو ابھی Gmail سے جوڑا جا سکتا ہے؟"
-    answer: "Meta نے 24 جولائی 2026 کو email اور calendar apps سے کنکشن کا اعلان کیا، مگر ابتدائی rollout منتخب مارکیٹس تک محدود ہے۔ اعلان میں Gmail، ممالک، قیمت اور مکمل setup steps واضح نہیں کیے گئے، اس لیے ہر صارف کے لیے اسے دستیاب سمجھنا درست نہیں۔"
+    answer: "ہاں، اگر Meta AI کے Apps menu میں Gmail کا option دکھائی دے رہا ہو۔ اردو اے آئی کے 29 جولائی 2026 کے iPhone test میں Gmail، Google Calendar، Google Contacts، Google Drive اور Outlook کے connection options موجود تھے۔ rollout اب بھی منتخب مارکیٹس اور اکاؤنٹس تک محدود ہے، اس لیے ہر صارف کو یہ menu لازماً نظر نہیں آئے گا۔"
   - question: "کیا DeepSeek میں Gmail connector موجود ہے؟"
     answer: "DeepSeek کے عام web یا mobile chat میں آفیشل Gmail یا Google Calendar connector موجود نہیں۔ developer DeepSeek API، Google APIs اور اپنی automation کے ذریعے ایسا نظام بنا سکتا ہے، مگر یہ براہِ راست یا مکمل مفت consumer feature نہیں۔"
   - question: "کیا ذاتی ای میل کو اے آئی سے جوڑنا محفوظ ہے؟"
     answer: "کنکشن OAuth permissions کے ذریعے ہوتا ہے، مگر خطرہ مکمل ختم نہیں ہوتا۔ پہلے کم حساس اکاؤنٹ سے آزمائیں، read-only اجازت سے آغاز کریں، send یا delete سے پہلے ہر action دیکھیں، اور بینک، شناختی یا دوسری حساس معلومات والا inbox نہ جوڑیں۔"
 ---
 
-**جی میل اور گوگل کیلنڈر کو اے آئی سے جوڑنے** کے بعد آپ اپنے inbox اور schedule کے بارے میں عام زبان میں سوال پوچھ سکتے ہیں، مگر چیٹ جی پی ٹی، کلاڈ، گروک، میٹا اے آئی اور ڈیپ سیک پانچوں ایک جیسی سہولت نہیں دیتے۔ 29 جولائی 2026 تک کلاڈ اور گروک مفت اکاؤنٹ پر سب سے واضح آفیشل کنکشن دیتے ہیں، چیٹ جی پی ٹی میں رسائی اکاؤنٹ اور پلان کے مطابق بدلتی ہے، میٹا اے آئی کا نیا فیچر محدود rollout میں ہے، جبکہ ڈیپ سیک کے عام چیٹ میں براہِ راست کنکٹر موجود نہیں۔
+**جی میل اور گوگل کیلنڈر کو اے آئی سے جوڑنے** کے بعد آپ اپنے inbox اور schedule کے بارے میں عام زبان میں سوال پوچھ سکتے ہیں، مگر چیٹ جی پی ٹی، کلاڈ، گروک، میٹا اے آئی اور ڈیپ سیک پانچوں ایک جیسی سہولت نہیں دیتے۔ 29 جولائی 2026 تک کلاڈ اور گروک مفت اکاؤنٹ پر واضح آفیشل کنکشن دیتے ہیں، چیٹ جی پی ٹی میں رسائی اکاؤنٹ اور پلان کے مطابق بدلتی ہے، میٹا اے آئی کے منتخب اکاؤنٹس میں Gmail اور Google Calendar کے Connect options اب نظر آ رہے ہیں، جبکہ ڈیپ سیک کے عام چیٹ میں براہِ راست کنکٹر موجود نہیں۔
+
+> **اپڈیٹ، 29 جولائی 2026:** اردو اے آئی کے iPhone test میں Meta AI کے Apps menu کے اندر Gmail، Google Calendar، Google Contacts، Google Drive، Outlook Email، Outlook People اور Outlook.com Calendar کے options موجود تھے۔ اس مضمون کی Meta AI معلومات اسی براہِ راست test کے بعد اپڈیٹ کی گئی ہیں۔
 
 اس فرق کو سمجھنا ضروری ہے، کیونکہ “اے آئی سے Gmail جوڑیں” سن کر یہ لگ سکتا ہے کہ ہر ٹول ای میل پڑھنے، جواب بھیجنے اور کیلنڈر بدلنے کا مکمل اختیار دیتا ہے۔ حقیقت میں کہیں صرف پڑھنے کی اجازت ہے، کہیں ڈرافٹ بن سکتا ہے، کہیں ای میل بھیجی جا سکتی ہے، اور کہیں developer کو پورا نظام خود بنانا پڑتا ہے۔
 
@@ -56,7 +59,7 @@ faq:
 | کلاڈ | ہاں، Google Workspace connectors | ہاں | ای میل کا ڈرافٹ بنا سکتا ہے، خود send نہیں کرتا |
 | گروک | ہاں، Gmail اور Calendar الگ connectors | ہاں، استعمال کی حدود کے ساتھ | بنیادی رسائی read-only؛ write اجازت الگ درکار ہو سکتی ہے |
 | چیٹ جی پی ٹی | ہاں، Google Apps | محدود اور اکاؤنٹ کے مطابق | Free پر ہر صارف کے لیے ضمانت نہیں |
-| میٹا اے آئی | email اور calendar apps کا اعلان | قیمت واضح نہیں | صرف منتخب مارکیٹس؛ Gmail اور setup کی مکمل تفصیل نہیں |
+| میٹا اے آئی | ہاں، Gmail، Google Calendar اور Outlook options منتخب اکاؤنٹس میں نظر آ رہے ہیں | test account میں paid prompt نہیں آیا؛ عمومی قیمت واضح نہیں | rollout محدود؛ read، write اور send permissions کی مکمل تفصیل شائع نہیں ہوئی |
 | ڈیپ سیک | عام چیٹ میں نہیں | چیٹ مفت، کنکشن نہیں | API اور تکنیکی automation درکار |
 
 ## کلاڈ مفت صارف کے لیے سب سے واضح راستہ کیوں ہے؟
@@ -89,13 +92,21 @@ xAI کہتا ہے کہ Gmail اور Calendar connector سے حاصل کردہ da
 
 اوپن اے آئی کی [Google data controls وضاحت](https://help.openai.com/en/articles/10408842-google-connector-for-chatgpt-data-controls-faq) کے مطابق ChatGPT بہتر جواب کے لیے connected data کی indexed copy بنا سکتا ہے۔ Disconnect کرنے کے بعد یہ copy حذف ہونے میں 30 دن لے سکتی ہے، اس لیے حساس inbox جوڑنے سے پہلے privacy settings اور permissions ضرور پڑھیں۔
 
-## میٹا اے آئی کا نیا اعلان ابھی مکمل Gmail گائیڈ کیوں نہیں؟
+## میٹا اے آئی میں اب کون سے connection options نظر آ رہے ہیں؟
 
 میٹا اے آئی (Meta AI) نے [24 جولائی 2026 کے اعلان](https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/) میں کہا کہ Meta AI اب email اور calendar apps سے جڑ کر روزانہ briefing، double booking کی نشاندہی، schedule کے مطابق planning اور مقررہ وقت پر updates دے سکتا ہے۔ مثال کے طور پر یہ birthday dinner کے لیے وہ رات دیکھ سکتا ہے جب آپ فارغ ہوں، یا صبح آپ کی مصروفیات کا خلاصہ دے سکتا ہے۔
 
-لیکن اعلان میں Gmail یا Google Calendar کا نام، supported ممالک کی مکمل فہرست، قیمت، permissions اور قدم بہ قدم setup واضح نہیں کیا گیا۔ فیچر Meta AI app اور meta.ai پر منتخب مارکیٹس میں آنا شروع ہوا ہے، جبکہ WhatsApp سمیت مزید جگہوں پر اسے بعد میں لانے کا وعدہ کیا گیا ہے۔
+اردو اے آئی کے 29 جولائی 2026 کے iPhone test میں Meta AI کے Apps menu پر یہ سات options موجود تھے: Gmail، Google Calendar، Google Contacts، Google Drive، Outlook Email، Outlook People اور Outlook.com Calendar۔ یعنی Gmail اور Google Calendar کی موجودگی اب صرف عمومی اعلان پر مبنی اندازہ نہیں؛ کم از کم rollout حاصل کرنے والے اکاؤنٹس میں ان کے Connect options براہِ راست نظر آ رہے ہیں۔
 
-اس لیے اگر Meta AI میں email یا calendar کا option نظر نہیں آ رہا تو کوئی خفیہ setting تلاش کرنے کی ضرورت نہیں۔ rollout ابھی محدود ہے۔ مکمل connector page اور privacy تفصیل آنے تک ذاتی Gmail کو اس فیچر سے جوڑنے کے بارے میں محتاط رہنا بہتر ہے۔
+![میٹا اے آئی کے Apps menu میں Gmail، Google Calendar، Google Contacts، Google Drive اور Outlook کے connection options](/images/blog/meta-ai-connected-apps-gmail-calendar-ios.png)
+
+*اردو اے آئی کے iPhone test میں Meta AI کا Apps menu — 29 جولائی 2026۔*
+
+اپنے Meta AI app میں profile یا settings کے اندر Apps کھولیں۔ Gmail یا Google Calendar سامنے ہو تو مطلوبہ service منتخب کریں، Google sign-in مکمل کریں اور اجازتوں کو پڑھنے کے بعد ہی منظوری دیں۔ screenshot میں تمام services “Not connected” تھیں، اس لیے یہ محفوظ طریقے سے صرف availability دکھاتا ہے؛ کسی inbox کا ذاتی مواد تصویر میں موجود نہیں۔
+
+البتہ اس screen سے یہ ثابت نہیں ہوتا کہ Meta AI ہر email پڑھ، draft بنا، send کر یا calendar event تبدیل کر سکتا ہے۔ Meta نے ابھی ہر connector کی read، write، send اور delete permissions کی مکمل عوامی دستاویز جاری نہیں کی۔ test account میں کوئی paid upgrade prompt نظر نہیں آیا، مگر کمپنی نے connector کی عمومی قیمت یا free-tier limits واضح نہیں کیں۔
+
+Meta کے مطابق rollout Meta AI app اور meta.ai پر منتخب مارکیٹس سے شروع ہوا ہے، جبکہ WhatsApp سمیت مزید surfaces بعد میں شامل ہوں گی۔ اس لیے اگر Apps menu نظر نہ آئے تو app اپڈیٹ کرنے کے باوجود آپ کے ملک یا اکاؤنٹ تک rollout پہنچنا باقی ہو سکتا ہے۔ پاکستان میں عمومی دستیابی کی الگ آفیشل تصدیق ابھی موجود نہیں۔
 
 ## ڈیپ سیک سے Gmail جوڑنے کا دعویٰ کہاں غلط ہو جاتا ہے؟
 
@@ -133,17 +144,17 @@ xAI کہتا ہے کہ Gmail اور Calendar connector سے حاصل کردہ da
 ─────────────────────────────
 میرے آج کے کیلنڈر اور گزشتہ 24 گھنٹوں کی ای میلز دیکھیں۔ صرف ان meetings، deadlines اور پیغامات کی فہرست بنائیں جن پر آج کارروائی ضروری ہے۔ کوئی ای میل نہ بھیجیں اور کوئی event تبدیل نہ کریں۔
 ─────────────────────────────
-کہاں استعمال کریں: کلاڈ / گروک / اہل چیٹ جی پی ٹی اکاؤنٹ
+کہاں استعمال کریں: کلاڈ / گروک / اہل چیٹ جی پی ٹی یا میٹا اے آئی اکاؤنٹ
 
 یہ پرامٹ کاپی کریں:
 ─────────────────────────────
 میری اگلی meeting کی تفصیل، شرکا اور اس موضوع سے متعلق حالیہ ای میلز دیکھیں۔ تین فیصلے، کھلے سوالات اور meeting میں پوچھنے کے لیے پانچ مختصر سوالات تیار کریں۔ کسی external action سے پہلے میری اجازت لیں۔
 ─────────────────────────────
-کہاں استعمال کریں: کلاڈ / گروک / اہل چیٹ جی پی ٹی اکاؤنٹ
+کہاں استعمال کریں: کلاڈ / گروک / اہل چیٹ جی پی ٹی یا میٹا اے آئی اکاؤنٹ
 
 ## اردو اے آئی کا فیصلہ
 
-مفت اور آسان آغاز کے لیے پہلے کلاڈ آزمائیں؛ اگر email بھیجنے اور calendar actions کی زیادہ صلاحیت چاہیے تو گروک مضبوط آپشن ہے۔ ChatGPT صرف تب چنیں جب آپ کے account میں Gmail اور Calendar کا Connect بٹن فعال ہو۔ Meta AI کے مکمل rollout اور واضح setup کا انتظار کریں، جبکہ DeepSeek کو اس کام کے لیے صرف developer-level انتخاب سمجھیں۔
+مفت اور آسان آغاز کے لیے پہلے کلاڈ آزمائیں؛ اگر email بھیجنے اور calendar actions کی زیادہ صلاحیت چاہیے تو گروک مضبوط آپشن ہے۔ ChatGPT یا Meta AI صرف تب چنیں جب آپ کے account میں Gmail اور Calendar کا Connect option فعال ہو۔ Meta AI کا menu اب براہِ راست دیکھا جا چکا ہے، مگر اس کی write permissions اور free-tier limits واضح ہونے تک اسے read-only نوعیت کے محدود کام سے آزمائیں۔ DeepSeek کو اس کام کے لیے صرف developer-level انتخاب سمجھیں۔
 
 **ایک بات یاد رکھیں:** اپنے inbox کا مکمل اختیار دینے سے پہلے read-only کنکشن کے ساتھ ایک محدود کام آزمائیں—سہولت سے زیادہ اہم آپ کے data کا اختیار ہے۔
 
