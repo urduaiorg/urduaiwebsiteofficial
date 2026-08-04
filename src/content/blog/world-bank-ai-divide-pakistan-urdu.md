@@ -32,7 +32,7 @@ faq:
 
 ## خبر کا اصل مطلب کیا ہے؟
 
-France 24 نے 4 اگست 2026 کو رپورٹ کیا کہ World Bank نے developing countries کو AI اپنانے میں تاخیر کے خطرے سے خبردار کیا ہے۔ اصل World Bank message اس headline سے زیادہ متوازن ہے: AI کوئی جادوئی shortcut نہیں، مگر جو ممالک آج connectivity، skills، مقامی data اور responsible policy کی بنیاد نہیں بنائیں گے، ان کے لیے productivity اور روزگار کا فاصلہ بڑھ سکتا ہے۔ World Development Report 2026 اس راستے کو تین لفظوں میں بیان کرتا ہے: **Adopt، Adapt، Advance**۔
+World Bank کی World Development Report 2026 developing countries کو AI کے فوائد لینے اور خطرات کم کرنے کے لیے ایک واضح راستہ دیتی ہے۔ AI کوئی جادوئی shortcut نہیں، مگر جو ممالک آج connectivity، skills، مقامی data اور responsible policy کی بنیاد نہیں بنائیں گے، ان کے لیے productivity اور روزگار کا فاصلہ بڑھ سکتا ہے۔ رپورٹ اس راستے کو تین لفظوں میں بیان کرتی ہے: **Adopt، Adapt، Advance**۔
 
 World Bank کے مطابق دنیا میں دو ارب سے زیادہ لوگ اب بھی offline ہیں، جبکہ low-income countries سے ChatGPT کا استعمال ایک فیصد سے بھی کم ہے۔ اس لیے AI divide صرف model quality کا مسئلہ نہیں؛ یہ internet، بجلی، affordable devices، language support اور سیکھنے کے مواقع کا بھی مسئلہ ہے۔
 
@@ -95,7 +95,6 @@ World Bank کی warning خوف پھیلانے کے لیے نہیں۔ یہ یاد
 
 ## ذرائع اور مزید مطالعہ
 
-- [France 24: World Bank warns developing countries to embrace AI or be left behind](https://www.france24.com/en/live-news/20260804-world-bank-warns-developing-countries-to-embrace-ai-or-be-left-behind) — 4 اگست 2026 کی خبر۔
 - [World Development Report 2026: The Promise of Artificial Intelligence](https://www.worldbank.org/en/publication/wdr2026) — Adopt، Adapt، Advance framework اور developing countries کے لیے بنیادی recommendations۔
 - [World Bank: Digital Progress and Trends Report 2025 — Strengthening AI Foundations](https://www.worldbank.org/en/publication/dptr2025-ai-foundations/report) — connectivity، compute، context اور competency کا framework۔
 - [World Bank: Data and AI](https://www.worldbank.org/ext/en/topic/digital-and-ai/data-and-ai) — offline آبادی، AI usage divide اور small AI کی مثالیں۔
