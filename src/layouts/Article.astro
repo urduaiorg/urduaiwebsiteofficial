@@ -338,12 +338,12 @@ const combinedSchema = [
         <ol class="mobile-toc__list" id="mobile-toc-list"></ol>
       </details>
 
-      <!-- In-article ad (after intro paragraph — injected by slot position) -->
+      <!-- Article content. The ad is moved after the first rendered paragraph below. -->
       <div class="prose" id="article-body" dir="rtl" lang="ur">
-        <slot name="intro" />
+        <slot />
 
         {adsense && (
-          <div class="ad-slot" aria-hidden="true">
+          <div class="ad-slot ad-slot--after-intro" aria-hidden="true">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -354,9 +354,16 @@ const combinedSchema = [
             <script>window.urduAiPushAds?.();</script>
           </div>
         )}
-
-        <slot />
       </div>
+
+      <script>
+        const articleBody = document.getElementById('article-body');
+        const introAd = articleBody?.querySelector(':scope > .ad-slot--after-intro');
+        const firstParagraph = articleBody?.querySelector(':scope > p');
+        if (introAd && firstParagraph) {
+          firstParagraph.insertAdjacentElement('afterend', introAd);
+        }
+      </script>
 
       <!-- Bottom ad -->
       {adsense && (

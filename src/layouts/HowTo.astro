@@ -138,9 +138,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Reading progress bar -->
   <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
 
-  <!-- Top banner ad -->
+  <!-- Top banner ad — hidden on mobile so the tutorial answer stays above the fold -->
   {adsense && (
-    <div class="container ad-slot" aria-hidden="true">
+    <div class="container ad-slot ad-slot--desktop-only" aria-hidden="true">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8532451951782012"
@@ -165,22 +165,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <div class="article-layout container">
     <article class="article-layout__main">
-      <!-- Mobile TOC — collapsible, visible only on mobile -->
-      <details class="mobile-toc" id="mobile-toc">
-        <summary class="mobile-toc__toggle">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
-          فہرست مضمون
-        </summary>
-        <ol class="mobile-toc__list" id="mobile-toc-list"></ol>
-      </details>
-
       <header>
         <span class="badge">ہاؤ ٹو</span>
-        <h1>{title}</h1>
+        <h1 class="article-header__title">{title}</h1>
 
         <!-- Freshness signal — prominently shown above fold -->
         <div class="freshness-signal" style="margin-block: var(--space-sm);">
-          آخری اپڈیٹ: {verifiedFormatted} — تمام اسکرین شاٹس تازہ ہیں
+          آخری اپڈیٹ: {verifiedFormatted} — معلومات دوبارہ چیک کی گئی ہیں
         </div>
 
         <div class="article-meta">
@@ -195,7 +186,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
 
         <!-- Before you start summary box -->
-        <div class="card" style="margin-block: var(--space-md);">
+        <div class="card howto-start-card" style="margin-block: var(--space-md);">
           <p class="card__meta">شروع کرنے سے پہلے</p>
           <ul style="list-style:none; padding:0;">
             {tool && <li>ٹول: {tool}</li>}
@@ -216,12 +207,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         )}
       </header>
 
+      <!-- Mobile TOC — kept after the useful page summary and cover -->
+      <details class="mobile-toc" id="mobile-toc">
+        <summary class="mobile-toc__toggle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          فہرست مضمون
+        </summary>
+        <ol class="mobile-toc__list" id="mobile-toc-list"></ol>
+      </details>
+
       <div class="prose" id="article-body">
-        <!-- Intro slot (first paragraph — AEO paragraph) -->
-        <slot name="intro" />
+        <!-- Full tutorial content; the ad is placed after its first paragraph below. -->
+        <slot />
 
         {adsense && (
-          <div class="ad-slot" aria-hidden="true">
+          <div class="ad-slot ad-slot--after-intro" aria-hidden="true">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -232,10 +232,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             <script>window.urduAiPushAds?.();</script>
           </div>
         )}
-
-        <!-- Main content with steps -->
-        <slot />
       </div>
+
+      <script>
+        const articleBody = document.getElementById('article-body');
+        const introAd = articleBody?.querySelector(':scope > .ad-slot--after-intro');
+        const firstParagraph = articleBody?.querySelector(':scope > p');
+        if (introAd && firstParagraph) {
+          firstParagraph.insertAdjacentElement('afterend', introAd);
+        }
+      </script>
 
       <!-- Last verified note -->
       <div class="last-verified">

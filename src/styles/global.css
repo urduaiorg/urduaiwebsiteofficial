@@ -1859,6 +1859,9 @@ img {
     font-size: 1.48rem;
     line-height: 2;
   }
+  .howto-start-card {
+    display: none;
+  }
   .article-header__cover {
     border-radius: 12px;
     margin-inline: calc(-1 * var(--space-sm));

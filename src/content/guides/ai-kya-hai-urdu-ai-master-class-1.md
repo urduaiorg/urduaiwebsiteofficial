@@ -1,5 +1,5 @@
 ---
-title: "AI کیا ہے؟ AI meaning in Urdu، examples اور beginner guide"
+title: "AI کیا ہے؟ AI meaning in Urdu اور beginner guide"
 description: "AI meaning in Urdu سمجھیں: Artificial Intelligence یعنی مصنوعی ذہانت کیا ہے، روزمرہ examples کیا ہیں، اور beginner اپنا پہلا Urdu prompt کیسے لکھے؟"
 date: 2025-02-14
 category: "گائیڈ"

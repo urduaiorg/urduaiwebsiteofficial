@@ -1,5 +1,5 @@
 ---
-title: "Google Gemini AI اردو میں کیسے استعمال کریں؟ مکمل phone guide"
+title: "Google Gemini AI اردو میں کیسے استعمال کریں؟"
 description: "Gemini AI Urdu guide: phone app یا gemini.google.com کھولیں، اردو prompts لکھیں، files اور voice آزمائیں، privacy سمجھیں اور AI Studio کا فرق جانیں۔"
 date: 2026-04-04
 last_verified: 2026-08-07
