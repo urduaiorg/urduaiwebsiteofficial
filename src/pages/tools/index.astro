@@ -24,6 +24,12 @@ const quickPaths = [
   { title: 'prompt بہتر لکھنا ہے', href: '/learn/prompt-engineering/', text: 'سوال کو واضح بنانے کا طریقہ' },
   { title: 'Google AI Studio سیکھنا ہے', href: '/tag/google-ai-studio/', text: 'API، Build Mode اور prototype guides' },
 ];
+const audienceShortcuts = [
+  { label: 'طلبہ', href: '/guides/gemini-for-students-urdu/' },
+  { label: 'فری لانسرز', href: '/guides/ai-tools-for-freelancers-pakistan/' },
+  { label: 'چھوٹا کاروبار', href: '/guides/small-businesses-using-ai-examples/' },
+  { label: 'نوکری اور CV', href: '/prompts/job-seekers/' },
+];
 
 const toolsSchema = [
   {
@@ -116,8 +122,8 @@ const toolsSchema = [
 ---
 
 <Base
-  title="پاکستانی beginners کے لیے free AI tools in Urdu"
-  description="پاکستانی students، freelancers اور job seekers کے لیے ChatGPT، Gemini، Claude، image، video، coding اور research tools کی اردو directory۔"
+  title="Free AI tools in Urdu: پاکستان کے لیے بہترین AI tools"
+  description="پاکستانی students، freelancers، job seekers اور small businesses کے لیے free AI tools in Urdu۔ کام منتخب کریں، tool تلاش کریں اور متعلقہ اردو guide کھولیں۔"
   canonical="https://urduai.org/tools/"
   adsense={true}
   schema={toolsSchema}
@@ -131,10 +137,21 @@ const toolsSchema = [
           <li aria-current="page">اے آئی ٹولز</li>
         </ol>
       </nav>
-      <h1 class="tools-hero__title">اردو میں free AI tools: پاکستانی beginners کے لیے</h1>
+      <h1 class="tools-hero__title">Free AI tools in Urdu: اپنے کام کے لیے tool چنیں</h1>
       <p class="tools-hero__sub">
-        یہ directory پاکستانی beginners، students، freelancers، job seekers اور small businesses کے لیے منتخب AI tools کا صاف راستہ ہے۔ یہاں ChatGPT، Gemini، Claude، تصویر، ویڈیو، آواز، coding اور research tools کے ساتھ اردو وضاحت، pricing label اور متعلقہ guide ملتا ہے۔
+        پاکستانی students، freelancers، job seekers اور small businesses کے لیے منتخب tools۔ اپنا کام چنیں، tool تلاش کریں اور متعلقہ اردو guide کھولیں۔
       </p>
+      <nav class="tools-audiences" aria-label="کام کے حساب سے AI tools">
+        {audienceShortcuts.map(item => (
+          <a
+            href={item.href}
+            data-analytics-event="tools_audience_click"
+            data-analytics-location={item.label}
+          >
+            {item.label}
+          </a>
+        ))}
+      </nav>
       <div class="tools-hero__stats">
         <div class="tools-hero__stat">
           <span class="tools-hero__stat-num" dir="ltr">{totalTools}</span>
@@ -152,12 +169,14 @@ const toolsSchema = [
 
       <!-- Search -->
       <div class="tools-search-wrap">
+        <label for="tools-search" class="sr-only">AI tool تلاش کریں</label>
         <input
           type="search"
           class="tools-search"
           id="tools-search"
           placeholder="ٹول تلاش کریں — مثلاً ChatGPT, ویڈیو, تصویر..."
           autocomplete="off"
+          aria-describedby="tools-results-status"
         />
         <svg class="tools-search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
@@ -170,14 +189,14 @@ const toolsSchema = [
   <div class="container" style="margin-block-start: var(--space-lg);">
     <!-- Category filter tabs -->
     <div class="tools-filters" role="tablist" aria-label="زمرہ فلٹر">
-      <button class="tools-filter tools-filter--active" data-filter="all">
+      <button class="tools-filter tools-filter--active" data-filter="all" role="tab" aria-selected="true" data-analytics-event="tools_filter_click" data-analytics-location="all">
         سب
         <span class="tools-filter__count">{totalTools}</span>
       </button>
       {categories.map(cat => {
         const count = tools.filter(t => t.category === cat).length;
         return (
-          <button class="tools-filter" data-filter={cat}>
+          <button class="tools-filter" data-filter={cat} role="tab" aria-selected="false" data-analytics-event="tools_filter_click" data-analytics-location={cat}>
             {cat}
             <span class="tools-filter__count">{count}</span>
           </button>
@@ -185,49 +204,9 @@ const toolsSchema = [
       })}
     </div>
 
-    <section class="tools-paths" aria-labelledby="tools-paths-title">
-      <div class="tools-paths__intro">
-        <h2 id="tools-paths-title">کس کام کے لیے کون سا راستہ چنیں؟</h2>
-        <p>
-          اگر آپ پہلی بار AI tools دیکھ رہے ہیں تو سب tools ایک ساتھ آزمانے کی ضرورت نہیں۔ پہلے اپنا مقصد چنیں: پڑھائی، CV، freelancing، business، prompt writing یا Google AI Studio۔ اگر بنیاد کمزور ہے تو پہلے <a href={`${base}/guides/free-ai-course-urdu/`}>free AI course Urdu guide</a> یا <a href={`${base}/courses/masterclass/1/`}>Masterclass lesson 1</a> کھولیں، پھر اسی سے جڑا ہوا guide اور tool استعمال کریں۔
-        </p>
-      </div>
-      <div class="tools-paths__links">
-        {quickPaths.map(path => (
-          <a href={path.href} class="tools-path">
-            <strong>{path.title}</strong>
-            <span>{path.text}</span>
-          </a>
-        ))}
-      </div>
-    </section>
-
-    <section class="tools-learning" aria-labelledby="tools-learning-title">
-      <div class="tools-learning__intro">
-        <h2 id="tools-learning-title">AI tools سیکھنے کی صحیح ترتیب کیا ہے؟</h2>
-        <p>
-          Tool بدلنے سے skill نہیں بنتی۔ پہلے ایک چھوٹا کام چنیں، پھر ایک tool میں prompt لکھیں، جواب کو verify کریں، اور آخر میں اپنے کام کے لیے اگلا guide کھولیں۔
-        </p>
-      </div>
-      <div class="tools-learning__grid">
-        <a href={`${base}/guides/free-ai-course-urdu/`} class="tools-learning__item">
-          <strong>1. بنیاد بنائیں</strong>
-          <span>AI course in Urdu free guide سے learning path، Masterclass اور certificate route سمجھیں۔</span>
-        </a>
-        <a href={`${base}/how-to/how-to-install-original-chatgpt-app/`} class="tools-learning__item">
-          <strong>2. پہلا assistant کھولیں</strong>
-          <span>ChatGPT app guide یا Gemini Urdu guide سے mobile پر پہلا Urdu prompt آزمائیں۔</span>
-        </a>
-        <a href={`${base}/learn/prompt-engineering/`} class="tools-learning__item">
-          <strong>3. prompt بہتر کریں</strong>
-          <span>Task، audience، tone اور format صاف لکھیں تاکہ جواب generic نہ رہے۔</span>
-        </a>
-        <a href={`${base}/blog/12-best-ai-tools-that-make-work-faster-and-easier/`} class="tools-learning__item">
-          <strong>4. کام کے حساب سے tool چنیں</strong>
-          <span>Study، CV، research، design، presentation، coding یا business کے لیے الگ route دیکھیں۔</span>
-        </a>
-      </div>
-    </section>
+    <p class="tools-results-status" id="tools-results-status" aria-live="polite">
+      {totalTools} tools دکھائے جا رہے ہیں
+    </p>
 
     <!-- Tools grid -->
     <div class="tools-grid" id="tools-grid">
@@ -281,11 +260,13 @@ const toolsSchema = [
               target="_blank"
               rel="noopener noreferrer"
               class="btn-playstore tool-card__btn"
+              data-analytics-event="tool_open"
+              data-analytics-location={tool.name}
             >
               ٹول کھولیں
             </a>
             {tool.guideUrl && (
-              <a href={tool.guideUrl} class="tool-card__guide-link">
+              <a href={tool.guideUrl} class="tool-card__guide-link" data-analytics-event="tool_guide_click" data-analytics-location={tool.name}>
                 اردو گائیڈ ←
               </a>
             )}
@@ -299,9 +280,53 @@ const toolsSchema = [
       <p>کوئی ٹول نہیں ملا — دوسرے الفاظ سے تلاش کریں</p>
     </div>
 
+    <section class="tools-paths" aria-labelledby="tools-paths-title">
+      <div class="tools-paths__intro">
+        <h2 id="tools-paths-title">اب اپنے کام کے لیے مکمل اردو راستہ چنیں</h2>
+        <p>
+          Tool دیکھنے کے بعد متعلقہ guide کھولیں۔ اگر بنیاد کمزور ہے تو پہلے <a href={`${base}/guides/free-ai-course-urdu/`}>free AI course Urdu guide</a> یا <a href={`${base}/courses/masterclass/1/`}>Masterclass lesson 1</a> سے شروع کریں۔
+        </p>
+      </div>
+      <div class="tools-paths__links">
+        {quickPaths.map(path => (
+          <a href={path.href} class="tools-path" data-analytics-event="tools_path_click" data-analytics-location={path.title}>
+            <strong>{path.title}</strong>
+            <span>{path.text}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="tools-learning" aria-labelledby="tools-learning-title">
+      <div class="tools-learning__intro">
+        <h2 id="tools-learning-title">AI tools سیکھنے کی صحیح ترتیب کیا ہے؟</h2>
+        <p>
+          Tool بدلنے سے skill نہیں بنتی۔ ایک چھوٹا کام چنیں، prompt لکھیں، جواب verify کریں، پھر اگلا guide کھولیں۔
+        </p>
+      </div>
+      <div class="tools-learning__grid">
+        <a href={`${base}/guides/free-ai-course-urdu/`} class="tools-learning__item" data-analytics-event="tools_learning_click" data-analytics-location="foundation">
+          <strong>1. بنیاد بنائیں</strong>
+          <span>AI course in Urdu free guide سے learning path، Masterclass اور certificate route سمجھیں۔</span>
+        </a>
+        <a href={`${base}/how-to/how-to-install-original-chatgpt-app/`} class="tools-learning__item" data-analytics-event="tools_learning_click" data-analytics-location="first_assistant">
+          <strong>2. پہلا assistant کھولیں</strong>
+          <span>ChatGPT app guide یا Gemini Urdu guide سے mobile پر پہلا Urdu prompt آزمائیں۔</span>
+        </a>
+        <a href={`${base}/learn/prompt-engineering/`} class="tools-learning__item" data-analytics-event="tools_learning_click" data-analytics-location="prompting">
+          <strong>3. prompt بہتر کریں</strong>
+          <span>Task، audience، tone اور format صاف لکھیں تاکہ جواب generic نہ رہے۔</span>
+        </a>
+        <a href={`${base}/blog/12-best-ai-tools-that-make-work-faster-and-easier/`} class="tools-learning__item" data-analytics-event="tools_learning_click" data-analytics-location="comparison">
+          <strong>4. کام کے حساب سے tool چنیں</strong>
+          <span>Study، CV، research، design، presentation، coding یا business کے لیے الگ route دیکھیں۔</span>
+        </a>
+      </div>
+    </section>
+
     <!-- Last updated -->
     <p class="tools-updated">
-      آخری اپڈیٹ: جون 2026 — pricing، limits اور availability بدل سکتے ہیں، اس لیے اہم کام سے پہلے ہر tool کی آفیشل site چیک کریں۔
+      آخری اپڈیٹ: اگست 2026 — pricing، limits اور availability بدل سکتے ہیں، اس لیے اہم کام سے پہلے ہر tool کی آفیشل site چیک کریں۔
     </p>
 
     <section class="tools-faq" aria-labelledby="tools-faq-title">
@@ -386,6 +411,32 @@ const toolsSchema = [
     margin-block-end: var(--space-lg);
   }
 
+  .tools-audiences {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-block-end: var(--space-md);
+  }
+
+  .tools-audiences a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0.35em 0.9em;
+    border: 1px solid rgba(232, 201, 122, 0.45);
+    border-radius: 999px;
+    color: var(--gold-pale);
+    text-decoration: none;
+    font-size: var(--text-sm);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .tools-audiences a:hover,
+  .tools-audiences a:focus-visible {
+    border-color: var(--gold-light);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
   .tools-hero__stats {
     display: flex;
     gap: var(--space-xl);
@@ -457,6 +508,12 @@ const toolsSchema = [
     gap: var(--space-xs);
     flex-wrap: wrap;
     margin-block-end: var(--space-lg);
+  }
+
+  .tools-results-status {
+    margin-block: calc(-1 * var(--space-sm)) var(--space-md);
+    color: var(--ink-muted);
+    font-size: var(--text-sm);
   }
 
   .tools-filter {
@@ -806,6 +863,44 @@ const toolsSchema = [
 
   /* ── Mobile ── */
   @media (max-width: 600px) {
+    .tools-hero {
+      padding-block: var(--space-lg);
+    }
+
+    .tools-hero__title {
+      font-size: 1.55rem;
+      line-height: 1.85;
+    }
+
+    .tools-hero__sub {
+      font-size: 0.95rem;
+      line-height: 2.15;
+      margin-block-end: var(--space-sm);
+    }
+
+    .tools-audiences {
+      gap: 0.4rem;
+      margin-block-end: var(--space-sm);
+    }
+
+    .tools-audiences a {
+      min-height: 38px;
+      padding: 0.25em 0.7em;
+    }
+
+    .tools-hero__stats {
+      gap: var(--space-md);
+      margin-block-end: var(--space-sm);
+    }
+
+    .tools-hero__stat-num {
+      font-size: 1.4rem;
+    }
+
+    .tools-hero__stat-label {
+      font-size: 0.75rem;
+    }
+
     .tools-grid {
       grid-template-columns: 1fr;
     }
@@ -826,8 +921,10 @@ const toolsSchema = [
   const cards = document.querySelectorAll('.tool-card');
   const noResults = document.getElementById('tools-no-results');
   const searchInput = document.getElementById('tools-search') as HTMLInputElement;
+  const resultsStatus = document.getElementById('tools-results-status');
 
   let activeCategory = 'all';
+  let searchEventTimer: number | undefined;
 
   function updateVisibility() {
     const query = searchInput?.value?.toLowerCase().trim() || '';
@@ -857,16 +954,36 @@ const toolsSchema = [
     if (noResults) {
       noResults.style.display = visibleCount === 0 ? 'block' : 'none';
     }
+    if (resultsStatus) {
+      resultsStatus.textContent = visibleCount === 0
+        ? 'کوئی tool نہیں ملا'
+        : `${visibleCount} tools دکھائے جا رہے ہیں`;
+    }
   }
 
   filters.forEach(btn => {
     btn.addEventListener('click', () => {
-      filters.forEach(b => b.classList.remove('tools-filter--active'));
+      filters.forEach(b => {
+        b.classList.remove('tools-filter--active');
+        b.setAttribute('aria-selected', 'false');
+      });
       btn.classList.add('tools-filter--active');
+      btn.setAttribute('aria-selected', 'true');
       activeCategory = btn.getAttribute('data-filter') || 'all';
       updateVisibility();
     });
   });
 
-  searchInput?.addEventListener('input', updateVisibility);
+  searchInput?.addEventListener('input', () => {
+    updateVisibility();
+    window.clearTimeout(searchEventTimer);
+    searchEventTimer = window.setTimeout(() => {
+      const query = searchInput.value.trim();
+      if (!query || typeof (window as any).gtag !== 'function') return;
+      (window as any).gtag('event', 'tools_search', {
+        event_category: 'content_engagement',
+        event_label: query.slice(0, 80),
+      });
+    }, 800);
+  });
 </script>

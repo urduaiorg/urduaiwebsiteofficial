@@ -47,7 +47,7 @@ function toPlainText(text: string): string {
 
 const firstPara = toPlainText(lesson.description.split('\n\n').find(b => !b.trim().startsWith('##')) || '').slice(0, 160) || lesson.title;
 const pageTitle = lesson.number === 1
-  ? 'AI kya hai in Urdu: free course کا پہلا سبق'
+  ? 'Free AI course in Urdu: سبق 1 — AI کیا ہے؟'
   : `سبق ${lesson.number}: ${lesson.title} — اردو اے آئی ماسٹرکلاس`;
 const pageDescription = lesson.number === 1
   ? 'AI kya hai in Urdu کا آسان جواب، مصنوعی ذہانت کی تعریف، روزمرہ examples، Gemini/ChatGPT practice، quiz اور free course path۔'
@@ -221,7 +221,11 @@ const breadcrumbSchema = {
     <!-- Lesson content (hidden via JS if locked) -->
     <div id="lesson-content">
     <!-- Lesson title -->
-    <h1>سبق {lesson.number}: {lesson.title}</h1>
+    <h1>{lesson.number === 1 ? 'سبق 1: AI کیا ہے؟' : `سبق ${lesson.number}: ${lesson.title}`}</h1>
+
+    {lesson.number === 1 && (
+      <p class="lesson-deck">Free AI course in Urdu کا پہلا سبق: مصنوعی ذہانت کی آسان تعریف، روزمرہ examples اور پہلا practical prompt۔</p>
+    )}
 
     {lesson.number === 1 && (
       <section class="lesson-answer" aria-labelledby="lesson-answer-title">
@@ -270,15 +274,15 @@ const breadcrumbSchema = {
           اگر آپ پاکستان یا کسی بھی اردو بولنے والی کمیونٹی میں AI پہلی بار سیکھ رہے ہیں تو یہی پہلا سبق شروع کریں۔ پہلے AI کا آسان مطلب سمجھیں، پھر ایک چھوٹا prompt Gemini یا ChatGPT میں آزمائیں، اور آخر میں quiz دے کر lesson 2 پر جائیں۔
         </p>
         <div class="lesson-start__grid">
-          <a href={`${base}/learn/artificial-intelligence/`}>
+          <a href={`${base}/learn/artificial-intelligence/`} data-analytics-event="course_path_click" data-analytics-location="lesson_1_definition">
             <strong>1. تعریف سمجھیں</strong>
             <span>مصنوعی ذہانت کیا ہے؟</span>
           </a>
-          <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>
+          <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`} data-analytics-event="course_path_click" data-analytics-location="lesson_1_practice">
             <strong>2. عملی مشق کریں</strong>
             <span>Gemini میں اردو سوال پوچھیں</span>
           </a>
-          <a href={`${base}/guides/free-ai-course-urdu/`}>
+          <a href={`${base}/guides/free-ai-course-urdu/`} data-analytics-event="course_path_click" data-analytics-location="lesson_1_learning_path">
             <strong>3. مکمل راستہ دیکھیں</strong>
             <span>مفت AI کورس اردو میں کہاں سے شروع کریں</span>
           </a>
@@ -311,7 +315,7 @@ const breadcrumbSchema = {
         <ul class="tools-box__list">
           {lesson.tools.map((tool) => (
             <li class="tools-box__item">
-              <a href={tool.url} target="_blank" rel="noopener noreferrer" class="tools-box__link">
+              <a href={tool.url} target="_blank" rel="noopener noreferrer" class="tools-box__link" data-analytics-event="course_tool_open" data-analytics-location={tool.name}>
                 {tool.name}
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-inline-start: 0.3rem;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
               </a>
@@ -339,7 +343,7 @@ const breadcrumbSchema = {
             ))}
           </fieldset>
         ))}
-        <button type="submit" class="btn-primary" id="quiz-submit">جوابات جمع کرائیں</button>
+        <button type="submit" class="btn-primary" id="quiz-submit" data-analytics-event="course_quiz_submit" data-analytics-location={`lesson_${lesson.number}`}>جوابات جمع کرائیں</button>
       </form>
 
       <div id="quiz-result" class="quiz-result" style="display:none;">
@@ -407,6 +411,14 @@ const breadcrumbSchema = {
       border-block: 1px solid var(--border);
       padding-block: var(--space-md);
       margin-block: var(--space-md);
+    }
+
+    .lesson-deck {
+      max-width: 760px;
+      color: var(--ink-soft);
+      font-size: 1.08rem;
+      line-height: var(--lh-prose);
+      margin-block: calc(-1 * var(--space-xs)) var(--space-md);
     }
 
     .lesson-answer h2 {

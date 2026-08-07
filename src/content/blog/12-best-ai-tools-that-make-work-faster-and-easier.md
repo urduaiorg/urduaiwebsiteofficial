@@ -1,6 +1,6 @@
 ---
-title: "ابتدائی صارفین کے لیے 12 free AI tools"
-description: "AI tools free Urdu guide میں ChatGPT، Gemini، Claude، Perplexity، NotebookLM اور Canva AI کو best AI app، study، research اور freelancing کے حساب سے چنیں۔"
+title: "12 best free AI tools in Urdu: کام کے حساب سے آسان guide"
+description: "12 best free AI tools in Urdu: ChatGPT، Gemini، Claude، Perplexity، NotebookLM، Canva اور coding tools کو study، work اور business کے حساب سے چنیں۔"
 date: 2026-01-14
 category: "گائیڈ"
 image: "/images/blog/12-best-ai-tools-that-make-work-faster-and-easier.jpg"
@@ -8,7 +8,7 @@ author: "اردو اے آئی ٹیم"
 adsense: true
 tools: ["ChatGPT", "Gemini", "Claude", "Google AI Studio", "Perplexity", "NotebookLM", "Gamma", "Cursor", "Napkin AI", "Otter.ai", "Canva AI", "Meta AI"]
 draft: false
-last_updated: 2026-06-27
+last_updated: 2026-08-07
 faq:
   - question: "AI tools list میں شروع کے لیے کون سے tools کافی ہیں؟"
     answer: "شروع میں ChatGPT یا Gemini، research کے لیے Perplexity، اپنی files کے لیے NotebookLM، design کے لیے Canva AI، اور coding کے لیے Cursor کافی ہیں۔ پہلے کام چنیں، پھر tool کھولیں۔"
