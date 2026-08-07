@@ -1,6 +1,6 @@
 ---
-title: "AI کیا ہے؟ meaning in Urdu، examples اور پہلا prompt"
-description: "AI کیا ہے guide: AI meaning in Urdu، Artificial Intelligence، مصنوعی ذہانت کی تعریف، examples، tools اور beginner کے لیے پہلا prompt۔"
+title: "AI کیا ہے؟ AI meaning in Urdu، examples اور beginner guide"
+description: "AI meaning in Urdu سمجھیں: Artificial Intelligence یعنی مصنوعی ذہانت کیا ہے، روزمرہ examples کیا ہیں، اور beginner اپنا پہلا Urdu prompt کیسے لکھے؟"
 date: 2025-02-14
 category: "گائیڈ"
 tool: "Artificial Intelligence"
@@ -10,7 +10,7 @@ author: "اردو اے آئی ٹیم"
 adsense: true
 tools: ["ChatGPT", "Gemini", "Claude", "Google AI Studio"]
 draft: false
-last_updated: 2026-06-27
+last_updated: 2026-08-07
 faq:
   - question: "AI کیا ہے؟"
     answer: "AI یعنی مصنوعی ذہانت کمپیوٹر کی وہ صلاحیت ہے جس سے وہ زبان، تصویر، آواز، ڈیٹا یا سوال سمجھ کر انسان کی مدد کے لیے جواب، خلاصہ، تجویز یا نیا مواد بنا سکتا ہے۔"

@@ -1,8 +1,9 @@
 ---
-title: "واٹس ایپ ویب کالنگ: اب براؤزر سے آڈیو اور ویڈیو کال"
-description: "واٹس ایپ ویب پر اب براہِ راست آڈیو اور ویڈیو کال، call transfer، waiting room، QuickHD اور noise suppression آ رہے ہیں۔ جانیں یہ کیسے کام کرے گا اور کس کے لیے مفید ہے۔"
+title: "WhatsApp Web Calling: browser سے audio/video calls، call transfer اور waiting room"
+description: "WhatsApp Web Calling میں browser سے audio/video calls، call transfer، waiting room اور noise suppression کیسے کام کریں گے؟ rollout، privacy اور استعمال کا آسان اردو جواب۔"
 date: 2026-07-28
 published_at: "2026-07-28T20:23:52Z"
+last_updated: 2026-08-07
 focus_keyphrase: "واٹس ایپ ویب کالنگ"
 secondary_keyphrases:
   - "WhatsApp Web calls"

@@ -271,7 +271,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <!-- App CTA strip -->
       <div class="app-cta-strip" id="app-cta" aria-label="ایپ ڈاؤنلوڈ">
         <p>يہ ٹيوٹوريل پسند آيا؟ اردو اے آئی ايپ ميں ہزاروں ايسے گائيڈز پڑھيں</p>
-        <a href={`${base}/app/`} class="btn-playstore">مفت ڈاؤن لوڈ کريں</a>
+        <a href={`${base}/app/`} class="btn-playstore" data-analytics-event="app_cta_click" data-analytics-location="howto_end">مفت ڈاؤن لوڈ کريں</a>
       </div>
     </article>
 
