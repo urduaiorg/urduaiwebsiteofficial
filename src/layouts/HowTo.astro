@@ -140,7 +140,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <!-- Top banner ad — hidden on mobile so the tutorial answer stays above the fold -->
   {adsense && (
-    <div class="container ad-slot ad-slot--desktop-only" aria-hidden="true">
+    <div class="container ad-slot ad-slot--desktop-only" data-ad-placement="top-banner" aria-hidden="true">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8532451951782012"
@@ -221,7 +221,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <slot />
 
         {adsense && (
-          <div class="ad-slot ad-slot--after-intro" aria-hidden="true">
+          <div class="ad-slot ad-slot--in-article ad-slot--after-intro" data-ad-placement="after-intro" aria-hidden="true">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -229,7 +229,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
               data-ad-format="fluid"
               data-ad-layout="in-article">
             </ins>
-            <script>window.urduAiPushAds?.();</script>
+          </div>
+        )}
+
+        {adsense && (
+          <div class="ad-slot ad-slot--in-article ad-slot--mid-article" data-ad-placement="mid-article" aria-hidden="true">
+            <ins class="adsbygoogle"
+              style="display:block; text-align:center;"
+              data-ad-client="ca-pub-8532451951782012"
+              data-ad-slot="3972865568"
+              data-ad-format="fluid"
+              data-ad-layout="in-article">
+            </ins>
           </div>
         )}
       </div>
@@ -237,10 +248,28 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <script>
         const articleBody = document.getElementById('article-body');
         const introAd = articleBody?.querySelector(':scope > .ad-slot--after-intro');
+        const midAd = articleBody?.querySelector(':scope > .ad-slot--mid-article');
         const firstParagraph = articleBody?.querySelector(':scope > p');
         if (introAd && firstParagraph) {
           firstParagraph.insertAdjacentElement('afterend', introAd);
         }
+
+        if (articleBody && midAd) {
+          const paragraphs = Array.from(articleBody.querySelectorAll(':scope > p'));
+          const articleTextLength = paragraphs.reduce((total, paragraph) => total + (paragraph.textContent?.trim().length || 0), 0);
+
+          if (paragraphs.length >= 8 && articleTextLength >= 3000) {
+            const targetIndex = Math.min(
+              paragraphs.length - 4,
+              Math.max(4, Math.round(paragraphs.length * 0.55))
+            );
+            paragraphs[targetIndex].insertAdjacentElement('afterend', midAd);
+          } else {
+            midAd.remove();
+          }
+        }
+
+        window.urduAiPushAds?.();
       </script>
 
       <!-- Last verified note -->
@@ -251,7 +280,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <!-- Bottom ad -->
       {adsense && (
-        <div class="ad-slot" aria-hidden="true">
+        <div class="ad-slot" data-ad-placement="article-bottom" aria-hidden="true">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"
@@ -295,7 +324,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       {adsense && (
-        <div class="ad-slot ad-slot--sidebar" aria-hidden="true">
+        <div class="ad-slot ad-slot--sidebar" data-ad-placement="sidebar" aria-hidden="true">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"

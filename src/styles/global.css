@@ -687,6 +687,19 @@ blockquote strong {
   contain: layout style;
 }
 
+/* Reserve the standard in-article footprint so an arriving creative does not
+   push Urdu Nastaliq text downward while somebody is reading. */
+.ad-slot--in-article {
+  min-height: 280px;
+}
+
+/* AdSense can decline an individual request. Remove the reserved footprint in
+   that case so readers never encounter a large empty break in the article. */
+.ad-slot--unfilled {
+  min-height: 0;
+  margin-block: 0;
+}
+
 .ad-slot--sidebar {
   position: sticky;
   top: 80px;

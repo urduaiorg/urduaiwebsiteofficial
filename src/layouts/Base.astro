@@ -210,8 +210,36 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           }
 
           try {
+            const placement = container.dataset.adPlacement || 'unspecified';
+
+            if (!slot.dataset.urduAiAdStatusObserver) {
+              slot.dataset.urduAiAdStatusObserver = 'attached';
+              const statusObserver = new MutationObserver(() => {
+                const adStatus = slot.dataset.adStatus;
+                if (!adStatus || slot.dataset.urduAiReportedAdStatus === adStatus) return;
+
+                slot.dataset.urduAiReportedAdStatus = adStatus;
+                container.classList.toggle('ad-slot--unfilled', adStatus === 'unfilled');
+                if (typeof window.gtag === 'function') {
+                  window.gtag('event', 'ad_slot_result', {
+                    event_category: 'adsense',
+                    ad_placement: placement,
+                    ad_status: adStatus,
+                  });
+                }
+              });
+              statusObserver.observe(slot, { attributes: true, attributeFilter: ['data-ad-status'] });
+            }
+
             (window.adsbygoogle = window.adsbygoogle || []).push({});
             slot.dataset.urduAiAdState = 'pushed';
+
+            if (typeof window.gtag === 'function') {
+              window.gtag('event', 'ad_slot_request', {
+                event_category: 'adsense',
+                ad_placement: placement,
+              });
+            }
           } catch (error) {
             if (/slot size|availableWidth|No slot/i.test(error?.message || '')) {
               window.urduAiRetryAdSlot(slot, 'slot-size');
