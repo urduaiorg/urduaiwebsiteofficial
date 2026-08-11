@@ -2359,10 +2359,14 @@ img {
 /* Responsive table — scrollable wrapper on mobile */
 @media (max-width: 768px) {
   .prose table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     font-size: 0.78rem;
     line-height: 1.7;
-    margin-inline: calc(-1 * var(--space-sm));
-    width: calc(100% + 2 * var(--space-sm));
+    margin-inline: 0;
+    width: 100%;
   }
   .prose th,
   .prose td {
