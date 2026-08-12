@@ -46,7 +46,7 @@ Gboard میں صارف وہ جگہ sign کرسکتا ہے جہاں عام طور
 Google کے مطابق یہ سہولت Pixel 11 پر Gboard اور Live Transcribe میں پہلے دستیاب ہے اور بعد میں مزید devices آئیں گے۔ feature کے لیے الگ فیس نہیں، لیکن یہ کوئی آزاد مفت app بھی نہیں؛ آغاز میں Pixel 11 ہونا ضروری ہے۔
 
 <figure class="article-video">
-  <video controls playsinline preload="metadata" style="width:100%;height:auto;border-radius:14px;background:#08111f;" aria-label="Google DeepMind SL2T سے اشاروں کی زبان کے ذریعے فون میں متن لکھنے کا نمونہ">
+  <video controls playsinline preload="metadata" poster="/images/blog/google-deepmind-sl2t-sign-language-ai-video-1.jpg" style="width:100%;height:auto;border-radius:14px;background:#08111f;" aria-label="Google DeepMind SL2T سے اشاروں کی زبان کے ذریعے فون میں متن لکھنے کا نمونہ">
     <source src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/u17eOqQkpBDEsvsN/GDM-Sign-To-Text-Gemini-18_v3_Light.webm#t=0.1" type="video/webm" />
     آپ کا browser یہ ویڈیو نہیں چلا سکا۔ <a href="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/u17eOqQkpBDEsvsN/GDM-Sign-To-Text-Gemini-18_v3_Light.webm">آفیشل نمونہ یہاں دیکھیں</a>۔
   </video>
@@ -60,7 +60,7 @@ Google کے مطابق یہ سہولت Pixel 11 پر Gboard اور Live Transcri
 SL2T میں فون پر چلنے والا MediaPipe Holistic کیمرے کی تصویر سے چہرے، جسم اور ہاتھوں کے 130 اہم points یا **pose landmarks** نکالتا ہے۔ raw video Google کے مطابق فوراً discard ہوجاتی ہے اور server کو صرف ان points کے geometric coordinates translation کے لیے ملتے ہیں۔ اس سے اصل چہرہ، کپڑے اور کمرے کی تصویر server تک نہیں جاتی، لیکن اہم وضاحت یہ ہے کہ translation پھر بھی Google server پر ہوتی ہے؛ پوری سہولت offline یا مکمل on-device نہیں۔
 
 <figure class="article-video">
-  <video controls playsinline preload="metadata" style="width:100%;height:auto;border-radius:14px;background:#08111f;" aria-label="SL2T میں pose landmarks سے sign language کو متن میں بدلنے کا نمونہ">
+  <video controls playsinline preload="metadata" poster="/images/blog/google-deepmind-sl2t-sign-language-ai-video-2.jpg" style="width:100%;height:auto;border-radius:14px;background:#08111f;" aria-label="SL2T میں pose landmarks سے sign language کو متن میں بدلنے کا نمونہ">
     <source src="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/u17eOqQkpBDEsvsN/GDM_Text-To-Sign.webm#t=0.1" type="video/webm" />
     آپ کا browser یہ ویڈیو نہیں چلا سکا۔ <a href="https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/u17eOqQkpBDEsvsN/GDM_Text-To-Sign.webm">آفیشل technical نمونہ یہاں دیکھیں</a>۔
   </video>
