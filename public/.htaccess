@@ -3,6 +3,15 @@
 
 RewriteEngine On
 
+# HTML changes frequently as new articles become the homepage feature.
+# Allow browsers to store pages, but require a revalidation before reuse so
+# a successful deploy cannot leave readers on an older homepage.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:html?|xhtml)$">
+    Header always set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
 # Canonical host: www -> non-www
 RewriteCond %{HTTP_HOST} ^www\.urduai\.org$ [NC]
 RewriteRule ^(.*)$ https://urduai.org/$1 [R=301,L]
