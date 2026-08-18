@@ -40,7 +40,7 @@ RewriteRule ^(.*)$ https://urduai.org/$1 [R=301,L]
 
 # Urdu AI Ustad subdomain -> permanent programme URL
 RewriteCond %{HTTP_HOST} ^ustad\\.urduai\\.org$ [NC]
-RewriteRule ^.*$ https://urduai.org/ustad [R=301,L]
+RewriteRule ^.*$ https://urduai.org/ustad/ [R=301,L]
 
 # WordPress numeric post URLs and common legacy query variants
 RewriteCond %{QUERY_STRING} (^|&)p= [NC,OR]
@@ -194,7 +194,7 @@ def write_redirects() -> tuple[int, int]:
         "",
         "# www → non-www canonical redirect",
         "https://www.urduai.org/* https://urduai.org/:splat 301",
-        "https://ustad.urduai.org/* https://urduai.org/ustad 301",
+        "https://ustad.urduai.org/* https://urduai.org/ustad/ 301",
         "",
         "# Generic WordPress patterns",
         *GENERIC_RULES,

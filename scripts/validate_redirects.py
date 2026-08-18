@@ -78,7 +78,7 @@ def assert_static_files() -> list[str]:
 
     if "https://www.urduai.org/* https://urduai.org/:splat 301" not in redirects:
         failures.append("Missing _redirects www canonical rule")
-    if "https://ustad.urduai.org/* https://urduai.org/ustad 301" not in redirects:
+    if "https://ustad.urduai.org/* https://urduai.org/ustad/ 301" not in redirects:
         failures.append("Missing _redirects Ustad subdomain rule")
     if "/tag/* /blog/ 301" not in redirects:
         failures.append("Missing _redirects tag archive rule")
