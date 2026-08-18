@@ -14,6 +14,7 @@ REDIRECTS_PATH = REPO_ROOT / "public" / "_redirects"
 
 EXPECTED_STATIC_SNIPPETS = [
     "RewriteCond %{HTTP_HOST} ^www\\.urduai\\.org$ [NC]",
+    "RewriteCond %{HTTP_HOST} ^ustad\\.urduai\\.org$ [NC]",
     "RewriteCond %{QUERY_STRING} (^|&)p= [NC,OR]",
     "RedirectMatch 301 ^/category/blog/.*$ /blog/",
     "RedirectMatch 301 ^/tag/google-gemini/?$ /learn/google-gemini/",
@@ -77,6 +78,8 @@ def assert_static_files() -> list[str]:
 
     if "https://www.urduai.org/* https://urduai.org/:splat 301" not in redirects:
         failures.append("Missing _redirects www canonical rule")
+    if "https://ustad.urduai.org/* https://urduai.org/ustad 301" not in redirects:
+        failures.append("Missing _redirects Ustad subdomain rule")
     if "/tag/* /blog/ 301" not in redirects:
         failures.append("Missing _redirects tag archive rule")
     if "/tag/google-ai-studio/ /tag/google-ai-studio/ 200" not in redirects:

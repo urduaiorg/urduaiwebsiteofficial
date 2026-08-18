@@ -3,6 +3,7 @@
 
 # www → non-www canonical redirect
 https://www.urduai.org/* https://urduai.org/:splat 301
+https://ustad.urduai.org/* https://urduai.org/ustad 301
 
 # Generic WordPress patterns
 /category/blog/*         /blog/                 301

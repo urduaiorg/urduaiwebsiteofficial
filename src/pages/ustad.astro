@@ -1,0 +1,210 @@
+---
+import Base from '../layouts/Base.astro';
+
+const canonical = 'https://urduai.org/ustad';
+
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Urdu AI Ustad: AI Training for Teachers in Urdu',
+  description: 'Urdu AI Ustad is an upcoming Urdu-language AI training programme for teachers, school leaders, teacher trainers, and education students.',
+  url: canonical,
+  inLanguage: ['en', 'ur'],
+  isPartOf: { '@type': 'WebSite', name: 'Urdu AI', url: 'https://urduai.org' },
+  about: { '@type': 'Thing', name: 'AI training for teachers in Urdu' },
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ہوم', item: 'https://urduai.org/' },
+    { '@type': 'ListItem', position: 2, name: 'Urdu AI Ustad', item: canonical },
+  ],
+};
+---
+
+<Base
+  title="Urdu AI Ustad: AI Training for Teachers in Urdu"
+  description="Urdu AI Ustad is launching soon: practical AI training in Urdu for teachers, school leaders, teacher trainers, and education students."
+  canonical={canonical}
+  ogImage="/og/ustad.png"
+  adsense={false}
+  schema={[pageSchema, breadcrumbSchema]}
+>
+  <section class="ustad-hero">
+    <div class="ustad-shell ustad-hero__grid">
+      <div class="ustad-hero__content" dir="ltr">
+        <h1>Urdu AI Ustad: AI Training for Teachers in Urdu</h1>
+        <p class="ustad-intro-en">
+          Urdu AI Ustad is an upcoming Urdu-language programme designed to help educators understand AI and use it thoughtfully in everyday teaching.
+        </p>
+        <div class="ustad-gold-line" aria-hidden="true"></div>
+        <p class="ustad-intro-ur" dir="rtl" lang="ur">
+          اردو اے آئی استاد، اساتذہ کے لیے اردو زبان میں آنے والا تربیتی پروگرام ہے۔ اس کا مقصد اے آئی کو آسان الفاظ میں سمجھانا اور اسے تدریسی کام میں ذمہ داری سے استعمال کرنے کی عملی رہنمائی دینا ہے۔
+        </p>
+        <p class="ustad-launch" aria-label="Launching Soon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 3v3M17 3v3M4.5 9.5h15M5 5.5h14a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1Z" />
+          </svg>
+          <span>Launching Soon</span>
+        </p>
+      </div>
+
+      <figure class="ustad-hero__media">
+        <img
+          src="/images/ustad/teacher-ai-training.jpg"
+          alt="ایک پاکستانی استاد کلاس روم میں لیپ ٹاپ پر تدریسی تیاری کر رہی ہیں"
+          width="1200"
+          height="630"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </figure>
+    </div>
+  </section>
+
+  <section class="ustad-section ustad-audience" aria-labelledby="ustad-audience-title">
+    <div class="ustad-shell ustad-two-column">
+      <div class="ustad-section__heading">
+        <h2 id="ustad-audience-title" dir="ltr">Who the programme is for</h2>
+        <p>یہ پروگرام ان لوگوں کے لیے تیار کیا جا رہا ہے جو تعلیم میں اے آئی کو سمجھ کر استعمال کرنا چاہتے ہیں۔</p>
+      </div>
+
+      <ul class="ustad-list">
+        <li><strong>Teachers</strong><span>پرائمری، سیکنڈری اور ہائر سیکنڈری سطح کے اساتذہ</span></li>
+        <li><strong>School leaders</strong><span>پرنسپلز، ہیڈ ٹیچرز اور تعلیمی منتظمین</span></li>
+        <li><strong>Teacher trainers</strong><span>اساتذہ کی تربیت اور پیشہ ورانہ ترقی سے وابستہ افراد</span></li>
+        <li><strong>Education students</strong><span>بی ایڈ، ایم ایڈ اور تدریسی شعبے کی تیاری کرنے والے طلبہ</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="ustad-section ustad-benefits" aria-labelledby="ustad-benefits-title">
+    <div class="ustad-shell">
+      <div class="ustad-section__heading ustad-section__heading--wide">
+        <h2 id="ustad-benefits-title" dir="ltr">Key benefits for teachers</h2>
+        <p>ٹریننگ کا مرکز روزمرہ تدریسی ضرورتیں، واضح مثالیں اور ذمہ دارانہ استعمال ہوگا۔</p>
+      </div>
+
+      <ol class="ustad-benefit-rail">
+        <li>
+          <span class="ustad-benefit-rail__number" aria-hidden="true">01</span>
+          <div><h3>Practical AI understanding</h3><p>اے آئی کی بنیادی باتیں سادہ اردو میں سمجھیں تاکہ ٹول استعمال کرنے سے پہلے اس کی صلاحیت اور حد واضح ہو۔</p></div>
+        </li>
+        <li>
+          <span class="ustad-benefit-rail__number" aria-hidden="true">02</span>
+          <div><h3>Better teaching preparation</h3><p>سبق کی منصوبہ بندی، سرگرمیوں، سوالات اور تعلیمی مواد کے لیے اے آئی سے منظم مدد لینا سیکھیں۔</p></div>
+        </li>
+        <li>
+          <span class="ustad-benefit-rail__number" aria-hidden="true">03</span>
+          <div><h3>Urdu-first practice</h3><p>اردو میں واضح ہدایات اور پرامٹس لکھنے کی مشق کریں تاکہ سیکھنا زبان کی رکاوٹ سے آزاد رہے۔</p></div>
+        </li>
+        <li>
+          <span class="ustad-benefit-rail__number" aria-hidden="true">04</span>
+          <div><h3>Responsible classroom use</h3><p>غلط معلومات، پرائیویسی، انسانی جانچ اور طلبہ کے مناسب استعمال جیسے اہم معاملات کو سمجھیں۔</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="ustad-final" aria-labelledby="ustad-final-title">
+    <div class="ustad-shell ustad-final__inner">
+      <div>
+        <p class="ustad-final__brand" dir="ltr">Urdu <span>Ai</span> Ustad</p>
+        <h2 id="ustad-final-title">اردو میں اساتذہ کے لیے اے آئی ٹریننگ</h2>
+        <p>مکمل پروگرام لانچ ہونے پر اسی مستقل پتے پر دستیاب ہوگا۔</p>
+      </div>
+      <div class="ustad-final__status" dir="ltr">
+        <strong>Launching Soon</strong>
+        <span>urduai.org/ustad</span>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const sendUstadView = () => {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', 'ustad_coming_soon_view', {
+        event_category: 'programme_interest',
+        event_label: 'ustad_page',
+      });
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', sendUstadView, { once: true });
+    } else {
+      sendUstadView();
+    }
+  </script>
+</Base>
+
+<style>
+  .ustad-shell { width: min(1120px, calc(100% - 2rem)); margin-inline: auto; }
+  .ustad-hero { background: #fff; border-block-end: 1px solid var(--border); }
+  .ustad-hero__grid { direction: ltr; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, .92fr); align-items: stretch; min-height: 620px; }
+  .ustad-hero__content { min-width: 0; align-self: center; padding: 4.75rem 4rem 4.75rem 0; text-align: left; }
+  .ustad-hero h1 { max-width: 690px; margin: 0; color: #101a35; overflow-wrap: break-word; font-family: Inter, Arial, sans-serif; font-size: clamp(2.5rem, 4.9vw, 4.35rem); font-weight: 800; line-height: 1.08; }
+  .ustad-intro-en { max-width: 650px; margin: 1.5rem 0 0; color: var(--ink-soft); font-family: Arial, sans-serif; font-size: 1.06rem; line-height: 1.65; }
+  .ustad-gold-line { width: 96px; height: 3px; margin-block: 1.65rem 1.35rem; background: var(--gold); }
+  .ustad-intro-ur { max-width: 650px; margin: 0; color: var(--ink-soft); font-size: 1.06rem; line-height: 2.35; text-align: right; }
+  .ustad-launch { display: inline-flex; align-items: center; gap: .7rem; margin: 1.4rem 0 0; color: var(--navy); font-family: Inter, Arial, sans-serif; font-size: 1.1rem; font-weight: 800; line-height: 1.4; }
+  .ustad-launch svg { width: 24px; height: 24px; fill: none; stroke: var(--gold); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
+  .ustad-hero__media { min-height: 100%; margin: 0; overflow: hidden; background: var(--paper-warm); }
+  .ustad-hero__media img { width: 100%; height: 100%; min-height: 620px; display: block; object-fit: cover; object-position: 68% center; }
+  .ustad-section { padding-block: clamp(4rem, 8vw, 7rem); }
+  .ustad-two-column { display: grid; grid-template-columns: minmax(280px, .8fr) minmax(0, 1.2fr); gap: clamp(3rem, 8vw, 7rem); align-items: start; }
+  .ustad-section__heading h2 { margin: 0; color: var(--navy); font-family: Inter, Arial, sans-serif; font-size: clamp(1.8rem, 3vw, 2.65rem); line-height: 1.2; text-align: left; }
+  .ustad-section__heading p { margin-block-start: 1.15rem; color: var(--ink-soft); font-size: 1rem; line-height: 2.25; }
+  .ustad-section__heading--wide { max-width: 740px; margin-block-end: 2.5rem; }
+  .ustad-list { list-style: none; margin: 0; padding: 0; border-block-start: 1px solid var(--border); }
+  .ustad-list li { display: grid; grid-template-columns: minmax(130px, .55fr) minmax(0, 1fr); gap: 1.5rem; align-items: baseline; padding-block: 1.15rem; border-block-end: 1px solid var(--border); }
+  .ustad-list strong { color: var(--navy); font-family: Inter, Arial, sans-serif; font-size: 1rem; line-height: 1.45; text-align: left; }
+  .ustad-list span { color: var(--ink-soft); font-size: .95rem; line-height: 2; }
+  .ustad-benefits { background: #fff; border-block: 1px solid var(--border); }
+  .ustad-benefit-rail { display: grid; grid-template-columns: repeat(4, 1fr); list-style: none; margin: 0; padding: 0; border-block-start: 1px solid var(--border); }
+  .ustad-benefit-rail li { min-width: 0; padding: 2rem 1.5rem; border-inline-start: 1px solid var(--border); }
+  .ustad-benefit-rail li:first-child { border-inline-start: 0; }
+  .ustad-benefit-rail__number { display: block; margin-block-end: 1.2rem; color: var(--gold); font-family: Inter, Arial, sans-serif; font-size: 1rem; font-weight: 800; line-height: 1; }
+  .ustad-benefit-rail h3 { margin: 0 0 .75rem; color: var(--navy); font-family: Inter, Arial, sans-serif; font-size: 1.08rem; line-height: 1.35; text-align: left; }
+  .ustad-benefit-rail p { margin: 0; color: var(--ink-soft); font-size: .92rem; line-height: 2.1; }
+  .ustad-final { padding-block: 4.5rem; color: #fff; background: var(--navy); border-block-end: 4px solid var(--gold); }
+  .ustad-final__inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 3rem; align-items: center; }
+  .ustad-final__brand { margin: 0 0 .75rem; color: #fff; font-family: Inter, Arial, sans-serif; font-size: 1.1rem; font-weight: 800; line-height: 1.3; text-align: left; }
+  .ustad-final__brand span { color: var(--gold); }
+  .ustad-final h2 { margin: 0; color: #fff; font-size: clamp(1.55rem, 3vw, 2.25rem); line-height: 1.9; }
+  .ustad-final p:not(.ustad-final__brand) { margin: .35rem 0 0; color: rgba(255,255,255,.84); line-height: 2; }
+  .ustad-final__status { padding-inline-start: 2.5rem; border-inline-start: 1px solid rgba(255,255,255,.32); text-align: left; }
+  .ustad-final__status strong, .ustad-final__status span { display: block; font-family: Inter, Arial, sans-serif; }
+  .ustad-final__status strong { color: #fff; font-size: 1.5rem; line-height: 1.35; }
+  .ustad-final__status span { margin-block-start: .45rem; color: var(--gold); font-size: 1rem; font-weight: 800; line-height: 1.5; }
+
+  @media (max-width: 900px) {
+    .ustad-hero__grid { grid-template-columns: 1fr; min-height: 0; }
+    .ustad-hero__content { padding: 3.25rem 0; }
+    .ustad-hero__media, .ustad-hero__media img { min-height: 380px; }
+    .ustad-hero__media { border-radius: 12px 12px 0 0; }
+    .ustad-benefit-rail { grid-template-columns: repeat(2, 1fr); }
+    .ustad-benefit-rail li:nth-child(3) { border-inline-start: 0; }
+    .ustad-benefit-rail li:nth-child(n + 3) { border-block-start: 1px solid var(--border); }
+  }
+
+  @media (max-width: 640px) {
+    .ustad-shell { width: min(100% - 1.5rem, 1120px); }
+    .ustad-hero__content { padding: 2.65rem 0 2.4rem; }
+    .ustad-hero h1 { font-size: clamp(1.85rem, 9.5vw, 2.35rem); line-height: 1.15; }
+    .ustad-intro-en, .ustad-intro-ur { font-size: 1rem; }
+    .ustad-intro-ur { line-height: 2.3; }
+    .ustad-hero__media, .ustad-hero__media img { min-height: 290px; }
+    .ustad-hero__media img { object-position: 67% center; }
+    .ustad-section { padding-block: 3.5rem; }
+    .ustad-two-column { grid-template-columns: 1fr; gap: 2rem; }
+    .ustad-list li { grid-template-columns: 1fr; gap: .25rem; }
+    .ustad-benefit-rail { grid-template-columns: 1fr; }
+    .ustad-benefit-rail li, .ustad-benefit-rail li:nth-child(3) { padding: 1.5rem 0; border-inline-start: 0; border-block-start: 1px solid var(--border); }
+    .ustad-benefit-rail li:first-child { border-block-start: 0; }
+    .ustad-final { padding-block: 3.25rem; }
+    .ustad-final__inner { grid-template-columns: 1fr; gap: 2rem; }
+    .ustad-final__status { padding: 1.5rem 0 0; border-block-start: 1px solid rgba(255,255,255,.32); border-inline-start: 0; }
+  }
+</style>

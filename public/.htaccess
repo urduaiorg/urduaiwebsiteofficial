@@ -16,6 +16,10 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.urduai\.org$ [NC]
 RewriteRule ^(.*)$ https://urduai.org/$1 [R=301,L]
 
+# Urdu AI Ustad subdomain -> permanent programme URL
+RewriteCond %{HTTP_HOST} ^ustad\.urduai\.org$ [NC]
+RewriteRule ^.*$ https://urduai.org/ustad [R=301,L]
+
 # WordPress numeric post URLs and common legacy query variants
 RewriteCond %{QUERY_STRING} (^|&)p= [NC,OR]
 RewriteCond %{QUERY_STRING} (^|&)page_id= [NC,OR]
