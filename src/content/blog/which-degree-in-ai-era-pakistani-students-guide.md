@@ -3,6 +3,7 @@ title: "اے آئی کے دور میں کون سی ڈگری کریں؟ پاکس�
 description: "پاکستانی طلبہ اور والدین کے لیے ڈگری کے انتخاب کی عملی گائیڈ: مستقبل کی ملازمتیں، درست پروگرام، ضروری مہارتیں، تجربہ اور چار سالہ منصوبہ۔"
 date: 2026-08-19
 published_at: "2026-08-19T17:36:31Z"
+last_updated: 2026-08-19
 category: "گائیڈ"
 tags:
   - اے آئی اور کیریئر
@@ -36,7 +37,9 @@ faq:
 
 ## صرف ڈگری کا نام مستقبل محفوظ کیوں نہیں کرتا؟
 
-پاکستان بیورو آف اسٹیٹسٹکس کی [Employment Trend Report 2025](https://www.pbs.gov.pk/wp-content/uploads/2020/07/Employment-Trend-Report-2025-Final.pdf) کے مطابق ملک میں مجموعی بے روزگاری کی شرح 7.1 فیصد تھی، مگر degree-level تعلیم رکھنے والوں میں بے روزگاری 11.2 فیصد رہی۔ خواتین graduates کے لیے یہ شرح 24.1 فیصد تھی۔ یہ اعداد یہ نہیں کہتے کہ تعلیم بے فائدہ ہے؛ یہ بتاتے ہیں کہ **ڈگری اور قابلِ فروخت صلاحیت ایک ہی چیز نہیں ہیں۔**
+پاکستان بیورو آف اسٹیٹسٹکس کی [Employment Trend Report 2025](https://www.pbs.gov.pk/wp-content/uploads/2020/07/Employment-Trend-Report-2025-Final.pdf) کے مطابق ملک میں مجموعی بے روزگاری کی شرح 7.1 فیصد تھی، مگر degree-level تعلیم رکھنے والوں میں بے روزگاری 11.2 فیصد رہی۔ خواتین graduates کے لیے یہ شرح 24.1 فیصد تھی۔ جون 2026 میں جاری ہونے والے [Pakistan Economic Survey 2025–26](https://finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf) نے بھی روزگار کے تازہ قومی جائزے کے لیے اسی Labour Force Survey 2024–25 کو استعمال کیا۔ یعنی رپورٹ 2026 کی ہے، مگر employment observation period 2024–25 ہے؛ پاکستان کا calendar-year 2026 graduate employment dataset ابھی دستیاب نہیں۔
+
+یہ اعداد یہ نہیں کہتے کہ تعلیم بے فائدہ ہے؛ یہ بتاتے ہیں کہ **ڈگری اور قابلِ فروخت صلاحیت ایک ہی چیز نہیں ہیں۔**
 
 پاکستان کی آئی ٹی صنعت کی تنظیم P@SHA نے اپنے [Skills Survey 2025](https://www.pasha.org.pk/wp-content/uploads/Skills-Survey-2025.pdf) کے لیے 256 کمپنیوں کا ڈیٹا دیکھا۔ رپورٹ کے اندازے کے مطابق 2024 میں ملک سے تقریباً 72,952 CS/IT graduates نکلے، جبکہ P@SHA member companies نے 13,350 graduates بھرتی کیے۔ یہ پورے پاکستان کی employment rate نہیں، کیونکہ graduates دوسری کمپنیوں، بیرونِ ملک، freelancing یا مزید تعلیم میں بھی جا سکتے ہیں؛ تاہم یہ صنعت اور یونیورسٹی کے درمیان واضح خلا دکھاتا ہے۔ رپورٹ کے مطابق surveyed demand کا تقریباً 72 فیصد تجربہ رکھنے والے professionals کے لیے تھا۔
 
@@ -53,6 +56,16 @@ faq:
 یہی اس مضمون کا مرکزی جواب ہے:
 
 > مستقبل “انسان یا اے آئی” کا نہیں؛ اپنے شعبے کو جاننے والے اور اے آئی کے ساتھ بہتر کام کرنے والے انسان کا ہے۔
+
+## 2026 کی نئی تحقیق کیا بتاتی ہے؟
+
+2026 کی تازہ تحقیق اس بات کو مزید مضبوط کرتی ہے کہ ہر طالب علم کو AI specialist بننے کی ضرورت نہیں۔ جولائی 2026 میں جاری ہونے والی [OECD کی Skills in the AI Age رپورٹ](https://www.oecd.org/en/publications/skills-in-the-ai-age_972bd15e-en/full-report.html) کے مطابق AI کے اثرات شعبے، علاقے اور skill level کے لحاظ سے مختلف ہوں گے۔ جون 2026 کی ایک دوسری [OECD policy brief](https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html) کا اہم نتیجہ یہ ہے کہ advanced AI programming یا model development جیسی specialist skills ایک فیصد سے بھی کم workers کو درکار ہوں گی۔ زیادہ تر لوگوں کو digital literacy، data استعمال اور سمجھنے کی صلاحیت، problem-solving، creativity اور management skills چاہییں۔
+
+جنوری 2026 کی [IMF labour-market study](https://www.imf.org/en/publications/staff-discussion-notes/issues/2026/01/09/bridging-skill-gaps-for-the-future-new-jobs-creation-in-the-ai-age-572136) نے لاکھوں online vacancies کے تجزیے میں بتایا کہ emerging economies میں تقریباً ہر 20 میں سے ایک job posting کم از کم ایک نئی skill مانگ رہی ہے۔ IMF نے یہ بھی خبردار کیا کہ نئی IT skills کی زیادہ طلب کا مطلب لازماً IT یا AI specialists کی تعداد میں اتنا ہی اضافہ نہیں، کیونکہ کچھ technical tasks بھی automate ہو سکتے ہیں۔ طالب علم کو ایسی cognitive، creative اور technical skills چاہییں جو AI کو مکمل کریں، صرف اس سے مقابلہ نہ کریں۔
+
+پاکستان میں بھی 2026 کے فیصلے اسی سمت گئے ہیں۔ مارچ میں HEC نے [National Skill Competency Test](https://www.hec.gov.pk/english/news/news/Pages/HEC-Announces-National-Skill-Competency.aspx) شروع کیا، جس کا مقصد Computer Science، Software Engineering، AI اور Data Science کے آخری سال کے طلبہ کی market readiness جانچنا اور کامیاب طلبہ کو national talent pool، internships، apprenticeships اور certification pathways سے جوڑنا تھا۔ یہ خود اس بات کا اعتراف ہے کہ degree title کے ساتھ measurable skills بھی ضروری ہیں۔
+
+جون 2026 میں وزارتِ منصوبہ بندی نے HEC کو [تمام university degree programmes کا فوری جائزہ](https://www.pc.gov.pk/web/press/get_press/1698) لینے کی ہدایت دی۔ معیار میں employability، industry relevance، technological disruption اور future demand شامل کیے گئے، جبکہ ہر discipline میں AI literacy، digital skills، data analytics، critical thinking، entrepreneurship، financial literacy، climate literacy اور problem-solving شامل کرنے پر زور دیا گیا۔ اس کا مطلب یہ نہیں کہ ہر degree کو AI degree بنا دیا جائے؛ مطلب یہ ہے کہ ہر graduate اپنے اصل شعبے کے ساتھ نئی دنیا کی بنیادی صلاحیتیں بھی لے کر نکلے۔
 
 ## پاکستانی طالب علم کن تعلیمی راستوں پر غور کر سکتا ہے؟
 
