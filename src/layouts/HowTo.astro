@@ -61,19 +61,24 @@ const legacyCommentsData = legacyCommentsPayload as {
 };
 const legacyComments = legacyCommentsData.commentsByCollection.howto?.[slug] ?? [];
 
-const dateObj = new Date(last_verified);
+// Date-only strings parse as UTC midnight and can render as the previous day
+// in North American time zones. Noon UTC keeps the intended calendar date.
+const dateObj = new Date(`${last_verified}T12:00:00Z`);
 const verifiedFormatted = dateObj.toLocaleDateString('ur-PK', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 
-const publishedObj = new Date(date);
+const publishedObj = new Date(`${date}T12:00:00Z`);
 const publishedFormatted = publishedObj.toLocaleDateString('ur-PK', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
+
+const timeMinutes = time_required?.match(/\d+/)?.[0];
+const isoTotalTime = timeMinutes ? `PT${timeMinutes}M` : undefined;
 
 // HowTo schema
 const howtoSchema = {
@@ -85,7 +90,7 @@ const howtoSchema = {
   "datePublished": date,
   "dateModified": last_verified,
   ...(tool ? { "tool": [{ "@type": "HowToTool", "name": tool }] } : {}),
-  ...(time_required ? { "totalTime": time_required } : {}),
+  ...(isoTotalTime ? { "totalTime": isoTotalTime } : {}),
   "step": steps.map((step, i) => ({
     "@type": "HowToStep",
     "position": i + 1,

@@ -90,6 +90,7 @@ const howto = defineCollection({
     difficulty: z.enum(['آسان', 'درمیانہ', 'مشکل']).default('آسان'),
     time_required: z.string().optional(),
     screenshots: z.boolean().default(false),
+    image: z.string().optional(),
     adsense: z.boolean().default(true),
     draft: z.boolean().default(false),
     tools: z.array(z.string()).optional(),
