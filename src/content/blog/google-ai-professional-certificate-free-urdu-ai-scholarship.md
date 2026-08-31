@@ -18,7 +18,8 @@ tags:
 image: "/images/blog/google-ai-professional-certificate-free-urdu-ai-scholarship.png"
 image_width: 1536
 image_height: 1024
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
+last_updated: 2026-08-31
 adsense: true
 draft: false
 faq:
