@@ -40,10 +40,6 @@ ChatGPT Work ایسا طریقہ ہے جس میں ChatGPT صرف جواب لکھ
 
 مختصر اصول یہ ہے: Chat سوال، سوچ اور چھوٹی edits کے لیے؛ Work کئی sources جمع کرکے قابلِ جائزہ نتیجہ تیار کرنے کے لیے۔
 
-![ChatGPT Work کا تعارفی سبق](/images/guides/chatgpt-work-getting-started/cover.webp)
-
-*ChatGPT Work کے تعارفی سبق کی screen۔*
-
 ## Work کو کس طرح کا کام دینا چاہیے؟
 
 اچھا Work task تین خصوصیات رکھتا ہے:

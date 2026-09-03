@@ -43,10 +43,6 @@ ChatGPT Scheduled Tasks کسی آزمائے ہوئے کام کو بعد میں �
 3. ChatGPT اندازہ لگانے کے بجائے missing information بتاتا ہے؟
 4. کوئی email، event یا file آپ کی اجازت کے بغیر تبدیل تو نہیں ہوتی؟
 
-![ChatGPT Scheduled Tasks کا تعارفی سبق](/images/guides/chatgpt-work-scheduled-tasks/cover.webp)
-
-*Scheduled Tasks کے سبق کی تعارفی screen۔*
-
 ## پہلی Scheduled Task کیسے بنائیں؟
 
 فرض کریں Gmail اور Google Calendar plugins موجود ہیں اور آپ ہر صبح meeting brief چاہتے ہیں۔ پہلے عام Work chat میں یہ prompt آزمائیں:

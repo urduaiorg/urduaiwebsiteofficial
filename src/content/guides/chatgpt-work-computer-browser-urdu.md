@@ -41,10 +41,6 @@ ChatGPT Work کو کمپیوٹر یا Browser پر کام دینے کا محفو
 
 سادہ اصول: جہاں dedicated plugin موجود ہو، پہلے اسے دیکھیں۔ interface پر click کروا کر کام تب دیں جب direct connection کافی نہ ہو۔
 
-![ChatGPT Work میں Computer، Browser اور Chrome کا انتخاب](/images/guides/chatgpt-work-computer-browser/cover.webp)
-
-*کام شروع کرتے وقت مناسب app یا browser context منتخب کیا جاتا ہے۔*
-
 ## Computer access کیسے شروع کریں؟
 
 1. ChatGPT desktop app میں نیا Work task کھولیں۔
