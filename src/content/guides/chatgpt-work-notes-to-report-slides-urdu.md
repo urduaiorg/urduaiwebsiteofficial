@@ -2,6 +2,7 @@
 title: "بکھرے نوٹس سے رپورٹ اور پریزنٹیشن: ChatGPT کا عملی طریقہ"
 description: "میٹنگ نوٹس، ٹرانسکرپٹ یا فائل کو ChatGPT سے قابلِ تدوین رپورٹ اور مختصر پریزنٹیشن میں بدلنے کا مرحلہ وار طریقہ اور تیار اردو پرامپٹس۔"
 date: 2026-09-02
+last_updated: 2026-09-03
 category: "گائیڈ"
 tool: "ChatGPT Work"
 level: "ابتدائی"
@@ -23,11 +24,16 @@ faq:
     answer: "نہیں۔ نام، تاریخیں، اعداد، فیصلے، ذمہ دار افراد اور اگلے اقدامات اصل نوٹس سے ملا کر دیکھیں۔ حساس یا ذاتی معلومات شیئر کرنے سے پہلے اپنے ادارے کی پالیسی بھی چیک کریں۔"
   - question: "کیا ایک ہی پرامپٹ سے رپورٹ اور سلائیڈز بنوانی چاہئیں؟"
     answer: "بہتر نتیجے کے لیے پہلے رپورٹ تیار اور درست کریں، پھر اسی منظور شدہ رپورٹ سے سلائیڈز بنوائیں۔ اس طرح غلطی اور غیر ضروری تکرار کم ہوتی ہے۔"
+howto_steps:
+  - name: "نوٹس سے رپورٹ بنائیں"
+    text: "نوٹس، transcript یا فائل سے خلاصہ، فیصلے، ذمہ دار افراد اور اگلے اقدامات پر مشتمل قابلِ تدوین رپورٹ تیار کریں۔"
+  - name: "اصل مواد سے جانچ کریں"
+    text: "نام، تاریخ، اعداد، فیصلے اور deadlines کو اصل نوٹس سے ملائیں اور نامکمل جگہ پر تصدیق درکار لکھیں۔"
+  - name: "منظور شدہ رپورٹ سے سلائیڈز بنائیں"
+    text: "درست رپورٹ کو چھ مختصر سلائیڈز میں بدلیں اور ہر سلائیڈ کے لیے ایک مرکزی خیال اور speaking note رکھیں۔"
 ---
 
-چیٹ جی پی ٹی کے ذریعے بکھرے نوٹس کو ایک واضح رپورٹ اور مختصر پریزنٹیشن میں کیسے بدلیں؟ طریقہ یہ ہے: پہلے میٹنگ نوٹس، ٹرانسکرپٹ یا فائل کو منظم رپورٹ میں تبدیل کریں، اصل معلومات سے حقائق کی جانچ کریں اور پھر اسی منظور شدہ رپورٹ سے سلائیڈز بنائیں۔ OpenAI کی ChatGPT Training میں دکھائے گئے اس workflow کو ہم نے پاکستانی اساتذہ، طلبہ، فلاحی اداروں، فری لانسرز اور چھوٹے کاروباروں کے لیے آسان اردو پرامپٹس اور مقامی مثالوں کے ساتھ ڈھالا ہے۔
-
-> **ماخذ اور کریڈٹ:** اس گائیڈ کی تدریسی ترتیب OpenAI کے آفیشل [Creating slides and docs](https://learn.chatgpt.com/training/walkthroughs/creating-slides-and-docs) walkthrough سے متاثر ہے۔ نیچے دیے گئے دو interface screenshots اسی lesson سے لیے گئے ہیں۔ اردو وضاحت، پاکستانی مثالیں، پرامپٹس اور احتیاطیں اردو اے آئی ٹیم نے نئے سرے سے تیار کی ہیں۔
+چیٹ جی پی ٹی کے ذریعے بکھرے نوٹس کو ایک واضح رپورٹ اور مختصر پریزنٹیشن میں کیسے بدلیں؟ پہلے میٹنگ نوٹس، ٹرانسکرپٹ یا فائل کو منظم رپورٹ میں تبدیل کریں، اصل معلومات سے حقائق کی جانچ کریں اور پھر اسی منظور شدہ رپورٹ سے سلائیڈز بنائیں۔ اس گائیڈ میں یہی workflow پاکستانی اساتذہ، طلبہ، فلاحی اداروں، فری لانسرز اور چھوٹے کاروباروں کے لیے آسان اردو پرامپٹس اور مقامی مثالوں کے ساتھ دیا گیا ہے۔
 
 ## آخر میں آپ کے پاس کیا تیار ہوگا؟
 
@@ -66,11 +72,11 @@ faq:
 >
 > صرف انہی معلومات کو استعمال کریں جو نوٹس میں موجود ہیں۔ کوئی نام، تاریخ، عدد یا فیصلہ خود سے نہ بنائیں۔ جہاں ذمہ دار فرد یا تاریخ موجود نہ ہو وہاں **تصدیق درکار** لکھیں۔ آخر میں اصل نوٹس سے جانچنے کے لیے ایک مختصر checklist بھی دیں۔
 
-OpenAI کے walkthrough میں اسی طرح meeting transcript کو ایک منظم Google Doc میں بدلنے کی مثال دی گئی ہے۔
+اسی طرح meeting transcript کو ایک منظم Google Doc میں بدلا جا سکتا ہے۔
 
-![OpenAI کی مثال میں میٹنگ ٹرانسکرپٹ سے Google Doc تیار کیا جا رہا ہے](/images/guides/chatgpt-work-notes-to-slides/step-02-openai-doc-example.webp)
+![میٹنگ ٹرانسکرپٹ سے Google Doc تیار کرنے کی مثال](/images/guides/chatgpt-work-notes-to-slides/step-02-openai-doc-example.webp)
 
-*تصویر: OpenAI کی ChatGPT Training میں دکھائی گئی illustrative مثال۔ ماخذ: [OpenAI](https://learn.chatgpt.com/training/walkthroughs/creating-slides-and-docs)*
+*Meeting transcript سے Google Doc بنانے کی عملی مثال۔*
 
 ## رپورٹ کو اصل نوٹس سے کیسے چیک کریں؟
 
@@ -105,11 +111,11 @@ OpenAI کے walkthrough میں اسی طرح meeting transcript کو ایک من
 >
 > ہر سلائیڈ پر ایک واضح عنوان اور زیادہ سے زیادہ تین مختصر نکات ہوں۔ لمبے پیراگراف نہ لکھیں۔ تمام اعداد اور تاریخیں رپورٹ کے مطابق رکھیں۔ ہر سلائیڈ کے نیچے presenter کے لیے ایک مختصر speaking note بھی دیں۔
 
-OpenAI کی مثال میں ChatGPT Work تیار شدہ document کی ساخت کو Google Slides deck میں منتقل کرتا ہے۔
+اگلے مرحلے میں ChatGPT Work تیار شدہ document کی ساخت کو Google Slides deck میں منتقل کرتا ہے۔
 
-![OpenAI کی مثال میں رپورٹ سے Google Slides پریزنٹیشن تیار کی جا رہی ہے](/images/guides/chatgpt-work-notes-to-slides/step-03-openai-slides-example.webp)
+![رپورٹ سے Google Slides پریزنٹیشن تیار کرنے کی مثال](/images/guides/chatgpt-work-notes-to-slides/step-03-openai-slides-example.webp)
 
-*تصویر: OpenAI کی ChatGPT Training میں دکھائی گئی illustrative مثال۔ ماخذ: [OpenAI](https://learn.chatgpt.com/training/walkthroughs/creating-slides-and-docs)*
+*منظور شدہ رپورٹ سے Google Slides deck بنانے کی مثال۔*
 
 ## اچھی سلائیڈ کو رپورٹ کی نقل بننے سے کیسے بچائیں؟
 
@@ -123,7 +129,7 @@ OpenAI کی مثال میں ChatGPT Work تیار شدہ document کی ساخت 
 
 ## کیا ChatGPT خود Google Docs اور Slides میں فائل بنا دے گا؟
 
-[OpenAI کے training walkthrough](https://learn.chatgpt.com/training) میں ChatGPT Work اور connected tools کے ذریعے Google Doc اور Google Slides بنانے کا workflow دکھایا گیا ہے۔ Microsoft Word اور PowerPoint کے ساتھ کام کرنے کا ذکر بھی موجود ہے۔ لیکن براہِ راست فائل بنانا آپ کے اکاؤنٹ، workspace، دستیاب plugins یا connected tools پر منحصر ہو سکتا ہے۔
+ChatGPT Work اور connected tools کے ذریعے Google Doc اور Google Slides بنائے جا سکتے ہیں۔ Microsoft Word اور PowerPoint کے ساتھ کام بھی ممکن ہو سکتا ہے، لیکن براہِ راست فائل بنانا آپ کے اکاؤنٹ، workspace، دستیاب plugins یا connected tools پر منحصر ہے۔
 
 اگر یہ options آپ کو نظر نہ آئیں تو بھی بنیادی طریقہ کام کرتا ہے:
 
@@ -158,7 +164,7 @@ Client call کے transcript سے project brief، deliverables، timeline اور 
 
 ## اگلی بار یہی format دوبارہ کیسے استعمال کریں؟
 
-OpenAI کے lesson میں تیار document یا presentation کی structure کو Template Creator کے ذریعے reusable template بنانے کی مثال بھی دی گئی ہے۔ اگر یہ feature آپ کے workspace میں موجود ہے تو آزمائیں۔ اگر موجود نہیں تو آسان متبادل یہ ہے:
+تیار document یا presentation کی structure کو Template Creator کے ذریعے reusable template بنایا جا سکتا ہے۔ اگر یہ feature آپ کے workspace میں موجود ہے تو آزمائیں۔ اگر موجود نہیں تو آسان متبادل یہ ہے:
 
 - کامیاب پرامپٹ الگ document میں محفوظ کریں
 - report headings کو blank template بنا لیں

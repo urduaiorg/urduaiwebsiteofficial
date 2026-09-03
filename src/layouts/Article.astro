@@ -88,6 +88,17 @@ const formattedDate = dateObj.toLocaleDateString('ur-PK', {
   month: 'long',
   day: 'numeric',
 });
+const updatedParts = last_updated?.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+const updatedObj = last_updated
+  ? updatedParts
+    ? new Date(Number(updatedParts[1]), Number(updatedParts[2]) - 1, Number(updatedParts[3]))
+    : new Date(last_updated)
+  : null;
+const formattedUpdatedDate = updatedObj?.toLocaleDateString('ur-PK', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
 
 const collectionComments = legacyCommentsData.commentsByCollection[collection] ?? {};
 const legacyComments = collectionComments[slug] ?? [];
@@ -276,6 +287,11 @@ const combinedSchema = [
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
         {formattedDate}
       </time>
+      {last_updated && formattedUpdatedDate && (
+        <time datetime={last_updated} class="article-header__date">
+          آخری جانچ: {formattedUpdatedDate}
+        </time>
+      )}
       <span class="article-header__reading-time" id="reading-time">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         <span id="reading-time-text"></span>

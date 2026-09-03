@@ -113,6 +113,16 @@ const guideHubSchema = [
       </div>
     </section>
 
+    <section class="work-course" aria-labelledby="work-course-title">
+      <div class="work-course__content">
+        <p class="work-course__eyebrow">نیا عملی سلسلہ</p>
+        <h2 id="work-course-title">ChatGPT Work اردو کورس</h2>
+        <p>Chat اور Work کا فرق سمجھیں، apps جوڑیں، روزانہ کے کام schedule کریں، رپورٹ و پریزنٹیشن بنائیں اور موبائل یا کمپیوٹر سے پورا workflow چلائیں۔</p>
+        <a href={`${base}/guides/chatgpt-work-urdu-course/`}>چھ اسباق سے سیکھنا شروع کریں</a>
+      </div>
+      <img src={`${base}/images/guides/chatgpt-work-getting-started/cover.png`} alt="ChatGPT Work اردو کورس" width="1200" height="630" loading="lazy" />
+    </section>
+
     <section class="guides-topics" aria-labelledby="guides-topics-title">
       <h2 id="guides-topics-title">اپنی ضرورت کے مطابق گائیڈ چنیں</h2>
       <div class="guides-topics__grid">
@@ -259,6 +269,57 @@ const guideHubSchema = [
       margin-block-end: var(--space-lg);
     }
 
+    .work-course {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 0.9fr);
+      gap: var(--space-md);
+      align-items: center;
+      background: var(--ink);
+      color: var(--paper);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-block-end: var(--space-xl);
+    }
+
+    .work-course__content {
+      padding: var(--space-lg);
+    }
+
+    .work-course__eyebrow {
+      color: var(--gold-light);
+      font-size: var(--text-sm);
+      margin-block-end: 0.2em;
+    }
+
+    .work-course h2 {
+      color: var(--paper);
+      font-size: 1.65rem;
+      line-height: var(--lh-heading);
+      margin-block-end: var(--space-xs);
+    }
+
+    .work-course p {
+      line-height: var(--lh-prose);
+    }
+
+    .work-course a {
+      display: inline-block;
+      color: var(--ink);
+      background: var(--gold-light);
+      border-radius: 8px;
+      padding: 0.45em 1em;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .work-course img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 260px;
+      object-fit: cover;
+    }
+
     .guides-topics__grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -297,6 +358,21 @@ const guideHubSchema = [
     .guides-faq__item {
       border-block-end: 1px solid var(--border);
       padding-block: var(--space-xs);
+    }
+
+    @media (max-width: 760px) {
+      .work-course {
+        grid-template-columns: 1fr;
+      }
+
+      .work-course img {
+        min-height: 0;
+        order: -1;
+      }
+
+      .work-course__content {
+        padding: var(--space-md);
+      }
     }
   </style>
 </Base>

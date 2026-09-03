@@ -1,0 +1,253 @@
+---
+import Base from '../../layouts/Base.astro';
+
+export const prerender = true;
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = 'https://urduai.org/guides/chatgpt-work-urdu-course/';
+const modules = [
+  {
+    number: '۱',
+    title: 'ChatGPT Work کیا ہے؟',
+    description: 'Chat اور Work کا فرق، صحیح task اور پہلا محفوظ workflow۔',
+    href: '/guides/chatgpt-work-getting-started-urdu/',
+    image: '/images/guides/chatgpt-work-getting-started/cover.png',
+    time: '۸ منٹ',
+  },
+  {
+    number: '۲',
+    title: 'Gmail، Calendar اور apps جوڑیں',
+    description: 'Plugins سے معلومات لائیں اور Skills سے اپنا طریقہ محفوظ کریں۔',
+    href: '/guides/chatgpt-work-plugins-skills-urdu/',
+    image: '/images/guides/chatgpt-work-plugins-skills/cover.png',
+    time: '۹ منٹ',
+  },
+  {
+    number: '۳',
+    title: 'روزانہ کے کام خودکار بنائیں',
+    description: 'Task پہلے آزمائیں، پھر صحیح وقت اور محفوظ حدود کے ساتھ schedule کریں۔',
+    href: '/guides/chatgpt-work-scheduled-tasks-urdu/',
+    image: '/images/guides/chatgpt-work-scheduled-tasks/cover.png',
+    time: '۷ منٹ',
+  },
+  {
+    number: '۴',
+    title: 'نوٹس سے رپورٹ اور سلائیڈز',
+    description: 'بکھرے مواد کو پہلے قابلِ جانچ رپورٹ، پھر مختصر presentation بنائیں۔',
+    href: '/guides/chatgpt-work-notes-to-report-slides-urdu/',
+    image: '/images/guides/chatgpt-work-notes-to-slides/cover.png',
+    time: '۸ منٹ',
+  },
+  {
+    number: '۵',
+    title: 'کمپیوٹر اور Browser پر کام',
+    description: 'صحیح mode چنیں، desktop یا web task دیں اور اہم action اپنے control میں رکھیں۔',
+    href: '/guides/chatgpt-work-computer-browser-urdu/',
+    image: '/images/guides/chatgpt-work-computer-browser/cover.png',
+    time: '۱۰ منٹ',
+  },
+  {
+    number: '۶',
+    title: 'موبائل، Remote اور Voice',
+    description: 'فون سے task شروع کریں، computer کی progress دیکھیں اور آواز سے ہدایات دیں۔',
+    href: '/guides/chatgpt-work-mobile-voice-urdu/',
+    image: '/images/guides/chatgpt-work-mobile-voice/cover.png',
+    time: '۱۰ منٹ',
+  },
+];
+const faq = [
+  {
+    question: 'ChatGPT Work اردو کورس کس کے لیے ہے؟',
+    answer: 'یہ کورس اساتذہ، طلبہ، فری لانسرز، چھوٹے کاروباروں اور ہر ایسے beginner کے لیے ہے جو ChatGPT سے صرف جواب لینے کے بجائے مکمل عملی کام کروانا چاہتا ہے۔',
+  },
+  {
+    question: 'کیا تمام اسباق مکمل کرنا ضروری ہے؟',
+    answer: 'پہلا سبق بنیاد سمجھنے کے لیے اہم ہے۔ اس کے بعد اپنی ضرورت کے مطابق apps، scheduled tasks، documents، computer یا mobile والا سبق چنا جا سکتا ہے۔',
+  },
+  {
+    question: 'کیا ChatGPT Work ہر account میں دستیاب ہے؟',
+    answer: 'دستیابی، limits، plugins اور computer یا voice features plan، device، workspace اور rollout کے مطابق مختلف ہو سکتے ہیں۔ ہر گائیڈ میں متبادل طریقہ بھی دیا گیا ہے۔',
+  },
+];
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'ChatGPT Work اردو کورس: چھ عملی گائیڈز',
+    description: 'ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔',
+    url: canonical,
+    inLanguage: 'ur',
+    dateModified: '2026-09-03',
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: 'ChatGPT Work اردو کورس',
+    description: 'چھ عملی اسباق میں ChatGPT Work، apps، scheduled tasks، documents، browser، computer، mobile اور voice کا استعمال سیکھیں۔',
+    url: canonical,
+    inLanguage: 'ur',
+    isAccessibleForFree: true,
+    provider: {
+      '@type': 'Organization',
+      name: 'اردو اے آئی',
+      url: 'https://urduai.org',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'ChatGPT Work اردو کورس کے اسباق',
+    numberOfItems: modules.length,
+    itemListElement: modules.map((module, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: module.title,
+      url: `https://urduai.org${module.href}`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  },
+];
+---
+
+<Base
+  title="ChatGPT Work اردو کورس: چھ عملی گائیڈز"
+  description="ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔"
+  canonical={canonical}
+  ogImage="/images/guides/chatgpt-work-getting-started/cover.png"
+  adsense={true}
+  schema={schema}
+>
+  <main class="course-page container">
+    <nav aria-label="بریڈکرمب">
+      <ol class="breadcrumb">
+        <li><a href={`${base}/`}>ہوم</a></li>
+        <li><a href={`${base}/guides/`}>گائیڈز</a></li>
+        <li aria-current="page">ChatGPT Work اردو کورس</li>
+      </ol>
+    </nav>
+
+    <header class="course-hero">
+      <div>
+        <p class="course-hero__eyebrow">مفت عملی کورس</p>
+        <h1>ChatGPT Work اردو میں سیکھیں</h1>
+        <p class="course-hero__answer">ChatGPT Work سیکھنے کا بہترین راستہ چھ عملی مرحلوں پر مشتمل ہے: پہلے Chat اور Work کا فرق سمجھیں، پھر apps جوڑیں، بار بار ہونے والے کام schedule کریں، documents بنائیں اور آخر میں computer، mobile اور voice سے مکمل workflow چلائیں۔</p>
+        <p class="course-hero__meta">۶ اسباق · تقریباً ۵۲ منٹ · آخری جانچ: ۳ ستمبر ۲۰۲۶</p>
+        <a class="course-hero__cta" href={`${base}${modules[0].href}`}>پہلا سبق شروع کریں</a>
+      </div>
+      <img src={`${base}/images/guides/chatgpt-work-getting-started/cover.png`} alt="ChatGPT Work اردو کورس" width="1200" height="630" />
+    </header>
+
+    <section class="course-intro" aria-labelledby="course-intro-title">
+      <h2 id="course-intro-title">اس کورس کے بعد آپ کیا کر سکیں گے؟</h2>
+      <ul>
+        <li>عام سوال اور multi-step Work task میں فرق کر سکیں گے۔</li>
+        <li>Gmail، Calendar یا دوسری دستیاب apps سے source-based نتیجہ تیار کر سکیں گے۔</li>
+        <li>روزانہ اور ہفتہ وار کام محفوظ حدود کے ساتھ schedule کر سکیں گے۔</li>
+        <li>نوٹس سے رپورٹ اور presentation بنانے کا قابلِ تکرار طریقہ اپنا سکیں گے۔</li>
+        <li>Computer، Browser، mobile، Remote اور Voice کا درست موقع پہچان سکیں گے۔</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="modules-title">
+      <h2 id="modules-title">چھ عملی اسباق</h2>
+      <div class="module-grid">
+        {modules.map((module) => (
+          <article class="module-card">
+            <a href={`${base}${module.href}`} class="module-card__image-link" aria-label={module.title}>
+              <img src={`${base}${module.image}`} alt="" width="1200" height="630" loading="lazy" />
+            </a>
+            <div class="module-card__body">
+              <p class="module-card__meta">سبق {module.number} · {module.time}</p>
+              <h3><a href={`${base}${module.href}`}>{module.title}</a></h3>
+              <p>{module.description}</p>
+              <a class="module-card__link" href={`${base}${module.href}`}>سبق پڑھیں</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="course-method" aria-labelledby="method-title">
+      <h2 id="method-title">ہر سبق کو عملی بنانے کا طریقہ</h2>
+      <p>ایک وقت میں ایک سبق پڑھیں، دیا گیا prompt اپنے حقیقی کام پر آزمائیں اور نتیجہ اصل source سے ملائیں۔ پہلے draft، پھر review اور آخر میں approval کا اصول پورے کورس میں برقرار رکھیں۔ feature نظر نہ آئے تو اسی سبق میں دیا گیا آسان متبادل استعمال کریں۔</p>
+    </section>
+
+    <section class="course-faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">اکثر پوچھے گئے سوالات</h2>
+      {faq.map((item) => (
+        <details>
+          <summary>{item.question}</summary>
+          <p>{item.answer}</p>
+        </details>
+      ))}
+    </section>
+
+    <section class="course-sources" aria-labelledby="sources-title">
+      <h2 id="sources-title">آفیشل حوالہ اور کریڈٹ</h2>
+      <p>یہ اردو کورس <a href="https://learn.chatgpt.com/training">OpenAI کی ChatGPT Training</a> کے عملی walkthroughs سے اخذ کیا گیا ہے۔ interface screenshots OpenAI کے training صفحات سے ہیں؛ اردو وضاحت، پاکستانی مثالیں، حفاظتی حدود اور prompts اردو اے آئی ٹیم نے تیار کیے ہیں۔ features اور availability بدلنے پر اس سلسلے کو دوبارہ جانچا جائے گا۔</p>
+    </section>
+  </main>
+
+  <style>
+    .course-page { padding-block: var(--space-lg) var(--space-2xl); }
+    .course-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: var(--space-xl);
+      align-items: center;
+      padding-block: var(--space-lg) var(--space-xl);
+      border-block-end: 1px solid var(--border);
+    }
+    .course-hero__eyebrow,
+    .module-card__meta { color: var(--gold); font-weight: 700; font-size: var(--text-sm); margin: 0; }
+    .course-hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.65; margin-block: 0.1em var(--space-xs); }
+    .course-hero__answer { font-size: 1.08rem; line-height: var(--lh-prose); max-width: 720px; }
+    .course-hero__meta { color: var(--ink-muted); font-size: var(--text-sm); }
+    .course-hero__cta,
+    .module-card__link {
+      display: inline-block;
+      background: var(--teal);
+      color: #fff;
+      border-radius: 8px;
+      padding: 0.5em 1.05em;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .course-hero img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--border); box-shadow: 0 12px 30px rgba(26, 18, 7, 0.12); }
+    .course-intro,
+    .course-method,
+    .course-faq,
+    .course-sources { max-width: 900px; margin-block: var(--space-xl); }
+    .course-page h2 { font-size: 1.65rem; line-height: var(--lh-heading); margin-block-end: var(--space-sm); }
+    .course-intro li,
+    .course-method p,
+    .course-sources p { line-height: var(--lh-prose); }
+    .module-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-md); }
+    .module-card { background: var(--paper-card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .module-card__image-link { display: block; }
+    .module-card img { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; }
+    .module-card__body { padding: var(--space-md); }
+    .module-card h3 { font-size: 1.25rem; line-height: var(--lh-heading); margin-block: 0.2em 0.35em; }
+    .module-card h3 a { color: var(--ink); text-decoration: none; }
+    .module-card__body > p:not(.module-card__meta) { line-height: var(--lh-prose); }
+    .module-card__link { font-size: var(--text-sm); }
+    .course-faq details { border-block-end: 1px solid var(--border); padding-block: var(--space-xs); }
+    .course-faq summary { cursor: pointer; font-weight: 700; line-height: var(--lh-heading); }
+    .course-faq details p { line-height: var(--lh-prose); margin-block-end: 0; }
+    .course-sources { border-block-start: 1px solid var(--border); padding-block-start: var(--space-md); color: var(--ink-soft); }
+    @media (max-width: 760px) {
+      .course-hero,
+      .module-grid { grid-template-columns: 1fr; }
+      .course-hero img { order: -1; }
+      .course-hero { gap: var(--space-md); }
+    }
+  </style>
+</Base>
