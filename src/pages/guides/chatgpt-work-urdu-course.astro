@@ -48,6 +48,14 @@ const modules = [
   },
   {
     number: '۶',
+    title: 'Website بنائیں اور Share کریں',
+    description: 'اپنے آئیڈیا کو hosted site میں بدلیں، preview درست کریں اور access control کے ساتھ share کریں۔',
+    href: '/guides/chatgpt-work-build-shareable-site-urdu/',
+    image: '/images/guides/chatgpt-work-shareable-site/cover.png',
+    time: '۷ منٹ',
+  },
+  {
+    number: '۷',
     title: 'موبائل، Remote اور Voice',
     description: 'فون سے task شروع کریں، computer کی progress دیکھیں اور آواز سے ہدایات دیں۔',
     href: '/guides/chatgpt-work-mobile-voice-urdu/',
@@ -62,7 +70,7 @@ const faq = [
   },
   {
     question: 'کیا تمام اسباق مکمل کرنا ضروری ہے؟',
-    answer: 'پہلا سبق بنیاد سمجھنے کے لیے اہم ہے۔ اس کے بعد اپنی ضرورت کے مطابق apps، scheduled tasks، documents، computer یا mobile والا سبق چنا جا سکتا ہے۔',
+    answer: 'پہلا سبق بنیاد سمجھنے کے لیے اہم ہے۔ اس کے بعد اپنی ضرورت کے مطابق apps، scheduled tasks، documents، computer، Sites یا mobile والا سبق چنا جا سکتا ہے۔',
   },
   {
     question: 'کیا ChatGPT Work ہر account میں دستیاب ہے؟',
@@ -73,8 +81,8 @@ const schema = [
   {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    name: 'ChatGPT Work اردو کورس: چھ عملی گائیڈز',
-    description: 'ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔',
+    name: 'ChatGPT Work اردو کورس: سات عملی گائیڈز',
+    description: 'ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، Sites، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔',
     url: canonical,
     inLanguage: 'ur',
     dateModified: '2026-09-03',
@@ -83,7 +91,7 @@ const schema = [
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: 'ChatGPT Work اردو کورس',
-    description: 'چھ عملی اسباق میں ChatGPT Work، apps، scheduled tasks، documents، browser، computer، mobile اور voice کا استعمال سیکھیں۔',
+    description: 'سات عملی اسباق میں ChatGPT Work، apps، scheduled tasks، documents، browser، computer، Sites، mobile اور voice کا استعمال سیکھیں۔',
     url: canonical,
     inLanguage: 'ur',
     isAccessibleForFree: true,
@@ -118,8 +126,8 @@ const schema = [
 ---
 
 <Base
-  title="ChatGPT Work اردو کورس: چھ عملی گائیڈز"
-  description="ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔"
+  title="ChatGPT Work اردو کورس: سات عملی گائیڈز"
+  description="ChatGPT Work کو apps، scheduled tasks، documents، browser، computer، Sites، mobile اور voice کے ساتھ استعمال کرنے کا مفت عملی اردو کورس۔"
   canonical={canonical}
   ogImage="/images/guides/chatgpt-work-getting-started/cover.png"
   adsense={true}
@@ -138,8 +146,8 @@ const schema = [
       <div>
         <p class="course-hero__eyebrow">مفت عملی کورس</p>
         <h1>ChatGPT Work اردو میں سیکھیں</h1>
-        <p class="course-hero__answer">ChatGPT Work سیکھنے کا بہترین راستہ چھ عملی مرحلوں پر مشتمل ہے: پہلے Chat اور Work کا فرق سمجھیں، پھر apps جوڑیں، بار بار ہونے والے کام schedule کریں، documents بنائیں اور آخر میں computer، mobile اور voice سے مکمل workflow چلائیں۔</p>
-        <p class="course-hero__meta">۶ اسباق · تقریباً ۵۲ منٹ · آخری جانچ: ۳ ستمبر ۲۰۲۶</p>
+        <p class="course-hero__answer">ChatGPT Work سیکھنے کا مکمل راستہ سات عملی مرحلوں پر مشتمل ہے: پہلے Chat اور Work کا فرق سمجھیں، پھر apps جوڑیں، کام schedule کریں، documents بنائیں، computer استعمال کریں، shareable site تیار کریں اور آخر میں mobile اور voice سے workflow چلائیں۔</p>
+        <p class="course-hero__meta">۷ اسباق · تقریباً ۵۹ منٹ · آخری جانچ: ۳ ستمبر ۲۰۲۶</p>
         <a class="course-hero__cta" href={`${base}${modules[0].href}`}>پہلا سبق شروع کریں</a>
       </div>
       <img src={`${base}/images/guides/chatgpt-work-getting-started/cover.png`} alt="ChatGPT Work اردو کورس" width="1200" height="630" />
@@ -152,12 +160,13 @@ const schema = [
         <li>Gmail، Calendar یا دوسری دستیاب apps سے source-based نتیجہ تیار کر سکیں گے۔</li>
         <li>روزانہ اور ہفتہ وار کام محفوظ حدود کے ساتھ schedule کر سکیں گے۔</li>
         <li>نوٹس سے رپورٹ اور presentation بنانے کا قابلِ تکرار طریقہ اپنا سکیں گے۔</li>
+        <li>اپنے آئیڈیا کو hosted website میں بدل کر اس کی sharing محدود یا public کر سکیں گے۔</li>
         <li>Computer، Browser، mobile، Remote اور Voice کا درست موقع پہچان سکیں گے۔</li>
       </ul>
     </section>
 
     <section aria-labelledby="modules-title">
-      <h2 id="modules-title">چھ عملی اسباق</h2>
+      <h2 id="modules-title">سات عملی اسباق</h2>
       <div class="module-grid">
         {modules.map((module) => (
           <article class="module-card">
