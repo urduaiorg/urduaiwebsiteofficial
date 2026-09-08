@@ -4,21 +4,21 @@ import vm from 'node:vm';
 import { readFileSync } from 'node:fs';
 const source = readFileSync(new URL('../src/scripts/privacy-consent.js', import.meta.url), 'utf8');
 function app() {
-  const appended = [], listeners = new Map(), button = { hidden: true };
+  const appended = [], listeners = new Map(), button = { hidden: true }, reloads = [];
   const document = {
     addEventListener: (name, listener) => listeners.set(name, listener),
     querySelectorAll: () => [button], querySelector: () => null,
     createElement: () => ({}), head: { appendChild: script => appended.push(script) },
   };
   class Element { closest() { return this; } matches() { return false; } dataset = { analyticsEvent: 'test_click' }; }
-  const context = vm.createContext({ document, console, Element, HTMLAnchorElement: class extends Element {}, location: { pathname: '/blog/example/' } });
+  const context = vm.createContext({ document, console, Element, HTMLAnchorElement: class extends Element {}, location: { pathname: '/blog/example/', reload: () => reloads.push(true) } });
   context.window = context;
   vm.runInContext(source, context);
   const emit = (key, value) => {
     context.googlefc.getGoogleConsentModeValues = () => value;
     for (const entry of context.googlefc.callbackQueue) entry[key]?.();
   };
-  return { context, appended, listeners, button, Element, emit };
+  return { context, appended, listeners, button, Element, emit, reloads };
 }
 const state = n => ({ adStoragePurposeConsentStatus: n, adUserDataPurposeConsentStatus: n, adPersonalizationPurposeConsentStatus: n, analyticsStoragePurposeConsentStatus: n });
 test('no CMP, unknown, denied or unconfigured choices do not start analytics', () => {
@@ -63,6 +63,26 @@ test('withdrawal disables analytics before opening the consent dialog', () => {
 });
 test('CMP unavailability does not report a successful settings action', () => {
   assert.equal(app().context.urduAiOpenPrivacyChoices(), false);
+});
+test('a revised decision starts a fresh page after clearing the old record', () => {
+  const a = app();
+  a.emit('CONSENT_API_READY'); a.emit('CONSENT_MODE_DATA_READY', state(2));
+  let cleared = false;
+  a.context.googlefc.showRevocationMessage = () => { cleared = true; };
+  a.context.location.reload = () => {
+    assert.equal(cleared, true);
+    assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+    a.reloads.push(true);
+  };
+  a.context.urduAiOpenPrivacyChoices();
+  assert.equal(a.reloads.length, 1);
+  assert.equal(a.appended.length, 0);
+  // A new document receives new readiness callbacks; it does not depend on
+  // Google replaying callbacks already consumed by the previous decision.
+  const next = app();
+  next.emit('CONSENT_MODE_DATA_READY', state(1));
+  assert.equal(next.appended.length, 1);
+  assert.equal(next.context['ga-disable-G-CW98PY3REY'], false);
 });
 test('direct ad-slot events are discarded before consent and after withdrawal', () => {
   const a = app();

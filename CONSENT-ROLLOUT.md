@@ -45,3 +45,11 @@ Sources: https://developers.google.com/funding-choices/fc-api-docs ; https://sup
 A separate regular Safari window displayed the published message and allowed refusal while retaining article access. The locked private tabs were not opened. Automatic review blocked the acceptance click; specific user approval for that session's processing and subsequent withdrawal is pending. No new browser-console/network result was obtained.
 
 Added scripts/verify-consent-bundle.mjs to postbuild. It parses the generated HTML, checks controller placement/executability and absence of worker forwarding, then executes the embedded controller with simulated consent callbacks. The generated page and downloaded live ea164b7 article both pass. This supplements source tests; it cannot replace live CMP lifecycle, CSP or network checks. The verification changes are committed locally for the next deployment and do not change live site behavior.
+
+## Approved acceptance test and prepared lifecycle fix
+
+The user approved the specific consent test. Acceptance succeeded: Google reported all four purposes granted, but Analytics remained disabled after the prior refusal, with no worker present. The session was returned to Do not consent; all four values were verified denied and Analytics disabled. The acceptance-test approval block is resolved.
+
+The prepared controller change clears the saved Google consent record through showRevocationMessage and reloads the page, giving the next choice fresh readiness callbacks and discarding tags from the prior decision. Source tests (31 total), generated-HTML smoke check, Astro build and Pagefind passed. Actual deployed new-choice retesting remains required.
+
+Automatic approval review rejected the combined commit/deployment command for this follow-up as lacking specific live-site deployment authorization. That command did not execute. The tested patch is being saved locally, and a specific deployment decision is required; no alternate deployment route will be used. The existing live ea164b7 site remains unchanged.

@@ -24,6 +24,7 @@ assert.ok(!scripts[index].attrs.type || scripts[index].attrs.type === 'text/java
 
 const loaded = [];
 const context = vm.createContext({
+  location: { reload() {} },
   document: {
     addEventListener() {}, querySelectorAll: () => [],
     createElement: () => ({}), head: { appendChild: script => loaded.push(script) },

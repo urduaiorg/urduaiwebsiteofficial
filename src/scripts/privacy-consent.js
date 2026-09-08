@@ -50,6 +50,10 @@
     window['ga-disable-GT-T945ZSRZ'] = true;
     window.gtag('consent', 'update', denied);
     window.googlefc.showRevocationMessage();
+    // Google clears the saved decision above. Its readiness callbacks are
+    // one-shot, so start a fresh page/CMP lifecycle for the replacement choice.
+    // This also discards tags initialized under the previous decision.
+    window.location.reload();
     return true;
   };
   window.googlefc.callbackQueue.push({ CONSENT_API_READY: () => { apiReady = true; showControls(); } });
