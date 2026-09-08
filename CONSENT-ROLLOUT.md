@@ -53,3 +53,9 @@ The user approved the specific consent test. Acceptance succeeded: Google report
 The prepared controller change clears the saved Google consent record through showRevocationMessage and reloads the page, giving the next choice fresh readiness callbacks and discarding tags from the prior decision. Source tests (31 total), generated-HTML smoke check, Astro build and Pagefind passed. Actual deployed new-choice retesting remains required.
 
 Automatic approval review rejected the combined commit/deployment command for this follow-up as lacking specific live-site deployment authorization. That command did not execute. The tested patch is being saved locally, and a specific deployment decision is required; no alternate deployment route will be used. The existing live ea164b7 site remains unchanged.
+
+## Deployment completed
+
+The user explicitly approved deployment of 1c40814. GitHub run 34283229318 attempt 1 timed out opening the Hostinger SSH connection before transfer. The same approved deployment was retried; attempt 2 succeeded. A fresh live HTTP download contains the lifecycle fix and passes scripts/verify-consent-bundle.mjs.
+
+The final interactive post-deployment acceptance/withdrawal retest remains incomplete because Safari window/display control and console focus became unreliable. Do not describe the lifecycle issue as fully verified from the simulated check alone. Before deployment, the approved temporary consent test was restored to refusal and all four denied values were observed. The separate simulator tracking enable test awaits its specific approval. No App Store upload/submission was performed.
