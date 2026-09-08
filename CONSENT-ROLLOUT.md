@@ -39,3 +39,9 @@ An existing CSP script-src block for ep2.adtrafficquality.google/sodar/sodar2.js
 If live checks fail, keep iOS advertising disabled and fix the website integration. Any rollback must be scoped to this rollout's commit and this Urdu AI message, preserving unrelated site content and other sites' messages.
 
 Sources: https://developers.google.com/funding-choices/fc-api-docs ; https://support.google.com/adsense/answer/10960670?hl=en ; https://support.google.com/adsense/answer/16283098?hl=en
+
+## Background verification after lock-screen authorization
+
+A separate regular Safari window displayed the published message and allowed refusal while retaining article access. The locked private tabs were not opened. Automatic review blocked the acceptance click; specific user approval for that session's processing and subsequent withdrawal is pending. No new browser-console/network result was obtained.
+
+Added scripts/verify-consent-bundle.mjs to postbuild. It parses the generated HTML, checks controller placement/executability and absence of worker forwarding, then executes the embedded controller with simulated consent callbacks. The generated page and downloaded live ea164b7 article both pass. This supplements source tests; it cannot replace live CMP lifecycle, CSP or network checks. The verification changes are committed locally for the next deployment and do not change live site behavior.

@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "node scripts/verify-consent-bundle.mjs && pagefind --site dist",
     "validate:redirects": "python3 scripts/validate_redirects.py",
     "validate:redirects:live": "python3 scripts/validate_redirects.py --base-url https://urduai.org",
     "learn-links": "node scripts/add-blog-learn-links.mjs",
