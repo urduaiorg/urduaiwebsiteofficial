@@ -1,0 +1,20 @@
+{
+  "arabic": {
+    "url": "/fonts/noto-nastaliq-urdu-basic-v23-af9a8170d419.woff2",
+    "bytes": 187840,
+    "source": "https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhW4MUPbN-oZdNFcBy1-DJYsEoTq5pu3SvoMGdX1OW12.woff2",
+    "source_bytes": 239212
+  },
+  "inter": {
+    "url": "/fonts/inter-latin-700-800-v20-d58b8534481d.woff2",
+    "bytes": 35160,
+    "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+    "source_bytes": 48432
+  },
+  "latin": {
+    "url": "/fonts/noto-nastaliq-latin-v23-da088222296b.woff2",
+    "bytes": 20500,
+    "source": "https://fonts.gstatic.com/s/notonastaliqurdu/v23/LhW4MUPbN-oZdNFcBy1-DJYsEoTq5pu3T_oMGdX1OQ.woff2",
+    "source_bytes": 20496
+  }
+}
