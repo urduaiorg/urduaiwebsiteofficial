@@ -306,6 +306,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
             window.urduAiAdTargets = new WeakMap();
           }
 
+          // Keep distant below-fold slots out of the initial content load.
           if (!window.urduAiAdObserver && 'IntersectionObserver' in window) {
             window.urduAiAdObserver = new IntersectionObserver((entries) => {
               entries.forEach((entry) => {
@@ -315,7 +316,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
                 window.urduAiAdObserver.unobserve(entry.target);
                 window.urduAiPushSingleAd(slot);
               });
-            }, { rootMargin: '600px 0px' });
+            }, { rootMargin: '200px 0px' });
           }
 
           document.querySelectorAll('.adsbygoogle[data-ad-slot]:not([data-urdu-ai-ad-state])').forEach((slot) => {

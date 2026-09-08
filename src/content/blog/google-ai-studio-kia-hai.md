@@ -1,40 +1,29 @@
 ---
-title: "Google AI Studio Urdu: free tier، API اور app build"
-description: "Google AI Studio Urdu guide: free tier، Gemini API key، Build Mode، prompts، app prototype، mobile use اور Pakistan میں شروع کرنے کا طریقہ سیکھیں۔"
+title: "گوگل اے آئی اسٹوڈیو کیا ہے؟ مفت آغاز اور پہلا پرامپٹ"
+description: "گوگل اے آئی اسٹوڈیو کھولنے، پہلا اردو پرامپٹ آزمانے اور جیمینائی سے اس کا فرق سمجھیں۔ مفت استعمال، API اور ایپ بنانے کے خرچ کی وضاحت پڑھیں۔"
 date: 2025-03-22
-last_updated: 2026-06-27
+last_updated: 2026-09-08
 category: "گائیڈ"
 author: "اردو اے آئی ٹیم"
+image_width: 1200
+image_height: 630
 adsense: true
-image: "/images/blog/google-ai-studio-kia-hai.jpg"
+image: "/images/blog/google-ai-studio-kia-hai-2026.png"
 tools: ["Google AI Studio", "Gemini"]
 draft: false
 faq:
-  - question: "Google AI Studio کیا ہے؟"
-    answer: "Google AI Studio گوگل کا AI workspace ہے جہاں آپ Gemini models کو test کر سکتے ہیں، prompts بنا سکتے ہیں، Gemini API key لے سکتے ہیں، اور Build Mode میں simple web یا Android app prototype بنا سکتے ہیں۔"
-  - question: "کیا Google AI Studio پاکستان میں free tier پر چلتا ہے؟"
-    answer: "Google AI Studio اور Gemini API میں free tier موجود ہے، مگر limits، supported features اور paid usage وقت کے ساتھ بدل سکتے ہیں۔ شروع کرنے سے پہلے گوگل کی آفیشل pricing اور regional access ضرور چیک کریں۔"
-  - question: "Google AI Studio اور Gemini میں کیا فرق ہے؟"
-    answer: "Gemini عام صارفین کے لیے چیٹ ایپ ہے، جبکہ Google AI Studio زیادہ تجرباتی اور بلڈر ورک اسپیس ہے جہاں آپ ماڈل، پرامٹ، API اور ایپ پروٹو ٹائپ کے ساتھ کام کرتے ہیں۔"
-  - question: "کیا Google AI Studio اردو سمجھتا ہے؟"
-    answer: "جی ہاں، آپ اردو میں پرامٹ لکھ سکتے ہیں۔ بہتر نتیجے کے لیے تکنیکی الفاظ جیسے login، button، database اور API انگریزی میں رکھیں اور باقی ہدایت سادہ اردو میں دیں۔"
-  - question: "Google AI Studio سے API key کیسے ملتی ہے؟"
-    answer: "AI Studio میں Google account سے sign in کر کے Get API key یا API key section کھولیں۔ key کو کبھی public page، browser code یا shared document میں paste نہ کریں؛ server-side secret کے طور پر رکھیں۔"
-  - question: "Google AI Studio کا Build Mode کیا کرتا ہے؟"
-    answer: "Build Mode میں آپ natural language prompt سے web app یا Android app prototype شروع کر سکتے ہیں۔ یہ code اور live preview بناتا ہے، مگر final app publish کرنے سے پہلے security، data، cost اور testing خود چیک کریں۔"
-  - question: "کیا Google AI Studio mobile پر استعمال ہو سکتا ہے؟"
-    answer: "Basic prompt testing mobile browser پر ہو سکتی ہے، لیکن API key، code، Build Mode، preview اور debugging کے لیے laptop یا desktop زیادہ مناسب ہے۔"
-  - question: "Google AI Studio beginners کے لیے ہے یا developers کے لیے؟"
-    answer: "Beginners اسے prompts اور small prototypes کے لیے استعمال کر سکتے ہیں، جبکہ developers API، model settings، code export، full-stack apps اور Android experiments کے لیے استعمال کرتے ہیں۔"
+  - question: "گوگل اے آئی اسٹوڈیو کیا ہے؟"
+    answer: "گوگل اے آئی اسٹوڈیو (Google AI Studio) جیمینائی ماڈلز اور پرامپٹس آزمانے کا آن لائن ٹول ہے۔ اس میں ایپ کا ابتدائی نمونہ بنانے اور اپنی ایپ میں اے آئی شامل کرنے کے راستے بھی ہیں۔"
+  - question: "کیا اسے ڈاؤن لوڈ کرنا ضروری ہے؟"
+    answer: "اس گائیڈ کے لیے براؤزر میں aistudio.google.com کھولیں۔ الگ انسٹالر یا کسی غیر متعلقہ ویب سائٹ سے ایپ ڈاؤن لوڈ کرنے کی ضرورت نہیں۔"
+  - question: "کیا گوگل اے آئی اسٹوڈیو مفت ہے؟"
+    answer: "گوگل کی قیمتوں والی دستاویز کے مطابق دستیاب علاقوں میں اے آئی اسٹوڈیو کا استعمال مفت ہے۔ جیمینائی API، بعض ماڈلز اور ایپ کی ہوسٹنگ کے اخراجات الگ ہو سکتے ہیں؛ استعمال سے پہلے منتخب سہولت کی قیمت دیکھیں۔"
+  - question: "کیا پہلی مشق کے لیے API key چاہیے؟"
+    answer: "عام چیٹ پرامپٹ آزمانے کے لیے پہلے API key بنانا ضروری نہیں۔ اپنی ایپ کو جیمینائی سے جوڑنے کے لیے اس کی ضرورت پڑ سکتی ہے۔"
 ---
+گوگل اے آئی اسٹوڈیو (Google AI Studio) ایک آن لائن ٹول ہے جہاں آپ جیمینائی (Gemini) ماڈلز کے ساتھ پرامپٹس آزما سکتے ہیں اور ایپ کا ابتدائی نمونہ بنا سکتے ہیں۔ پہلی مشق کے لیے [آفیشل اے آئی اسٹوڈیو](https://aistudio.google.com/) براؤزر میں کھولیں؛ الگ سافٹ ویئر ڈاؤن لوڈ کرنا ضروری نہیں۔
 
-# Google AI Studio Urdu: free tier، API اور app build
-
-Google AI Studio Urdu guide کا مختصر جواب یہ ہے کہ یہ گوگل کا AI workspace ہے جہاں آپ Gemini models test کر سکتے ہیں، اردو یا English prompts لکھ سکتے ہیں، Gemini API key لے سکتے ہیں، اور Build Mode میں web یا Android app prototype شروع کر سکتے ہیں۔ عام user کے لیے یہ Gemini chat سے ایک قدم آگے ہے: یہاں آپ صرف سوال نہیں پوچھتے، بلکہ prompt، model settings، code اور app idea بھی test کرتے ہیں۔
-
-پاکستانی صارفین کے لیے Google AI Studio خاص طور پر اس وقت کام آتا ہے جب آپ کے پاس ایپ، تعلیمی ٹول، چھوٹے کاروبار کا سسٹم، یا مواد بنانے کا آئیڈیا ہو مگر آپ فوراً مہنگا ڈویلپر ہائر نہیں کرنا چاہتے۔ شروع میں اسے تجربہ، سیکھنے اور پروٹو ٹائپ کے لیے استعمال کریں؛ حتمی پروڈکشن ایپ کے لیے پھر سکیورٹی، ڈیٹا اور ہوسٹنگ الگ سے چیک کریں۔
-
-اگر آپ صرف روزمرہ AI assistant چاہتے ہیں تو [Gemini Urdu guide](/how-to/how-to-use-gemini-in-urdu/) یا [ChatGPT app install guide](/how-to/how-to-install-original-chatgpt-app/) سے شروع کریں۔ اگر آپ AI tools کا موازنہ چاہتے ہیں تو [AI tools directory](/tools/) دیکھیں۔ اگر آپ app یا API experiment بنانا چاہتے ہیں تو یہی Google AI Studio page اگلا قدم ہے۔
+اگر آپ کا مقصد صرف سبق سمجھنا یا پیغام لکھنا ہے تو [جیمینائی کی ابتدائی گائیڈ](/how-to/how-to-use-gemini-in-urdu/) زیادہ سیدھا آغاز ہے۔ اے آئی اسٹوڈیو اس وقت آزمائیں جب آپ مختلف ہدایات کا نتیجہ دیکھنا، ماڈل کی ترتیبات بدلنا یا اپنی ایپ کا خیال آزمانا چاہتے ہوں۔
 
 ## جلد فیصلہ: کیا Google AI Studio آپ کے لیے ہے؟
 
@@ -72,27 +61,27 @@ Google کی [آفیشل AI Studio quickstart](https://ai.google.dev/gemini-api/d
 
 عام پاکستانی user کے لیے مناسب راستہ یہ ہے: پہلے [AI tools directory](/tools/) میں tools کا فرق دیکھیں، پھر Google AI Studio میں ایک چھوٹا prototype بنائیں، اور اگر بنیاد سمجھ نہ آئے تو [AI کیا ہے؟](/guides/ai-kya-hai-urdu-ai-master-class-1/) والا ابتدائی سبق پڑھیں۔
 
-## Google AI Studio کیسے شروع کریں؟
+## گوگل اے آئی اسٹوڈیو کیسے شروع کریں؟
 
-1. براؤزر میں [aistudio.google.com](https://aistudio.google.com/) کھولیں۔
-2. اپنے Google اکاؤنٹ سے سائن ان کریں۔
-3. نیا prompt یا Build Mode شروع کریں۔
-4. کام واضح لکھیں: آپ کیا بنانا چاہتے ہیں، کس کے لیے، اور نتیجہ کس شکل میں چاہیے۔
-5. پہلے چھوٹا تجربہ کریں؛ فوراً مکمل ایپ بنانے کی کوشش نہ کریں۔
+- **پہلا قدم:** براؤزر میں [اے آئی اسٹوڈیو](https://aistudio.google.com/) کھولیں اور اپنے گوگل اکاؤنٹ سے سائن ان کریں۔
+- **دوسرا قدم:** ابتدائی تجربے کے لیے چیٹ یا Playground کھولیں۔ ابھی پوری ایپ بنانے کی ضرورت نہیں۔
+- **تیسرا قدم:** نیچے دی گئی ہدایت لکھیں اور جواب حاصل کرنے کے لیے Run دبائیں۔ انٹرفیس کی ترتیب بدل سکتی ہے؛ تازہ راستہ [گوگل کی ابتدائی ہدایات](https://ai.google.dev/gemini-api/docs/ai-studio-quickstart) میں دیکھیں۔
 
-مثال کے طور پر ایک استاد یہ لکھ سکتا ہے: "Class 8 کے بچوں کے لیے اردو میں ایک quiz app بنائیں جس میں 10 سوال ہوں، ہر سوال کے بعد جواب بتائے، اور آخر میں نمبر دکھائے۔"
+```text
+میں آٹھویں جماعت کے بچوں کو پانی بچانے کے بارے میں پڑھا رہا ہوں۔
+آسان اردو میں تین عملی مثالیں دیں۔ ہر مثال صرف ایک جملے میں ہو۔
+کوئی عدد یا تحقیقی دعویٰ شامل نہ کریں۔
+```
 
-## Free tier، pricing اور API key
+جواب میں دیکھیں: کیا تین مثالیں ہیں، زبان بچوں کے لیے آسان ہے، اور ہر بات گھر یا اسکول میں کی جا سکتی ہے؟ جواب مشکل ہو تو لکھیں: «ہر جملہ مزید مختصر کریں اور ایک مثال اسکول کی دیں»۔ یہ مشق کا نمونہ ہے؛ ہر بار عین ایک جیسا جواب نہیں آئے گا۔
 
-Google AI Studio شروع کرنے کے لیے free tier دے سکتا ہے، مگر API usage، rate limits، paid models، sharing اور deployment کے rules الگ ہو سکتے ہیں۔ اس لیے "free" کو permanent promise نہ سمجھیں۔ اہم project یا client work سے پہلے [Gemini API pricing](https://ai.google.dev/gemini-api/docs/pricing) اور [آفیشل AI Studio](https://aistudio.google.com/) page check کریں۔
+اگر جواب کے بجائے Permission denied یا رسائی کی خرابی آئے تو اپنے اکاؤنٹ، دستیاب ماڈل اور علاقے کی اہلیت دیکھیں۔ صرف صفحہ کھلنا جواب ملنے کی ضمانت نہیں۔ پہلی اردو مشق جاری رکھنے کے لیے [جیمینائی کی گائیڈ](/how-to/how-to-use-gemini-in-urdu/) استعمال کر سکتے ہیں۔
 
-API key بناتے وقت تین احتیاطیں رکھیں:
+## مفت استعمال، API اور خرچ کا فرق
 
-- key کو public GitHub، frontend JavaScript یا shared screenshot میں نہ ڈالیں
-- اگر app share کر رہے ہیں تو usage limits اور possible cost سمجھیں
-- production app کے لیے server-side secret، logs، user data اور abuse protection الگ سے plan کریں
+[گوگل کی موجودہ قیمتوں](https://ai.google.dev/gemini-api/docs/pricing) کے مطابق دستیاب علاقوں میں اے آئی اسٹوڈیو کا استعمال مفت ہے۔ **اس کا مطلب یہ نہیں کہ اپنی ایپ چلانے کے تمام اخراجات بھی مفت ہوں گے۔** جیمینائی API میں ماڈل کے حساب سے مفت اور ادا شدہ سہولتیں ہیں۔ ایپ کی ہوسٹنگ یا کسی ادا شدہ ماڈل کا خرچ الگ ہو سکتا ہے۔
 
-اگر آپ صرف ChatGPT یا Gemini جیسا chat experience چاہتے ہیں تو API key کی ضرورت نہیں۔ API key تب چاہیے جب آپ اپنی app، website، bot یا workflow میں Gemini model لگانا چاہتے ہوں۔
+پہلی چیٹ مشق کے لیے API key بنانے کی ضرورت نہیں۔ اپنی ایپ کو جیمینائی سے جوڑتے وقت key کو سرور کی محفوظ ترتیبات میں رکھیں؛ اسے عوامی کوڈ یا اسکرین شاٹ میں شامل نہ کریں۔ مفت درجے میں اپنے یا طلبہ کے نجی کاغذات کے بجائے فرضی مثالیں استعمال کریں۔ گوگل کی قیمتوں والی دستاویز مفت اور ادا شدہ درجوں میں ڈیٹا کے استعمال کا فرق بھی بتاتی ہے۔
 
 ## Google AI Studio اور Gemini میں فرق
 
@@ -182,3 +171,5 @@ Beginners اسے prompts اور small prototypes کے لیے استعمال کر
 پہلے ایک چھوٹا prototype بنائیں، پھر [مفت AI کورس](/courses/masterclass/) میں بنیادی سبق مکمل کریں، اور اس کے بعد [ٹولز ڈائریکٹری](/tools/) سے اپنے کام کے لیے صحیح AI tools منتخب کریں۔
 
 **ایک بات یاد رکھیں:** Google AI Studio سیکھنے کا مناسب طریقہ یہ ہے کہ آج ایک چھوٹا، صاف اور اپنے کام سے جڑا ہوا تجربہ بنائیں؛ بڑے پروجیکٹ بعد میں آئیں گے۔
+
+تازہ وضاحت: ۸ ستمبر ۲۰۲۶ کو آفیشل ہدایات سے آغاز، مفت استعمال اور API کے فرق کی جانچ کی گئی۔ مزید مشق کے لیے [اردو اے آئی کی عملی مشقیں](/practice/) کھولیں۔

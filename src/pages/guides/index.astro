@@ -18,11 +18,11 @@ const legacyGuideHubComments =
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const faqItems = [
   {
-    question: 'AI guides in Urdu کہاں سے شروع کریں؟',
+    question: 'اردو میں اے آئی سیکھنا کہاں سے شروع کریں؟',
     answer: 'اگر آپ beginner ہیں تو پہلے AI کیا ہے؟ والی گائیڈ پڑھیں، پھر Gemini اردو گائیڈ سے پہلا practical prompt لکھیں، اور اس کے بعد free AI course یا prompt engineering پر جائیں۔',
   },
   {
-    question: 'کیا یہ گائیڈز beginners کے لیے ہیں؟',
+    question: 'کیا یہ گائیڈز نئے سیکھنے والوں کے لیے ہیں؟',
     answer: 'جی ہاں۔ اردو اے آئی گائیڈز عام mobile users، students، teachers، freelancers اور small business owners کے لیے آسان اردو اور پاکستانی مثالوں کے ساتھ لکھی گئی ہیں۔',
   },
   {
@@ -42,8 +42,8 @@ const guideHubSchema = [
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "AI guides in Urdu: ChatGPT، Gemini، free course",
-    "description": "AI guides in Urdu میں beginners کے لیے ChatGPT، Gemini، prompt engineering، free AI course، tools اور Pakistani examples ایک جگہ۔",
+    "name": "اردو میں اے آئی گائیڈز: پہلا سبق، مشقیں اور مفت کورس",
+    "description": "اردو میں اے آئی سیکھیں: بنیادی سبق، چیٹ جی پی ٹی اور جیمینائی کی گائیڈز، عملی پرامپٹس اور مفت ماسٹرکلاس۔ اپنی ضرورت کے مطابق پہلا قدم چنیں۔",
     "url": "https://urduai.org/guides/",
     "inLanguage": "ur",
   },
@@ -75,8 +75,8 @@ const guideHubSchema = [
 ---
 
 <Base
-  title="AI guides in Urdu: ChatGPT، Gemini، free course"
-  description="AI guides in Urdu میں beginners کے لیے ChatGPT، Gemini، prompt engineering، free AI course، tools اور Pakistani examples ایک جگہ۔"
+  title="اردو میں اے آئی گائیڈز: پہلا سبق، مشقیں اور مفت کورس"
+  description="اردو میں اے آئی سیکھیں: بنیادی سبق، چیٹ جی پی ٹی اور جیمینائی کی گائیڈز، عملی پرامپٹس اور مفت ماسٹرکلاس۔ اپنی ضرورت کے مطابق پہلا قدم چنیں۔"
   canonical="https://urduai.org/guides/"
   adsense={true}
   schema={guideHubSchema}
@@ -89,9 +89,9 @@ const guideHubSchema = [
       </ol>
     </nav>
 
-    <h1>اردو میں AI گائیڈز: ChatGPT، Gemini اور free course</h1>
+    <h1>اردو میں اے آئی گائیڈز اور عملی مشقیں</h1>
     <p class="text-muted guides-intro">
-      AI guides in Urdu کا آسان راستہ یہ ہے کہ پہلے AI کی بنیاد سمجھیں، پھر ChatGPT، Gemini یا Claude میں ایک practical کام کریں، اور اس کے بعد prompt engineering، free AI course یا tools directory سے اپنی ضرورت کے مطابق اگلا سبق چنیں۔
+      اردو اے آئی کی گائیڈز آپ کو بنیادی تعریف سے پہلے عملی کام تک لے جاتی ہیں۔ سبق سمجھنا ہو، تحریر بہتر کرنی ہو یا انگریزی بولنے کی مشق کرنی ہو، نیچے اپنی ضرورت چنیں۔ ہر چیز ایک ساتھ سیکھنا ضروری نہیں۔
     </p>
 
     <section class="guides-answer" aria-labelledby="guides-answer-title">
@@ -109,7 +109,9 @@ const guideHubSchema = [
         <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>Gemini اردو گائیڈ</a>
         <a href={`${base}/how-to/how-to-install-original-chatgpt-app/`}>ChatGPT app guide</a>
         <a href={`${base}/learn/prompt-engineering/`}>Prompt engineering</a>
-        <a href={`${base}/tools/`}>AI tools directory</a>
+        <a href={`${base}/tools/`}>اے آئی ٹولز کی فہرست</a>
+        <a href={`${base}/practice/`}>پانچ منٹ کی عملی مشق</a>
+        <a href={`${base}/guides/english-with-ai-urdu/`}>انگریزی کی مشق اور پی ڈی ایف گائیڈ</a>
       </div>
     </section>
 
@@ -127,22 +129,22 @@ const guideHubSchema = [
       <h2 id="guides-topics-title">اپنی ضرورت کے مطابق گائیڈ چنیں</h2>
       <div class="guides-topics__grid">
         <article>
-          <h3>Students اور learning</h3>
+          <h3>طلبہ کے لیے پڑھائی</h3>
           <p>سبق سمجھنے، notes بنانے اور exam revision کے لیے practical AI workflow۔</p>
           <a href={`${base}/guides/gemini-for-students-urdu/`}>Gemini for students پڑھیں</a>
         </article>
         <article>
-          <h3>Writing اور content</h3>
-          <p>تحریر، outline، editing، image prompts اور social content کے لیے آسان راستہ۔</p>
-          <a href={`${base}/guides/ai-image-expression-prompts-urdu-guide/`}>AI image prompts guide پڑھیں</a>
+          <h3>تحریر اور اصلاح</h3>
+          <p>اپنا پیغام یا مضمون آسان بنائیں اور دیکھیں کہ اے آئی نے اصل مطلب برقرار رکھا ہے۔</p>
+          <a href={`${base}/how-to/how-to-use-claude-for-writing/`}>اردو تحریر بہتر کرنے کی گائیڈ</a>
         </article>
         <article>
-          <h3>Freelancing اور business</h3>
+          <h3>فری لانسنگ اور کاروبار</h3>
           <p>proposal، client work، small business content اور روزمرہ productivity کے لیے tools۔</p>
           <a href={`${base}/guides/ai-tools-for-freelancers-pakistan/`}>Freelancers tools guide پڑھیں</a>
         </article>
         <article>
-          <h3>Coding اور websites</h3>
+          <h3>کوڈنگ اور ویب سائٹس</h3>
           <p>وائب کوڈنگ، Codex، GitHub، hosting اور simple app بنانے کا beginner path۔</p>
           <a href={`${base}/guides/vibe-coding-kya-hai/`}>Vibe coding کیا ہے؟</a>
         </article>

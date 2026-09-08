@@ -531,7 +531,7 @@ const combinedSchema = [
   const body = document.getElementById('article-body');
   const timeEl = document.getElementById('reading-time-text');
   if (body && timeEl) {
-    const text = body.innerText || '';
+    const text = body.textContent || '';
     // Urdu reads slower than English — ~150 words/min
     const words = text.trim().split(/\s+/).length;
     const minutes = Math.max(1, Math.ceil(words / 150));
