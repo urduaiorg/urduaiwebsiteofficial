@@ -1,8 +1,8 @@
-# Urdu AI consent rollout — prepared for live validation
+# Urdu AI consent rollout — live validation in progress
 
-8 September 2026. Local implementation only; not deployed or approved as a complete compliance result.
+8 September 2026. The user approved staged live validation after the limits below were disclosed. Website commit fee8679 deployed successfully and the Urdu AI European Privacy Message is Published for urduai.org. This is not a completed iOS release or a complete compliance result.
 
-## Proposed first live step
+## Published first live step
 
 Deploy this scoped website change and publish the saved **Urdu AI European Privacy Message** for **urduai.org only**. This makes the consent dialog visible to applicable website visitors. Its first screen offers Consent, Do not consent, and Manage options; optimization is off. The approved Urdu AI logo and https://urduai.org/privacy/ are assigned. English is the available default; the editor does not offer Urdu.
 
@@ -26,9 +26,15 @@ Publishing this website dialog is separate from an iOS App Store release. The st
 - The European dialog does not establish US or worldwide coverage. Inspect/configure applicable US handling and test it before final app release.
 - UI checks are not a network/storage audit. Verify actual requests before permission and after refusal/withdrawal before asserting nontracking behavior.
 
-## Approval boundary
+## Live validation status
 
-Automatic approval review previously rejected publishing the message because integration checks and the partner-count discrepancy were unresolved. No alternate publication route has been attempted. A concrete user decision is required for this staged live validation with the limits above disclosed; public app submission remains a later step.
+The earlier automatic approval rejection was followed by explicit user approval of the concrete staged rollout. Publication succeeded; it is no longer blocked on that approval. No App Store submission or public release has occurred.
+
+Safari Private live GDPR preview displays Consent, Do not consent and Manage options. After refusal, all four Google consent-mode values were 2 (denied), both Analytics destinations were disabled, and no Analytics script or resource request appeared in the page's resource entries. The privacy button reopened the message. This is limited page-level evidence, not an exhaustive network audit.
+
+The live vendor dialog has 210 entries, matching the message and still differing from the account selector's 198. Cause remains unresolved. Acceptance after reopening returned granted Google signals but Analytics remained disabled; the legacy Partytown worker was still forwarding gtag/dataLayer and logging worker errors. Follow-up ea164b7 removes that unused integration; all 30 tests and the complete build pass. Deployment of ea164b7 completed successfully (GitHub run 34279581133); a live HTTP check confirms the worker is absent and consent guard present. Acceptance/withdrawal retesting remains incomplete. Safari Private diagnostics showed inline scripts present but page globals and external scripts missing; the cause is unverified. Computer Use then reported the Mac locked and could not unlock it, preventing further UI checks.
+
+An existing CSP script-src block for ep2.adtrafficquality.google/sodar/sodar2.js remains to assess. Security headers have not been removed.
 
 If live checks fail, keep iOS advertising disabled and fix the website integration. Any rollback must be scoped to this rollout's commit and this Urdu AI message, preserving unrelated site content and other sites' messages.
 
