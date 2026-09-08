@@ -251,6 +251,7 @@ const combinedSchema = [
   ogImage={socialImage}
   ogType="article"
   adsense={adsense}
+  fontFetchPriority={image && (collection === 'guides' || collection === 'how-to') ? 'low' : 'auto'}
   schema={combinedSchema}
   articleMeta={{
     publishedTime: publishedAt ?? date,

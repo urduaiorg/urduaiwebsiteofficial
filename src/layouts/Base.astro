@@ -13,6 +13,7 @@ export interface Props {
   ogImage?: string;
   ogType?: string;
   adsense?: boolean;
+  fontFetchPriority?: 'auto' | 'low';
   schema?: object;
   articleMeta?: {
     publishedTime?: string;
@@ -28,6 +29,7 @@ const {
   ogImage = '/og/urduai-og.jpg',
   ogType = 'website',
   adsense = false,
+  fontFetchPriority = 'auto',
   schema,
   articleMeta,
 } = Astro.props;
@@ -73,7 +75,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Shared Urdu font: discover it without a stylesheet request or JS. -->
-    <link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/noto-nastaliq-urdu-basic-v23-af9a8170d419.woff2" />
+    <link rel="preload" as="font" type="font/woff2" fetchpriority={fontFetchPriority} crossorigin href="/fonts/noto-nastaliq-urdu-basic-v23-af9a8170d419.woff2" />
     <style is:inline set:html={googleFonts} />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -128,14 +130,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 
     <!-- Google Analytics 4 + Google Tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GT-T945ZSRZ"></script>
-    <script>
+    <script type="text/partytown">
+      // An inline loader also works in Partytown's native-script fallback.
+      const analyticsScript = document.createElement('script');
+      analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=GT-T945ZSRZ';
+      analyticsScript.async = true;
+      document.head.appendChild(analyticsScript);
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       window.gtag = gtag;
       gtag('js', new Date());
       gtag('config', 'GT-T945ZSRZ');
       gtag('config', 'G-CW98PY3REY');
+    </script>
+    <script is:inline>
+      (() => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      // Keep CTA tracking available immediately; Partytown queues and forwards it.
+      window.gtag = gtag;
 
       // Lightweight outcome tracking for article and guide CTAs.
       document.addEventListener('click', (event) => {
@@ -151,6 +164,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           event_label: target.dataset.analyticsLocation || 'unknown',
         });
       });
+      })();
     </script>
 
     <!-- AdSense — loads ONLY when adsense: true in frontmatter -->

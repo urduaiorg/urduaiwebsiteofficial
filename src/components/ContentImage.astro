@@ -13,7 +13,7 @@ const originals = import.meta.glob<{ default: ImageMetadata }>(
 const load = originals[`/public${src}`];
 const metadata = load ? (await load()).default : undefined;
 const maximumWidth = Math.min(metadata?.width ?? 1200, 1200);
-const widths = [...new Set([400, 800, maximumWidth].filter(value => value <= maximumWidth))];
+const widths = [...new Set([400, 600, 800, maximumWidth].filter(value => value <= maximumWidth))];
 ---
 
 {metadata ? (

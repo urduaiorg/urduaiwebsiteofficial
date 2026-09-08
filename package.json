@@ -14,10 +14,11 @@
     "learn-links": "node scripts/add-blog-learn-links.mjs",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "node --test scripts/ad-loading.test.mjs scripts/static-bidi.test.mjs scripts/rehype-content-headings.test.mjs scripts/related-terms.test.mjs scripts/preload-content-image.test.mjs scripts/course-progress.test.mjs"
+    "test": "node --test scripts/analytics-worker.test.mjs scripts/ad-loading.test.mjs scripts/static-bidi.test.mjs scripts/rehype-content-headings.test.mjs scripts/related-terms.test.mjs scripts/preload-content-image.test.mjs scripts/course-progress.test.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.1.0",
+    "@astrojs/partytown": "2.1.7",
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "astro": "^6.1.3",
