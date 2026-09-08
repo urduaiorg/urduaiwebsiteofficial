@@ -16,8 +16,8 @@ tags:
   - AI Agents
   - Personal AI
 image: "/images/blog/meta-muse-personal-ai-agent-how-to-use-urdu.png"
-image_width: 1733
-image_height: 908
+image_width: 1731
+image_height: 909
 author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
