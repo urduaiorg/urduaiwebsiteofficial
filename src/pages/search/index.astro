@@ -48,6 +48,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         element: '#search',
         bundlePath: assetBase + 'pagefind/',
         showSubResults: true,
+        // Legacy pages may otherwise borrow an unrelated sidebar image.
+        showImages: false,
         translations: {
           placeholder: 'تلاش کریں...',
           search_label: 'اردو اے آئی میں تلاش',
