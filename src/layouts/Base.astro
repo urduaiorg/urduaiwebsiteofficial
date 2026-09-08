@@ -5,6 +5,7 @@
 
 import '../styles/global.css';
 import googleFonts from '../styles/google-fonts.css?raw';
+import consentControls from '../scripts/privacy-consent.js?raw';
 
 export interface Props {
   title: string;
@@ -129,43 +130,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <!-- Page-specific schema -->
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 
-    <!-- Google Analytics 4 + Google Tag -->
-    <script type="text/partytown">
-      // An inline loader also works in Partytown's native-script fallback.
-      const analyticsScript = document.createElement('script');
-      analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=GT-T945ZSRZ';
-      analyticsScript.async = true;
-      document.head.appendChild(analyticsScript);
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', 'GT-T945ZSRZ');
-      gtag('config', 'G-CW98PY3REY');
-    </script>
-    <script is:inline>
-      (() => {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      // Keep CTA tracking available immediately; Partytown queues and forwards it.
-      window.gtag = gtag;
-
-      // Lightweight outcome tracking for article and guide CTAs.
-      document.addEventListener('click', (event) => {
-        const target = event.target instanceof Element
-          ? event.target.closest('[data-analytics-event], a[href^="https://play.google.com/store/apps/details"]')
-          : null;
-        if (!target || typeof window.gtag !== 'function') return;
-        const playStore = target instanceof HTMLAnchorElement && target.href.startsWith('https://play.google.com/store/apps/details');
-        window.gtag('event', playStore ? 'app_store_outbound' : target.dataset.analyticsEvent, {
-          link_url: target instanceof HTMLAnchorElement ? target.href : undefined,
-          page_path: window.location.pathname,
-          event_category: 'content_engagement',
-          event_label: target.dataset.analyticsLocation || 'unknown',
-        });
-      });
-      })();
-    </script>
+    <!-- Defaults and callbacks run before any Google ad or analytics tag. -->
+    <script is:inline set:html={consentControls} />
 
     <!-- AdSense — loads ONLY when adsense: true in frontmatter -->
     {adsense && (
@@ -495,5 +461,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
     </footer>
+    <div class="urduai-privacy-controls" style="padding:12px;text-align:center;line-height:2.2">
+      <button type="button" data-privacy-choices hidden>پرائیویسی اور کوکیز کی ترتیبات</button>
+      <span data-privacy-status role="status" aria-live="polite"></span>
+    </div>
   </body>
 </html>

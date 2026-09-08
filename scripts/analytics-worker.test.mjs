@@ -2,38 +2,87 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import { readFileSync } from 'node:fs';
-import { partytownSnippet } from '@qwik.dev/partytown/integration';
-const source = readFileSync(new URL('../src/layouts/Base.astro', import.meta.url), 'utf8');
-const loader = source.match(/<script type="text\/partytown">([\s\S]*?)<\/script>/)[1];
-const bridge = source.match(/<script is:inline>([\s\S]*?)<\/script>/)[1];
+const source = readFileSync(new URL('../src/scripts/privacy-consent.js', import.meta.url), 'utf8');
 function app() {
-  const appended = [];
-  const listeners = new Map();
-  let context;
+  const appended = [], listeners = new Map(), button = { hidden: true };
   const document = {
-    readyState: 'complete',
     addEventListener: (name, listener) => listeners.set(name, listener),
-    removeEventListener() {},
-    querySelectorAll: () => [{ innerHTML: loader }],
-    createElement: () => ({}),
-    head: { appendChild(script) { appended.push(script); if (script.innerHTML) vm.runInContext(script.innerHTML, context); } },
+    querySelectorAll: () => [button], querySelector: () => null,
+    createElement: () => ({}), head: { appendChild: script => appended.push(script) },
   };
-  context = vm.createContext({ document, navigator: {}, console, setTimeout: () => 1, clearTimeout() {}, addEventListener() {}, location: { pathname: '/guides/example/' } });
-  context.window = context; context.top = context;
-  vm.runInContext(bridge, context);
-  return { context, appended, listeners };
+  class Element { closest() { return this; } matches() { return false; } dataset = { analyticsEvent: 'test_click' }; }
+  const context = vm.createContext({ document, console, Element, HTMLAnchorElement: class extends Element {}, location: { pathname: '/blog/example/' } });
+  context.window = context;
+  vm.runInContext(source, context);
+  const emit = (key, value) => {
+    context.googlefc.getGoogleConsentModeValues = () => value;
+    for (const entry of context.googlefc.callbackQueue) entry[key]?.();
+  };
+  return { context, appended, listeners, button, Element, emit };
 }
-test('queues an event before worker initialization', () => {
-  const { context } = app();
-  context.gtag('event', 'newsletter_click', { event_category: 'content_engagement' });
-  assert.equal(context.dataLayer.length, 1);
-  assert.equal(context.dataLayer[0][1], 'newsletter_click');
+const state = n => ({ adStoragePurposeConsentStatus: n, adUserDataPurposeConsentStatus: n, adPersonalizationPurposeConsentStatus: n, analyticsStoragePurposeConsentStatus: n });
+test('no CMP, unknown, denied or unconfigured choices do not start analytics', () => {
+  for (const n of [undefined, 0, 2, 4]) {
+    const a = app();
+    assert.equal(a.appended.length, 0);
+    a.emit('CONSENT_MODE_DATA_READY', state(n));
+    assert.equal(a.appended.length, 0);
+  }
 });
-test('unsupported worker falls back to native analytics with both destinations', () => {
-  const { context, appended } = app();
-  vm.runInContext(partytownSnippet({ forward: ['gtag', 'dataLayer.push'] }), context);
-  assert.equal(appended.filter(s => s.src?.includes('googletagmanager.com/gtag/js')).length, 1);
-  assert.deepEqual(Array.from(context.dataLayer, args => Array.from(args).slice(0,2)).filter(a => a[0] === 'config'), [['config','GT-T945ZSRZ'],['config','G-CW98PY3REY']]);
-  context.gtag('event', 'newsletter_click');
-  assert.equal(context.dataLayer.at(-1)[1], 'newsletter_click');
+test('granted or explicitly inapplicable consent starts one analytics tag with both destinations', () => {
+  for (const n of [1, 3]) {
+    const a = app();
+    a.emit('CONSENT_MODE_DATA_READY', state(n)); a.emit('CONSENT_DATA_READY', state(n));
+    assert.equal(a.appended.length, 1);
+    assert.match(a.appended[0].src, /googletagmanager.com\/gtag\/js/);
+    assert.equal(a.context.dataLayer.filter(args => args[0] === 'config').length, 2);
+  }
+});
+test('partial consent stays blocked and earlier clicks are discarded', () => {
+  const a = app();
+  a.listeners.get('click')({ target: new a.Element() });
+  a.emit('CONSENT_MODE_DATA_READY', { ...state(1), adPersonalizationPurposeConsentStatus: 2 });
+  assert.equal(a.appended.length, 0);
+  a.emit('CONSENT_MODE_DATA_READY', state(1));
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
+});
+test('withdrawal disables analytics before opening the consent dialog', () => {
+  const a = app();
+  a.emit('CONSENT_API_READY'); a.emit('CONSENT_MODE_DATA_READY', state(1));
+  assert.equal(a.button.hidden, false);
+  let opened = false;
+  a.context.googlefc.showRevocationMessage = () => {
+    assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+    assert.equal(a.context.dataLayer.at(-1)[2].analytics_storage, 'denied');
+    opened = true;
+  };
+  assert.equal(a.context.urduAiOpenPrivacyChoices(), true);
+  assert.equal(opened, true);
+  a.listeners.get('click')({ target: new a.Element() });
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
+});
+test('CMP unavailability does not report a successful settings action', () => {
+  assert.equal(app().context.urduAiOpenPrivacyChoices(), false);
+});
+test('direct ad-slot events are discarded before consent and after withdrawal', () => {
+  const a = app();
+  a.context.gtag('event', 'ad_slot_request', { ad_placement: 'top' });
+  a.emit('CONSENT_API_READY');
+  a.emit('CONSENT_MODE_DATA_READY', state(1));
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
+  a.context.gtag('event', 'ad_slot_result', { ad_status: 'filled' });
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 1);
+  a.context.googlefc.showRevocationMessage = () => {};
+  a.context.urduAiOpenPrivacyChoices();
+  a.context.gtag('event', 'ad_slot_request');
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 1);
+});
+test('a consent API failure disables analytics after earlier consent', () => {
+  const a = app();
+  a.emit('CONSENT_MODE_DATA_READY', state(1));
+  a.context.googlefc.getGoogleConsentModeValues = () => { throw new Error('CMP unavailable'); };
+  a.context.googlefc.callbackQueue.find(entry => entry.CONSENT_MODE_DATA_READY).CONSENT_MODE_DATA_READY();
+  assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+  a.context.gtag('event', 'ad_slot_request');
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
 });
