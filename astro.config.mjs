@@ -9,6 +9,9 @@ export default defineConfig({
   base: '/',
   output: 'static',
   trailingSlash: 'always',
+  // Remove the measured CSS request chain for first-time mobile readers.
+  // Reassess HTML transfer size and repeat-navigation caching with each release.
+  build: { inlineStylesheets: 'always' },
   markdown: { rehypePlugins: [contentHeadings] },
   integrations: [sitemap({ filter: page => new URL(page).pathname !== '/covers/' }), staticBidi()],
 });

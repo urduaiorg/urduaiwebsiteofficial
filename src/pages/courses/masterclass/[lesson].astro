@@ -203,10 +203,11 @@ const breadcrumbSchema = {
       <span class="mc-progress__text" id="mc-progress-text"></span>
     </div>
 
+    <h1>{lesson.number === 1 ? 'سبق 1: AI کیا ہے؟' : `سبق ${lesson.number}: ${lesson.title}`}</h1>
+
     <!-- Lesson locked message (shown via JS if previous lesson not complete) -->
     {lesson.number > 1 && (
       <div id="lesson-locked" class="lesson-locked" style="display:none;">
-        <h1>سبق {lesson.number}: {lesson.title}</h1>
         <div class="lesson-locked__box">
           <svg width="48" height="48" viewBox="0 0 24 24" fill="var(--navy)" style="margin-block-end: var(--space-sm);"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM12 17c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2z"/></svg>
           <p><strong>یہ سبق ابھی لاکڈ ہے۔</strong></p>
@@ -221,7 +222,7 @@ const breadcrumbSchema = {
     <!-- Lesson content (hidden via JS if locked) -->
     <div id="lesson-content">
     <!-- Lesson title -->
-    <h1>{lesson.number === 1 ? 'سبق 1: AI کیا ہے؟' : `سبق ${lesson.number}: ${lesson.title}`}</h1>
+
 
     {lesson.number === 1 && (
       <p class="lesson-deck">Free AI course in Urdu کا پہلا سبق: مصنوعی ذہانت کی آسان تعریف، روزمرہ examples اور پہلا practical prompt۔</p>
@@ -741,10 +742,41 @@ const breadcrumbSchema = {
   </style>
 
   <script is:inline define:vars={{ lessonNumber: lesson.number, totalLessons: lessons.length }}>
-    // Lesson locking — must complete previous lesson first
+    // Keep reading and quizzes usable when browser storage is unavailable.
+    var progressAvailable = true;
+    var lessonCompleteInMemory = false;
+    try {
+      localStorage.setItem('urai-mc-storage-check', '1');
+      localStorage.removeItem('urai-mc-storage-check');
+    } catch (_) { progressAvailable = false; }
+    function readProgress(key) {
+      try { return localStorage.getItem(key); }
+      catch (_) { progressAvailable = false; return null; }
+    }
+    function trackCourse(name, details) {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', name, Object.assign({
+        course_id: 'masterclass', lesson_number: lessonNumber,
+        page_path: window.location.pathname,
+        progress_storage: progressAvailable ? 'available' : 'unavailable'
+      }, details || {}));
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      var content = document.getElementById('lesson-content');
+      if (!content || content.style.display === 'none') return;
+      trackCourse('course_lesson_start');
+      if (!progressAvailable) {
+        var notice = document.createElement('p');
+        notice.setAttribute('role', 'status');
+        notice.textContent = 'آپ کا براؤزر پیش رفت محفوظ نہیں کر سکتا۔ آپ سبق پڑھ اور کوئز حل کر سکتے ہیں، لیکن واپس آنے پر پیش رفت یا سرٹیفکیٹ دستیاب نہیں ہوگا۔';
+        content.prepend(notice);
+      }
+    });
+
+    // Lesson locking — must complete previous lesson first when storage works.
     (function() {
-      if (lessonNumber > 1) {
-        var prevComplete = localStorage.getItem('urai-mc-lesson-' + (lessonNumber - 1) + '-complete') === 'true';
+      if (lessonNumber > 1 && progressAvailable) {
+        var prevComplete = readProgress('urai-mc-lesson-' + (lessonNumber - 1) + '-complete') === 'true';
         if (!prevComplete) {
           // Show locked, hide content and nav
           var locked = document.getElementById('lesson-locked');
@@ -762,7 +794,7 @@ const breadcrumbSchema = {
     function getCompleted() {
       let count = 0;
       for (let i = 1; i <= totalLessons; i++) {
-        if (localStorage.getItem('urai-mc-lesson-' + i + '-complete') === 'true') count++;
+        if (readProgress('urai-mc-lesson-' + i + '-complete') === 'true' || (i === lessonNumber && lessonCompleteInMemory)) count++;
       }
       return count;
     }
@@ -777,7 +809,7 @@ const breadcrumbSchema = {
     }
 
     function showNextIfComplete() {
-      const isComplete = localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-complete') === 'true';
+      const isComplete = lessonCompleteInMemory || readProgress('urai-mc-lesson-' + lessonNumber + '-complete') === 'true';
       const nextLink = document.getElementById('next-lesson-link');
       if (nextLink && isComplete) {
         nextLink.style.display = 'inline-block';
@@ -788,15 +820,15 @@ const breadcrumbSchema = {
     showNextIfComplete();
 
     // If already completed, disable quiz re-submission and show result
-    if (localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-complete') === 'true') {
-      var savedScore = localStorage.getItem('urai-mc-lesson-' + lessonNumber + '-score');
+    if (readProgress('urai-mc-lesson-' + lessonNumber + '-complete') === 'true') {
+      var savedScore = readProgress('urai-mc-lesson-' + lessonNumber + '-score');
       if (savedScore !== null) {
         var resultDiv = document.getElementById('quiz-result');
         var resultContent = document.getElementById('quiz-result-content');
         var submitBtn = document.getElementById('quiz-submit');
         resultDiv.style.display = 'block';
         resultDiv.className = 'quiz-result pass';
-        resultContent.innerHTML = '<strong>آپ یہ سبق مکمل کر چکے ہیں۔</strong> نمبر: ' + savedScore + '%';
+        resultContent.textContent = 'آپ یہ سبق مکمل کر چکے ہیں۔ نمبر: ' + Number(savedScore) + '%';
         if (submitBtn) submitBtn.style.display = 'none';
       }
     }
@@ -831,16 +863,23 @@ const breadcrumbSchema = {
       var resultContent = document.getElementById('quiz-result-content');
       resultDiv.style.display = 'block';
 
+      trackCourse('course_quiz_result', { score_percent: score, passed: passed });
       if (passed) {
+        var wasComplete = readProgress('urai-mc-lesson-' + lessonNumber + '-complete') === 'true' || lessonCompleteInMemory;
+        lessonCompleteInMemory = true;
         resultDiv.className = 'quiz-result pass';
         resultContent.innerHTML = '<strong>مبارک ہو!</strong> آپ نے ' + correct + '/' + total + ' سوالات درست کیے (' + score + '%)۔ آپ اگلے سبق پر جا سکتے ہیں۔';
         try {
           localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-complete', 'true');
           localStorage.setItem('urai-mc-lesson-' + lessonNumber + '-score', score);
         } catch (e) {
-          // localStorage full (QuotaExceededError) — common on iOS Safari with ITP
-          // Progress is shown in the UI but won't persist across sessions
-          resultContent.innerHTML += '<br><small style="color:#c0392b;">نوٹ: آپ کا براؤزر پیش رفت محفوظ نہیں کر سکا۔ براہ کرم اگلا سبق ابھی کھولیں۔</small>';
+          progressAvailable = false;
+          // This result remains usable, but cannot be restored on another visit.
+          resultContent.innerHTML += '<br><small style="color:#c0392b;">نوٹ: پیش رفت محفوظ نہیں ہو سکی۔ اس براؤزر میں واپس آنے پر کوئز دوبارہ حل کرنا پڑ سکتا ہے اور سرٹیفکیٹ دستیاب نہیں ہوگا۔</small>';
+        }
+        if (!wasComplete) {
+          trackCourse('course_lesson_complete', { score_percent: score });
+          if (getCompleted() === totalLessons) trackCourse('course_complete', { lessons_completed: totalLessons });
         }
         showNextIfComplete();
         updateProgress();

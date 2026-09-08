@@ -1,13 +1,13 @@
 ---
 title: "Google Gemini AI اردو میں کیسے استعمال کریں؟"
-description: "Gemini AI Urdu guide: phone app یا gemini.google.com کھولیں، اردو prompts لکھیں، files اور voice آزمائیں، privacy سمجھیں اور AI Studio کا فرق جانیں۔"
+description: "گوگل جیمنی کی آفیشل ایپ ڈاؤن لوڈ کریں یا براؤزر میں کھولیں۔ اردو میں سوال لکھنے، جواب بہتر بنانے اور قیمت یا حساب کی غلطی پکڑنے کی عملی مثال دیکھیں۔"
 date: 2026-04-04
-last_verified: 2026-08-07
+last_verified: 2026-09-08
 category: "ہاؤ ٹو"
 tool: "Gemini"
 difficulty: "آسان"
 time_required: "12 منٹ"
-screenshots: false
+screenshots: true
 adsense: true
 tools: ["Gemini", "Google AI Studio", "NotebookLM", "ChatGPT"]
 draft: false
@@ -39,7 +39,9 @@ faq:
   - question: "Gemini student offer کیسے check کریں؟"
     answer: "Gemini student offer ہر ملک، account اور تاریخ کے حساب سے بدل سکتی ہے۔ current eligibility کے لیے Google Gemini for Students یا Google One کا آفیشل page کھول کر اپنے Google account سے status check کریں۔"
 ---
-Gemini AI Urdu میں استعمال کرنے کا طریقہ یہ ہے کہ gemini.google.com یا Google Gemini app کھولیں، Google اکاؤنٹ سے sign in کریں، اپنا کام واضح Urdu prompt میں لکھیں، اور جواب کو follow-up سوالات سے بہتر بنائیں۔ 27 جون 2026 تک Gemini لکھائی، خلاصہ، brainstorming، تصویر سمجھنے، file upload اور Google ecosystem کے ساتھ کچھ مربوط کاموں میں مدد دے سکتا ہے، لیکن features اور limits account کے حساب سے بدل سکتے ہیں۔
+گوگل جیمنی (Google Gemini) اردو میں استعمال کرنے کے لیے [gemini.google.com](https://gemini.google.com/) کھولیں، اپنے گوگل اکاؤنٹ سے سائن اِن کریں اور سوال والی جگہ اپنا کام آسان اردو میں لکھیں۔ جواب آنے کے بعد رقم، وقت اور حقائق خود چیک کریں؛ غلطی ملے تو واضح بتا کر دوبارہ جواب مانگیں۔
+
+**۸ ستمبر ۲۰۲۶ کی پڑتال:** اس گائیڈ کی اردو مشق جیمنی کے ویب ورژن میں چلائی گئی اور آفیشل پلے اسٹور لنک چیک کیا گیا۔ تصاویر اصل براؤزر کی ہیں۔ فون پر تنصیب کی شرائط گوگل کی دستاویزات سے چیک کی گئی ہیں۔
 
 اگر آپ پہلی بار AI استعمال کر رہے ہیں تو Gemini کو "جادو" نہ سمجھیں۔ اسے ایک helper سمجھیں جو اچھا جواب تب دیتا ہے جب آپ اچھا سوال دیتے ہیں۔ پاکستانی طالب علم، teacher، freelancer یا چھوٹا کاروبار اسی اصول سے فائدہ اٹھا سکتا ہے: پہلے کام صاف کریں، پھر prompt لکھیں، پھر جواب کو check کریں۔
 
@@ -78,15 +80,20 @@ Gemini AI Urdu میں استعمال کرنے کا طریقہ یہ ہے کہ gem
 
 ## Phone پر Gemini app کیسے استعمال کریں؟
 
-Google Help کے مطابق Gemini mobile app Android اور iOS پر مختلف شکلوں میں دستیاب ہو سکتی ہے، لیکن availability ہر language، device، account یا location کے لیے ایک جیسی نہیں ہوتی۔ اسی لیے اگر آپ کے phone میں Gemini app، voice، camera یا assistant option نظر نہ آئے تو پہلے app store، Google app اور account settings چیک کریں۔
-
-Phone پر Gemini سے text لکھ کر، voice prompt دے کر، image یا camera input کے ذریعے سوال پوچھا جا سکتا ہے۔ Android پر بعض devices میں Gemini assistant کے طور پر بھی آ سکتا ہے، لیکن کچھ Google Assistant features ہر زبان یا ملک میں available نہیں ہوتے۔ اس page کا مقصد basic use سکھانا ہے؛ advanced phone controls ہمیشہ اپنے device کی settings سے verify کریں۔
+گوگل کی [موبائل ایپ دستیابی کی فہرست](https://support.google.com/gemini/answer/14579026?hl=en) میں پاکستان اور اردو شامل ہیں۔ اینڈرائیڈ کے لیے Android 9 یا بعد کا ورژن اور کم از کم 2 GB ریم چاہیے؛ Android Go پر یہ ایپ نہیں چلتی۔ کام یا اسکول کے اکاؤنٹ میں ادارے کی اجازت بھی درکار ہو سکتی ہے۔
 
 ## Google Gemini app download کہاں سے کریں؟
 
-Gemini app کے لیے ہمیشہ phone کا آفیشل app store، Google app، یا [gemini.google.com](https://gemini.google.com/) استعمال کریں۔ APK websites، clone apps، WhatsApp download links یا غیر واضح files سے بچیں، کیونکہ AI app کے نام پر fake apps بھی data یا account risk بنا سکتی ہیں۔
+1. اینڈرائیڈ پر [Google Gemini کا آفیشل پلے اسٹور صفحہ](https://play.google.com/store/apps/details?id=com.google.android.apps.bard) کھولیں۔ ایپ بنانے والے کا نام **Google LLC** چیک کریں اور **Install** دبائیں۔
+2. آئی فون پر اپنے App Store میں Google Gemini تلاش کریں اور گوگل کی آفیشل ایپ منتخب کریں۔
+3. فون پر ایپ دستیاب نہ ہو تو [جیمنی کی ویب سائٹ](https://gemini.google.com/) کھولیں۔ ابتدا کے لیے اردو سوال لکھ کر جواب لینا کافی ہے۔
+4. سائن اِن کے بعد **Ask Gemini** یا سوال لکھنے والی جگہ پر اپنا سوال لکھیں، پھر بھیجنے کا تیر دبائیں۔ کمپیوٹر پر Enter سے بھی سوال بھیجا جا سکتا ہے۔ بٹنوں کے نام اکاؤنٹ اور زبان کے مطابق مختلف ہو سکتے ہیں۔
 
-اگر app store میں Gemini نظر نہ آئے تو اس کا مطلب یہ نہیں کہ آپ غلط کر رہے ہیں۔ Google Help کے مطابق Gemini mobile app availability language، device، account اور location کے حساب سے بدل سکتی ہے۔ ایسی صورت میں browser میں gemini.google.com کھول کر basic prompts آزمائیں۔
+![Google Gemini کے اصل پلے اسٹور ویب صفحے پر بنانے والے کا نام Google LLC](../../../public/images/how-to/how-to-use-gemini-in-urdu/step-01-official-play-store.jpg)
+
+[تصویر بڑی کرکے دیکھیں](/images/how-to/how-to-use-gemini-in-urdu/step-01-official-play-store.jpg)
+
+*۸ ستمبر ۲۰۲۶: پلے اسٹور کا ویب منظر؛ یہ فون پر نصب ایپ کی اسکرین نہیں۔*
 
 ## قدم 2: پہلے اپنا کام ایک لائن میں لکھیں
 
@@ -133,6 +140,22 @@ Gemini اردو سمجھتا ہے، لیکن بہتر جواب کے لیے promp
 
 اچھا prompt ہمیشہ context دیتا ہے۔ صرف "summary بنا دیں" کے بجائے لکھیں کہ summary کس audience کے لیے ہے، کتنی لمبی چاہیے، اور کس format میں چاہیے۔
 
+## ایک جواب ابھی خود آزمائیں
+
+فرض کریں آپ کپڑے بیچتے ہیں۔ اس مثال میں قمیض اور قیمتیں فرضی ہیں۔ نیچے کا سوال لکھیں:
+
+```text
+میرے فرضی کپڑوں کے کاروبار کے لیے گاہک کو ۸۰ الفاظ سے کم کا دوستانہ اردو جواب لکھیں۔ صرف یہ حقائق استعمال کریں: قمیض ۱۸۰۰ روپے، ڈلیوری ۲۰۰ روپے، سائز M اور L دستیاب ہیں۔ گاہک نے پوچھا: قیمت کتنی ہے اور کون سے سائز ملیں گے؟ کل رقم جمع کرکے لکھیں اور صرف پسند کا سائز پوچھیں۔ رعایت، مفت ڈلیوری، پہنچنے کی تاریخ، کپڑے کی قسم یا اسٹاک کی مقدار خود نہ بنائیں۔ کوئی ذاتی معلومات نہ مانگیں۔
+```
+
+![جیمنی کے ویب ورژن میں اردو سوال اور قمیض کی کل قیمت ۲۰۰۰ روپے والا جواب](../../../public/images/how-to/how-to-use-gemini-in-urdu/step-02-urdu-customer-reply.jpg)
+
+[تصویر بڑی کرکے دیکھیں](/images/how-to/how-to-use-gemini-in-urdu/step-02-urdu-customer-reply.jpg)
+
+*یہ ۸ ستمبر ۲۰۲۶ کو جیمنی کے ویب ورژن میں آزمائے گئے سوال کا اصل جواب ہے۔ آپ کا جواب مختلف ہو سکتا ہے۔*
+
+جواب بھیجنے سے پہلے تین چیزیں دیکھیں: ۱۸۰۰ اور ۲۰۰ کا مجموعہ ۲۰۰۰ ہو؛ صرف M اور L سائز لکھے ہوں؛ کوئی ایسی رعایت یا وعدہ شامل نہ ہو جو آپ نے دیا ہی نہیں۔ جواب میں غلطی ہو تو اسی بات کی نشاندہی کرکے درست کروائیں۔
+
 ## قدم 4: پہلا جواب final نہ سمجھیں
 
 Gemini کا پہلا جواب draft ہوتا ہے، final نہیں۔ اگر جواب مشکل ہے تو لکھیں:
@@ -175,7 +198,7 @@ Google Connected Apps کے لیے permission ضروری ہو سکتی ہے۔ ذ�
 
 Gemini مددگار ہے، مگر ہر جواب درست نہیں ہوتا۔ تاریخ، خبر، قانون، صحت، finance، school policy یا آفیشل deadline جیسے کاموں میں جواب کو source سے verify کریں۔
 
-اچھا practical طریقہ یہ ہے کہ Gemini سے draft لیں، پھر اس میں موجود facts خود check کریں۔ AI وقت بچاتا ہے؛ ذمہ داری ختم نہیں کرتا۔
+اچھا practical طریقہ یہ ہے کہ Gemini سے draft لیں، پھر اس میں موجود facts خود check کریں۔ اس مشق میں بھی رقم خود جمع کرنا ضروری ہے۔
 
 ## قدم 8: اچھے prompts محفوظ رکھیں
 

@@ -2,6 +2,7 @@ import { parse } from 'parse5';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { preloadContentImage } from './preload-content-image.mjs';
 
 // Match the former browser formatter, without making every reader rewrite the DOM.
 const latinRun = /[A-Za-z0-9][A-Za-z0-9+.#:/@&%$€£₹₨₽₺¥,.'’()_-]*(?:\s+[A-Za-z0-9+.#:/@&%$€£₹₨₽₺¥,.'’()_-]+)*/g;
@@ -52,7 +53,7 @@ export default function staticBidiIntegration() {
             if (entry.isDirectory()) await visit(path);
             else if (entry.name.endsWith('.html')) {
               const html = await readFile(path, 'utf8');
-              const formatted = staticBidi(html);
+              const formatted = preloadContentImage(staticBidi(html));
               if (formatted !== html) {
                 await writeFile(path, formatted);
                 count++;

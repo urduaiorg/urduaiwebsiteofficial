@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
+import { relatedTermsFor } from '../../utils/related-terms.mjs';
 
 export const prerender = true;
 
@@ -17,10 +18,9 @@ const { Content } = await render(entry);
 
 const canonical = `https://urduai.org/learn/${entry.id}/`;
 
-// Related terms — 4 random terms from the same collection, excluding current
+// Prefer concepts linked in this lesson, then backlinks and related subjects.
 const allTerms = await getCollection('learn', ({ data }) => !data.draft);
-const otherTerms = allTerms.filter(t => t.id !== entry.id);
-const relatedTerms = otherTerms.sort(() => Math.random() - 0.5).slice(0, 4);
+const relatedTerms = relatedTermsFor(entry, allTerms);
 
 const definedTermSchema = {
   "@context": "https://schema.org",
