@@ -1,4 +1,5 @@
 ---
+import ContentImage from '../components/ContentImage.astro';
 import Base from '../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
@@ -114,12 +115,14 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
         {featuredPost.data.image && (
           <div class="featured-card__image">
-            <img
+            <ContentImage
               src={`${base}${featuredPost.data.image}`}
               alt=""
               width="1200"
               height="630"
               loading="eager"
+              fetchpriority="high"
+              sizes="(max-width: 800px) calc(100vw - 32px), 640px"
             />
           </div>
         )}
@@ -128,7 +131,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   )}
 
   <!-- Top banner ad -->
-  <div class="container ad-slot" aria-hidden="true">
+  <div class="container ad-slot">
     <ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-8532451951782012"
@@ -148,9 +151,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {morePosts.map(post => (
         <article class="card">
           {post.data.image ? (
-            <img
+            <ContentImage
               src={`${base}${post.data.image}`}
               alt={post.data.title}
+              sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 400px"
               width="400"
               height="225"
               loading="lazy"
@@ -246,16 +250,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           </a>
         </div>
         <div class="app-showcase__phones">
-          <img src={`${base}/images/app/screenshot-home.png`} alt="اردو اے آئی ایپ ہوم" class="app-showcase__phone app-showcase__phone--1" width="220" height="440" loading="lazy" />
-          <img src={`${base}/images/app/screenshot-courses.png`} alt="اردو اے آئی کورسز" class="app-showcase__phone app-showcase__phone--2" width="220" height="440" loading="lazy" />
-          <img src={`${base}/images/app/screenshot-videos.png`} alt="اردو اے آئی ویڈیوز" class="app-showcase__phone app-showcase__phone--3" width="220" height="440" loading="lazy" />
+          <ContentImage src={`${base}/images/app/screenshot-home.png`} alt="اردو اے آئی ایپ ہوم" class="app-showcase__phone app-showcase__phone--1" width="220" height="440" loading="lazy" />
+          <ContentImage src={`${base}/images/app/screenshot-courses.png`} alt="اردو اے آئی کورسز" class="app-showcase__phone app-showcase__phone--2" width="220" height="440" loading="lazy" />
+          <ContentImage src={`${base}/images/app/screenshot-videos.png`} alt="اردو اے آئی ویڈیوز" class="app-showcase__phone app-showcase__phone--3" width="220" height="440" loading="lazy" />
         </div>
       </div>
     </div>
   </section>
 
   <!-- Mid-page ad -->
-  <div class="container ad-slot" aria-hidden="true">
+  <div class="container ad-slot">
     <ins class="adsbygoogle"
       style="display:block"
       data-ad-client="ca-pub-8532451951782012"
@@ -369,9 +373,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         {recentPrompts.map(prompt => (
           <article class="card">
             {prompt.data.image ? (
-              <img
+              <ContentImage
                 src={`${base}${prompt.data.image}`}
                 alt={prompt.data.title}
+                sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 400px"
                 width="400"
                 height="225"
                 loading="lazy"

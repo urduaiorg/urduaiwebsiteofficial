@@ -1,4 +1,5 @@
 ---
+import ContentImage from '../../../../components/ContentImage.astro';
 import Base from '../../../../layouts/Base.astro';
 import { getCollection } from 'astro:content';
 
@@ -54,8 +55,8 @@ const formatUrduDate = (date: string) => {
 ---
 
 <Base
-  title={`${categoryLabel} — اردو اے آئی`}
-  description={`${categoryLabel} زمرے کے تمام مضامین اردو اے آئی پر ایک جگہ پڑھیں۔`}
+  title={`${categoryLabel}${isFirst ? "" : ` — صفحہ ${page.currentPage}`} — اردو اے آئی`}
+  description={`${categoryLabel} زمرے کا صفحہ ${page.currentPage} از ${page.lastPage}۔ اس صفحے پر: ${page.data.slice(0, 2).map(post => post.data.title).join("، ")}۔`}
   canonical={canonical}
   adsense={true}
 >
@@ -77,12 +78,13 @@ const formatUrduDate = (date: string) => {
       {page.data.map(post => (
         <article class="card">
           {post.data.image ? (
-            <img
+            <ContentImage
               src={`${base}${post.data.image}`}
               alt={post.data.title}
               width="400"
               height="225"
               loading="lazy"
+              sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 400px"
               style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
             />
           ) : (

@@ -41,7 +41,7 @@ draft: false
 ### آلیا عمران:
 
 
-بہت عمدہ! تو پھر لوگ [اے آئی سے](/blog/chatgpt-complete-urdu-guide/) ڈرتے کیوں ہیں؟
+بہت عمدہ! تو پھر لوگ [اے آئی سے](/learn/artificial-intelligence/) ڈرتے کیوں ہیں؟
 
 ### قیصر رنجھا:
 

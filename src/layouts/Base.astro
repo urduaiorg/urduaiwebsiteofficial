@@ -152,10 +152,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       // Lightweight outcome tracking for article and guide CTAs.
       document.addEventListener('click', (event) => {
         const target = event.target instanceof Element
-          ? event.target.closest('[data-analytics-event]')
+          ? event.target.closest('[data-analytics-event], a[href^="https://play.google.com/store/apps/details"]')
           : null;
         if (!target || typeof window.gtag !== 'function') return;
-        window.gtag('event', target.dataset.analyticsEvent, {
+        const playStore = target instanceof HTMLAnchorElement && target.href.startsWith('https://play.google.com/store/apps/details');
+        window.gtag('event', playStore ? 'app_store_outbound' : target.dataset.analyticsEvent, {
+          link_url: target instanceof HTMLAnchorElement ? target.href : undefined,
+          page_path: window.location.pathname,
           event_category: 'content_engagement',
           event_label: target.dataset.analyticsLocation || 'unknown',
         });

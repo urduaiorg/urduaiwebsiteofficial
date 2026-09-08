@@ -1,4 +1,5 @@
 ---
+import ContentImage from '../components/ContentImage.astro';
 // Article.astro — urduai.org — Premium Editorial Layout
 // Used by: blog/[slug].astro, guides/[slug].astro, prompts/[slug].astro
 
@@ -301,14 +302,14 @@ const combinedSchema = [
     <!-- Cover image card — only for guides & how-to (visual tool reference) -->
     {image && (collection === 'guides' || collection === 'how-to') && (
       <div class={`article-header__cover${imageFit === 'contain' ? ' article-header__cover--contain' : ''}${imageFit === 'portrait' ? ' article-header__cover--portrait' : ''}`}>
-        <img src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" />
+        <ContentImage src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" />
       </div>
     )}
   </div>
 
   <!-- Top banner ad — hidden on mobile, in-article ad serves that role -->
   {adsense && (
-    <div class="container ad-slot ad-slot--desktop-only" data-ad-placement="top-banner" aria-hidden="true">
+    <div class="container ad-slot ad-slot--desktop-only" data-ad-placement="top-banner">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8532451951782012"
@@ -359,7 +360,7 @@ const combinedSchema = [
         <slot />
 
         {adsense && (
-          <div class="ad-slot ad-slot--in-article ad-slot--after-intro" data-ad-placement="after-intro" aria-hidden="true">
+          <div class="ad-slot ad-slot--in-article ad-slot--after-intro" data-ad-placement="after-intro">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -371,7 +372,7 @@ const combinedSchema = [
         )}
 
         {adsense && (
-          <div class="ad-slot ad-slot--in-article ad-slot--mid-article" data-ad-placement="mid-article" aria-hidden="true">
+          <div class="ad-slot ad-slot--in-article ad-slot--mid-article" data-ad-placement="mid-article">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -415,7 +416,7 @@ const combinedSchema = [
 
       <!-- Bottom ad -->
       {adsense && (
-        <div class="ad-slot" data-ad-placement="article-bottom" aria-hidden="true">
+        <div class="ad-slot" data-ad-placement="article-bottom">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"
@@ -476,7 +477,7 @@ const combinedSchema = [
 
       <!-- Sidebar sticky ad -->
       {adsense && (
-        <div class="ad-slot ad-slot--sidebar" data-ad-placement="sidebar" aria-hidden="true">
+        <div class="ad-slot ad-slot--sidebar" data-ad-placement="sidebar">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"

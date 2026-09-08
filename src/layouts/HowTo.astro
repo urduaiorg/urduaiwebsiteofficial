@@ -1,4 +1,5 @@
 ---
+import ContentImage from '../components/ContentImage.astro';
 // HowTo.astro — urduai.org
 // Used by: how-to/[slug].astro
 // Living articles — last_verified date shown prominently.
@@ -145,7 +146,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <!-- Top banner ad — hidden on mobile so the tutorial answer stays above the fold -->
   {adsense && (
-    <div class="container ad-slot ad-slot--desktop-only" data-ad-placement="top-banner" aria-hidden="true">
+    <div class="container ad-slot ad-slot--desktop-only" data-ad-placement="top-banner">
       <ins class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8532451951782012"
@@ -201,7 +202,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
 
         {image && (
-          <img
+          <ContentImage
             src={image}
             alt={title}
             width="860"
@@ -226,7 +227,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <slot />
 
         {adsense && (
-          <div class="ad-slot ad-slot--in-article ad-slot--after-intro" data-ad-placement="after-intro" aria-hidden="true">
+          <div class="ad-slot ad-slot--in-article ad-slot--after-intro" data-ad-placement="after-intro">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -238,7 +239,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         )}
 
         {adsense && (
-          <div class="ad-slot ad-slot--in-article ad-slot--mid-article" data-ad-placement="mid-article" aria-hidden="true">
+          <div class="ad-slot ad-slot--in-article ad-slot--mid-article" data-ad-placement="mid-article">
             <ins class="adsbygoogle"
               style="display:block; text-align:center;"
               data-ad-client="ca-pub-8532451951782012"
@@ -285,7 +286,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <!-- Bottom ad -->
       {adsense && (
-        <div class="ad-slot" data-ad-placement="article-bottom" aria-hidden="true">
+        <div class="ad-slot" data-ad-placement="article-bottom">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"
@@ -329,7 +330,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       {adsense && (
-        <div class="ad-slot ad-slot--sidebar" data-ad-placement="sidebar" aria-hidden="true">
+        <div class="ad-slot ad-slot--sidebar" data-ad-placement="sidebar">
           <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-8532451951782012"

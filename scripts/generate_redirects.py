@@ -96,9 +96,9 @@ SPECIAL_REDIRECTS = [
 MANUAL_LEGACY_REDIRECTS = [
     ("ریڈ-سی-وی-اور-پرپلکسٹی-ایک-نیا-ڈیجیٹل-آ", "/blog/red-cv-and-perplexity-a-new-digital-beginning/"),
     ("اے-آئی-اب-آپ-کی-زبان-بولے-گی", "/blog/does-omnilingual-asr-understand-your-language-too-over-1600-languages-now-in-one-system/"),
-    ("اے-آئی-سے-بات-کرنے-کے-طریقے", "/blog/chatgpt-complete-urdu-guide/"),
-    ("اے-آئی-سے-اعلی-معیار-کی-تصاویر-کیسے-بنوا", "/blog/best-ai-image-generators-urdu-guide/"),
-    ("چیٹ-جی-پی-ٹی-کی-نئی-اپڈیٹس", "/blog/chatgpt-complete-urdu-guide/"),
+    ("اے-آئی-سے-بات-کرنے-کے-طریقے", "/how-to/how-to-install-original-chatgpt-app/"),
+    ("اے-آئی-سے-اعلی-معیار-کی-تصاویر-کیسے-بنوا", "/guides/ai-image-generation-guide-urdu/"),
+    ("چیٹ-جی-پی-ٹی-کی-نئی-اپڈیٹس", "/how-to/how-to-install-original-chatgpt-app/"),
     ("اے-آئی-کے-نئے-ٹولز", "/blog/12-best-ai-tools-that-make-work-faster-and-easier/"),
     ("اے-آئی-کے-دور-میں-بچوں-کی-تعلیم", "/blog/ai-and-children-education-training-and-a-bright-future/"),
     ("اے-آئی-ٹولز-اور-پروسیس", "/blog/12-best-ai-tools-that-make-work-faster-and-easier/"),
