@@ -1,6 +1,11 @@
+import { rehypeHeadingIds } from '@astrojs/markdown-remark';
+
 // Layouts provide the page H1. Keep imported section IDs usable for old links.
 export default function contentHeadings() {
   return (tree, file) => {
+    // Astro normally assigns IDs after custom plugins. Assign them before removing
+    // a title, including duplicate-slug suffixes, using Astro's own implementation.
+    rehypeHeadingIds()(tree, file);
     const normalize = value => String(value ?? '').normalize('NFKC').replace(/\s+/g, ' ').trim();
     const title = normalize(file.data.astro?.frontmatter?.title);
     const text = node => node.type === 'text' ? node.value : (node.children ?? []).map(text).join('');
