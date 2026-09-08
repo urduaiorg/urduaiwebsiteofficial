@@ -199,6 +199,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           adsenseScript.crossOrigin = 'anonymous';
           document.head.appendChild(adsenseScript);
         };
+        // Some ad-enabled indexes use Auto ads rather than manual slots.
+        // Preserve their existing eligibility after the same content-load gate.
+        window.urduAiAdsReady.then(() => {
+          if (!document.querySelector('ins[data-ad-slot]')) window.urduAiLoadAds();
+        });
       </script>
     )}
     {adsense && (

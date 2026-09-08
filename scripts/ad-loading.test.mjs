@@ -5,7 +5,7 @@ import vm from 'node:vm';
 
 const source = readFileSync(new URL('../src/layouts/Base.astro', import.meta.url), 'utf8');
 const scripts = [...source.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
-function setup({ idle = true, readyState = 'loading' } = {}) {
+function setup({ idle = true, readyState = 'loading', manualSlots = true } = {}) {
   const appended = [];
   const events = new Map();
   const timers = new Map();
@@ -19,6 +19,7 @@ function setup({ idle = true, readyState = 'loading' } = {}) {
   if (idle) window.requestIdleCallback = fn => events.set('idle', fn);
   const document = {
     readyState,
+    querySelector: () => manualSlots ? {} : null,
     getElementById: id => appended.find(script => script.id === id),
     createElement: () => ({}),
     head: { appendChild: script => appended.push(script) },
@@ -66,4 +67,12 @@ test('does not request a slot excluded while waiting for content', async () => {
   app.events.get('idle')();
   await pending;
   assert.equal(app.appended.length, 0);
+});
+test('retains Auto ads eligibility on ad-enabled pages without manual slots', async () => {
+  const app = setup({ readyState: 'complete', manualSlots: false });
+  assert.equal(app.appended.length, 0);
+  app.events.get('idle')();
+  await app.window.urduAiAdsReady;
+  assert.equal(app.appended.length, 1);
+  assert.equal(app.window.adsbygoogle, undefined);
 });
