@@ -77,6 +77,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
 
       <div class="hero__ctas">
+        <a href="#start-learning" class="btn-start-learning" data-analytics-event="learning_path_open" data-analytics-location="homepage-hero">اے آئی سیکھنا شروع کریں</a>
         <a href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed&hl=en-US" target="_blank" rel="noopener" class="btn-playstore">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-inline-end:6px;"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
           مفت ایپ ڈاؤن لوڈ کریں
@@ -145,6 +146,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- ============================================================
        RECENT POSTS — Grid
        ============================================================ -->
+  <section class="container beginner-path" id="start-learning" aria-labelledby="start-learning-title">
+    <h2 id="start-learning-title" class="section-heading">پہلی بار اے آئی سیکھ رہے ہیں؟</h2>
+    <p>ان تین قدموں سے شروع کریں۔ پہلے سمجھیں، پھر اپنے فون پر آزمائیں، اور آخر میں اپنے کام کا ایک پرامٹ چنیں۔</p>
+    <ol class="beginner-path__steps">
+      <li>
+        <h3><a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-understand">پہلا قدم: اے آئی کو سمجھیں</a></h3>
+        <p>روزمرہ مثالوں سے جانیں کہ مصنوعی ذہانت کیا ہے اور کہاں مدد دے سکتی ہے۔</p>
+      </li>
+      <li>
+        <h3><a href={`${base}/how-to/how-to-install-original-chatgpt-app/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-setup">دوسرا قدم: چیٹ جی پی ٹی شروع کریں</a></h3>
+        <p>آفیشل ایپ پہچاننے، انسٹال کرنے اور اردو میں پہلا سوال پوچھنے کا طریقہ پڑھیں۔</p>
+      </li>
+      <li>
+        <h3><a href={`${base}/prompts/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-practice">تیسرا قدم: اپنے کام کا پرامٹ آزمائیں</a></h3>
+        <p>پڑھائی، تدریس، ملازمت یا کاروبار کے لیے ہدایت چنیں اور اپنے مطابق بدلیں۔ جواب استعمال کرنے سے پہلے اس کی درستگی دیکھیں۔</p>
+      </li>
+    </ol>
+  </section>
+
   <section class="container" style="margin-block-start: var(--space-lg);">
     <h2 class="section-heading">تازہ ترین خبریں</h2>
     <div class="post-grid">
@@ -432,9 +452,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
        START HERE — Learner path
        ============================================================ -->
   <section class="container" style="margin-block-start:var(--space-2xl); margin-block-end:var(--space-2xl);">
-    <h2 class="section-heading">شروع یہاں سے</h2>
+    <h2 class="section-heading">اپنی ضرورت کی چیز ڈھونڈیں</h2>
     <p class="text-muted" style="text-align:center; max-width:52rem; margin:0 auto var(--space-lg);">
-      اگر آپ پہلی بار اردو اے آئی پر آئے ہیں تو ان چار قدموں سے آغاز کریں: پہلے اصطلاحات سمجھیں، پھر ایک ٹول استعمال کرنا سیکھیں، اس کے بعد اپنے لیے مناسب ٹول ڈھونڈیں، اور آخر میں تیار پرامٹس آزما لیں۔
+      کسی اصطلاح کا مطلب، کسی ٹول کا طریقہ یا اپنے کام کے لیے پرامٹ چاہیے؟ متعلقہ حصہ کھولیں۔
     </p>
     <div class="post-grid">
       <a href={`${base}/learn/`} class="card card--category" style="text-decoration:none;">
@@ -488,3 +508,26 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     </div>
   </section>
 </Base>
+
+<style>
+  .btn-start-learning {
+    display: inline-block;
+    background: var(--gold);
+    color: var(--ink);
+    padding: 0.6em 1.6em;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .btn-start-learning:hover { background: var(--gold-light); }
+  .beginner-path { margin-block: var(--space-lg); scroll-margin-block-start: 100px; }
+  .beginner-path__steps { list-style: none; padding: 0; margin-block-start: var(--space-md); }
+  .beginner-path__steps li { padding-block: var(--space-sm); border-block-end: 1px solid var(--border); }
+  .beginner-path__steps h3 { margin-block: 0; font-size: 1.15rem; }
+  .beginner-path__steps a:hover, .beginner-path__steps a:focus-visible { color: var(--teal); text-decoration: underline; }
+  .beginner-path__steps p { margin-block: 0.4rem; }
+  @media (max-width: 600px) {
+    .btn-start-learning { width: 100%; text-align: center; }
+  }
+</style>
