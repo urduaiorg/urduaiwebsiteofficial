@@ -1,0 +1,143 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const exercises = [
+  {
+    id: 'student', title: 'طالب علم: ایک گھنٹے کی پڑھائی کیسے تقسیم کریں؟',
+    prompt: 'میں ایک طالب علم ہوں۔ سات دن کا ریویژن پلان بنائیں۔ ہر روز ریاضی ۲۰ منٹ، انگریزی ۲۰ منٹ، سائنس ۱۵ منٹ اور آخر میں تینوں مضامین کی دہرائی ۵ منٹ ہو۔ جدول میں سات دن اور یہ چار دورانیے الگ دکھائیں۔ ہر مضمون کے لیے ایک چھوٹا کام لکھیں۔ روزانہ اور پورے ہفتے کے کل منٹ جمع کرکے دکھائیں۔ مشکل الفاظ نہ لکھیں۔',
+    checks: ['ہر دن کے چار دورانیے جمع کریں: ۲۰ + ۲۰ + ۱۵ + ۵ = ۶۰ منٹ۔ سات دن کے ۴۲۰ منٹ، یعنی سات گھنٹے بنتے ہیں۔', 'مضامین کے کام اپنی کتاب اور جماعت سے ملائیں۔ جو سبق ابھی پڑھا ہی نہیں، اسے منصوبے میں شامل نہ کریں۔'],
+    note: 'ہماری پہلی آزمائش میں جواب نے ۱۵، ۱۵، ۱۵ اور ۵ منٹ لکھے، مگر کل ۶۰ بتایا۔ اصل جمع ۵۰ تھی۔ اوپر دی گئی واضح تقسیم کے ساتھ منصوبہ دوبارہ بنوایا اور حساب خود چیک کیا۔',
+    followup: 'میری جمع کے مطابق اس قطار کے کل منٹ ۶۰ نہیں بنتے۔ چاروں دورانیے الگ لکھیں، دوبارہ جمع کریں اور جدول درست کریں۔',
+    collection: 'students', more: 'طلبہ کے لیے مزید پرامپٹس',
+  },
+  {
+    id: 'teacher', title: 'استاد: نصف اور چوتھائی کا سبق کیسے بنائیں؟',
+    prompt: 'میں پانچویں جماعت کا استاد ہوں۔ برابر حصوں، نصف اور چوتھائی پر ۳۰ منٹ کا سبق آسان اردو میں بنائیں۔ صرف کاغذ کی مثالیں دیں۔ تعارف ۵ منٹ، وضاحت ۱۰ منٹ، بچوں کی مشق ۱۰ منٹ اور پانچ سوال ۵ منٹ رکھیں۔ سوالوں میں نصف اور دو چوتھائی کی برابری، اور ایک چوتھائی جمع ایک چوتھائی شامل کریں۔ آخری سوال ہو: کاغذ کے دو غیر برابر حصوں میں کیا ہر حصہ نصف ہے؟ جواب الگ لکھیں۔ کل وقت جمع کرکے چیک کریں۔',
+    checks: ['وقت کی تقسیم چیک کریں: ۵ + ۱۰ + ۱۰ + ۵ = ۳۰ منٹ۔ اپنی جماعت کی رفتار کے مطابق وقت بدل سکتے ہیں۔', 'ایک ہی سائز کے کاغذ موڑ کر خود دیکھیں: دو چوتھائی ایک نصف کے برابر ہیں۔ نصف کہنے کے لیے دونوں حصوں کا رقبہ برابر ہونا ضروری ہے۔'],
+    note: 'آزمائش میں پہلی مثال کاغذ تک محدود نہیں رہی، اور ایک جواب میں غیر برابر حصوں کی وضاحت مبہم تھی۔ یہاں دیے گئے سوال اور جواب ادارتی پڑتال کے بعد درست کیے گئے ہیں۔ پڑھانے سے پہلے سرگرمی خود کریں۔',
+    followup: 'ہر مثال ایک ہی سائز کے کاغذ کی رکھیں۔ سوال اور جواب کو ایک دوسرے سے ملا کر دیکھیں۔ غلط یا مبہم بات کی نشاندہی کریں؛ پھر میں خود بھی جانچوں گا۔',
+    collection: 'teachers', more: 'اساتذہ کے لیے مزید پرامپٹس',
+  },
+  {
+    id: 'business', title: 'کاروبار: گاہک کو قیمت اور سائز کا جواب کیسے دیں؟',
+    prompt: 'میرے فرضی کپڑوں کے کاروبار کے لیے گاہک کو ۸۰ الفاظ سے کم کا دوستانہ اردو جواب لکھیں۔ صرف یہ حقائق استعمال کریں: قمیض ۱۸۰۰ روپے، ڈلیوری ۲۰۰ روپے، سائز M اور L دستیاب ہیں۔ گاہک نے پوچھا: قیمت کتنی ہے اور کون سے سائز ملیں گے؟ کل رقم جمع کرکے لکھیں اور صرف پسند کا سائز پوچھیں۔ رعایت، مفت ڈلیوری، پہنچنے کی تاریخ، کپڑے کی قسم یا اسٹاک کی مقدار خود نہ بنائیں۔ کوئی ذاتی معلومات نہ مانگیں۔',
+    checks: ['کل رقم خود جمع کریں: ۱۸۰۰ + ۲۰۰ = ۲۰۰۰ روپے۔ جواب میں صرف دیے گئے دو سائز ہونے چاہییں۔', 'دیکھیں کہ جواب نے اپنی طرف سے رعایت یا ڈلیوری کی تاریخ تو نہیں لکھ دی۔ اصل گاہک کو بھیجنے سے پہلے فرضی قیمتیں اور سائز اپنے تصدیق شدہ حقائق سے بدلیں۔'],
+    note: 'یہ قیمتیں صرف مشق کے لیے فرضی ہیں۔ آزمائش میں جواب نے رقم درست جمع کی، دونوں سائز برقرار رکھے اور کوئی اضافی وعدہ شامل نہیں کیا۔ آپ کے جواب کی عبارت مختلف ہو سکتی ہے۔',
+    followup: 'اب اسی جواب کو مزید مختصر کریں، مگر قیمت، ڈلیوری، کل رقم اور دونوں سائز برقرار رکھیں۔ کوئی نئی بات شامل نہ کریں۔',
+    collection: 'small-business', more: 'چھوٹے کاروبار کے لیے مزید پرامپٹس',
+  },
+];
+const questions = [
+  ['دو برابر حصوں میں سے ایک حصہ کیا کہلاتا ہے؟', 'نصف۔'],
+  ['کیا اسی کاغذ کے دو چوتھائی ایک نصف کے برابر ہیں؟', 'ہاں، دو چوتھائی ایک نصف کے برابر ہیں۔'],
+  ['ایک چوتھائی میں ایک چوتھائی ملائیں تو کیا ہوگا؟', 'دو چوتھائی، یعنی نصف۔'],
+  ['ایک پورے کاغذ میں کتنی چوتھائیاں ہیں؟', 'چار۔'],
+  ['کاغذ کے دو غیر برابر حصوں میں کیا ہر حصہ نصف ہے؟', 'نہیں، دونوں حصوں کا رقبہ برابر ہونا ضروری ہے۔'],
+];
+const schema = {
+  '@context': 'https://schema.org', '@type': 'CollectionPage',
+  name: 'اے آئی کی پہلی مشق', url: 'https://urduai.org/practice/', inLanguage: 'ur',
+  mainEntity: { '@type': 'ItemList', itemListElement: exercises.map((exercise, i) => ({
+    '@type': 'ListItem', position: i + 1, name: exercise.title,
+    url: `https://urduai.org/practice/#${exercise.id}`,
+  })) },
+};
+---
+
+<Base
+  title="اے آئی کی پہلی مشق: پڑھائی، تدریس اور کاروبار | اردو اے آئی"
+  description="اردو میں اے آئی کی تین عملی مشقیں آزمائیں: پڑھائی کا منصوبہ، استاد کے لیے سبق اور گاہک کو جواب۔ تیار پرامپٹ کاپی کریں اور نتیجے کی درستگی خود جانچیں۔"
+  canonical="https://urduai.org/practice/"
+  adsense={false}
+  schema={schema}
+>
+  <div class="container practice">
+    <nav aria-label="بریڈکرمب"><ol class="breadcrumb">
+      <li><a href={`${base}/`}>ہوم</a></li><li aria-current="page">پہلی مشق</li>
+    </ol></nav>
+    <h1>اے آئی کی پہلی مشق: پڑھائی، تدریس یا کاروبار</h1>
+    <p>اے آئی سے کام لینے کی مشق کے لیے اپنا ایک کام چنیں، نیچے دیا ہوا پرامپٹ یعنی ہدایت کاپی کریں، اور جواب آنے پر اس کی پڑتال کریں۔ یہاں ہر مشق کے ساتھ حساب یا حقائق جانچنے کا طریقہ بھی ہے۔</p>
+    <nav class="practice-choices" aria-label="مشق چنیں">
+      <a href="#student">پڑھائی کا منصوبہ</a>
+      <a href="#teacher">کلاس کا سبق</a>
+      <a href="#business">گاہک کو جواب</a>
+    </nav>
+    <section class="practice-start" aria-labelledby="start-title">
+      <h2 id="start-title">پرامپٹ کہاں لکھنا ہے؟</h2>
+      <p>پہلے <a href="https://gemini.google.com/" target="_blank" rel="noopener">جیمینائی (Gemini) کھولیں</a> اور اپنے گوگل اکاؤنٹ سے داخل ہوں۔ اپنی پسند کی مشق کا پرامپٹ کاپی کرکے سوال والے خانے میں پیسٹ کریں اور بھیج دیں۔ پہلی بار استعمال کر رہے ہیں تو <a href={`${base}/how-to/how-to-use-gemini-in-urdu/`}>تصویروں کے ساتھ جیمینائی کا طریقہ دیکھیں</a>۔</p>
+      <p>بغیر ادائیگی کے استعمال پر بھی حدود ہیں؛ گوگل ایک مستقل روزانہ سوالوں کی تعداد نہیں دیتا۔ حد پوری ہونے پر ایپ میں دوبارہ استعمال کا وقت دیکھیں۔ <a href="https://support.google.com/gemini/answer/16275805?hl=en">گوگل کی موجودہ حدود</a> اور <a href="https://support.google.com/gemini/answer/13575153?hl=en">اکاؤنٹ اور دستیابی کی شرائط</a> دیکھ سکتے ہیں۔</p>
+      <p class="text-muted">آزمائش: ۸ ستمبر ۲۰۲۶، ویب پر جیمینائی کے فلیش لائٹ ماڈل میں۔ جواب بدل سکتا ہے؛ نیچے دی گئی پڑتال ہر بار خود کریں۔</p>
+    </section>
+
+    {exercises.map(exercise => (
+      <section id={exercise.id} class="practice-exercise" aria-labelledby={`${exercise.id}-title`}>
+        <h2 id={`${exercise.id}-title`}>{exercise.title}</h2>
+        <h3>یہ ہدایت کاپی کرکے آزمائیں</h3>
+        <p class="practice-prompt" id={`${exercise.id}-prompt`}>{exercise.prompt}</p>
+        <button type="button" class="btn btn-primary practice-copy" data-prompt-id={`${exercise.id}-prompt`} data-exercise={exercise.id} hidden>پرامپٹ کاپی کریں</button>
+        <p class="practice-status" id={`${exercise.id}-status`} role="status" aria-live="polite"></p>
+        <h3>جواب میں کیا چیک کرنا ہے؟</h3>
+        <ul>{exercise.checks.map(check => <li>{check}</li>)}</ul>
+        {exercise.id === 'teacher' && (
+          <details><summary>پانچ سوال اور پڑتال شدہ جواب دیکھیں</summary>
+            <dl>{questions.map(([question, answer]) => <><dt>{question}</dt><dd>{answer}</dd></>)}</dl>
+          </details>
+        )}
+        {exercise.id === 'business' && (
+          <details><summary>آزمائش میں ملنے والا جواب دیکھیں</summary>
+            <blockquote>سلام! قمیض کی قیمت ۱۸۰۰ روپے اور ڈلیوری کے ۲۰۰ روپے ملا کر کل رقم ۲۰۰۰ روپے بنتی ہے۔ ہمارے پاس اس وقت صرف M اور L سائز دستیاب ہیں۔ آپ کو کون سا سائز پسند ہے؟</blockquote>
+          </details>
+        )}
+        <p class="practice-note">{exercise.note}</p>
+        <h3>{exercise.id === 'student' ? 'حساب غلط ہو تو یہ لکھیں' : exercise.id === 'teacher' ? 'وضاحت بہتر بنانے کے لیے یہ لکھیں' : 'جواب مختصر کرنا ہو تو یہ لکھیں'}</h3>
+        <p>{exercise.followup}</p>
+        <p><a href={`${base}/prompts/${exercise.collection}/`}>{exercise.more}</a></p>
+      </section>
+    ))}
+    <section class="practice-next">
+      <h2>اب اپنے اصل کام پر آزمائیں</h2>
+      <p>ایک مثال مکمل ہو جائے تو اسی ہدایت میں اپنا مضمون، سبق یا کاروبار کے تصدیق شدہ حقائق لکھیں۔ طلبہ یا گاہکوں کے نام، فون نمبر اور نجی ریکارڈ شامل کرنے کی ضرورت نہیں۔</p>
+      <p><a href={`${base}/courses/masterclass/`} data-analytics-event="learning_path_open" data-analytics-location="practice-next">اے آئی کی بنیادیں سیکھنے کے لیے ماسٹرکلاس شروع کریں</a></p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.practice-copy').forEach(button => {
+    button.hidden = false;
+    button.addEventListener('click', async () => {
+      const prompt = document.getElementById(button.dataset.promptId || '');
+      const status = document.getElementById(`${button.dataset.exercise}-status`);
+      if (!prompt || !status) return;
+      try {
+        await navigator.clipboard.writeText(prompt.textContent || '');
+        status.textContent = 'پرامپٹ کاپی ہو گیا۔ اب جیمینائی کے سوال والے خانے میں پیسٹ کریں۔';
+        window.gtag?.('event', 'practice_prompt_copy', {
+          exercise_id: button.dataset.exercise, page_path: window.location.pathname,
+        });
+      } catch {
+        status.textContent = 'کاپی نہیں ہو سکا۔ اوپر دی گئی ہدایت کو دبا کر منتخب کریں اور خود کاپی کر لیں۔';
+      }
+    });
+  });
+</script>
+
+<style>
+  .practice { max-width: 850px; padding-block: var(--space-xl); }
+  .practice p, .practice li, .practice dd { line-height: 2.4; }
+  .practice p { margin-block-end: var(--space-md); }
+  .practice-choices { display: flex; flex-wrap: wrap; gap: var(--space-md); margin-block: var(--space-lg); }
+  .practice-choices a { padding: .5rem 1rem; border: 1px solid var(--border); border-radius: 6px; }
+  .practice-exercise, .practice-next { border-block-start: 1px solid var(--border); padding-block-start: var(--space-lg); margin-block-start: var(--space-xl); scroll-margin-block-start: 6rem; }
+  .practice h3 { margin-block-start: var(--space-md); }
+  .practice-prompt { background: var(--paper-warm); padding: var(--space-md); border-inline-start: 4px solid var(--teal); user-select: text; }
+  .practice-status { min-height: 2.4em; }
+  .practice ul { padding-inline-start: 1.5rem; }
+  .practice li { margin-block-end: var(--space-sm); }
+  .practice details { margin-block: var(--space-md); }
+  .practice summary { cursor: pointer; color: var(--teal); line-height: 2.4; }
+  .practice dt { font-weight: 700; margin-block-start: var(--space-md); }
+  .practice dd { margin-inline-start: 0; }
+  .practice-note { border-inline-start: 3px solid var(--gold); padding-inline-start: var(--space-md); margin-block-start: var(--space-md); }
+</style>

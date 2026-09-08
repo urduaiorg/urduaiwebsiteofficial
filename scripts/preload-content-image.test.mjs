@@ -14,3 +14,11 @@ test('does not preload lazy, remote or ordinary below-fold images', () => {
     assert.equal(preloadContentImage(input), input);
   }
 });
+
+test('starts responsive image discovery after viewport metadata and before styles', () => {
+  const input = '<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>/* styles */</style></head><body><img src="/_astro/cover.webp" fetchpriority="high"></body></html>';
+  const output = preloadContentImage(input);
+  assert.ok(output.indexOf('rel="preload"') > output.indexOf('name="viewport"'));
+  assert.ok(output.indexOf('rel="preload"') < output.indexOf('<style>'));
+  assert.ok(output.indexOf('<meta charset=') < output.indexOf('rel="preload"'));
+});
