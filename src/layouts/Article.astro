@@ -302,7 +302,7 @@ const combinedSchema = [
     <!-- Cover image card — only for guides & how-to (visual tool reference) -->
     {image && (collection === 'guides' || collection === 'how-to') && (
       <div class={`article-header__cover${imageFit === 'contain' ? ' article-header__cover--contain' : ''}${imageFit === 'portrait' ? ' article-header__cover--portrait' : ''}`}>
-        <ContentImage src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" />
+        <ContentImage src={`${base}${image}`} alt={title} class="article-header__cover-img" loading="eager" fetchpriority="high" />
       </div>
     )}
   </div>
