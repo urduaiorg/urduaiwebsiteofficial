@@ -112,8 +112,8 @@ test('a consent API failure disables analytics after earlier consent', () => {
   assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
 });
 
-test('EU inapplicable cannot override an unknown or opted-out US state', () => {
-  for (const usStatus of [null, 0, 3, 99]) {
+test('EU inapplicable cannot enable analytics in a US or unknown region', () => {
+  for (const usStatus of [null, 0, 2, 3, 99]) {
     const a = app(usStatus);
     a.emit('CONSENT_MODE_DATA_READY', state(3));
     assert.equal(a.appended.length, 0);
@@ -129,7 +129,7 @@ test('analytics waits for both regional callbacks regardless of their order', ()
   const b = app(2);
   assert.equal(b.appended.length, 0);
   b.emit('CONSENT_MODE_DATA_READY', state(3));
-  assert.equal(b.appended.length, 1);
+  assert.equal(b.appended.length, 0);
 });
 test('US privacy choices use Google default controls instead of the unreliable custom API', () => {
   for (const usStatus of [2, 3]) {
@@ -155,38 +155,17 @@ test('legacy and current Google runtimes retain their built-in US opt-out link',
   assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, false);
 });
 
-test('Google built-in US choices pause analytics and reload only after GPP completes', () => {
+test('US analytics remains off across any consent changes without custom GPP reloads', () => {
   const a = app(2);
-  let notify;
-  a.context.__gpp = (command, callback) => { assert.equal(command, 'addEventListener'); notify = callback; };
+  a.context.__gpp = () => assert.fail('Site analytics must not interfere with Google GPP');
   a.emit('CONSENT_API_READY');
-  a.emit('CONSENT_MODE_DATA_READY', state(3));
-  notify({ eventName: 'listenerRegistered', data: true }, true);
-  assert.equal(a.reloads.length, 0);
-  notify({ eventName: 'cmpDisplayStatus', data: 'visible' }, true);
-  notify({ eventName: 'signalStatus', data: 'ready' }, true);
-  assert.equal(a.reloads.length, 0);
-  assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
-  a.context.gtag('event', 'during_privacy_choice');
-  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
-  a.emit('CONSENT_MODE_DATA_READY', state(3));
-  assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
-  notify({ eventName: 'sectionChange', data: 'usnat' }, true);
-  assert.equal(a.reloads.length, 0);
-  notify({ eventName: 'signalStatus', data: 'ready' }, true);
-  notify({ eventName: 'signalStatus', data: 'ready' }, true);
-  assert.equal(a.reloads.length, 1);
-});
-
-test('initial ready and unrelated GPP events do not cause reload loops', () => {
-  for (const region of [1, 2]) {
-    const a = app(region);
-    let notify;
-    a.context.__gpp = (_, callback) => { notify = callback; };
-    a.emit('CONSENT_API_READY');
-    notify({ eventName: 'signalStatus', data: 'ready' }, true);
-    notify({ eventName: 'sectionChange', data: 'tcfeuv2' }, true);
-    notify({ eventName: 'signalStatus', data: 'ready' }, true);
+  for (const n of [1, 2, 3, 1]) {
+    a.emit('CONSENT_MODE_DATA_READY', state(n));
+    a.emit('CONSENT_DATA_READY', state(n));
+    a.context.gtag('event', 'interaction');
+    assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+    assert.equal(a.appended.length, 0);
     assert.equal(a.reloads.length, 0);
+    assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
   }
 });
