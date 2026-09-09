@@ -156,3 +156,43 @@ test('missing US dialog fails closed without falling back to European consent', 
   a.context.googlefc.showRevocationMessage = () => assert.fail('Wrong regional fallback');
   assert.equal(a.context.urduAiOpenPrivacyChoices(), false);
 });
+
+test('legacy and current Google runtimes receive the custom-link override before load', () => {
+  const a = app();
+  assert.equal(a.context.googlefc.ccpa.overrideDnsLink, true);
+  assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, true);
+});
+
+test('Google built-in US choices pause analytics and reload only after GPP completes', () => {
+  const a = app(2);
+  let notify;
+  a.context.__gpp = (command, callback) => { assert.equal(command, 'addEventListener'); notify = callback; };
+  a.emit('CONSENT_API_READY');
+  a.emit('CONSENT_MODE_DATA_READY', state(3));
+  notify({ eventName: 'listenerRegistered', data: true }, true);
+  assert.equal(a.reloads.length, 0);
+  notify({ eventName: 'signalStatus', data: 'not ready' }, true);
+  assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+  a.context.gtag('event', 'during_privacy_choice');
+  assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
+  a.emit('CONSENT_MODE_DATA_READY', state(3));
+  assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
+  notify({ eventName: 'sectionChange', data: 'usnat' }, true);
+  assert.equal(a.reloads.length, 0);
+  notify({ eventName: 'signalStatus', data: 'ready' }, true);
+  notify({ eventName: 'signalStatus', data: 'ready' }, true);
+  assert.equal(a.reloads.length, 1);
+});
+
+test('initial ready and unrelated GPP events do not cause reload loops', () => {
+  for (const region of [1, 2]) {
+    const a = app(region);
+    let notify;
+    a.context.__gpp = (_, callback) => { notify = callback; };
+    a.emit('CONSENT_API_READY');
+    notify({ eventName: 'signalStatus', data: 'ready' }, true);
+    notify({ eventName: 'sectionChange', data: 'tcfeuv2' }, true);
+    notify({ eventName: 'signalStatus', data: 'ready' }, true);
+    assert.equal(a.reloads.length, 0);
+  }
+});
