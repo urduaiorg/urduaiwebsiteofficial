@@ -131,23 +131,15 @@ test('analytics waits for both regional callbacks regardless of their order', ()
   b.emit('CONSENT_MODE_DATA_READY', state(3));
   assert.equal(b.appended.length, 1);
 });
-test('US privacy button opens US dialog without clearing the European record', () => {
+test('US privacy choices use Google default controls instead of the unreliable custom API', () => {
   for (const usStatus of [2, 3]) {
     const a = app(usStatus);
-    a.emit('CONSENT_API_READY'); a.emit('CONSENT_MODE_DATA_READY', state(3));
-    let finish;
-    a.context.googlefc.usstatesoptout.openConfirmationDialog = callback => {
-      assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
-      finish = callback;
-    };
+    a.emit('CONSENT_API_READY');
+    a.context.googlefc.usstatesoptout.openConfirmationDialog = () => assert.fail('Custom US API must not be used');
     a.context.googlefc.showRevocationMessage = () => assert.fail('Wrong regional dialog');
-    assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, true);
-    assert.equal(a.context.urduAiOpenPrivacyChoices(), true);
-    assert.equal(a.reloads.length, 0);
-    a.context.gtag('event', 'test');
-    assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
-    finish(true);
-    assert.equal(a.reloads.length, 1);
+    assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, false);
+    assert.equal(a.button.hidden, true);
+    assert.equal(a.context.urduAiOpenPrivacyChoices(), false);
   }
 });
 test('missing US dialog fails closed without falling back to European consent', () => {
@@ -157,10 +149,10 @@ test('missing US dialog fails closed without falling back to European consent', 
   assert.equal(a.context.urduAiOpenPrivacyChoices(), false);
 });
 
-test('legacy and current Google runtimes receive the custom-link override before load', () => {
+test('legacy and current Google runtimes retain their built-in US opt-out link', () => {
   const a = app();
-  assert.equal(a.context.googlefc.ccpa.overrideDnsLink, true);
-  assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, true);
+  assert.equal(a.context.googlefc.ccpa.overrideDnsLink, false);
+  assert.equal(a.context.googlefc.usstatesoptout.overrideDnsLink, false);
 });
 
 test('Google built-in US choices pause analytics and reload only after GPP completes', () => {

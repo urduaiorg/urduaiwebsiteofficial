@@ -14,10 +14,12 @@
   window.googlefc = window.googlefc || {};
   window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
   window.googlefc.usstatesoptout = window.googlefc.usstatesoptout || {};
-  window.googlefc.usstatesoptout.overrideDnsLink = true;
+  // Keep Google's own US opt-out link and dialog. The custom-dialog API
+  // was unreliable in live WKWebView; native iOS also offers a local ad opt-out.
+  window.googlefc.usstatesoptout.overrideDnsLink = false;
   // Older Funding Choices runtimes still read the legacy namespace.
   window.googlefc.ccpa = window.googlefc.ccpa || {};
-  window.googlefc.ccpa.overrideDnsLink = true;
+  window.googlefc.ccpa.overrideDnsLink = false;
   // US status is independent of European consent-mode values. Never interpret
   // EU "not applicable" as permission to ignore a US sale/sharing opt-out.
   let usStatus = 0; // unknown=0, does not apply=1, not opted out=2, opted out=3
@@ -85,17 +87,12 @@
     script.src = 'https://www.googletagmanager.com/gtag/js?id=GT-T945ZSRZ';
     document.head.appendChild(script);
   };
-  const showControls = () => document.querySelectorAll('[data-privacy-choices]').forEach(button => { button.hidden = !apiReady; });
+  const showControls = () => document.querySelectorAll('[data-privacy-choices]').forEach(button => { button.hidden = !apiReady || usStatus !== 1; });
   window.urduAiOpenPrivacyChoices = () => {
-    const usApplies = usStatus === 2 || usStatus === 3;
-    const open = usApplies ? window.googlefc.usstatesoptout.openConfirmationDialog : window.googlefc.showRevocationMessage;
-    if (!apiReady || typeof open !== 'function') return false;
+    // Google owns the US opt-out control; never clear a European record in
+    // response to a US privacy action. Custom footer controls serve EU only.
+    if (usStatus !== 1 || !apiReady || typeof window.googlefc.showRevocationMessage !== 'function') return false;
     pauseAnalytics();
-    if (usApplies) {
-      usChoiceChanging = true;
-      window.googlefc.usstatesoptout.openConfirmationDialog(reloadChoices);
-      return true;
-    }
     window.googlefc.showRevocationMessage();
     // Google clears the saved decision above. Its readiness callbacks are
     // one-shot, so start a fresh page/CMP lifecycle for the replacement choice.
@@ -107,6 +104,7 @@
   window.googlefc.callbackQueue.push({ INITIAL_US_STATES_OPT_OUT_DATA_READY: () => {
     try { usStatus = window.googlefc.usstatesoptout.getInitialUsStatesOptOutStatus?.() ?? 0; }
     catch { usStatus = 0; }
+    showControls();
     refresh();
   } });
   window.googlefc.callbackQueue.push({ CONSENT_MODE_DATA_READY: refresh });
