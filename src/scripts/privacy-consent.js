@@ -25,6 +25,7 @@
   let apiReady = false;
   let gppListening = false;
   let usChoiceChanging = false;
+  let usSectionChanged = false;
   let reloadPending = false;
   const pauseAnalytics = () => {
     allowed = false;
@@ -45,16 +46,15 @@
     // choices through IAB GPP, including Google's own privacy link.
     window.__gpp('addEventListener', (event, success) => {
       if (!success || (usStatus !== 2 && usStatus !== 3)) return;
-      if ((event.eventName === 'cmpDisplayStatus' && event.data === 'visible') ||
-          (event.eventName === 'signalStatus' && event.data === 'not ready')) {
+      if (event.eventName === 'cmpDisplayStatus' && event.data === 'visible') {
         usChoiceChanging = true;
         pauseAnalytics();
       }
-      if (event.eventName === 'sectionChange' && /^us/.test(event.data || '')) {
-        usChoiceChanging = true;
+      if (usChoiceChanging && event.eventName === 'sectionChange' && /^us/.test(event.data || '')) {
+        usSectionChanged = true;
         pauseAnalytics();
       }
-      if (usChoiceChanging && event.eventName === 'signalStatus' && event.data === 'ready') reloadChoices();
+      if (usSectionChanged && event.eventName === 'signalStatus' && event.data === 'ready') reloadChoices();
     });
   };
   // Values documented by Google's Privacy & Messaging API: granted=1,
@@ -92,6 +92,7 @@
     if (!apiReady || typeof open !== 'function') return false;
     pauseAnalytics();
     if (usApplies) {
+      usChoiceChanging = true;
       window.googlefc.usstatesoptout.openConfirmationDialog(reloadChoices);
       return true;
     }

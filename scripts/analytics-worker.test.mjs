@@ -171,7 +171,9 @@ test('Google built-in US choices pause analytics and reload only after GPP compl
   a.emit('CONSENT_MODE_DATA_READY', state(3));
   notify({ eventName: 'listenerRegistered', data: true }, true);
   assert.equal(a.reloads.length, 0);
-  notify({ eventName: 'signalStatus', data: 'not ready' }, true);
+  notify({ eventName: 'cmpDisplayStatus', data: 'visible' }, true);
+  notify({ eventName: 'signalStatus', data: 'ready' }, true);
+  assert.equal(a.reloads.length, 0);
   assert.equal(a.context['ga-disable-G-CW98PY3REY'], true);
   a.context.gtag('event', 'during_privacy_choice');
   assert.equal(a.context.dataLayer.filter(args => args[0] === 'event').length, 0);
