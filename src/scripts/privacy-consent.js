@@ -13,6 +13,11 @@
   window.gtag('consent', 'default', denied);
   window.googlefc = window.googlefc || {};
   window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+  window.googlefc.usstatesoptout = window.googlefc.usstatesoptout || {};
+  window.googlefc.usstatesoptout.overrideDnsLink = true;
+  // US status is independent of European consent-mode values. Never interpret
+  // EU "not applicable" as permission to ignore a US sale/sharing opt-out.
+  let usStatus = 0; // unknown=0, does not apply=1, not opted out=2, opted out=3
   let loaded = false;
   let apiReady = false;
   // Values documented by Google's Privacy & Messaging API: granted=1,
@@ -28,6 +33,7 @@
       analytics_storage: 'analyticsStoragePurposeConsentStatus',
     };
     const next = Object.fromEntries(Object.entries(names).map(([key, field]) => [key, permitted(values?.[field]) ? 'granted' : 'denied']));
+    if (usStatus !== 1 && usStatus !== 2) Object.assign(next, denied);
     allowed = Object.values(next).every(value => value === 'granted');
     window['ga-disable-G-CW98PY3REY'] = !allowed;
     window['ga-disable-GT-T945ZSRZ'] = !allowed;
@@ -44,11 +50,17 @@
   };
   const showControls = () => document.querySelectorAll('[data-privacy-choices]').forEach(button => { button.hidden = !apiReady; });
   window.urduAiOpenPrivacyChoices = () => {
-    if (!apiReady || typeof window.googlefc.showRevocationMessage !== 'function') return false;
+    const usApplies = usStatus === 2 || usStatus === 3;
+    const open = usApplies ? window.googlefc.usstatesoptout.openConfirmationDialog : window.googlefc.showRevocationMessage;
+    if (!apiReady || typeof open !== 'function') return false;
     allowed = false;
     window['ga-disable-G-CW98PY3REY'] = true;
     window['ga-disable-GT-T945ZSRZ'] = true;
     window.gtag('consent', 'update', denied);
+    if (usApplies) {
+      window.googlefc.usstatesoptout.openConfirmationDialog(() => window.location.reload());
+      return true;
+    }
     window.googlefc.showRevocationMessage();
     // Google clears the saved decision above. Its readiness callbacks are
     // one-shot, so start a fresh page/CMP lifecycle for the replacement choice.
@@ -57,6 +69,11 @@
     return true;
   };
   window.googlefc.callbackQueue.push({ CONSENT_API_READY: () => { apiReady = true; showControls(); } });
+  window.googlefc.callbackQueue.push({ INITIAL_US_STATES_OPT_OUT_DATA_READY: () => {
+    try { usStatus = window.googlefc.usstatesoptout.getInitialUsStatesOptOutStatus?.() ?? 0; }
+    catch { usStatus = 0; }
+    refresh();
+  } });
   window.googlefc.callbackQueue.push({ CONSENT_MODE_DATA_READY: refresh });
   window.googlefc.callbackQueue.push({ CONSENT_DATA_READY: refresh });
   document.addEventListener('DOMContentLoaded', showControls);

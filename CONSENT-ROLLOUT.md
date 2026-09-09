@@ -59,3 +59,17 @@ Automatic approval review rejected the combined commit/deployment command for th
 The user explicitly approved deployment of 1c40814. GitHub run 34283229318 attempt 1 timed out opening the Hostinger SSH connection before transfer. The same approved deployment was retried; attempt 2 succeeded. A fresh live HTTP download contains the lifecycle fix and passes scripts/verify-consent-bundle.mjs.
 
 The final interactive post-deployment acceptance/withdrawal retest remains incomplete because Safari window/display control and console focus became unreliable. Do not describe the lifecycle issue as fully verified from the simulated check alone. Before deployment, the approved temporary consent test was restored to refusal and all four denied values were observed. The separate simulator tracking enable test awaits its specific approval. No App Store upload/submission was performed.
+
+
+## Regional follow-up — 8 September, evening
+
+Measured live WKWebView verification of 1c40814 now passed: acceptance [1,1,1,1], Analytics enabled, 1 script/2 resource entries; withdrawal [2,2,2,2], disabled, 0/0; replacement acceptance correctly restored 1/2. Final refusal and simulator ATT OFF verified. Native repository commit fd3a284 contains evidence.
+
+A further local change handles the US privacy API independently from European consent-mode values. Analytics waits for known regional status, remains disabled for US opt-out/unknown status, and the privacy button opens the US confirmation dialog for applicable visitors. It reloads only after that dialog's callback. European replacement-choice behavior is preserved. All 35 tests, Astro build, generated HTML verification and Pagefind (1051 pages) pass. This regional change is NOT deployed yet.
+
+AdSense read-only check confirmed no existing US message. The create-message editor was opened, but Safari stopped providing its window content or screenshots; refresh and a fresh window did not recover usable control. No completed draft or publication is verified. Finish a message named Urdu AI US Privacy Message, select only urduai.org, English, all current/future supported US states, inspect the preview and publish within the user's authorized privacy-release work. Leave PakSpeed and account-wide ad settings unchanged. Then deploy this scoped code and verify actual US opt-out plus European regression in the app WebView. The account's default US link is only overridden once this new controller is deployed.
+
+Google references checked:
+- https://developers.google.com/funding-choices/fc-api-docs — INITIAL_US_STATES_OPT_OUT_DATA_READY and US confirmation dialog are separate from European consent APIs.
+- https://support.google.com/adsense/answer/10960771?hl=en — site-specific message creation and all supported US state targeting.
+- https://support.google.com/adsense/answer/16283098?hl=en — AdSense supports strict nonce CSP; the current domain-list policy is not a complete supported integration. No security headers were removed or relaxed by this change.

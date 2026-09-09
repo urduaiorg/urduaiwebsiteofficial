@@ -40,6 +40,8 @@ const emit = (key, status) => {
   });
   for (const entry of context.googlefc.callbackQueue) entry[key]?.();
 };
+context.googlefc.usstatesoptout.getInitialUsStatesOptOutStatus = () => 1;
+for (const entry of context.googlefc.callbackQueue) entry.INITIAL_US_STATES_OPT_OUT_DATA_READY?.();
 emit('CONSENT_API_READY', 2);
 emit('CONSENT_MODE_DATA_READY', 2);
 assert.equal(loaded.length, 0, 'Refusal must not load analytics');
