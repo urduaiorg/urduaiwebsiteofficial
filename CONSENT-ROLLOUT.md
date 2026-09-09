@@ -73,3 +73,12 @@ Google references checked:
 - https://developers.google.com/funding-choices/fc-api-docs — INITIAL_US_STATES_OPT_OUT_DATA_READY and US confirmation dialog are separate from European consent APIs.
 - https://support.google.com/adsense/answer/10960771?hl=en — site-specific message creation and all supported US state targeting.
 - https://support.google.com/adsense/answer/16283098?hl=en — AdSense supports strict nonce CSP; the current domain-list policy is not a complete supported integration. No security headers were removed or relaxed by this change.
+
+
+## Regional deployment completed — 8 September, 21:30 Winnipeg
+
+User completed US-message publication. Safari message list verified English (en-US), urduai.org, Published, with internal name “Untitled US states message”. Targeting is user-reported as completed, not independently exposed in the message list. Screenshot stored in the native repository's release/ios/ads-qa/us-message-published.png.
+
+Pushed tested 5634925 after checking origin/main for intervening work. GitHub run 34303200872 succeeded including tests, build and rsync. Public article HTML downloaded to /tmp/urduai-live-regional-5634925.html contains the US callbacks, opt-out guard and regional dialog routing; generated-HTML verification passed. This is source/runtime simulation evidence, not an actual US browser opt-out test.
+
+Safari private-window testing prompted LocalAuthenticationRemoteService. Computer control cannot operate this authentication service; user was asked to unlock the private window. No protected-window access or authentication bypass attempted. Live US click-through/European regression and remaining native release checks are pending. App Store app remains unsubmitted.
