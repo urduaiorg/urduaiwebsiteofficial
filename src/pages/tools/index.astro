@@ -215,7 +215,7 @@ const toolsSchema = [
           class="tool-card"
           id={toolAnchor(tool.name)}
           data-category={tool.category}
-          data-name={tool.name.toLowerCase()}
+          data-name={[tool.name, ...(tool.aliases ?? [])].join(' ').toLowerCase()}
           data-urdu={tool.urduName}
           data-desc={tool.description}
         >
@@ -238,6 +238,7 @@ const toolsSchema = [
 
           <p class="tool-card__by">{tool.by}</p>
           <p class="tool-card__desc">{tool.description}</p>
+          {tool.platformLabel && <p class="tool-card__platform">استعمال: {tool.platformLabel}</p>}
 
           <div class="tool-card__badges">
             <span class="badge badge--teal">{tool.category}</span>
@@ -271,6 +272,19 @@ const toolsSchema = [
               </a>
             )}
           </div>
+          {tool.downloadLinks && (
+            <div class="tool-card__downloads">
+              {tool.downloadLinks.map(link => (
+                <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ←</a>
+              ))}
+            </div>
+          )}
+          {tool.sourceUrl && tool.verifiedAt && (
+            <p class="tool-card__verified">
+              <a href={tool.sourceUrl} target="_blank" rel="noopener noreferrer">آفیشل تفصیل</a>
+              {' · تصدیق: '}<time datetime={tool.verifiedAt}>{tool.verifiedAt}</time>
+            </p>
+          )}
         </article>
       ))}
     </div>
@@ -326,7 +340,7 @@ const toolsSchema = [
 
     <!-- Last updated -->
     <p class="tools-updated">
-      آخری اپڈیٹ: اگست 2026 — pricing، limits اور availability بدل سکتے ہیں، اس لیے اہم کام سے پہلے ہر tool کی آفیشل site چیک کریں۔
+      نئی ایپس شامل کی گئیں: ۱۰ ستمبر ۲۰۲۶۔ ہر نئی ایپ کے کارڈ پر آفیشل تفصیل اور تصدیق کی تاریخ موجود ہے۔ قیمت، استعمال کی حد اور دستیابی بدل سکتی ہے۔ پاکستان کا نشان نہ ہونے کا مطلب ہے کہ مقامی دستیابی کی تصدیق باقی ہے۔
     </p>
 
     <section class="tools-faq" aria-labelledby="tools-faq-title">
@@ -763,6 +777,33 @@ const toolsSchema = [
     gap: 0.4em;
     flex-wrap: wrap;
     margin-block: var(--space-xs);
+  }
+
+  .tool-card__platform,
+  .tool-card__verified {
+    margin: 0;
+    font-size: max(17px, var(--text-sm));
+    line-height: 2.2;
+    color: var(--ink-muted);
+  }
+
+  .tool-card__downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    font-size: max(17px, var(--text-sm));
+    line-height: 2.2;
+  }
+
+  .tool-card__downloads a,
+  .tool-card__verified a {
+    color: var(--teal);
+    text-underline-offset: 0.25em;
+  }
+
+  .tool-card__verified time {
+    direction: ltr;
+    unicode-bidi: isolate;
   }
 
   .badge--green {
