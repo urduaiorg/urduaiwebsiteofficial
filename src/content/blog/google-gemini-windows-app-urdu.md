@@ -21,7 +21,7 @@ tags:
 image: "/images/blog/google-gemini-windows-app-urdu-v3.png"
 image_width: 1200
 image_height: 630
-author: "قیصر رونجھا"
+author: "اردو اے آئی ٹیم"
 adsense: true
 draft: false
 tools:
