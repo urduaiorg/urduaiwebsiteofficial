@@ -14,7 +14,7 @@ tags:
   - Anthropic
   - اے آئی سیفٹی
   - اے آئی تحقیق
-image: "/images/blog/dario-amodei-pace-frontier-ai-safety-urdu-v2.png"
+image: "/images/blog/dario-amodei-pace-frontier-ai-safety-urdu-v3.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
