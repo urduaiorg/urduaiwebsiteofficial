@@ -38,6 +38,16 @@ howto_steps:
 
 یہ گائیڈ ہماری عملی مثالوں اور ۱۳ ستمبر ۲۰۲۶ کو دیکھی گئی میٹا کی آفیشل معلومات پر مبنی ہے۔ پہلے سیٹ اپ سمجھیں، پھر اپنے کام کا نمونہ چنیں۔ میوز کی بنیادی خبر [ہمارے تعارفی مضمون](/blog/meta-muse-personal-ai-agent-how-to-use-urdu/) میں موجود ہے۔
 
+## میوز کی عملی ویڈیو کہاں دیکھیں؟
+
+اسی موضوع پر اردو اے آئی کی نئی ویڈیو یہاں دیکھیں، پھر نیچے دیے گئے مراحل اور پرامپٹس سے اپنا کام شروع کریں۔
+
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin:1.5rem 0;">
+  <iframe style="position:absolute;inset:0;width:100%;height:100%;border:0;" src="https://www.youtube-nocookie.com/embed/gSHVgaG9ij8" title="میٹا میوز کی عملی گائیڈ — اردو اے آئی" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[یہ ویڈیو یوٹیوب پر کھولیں](https://www.youtube.com/watch?v=gSHVgaG9ij8)
+
 ## میوز عام چیٹ بوٹ سے کیسے مختلف ہے؟
 
 میوز ایک ذاتی [اے آئی ایجنٹ](/learn/ai-agent/) ہے۔ اسے کام دیں تو یہ اپنے براؤزر اور دستیاب ٹولز سے اس کے مراحل انجام دے سکتا ہے۔ میٹا کے مطابق یہ تصاویر اور دستاویزات بنانے، تحقیق، یاد دہانیوں اور متعلقہ ایپس کے ساتھ کام کرنے میں مدد دیتا ہے۔ [میٹا کا آفیشل تعارف](https://ai.meta.com/muse/) ان صلاحیتوں کی وضاحت کرتا ہے۔
