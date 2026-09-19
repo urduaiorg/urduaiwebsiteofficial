@@ -1,15 +1,20 @@
 ---
 // /app/ - App landing page
 // NO ads. NO App CTA strip. This entire page IS the CTA.
-// Drives Play Store downloads.
+// Drives Android and iOS app downloads.
 
 import Base from '../../layouts/Base.astro';
 
 const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed';
+const appStoreUrl = 'https://apps.apple.com/ca/app/urdu-ai/id6809815120';
 const appFaqItems = [
   {
+    question: 'کیا اردو اے آئی ایپ آئی فون کے لیے دستیاب ہے؟',
+    answer: 'جی ہاں۔ اردو اے آئی ایپ آئی فون کے لیے App Store پر مفت دستیاب ہے۔ اسے استعمال کرنے کے لیے iOS 15.1 یا اس کے بعد کا ورژن چاہیے۔',
+  },
+  {
     question: 'Urdu AI app download کہاں سے کریں؟',
-    answer: 'Urdu AI app Android users کے لیے Google Play Store پر دستیاب ہے۔ محفوظ طریقہ یہی ہے کہ ایپ Play Store سے install کریں، کسی غیر معروف APK link سے نہیں۔',
+    answer: 'اردو اے آئی ایپ اینڈرائیڈ کے لیے Google Play اور آئی فون کے لیے App Store پر دستیاب ہے۔ اپنے فون کے مطابق آفیشل اسٹور سے ایپ ڈاؤن لوڈ کریں۔',
   },
   {
     question: 'کیا اردو اے آئی ایپ Android کے لیے ہے؟',
@@ -73,11 +78,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <Base
-  title="Urdu AI app download: Play Store سے Android ایپ"
-  description="Urdu AI app download کے لیے محفوظ Play Store link، 50K+ downloads، rating، screenshots، AI guides، prompts، videos اور free course۔"
+  title="اردو اے آئی ایپ ڈاؤن لوڈ کریں — اینڈرائیڈ اور آئی فون"
+  description="اردو اے آئی ایپ اینڈرائیڈ اور آئی فون پر مفت ڈاؤن لوڈ کریں۔ Google Play اور App Store کے آفیشل لنکس، اردو گائیڈز، پرامٹس اور کورسز ایک جگہ۔"
   canonical="https://urduai.org/app/"
   adsense={false}
-  schema={[appSchema, faqSchema, breadcrumbSchema]}
+  schema={[appSchema, { ...appSchema, operatingSystem: "iOS 15.1 or later", downloadUrl: appStoreUrl, aggregateRating: undefined }, faqSchema, breadcrumbSchema]}
 >
   <!-- Hero - Play Store button above fold -->
   <section class="app-hero">
@@ -90,10 +95,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </nav>
 
       <h1>
-        Urdu AI app download — Play Store Android ایپ
+        اردو اے آئی ایپ — اینڈرائیڈ اور آئی فون کے لیے
       </h1>
       <p class="app-hero__intro">
-        Urdu AI app download کا محفوظ طریقہ Google Play Store ہے۔ Android پر اردو میں AI basics، ChatGPT، Gemini، prompts، videos، guides اور free course ایک جگہ سے شروع کریں۔
+        اردو اے آئی ایپ اینڈرائیڈ کے لیے Google Play اور آئی فون کے لیے App Store پر مفت دستیاب ہے۔ اپنے فون پر اردو میں AI basics، ChatGPT، Gemini، prompts، videos، guides اور free course ایک جگہ سے شروع کریں۔
       </p>
 
       <!-- Download count - prominent -->
@@ -122,9 +127,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       >
         Google Play سے download کریں
       </a>
+      <a href={appStoreUrl} class="btn-playstore" style="margin-block-start:var(--space-sm);" target="_blank" rel="noopener">آئی فون — App Store</a>
 
       <p class="app-hero__note">
-        Android app؛ unknown APK links سے بچیں
+        اینڈرائیڈ کے لیے Google Play؛ آئی فون کے لیے App Store
       </p>
     </div>
   </section>
@@ -132,7 +138,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <section class="container app-answer" aria-labelledby="app-answer-title">
     <h2 id="app-answer-title">فوری جواب: اردو اے آئی ایپ کیا ہے؟</h2>
     <p>
-      اردو اے آئی ایپ Android users کے لیے Urdu AI website کا آسان mobile راستہ ہے۔ اس میں آپ <a href={`${base}/learn/artificial-intelligence/`}>AI basics</a>، <a href={`${base}/guides/`}>اردو guides</a>، <a href={`${base}/courses/masterclass/`}>Urdu AI course</a>، <a href={`${base}/prompts/`}>prompts</a> اور <a href={`${base}/tools/`}>AI tools</a> تک تیزی سے پہنچ سکتے ہیں۔
+      اردو اے آئی ایپ اینڈرائیڈ اور آئی فون پر اردو میں اے آئی سیکھنے کا آسان راستہ ہے۔ اس میں آپ <a href={`${base}/learn/artificial-intelligence/`}>AI basics</a>، <a href={`${base}/guides/`}>اردو guides</a>، <a href={`${base}/courses/masterclass/`}>Urdu AI course</a>، <a href={`${base}/prompts/`}>prompts</a> اور <a href={`${base}/tools/`}>AI tools</a> تک تیزی سے پہنچ سکتے ہیں۔
     </p>
   </section>
 
@@ -156,7 +162,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
       <div class="card">
         <h3 class="card__title">موبائل پر آسان راستہ</h3>
-        <p class="card__excerpt">Guides، videos، courses اور prompts ایک Android app سے کھولیں۔</p>
+        <p class="card__excerpt">Guides، videos، courses اور prompts ایک ایپ سے کھولیں۔</p>
       </div>
       <div class="card">
         <h3 class="card__title">Beginner learning path</h3>
@@ -198,7 +204,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Second CTA -->
   <section style="background:var(--gold-pale); border-block:2px solid var(--gold); padding-block:var(--space-xl); margin-block-start:var(--space-2xl); text-align:center;">
     <div class="container">
-      <h2 style="color:var(--ink);">Android پر اردو AI learning شروع کریں</h2>
+      <h2 style="color:var(--ink);">اپنے فون پر اردو میں اے آئی سیکھنا شروع کریں</h2>
       <a
         href={playStoreUrl}
         class="btn-playstore"
@@ -208,6 +214,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       >
         Google Play Store پر جائیں
       </a>
+      <a href={appStoreUrl} class="btn-playstore" style="margin-block-start:var(--space-md);" target="_blank" rel="noopener">آئی فون — App Store</a>
     </div>
   </section>
 
