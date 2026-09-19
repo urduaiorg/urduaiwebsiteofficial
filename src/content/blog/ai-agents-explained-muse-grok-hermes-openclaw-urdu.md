@@ -5,7 +5,7 @@ date: 2026-09-19
 published_at: "2026-09-19T13:16:16Z"
 category: "اے آئی اپڈیٹ"
 tags: ["AI Agents", "Meta Muse", "Grok Bot", "Hermes Agent", "OpenClaw", "اردو گائیڈ"]
-image: "/images/blog/ai-agents-explained-muse-grok-hermes-openclaw-urdu-v2.png"
+image: "/images/blog/ai-agents-explained-muse-grok-hermes-openclaw-urdu-v3.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
