@@ -1,535 +1,94 @@
 ---
-import ContentImage from '../components/ContentImage.astro';
 import Base from '../layouts/Base.astro';
+import ContentImage from '../components/ContentImage.astro';
+import HomeHeader from '../components/HomeHeader.astro';
+import HomeFooter from '../components/HomeFooter.astro';
+import HomeVideoCard from '../components/HomeVideoCard.astro';
 import { getCollection } from 'astro:content';
+import { lessons } from '../data/masterclass-lessons';
+import videoFeed from '../../public/data/youtube-videos.json';
+import { newestPublished, validVideos, formatUrduDate } from '../utils/homepage-content.mjs';
+import '../styles/homepage.css';
 
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
-const recentPosts = allPosts
-  .sort((a, b) => {
-    const aPublishedAt = a.data.published_at ?? `${a.data.date}T00:00:00Z`;
-    const bPublishedAt = b.data.published_at ?? `${b.data.date}T00:00:00Z`;
-    const newestFirst = Date.parse(bPublishedAt) - Date.parse(aPublishedAt);
-
-    // Exact publication time decides the homepage order. The ID fallback
-    // keeps legacy same-date posts deterministic when they have no timestamp.
-    return newestFirst || b.id.localeCompare(a.id);
-  });
-
-const featuredPost = recentPosts[0];
-const morePosts = recentPosts.slice(1, 7);
-
-const formatUrduDate = (date: string) => {
-  const [year, month, day] = date.split('-').map(Number);
-  return new Date(year, month - 1, day).toLocaleDateString('ur-PK', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-};
-
-const allGuides = await getCollection('guides', ({ data }) => !data.draft);
-const recentGuides = allGuides
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-  .slice(0, 3);
-
-const allHowTo = await getCollection('howto', ({ data }) => !data.draft);
-const recentHowTo = allHowTo
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-  .slice(0, 3);
-
-const allPrompts = await getCollection('prompts', ({ data }) => !data.draft);
-const recentPrompts = allPrompts
-  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-  .slice(0, 3);
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const [posts, guides, tutorials, prompts] = await Promise.all([
+  getCollection('blog'), getCollection('guides'), getCollection('howto'), getCollection('prompts'),
+]);
+const publishedPosts = newestPublished(posts);
+const featuredPost = publishedPosts[0];
+const morePosts = publishedPosts.slice(1, 7);
+const learningLinks = [
+  ...newestPublished(guides).slice(0, 2).map(entry => ({ ...entry, route: '/guides' })),
+  ...newestPublished(tutorials).slice(0, 1).map(entry => ({ ...entry, route: '/how-to' })),
+];
+const promptItems = Object.fromEntries([['student', 'students'], ['teacher', 'teachers'], ['business', 'small-business']].map(([key, id]) => {
+  const entry = prompts.find(item => item.id === id && !item.data.draft);
+  const text = entry?.body?.match(/پرامٹ:\s*\n([\s\S]*?)(?=\n\s*نتیجہ:|\n[─]+)/)?.[1]?.trim() ?? '';
+  return [key, { text, href: `/prompts/${id}/` }];
+}));
+const videos = validVideos(videoFeed);
 ---
+<Base bodyClass="homepage" title="اردو اے آئی — پاکستان کا سب سے بڑا اردو اے آئی پلیٹ فارم" description="اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں مصنوعی ذہانت کا پلیٹ فارم ہے۔ اے آئی ٹولز، گائیڈز، ٹیوٹوریلز اور پرامٹس — سب اردو میں۔" canonical="https://urduai.org/" ogImage="/og/urduai-og.jpg" adsense={true}>
+  <HomeHeader slot="header" />
+  <HomeFooter slot="footer" />
 
-<Base
-  title="اردو اے آئی — پاکستان کا سب سے بڑا اردو اے آئی پلیٹ فارم"
-  description="اردو اے آئی پاکستان کا سب سے بڑا اردو زبان میں مصنوعی ذہانت کا پلیٹ فارم ہے۔ اے آئی ٹولز، گائیڈز، ٹیوٹوریلز اور پرامٹس — سب اردو میں۔"
-  ogImage="/og/urduai-og.jpg"
-  adsense={true}
->
-  <!-- ============================================================
-       HERO
-       ============================================================ -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="hero__brand">Urdu <span>Ai</span> <span class="sr-only">— اردو اے آئی: پاکستان کا سب سے بڑا اردو مصنوعی ذہانت پلیٹ فارم</span></h1>
-      <p>
-        مصنوعی ذہانت کو اردو میں سمجھیں، استعمال کریں، اور آگے بڑھیں۔
-        ۲۵ کروڑ اردو بولنے والوں کے لیے — بالکل مفت۔
-      </p>
-
-      <div class="hero__stats">
-        <div class="hero__stat">
-          <span class="hero__stat-number" dir="ltr">250M+</span>
-          <span class="hero__stat-label">اردو بولنے والے</span>
-        </div>
-        <div class="hero__stat">
-          <span class="hero__stat-number" dir="ltr">1M+</span>
-          <span class="hero__stat-label">آن لائن کمیونٹی</span>
-        </div>
-        <div class="hero__stat">
-          <span class="hero__stat-number" dir="ltr">50K+</span>
-          <span class="hero__stat-label">ایپ ڈاؤن لوڈز</span>
-        </div>
-      </div>
-
-      <div class="hero__ctas">
-        <a href="#start-learning" class="btn-start-learning" data-analytics-event="learning_path_open" data-analytics-location="homepage-hero">اے آئی سیکھنا شروع کریں</a>
-        <a href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed&hl=en-US" target="_blank" rel="noopener" class="btn-playstore">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-inline-end:6px;"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
-          اینڈرائیڈ ایپ ڈاؤن لوڈ کریں
-        </a>
-        <a href="https://apps.apple.com/ca/app/urdu-ai/id6809815120" target="_blank" rel="noopener" class="btn-playstore">آئی فون — App Store</a>
-        <a href="https://whatsapp.com/channel/0029VaXXgd00AgW6jAZGw83j" target="_blank" rel="noopener" class="btn-whatsapp">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-inline-end:6px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          واٹس ایپ چینل فالو کریں
-        </a>
-      </div>
-
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">اردو اے آئی</p>
+      <h1>مصنوعی ذہانت کو اردو میں سمجھیں،<br class="desktop-break"> استعمال کریں، اور <span class="highlight">آگے بڑھیں۔</span></h1>
+      <p class="hero-description">۲۵ کروڑ اردو بولنے والوں کے لیے — بالکل مفت۔</p>
+      <div class="hero-actions"><a class="button" href="#start-learning" data-analytics-event="learning_path_open" data-analytics-location="homepage-hero">اے آئی سیکھنا شروع کریں</a><a class="text-link" href="/app/">ایپ ڈاؤن لوڈ کریں <span aria-hidden="true">←</span></a></div>
     </div>
+    <dl class="metrics">
+      <div><dt>اردو بولنے والے</dt><dd dir="ltr">250M+</dd></div>
+      <div><dt>آن لائن کمیونٹی</dt><dd dir="ltr">1M+</dd></div>
+      <div><dt>ایپ ڈاؤن لوڈز</dt><dd dir="ltr">50K+</dd></div>
+    </dl>
   </section>
-
-  <!-- ============================================================
-       FEATURED ARTICLE — Large hero card
-       ============================================================ -->
-  {featuredPost && (
-    <section class="container" style="margin-block-start: var(--space-md);">
-      <a href={`${base}/blog/${featuredPost.id}/`} class="featured-card" style="text-decoration:none;">
-        <div class="featured-card__body">
-          <div class="featured-card__top">
-            <span class="featured-card__label">نمایاں</span>
-            <span class="badge">{featuredPost.data.category}</span>
-          </div>
-          <h2 class="featured-card__title">{featuredPost.data.title}</h2>
-          <p class="featured-card__excerpt">{featuredPost.data.description}</p>
-          <div class="featured-card__footer">
-            <div class="featured-card__meta">
-              <time datetime={featuredPost.data.date}>
-                {formatUrduDate(featuredPost.data.date)}
-              </time>
-              {featuredPost.data.author && <span> · {featuredPost.data.author}</span>}
-            </div>
-            <span class="featured-card__read">مکمل پڑھیں ←</span>
-          </div>
-        </div>
-        {featuredPost.data.image && (
-          <div class="featured-card__image">
-            <ContentImage
-              src={`${base}${featuredPost.data.image}`}
-              alt=""
-              width="1200"
-              height="630"
-              loading="eager"
-              fetchpriority="high"
-              sizes="(max-width: 800px) calc(100vw - 32px), 640px"
-            />
-          </div>
-        )}
-      </a>
-    </section>
-  )}
-
-  <!-- Top banner ad -->
-  <div class="container ad-slot">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-8532451951782012"
-      data-ad-slot="3562374472"
-      data-ad-format="auto"
-      data-full-width-responsive="true">
-    </ins>
-    <script>window.urduAiPushAds?.();</script>
-  </div>
-
-  <!-- ============================================================
-       RECENT POSTS — Grid
-       ============================================================ -->
-  <section class="container beginner-path" id="start-learning" aria-labelledby="start-learning-title">
-    <h2 id="start-learning-title" class="section-heading">پہلی بار اے آئی سیکھ رہے ہیں؟</h2>
-    <p>ان تین قدموں سے شروع کریں۔ پہلے سمجھیں، پھر اپنے فون پر آزمائیں، اور آخر میں اپنے کام کا ایک پرامٹ چنیں۔</p>
-    <ol class="beginner-path__steps">
-      <li>
-        <h3><a href={`${base}/guides/ai-kya-hai-urdu-ai-master-class-1/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-understand">پہلا قدم: اے آئی کو سمجھیں</a></h3>
-        <p>روزمرہ مثالوں سے جانیں کہ مصنوعی ذہانت کیا ہے اور کہاں مدد دے سکتی ہے۔</p>
-      </li>
-      <li>
-        <h3><a href={`${base}/how-to/how-to-install-original-chatgpt-app/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-setup">دوسرا قدم: چیٹ جی پی ٹی شروع کریں</a></h3>
-        <p>آفیشل ایپ پہچاننے، انسٹال کرنے اور اردو میں پہلا سوال پوچھنے کا طریقہ پڑھیں۔</p>
-      </li>
-      <li>
-        <h3><a href={`${base}/practice/`} data-analytics-event="learning_step_open" data-analytics-location="homepage-practice">تیسرا قدم: اپنے کام کا پرامٹ آزمائیں</a></h3>
-        <p>پڑھائی، تدریس یا کاروبار کے لیے ہدایت چنیں اور اپنے مطابق بدلیں۔ جواب استعمال کرنے سے پہلے اس کی درستگی دیکھیں۔</p>
-      </li>
+  {featuredPost && <section class="lead-band" aria-labelledby="lead-title">
+    <a class="lead wrap" href={`/blog/${featuredPost.id}/`}>
+      {featuredPost.data.image && <ContentImage src={featuredPost.data.image} width="1200" height="630" alt="" loading="eager" fetchpriority="high" sizes="(max-width: 760px) calc(100vw - 36px), 650px" />}
+      <div class="lead-copy"><p class="kicker">نمایاں اے آئی اپڈیٹ</p><h2 id="lead-title">{featuredPost.data.title}</h2><p class="date"><time datetime={featuredPost.data.published_at ?? featuredPost.data.date}>{formatUrduDate(featuredPost.data.date)}</time></p><span class="read-link">مکمل پڑھیں ←</span></div>
+    </a>
+  </section>}
+  <div class="wrap ad-slot" data-ad-placement="homepage-top"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8532451951782012" data-ad-slot="3562374472" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
+  <section class="learning wrap" id="start-learning" aria-labelledby="learning-title">
+    <h2 id="learning-title">پہلی بار اے آئی سیکھ رہے ہیں؟</h2>
+    <ol class="steps">
+      <li><a href="/guides/ai-kya-hai-urdu-ai-master-class-1/"><span class="step-number" aria-hidden="true">01</span><h3>اے آئی کو سمجھیں</h3></a></li>
+      <li><a href="/how-to/how-to-install-original-chatgpt-app/"><span class="step-number" aria-hidden="true">02</span><h3>چیٹ جی پی ٹی شروع کریں</h3></a></li>
+      <li><a href="/practice/"><span class="step-number" aria-hidden="true">03</span><h3>اپنے کام کا پرامٹ آزمائیں</h3></a></li>
     </ol>
   </section>
-
-  <section class="container" style="margin-block-start: var(--space-lg);">
-    <h2 class="section-heading">تازہ ترین خبریں</h2>
-    <div class="post-grid">
-      {morePosts.map(post => (
-        <article class="card">
-          {post.data.image ? (
-            <ContentImage
-              src={`${base}${post.data.image}`}
-              alt={post.data.title}
-              sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 400px"
-              width="400"
-              height="225"
-              loading="lazy"
-              style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
-            />
-          ) : (
-            <div class="card__image-placeholder">
-              <span>Urdu Ai</span>
-            </div>
-          )}
-          <p class="card__meta">
-            <span class="badge">{post.data.category}</span>
-            &nbsp;
-            <time datetime={post.data.date}>
-              {formatUrduDate(post.data.date)}
-            </time>
-          </p>
-          <h3 class="card__title"><a href={`${base}/blog/${post.id}/`}>{post.data.title}</a></h3>
-          <p class="card__excerpt">{post.data.description}</p>
-        </article>
-      ))}
-    </div>
-    <p style="text-align:center; margin-block-start: var(--space-md);">
-      <a href={`${base}/blog/`} style="color:var(--teal); font-weight:600;">تمام مضامین پڑھیں ←</a>
-    </p>
-  </section>
-
-  <!-- ============================================================
-       WHATSAPP + APP STRIP
-       ============================================================ -->
-  <section class="cta-strip">
-    <div class="container">
-      <div class="cta-strip__grid">
-        <!-- WhatsApp -->
-        <a href="https://whatsapp.com/channel/0029VaXXgd00AgW6jAZGw83j" target="_blank" rel="noopener" class="cta-strip__card cta-strip__card--whatsapp">
-          <div class="cta-strip__icon">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="#0e6b5e"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </div>
-          <h3>واٹس ایپ چینل</h3>
-          <p>روزانہ اے آئی اپڈیٹس سیدھے اپنے فون پر</p>
-          <span class="cta-strip__btn">فالو کریں</span>
-        </a>
-        <!-- App -->
-        <a href={`${base}/app/`} class="cta-strip__card cta-strip__card--app">
-          <div class="cta-strip__icon">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="#1d559f"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
-          </div>
-          <h3>مفت ایپ ڈاؤن لوڈ</h3>
-          <p>50,000+ ڈاؤن لوڈز — ہزاروں مضامین ایک ایپ میں</p>
-          <span class="cta-strip__btn">اینڈرائیڈ اور آئی فون</span>
-        </a>
-        <!-- YouTube -->
-        <a href="https://www.youtube.com/@Urduaiorg" target="_blank" rel="noopener" class="cta-strip__card cta-strip__card--youtube">
-          <div class="cta-strip__icon">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="#c0392b"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </div>
-          <h3>یوٹیوب چینل</h3>
-          <p>ویڈیو ٹیوٹوریلز اور اے آئی کلاسز</p>
-          <span class="cta-strip__btn">سبسکرائب کریں</span>
-        </a>
-      </div>
+  <section class="latest wrap" aria-labelledby="latest-title">
+    <div class="section-heading"><h2 id="latest-title">تازہ ترین خبریں</h2><a href="/blog/">تمام مضامین ←</a></div>
+    <div class="stories news-grid">
+      {morePosts.map(post => <article><a href={`/blog/${post.id}/`}>
+        {post.data.image && <ContentImage src={post.data.image} alt="" width="1200" height="630" loading="lazy" sizes="(max-width: 760px) calc(100vw - 36px), 400px" />}
+        <h3>{post.data.title}</h3></a><p class="date"><time datetime={post.data.date}>{formatUrduDate(post.data.date)}</time></p></article>)}
     </div>
   </section>
 
-  <!-- ============================================================
-       APP SHOWCASE
-       ============================================================ -->
-  <section class="app-showcase">
-    <div class="container">
-      <div class="app-showcase__grid">
-        <div class="app-showcase__content">
-          <h2 class="app-showcase__title">اردو اے آئی ایپ</h2>
-          <p class="app-showcase__subtitle">اردو میں اے آئی سیکھنے کی مکمل دنیا — آپ کی جیب میں</p>
-          <ul class="app-showcase__features">
-            <li>ہزاروں مضامین، گائیڈز اور ٹیوٹوریلز</li>
-            <li>مفت ماسٹر کلاس اور کورسز</li>
-            <li>روزانہ تازہ اے آئی اپڈیٹس</li>
-            <li>آف لائن پڑھنے کی سہولت</li>
-          </ul>
-          <div class="app-showcase__stats">
-            <div class="app-showcase__stat">
-              <span dir="ltr">50K+</span>
-              <small>Play Store ڈاؤن لوڈز</small>
-            </div>
-            <div class="app-showcase__stat">
-              <span dir="ltr">4.5+</span>
-              <small>Play Store ریٹنگ</small>
-            </div>
-          </div>
-          <a href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed&hl=en-US" target="_blank" rel="noopener" class="btn-playstore" style="margin-block-start:var(--space-md);">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-inline-end:6px;"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 010 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302L5.864 2.658z"/></svg>
-            اینڈرائیڈ ایپ ڈاؤن لوڈ کریں
-          </a>
-          <a href="https://apps.apple.com/ca/app/urdu-ai/id6809815120" target="_blank" rel="noopener" class="btn-playstore" style="margin-block-start:var(--space-md);">آئی فون — App Store</a>
-        </div>
-        <div class="app-showcase__phones">
-          <ContentImage src={`${base}/images/app/screenshot-home.png`} alt="اردو اے آئی ایپ ہوم" class="app-showcase__phone app-showcase__phone--1" width="220" height="440" loading="lazy" />
-          <ContentImage src={`${base}/images/app/screenshot-courses.png`} alt="اردو اے آئی کورسز" class="app-showcase__phone app-showcase__phone--2" width="220" height="440" loading="lazy" />
-          <ContentImage src={`${base}/images/app/screenshot-videos.png`} alt="اردو اے آئی ویڈیوز" class="app-showcase__phone app-showcase__phone--3" width="220" height="440" loading="lazy" />
-        </div>
-      </div>
-    </div>
+  <section class="video-section" id="videos" aria-labelledby="video-heading"><div class="wrap">
+    <div class="section-heading"><div><h2 id="video-heading">دیکھیں، سمجھیں، پھر آزمائیں</h2><p class="section-intro">ہمارے یوٹیوب چینل کی تازہ ویڈیوز</p></div><a href="https://www.youtube.com/@Urduaiorg/videos" target="_blank" rel="noopener">تمام ویڈیوز ↗</a></div>
+    <div class="video-grid" id="homepage-videos">{videos.slice(0, 3).map(video => <HomeVideoCard video={video} />)}</div>
+    <p class="video-status" id="video-status" role="status" aria-live="polite"></p>
+  </div></section>
+  <section class="practical wrap" aria-labelledby="practical-heading">
+    <div class="guide-list"><h2 id="practical-heading">گائیڈز اور عملی سبق</h2><ol>{learningLinks.map((entry, i) => <li><a href={`${entry.route}/${entry.id}/`}><span class="guide-number latin">{String(i + 1).padStart(2, '0')}</span><h3>{entry.data.title}</h3><span aria-hidden="true">←</span></a></li>)}</ol><a class="text-link" href="/guides/">تمام گائیڈز ←</a></div>
+    <aside class="prompt-panel" aria-labelledby="prompt-heading"><h2 id="prompt-heading">آج کا پرامٹ</h2><div class="prompt-options" role="group" aria-label="اپنا کام منتخب کریں"><button class="selected" data-prompt="student" aria-pressed="true">طالب علم</button><button data-prompt="teacher" aria-pressed="false">استاد</button><button data-prompt="business" aria-pressed="false">کاروبار</button></div><p id="prompt-copy">{promptItems.student.text}</p><button class="button" id="copy-prompt">پرامٹ کاپی کریں</button><p id="copy-status" role="status" aria-live="polite"></p><a id="prompt-more" href="/prompts/students/">مزید پرامٹس ←</a></aside>
   </section>
+  <section class="course-section"><div class="course-inner wrap"><div><p class="course-label">مفت کورس</p><h2>اے آئی ماسٹرکلاس</h2><p>اے آئی بالکل شروع سے سیکھیں۔ ہر سبق کے بعد اپنی سمجھ جانچیں اور اگلا قدم اٹھائیں۔</p><a class="button" href="/courses/masterclass/">کورس شروع کریں ←</a></div><div class="course-details"><div><strong class="latin">{String(lessons.length).padStart(2, "0")}</strong><span>ویڈیو اسباق</span></div><ol><li>مصنوعی ذہانت کی بنیادی سمجھ</li><li>تحریر، تصاویر اور ویڈیوز بنانا</li><li>اے آئی سے ایپس اور ویب سائٹس بنانا</li></ol><a href="/courses/">تمام کورسز دیکھیں ←</a></div></div></section>
+  <div class="wrap ad-slot" data-ad-placement="homepage-middle"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8532451951782012" data-ad-slot="8933556005" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
+  <section class="app-section" id="app" aria-labelledby="app-heading"><div class="app-inner wrap"><div class="app-copy"><h2 id="app-heading">اردو اے آئی،<br>اب آپ کی جیب میں</h2><p>سبق دیکھیں، مشق کریں، سیکھتے رہیں۔</p><p class="app-stat"><strong class="latin" dir="ltr">50K+</strong><span>ایپ ڈاؤن لوڈز</span></p><div class="store-buttons"><a class="button latin" href="https://play.google.com/store/apps/details?id=com.yourname.urduaiwebwrapperfixed" target="_blank" rel="noopener">Android ↗</a><a class="button latin" href="https://apps.apple.com/ca/app/urdu-ai/id6809815120" target="_blank" rel="noopener">iPhone ↗</a></div><a class="app-guide" href="/guides/urdu-ai-app-android-iphone-guide/">ایپ کی گائیڈ پڑھیں ←</a></div><figure class="app-visual"><div class="phone-gallery"><button class="screen-open" data-screen="/images/guides/urdu-ai-app-android-iphone-guide/iphone-home.jpg" data-label="ہوم" aria-label="ہوم اسکرین بڑی کر کے دیکھیں"><ContentImage src="/images/guides/urdu-ai-app-android-iphone-guide/iphone-home.jpg" alt="آئی فون ایپ کی ہوم اسکرین" width="221" height="480" loading="lazy" sizes="(max-width: 760px) 110px, 240px" /></button><button class="screen-open" data-screen="/images/guides/urdu-ai-app-android-iphone-guide/iphone-learn.jpg" data-label="سیکھیں" aria-label="سیکھیں اسکرین بڑی کر کے دیکھیں"><ContentImage src="/images/guides/urdu-ai-app-android-iphone-guide/iphone-learn.jpg" alt="آئی فون ایپ میں کورسز اور سیکھنے کا حصہ" width="221" height="480" loading="lazy" sizes="(max-width: 760px) 110px, 240px" /></button><button class="screen-open" data-screen="/images/guides/urdu-ai-app-android-iphone-guide/iphone-practice.jpg" data-label="پریکٹس لیب" aria-label="پریکٹس لیب بڑی کر کے دیکھیں"><ContentImage src="/images/guides/urdu-ai-app-android-iphone-guide/iphone-practice.jpg" alt="آئی فون ایپ کی پریکٹس لیب" width="221" height="480" loading="lazy" sizes="(max-width: 760px) 110px, 240px" /></button></div><figcaption>آئی فون ایپ کی اصل تصاویر — اینڈرائیڈ کی ترتیب مختلف ہو سکتی ہے۔</figcaption></figure></div></section>
+  <section class="newsletter substack" id="newsletter"><div class="wrap newsletter-inner"><div><h2>اے آئی کی اہم باتیں،<br>ہر ہفتے آپ کے نام</h2><p>قیصر رونجھا کے ساتھ اردو میں سیکھیں۔</p></div><div class="substack-actions"><p class="latin" dir="ltr">Urdu Ai Updates</p><a class="button" id="substack-subscribe" data-analytics-event="newsletter_open" data-analytics-location="homepage" href="https://www.urduaiupdates.com/subscribe" target="_blank" rel="noopener"><bdi class="latin">Substack</bdi> پر سبسکرائب کریں ↗</a><a href="https://www.urduaiupdates.com/" target="_blank" rel="noopener">پچھلے شمارے پڑھیں ←</a></div></div></section>
+  <section class="impact-link wrap" id="community-impact" aria-labelledby="impact-heading"><h2 id="impact-heading">کمیونٹی میں ہمارے کام کے بارے میں جانیئے۔</h2><a class="button latin" href="https://impact.urduai.org/" target="_blank" rel="noopener" dir="ltr">Impact.urduai.org ↗</a></section>
+  <section class="community wrap"><h2>اپنی کمیونٹی کے ساتھ سیکھیں</h2><div><a href="https://whatsapp.com/channel/0029VaXXgd00AgW6jAZGw83j" target="_blank" rel="noopener">واٹس ایپ چینل ↗</a><a href="https://www.youtube.com/@Urduaiorg" target="_blank" rel="noopener">یوٹیوب ↗</a><a href="https://www.instagram.com/urduaiorg/" target="_blank" rel="noopener">انسٹاگرام ↗</a></div></section>
+<dialog id="search-dialog" aria-labelledby="search-title"><button class="close-search icon-button" aria-label="تلاش بند کریں">×</button><h2 id="search-title">آپ کیا سیکھنا چاہتے ہیں؟</h2><form action="/search/" method="get"><label for="search-input">موضوع یا ٹول تلاش کریں</label><div class="search-row"><input type="search" id="search-input" name="q" placeholder="مثلاً چیٹ جی پی ٹی" required><button class="button" type="submit">تلاش کریں</button></div></form></dialog>
+<dialog id="screen-dialog" aria-labelledby="screen-title"><button class="icon-button dialog-close" aria-label="تصویر بند کریں">×</button><h2 id="screen-title"></h2><img id="screen-full" alt=""></dialog>
 
-  <!-- Mid-page ad -->
-  <div class="container ad-slot">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-8532451951782012"
-      data-ad-slot="8933556005"
-      data-ad-format="auto"
-      data-full-width-responsive="true">
-    </ins>
-    <script>window.urduAiPushAds?.();</script>
-  </div>
-
-  <!-- ============================================================
-       MASTERCLASS COURSE BANNER
-       ============================================================ -->
-  <section class="course-banner">
-    <div class="container">
-      <div class="course-banner__inner">
-        <div class="course-banner__content">
-          <span class="badge badge--teal">مفت کورس + سرٹیفکیٹ</span>
-          <h2 class="course-banner__title">اے آئی ماسٹرکلاس</h2>
-          <p class="course-banner__desc">
-            اے آئی بالکل شروع سے سیکھیں — 9 ویڈیو اسباق، ہر سبق کے ساتھ کوئز، اور مکمل ہونے پر مفت سرٹیفکیٹ۔
-            50 ہزار سے زیادہ طلبا نے یہ کورس مکمل کیا ہے۔
-          </p>
-          <div class="course-banner__stats">
-            <div class="course-banner__stat">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"/></svg>
-              <span>9 ویڈیو اسباق</span>
-            </div>
-            <div class="course-banner__stat">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-              <span>کوئز ہر سبق میں</span>
-            </div>
-            <div class="course-banner__stat">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--navy)" style="vertical-align:middle;"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
-              <span>مفت سرٹیفکیٹ</span>
-            </div>
-          </div>
-          <a href={`${base}/courses/masterclass/`} class="course-banner__btn">
-            کورس شروع کریں ←
-          </a>
-        </div>
-        <div class="course-banner__thumbnails">
-          <img src="https://img.youtube.com/vi/98DsXzUk1mY/hqdefault.jpg" alt="سبق 1: AI کیا ہے؟" loading="lazy" width="320" height="180" />
-          <img src="https://img.youtube.com/vi/QOvLxACAclk/hqdefault.jpg" alt="سبق 4: AI سے مواد بنانا" loading="lazy" width="320" height="180" />
-          <img src="https://img.youtube.com/vi/Wb5X_uP1Juk/hqdefault.jpg" alt="سبق 5: AI سے ایپس بنانا" loading="lazy" width="320" height="180" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       GUIDES SECTION
-       ============================================================ -->
-  {recentGuides.length > 0 && (
-    <section class="container" style="margin-block-start: var(--space-2xl);">
-      <h2 class="section-heading">تازہ گائیڈز</h2>
-      <div class="post-grid">
-        {recentGuides.map(guide => (
-          <article class="card">
-            <p class="card__meta">
-              <span class="badge badge--teal">{guide.data.level}</span>
-              {guide.data.tool && <span style="margin-inline-start:0.5em">{guide.data.tool}</span>}
-            </p>
-            <h3 class="card__title"><a href={`${base}/guides/${guide.id}/`}>{guide.data.title}</a></h3>
-            <p class="card__excerpt">{guide.data.description}</p>
-          </article>
-        ))}
-      </div>
-      <p style="text-align:center; margin-block-start: var(--space-md);">
-        <a href={`${base}/guides/`} style="color:var(--teal); font-weight:600;">تمام گائیڈز ←</a>
-      </p>
-    </section>
-  )}
-
-  <!-- ============================================================
-       HOW-TO TUTORIALS SECTION
-       ============================================================ -->
-  {recentHowTo.length > 0 && (
-    <section class="container" style="margin-block-start: var(--space-2xl);">
-      <h2 class="section-heading">تازہ ٹیوٹوریلز</h2>
-      <div class="post-grid">
-        {recentHowTo.map(tutorial => (
-          <article class="card">
-            <p class="card__meta">
-              <span class="badge badge--teal">{tutorial.data.difficulty}</span>
-              {tutorial.data.tool && <span style="margin-inline-start:0.5em">{tutorial.data.tool}</span>}
-            </p>
-            <h3 class="card__title"><a href={`${base}/how-to/${tutorial.id}/`}>{tutorial.data.title}</a></h3>
-            <p class="card__excerpt">{tutorial.data.description}</p>
-            {tutorial.data.time_required && (
-              <p class="card__meta" style="margin-block-start:var(--space-xs);">
-                {tutorial.data.time_required}
-              </p>
-            )}
-          </article>
-        ))}
-      </div>
-      <p style="text-align:center; margin-block-start: var(--space-md);">
-        <a href={`${base}/how-to/`} style="color:var(--teal); font-weight:600;">تمام ٹیوٹوریلز ←</a>
-      </p>
-    </section>
-  )}
-
-  <!-- ============================================================
-       PROMPTS SECTION
-       ============================================================ -->
-  {recentPrompts.length > 0 && (
-    <section class="container" style="margin-block-start: var(--space-2xl);">
-      <h2 class="section-heading">تازہ پرامٹس</h2>
-      <div class="post-grid">
-        {recentPrompts.map(prompt => (
-          <article class="card">
-            {prompt.data.image ? (
-              <ContentImage
-                src={`${base}${prompt.data.image}`}
-                alt={prompt.data.title}
-                sizes="(max-width: 600px) calc(100vw - 32px), (max-width: 1000px) 45vw, 400px"
-                width="400"
-                height="225"
-                loading="lazy"
-                style="border-radius:6px; margin-block-end:var(--space-sm); width:100%; height:auto; object-fit:contain;"
-              />
-            ) : (
-              <div class="card__image-placeholder">
-                <span>Urdu Ai</span>
-              </div>
-            )}
-            <p class="card__meta">
-              <span class="badge badge--gold">{prompt.data.prompt_count} پرامٹس</span>
-              {prompt.data.profession && <span style="margin-inline-start:0.5em">{prompt.data.profession}</span>}
-            </p>
-            <h3 class="card__title"><a href={`${base}/prompts/${prompt.id}/`}>{prompt.data.title}</a></h3>
-            <p class="card__excerpt">{prompt.data.description}</p>
-          </article>
-        ))}
-      </div>
-      <p style="text-align:center; margin-block-start: var(--space-md);">
-        <a href={`${base}/prompts/`} style="color:var(--teal); font-weight:600;">تمام پرامٹس ←</a>
-      </p>
-    </section>
-  )}
-
-  <!-- ============================================================
-       NEWSLETTER + AI VIEWER
-       ============================================================ -->
-  <section style="background:var(--ink); color:var(--paper); padding-block:var(--space-xl); margin-block-start:var(--space-2xl);">
-    <div class="container" style="text-align:center;">
-      <h2 style="color:var(--gold-light); margin-block-end:var(--space-sm);">ہفتہ وار AI نیوز لیٹر سبسکرائب کریں</h2>
-      <p style="color:var(--gold-pale); margin-block-end:var(--space-md); line-height:2.2;">
-        تازہ ترین AI خبریں، گائیڈز اور پرامٹس — ہر ہفتے آپ کے ای میل میں
-      </p>
-      <div style="display:flex; gap:0.8rem; justify-content:center; flex-wrap:wrap;">
-        <a
-          href="https://www.urduaiupdates.com/subscribe"
-          target="_blank"
-          rel="noopener noreferrer"
-          style="display:inline-block; background:var(--gold); color:var(--ink); padding:0.6em 1.6em; border-radius:8px; font-weight:700; text-decoration:none; font-size:1rem;"
-        >نیوز لیٹر سبسکرائب کریں</a>
-        <a
-          href="https://www.aiviewer.ai/"
-          target="_blank"
-          rel="noopener noreferrer"
-          style="display:inline-block; background:transparent; color:var(--gold-light); padding:0.6em 1.6em; border-radius:8px; font-weight:700; text-decoration:none; font-size:1rem; border:1px solid var(--gold-light);"
-        >AI Viewer — انگریزی مواد</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================================
-       START HERE — Learner path
-       ============================================================ -->
-  <section class="container" style="margin-block-start:var(--space-2xl); margin-block-end:var(--space-2xl);">
-    <h2 class="section-heading">اپنی ضرورت کی چیز ڈھونڈیں</h2>
-    <p class="text-muted" style="text-align:center; max-width:52rem; margin:0 auto var(--space-lg);">
-      کسی اصطلاح کا مطلب، کسی ٹول کا طریقہ یا اپنے کام کے لیے پرامٹ چاہیے؟ متعلقہ حصہ کھولیں۔
-    </p>
-    <div class="post-grid">
-      <a href={`${base}/learn/`} class="card card--category" style="text-decoration:none;">
-        <span class="card__icon">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
-            <path d="M12 14h6a2 2 0 012 2v12a1 1 0 01-1-1 2 2 0 012-2h7" stroke="#1d559f" stroke-width="2" stroke-linecap="round"/>
-            <path d="M28 14h-6a2 2 0 00-2 2v12a1 1 0 001-1 2 2 0 012-2h5" stroke="#1d559f" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="20" cy="20" r="2" fill="#f1cc11"/>
-          </svg>
-        </span>
-        <h3 class="card__title" style="margin-block-start:0;">اردو اے آئی لغت</h3>
-        <p class="card__excerpt">AI کیا ہے، ایجنٹ کیا ہوتا ہے، اور پرامپٹ انجینئرنگ کیوں اہم ہے — سب آسان اردو میں</p>
-      </a>
-      <a href={`${base}/how-to/`} class="card card--category" style="text-decoration:none;">
-        <span class="card__icon">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
-            <path d="M13 16h14M13 20h10M13 24h12" stroke="#1d559f" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="28" cy="24" r="4" stroke="#f1cc11" stroke-width="2"/>
-            <path d="M31 27l2 2" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <h3 class="card__title" style="margin-block-start:0;">پہلا ٹول کیسے استعمال کریں؟</h3>
-        <p class="card__excerpt">ChatGPT، Gemini اور دوسرے ٹولز کے لیے قدم بہ قدم ہدایات</p>
-      </a>
-      <a href={`${base}/tools/`} class="card card--category" style="text-decoration:none;">
-        <span class="card__icon">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="10" fill="#1d559f" fill-opacity="0.1"/>
-            <rect x="10" y="10" width="8" height="8" rx="2" stroke="#1d559f" stroke-width="2"/>
-            <rect x="22" y="10" width="8" height="8" rx="2" stroke="#f1cc11" stroke-width="2"/>
-            <rect x="10" y="22" width="8" height="8" rx="2" stroke="#f1cc11" stroke-width="2"/>
-            <rect x="22" y="22" width="8" height="8" rx="2" stroke="#1d559f" stroke-width="2"/>
-          </svg>
-        </span>
-        <h3 class="card__title" style="margin-block-start:0;">پاکستان میں چلنے والے ٹولز</h3>
-        <p class="card__excerpt">اپنے کام کے لیے درست مفت AI ٹول تلاش کریں</p>
-      </a>
-      <a href={`${base}/prompts/`} class="card card--category" style="text-decoration:none;">
-        <span class="card__icon">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="10" fill="#f1cc11" fill-opacity="0.12"/>
-            <path d="M14 28V14l4 3 4-3 4 3 4-3v14l-4-3-4 3-4-3-4 3z" stroke="#1d559f" stroke-width="2" stroke-linejoin="round"/>
-            <path d="M18 20h4M18 23h6" stroke="#f1cc11" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <h3 class="card__title" style="margin-block-start:0;">کاپی پیسٹ پرامٹس</h3>
-        <p class="card__excerpt">تیار اردو پرامٹس جنہیں فوراً ChatGPT، Gemini یا Claude میں آزما سکتے ہیں</p>
-      </a>
-    </div>
-  </section>
+  <script id="homepage-prompts" type="application/json" is:inline set:html={JSON.stringify(promptItems).replace(/</g, '\u003c')} />
+  <script>
+    import '../scripts/homepage.js';
+  </script>
+  <script is:inline>window.urduAiPushAds?.();</script>
 </Base>
-
-<style>
-  .btn-start-learning {
-    display: inline-block;
-    background: var(--gold);
-    color: var(--ink);
-    padding: 0.6em 1.6em;
-    border-radius: 6px;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .btn-start-learning:hover { background: var(--gold-light); }
-  .beginner-path { margin-block: var(--space-lg); scroll-margin-block-start: 100px; }
-  .beginner-path__steps { list-style: none; padding: 0; margin-block-start: var(--space-md); }
-  .beginner-path__steps li { padding-block: var(--space-sm); border-block-end: 1px solid var(--border); }
-  .beginner-path__steps h3 { margin-block: 0; font-size: 1.15rem; }
-  .beginner-path__steps a:hover, .beginner-path__steps a:focus-visible { color: var(--teal); text-decoration: underline; }
-  .beginner-path__steps p { margin-block: 0.4rem; }
-  @media (max-width: 600px) {
-    .btn-start-learning { width: 100%; text-align: center; }
-  }
-</style>

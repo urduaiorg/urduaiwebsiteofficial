@@ -8,6 +8,7 @@ import googleFonts from '../styles/google-fonts.css?raw';
 import consentControls from '../scripts/privacy-consent.js?raw';
 
 export interface Props {
+  bodyClass?: string;
   title: string;
   description: string;
   canonical?: string;
@@ -24,6 +25,7 @@ export interface Props {
 }
 
 const {
+  bodyClass,
   title,
   description,
   canonical,
@@ -309,10 +311,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     )}
   </head>
 
-  <body>
+  <body class={bodyClass}>
     <a href="#main" class="skip-link">مواد پر جائیں</a>
 
     <!-- Site header -->
+    <slot name="header">
     <header class="site-header">
       <div class="container">
         <div class="site-header__inner">
@@ -353,6 +356,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
     </header>
+    </slot>
 
     <script>
       const btn = document.getElementById('nav-hamburger');
@@ -407,6 +411,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <!-- Mixed Urdu/English text is isolated during the static build. -->
 
     <!-- Site footer -->
+    <slot name="footer">
     <footer class="site-footer">
       <div class="container">
         <div class="site-footer__grid">
@@ -462,6 +467,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         </div>
       </div>
     </footer>
+    </slot>
     <div class="urduai-privacy-controls" style="padding:12px;text-align:center;line-height:2.2">
       <button type="button" data-privacy-choices hidden>پرائیویسی اور کوکیز کی ترتیبات</button>
       <span data-privacy-status role="status" aria-live="polite"></span>
