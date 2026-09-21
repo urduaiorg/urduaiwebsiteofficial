@@ -1,0 +1,15 @@
+---
+import { formatUrduDate } from '../utils/homepage-content.mjs';
+const { video } = Astro.props;
+---
+<article class="video-card">
+  <a class="video-open" href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener" data-video={video.id} data-title={video.title}>
+    <span class="video-image">
+      <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} alt="" width="480" height="360" loading="lazy" referrerpolicy="no-referrer" />
+      <span class="play-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z" /></svg></span>
+    </span>
+    <h3 dir="auto">{video.title}</h3>
+  </a>
+  <p class="date"><time datetime={video.publishedAt}>{formatUrduDate(video.publishedAt)}</time></p>
+  <a class="video-external" href={`https://www.youtube.com/watch?v=${video.id}`} target="_blank" rel="noopener">یوٹیوب پر دیکھیں ↗</a>
+</article>

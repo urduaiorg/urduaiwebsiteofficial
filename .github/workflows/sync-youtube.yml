@@ -1,0 +1,41 @@
+name: Refresh homepage YouTube videos
+
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Serialize with full-site deployment so an older build cannot race this file.
+concurrency:
+  group: hostinger-deployment
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate the public channel feed
+        run: python3 scripts/sync-youtube.py
+      - name: Publish only the video feed
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts
+          rsync -az --delay-updates \
+            -e "ssh -i $HOME/.ssh/deploy_key -p $SSH_PORT" \
+            public/data/youtube-videos.json \
+            "$SSH_USERNAME@$SSH_HOST:/home/$SSH_USERNAME/domains/urduai.org/public_html/data/"
+      - name: Remove deployment key
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
