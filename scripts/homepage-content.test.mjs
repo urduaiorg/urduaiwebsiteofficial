@@ -1,6 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { newestPublished, validVideos, YOUTUBE_CHANNEL } from '../src/utils/homepage-content.mjs';
+import { startHomepageAdsAfterModules } from '../src/utils/start-homepage-ads.mjs';
+
+test('homepage initializes ads even when its module executes before the shared ad loader', () => {
+  for (const readyState of ['loading', 'interactive']) {
+    const target = new EventTarget();
+    let requests = 0;
+    startHomepageAdsAfterModules({ readyState }, target);
+    target.urduAiPushAds = () => requests++;
+    assert.equal(requests, 0);
+    target.dispatchEvent(new Event('DOMContentLoaded'));
+    target.dispatchEvent(new Event('DOMContentLoaded'));
+    assert.equal(requests, 1);
+  }
+});
+
+test('a homepage script loaded after DOMContentLoaded starts the ad loader immediately', () => {
+  let requests = 0;
+  startHomepageAdsAfterModules({ readyState: 'complete' }, { urduAiPushAds: () => requests++ });
+  assert.equal(requests, 1);
+});
 
 test('homepage uses exact publication time, excludes drafts and future posts, and ignores updates', () => {
   const entries = [

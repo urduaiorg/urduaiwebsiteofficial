@@ -20,9 +20,11 @@ The page renders saved videos without JavaScript, then fetches current same-orig
 
 ## Validation (21 September 2026)
 
-- 39 Node tests and 2 Python tests passed, including publication ordering and rejection of malformed/wrong-channel feeds.
+- 41 Node tests and 2 Python tests passed, including publication ordering and rejection of malformed/wrong-channel feeds.
 - Production build and consent bundle verification passed; Pagefind indexed 1,070 pages.
 - Browser review at 1,440px and 375px: readable Urdu, no horizontal overflow, working menu, search, prompt switching/copying and screenshot dialog.
 - All 41 homepage internal links resolve in the generated site; 10 local homepage images use Astro WebP output.
 - Direct live feed refresh retrieved 12 uploads. Substack signup and Impact URLs verified.
 - Real-device and throttled 3G performance have not been measured. Scheduled upload, production caching, ads and live assets must be checked after deployment; a local build does not prove deployment.
+
+- Final pre-launch check fixed ad startup ordering: the homepage waits for shared deferred modules before registering slots. Regression tests cover early and late script execution.

@@ -1,4 +1,10 @@
 import { validVideos, formatUrduDate } from '../utils/homepage-content.mjs';
+import { startHomepageAdsAfterModules } from '../utils/start-homepage-ads.mjs';
+
+// Base defines the ad loader in a deferred module. Inline calls can run before
+// it exists, so wait until all initial modules have executed before registering
+// the homepage slots with its visibility/content-load gate.
+startHomepageAdsAfterModules(document, window);
 
 const menu = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#main-nav');
