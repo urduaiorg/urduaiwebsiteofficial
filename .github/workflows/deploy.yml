@@ -26,6 +26,9 @@ jobs:
       - name: Check text formatting, anchors and ad loading
         run: npm test
 
+      - name: Check YouTube endpoint and cache behavior
+        run: php -l public/data/youtube-feed.php && php scripts/youtube-feed.test.php
+
       - name: Build site (clean)
         run: |
           python3 scripts/sync-youtube.py --allow-stale

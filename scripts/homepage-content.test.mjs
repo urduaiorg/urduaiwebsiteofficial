@@ -2,6 +2,29 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { newestPublished, validVideos, YOUTUBE_CHANNEL } from '../src/utils/homepage-content.mjs';
 import { startHomepageAdsAfterModules } from '../src/utils/start-homepage-ads.mjs';
+import { fetchHomepageVideos } from '../src/utils/fetch-homepage-videos.mjs';
+
+test('video refresh prefers the live endpoint and falls back on errors or invalid data', async () => {
+  const good = { channelId: YOUTUBE_CHANNEL, videos: [{ id: 'aaaaaaaaaaa', title: 'Test video', publishedAt: '2020-01-01T00:00:00Z' }] };
+  const calls = [];
+  const success = { ok: true, json: async () => good };
+  assert.equal((await fetchHomepageVideos(async (url, options) => {
+    calls.push(url); assert.equal(options.cache, 'no-store'); return success;
+  }))[0].id, 'aaaaaaaaaaa');
+  assert.deepEqual(calls, ['/data/youtube-feed.php']);
+  for (const failure of [new Error('Offline'), { ok: false }, { ok: true, json: async () => ({ channelId: 'wrong', videos: good.videos }) }, { ok: true, json: async () => { throw new Error('Not JSON'); } }]) {
+    const urls = [];
+    const videos = await fetchHomepageVideos(async url => {
+      urls.push(url);
+      if (urls.length === 2) return success;
+      if (failure instanceof Error) throw failure;
+      return failure;
+    });
+    assert.deepEqual(urls, ['/data/youtube-feed.php', '/data/youtube-videos.json']);
+    assert.equal(videos[0].id, 'aaaaaaaaaaa');
+  }
+  assert.deepEqual(await fetchHomepageVideos(async () => { throw new Error('Offline'); }), []);
+});
 
 test('homepage initializes ads even when its module executes before the shared ad loader', () => {
   for (const readyState of ['loading', 'interactive']) {

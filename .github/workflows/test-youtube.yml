@@ -1,0 +1,16 @@
+name: Test YouTube feed endpoint
+on:
+  pull_request:
+    paths:
+      - 'public/data/youtube-feed.php'
+      - 'scripts/youtube-feed.test.php'
+      - '.github/workflows/test-youtube.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: php -l public/data/youtube-feed.php && php scripts/youtube-feed.test.php

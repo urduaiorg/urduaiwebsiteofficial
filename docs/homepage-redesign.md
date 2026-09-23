@@ -16,7 +16,13 @@ The approved blue/yellow homepage is implemented in Astro with real content coll
 
 The `sync-youtube.yml` workflow runs at minutes 17 and 47 each hour and publishes only this JSON using the existing Hostinger SSH secrets. GitHub may delay scheduled runs. The workflow becomes active after merging to the default branch; first deploy the full site so `/data/` exists. Full deployments refresh the feed too and retain the saved feed if YouTube is unavailable. Both workflows share deployment concurrency to avoid overlapping writes.
 
-The page renders saved videos without JavaScript, then fetches current same-origin JSON near the video section. A failed fetch retains the visible cards. Returning to the page after 30 minutes checks again.
+The GitHub schedule is a backup, not a guaranteed refresh deadline: on 23 September its scheduled runs were hours apart. The primary refresh now uses `/data/youtube-feed.php` on Hostinger. Static Astro pages still render saved cards immediately; near the video section the browser requests this same-origin endpoint. It fetches the fixed, verified YouTube channel when its cache is over five minutes old. YouTube may itself cache or delay its RSS feed, so publication is not instantaneous and no fixed upload-to-homepage deadline is promised.
+
+The endpoint needs PHP with cURL and SimpleXML (tested in CI and on the live host). It stores an atomic cache outside `public_html`, in the domain's `.urduai-youtube-cache` directory. A lock prevents concurrent upstream requests; failed refreshes retain the last good feed and retry after a one-minute cooldown. No API keys, user-supplied upstream URLs, or new hosting service are used. Full-site deployments do not erase this private cache.
+
+The browser rechecks every five minutes while the video section is nearby and the tab is visible, and on returning after that interval. Failed endpoint requests fall back to the scheduled JSON, then to the existing cards. Updates do not replace a keyboard-focused card. The refresh announcement is screen-reader-only; no operational notification appears under the videos.
+
+Run `php -l public/data/youtube-feed.php && php scripts/youtube-feed.test.php` for parser, cache expiry, outage recovery, cooldown, concurrent-request and newer-static-feed checks. `npm test` covers browser endpoint preference and fallback. After deploying, verify the endpoint returns JSON with a new `checkedAt`, compare its first video with the channel feed, and confirm the live homepage card. A successful scheduled job alone is insufficient verification.
 
 ## Validation (21 September 2026)
 

@@ -1,5 +1,6 @@
-import { validVideos, formatUrduDate } from '../utils/homepage-content.mjs';
+import { formatUrduDate } from '../utils/homepage-content.mjs';
 import { startHomepageAdsAfterModules } from '../utils/start-homepage-ads.mjs';
+import { fetchHomepageVideos, VIDEO_REFRESH_INTERVAL } from '../utils/fetch-homepage-videos.mjs';
 
 // Base defines the ad loader in a deferred module. Inline calls can run before
 // it exists, so wait until all initial modules have executed before registering
@@ -69,7 +70,7 @@ document.querySelectorAll('[data-screen]').forEach(button => button.addEventList
   });
 });
 
-// The same-origin JSON is refreshed independently of full-site builds.
+// Hostinger refreshes the feed directly, with scheduled JSON as a fallback.
 const videoList = document.querySelector('#homepage-videos');
 function videoCard(video) {
   const article = document.createElement('article');
@@ -96,13 +97,15 @@ function videoCard(video) {
   article.append(link, date, external);
   return article;
 }
+let refreshPending = false;
+let lastVideoCheck = 0;
+let videosNearby = !('IntersectionObserver' in window);
 async function refreshVideos() {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 5000);
+  if (refreshPending || document.hidden) return;
+  refreshPending = true;
+  lastVideoCheck = Date.now();
   try {
-    const response = await fetch(`/data/youtube-videos.json?v=${Math.floor(Date.now() / 1800000)}`, { signal: controller.signal, cache: 'no-cache' });
-    if (!response.ok) return;
-    const videos = validVideos(await response.json()).slice(0, 3);
+    const videos = await fetchHomepageVideos();
     if (!videos.length || videoList.contains(document.activeElement)) return;
     const current = [...videoList.querySelectorAll('[data-video]')];
     if (videos.every((video, i) => current[i]?.dataset.video === video.id && current[i]?.dataset.title === video.title) && current.length === videos.length) return;
@@ -110,18 +113,19 @@ async function refreshVideos() {
     document.querySelector('#video-status').textContent = 'تازہ ویڈیوز شامل کر دی گئی ہیں۔';
   } catch {
     // Retain the statically rendered feed when offline or temporarily unavailable.
-  } finally { clearTimeout(timeout); }
+  } finally { refreshPending = false; }
 }
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
-    if (entries.some(entry => entry.isIntersecting)) { observer.disconnect(); refreshVideos(); }
+    videosNearby = entries.some(entry => entry.isIntersecting);
+    if (videosNearby && Date.now() - lastVideoCheck >= VIDEO_REFRESH_INTERVAL) refreshVideos();
   }, { rootMargin: '600px' });
   observer.observe(videoList);
 } else { refreshVideos(); }
-// Update an already-open page when the reader returns after a feed cycle.
-let lastVisit = Date.now();
+// Refresh an open section, and check again when the reader returns to the tab.
+setInterval(() => { if (videosNearby) refreshVideos(); }, VIDEO_REFRESH_INTERVAL);
 document.addEventListener('visibilitychange', () => {
-  if (!document.hidden && Date.now() - lastVisit > 1800000) { lastVisit = Date.now(); refreshVideos(); }
+  if (!document.hidden && videosNearby && Date.now() - lastVideoCheck >= VIDEO_REFRESH_INTERVAL) refreshVideos();
 });
 menu.addEventListener('keydown', event => {
   if (event.key === 'Escape') { menu.setAttribute('aria-expanded', 'false'); navigation.classList.remove('open'); }
