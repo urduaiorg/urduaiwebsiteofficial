@@ -47,7 +47,13 @@ const videos = validVideos(videoFeed);
   {featuredPost && <section class="lead-band" aria-labelledby="lead-title">
     <a class="lead wrap" href={`/blog/${featuredPost.id}/`}>
       {featuredPost.data.image && <ContentImage src={featuredPost.data.image} width="1200" height="630" alt="" loading="eager" fetchpriority="high" sizes="(max-width: 760px) calc(100vw - 36px), 650px" />}
-      <div class="lead-copy"><p class="kicker">نمایاں اے آئی اپڈیٹ</p><h2 id="lead-title">{featuredPost.data.title}</h2><p class="date"><time datetime={featuredPost.data.published_at ?? featuredPost.data.date}>{formatUrduDate(featuredPost.data.date)}</time></p><span class="read-link">مکمل پڑھیں ←</span></div>
+      <div class="lead-copy">
+        <p class="kicker">نمایاں اے آئی اپڈیٹ</p>
+        <h2 id="lead-title">{featuredPost.data.title}</h2>
+        {featuredPost.data.description?.trim() && <p class="lead-excerpt">{featuredPost.data.description}</p>}
+        <p class="date"><time datetime={featuredPost.data.published_at ?? featuredPost.data.date}>{formatUrduDate(featuredPost.data.date)}</time></p>
+        <span class="read-link">مکمل پڑھیں ←</span>
+      </div>
     </a>
   </section>}
   <div class="wrap ad-slot" data-ad-placement="homepage-top"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8532451951782012" data-ad-slot="3562374472" data-ad-format="auto" data-full-width-responsive="true"></ins></div>

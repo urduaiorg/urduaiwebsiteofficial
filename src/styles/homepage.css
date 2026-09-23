@@ -302,6 +302,14 @@ body.homepage .lead h2 {
   margin-block: 10px 14px
 }
 
+body.homepage .lead-excerpt {
+  color: #d8e4f2;
+  font-size: 18px;
+  line-height: 2.4;
+  margin-block: 12px 16px;
+  overflow-wrap: anywhere
+}
+
 body.homepage .date {
   font-size: 15px;
   line-height: 2.4
