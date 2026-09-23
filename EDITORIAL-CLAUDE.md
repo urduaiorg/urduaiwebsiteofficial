@@ -476,6 +476,15 @@ chronological order.
 
 ---
 
+## Terminology Notes — 23 September 2026
+
+Use these terms consistently in the new audio and creator-tool coverage:
+
+- **Text-to-speech (TTS):** ٹی ٹی ایس — لکھے ہوئے متن کو آواز میں بدلنا۔
+- **Voice design:** آواز کا ڈیزائن — ہدایات سے نئی آواز کی خصوصیات بنانا؛ کسی حقیقی شخص کی نقل کا دعویٰ نہیں۔
+- **Voice replication:** آواز کی نقل — مجاز نمونے اور آواز کے مالک کی رضامندی سے آواز کی خصوصیات دوبارہ بنانا۔
+- **A/B testing:** اے/بی ٹیسٹنگ — مختلف ورژن کے نتائج کا موازنہ؛ واضح کریں کہ تصویر، عنوان یا خود ویڈیو میں سے کیا آزمایا جا رہا ہے۔
+
 ## Publishing Workflow
 
 1. Write the `.md` file following this guide
