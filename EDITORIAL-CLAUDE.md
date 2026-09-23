@@ -282,6 +282,32 @@ The description adds "ہر گوگل اکاؤنٹ پر ماہانہ 10 مفت و�
 
 ---
 
+## Homepage Featured Excerpt — Required for Future Blog Posts
+
+Added 23 September 2026 at Qaisar's request.
+
+The featured homepage story displays its frontmatter `description` below the
+headline and above the publication date. This is reader-facing editorial copy,
+not just SEO metadata. It updates automatically with the newest published blog
+when the site rebuilds; do not hardcode a separate homepage summary.
+
+- Every new blog post must have a non-empty, natural Urdu description of about
+  120–160 characters, written as 1–2 complete sentences.
+- Explain what the reader will learn or gain, with a specific detail supported
+  by the article. Add context beyond the headline instead of repeating it.
+- Avoid keyword lists, generic introductions, clickbait, unsupported promises,
+  markup, links, and filler added merely to occupy space.
+- Aim for a short 2–3-line excerpt on desktop. Let the full text wrap naturally
+  on mobile; never clip Nastaliq glyphs, cut words, or force a fixed height or
+  line clamp to achieve an exact line count.
+- Before publishing a new blog, check its featured appearance on desktop and at
+  375px: headline, complete excerpt, date, read link and uncropped cover must
+  remain readable and balanced. Correct weak descriptions before release.
+- Keep `published_at` ordering unchanged. Updating a description must never
+  promote an older article by changing its original publication timestamp.
+
+---
+
 ## Content Types and Their Differences
 
 ### Blog Post (اے آئی اپڈیٹ)
