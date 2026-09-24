@@ -31,18 +31,19 @@ const videos = validVideos(videoFeed);
   <HomeHeader slot="header" />
   <HomeFooter slot="footer" />
 
-  <section class="hero wrap">
+  <section class="hero-band" aria-labelledby="hero-title">
+  <div class="hero wrap">
     <div class="hero-copy">
-      <p class="eyebrow">اردو اے آئی</p>
-      <h1>مصنوعی ذہانت کو اردو میں سمجھیں،<br class="desktop-break"> استعمال کریں، اور <span class="highlight">آگے بڑھیں۔</span></h1>
+      <h1 id="hero-title">مصنوعی ذہانت کو اردو میں <span class="highlight">سمجھیں،</span><br class="desktop-break"> <span class="highlight">استعمال کریں،</span> اور <span class="highlight">آگے بڑھیں۔</span></h1>
       <p class="hero-description">۲۵ کروڑ اردو بولنے والوں کے لیے — بالکل مفت۔</p>
-      <div class="hero-actions"><a class="button" href="#start-learning" data-analytics-event="learning_path_open" data-analytics-location="homepage-hero">اے آئی سیکھنا شروع کریں</a><a class="text-link" href="/app/">ایپ ڈاؤن لوڈ کریں <span aria-hidden="true">←</span></a></div>
+      <div class="hero-actions"><a class="button" href="#start-learning" data-analytics-event="learning_path_open" data-analytics-location="homepage-hero">اے آئی سیکھنا شروع کریں</a><div class="hero-app"><a class="button button-outline" href="/app/">ایپ ڈاؤن لوڈ کریں</a><span class="latin" dir="ltr">Android · iPhone</span></div></div>
     </div>
     <dl class="metrics">
       <div><dt>اردو بولنے والے</dt><dd dir="ltr">250M+</dd></div>
       <div><dt>آن لائن کمیونٹی</dt><dd dir="ltr">1M+</dd></div>
       <div><dt>ایپ ڈاؤن لوڈز</dt><dd dir="ltr">50K+</dd></div>
     </dl>
+  </div>
   </section>
   {featuredPost && <section class="lead-band" aria-labelledby="lead-title">
     <a class="lead wrap" href={`/blog/${featuredPost.id}/`}>

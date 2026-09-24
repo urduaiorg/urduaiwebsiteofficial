@@ -8,6 +8,7 @@ body.homepage {
   --paper: #f8f9fc;
   --ink: #102d50;
   --border: #a8bfdb;
+  --hero-background: linear-gradient(110deg, #1763b4 0%, #1257a5 45%, #0b3e80 100%);
   --max: 1240px
 }
 
@@ -90,8 +91,8 @@ body.homepage .skip:focus {
 }
 
 body.homepage .masthead {
-  background: var(--blue);
-  border-block-end: 3px solid var(--yellow);
+  background: var(--hero-background);
+  border-block-end: 1px solid #ffffff40;
   color: white
 }
 
@@ -99,7 +100,7 @@ body.homepage .header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 35px;
+  gap: 24px;
   min-height: 80px
 }
 
@@ -117,7 +118,7 @@ body.homepage .wordmark span {
 body.homepage nav {
   display: flex;
   align-items: center;
-  gap: 30px
+  gap: 24px
 }
 
 body.homepage nav a {
@@ -127,13 +128,13 @@ body.homepage nav a {
 }
 
 body.homepage nav a:hover {
-  color: var(--yellow)
+  color: #fff0a0
 }
 
 body.homepage .utilities {
   display: flex;
   align-items: center;
-  gap: 23px
+  gap: 16px
 }
 
 body.homepage .icon-button {
@@ -156,12 +157,33 @@ body.homepage .menu-toggle {
   display: none
 }
 
+body.homepage .hero-band {
+  background: var(--hero-background);
+  color: white;
+  position: relative;
+  isolation: isolate
+}
+
+body.homepage .hero-band::before {
+  content: '';
+  position: absolute;
+  inset-block: 24px;
+  inset-inline-end: 3%;
+  width: 42%;
+  background-image: radial-gradient(circle, #ffffff 1.4px, transparent 1.8px);
+  background-size: 11px 11px;
+  opacity: .09;
+  mask-image: radial-gradient(ellipse, #000 10%, transparent 70%);
+  pointer-events: none;
+  z-index: -1
+}
+
 body.homepage .hero {
   display: grid;
-  grid-template-columns: minmax(0,1fr) 245px;
-  gap: 50px;
+  grid-template-columns: minmax(0,1.4fr) minmax(0,1fr);
+  gap: 44px;
   align-items: center;
-  padding-block: 32px 40px
+  padding-block: 36px 40px
 }
 
 body.homepage .eyebrow {
@@ -177,21 +199,8 @@ body.homepage h1 {
 }
 
 body.homepage .highlight {
-  position: relative;
-  white-space: nowrap;
-  isolation: isolate
-}
-
-body.homepage .highlight:after {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  inset-block-end: 4px;
-  height: 9px;
-  background: var(--yellow);
-  border-radius: 80% 15% 60% 20%;
-  z-index: -1;
-  transform: rotate(-2deg)
+  color: var(--yellow);
+  white-space: nowrap
 }
 
 body.homepage .hero-description {
@@ -201,8 +210,8 @@ body.homepage .hero-description {
 
 body.homepage .hero-actions {
   display: flex;
-  align-items: center;
-  gap: 35px
+  align-items: flex-start;
+  gap: 18px
 }
 
 body.homepage .button {
@@ -232,23 +241,27 @@ body.homepage .text-link {
 }
 
 body.homepage .metrics {
-  border-inline-start: 1px solid var(--border);
-  padding-inline-start: 42px;
   display: flex;
-  flex-direction: column;
-  gap: 28px;
+  gap: 0;
   text-align: center;
-  color: var(--blue)
+  color: white
+}
+
+body.homepage .metrics>div+div {
+  border-inline-start: 1px solid #ffffff55
 }
 
 body.homepage .metrics>div {
   display: flex;
   flex-direction: column-reverse;
-  gap: 4px
+  justify-content: flex-end;
+  flex: 1;
+  padding-inline: 10px;
+  gap: 10px
 }
 
 body.homepage .metrics dd {
-  font-size: 46px;
+  font-size: clamp(28px, 3vw, 40px);
   line-height: 1.1;
   font-weight: 600
 }
@@ -259,8 +272,9 @@ body.homepage .metrics dt {
 }
 
 body.homepage .lead-band {
-  background: var(--deep);
-  color: white
+  background: #fff;
+  color: var(--ink);
+  border-block-end: 1px solid #e2eaf4
 }
 
 body.homepage .lead {
@@ -282,7 +296,7 @@ body.homepage .lead-copy {
 
 body.homepage .kicker {
   font-size: 18px;
-  color: var(--yellow);
+  color: var(--blue);
   display: flex;
   align-items: center;
   gap: 20px
@@ -292,7 +306,7 @@ body.homepage .kicker:after {
   content: '';
   width: 65px;
   height: 2px;
-  background: var(--yellow)
+  background: var(--border)
 }
 
 body.homepage .lead h2 {
@@ -303,7 +317,7 @@ body.homepage .lead h2 {
 }
 
 body.homepage .lead-excerpt {
-  color: #d8e4f2;
+  color: #506789;
   font-size: 18px;
   line-height: 2.4;
   margin-block: 12px 16px;
@@ -317,7 +331,7 @@ body.homepage .date {
 
 body.homepage .read-link {
   display: block;
-  color: var(--yellow);
+  color: var(--blue);
   margin-block-start: 13px;
   font-size: 20px
 }
@@ -554,16 +568,16 @@ body.homepage .utilities {
 }
 
 body.homepage .hero {
-  grid-template-columns: minmax(0,1fr) 190px;
+  grid-template-columns: minmax(0,1.25fr) minmax(0,1fr);
   gap: 25px
 }
 
 body.homepage .metrics {
-  padding-inline-start: 25px
+  padding-inline-start: 0
 }
 
 body.homepage .metrics dd {
-  font-size: 36px
+  font-size: 28px
 }
 
 body.homepage .hero-actions {
@@ -676,7 +690,7 @@ body.homepage .button {
 body.homepage .metrics {
   flex-direction: row;
   border-inline-start: 0;
-  border-block-start: 1px solid var(--border);
+  border-block-start: 1px solid #ffffff55;
   padding-inline-start: 0;
   padding-block-start: 24px;
   gap: 9px;
@@ -1576,11 +1590,11 @@ body.homepage .impact-link .button {
 
 
 body.homepage h1, body.homepage h2, body.homepage h3 { color: inherit; margin-block-end: 0; }
-body.homepage .hero { background: var(--paper); position: static; text-align: start; overflow: visible; }
+body.homepage .hero { background: transparent; position: static; text-align: start; overflow: visible; }
 body.homepage .hero::before { display: none; }
 body.homepage .hero p { max-width: none; margin-inline: 0; color: inherit; }
-body.homepage .hero h1 { font-size: clamp(33px,3.75vw,52px); line-height: 2; color: var(--ink); }
-body.homepage .hero h1 span { color: inherit; }
+body.homepage .hero h1 { font-size: clamp(32px,3.3vw,46px); line-height: 2.05; color: white; }
+body.homepage .hero h1 .highlight { color: var(--yellow); }
 body.homepage .video-status { font-size: 15px; line-height: 2.2; }
 body.homepage .video-open { display: block; }
 body.homepage .video-image img { object-fit: contain; }
@@ -1592,8 +1606,49 @@ body.homepage dialog { overscroll-behavior: contain; }
 body.homepage:has(dialog[open]) { overflow: hidden; }
 @media(max-width:760px) { body.homepage .hero h1 { font-size: 32px; line-height: 2.05; } }
 
-body.homepage .hero { color: var(--ink); }
+body.homepage .hero { color: white; }
 
 /* Preserve the shared empty-ad collapse and mobile Nastaliq legibility. */
 body.homepage .ad-slot--unfilled { min-height: 0; margin-block: 0; }
 body.homepage .date, body.homepage .metrics dt, body.homepage .section-heading > a, body.homepage .video-external, body.homepage .prompt-panel #copy-status, body.homepage .app-visual figcaption, body.homepage .footer-bottom a, body.homepage .video-status, body.homepage .substack-actions .button { font-size: 17px; line-height: 2.2; }
+
+/* Blue masthead and hero: bright learning action, quiet reading surface. */
+body.homepage .header-search {
+  width: auto;
+  min-width: 135px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid #ffffffaa;
+  border-radius: 30px;
+  padding: 0 14px 5px;
+  font-size: 17px
+}
+body.homepage .header-search svg { flex-shrink: 0; }
+body.homepage .hero-app { display: grid; gap: 8px; text-align: center; }
+body.homepage .hero-app > span { font-size: 14px; line-height: 1.5; color: #e5effb; }
+body.homepage .button-outline { background: transparent; border: 2px solid white; color: white; padding-block: 7px 14px; }
+body.homepage .button-outline:hover { background: #ffffff18; }
+body.homepage .hero-band a:focus-visible,
+body.homepage .masthead a:focus-visible,
+body.homepage .masthead button:focus-visible { outline-color: var(--yellow); }
+body.homepage .lead .date { color: #506789; }
+@media (min-width: 761px) and (max-width: 1150px) {
+  body.homepage .header-search { min-width: 44px; width: 44px; padding: 0; border: 0; justify-content: center; }
+  body.homepage .header-search span { display: none; }
+  body.homepage .hero-actions { flex-wrap: wrap; }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  body.homepage .hero { grid-template-columns: 1fr; gap: 28px; }
+  body.homepage .desktop-break { display: none; }
+  body.homepage .metrics { width: 100%; max-width: 600px; margin-inline: auto; padding-block-start: 24px; border-block-start: 1px solid #ffffff55; }
+  body.homepage .hero-band::before { width: 100%; inset-inline: 0; }
+}
+@media (max-width: 760px) {
+  body.homepage .header-search { width: 42px; min-width: 42px; padding: 0; border: 0; justify-content: center; }
+  body.homepage .header-search span { display: none; }
+  body.homepage .hero-band::before { width: 100%; inset-inline: 0; inset-block-start: 60%; }
+  body.homepage .metrics > div { padding-inline: 4px; }
+  body.homepage .metrics dd { font-size: 27px; }
+  body.homepage .hero-actions { gap: 14px; }
+}
