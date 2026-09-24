@@ -29,6 +29,30 @@ draft: false
 
 میٹا کے مطابق اس میں 5K مائیکرو او ایل ای ڈی ڈسپلے، آنکھوں اور ہاتھوں کے اشاروں سے کنٹرول، اور ہموار سطح کو کی بورڈ اور ٹچ پیڈ کے طور پر استعمال کرنے کی سہولت ہوگی۔ ویڈیو پلے بیک کے لیے بیٹری کا بتایا گیا وقت زیادہ سے زیادہ 3 گھنٹے ہے۔ یہ کمپنی کے اعداد ہیں؛ ہم نے آلہ خود نہیں آزمایا۔ [وی آر چشموں کا اعلان](https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/)
 
+### میٹا کا آفیشل 3D اور وی آر ڈیمو دیکھیں
+
+اس مختصر ویڈیو میں میٹا دکھاتا ہے کہ چشموں کے اندر بڑی سکرین پر فلم، کھیل اور کام کی جگہ کیسی نظر آئے گی۔ فون پر آپ اس تجربے کا تعارف دیکھ رہے ہیں؛ اصل 3D منظر چشمے پہن کر نظر آئے گا۔
+
+<figure style="margin-inline:0;">
+  <video controls playsinline preload="none" width="3840" height="2160" poster="/images/blog/meta-connect-2026-vr-video-poster.jpg" aria-label="میٹا وی آر گلاسز: 3D سنیما، کھیل اور کام کا آفیشل تعارف" style="display:block;width:100%;height:auto;border-radius:12px;background:#08111f;">
+    <source src="https://about.fb.com/wp-content/uploads/2026/09/Introducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-GramsIntroducing-Meta-VR-Glasses_-A-Cinema-Courtside-Seat-and-Workspace-in-Just-100-Grams_header-1.mp4" type="video/mp4" />
+    آپ کے براؤزر میں ویڈیو نہیں چل رہی۔ نیچے دیے گئے لنک سے یوٹیوب پر دیکھیں۔
+  </video>
+  <figcaption>ویڈیو: میٹا، تقریباً ڈیڑھ منٹ۔ <a href="https://www.youtube.com/watch?v=xyD_bmMy5nQ">آفیشل Meta VR چینل پر دیکھیں</a>۔</figcaption>
+</figure>
+
+### وی آر چشموں میں ہولوگرام کال کیسی ہوگی؟
+
+میٹا کے اس دوسرے ڈیمو میں کال پر موجود شخص کی ڈیجیٹل شکل سامنے دکھائی دیتی ہے۔ کمپنی کے مطابق وی آر چشموں میں اس کے ساتھ ایسی آواز بھی ہوگی جو اسی سمت سے آتی محسوس ہو، جہاں وہ شخص نظر آ رہا ہو۔ یہ وی آر گلاسز کا نمونہ ہے؛ رے بین ڈسپلے کی کال کا فرق آگے بیان کیا گیا ہے۔
+
+<figure style="margin-inline:0;">
+  <video controls playsinline preload="none" width="1920" height="1672" poster="/images/blog/meta-connect-2026-hologram-poster.jpg" aria-label="میٹا وی آر گلاسز میں ہولوگرام کال کا آفیشل ڈیمو" style="display:block;width:100%;max-width:560px;height:auto;margin-inline:auto;border-radius:12px;background:#08111f;">
+    <source src="https://about.fb.com/wp-content/uploads/2026/09/06_VRGlasses_inline_hologram.mp4" type="video/mp4" />
+    آپ کے براؤزر میں ویڈیو نہیں چل رہی۔ نیچے دیے گئے لنک سے میٹا کی ویڈیو کھولیں۔
+  </video>
+  <figcaption>ویڈیو: میٹا، تقریباً 24 سیکنڈ۔ <a href="https://about.fb.com/wp-content/uploads/2026/09/06_VRGlasses_inline_hologram.mp4">ڈیمو الگ کھولیں</a> یا <a href="https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/">میٹا کی مکمل وضاحت پڑھیں</a>۔</figcaption>
+</figure>
+
 ## میوز چشموں میں آ کر کیا کرے گا؟
 
 **میوز (Muse) صرف جواب دینے کے بجائے اجازت ملنے پر کام بھی انجام دیتا ہے۔** اسے اے آئی ایجنٹ کہتے ہیں۔ پہلے سے متعارف اس سروس کی بنیاد [میوز کی اردو وضاحت](/blog/meta-muse-personal-ai-agent-how-to-use-urdu/) میں پڑھ سکتے ہیں۔
