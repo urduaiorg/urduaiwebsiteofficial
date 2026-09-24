@@ -485,6 +485,12 @@ Use these terms consistently in the new audio and creator-tool coverage:
 - **Voice replication:** آواز کی نقل — مجاز نمونے اور آواز کے مالک کی رضامندی سے آواز کی خصوصیات دوبارہ بنانا۔
 - **A/B testing:** اے/بی ٹیسٹنگ — مختلف ورژن کے نتائج کا موازنہ؛ واضح کریں کہ تصویر، عنوان یا خود ویڈیو میں سے کیا آزمایا جا رہا ہے۔
 
+### Wearable technology terms
+
+- **Virtual reality (VR):** ورچوئل ریئلٹی / وی آر — آنکھوں کے سامنے کمپیوٹر سے بنا منظر؛ اسے عام کیمرے یا آڈیو والے سمارٹ چشموں سے الگ واضح کریں۔
+- **Hologram calling:** ہولوگرام کال — کال میں کسی شخص کی ڈیجیٹل شکل؛ جب تاثرات آواز سے اخذ ہوں تو اسے حقیقی چہرے کی لائیو ویڈیو نہ کہیں۔
+- Product previews must state whether a sale date and price exist. Keep a separate computing unit's weight distinct from the weight worn on the face.
+
 ## Publishing Workflow
 
 1. Write the `.md` file following this guide
