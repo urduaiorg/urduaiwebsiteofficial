@@ -6,7 +6,7 @@ date: 2026-09-23
 published_at: "2026-09-24T00:30:06Z"
 category: "اے آئی اپڈیٹ"
 tags: [Meta Connect 2026, Mark Zuckerberg, Meta VR Glasses, Muse, Muse Charm, Ray-Ban Meta]
-image: "/images/blog/meta-connect-2026-vr-glasses-muse-charm-urdu.png"
+image: "/images/blog/meta-connect-2026-vr-glasses-muse-charm-urdu-v2.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
