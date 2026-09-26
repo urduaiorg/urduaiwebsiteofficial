@@ -1,0 +1,2134 @@
+{
+  "generated_at": "2026-09-19T06:14:43.903Z",
+  "resources": [
+    {
+      "id": "guides/ai-avatar-urdu-ai-master-class-7",
+      "type": "guides",
+      "title": "اے آئی اوتار  اردو اے آئی ماسٹر کلاس #7",
+      "description": "اے آئی اوتار اردو اے آئی ماسٹر کلاس #7  ہیلو دوستوں! آج میں آپ کو ایک ایسے سفر پر لے جانے والا ہوں جو آپ کے خیالات کو ہلا کر رکھ دے گا!  کیا آپ نے کبھی ایسا روب",
+      "url": "https://urduai.org/guides/ai-avatar-urdu-ai-master-class-7/",
+      "language": "ur",
+      "published_at": "2025-03-15T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "AI Avatar"
+      ]
+    },
+    {
+      "id": "guides/ai-content-creation-urdu-ai-master-class-4",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس ٤ مصنوعی ذہانت اور مواد تخلیق کرنے کے جدید طریقے",
+      "description": "اردو اے آئی ماسٹر کلاس ٤ مصنوعی ذہانت اور مواد تخلیق کرنے کے جدید طریقے   السلام علیکم دوستو! میرا نام قیصر رونجہ ہے۔ اور میں اردو اے آئی کی طرف سے عام فہم الفا",
+      "url": "https://urduai.org/guides/ai-content-creation-urdu-ai-master-class-4/",
+      "language": "ur",
+      "published_at": "2025-03-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "guides/ai-for-voice-music-rhyme-generation-urdu-ai-master-class-8",
+      "type": "guides",
+      "title": "مصنوعی ذہانت کے ذریعے آواز، موسیقی اور نظم تخلیق اردو اے آئی ماسٹر کلاس نمبر 8",
+      "description": "مصنوعی ذہانت کے ذریعے آواز، موسیقی اور نظم تخلیق اردو اے آئی ماسٹر کلاس نمبر 8  ہیلو دوستو! میں ہوں اردو اے آئی سے قیصر رونجہ، اور آج میں آپ کو ایک ایسے سفر پر",
+      "url": "https://urduai.org/guides/ai-for-voice-music-rhyme-generation-urdu-ai-master-class-8/",
+      "language": "ur",
+      "published_at": "2025-03-25T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ElevenLabs"
+      ]
+    },
+    {
+      "id": "guides/ai-image-expression-prompts-urdu-guide",
+      "type": "guides",
+      "title": "اے آئی امیج پرامپٹس میں چہرے کے تاثرات — 2026 کا مکمل اردو گائیڈ",
+      "description": "اے آئی سے حقیقت پسند اور کہانی والی تصویریں بنانے کے لیے چہرے کے تاثرات، اے یو کوڈز، ڈیمو پرامپٹس، reference image workflow اور پاکستانی scenes کا مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/ai-image-expression-prompts-urdu-guide/",
+      "language": "ur",
+      "published_at": "2026-06-14T17:00:00.000Z",
+      "updated_at": "2026-06-14T17:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT / Gemini / Midjourney",
+        "ChatGPT",
+        "Gemini",
+        "Midjourney"
+      ]
+    },
+    {
+      "id": "guides/ai-image-generation-guide-urdu",
+      "type": "guides",
+      "title": "اردو اے آئی امیج جنریشن — کیمرا، اسٹائل اور پرامپٹس گائیڈ",
+      "description": "اے آئی سے تصاویر بنانے کی 31 صفحات کی مفت اردو گائیڈ؛ کیمرا اینگل، آرٹ اسٹائل، اصناف، تاثرات، پرامپٹ لکھنے اور بنیادی ٹولز کی آسان وضاحت۔",
+      "url": "https://urduai.org/guides/ai-image-generation-guide-urdu/",
+      "language": "ur",
+      "published_at": "2025-08-25T00:00:00.000Z",
+      "updated_at": "2026-07-28T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "AI Image Generation",
+        "Gemini",
+        "Canva"
+      ]
+    },
+    {
+      "id": "guides/ai-kya-hai-urdu-ai-master-class-1",
+      "type": "guides",
+      "title": "اے آئی کیا ہے؟ اردو مطلب، آسان مثالیں اور پہلی مشق",
+      "description": "اے آئی یعنی مصنوعی ذہانت کا مطلب، پورا نام اور روزمرہ مثالیں سمجھیں۔ آسان اردو پرامپٹ سے پہلی مشق کریں اور جواب جانچنے کا طریقہ سیکھیں۔",
+      "url": "https://urduai.org/guides/ai-kya-hai-urdu-ai-master-class-1/",
+      "language": "ur",
+      "published_at": "2025-02-14T00:00:00.000Z",
+      "updated_at": "2026-09-08T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "Google AI Studio"
+      ]
+    },
+    {
+      "id": "guides/ai-tools-for-freelancers-pakistan",
+      "type": "guides",
+      "title": "پاکستانی فری لانسرز کے لیے بہترین اے آئی ٹولز",
+      "description": "پاکستانی فری لانسرز کے لیے بہترین اے آئی ٹولز کون سے ہیں؟ اس گائیڈ میں ChatGPT، Canva AI، Grammarly، Midjourney basics اور وقت بچانے والے workflow کی وضاحت ہے۔",
+      "url": "https://urduai.org/guides/ai-tools-for-freelancers-pakistan/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Multiple"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-for-business-urdu",
+      "type": "guides",
+      "title": "کاروبار کے لیے ChatGPT — اردو گائیڈ",
+      "description": "کاروبار کے لیے ChatGPT کیسے استعمال کریں؟ اس اردو گائیڈ میں ای میلز، پروپوزلز، مارکیٹ ریسرچ، کسٹمر سپورٹ اور سوشل میڈیا مواد کے لیے عملی طریقے بیان کیے گئے ہیں۔",
+      "url": "https://urduai.org/guides/chatgpt-for-business-urdu/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "درمیانہ",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-build-shareable-site-urdu",
+      "type": "guides",
+      "title": "ChatGPT سے Website کیسے بنائیں اور Share کریں؟",
+      "description": "ChatGPT Sites میں بغیر coding اپنی website بنانے، preview بدلنے، access طے کرنے اور اسے محفوظ طریقے سے share کرنے کی مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/chatgpt-work-build-shareable-site-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-computer-browser-urdu",
+      "type": "guides",
+      "title": "ChatGPT کو کمپیوٹر اور Browser پر کام کیسے دیں؟",
+      "description": "ChatGPT Work کو desktop apps، built-in Browser یا Chrome پر محفوظ طریقے سے کام دینے کا فرق، مرحلہ وار طریقہ، مثالیں اور تیار اردو پرامپٹس۔",
+      "url": "https://urduai.org/guides/chatgpt-work-computer-browser-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-getting-started-urdu",
+      "type": "guides",
+      "title": "ChatGPT Work کیا ہے؟ Chat اور Work کا درست استعمال",
+      "description": "ChatGPT Work کئی apps، فائلوں اور مراحل پر مشتمل کام مکمل نتیجے تک پہنچاتا ہے۔ آسان اردو میں فرق، استعمال، حدود اور پہلا عملی پرامپٹ۔",
+      "url": "https://urduai.org/guides/chatgpt-work-getting-started-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work",
+        "ChatGPT Work",
+        "ChatGPT",
+        "AI Productivity"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-mobile-voice-urdu",
+      "type": "guides",
+      "title": "موبائل اور آواز سے ChatGPT Work کیسے چلائیں؟",
+      "description": "ChatGPT موبائل app، Remote اور Voice سے task شروع، progress review اور computer پر جاری کام کو محفوظ طریقے سے manage کرنے کی آسان اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/chatgpt-work-mobile-voice-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-notes-to-report-slides-urdu",
+      "type": "guides",
+      "title": "بکھرے نوٹس سے رپورٹ اور پریزنٹیشن: ChatGPT کا عملی طریقہ",
+      "description": "میٹنگ نوٹس، ٹرانسکرپٹ یا فائل کو ChatGPT سے قابلِ تدوین رپورٹ اور مختصر پریزنٹیشن میں بدلنے کا مرحلہ وار طریقہ اور تیار اردو پرامپٹس۔",
+      "url": "https://urduai.org/guides/chatgpt-work-notes-to-report-slides-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-02T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work",
+        "ChatGPT Work",
+        "Google Docs",
+        "Google Slides",
+        "AI Presentations"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-plugins-skills-urdu",
+      "type": "guides",
+      "title": "ChatGPT کو Gmail، Calendar اور دوسری apps سے کیسے جوڑیں؟",
+      "description": "ChatGPT Plugins اور Skills کے ذریعے Gmail، Google Calendar اور دوسری apps سے معلومات لے کر قابلِ جائزہ کام کیسے مکمل کرتا ہے؟ مرحلہ وار گائیڈ۔",
+      "url": "https://urduai.org/guides/chatgpt-work-plugins-skills-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work",
+        "ChatGPT Plugins",
+        "ChatGPT Skills",
+        "Gmail",
+        "Google Calendar"
+      ]
+    },
+    {
+      "id": "guides/chatgpt-work-scheduled-tasks-urdu",
+      "type": "guides",
+      "title": "ChatGPT Scheduled Tasks: روزانہ کے کام خودکار بنائیں",
+      "description": "ChatGPT Scheduled Tasks سے meeting brief، inbox review اور ہفتہ وار update مقررہ وقت پر کیسے چلائیں؟ عملی prompts، review اور روکنے کا طریقہ۔",
+      "url": "https://urduai.org/guides/chatgpt-work-scheduled-tasks-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-03T00:00:00.000Z",
+      "updated_at": "2026-09-03T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT Work",
+        "ChatGPT Scheduled Tasks",
+        "AI Automation",
+        "ChatGPT Work"
+      ]
+    },
+    {
+      "id": "guides/codex-key-features-simplified",
+      "type": "guides",
+      "title": "کوڈیکس کے اہم فیچرز — اسکلز، پلگ اِنز، سیاق و سباق اور باقی سب آسان اردو میں",
+      "description": "کوڈیکس کے اہم فیچرز کیا ہیں؟ اسکلز، پلگ اِنز، سیاق و سباق، ورک اسپیس، تھریڈز، پرامپٹس اور approvals کو عام لوگوں کے لیے سادہ اردو میں سمجھیں۔",
+      "url": "https://urduai.org/guides/codex-key-features-simplified/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/codex-kya-hai",
+      "type": "guides",
+      "title": "کوڈیکس کیا ہے؟ — بغیر روایتی coding کے عملی کام شروع کریں",
+      "description": "کوڈیکس کیا ہے، یہ چیٹ جی پی ٹی سے کیسے مختلف ہے، اور عام لوگ اس سے دستاویزات، ویب پیجز اور ایپس کیسے بنا سکتے ہیں؟ مکمل آسان اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/codex-kya-hai/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "ChatGPT",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/codex-master-class-roadmap",
+      "type": "guides",
+      "title": "کوڈیکس ماسٹر کلاس روڈ میپ — ابتدائی صارفین کے لیے مکمل learning path",
+      "description": "کوڈیکس سیکھنے کے لیے مکمل ابتدائی روڈ میپ: پہلے کیا پڑھنا ہے، پھر کیا بنانا ہے، اور کس ترتیب سے دستاویزات، صفحات، ایپس، گٹ ہب اور کلاوڈ فلیئر تک جانا ہے۔",
+      "url": "https://urduai.org/guides/codex-master-class-roadmap/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex",
+        "GitHub",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "guides/codex-prompt-library-for-beginners",
+      "type": "guides",
+      "title": "کوڈیکس پرامپٹ لائبریری — ابتدائی صارفین کے لیے تیار اردو پرامپٹس",
+      "description": "کوڈیکس کے لیے تیار پرامپٹس: دستاویزات، سلائیڈز، ویب صفحات، ایپس، debugging، گٹ ہب اور کلاوڈ فلیئر کے لیے آسان Urdu prompt library۔",
+      "url": "https://urduai.org/guides/codex-prompt-library-for-beginners/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex",
+        "GitHub",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "guides/codex-prompting-for-beginners",
+      "type": "guides",
+      "title": "کوڈیکس کو صحیح پرامپٹ کیسے دیں؟ — ابتدائی صارفین کے لیے آسان اردو گائیڈ",
+      "description": "کوڈیکس سے بہتر result لینے کے لیے prompt کیسے لکھیں؟ واضح instructions، context، output اور عام غلطیوں کو عام Urdu learners کے لیے step-by-step سمجھیں۔",
+      "url": "https://urduai.org/guides/codex-prompting-for-beginners/",
+      "language": "ur",
+      "published_at": "2026-06-15T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/codex-se-cloudflare-par-live-website",
+      "type": "guides",
+      "title": "کوڈیکس سے website کو کلاوڈ فلیئر پر live کیسے کریں؟ — ابتدائی صارفین کے لیے آسان Urdu guide",
+      "description": "کوڈیکس سے بنے project کو گٹ ہب سے کلاوڈ فلیئر پیجز پر live کیسے کیا جائے؟ build command، output folder اور public URL کو step-by-step سمجھیں۔",
+      "url": "https://urduai.org/guides/codex-se-cloudflare-par-live-website/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Cloudflare",
+        "Codex",
+        "GitHub",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "guides/codex-se-documents-aur-slides",
+      "type": "guides",
+      "title": "کوڈیکس سے دستاویزات اور سلائیڈز کیسے بنائیں؟ — ابتدائی صارفین کے لیے آسان عملی گائیڈ",
+      "description": "کوڈیکس سے رپورٹ، خاکہ، ہینڈ آؤٹ، پروپوزل اور سلائیڈز کیسے بنائی جائیں؟ عام اردو صارفین کے لیے آسان مرحلہ وار گائیڈ۔",
+      "url": "https://urduai.org/guides/codex-se-documents-aur-slides/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/codex-se-github-par-project-upload",
+      "type": "guides",
+      "title": "کوڈیکس سے project گٹ ہب پر کیسے upload کریں؟ — ابتدائی صارفین کے لیے آسان گائیڈ",
+      "description": "کوڈیکس سے بنائی گئی files یا web page کو گٹ ہب پر کیسے محفوظ کریں؟ repository، commit، push اور share link کو beginners کے لیے سادہ Urdu میں سمجھیں۔",
+      "url": "https://urduai.org/guides/codex-se-github-par-project-upload/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "GitHub",
+        "Codex",
+        "GitHub"
+      ]
+    },
+    {
+      "id": "guides/codex-se-pehla-web-page-kaise-banayein",
+      "type": "guides",
+      "title": "کوڈیکس سے اپنا پہلا web page کیسے بنائیں؟ — ابتدائی صارفین کے لیے step-by-step guide",
+      "description": "کوڈیکس سے پہلی website یا simple landing page کیسے بنائیں؟ ابتدائی صارفین کے لیے آسان Urdu guide — structure، prompt، preview اور common mistakes کے ساتھ۔",
+      "url": "https://urduai.org/guides/codex-se-pehla-web-page-kaise-banayein/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/codex-se-portfolio-aur-client-work",
+      "type": "guides",
+      "title": "کوڈیکس سے portfolio اور client work کیسے بنائیں؟ — ابتدائی صارفین کے لیے practical earning guide",
+      "description": "کوڈیکس سے بنے pages، apps اور documents کو portfolio، freelancing اور client work میں کیسے تبدیل کریں؟ non-technical Urdu learners کے لیے آسان practical guide۔",
+      "url": "https://urduai.org/guides/codex-se-portfolio-aur-client-work/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex",
+        "GitHub",
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "guides/codex-se-simple-app-kaise-banayein",
+      "type": "guides",
+      "title": "کوڈیکس سے simple app کیسے بنائیں؟ — ابتدائی صارفین کے لیے پہلی practical app guide",
+      "description": "کوڈیکس سے پہلی simple app کیسے بنائی جائے؟ app idea، features، first version، preview اور improvement workflow کو آسان Urdu میں سمجھیں۔",
+      "url": "https://urduai.org/guides/codex-se-simple-app-kaise-banayein/",
+      "language": "ur",
+      "published_at": "2026-06-16T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Codex",
+        "Codex"
+      ]
+    },
+    {
+      "id": "guides/darwaza-app-urdu-guide",
+      "type": "guides",
+      "title": "دروازہ ایپ — مکمل اردو گائیڈ | QR کوڈ سمارٹ ڈور بیل",
+      "description": "دروازہ ایپ ایک مفت اینڈرائیڈ ایپ ہے جو QR کوڈ سے سمارٹ ڈور بیل بناتی ہے — 8 موڈ، مکمل اردو، 60 سیکنڈ سیٹ اپ، کوئی ہارڈویئر نہیں۔ Urdu Ai کی ٹیکنالوجی سے تیار۔",
+      "url": "https://urduai.org/guides/darwaza-app-urdu-guide/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Darwaza"
+      ]
+    },
+    {
+      "id": "guides/english-with-ai-urdu",
+      "type": "guides",
+      "title": "اے آئی سے انگریزی بولنے کی مشق: پرامپٹس اور روزانہ منصوبہ",
+      "description": "ایک موبائل اور روزانہ بیس منٹ سے اے آئی کو اپنا انگریزی ٹیچر بنائیں۔ ماسٹر پرامپٹ، ۲۳ تیار پرامپٹ کارڈ، ساٹھ دن کا منصوبہ اور مفت پی ڈی ایف — سب اردو میں۔",
+      "url": "https://urduai.org/guides/english-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-06-11T00:00:00.000Z",
+      "updated_at": "2026-09-08T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Gemini",
+        "Gemini",
+        "ChatGPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/free-ai-course-urdu",
+      "type": "guides",
+      "title": "AI course in Urdu free: مفت کورس کہاں سے شروع کریں",
+      "description": "AI course in Urdu free کے لیے پہلے AI basics، پھر ChatGPT یا Gemini prompt، 9 lesson Urdu AI Masterclass، quizzes اور certificate کا راستہ دیکھیں۔",
+      "url": "https://urduai.org/guides/free-ai-course-urdu/",
+      "language": "ur",
+      "published_at": "2026-06-26T00:00:00.000Z",
+      "updated_at": "2026-06-27T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "Google AI Studio"
+      ]
+    },
+    {
+      "id": "guides/gemini-for-students-urdu",
+      "type": "guides",
+      "title": "طالب علموں کے لیے Gemini AI گائیڈ — اردو study workflow",
+      "description": "طالب علموں کے لیے Gemini AI: homework سمجھنے، essay outline، exam revision، notes summary، research ideas اور honest study workflow کی اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/gemini-for-students-urdu/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": "2026-06-27T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Gemini",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "guides/google-nano-banana-100-prompts-urdu",
+      "type": "guides",
+      "title": "گوگل نینو بنانا کے 100 پرامپٹس — تصویر سازی کی اردو گائیڈ",
+      "description": "گوگل نینو بنانا کے 100 عملی پرامپٹس کی 169 صفحات کی مفت اردو PDF، جس میں تصویر سازی، ایڈٹنگ، کردار، برانڈ ڈیزائن اور تخلیقی مثالیں شامل ہیں۔",
+      "url": "https://urduai.org/guides/google-nano-banana-100-prompts-urdu/",
+      "language": "ur",
+      "published_at": "2026-01-04T00:00:00.000Z",
+      "updated_at": "2026-07-28T00:00:00.000Z",
+      "last_verified": null,
+      "level": "درمیانہ",
+      "topics": [
+        "Google Gemini",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "guides/how-farmers-use-ai-real-examples-prompts",
+      "type": "guides",
+      "title": "کسان اے آئی کیسے استعمال کر رہے ہیں؟ مثالیں اور تیار پرامپٹس",
+      "description": "فصل، موسم، کھاد، بیماری اور منڈی کے فیصلوں میں اے آئی کا محفوظ استعمال سیکھیے—عالمی مثالوں، پاکستانی تناظر اور تیار اردو پرامپٹس کے ساتھ۔",
+      "url": "https://urduai.org/guides/how-farmers-use-ai-real-examples-prompts/",
+      "language": "ur",
+      "published_at": "2026-08-15T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT، Gemini اور Meta AI",
+        "ChatGPT",
+        "Gemini",
+        "Meta AI"
+      ]
+    },
+    {
+      "id": "guides/how-to-write-with-ai-urdu-ai-master-class-6",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس 6 : مصنوعی ذہانت کے ذریعے تحریر کیسے شاندار بنائیں",
+      "description": "اردو اے آئی ماسٹر کلاس 6: مصنوعی ذہانت کے ذریعے تحریر کیسے شاندار بنائیں؟  کیا آپ بھی اے آئی کے ذریعے تحریر لکھنا چاہتے ہیں؟  السلام علیکم دوستو! میں ہوں قیصررو",
+      "url": "https://urduai.org/guides/how-to-write-with-ai-urdu-ai-master-class-6/",
+      "language": "ur",
+      "published_at": "2025-03-13T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "guides/journalists-work-with-ai-urdu",
+      "type": "guides",
+      "title": "صحافیوں اور میڈیا ورکرز کے لیے اے آئی کی مکمل اردو گائیڈ",
+      "description": "صحافیوں، رپورٹرز، ایڈیٹرز اور میڈیا ورکرز کے لیے خبر، انٹرویو، ویڈیو، فیکٹ چیک اور تصحیح کے ۲۴ محفوظ اے آئی پرامپٹس اور مفت پی ڈی ایف۔",
+      "url": "https://urduai.org/guides/journalists-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-23T00:00:00.000Z",
+      "updated_at": "2026-07-23T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/lawyers-law-office-work-with-ai-urdu",
+      "type": "guides",
+      "title": "وکلا کے لیے اے آئی — مسودہ نویسی، تحقیق اور محفوظ قانونی کام",
+      "description": "وکلا اور قانونی دفاتر کے لیے خالی قانونی سانچے، عوامی تحقیق اور فرضی مشق کے ۲۴ اے آئی پرامپٹس، رازداری کے اصول اور مفت اردو پی ڈی ایف۔",
+      "url": "https://urduai.org/guides/lawyers-law-office-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-20T00:00:00.000Z",
+      "updated_at": "2026-07-20T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini"
+      ]
+    },
+    {
+      "id": "guides/learn-any-language-with-ai-urdu",
+      "type": "guides",
+      "title": "اے آئی سے کوئی بھی زبان سیکھیں: روزانہ 15 منٹ کی گائیڈ",
+      "description": "اے آئی سے نئی زبان سیکھنے کا روزانہ 15 منٹ کا عملی طریقہ: سطح کا امتحان، آواز میں گفتگو، الفاظ، تلفظ، غلطیوں کی اصلاح اور تیار اردو پرامٹس۔",
+      "url": "https://urduai.org/guides/learn-any-language-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-08-30T00:00:00.000Z",
+      "updated_at": "2026-08-30T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT، Gemini، Claude",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس5 اے آئی کوڈنگ کے ذریعے ایپس، گیمز اور ویب سائٹس بنائیں",
+      "description": "اردو اے آئی ماسٹر کلاس 5  اے آئی کوڈنگ کے ذریعے ایپس، گیمز اور ویب سائٹس بنائیں   اے آئی کوڈنگ کا نیا دور  السلام علیکم دوستو! میں ہوں قیصر رُونجہ اور آپ دیکھ ر",
+      "url": "https://urduai.org/guides/make-apps-games-and-web-with-ai-coding-urdu-ai-master-class-5/",
+      "language": "ur",
+      "published_at": "2025-03-07T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "AI Coding"
+      ]
+    },
+    {
+      "id": "guides/meta-muse-hands-on-video-carousel-documents-urdu",
+      "type": "guides",
+      "title": "میٹا کا میوز ایجنٹ کیا کچھ کرسکتا ہے؟",
+      "description": "میٹا میوز سے ویڈیو، اردو کیروسل، فوٹو ایڈیٹنگ اور دستاویز بنانا سیکھیں۔ سات عملی اسکرین شاٹس، واٹس ایپ، مفت حد، پلانز اور تیار پرامپٹس کے ساتھ۔",
+      "url": "https://urduai.org/guides/meta-muse-hands-on-video-carousel-documents-urdu/",
+      "language": "ur",
+      "published_at": "2026-09-13T00:00:00.000Z",
+      "updated_at": "2026-09-13T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Meta Muse"
+      ]
+    },
+    {
+      "id": "guides/ngo-welfare-work-with-ai-urdu",
+      "type": "guides",
+      "title": "این جی اوز اور فلاحی اداروں کے لیے اے آئی کی مکمل اردو گائیڈ",
+      "description": "این جی اوز، سی بی اوز اور فلاحی تنظیموں کے لیے پروپوزل، ڈونر رپورٹ، ایم اینڈ ای، ترجمے اور کمیونیکیشن کے ۲۴ محفوظ اے آئی پرامپٹس اور مفت پی ڈی ایف۔",
+      "url": "https://urduai.org/guides/ngo-welfare-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-24T00:00:00.000Z",
+      "updated_at": "2026-07-24T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/office-work-with-ai-urdu",
+      "type": "guides",
+      "title": "اے آئی کے ساتھ دفتری کام — خط، ای میل اور رپورٹ کی مکمل اردو گائیڈ",
+      "description": "دفتری ملازمین کے لیے ChatGPT اور Gemini سے خط، ای میل، میٹنگ منٹس، خلاصہ اور رپورٹ بنانے کے ۲۴ تیار پرامپٹس، حفاظتی اصول اور مفت PDF۔",
+      "url": "https://urduai.org/guides/office-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-15T00:00:00.000Z",
+      "updated_at": "2026-07-15T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/online-earning-with-ai-eight-realistic-ways",
+      "type": "guides",
+      "title": "اے آئی کے دور میں اپنی مہارت سے آن لائن کمائی کے 8 حقیقی طریقے",
+      "description": "فری لانس سروس، کوچنگ، ڈیجیٹل پراڈکٹ، کمیونٹی اور سافٹ ویئر سمیت اپنی مہارت سے آن لائن کمائی کے آٹھ حقیقت پسندانہ راستے اور عملی آغاز۔",
+      "url": "https://urduai.org/guides/online-earning-with-ai-eight-realistic-ways/",
+      "language": "ur",
+      "published_at": "2026-08-13T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT، Gemini اور Claude",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/police-security-work-with-ai-urdu",
+      "type": "guides",
+      "title": "پولیس کے لیے اے آئی — تفتیش، رپورٹ اور دفتر کی اردو گائیڈ",
+      "description": "پولیس اور سیکیورٹی عملے کے لیے چیٹ جی پی ٹی اور جیمینائی سے خالی نوٹس، رپورٹ اور چالان کے سانچوں کے ۲۴ پرامپٹس، حفاظتی اصول اور مفت پی ڈی ایف۔",
+      "url": "https://urduai.org/guides/police-security-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-19T00:00:00.000Z",
+      "updated_at": "2026-07-19T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/school-posters-ai-chatgpt-gemini-urdu-guide",
+      "type": "guides",
+      "title": "اسکول کے پوسٹر اے آئی سے کیسے بنائیں؟ مکمل اردو گائیڈ",
+      "description": "اساتذہ جیمینائی یا چیٹ جی پی ٹی سے داخلہ، کامیابی اور ویلکم بیک پوسٹر کیسے بنائیں؟ تصویر، لوگو، درست متن اور مکمل پرامپٹس کی آسان گائیڈ۔",
+      "url": "https://urduai.org/guides/school-posters-ai-chatgpt-gemini-urdu-guide/",
+      "language": "ur",
+      "published_at": "2026-08-11T00:00:00.000Z",
+      "updated_at": "2026-08-11T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Gemini اور ChatGPT",
+        "Gemini",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "guides/schools-madaris-work-with-ai-urdu",
+      "type": "guides",
+      "title": "اساتذہ کے لیے اے آئی — اسکول اور مدارس کی مکمل اردو گائیڈ",
+      "description": "اساتذہ، اسکول انتظامیہ اور مدارس کے عملے کے لیے سبق، ورک شیٹ، والدین کے نوٹس اور دفتری سانچوں کے ۲۴ محفوظ پرامپٹس اور مفت پی ڈی ایف۔",
+      "url": "https://urduai.org/guides/schools-madaris-work-with-ai-urdu/",
+      "language": "ur",
+      "published_at": "2026-07-22T00:00:00.000Z",
+      "updated_at": "2026-07-22T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور Gemini",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "guides/small-businesses-using-ai-examples",
+      "type": "guides",
+      "title": "چھوٹے کاروبار کیسے اے آئی استعمال کر رہے ہیں؟ حقیقی مثالیں اور عملی طریقے",
+      "description": "دنیا کے چھوٹے کاروبار AI سے مارکیٹنگ، کسٹمر سروس، ریکارڈ، تحقیق اور ویب سائٹ کا کام کیسے کر رہے ہیں؟ حقیقی مثالوں سے اپنا پہلا workflow بنائیں۔",
+      "url": "https://urduai.org/guides/small-businesses-using-ai-examples/",
+      "language": "ur",
+      "published_at": "2026-08-03T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "ChatGPT اور دیگر AI tools"
+      ]
+    },
+    {
+      "id": "guides/urdu-ai-master-class-2",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس ٢",
+      "description": "اردو اے آئی ماسٹر کلاس ٢  السلام علیکم دوستو! میرا نام قیصر رونجہ ہے۔ اور میں اردو اے آئی کی طرف سے عام فہم الفاظ میں مصنوعی ذہانت (آرٹیفیشل انٹیلیجنس) کو لوگوں",
+      "url": "https://urduai.org/guides/urdu-ai-master-class-2/",
+      "language": "ur",
+      "published_at": "2025-02-15T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "guides/urdu-ai-master-class-3",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس ٣",
+      "description": "اردو اے آئی ماسٹر کلاس ٣    السلام علیکم دوستو! یہ  اردو  اے آئی  ماسٹر کلاس٣ سیریز کی تیسری ویڈیو ہے۔ اس سے پہلے کی دو ویڈیوز میں ہم نے بنیادی طور پر یہ سمجھنے",
+      "url": "https://urduai.org/guides/urdu-ai-master-class-3/",
+      "language": "ur",
+      "published_at": "2025-03-02T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "guides/urdu-ai-master-class-9-make-your-own-website",
+      "type": "guides",
+      "title": "اردو اےآئی ماسٹر کلاس9 اپنی ویب سائٹ بنائیں",
+      "description": "اردو اےآئی ماسٹر کلاس 9 اپنی ویب سائٹ بنائیں  السلام علیکم دوستو! میں ہوں قیصر رونجھا، اور آج آپ کے ساتھ ماسٹر کلاس سیریز کی نویں کلاس میں موجود ہوں۔ سب سے پہلے",
+      "url": "https://urduai.org/guides/urdu-ai-master-class-9-make-your-own-website/",
+      "language": "ur",
+      "published_at": "2025-04-09T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "AI Website Builder"
+      ]
+    },
+    {
+      "id": "guides/urdu-ai-master-class-register-now",
+      "type": "guides",
+      "title": "اردو اے آئی ماسٹر کلاس  ابھی رجسٹر کریں",
+      "description": "اردو اے آئی ماسٹر کلاس ابھی رجسٹر کریں    اگر 15 سال پہلے میرے پاس اے آئی ہوتی تو... اکثر دوست مجھ سے سوال پوچھتے ہیں کہ قیصر، تم اے آئی کو لے کر اتنے پُرجوش کی",
+      "url": "https://urduai.org/guides/urdu-ai-master-class-register-now/",
+      "language": "ur",
+      "published_at": "2025-02-13T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "guides/vibe-coding-authentication-login-system",
+      "type": "guides",
+      "title": "لاگ ان سسٹم کیسے بنائیں؟ — Authentication آسان اردو میں",
+      "description": "وائب کوڈنگ سے لاگ ان سسٹم کیسے بنائیں؟ گوگل لاگ ان، ای میل پاس ورڈ، OAuth کیا ہے؟ Firebase Authentication کا مکمل تعارف — اردو میں۔",
+      "url": "https://urduai.org/guides/vibe-coding-authentication-login-system/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-backend-kya-hai",
+      "type": "guides",
+      "title": "بیک اینڈ کیا ہے؟ — ڈیٹا، لاگ ان اور سرور کو آسان الفاظ میں سمجھیں",
+      "description": "بیک اینڈ کیا ہوتا ہے؟ ڈیٹابیس، سرور اور API کا آسان تعارف۔ Firebase اور Supabase کیا ہیں؟ وائب کوڈنگ سے بیک اینڈ کیسے بنائیں — مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-backend-kya-hai/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-debugging-testing",
+      "type": "guides",
+      "title": "ڈیبگنگ — ایپ میں غلطیاں کیسے ڈھونڈیں اور ٹھیک کریں؟",
+      "description": "وائب کوڈنگ میں ایرر آئے تو کیا کریں؟ کنسول کیسے پڑھیں، عام غلطیاں اور ان کا حل، AI سے ڈیبگنگ — مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-debugging-testing/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-firebase-supabase-deep-dive",
+      "type": "guides",
+      "title": "Firebase اور Supabase — وائب کوڈنگ کا مکمل بیک اینڈ گائیڈ",
+      "description": "Firebase اور Supabase کا تفصیلی موازنہ۔ ڈیٹابیس بنانا، ڈیٹا محفوظ کرنا، ریئل ٹائم اپڈیٹس، مفت پلان کی حدود — وائب کوڈنگ بیک اینڈ کی مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-firebase-supabase-deep-dive/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Firebase"
+      ]
+    },
+    {
+      "id": "guides/vibe-coding-free-hosting-app-launch",
+      "type": "guides",
+      "title": "مفت ہوسٹنگ — بغیر ڈومین خریدے اپنی ایپ لائیو کریں",
+      "description": "اپنی ویب سائٹ یا ایپ مفت میں لائیو کریں۔ GitHub Pages، Cloudflare Pages، Vercel، Netlify اور Google Antigravity — بغیر ڈومین خریدے مفت ہوسٹنگ کا مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-free-hosting-app-launch/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-freelancing-paise-kamayen",
+      "type": "guides",
+      "title": "فری لانسنگ — وائب کوڈنگ سے ڈالرز کیسے کمائیں؟",
+      "description": "وائب کوڈنگ سے فری لانسنگ کیسے شروع کریں؟ Fiverr، Upwork پر پروفائل بنانا، پہلا آرڈر لینا، پورٹ فولیو بنانا اور پاکستان سے ادائیگی لینا — مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-freelancing-paise-kamayen/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-frontend-kya-hai",
+      "type": "guides",
+      "title": "فرنٹ اینڈ کیا ہے؟ — وائب کوڈنگ سے اپنا پہلا ویب پیج بنائیں",
+      "description": "فرنٹ اینڈ کیا ہوتا ہے؟ HTML، CSS اور JavaScript کا آسان تعارف۔ وائب کوڈنگ سے اپنا پہلا ویب پیج بنانا سیکھیں — مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-frontend-kya-hai/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-github-version-control",
+      "type": "guides",
+      "title": "GitHub کیا ہے؟ — اپنا کوڈ محفوظ اور شیئر کریں",
+      "description": "GitHub کیا ہے اور وائب کوڈنگ میں کیوں ضروری ہے؟ Repository، Branch، Commit اور Deploy — سب آسان اردو میں۔ مفت اکاؤنٹ بنائیں اور اپنا پہلا پروجیکٹ اپ لوڈ کریں۔",
+      "url": "https://urduai.org/guides/vibe-coding-github-version-control/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "guides/vibe-coding-kya-hai",
+      "type": "guides",
+      "title": "Vibe coding کیا ہے؟ AI سے app، website اور code بنائیں",
+      "description": "Vibe coding اردو guide: AI سے app، website، tool یا code بنوانے کا طریقہ، prompts، testing، hosting، mistakes اور beginners کے لیے safe workflow۔",
+      "url": "https://urduai.org/guides/vibe-coding-kya-hai/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": "2026-06-27T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-mukammal-project",
+      "type": "guides",
+      "title": "مکمل پروجیکٹ — شروع سے آخر تک SaaS ایپ بنائیں",
+      "description": "وائب کوڈنگ سے مکمل SaaS ایپ بنائیں — فرنٹ اینڈ، بیک اینڈ، لاگ ان، ڈیٹابیس، ادائیگی اور ہوسٹنگ۔ ایک بکنگ ایپ شروع سے آخر تک — مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-mukammal-project/",
+      "language": "ur",
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "درمیانہ",
+      "topics": [
+        "Google AI Studio"
+      ]
+    },
+    {
+      "id": "guides/vibe-coding-prompt-engineering",
+      "type": "guides",
+      "title": "پرامٹ انجینئرنگ — AI سے بہتر کوڈ کیسے لکھوائیں؟",
+      "description": "وائب کوڈنگ میں AI کو صحیح ہدایت کیسے دیں؟ پرامٹ لکھنے کے اصول، غلطیاں، اور عملی مثالیں — تاکہ AI پہلی بار میں صحیح نتیجہ دے۔ مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-prompt-engineering/",
+      "language": "ur",
+      "published_at": "2026-04-19T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-saas-paise-kaise-kamayen",
+      "type": "guides",
+      "title": "SaaS کیا ہے؟ — اپنی ایپ سے پیسے کیسے کمائیں",
+      "description": "SaaS (سافٹ ویئر بطور سروس) کیا ہے؟ سبسکرپشن ماڈل، فری میم، قیمت کا تعین، LemonSqueezy، EasyPaisa اور JazzCash API سے ادائیگی — وائب کوڈنگ سے کمائی کی مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-saas-paise-kaise-kamayen/",
+      "language": "ur",
+      "published_at": "2026-04-29T00:00:00.000Z",
+      "updated_at": "2026-04-29T00:00:00.000Z",
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-tools-ka-mukammal-jaiza",
+      "type": "guides",
+      "title": "وائب کوڈنگ ٹولز کا مکمل جائزہ — کون سا ٹول کس کام کے لیے؟",
+      "description": "وائب کوڈنگ کے لیے بہترین AI ٹولز کا مکمل جائزہ۔ Claude Code، Cursor، Replit، Lovable، Bolt، Google AI Studio اور دیگر ٹولز کا موازنہ — اردو میں۔",
+      "url": "https://urduai.org/guides/vibe-coding-tools-ka-mukammal-jaiza/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/vibe-coding-website-to-mobile-app",
+      "type": "guides",
+      "title": "ویب سائٹ کو موبائل ایپ میں کیسے بدلیں؟ — PWA، Capacitor اور Wrapper ایپس",
+      "description": "اپنی ویب سائٹ کو موبائل ایپ میں بدلنے کے تمام طریقے۔ PWA، Capacitor، Wrapper ایپ اور Play Store پر پبلش کرنا — وائب کوڈنگ سیریز کی مکمل اردو گائیڈ۔",
+      "url": "https://urduai.org/guides/vibe-coding-website-to-mobile-app/",
+      "language": "ur",
+      "published_at": "2026-04-10T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": []
+    },
+    {
+      "id": "guides/welcome-to-urdu-ai-free-master-class",
+      "type": "guides",
+      "title": "اردو اے آئی فری ماسٹر کلاس میں خوش آمدید!",
+      "description": "اردو اے آئی فری ماسٹر کلاس میں خوش آمدید!   السلام علیکم دوستوں! میرا نام قیصر رونجہ ہے اور میں اردو اے آئی کی طرف سے آپ کو خوش آمدید کہتا ہوں۔ اگر یہ ویڈیو آپ",
+      "url": "https://urduai.org/guides/welcome-to-urdu-ai-free-master-class/",
+      "language": "ur",
+      "published_at": "2025-02-13T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": "ابتدائی",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "how-to/create-claude-projects",
+      "type": "how-to",
+      "title": "کلاڈ پروجیکٹس کیسے بنائیں؟ فائلوں کے ساتھ اردو گائیڈ",
+      "description": "کلاڈ پروجیکٹس بنانے، مستقل ہدایات شامل کرنے اور PDF یا دوسری فائلیں ایک بار دے کر ہر متعلقہ چیٹ میں استعمال کرنے کا آسان طریقہ۔",
+      "url": "https://urduai.org/how-to/create-claude-projects/",
+      "language": "ur",
+      "published_at": "2026-08-20T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-08-20T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Claude",
+        "Claude"
+      ]
+    },
+    {
+      "id": "how-to/do-you-know-how-to-get-the-best-results-from-chat-gpt-by-personalizing-it",
+      "type": "how-to",
+      "title": "کیا آپ جانتے ہیں؟ چیٹ جی پی ٹی کو ذاتی بنا کر اے آئی سے بہترین نتائج کیسے لیں!",
+      "description": "اے آئی کی طاقت سے چیٹ جی پی ٹی کو ذاتی بنائیں\n\n\n​اے آئی ٹیکنالوجی نے ہماری دنیا کو بدل دیا ہے۔ اور اب یہ آپ کے چیٹ جی پی ٹی کے تجربے کو بھی ذاتی نوعیت دے س",
+      "url": "https://urduai.org/how-to/do-you-know-how-to-get-the-best-results-from-chat-gpt-by-personalizing-it/",
+      "language": "ur",
+      "published_at": "2025-07-17T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-07-17T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/google-geminis-new-scheduled-actions-feature-how-to-use-and-what-are-the-benefits",
+      "type": "how-to",
+      "title": "گوگل جیمینائی کی نئی شیڈولڈ ایکشنز خصوصیت: کیسے استعمال کریں اور کیا فائدہ اٹھائیں؟",
+      "description": "گوگل جیمینائی کی نئی شیڈولڈ ایکشنزخصوصیت: کیسے استعمال کریں اور کیا فائدہ اٹھائیں؟  مصنوعی ذہانت کے میدان میں گوگل کی پیش رفت کا ایک اور قدم، جیمینائی کی نئی خص",
+      "url": "https://urduai.org/how-to/google-geminis-new-scheduled-actions-feature-how-to-use-and-what-are-the-benefits/",
+      "language": "ur",
+      "published_at": "2025-07-09T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-07-09T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "id": "how-to/how-to-build-web-apps-with-ai-free",
+      "type": "how-to",
+      "title": "AI سے free web app کیسے بنائیں؟ اردو coding guide",
+      "description": "AI سے free web app بنانے کا Urdu guide: beginner prompt، Gemini/AI coding، HTML file، mobile preview، publish options اور no-code limits آسان steps میں۔",
+      "url": "https://urduai.org/how-to/how-to-build-web-apps-with-ai-free/",
+      "language": "ur",
+      "published_at": "2025-04-27T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-06-27T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "AI Coding"
+      ]
+    },
+    {
+      "id": "how-to/how-to-buy-chatgpt-plus",
+      "type": "how-to",
+      "title": "چٹ جی پی ٹی پلس خریدنے کا طریقہ",
+      "description": "چٹ جی پی ٹی پلس خریدنے کا طریقہ   مکمل گائیڈ: چٹ جی پی ٹی پلس خریدنے کا طریقہ  آپ میں سے بہت سارے دوست پوچھتے ہیں۔ کہ ہم چٹ جی پی ٹی کا پلس یا پیڈ ورژن کیسے خ",
+      "url": "https://urduai.org/how-to/how-to-buy-chatgpt-plus/",
+      "language": "ur",
+      "published_at": "2025-01-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-01-04T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-buy-gemini-advance-for-free",
+      "type": "how-to",
+      "title": "گوگل Gemini Advanced مفت میں کیسے استعمال کریں؟",
+      "description": "گوگل Gemini Advanced مفت میں کیسے استعمال کریں؟ دنیا بھر میں مصنوعی ذہانت کے بڑھتے ہوئے رجحان کے ساتھ ہی مختلف کمپنیوں نے اپنے AI ٹولز متعارف کروائے ہیں۔ گوگل",
+      "url": "https://urduai.org/how-to/how-to-buy-gemini-advance-for-free/",
+      "language": "ur",
+      "published_at": "2025-04-19T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-04-19T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "id": "how-to/how-to-create-a-free-website-with-the-help-of-ai-part-2",
+      "type": "how-to",
+      "title": "AI سے free website کیسے بنائیں؟ Blogger Urdu guide",
+      "description": "AI سے free website بنانے کا آسان طریقہ: Blogger theme، HTML prompt، pages، images، errors، hosting limits اور next steps اردو میں۔",
+      "url": "https://urduai.org/how-to/how-to-create-a-free-website-with-the-help-of-ai-part-2/",
+      "language": "ur",
+      "published_at": "2025-10-27T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-06-27T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Blogger + AI"
+      ]
+    },
+    {
+      "id": "how-to/how-to-create-presentations-and-ebooks-with-kemi-ai-and-zai",
+      "type": "how-to",
+      "title": "کیمی اے آئی اور زیڈ اے آئی کے ذریعے کیسے پریزنٹیشنز اور ای بکس بنائیں؟",
+      "description": "کیمی اے آئی اور زیڈ اے آئی کے ذریعے کیسے پریزنٹیشنز اور ای بکس بنائیں؟  کیا آپ کبھی پریزنٹیشن بنانے یا ای بکس لکھنے میں وقت ضائع کر بیٹھے ہیں؟ اب یہ مسئلہ ختم ہ",
+      "url": "https://urduai.org/how-to/how-to-create-presentations-and-ebooks-with-kemi-ai-and-zai/",
+      "language": "ur",
+      "published_at": "2025-09-08T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-09-08T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Kimi AI"
+      ]
+    },
+    {
+      "id": "how-to/how-to-create-the-perfect-prompt-for-every-project-the-power-of-chatgpt-cloud-and-gemini",
+      "type": "how-to",
+      "title": "ہر منصوبہ کے لیے بہترین پرامپٹ کیسے بنائیں: چیٹ جی پی ٹی، کلاڈ اور جیمنی کا کمال",
+      "description": "اے آئی کے دور میں بہترین پرامپٹ کیسے بنائیں: چیٹ جی پی ٹی، کلاڈ اور جیمنی کا کمال  آج کے دور میں جہاں مصنوعی ذہانت ہماری روزمرہ کی زندگی کا حصہ بن چکی ہے۔ وہاں",
+      "url": "https://urduai.org/how-to/how-to-create-the-perfect-prompt-for-every-project-the-power-of-chatgpt-cloud-and-gemini/",
+      "language": "ur",
+      "published_at": "2025-07-28T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-07-28T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-create-your-own-custom-gems-now-the-choice-is-in-your-hands",
+      "type": "how-to",
+      "title": "Google Gemini Gems کیسے بنائیں؟ فائلوں، demos اور کام کی عملی اردو گائیڈ",
+      "description": "Google Gemini Gems سے اپنا مستقل AI assistant بنائیں: instructions، Knowledge files، practical demos، testing، sharing اور ضروری احتیاطیں آسان اردو میں۔",
+      "url": "https://urduai.org/how-to/how-to-create-your-own-custom-gems-now-the-choice-is-in-your-hands/",
+      "language": "ur",
+      "published_at": "2025-04-07T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-07-25T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Google Gemini",
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "id": "how-to/how-to-create-your-own-gym-in-google-gemini-and-share-it-with-others",
+      "type": "how-to",
+      "title": "گوگل جیمینی میں اپنا جیم کیسے بنائیں اور دوسروں کے ساتھ کیسے شیئر کریں؟",
+      "description": "گوگل جیمینی میں اپنا جیم کیسے بنائیں اور دوسروں سے شیئر کریں؟  اگر آپ چاہتے ہیں کہ روزمرہ کے دہرائے جانے والے کام خودکار ہو جائیں اور بار بار ایک ہی پرامپٹ دینے",
+      "url": "https://urduai.org/how-to/how-to-create-your-own-gym-in-google-gemini-and-share-it-with-others/",
+      "language": "ur",
+      "published_at": "2025-09-23T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-09-23T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "id": "how-to/how-to-find-a-niche-for-a-website-complete-guide-for-new-users",
+      "type": "how-to",
+      "title": "ویب سائٹ کے لیے نِچ کیسے تلاش کریں؟ مکمل رہنمائی نئے صارفین کے لیے __ پاٹ 3",
+      "description": "ویب سائٹ کے لیے نِچ کیسے تلاش کریں؟ مکمل رہنمائی نئے صارفین کے لیے   یہ تحریر اردو اے آئی کی مکمل رہنمائی ویڈیو سیریز کا تیسرا حصہ ہے۔ اس سے پہلے آپ ڈومین خریدن",
+      "url": "https://urduai.org/how-to/how-to-find-a-niche-for-a-website-complete-guide-for-new-users/",
+      "language": "ur",
+      "published_at": "2025-11-14T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-11-14T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Website Strategy"
+      ]
+    },
+    {
+      "id": "how-to/how-to-install-original-chatgpt-app",
+      "type": "how-to",
+      "title": "ChatGPT ایپ ڈاؤن لوڈ کریں: اردو میں آسان طریقہ",
+      "description": "چیٹ جی پی ٹی کی آفیشل ایپ کہاں سے ڈاؤن لوڈ کریں؟ پلے اسٹور پر OpenAI کا نام پہچانیں، درست لنک کھولیں اور اردو میں اپنا پہلا سوال لکھیں۔",
+      "url": "https://urduai.org/how-to/how-to-install-original-chatgpt-app/",
+      "language": "ur",
+      "published_at": "2025-01-03T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-09-08T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-maintain-consistent-cartoon-characters-with-ai",
+      "type": "how-to",
+      "title": "اے آئی کے ذریعے مستقل مزاج کارٹون کردار کیسے برقرار رکھیں",
+      "description": "اے آئی کے ذریعے مستقل مزاج کارٹون کردار کیسے برقرار رکھیں؟  دوستوں! السلام علیکم! میں ہوں قیصر رونجہ، اور آج میں آپ کو اردو اے آئی کے ذریعے مستقل مزاج کارٹون کر",
+      "url": "https://urduai.org/how-to/how-to-maintain-consistent-cartoon-characters-with-ai/",
+      "language": "ur",
+      "published_at": "2025-03-17T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-03-17T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "AI Image Generator"
+      ]
+    },
+    {
+      "id": "how-to/how-to-maintain-trust-in-artificial-intelligence",
+      "type": "how-to",
+      "title": "مصنوعی ذہانت پر اعتماد کیسے قائم رکھا جائے؟ کلاؤڈ کا اشتہارات سے انکار",
+      "description": "مصنوعی ذہانت پر اعتماد کیسے قائم رکھا جائے؟ کلاؤڈ کا اشتہارات سے انکار مصنوعی ذہانت کے استعمال کے ساتھ ایک سوال بار بار سامنے آتا ہے کہ کیا یہ ٹیکنالوجی واقعی ص",
+      "url": "https://urduai.org/how-to/how-to-maintain-trust-in-artificial-intelligence/",
+      "language": "ur",
+      "published_at": "2026-02-12T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-02-12T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Claude"
+      ]
+    },
+    {
+      "id": "how-to/how-to-make-business-plan-with-ai",
+      "type": "how-to",
+      "title": "مصنوعی ذہانت کی مدد سے کاروباری منصوبے کیسے بنایا جائے؟",
+      "description": "مصنوعی ذہانت کی مدد سے کاروباری منصوبے کیسے بنایا جائے؟  کیا آپ اپنا کاروبار شروع کرنا چاہتے ہیں لیکن سمجھ نہیں آ رہا کہ کہاں سے شروعات کریں؟ اسلام علیکم! میں ہ",
+      "url": "https://urduai.org/how-to/how-to-make-business-plan-with-ai/",
+      "language": "ur",
+      "published_at": "2025-04-12T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-04-12T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-make-chatgpt-your-personal-assistant",
+      "type": "how-to",
+      "title": "چيٹ جی پی ٹی کو اپنا پرسنل اسسٹنٹ کیسے بنائیں؟",
+      "description": "چيٹ جی پی ٹی کو اپنا پرسنل اسسٹنٹ کیسے بنائیں؟  کیا آپ نے کبھی سوچا ہے کہ ایک اے آئی  چیٹ بوٹ کو اپنی پیداواری صلاحیت کو بڑھانے کا ذریعہ بنایا جا سکتا ہے؟ چيٹ ج",
+      "url": "https://urduai.org/how-to/how-to-make-chatgpt-your-personal-assistant/",
+      "language": "ur",
+      "published_at": "2025-08-29T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-08-29T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT",
+        "ChatGPT",
+        "Gemini",
+        "Claude"
+      ]
+    },
+    {
+      "id": "how-to/how-to-make-images-creative-with-artificial-intelligence-without-copying-social-media-prompts",
+      "type": "how-to",
+      "title": "سوشل میڈیا پرامپٹس کاپی کیے بغیر مصنوعی ذہانت سے تصاویر کیسے تخلیق کریں؟",
+      "description": "سوشل میڈیا پرامپٹس کاپی کیے بغیر مصنوعی ذہانت سے تصاویر کیسے تخلیق کریں ؟  اکثر لوگ سوشل میڈیا پرامپٹس کاپی کر کے تصاویر بناتے ہیں مگر نتیجہ عام سا لگتا ہے۔ مسئ",
+      "url": "https://urduai.org/how-to/how-to-make-images-creative-with-artificial-intelligence-without-copying-social-media-prompts/",
+      "language": "ur",
+      "published_at": "2025-09-18T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-09-18T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "AI Image Generator"
+      ]
+    },
+    {
+      "id": "how-to/how-to-prepare-children-for-the-world-of-ai-according-to-openais-chief-economist",
+      "type": "how-to",
+      "title": "اوپن اے آئی کے چیف اکانومسٹ کے مطابق بچوں کو اے آئی کی دنیا کے لیے کیسے تیار کیا جائے؟",
+      "description": "اوپن اے آئی کے چیف اکانومسٹ کے مطابق بچوں کو اے آئی کی دنیا کے لیے کیسے تیار کیا جائے؟  مستقبل میں مصنوعی ذہانت یعنی اے آئی کی دنیا میں کامیابی کے لیے اوپن ا",
+      "url": "https://urduai.org/how-to/how-to-prepare-children-for-the-world-of-ai-according-to-openais-chief-economist/",
+      "language": "ur",
+      "published_at": "2025-07-23T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-07-23T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "how-to/how-to-use-ai-for-presentations",
+      "type": "how-to",
+      "title": "صرف چند منٹ میں زبردست پریزنٹیشن کیسے بنائیں؟",
+      "description": "صرف چند منٹ میں زبردست پریزنٹیشن کیسے بنائیں؟ کیا آپ طالب علم ہیں، کسی کمپنی میں کام کرتے ہیں یا کسی این جی او کا حصہ ہیں جہاں وقتاً فوقتاً پریزنٹیشنز تیار کرن",
+      "url": "https://urduai.org/how-to/how-to-use-ai-for-presentations/",
+      "language": "ur",
+      "published_at": "2025-04-20T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-04-20T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Gamma"
+      ]
+    },
+    {
+      "id": "how-to/how-to-use-claude-for-writing",
+      "type": "how-to",
+      "title": "کلاڈ اے آئی کیا ہے؟ اردو تحریر اور اصلاح کا طریقہ",
+      "description": "کلاڈ کا مطلب سمجھیں اور اپنی اردو تحریر بہتر کرنے کے لیے تیار پرامپٹ استعمال کریں۔ مضمون، پیغام اور خلاصے میں اصلاح کو خود جانچنے کا طریقہ سیکھیں۔",
+      "url": "https://urduai.org/how-to/how-to-use-claude-for-writing/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-06-27T00:00:00.000Z",
+      "level": "درمیانہ",
+      "topics": [
+        "Claude",
+        "Claude",
+        "ChatGPT",
+        "Gemini",
+        "Google AI Studio"
+      ]
+    },
+    {
+      "id": "how-to/how-to-use-gemini-in-urdu",
+      "type": "how-to",
+      "title": "Google Gemini AI اردو میں کیسے استعمال کریں؟",
+      "description": "گوگل جیمنی کی آفیشل ایپ ڈاؤن لوڈ کریں یا براؤزر میں کھولیں۔ اردو میں سوال لکھنے، جواب بہتر بنانے اور قیمت یا حساب کی غلطی پکڑنے کی عملی مثال دیکھیں۔",
+      "url": "https://urduai.org/how-to/how-to-use-gemini-in-urdu/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-09-08T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Gemini",
+        "Gemini",
+        "Google AI Studio",
+        "NotebookLM",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started",
+      "type": "how-to",
+      "title": "گوگل کے اے آئی نوٹ بک ایل ایم کا استعمال کیسے کریں آغاز کے لیے 5 بہترین مشورے",
+      "description": "گوگل کے اے آئی نوٹ بک ایل ایم کا استعمال کیسے کریں آغاز کے لیے 5 بہترین مشورے گوگل نوٹ بک ایل ایم: ایک ذاتی علمی معاون اگر آپ مطالعے، تحقیق یا روزمرہ امور کی من",
+      "url": "https://urduai.org/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/",
+      "language": "ur",
+      "published_at": "2025-06-07T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-06-07T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "NotebookLM",
+        "NotebookLM",
+        "Gemini",
+        "Perplexity"
+      ]
+    },
+    {
+      "id": "how-to/how-to-use-sora-2-app-complete-guide-and-explanation-of-features-in-urdu",
+      "type": "how-to",
+      "title": "Sora 2 ایپ کیسے استعمال کریں؟ اُردو میں مکمل رہنمائی اور فیچرز کی وضاحت",
+      "description": "Sora 2 ایپ کیسے استعمال کریں؟ اُردو میں مکمل رہنمائی اور فیچرز کی وضاحت  دنیا میں مصنوعی ذہانت کی رفتار حیران کن حد تک بڑھ چکی ہے اور اوپن اے آئی کا نیا ویڈیو ٹ",
+      "url": "https://urduai.org/how-to/how-to-use-sora-2-app-complete-guide-and-explanation-of-features-in-urdu/",
+      "language": "ur",
+      "published_at": "2025-10-03T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-10-03T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Sora"
+      ]
+    },
+    {
+      "id": "how-to/how-to-write-cover-letter-with-ai",
+      "type": "how-to",
+      "title": "AI cover letter generator: نوکری کے لیے letter بنائیں",
+      "description": "AI cover letter generator سے نوکری کے لیے مختصر cover letter بنانا سیکھیں: CV، job description، درست prompt، editing اور final check کا طریقہ۔",
+      "url": "https://urduai.org/how-to/how-to-write-cover-letter-with-ai/",
+      "language": "ur",
+      "published_at": "2025-04-20T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-06-27T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/how-to-write-cv-with-chatgpt",
+      "type": "how-to",
+      "title": "ChatGPT CV maker: اردو اور English CV بنانے کا طریقہ",
+      "description": "ChatGPT CV maker سے اردو یا English CV بنانے کا طریقہ سیکھیں: معلومات جمع کریں، درست prompt لکھیں، تجربہ بہتر بنائیں، اور ہر نوکری کے لیے CV بدلیں۔",
+      "url": "https://urduai.org/how-to/how-to-write-cv-with-chatgpt/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-06-27T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT",
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/urduai-workshop-how-to-make-youtube-podcasts-with-ai",
+      "type": "how-to",
+      "title": "اردواے آئی ورکشاپ اے آئی سے یوٹیوب پوڈکاسٹ کیسے بنائیں",
+      "description": "اردواےآئی ورکشاپ اےآئی سے یوٹیوب پوڈکاسٹ کیسے بنائیں  کیا آپ نے کبھی سوچا ہے کہ آپ کی آواز ہزاروں لوگوں تک پہنچے اور آپ بغیر مہنگے کیمرے یا اسٹوڈیو کے اپنا شو ش",
+      "url": "https://urduai.org/how-to/urduai-workshop-how-to-make-youtube-podcasts-with-ai/",
+      "language": "ur",
+      "published_at": "2025-07-12T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-07-12T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ElevenLabs"
+      ]
+    },
+    {
+      "id": "how-to/what-is-the-solution-how-to-prepare-teachers-for-artificial-intelligence",
+      "type": "how-to",
+      "title": "حل کیا ہے؟ اساتذہ کو مصنوعی ذہانت کے لیے کیسے تیار کیا جائے",
+      "description": "عالمی تحقیقی رپورٹ  'Stop Throwing AI Tools at Teachers '  حصہ سوم:یہ بلاگ ایک عالمی تحقیقی رپورٹ کے تجزیے پر مبنی تین حصوں پر مشتمل سیریز کا آخری حصہ ہے۔ اس می",
+      "url": "https://urduai.org/how-to/what-is-the-solution-how-to-prepare-teachers-for-artificial-intelligence/",
+      "language": "ur",
+      "published_at": "2026-01-06T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2026-01-06T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "how-to/when-and-how-to-use-different-chatgpt-models-important-guidance-from-openai",
+      "type": "how-to",
+      "title": "چیٹ جی پی ٹی کے مختلف ماڈلز کب اور کیسے استعمال کریں؟ اوپن اے آئی کی اہم رہنمائی",
+      "description": "چیٹ جی پی ٹی کے مختلف ماڈلز کب اور کیسے استعمال کریں؟ اوپن اے آئی کی اہم رہنمائی  اوپن اے آئی کی جانب سے حالیہ ہفتوں میں جاری کی گئی ایک دستاویز نے چیٹ جی پی ٹی",
+      "url": "https://urduai.org/how-to/when-and-how-to-use-different-chatgpt-models-important-guidance-from-openai/",
+      "language": "ur",
+      "published_at": "2025-05-21T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-05-21T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "how-to/why-does-artificial-intelligence-lie-and-how-to-teach-it-to-tell-the-truth",
+      "type": "how-to",
+      "title": "مصنوعی ذہانت جھوٹ کیوں بولتی ہے اور اسے سچ کیسے بولنا سکھایا جائے؟",
+      "description": "مصنوعی ذہانت جھوٹ کیوں بولتی ہے اور اسے سچ کیسے بولنا سکھایا جائے؟  اوپن اے آئی نے حال ہی میں ایک بہت دلچسپ تحقیق شائع کی ہے جس کا مقصد مصنوعی ذہانت کو زیادہ ای",
+      "url": "https://urduai.org/how-to/why-does-artificial-intelligence-lie-and-how-to-teach-it-to-tell-the-truth/",
+      "language": "ur",
+      "published_at": "2025-12-07T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-12-07T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "how-to/yann-likons-advice-how-to-promote-innovation-in-europe",
+      "type": "how-to",
+      "title": "یان لیکون کا مشورہ: یورپ میں جدت کو کیسے فروغ دیا جائے",
+      "description": "یان لیکون کا مشورہ: یورپ میں جدت کو کیسے فروغ دیا جائے  میٹا کے چیف اے آئی سائنسدان یان لیکون نے ورلڈ اکنامک فورم (WEF) میں یورپ پر زور دیا کہ وہ مصنوعی ذہانت (",
+      "url": "https://urduai.org/how-to/yann-likons-advice-how-to-promote-innovation-in-europe/",
+      "language": "ur",
+      "published_at": "2025-02-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": "2025-02-04T00:00:00.000Z",
+      "level": "آسان",
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "prompts/ai-studio-headshot-prompts",
+      "type": "prompts",
+      "title": "پروفیشنل اسٹوڈیو فوٹو AI سے بنائیں — 10 بہترین پرامٹس",
+      "description": "اپنی سادہ تصویر کو AI کی مدد سے پروفیشنل اسٹوڈیو ہیڈ شاٹ میں بدلیں۔ Corporate، Fashion، Cinematic اور Pixar سمیت 10 مختلف اسٹائلز کے لیے مفت پرامٹس۔",
+      "url": "https://urduai.org/prompts/ai-studio-headshot-prompts/",
+      "language": "ur",
+      "published_at": "2026-04-09T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "ai-photography"
+      ]
+    },
+    {
+      "id": "prompts/content-creators",
+      "type": "prompts",
+      "title": "یوٹیوبرز اور کانٹینٹ کریئیٹرز کے لیے بہترین پرامٹس",
+      "description": "ٹک ٹاک، یوٹیوب اور انسٹاگرام پر کام کرنے والوں کے لیے بہترین اے آئی پرامٹس۔ وائرل ائیڈیاز، اسکرپٹس، اور ہیش ٹیگز تخلیق کریں۔",
+      "url": "https://urduai.org/prompts/content-creators/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "content-creators"
+      ]
+    },
+    {
+      "id": "prompts/doctors",
+      "type": "prompts",
+      "title": "ڈاکٹروں کے لیے اردو پرامٹس",
+      "description": "ڈاکٹروں کے لیے 10 عملی اردو پرامٹس۔ مریض کی ہسٹری، آسان فالو اپ نوٹس، صحت کی تعلیم اور کلینک کمیونیکیشن کو تیز اور منظم بنانے کے لیے تیار۔",
+      "url": "https://urduai.org/prompts/doctors/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "ڈاکٹر"
+      ]
+    },
+    {
+      "id": "prompts/freelancers",
+      "type": "prompts",
+      "title": "فری لانسرز کے لیے بہترین اردو پرامٹس",
+      "description": "پاکستانی فری لانسرز کے لیے جو فائور، اپ ورک اور کلائنٹس کے ساتھ کام کر کے اپنی آمدنی بڑھانا چاہتے ہیں۔ بہترین پرپوزل لکھنے اور کمیونیکیشن بہتر بنانے کے پرامٹس۔",
+      "url": "https://urduai.org/prompts/freelancers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "freelancers"
+      ]
+    },
+    {
+      "id": "prompts/hr-managers",
+      "type": "prompts",
+      "title": "ایچ آر مینیجرز کے لیے اردو پرامٹس",
+      "description": "ایچ آر مینیجرز کے لیے 10 عملی اردو پرامٹس۔ جاب ڈسکرپشن، انٹرویو سوالات، فیڈبیک، پالیسی کمیونیکیشن اور کارکردگی ریویو کو بہتر بنانے کے لیے تیار۔",
+      "url": "https://urduai.org/prompts/hr-managers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "ایچ آر مینیجر"
+      ]
+    },
+    {
+      "id": "prompts/job-seekers",
+      "type": "prompts",
+      "title": "Job seekers AI prompts: CV، cover letter اور interview",
+      "description": "پاکستانی students اور fresh graduates کے لیے AI prompts: CV بہتر کریں، cover letter لکھیں، interview practice کریں اور LinkedIn profile واضح بنائیں۔",
+      "url": "https://urduai.org/prompts/job-seekers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": "2026-06-27T00:00:00.000Z",
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "job-seekers",
+        "ChatGPT",
+        "Claude"
+      ]
+    },
+    {
+      "id": "prompts/journalists",
+      "type": "prompts",
+      "title": "صحافیوں کے لیے اردو پرامٹس",
+      "description": "صحافیوں کے لیے 10 عملی اردو پرامٹس۔ خبر کی تحقیق، ہیڈ لائن، انٹرویو تیاری، فیکٹ چیک اور رپورٹ اسٹرکچر کے لیے تیز مگر ذمہ دار مدد حاصل کریں۔",
+      "url": "https://urduai.org/prompts/journalists/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "صحافی"
+      ]
+    },
+    {
+      "id": "prompts/lawyers",
+      "type": "prompts",
+      "title": "وکیلوں کے لیے اردو پرامٹس",
+      "description": "وکیلوں کے لیے 10 عملی اردو پرامٹس۔ کیس سمری، نوٹس، کلائنٹ کمیونیکیشن، سوالات اور ابتدائی قانونی ڈرافٹنگ کے لیے منظم مدد حاصل کریں۔",
+      "url": "https://urduai.org/prompts/lawyers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "وکیل"
+      ]
+    },
+    {
+      "id": "prompts/parents",
+      "type": "prompts",
+      "title": "والدین کے لیے بہترین اردو پرامٹس",
+      "description": "والدین کے لیے بچوں کی تربیت، بیڈ ٹائم اسٹوریز، اور مشکل سوالات کے آسان جوابات دینے والے زبردست اے آئی پرامٹس۔ بچوں کی پرورش کو جدید اور سمارٹ بنائیں۔",
+      "url": "https://urduai.org/prompts/parents/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "parents"
+      ]
+    },
+    {
+      "id": "prompts/real-estate",
+      "type": "prompts",
+      "title": "رئیل اسٹیٹ کے لیے اردو پرامٹس",
+      "description": "رئیل اسٹیٹ پروفیشنلز کے لیے 10 عملی اردو پرامٹس۔ پراپرٹی لسٹنگ، کلائنٹ میسجز، مارکیٹ اپڈیٹس، ویڈیو اسکرپٹس اور سیلز فالو اپ کو تیز اور بہتر بنانے کے لیے تیار۔",
+      "url": "https://urduai.org/prompts/real-estate/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "رئیل اسٹیٹ"
+      ]
+    },
+    {
+      "id": "prompts/small-business",
+      "type": "prompts",
+      "title": "چھوٹے کاروباری حضرات کے لیے بہترین اردو پرامٹس",
+      "description": "دکانداروں، آن لائن سیلرز اور چھوٹے کاروبار چلانے والوں کے لیے چیٹ جی پی ٹی کے مفید پرامٹس۔ مارکیٹنگ، کسٹمر ڈیلنگ اور سیلز بڑھانے کے جدید طریقے۔",
+      "url": "https://urduai.org/prompts/small-business/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "small-business"
+      ]
+    },
+    {
+      "id": "prompts/students",
+      "type": "prompts",
+      "title": "طلباء کے لیے بہترین اردو پرامٹس",
+      "description": "طلباء کے لیے تعلیم کو آسان بنانے والے بہترین اے آئی پرامٹس۔ مشکل سوالات سمجھیں، امتحانات کی تیاری کریں اور اپنا تعلیمی شیڈول بہتر طریقے سے ترتیب دیں۔",
+      "url": "https://urduai.org/prompts/students/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "students"
+      ]
+    },
+    {
+      "id": "prompts/teachers",
+      "type": "prompts",
+      "title": "اساتذہ کے لیے بہترین اردو پرامٹس",
+      "description": "اسکول اور کالج کے اساتذہ کے لیے چیٹ جی پی ٹی کے بہترین پرامٹس۔ امتحانات کے پرچے، لیسن پلان بنانے اور طلباء کی دلچسپی بڑھانے کے مفید طریقے آزمائیں۔",
+      "url": "https://urduai.org/prompts/teachers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "teachers"
+      ]
+    },
+    {
+      "id": "prompts/writers",
+      "type": "prompts",
+      "title": "اردو مصنفین اور بلاگرز کے لیے بہترین پرامٹس",
+      "description": "اردو زبان میں بلاگ لکھنے، کہانیاں تخلیق کرنے اور اپنی تحریر کو درست کرنے کے لیے شاندار اے آئی پرامٹس۔ لکھاریوں کے لیے بہترین تخلیقی ساتھی۔",
+      "url": "https://urduai.org/prompts/writers/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "writers"
+      ]
+    },
+    {
+      "id": "learn/ai-agent",
+      "type": "learn",
+      "title": "اے آئی ایجنٹ کیا ہے؟",
+      "description": "اے آئی ایجنٹ ایسا سسٹم ہے جو ہدف حاصل کرنے کے لیے خود قدم اٹھاتا ہے، مثلاً ٹول چلانا یا تلاش کرنا۔ یہ صرف ایک جواب دینے والی چیٹ سے آگے کا قدم ہے۔",
+      "url": "https://urduai.org/learn/ai-agent/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "learn/artificial-general-intelligence",
+      "type": "learn",
+      "title": "AGI meaning in Urdu: Artificial General Intelligence کیا ہے؟",
+      "description": "AGI meaning in Urdu guide: Artificial General Intelligence، AGI full form، AI vs AGI فرق، examples، risks، myths اور beginner next step۔",
+      "url": "https://urduai.org/learn/artificial-general-intelligence/",
+      "language": "ur",
+      "published_at": "2026-06-27T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Artificial General Intelligence"
+      ]
+    },
+    {
+      "id": "learn/artificial-intelligence",
+      "type": "learn",
+      "title": "مصنوعی ذہانت کیا ہے؟ آسان اردو تعریف",
+      "description": "مصنوعی ذہانت یعنی AI کمپیوٹر کی وہ صلاحیت ہے جو زبان، تصویر، ڈیٹا اور سوال سمجھ کر مدد کرتی ہے۔ مصنوعی کا معنی، AI meaning اور مثالیں پڑھیں۔",
+      "url": "https://urduai.org/learn/artificial-intelligence/",
+      "language": "ur",
+      "published_at": "2026-06-26T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "learn/claude-ai",
+      "type": "learn",
+      "title": "Claude AI کیا ہے؟ آسان اردو مطلب",
+      "description": "Claude AI Anthropic کا assistant ہے جو لکھائی، reasoning، analysis، coding اور لمبی گفتگو میں مدد دیتا ہے۔ اردو میں مطلب اور استعمال سمجھیں۔",
+      "url": "https://urduai.org/learn/claude-ai/",
+      "language": "ur",
+      "published_at": "2026-06-26T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Claude AI"
+      ]
+    },
+    {
+      "id": "learn/computer-vision",
+      "type": "learn",
+      "title": "کمپیوٹر ویژن کیا ہے؟",
+      "description": "کمپیوٹر ویژن تصویر یا ویڈیو سے معنی نکالنے کی تکنیک ہے، جیسے چہرہ پہچاننا یا نقصان دیکھنا۔ پاکستان میں سیکیورٹی، زراعت اور ای کامرس میں اس کے استعمال بڑھ رہے ہیں۔",
+      "url": "https://urduai.org/learn/computer-vision/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "learn/deep-learning",
+      "type": "learn",
+      "title": "ڈیپ لرننگ کیا ہے؟ — آسان اردو میں",
+      "description": "ڈیپ لرننگ، مشین لرننگ کا ایک انتہائی جدید حصہ ہے جس میں کمپیوٹر پیچیدہ ترین مسائل حل کرتا ہے، جیسے کہ خود چلنے والی گاڑیاں اور کینسر کی تشخیص۔",
+      "url": "https://urduai.org/learn/deep-learning/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "learn/diffusion-model",
+      "type": "learn",
+      "title": "ڈفیوژن ماڈل کیا ہے؟",
+      "description": "ڈفیوژن ماڈل شور سے تصویر یا ویڈیو بنانے کا طریقہ ہے۔ مڈجرنی اور ڈال-ای جیسی تصویر اے آئی اسی خاندان سے ہیں؛ اردو پرامپٹ سے بھی مناظر بن سکتے ہیں۔",
+      "url": "https://urduai.org/learn/diffusion-model/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Diffusion Model"
+      ]
+    },
+    {
+      "id": "learn/embedding",
+      "type": "learn",
+      "title": "امبیڈنگ کیا ہے؟",
+      "description": "امبیڈنگ متن یا تصویر کو نمبروں کی فہرست میں بدلنے کا عمل ہے تاکہ کمپیوٹر ملتا جلتا معنی ناپ سکے۔ سرچ اور RAG میں یہی تکنیک متعلقہ مواد ڈھونڈتی ہے۔",
+      "url": "https://urduai.org/learn/embedding/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Embedding"
+      ]
+    },
+    {
+      "id": "learn/fine-tuning",
+      "type": "learn",
+      "title": "فائن ٹیوننگ کیا ہے؟",
+      "description": "فائن ٹیوننگ کا مطلب ہے پہلے سے تیار بڑے زبان کے ماڈل کو اپنے کام یا ڈومین کے لیے تھوڑے ڈیٹا سے مزید تربیت دینا۔ جانیے کہ یہ عام استعمال سے بہتر نتائج کیسے دیتا ہے، مثلاً اردو میں مخصوص انداز لکھنا۔",
+      "url": "https://urduai.org/learn/fine-tuning/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Fine-Tuning"
+      ]
+    },
+    {
+      "id": "learn/foundation-model",
+      "type": "learn",
+      "title": "فاؤنڈیشن ماڈل کیا ہے؟",
+      "description": "فاؤنڈیشن ماڈل بہت بڑے ڈیٹا پر تربیت یافتہ بنیادی ماڈل ہوتا ہے جس پر مزید کام مثلاً فائن ٹیوننگ یا ایپلیکیشن بنائی جاتی ہے۔ چیٹ جی پی ٹی جیسے ٹولز اکثر ایسے ماڈلز پر کھڑے ہیں۔",
+      "url": "https://urduai.org/learn/foundation-model/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Foundation Model"
+      ]
+    },
+    {
+      "id": "learn/generative-ai",
+      "type": "learn",
+      "title": "جینریٹو اے آئی کیا ہے؟ — آسان اردو میں",
+      "description": "جینریٹو اے آئی کا مطلب ہے ایسی مصنوعی ذہانت جو خود سے نیا مواد (آواز، تصویر، تحریر) تخلیق کر سکے۔ جانیے کہ یہ ٹیکنالوجی عام اے آئی سے کیسے مختلف ہے۔",
+      "url": "https://urduai.org/learn/generative-ai/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Generative AI"
+      ]
+    },
+    {
+      "id": "learn/google-gemini",
+      "type": "learn",
+      "title": "Gemini کیا ہے؟ Google AI assistant کا آسان اردو مطلب",
+      "description": "Gemini کیا ہے، اردو میں کیسے کام آتا ہے، Google AI Studio سے فرق کیا ہے، اور beginners اسے prompts، خلاصہ اور study help کے لیے کیسے آزمائیں۔",
+      "url": "https://urduai.org/learn/google-gemini/",
+      "language": "ur",
+      "published_at": "2026-06-26T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Google Gemini"
+      ]
+    },
+    {
+      "id": "learn/hallucination",
+      "type": "learn",
+      "title": "اے آئی ہیلوسینیشن (غلط بیانی) کیا ہے؟ — آسان اردو میں",
+      "description": "جب چیٹ جی پی ٹی پورے اعتماد کے ساتھ کوئی جھوٹ یا غلط بات سچ بنا کر پیش کرے، تو اسے ہیلوسینیشن کہتے ہیں۔ جانیے ایسا کیوں ہوتا ہے اور اس سے کیسے بچیں۔",
+      "url": "https://urduai.org/learn/hallucination/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "AI Hallucination"
+      ]
+    },
+    {
+      "id": "learn/inference",
+      "type": "learn",
+      "title": "انفرنس کیا ہے؟",
+      "description": "انفرنس وہ مرحلہ ہے جب تربیت شدہ اے آئی ماڈل نیا ڈیٹا دیکھ کر فیصلہ یا جواب بناتا ہے۔ چیٹ جی پی ٹی کا ہر سوال کا جواب دینا دراصل انفرنس ہے، تربیت نہیں۔",
+      "url": "https://urduai.org/learn/inference/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Inference"
+      ]
+    },
+    {
+      "id": "learn/large-language-model",
+      "type": "learn",
+      "title": "لارج لینگویج ماڈل (LLM) کیا ہے؟ — آسان اردو میں",
+      "description": "لارج لینگویج ماڈل وہ ٹیکنالوجی ہے جس پر چیٹ جی پی ٹی بنایا گیا ہے۔ جانیے کہ یہ کمپیوٹر انسانوں جیسی زبان کیسے لکھتا ہے اور یہ کیسے کام کرتا ہے۔",
+      "url": "https://urduai.org/learn/large-language-model/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Large Language Model"
+      ]
+    },
+    {
+      "id": "learn/machine-learning",
+      "type": "learn",
+      "title": "مشین لرننگ کیا ہے؟ — آسان اردو میں",
+      "description": "مشین لرننگ ایک ایسی ٹیکنالوجی ہے جس میں کمپیوٹر خود کار طریقے سے ڈیٹا دیکھ کر سیکھتا ہے۔ جانیے کہ یہ پرانے پروگرامنگ طریقوں سے کیسے مختلف ہے اور روزمرہ زندگی میں اس کا کیا استعمال ہے۔",
+      "url": "https://urduai.org/learn/machine-learning/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "learn/multimodal-ai",
+      "type": "learn",
+      "title": "ملٹی موڈل اے آئی کیا ہے؟",
+      "description": "ملٹی موڈل اے آئی ایک ہی ماڈل میں متن، تصویر، آواز وغیرہ کو یکجا سمجھتی ہے۔ جیمنی یا چیٹ جی پی ٹی میں تصویر کے ساتھ اردو سوال یہی صلاحیت ہے۔",
+      "url": "https://urduai.org/learn/multimodal-ai/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Multimodal AI"
+      ]
+    },
+    {
+      "id": "learn/natural-language-processing",
+      "type": "learn",
+      "title": "قدرتی زبان کی پروسیسنگ (NLP) کیا ہے؟",
+      "description": "NLP کمپیوٹر کو انسانی زبان سمجھنے، تجزیہ کرنے اور بنانے کا میدان ہے۔ اردو میں چیٹ بوٹ، ترجمہ اور تلاش جیسے کام اسی شاخ سے جڑے ہیں۔",
+      "url": "https://urduai.org/learn/natural-language-processing/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Natural Language Processing (NLP)"
+      ]
+    },
+    {
+      "id": "learn/neural-networks",
+      "type": "learn",
+      "title": "نیورل نیٹ ورک کیا ہے؟ — آسان اردو میں",
+      "description": "نیورل نیٹ ورک ایک ایسا کمپیوٹر سسٹم ہے جو انسانی دماغ کی طرح کام کرنے کی کوشش کرتا ہے۔ جانیے کہ یہ کیسے ڈیٹا کو سمجھ کر درست جواب پیش کرتا ہے۔",
+      "url": "https://urduai.org/learn/neural-networks/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Neural Network"
+      ]
+    },
+    {
+      "id": "learn/prompt-engineering",
+      "type": "learn",
+      "title": "Prompt engineering کیا ہے؟ اردو examples اور آسان طریقہ",
+      "description": "Prompt engineering کا آسان مطلب، اچھے prompt کی 5 چیزیں، Urdu examples، Gemini اور ChatGPT میں follow-up سے بہتر جواب لینے کا طریقہ۔",
+      "url": "https://urduai.org/learn/prompt-engineering/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "id": "learn/reinforcement-learning",
+      "type": "learn",
+      "title": "رینفورسمنٹ لرننگ کیا ہے؟",
+      "description": "رینفورسمنٹ لرننگ میں ایجنٹ ماحول میں آزمائش کر کے انعام یا سزا سے سیکھتا ہے، جیسے گیم کھیلنا یا روبوٹ چلنا۔ یہ مشین لرننگ کا وہ حصہ ہے جو فیصلوں کی زنجیر سیکھتا ہے۔",
+      "url": "https://urduai.org/learn/reinforcement-learning/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Reinforcement Learning"
+      ]
+    },
+    {
+      "id": "learn/retrieval-augmented-generation",
+      "type": "learn",
+      "title": "رٹریول آگمنٹڈ جنریشن (RAG) کیا ہے؟",
+      "description": "RAG ایک طریقہ ہے جس میں اے آئی جواب دینے سے پہلے آپ کے دستاویزات یا ڈیٹا بیس سے متعلقہ حصے نکال کر ماڈل کو دے دیے جاتے ہیں۔ اس سے تازہ اور قابل حوالہ جواب ملتے ہیں، خاص طور پر اردو میں ادارہ جاتی علم کے ساتھ۔",
+      "url": "https://urduai.org/learn/retrieval-augmented-generation/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "RAG (Retrieval-Augmented Generation)"
+      ]
+    },
+    {
+      "id": "learn/token",
+      "type": "learn",
+      "title": "ٹوکن کیا ہے؟",
+      "description": "ٹوکن زبان کے ماڈل کا سب سے چھوٹا ٹکڑا ہوتا ہے، جو لفظ، حصہ لفظ، یا حرف جتنا بھی ہو سکتا ہے۔ اردو جملے کی لاگت اور لمبائی اکثر ٹوکن گنتی سے طے ہوتی ہے۔",
+      "url": "https://urduai.org/learn/token/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Token"
+      ]
+    },
+    {
+      "id": "learn/training-data",
+      "type": "learn",
+      "title": "ٹریننگ ڈیٹا کیا ہے؟",
+      "description": "ٹریننگ ڈیٹا وہ مثالیں ہیں جن سے اے آئی ماڈل سیکھتا ہے۔ ڈیٹا اچھا ہو تو جواب اچھے، ڈیٹا تعصب والا ہو تو نتائج نقصان دہ۔ اردو مواد کی کمی اب بھی بڑا مسئلہ ہے۔",
+      "url": "https://urduai.org/learn/training-data/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Training Data"
+      ]
+    },
+    {
+      "id": "learn/transformer",
+      "type": "learn",
+      "title": "ٹرانسفارمر کیا ہے؟",
+      "description": "ٹرانسفارمر وہ نیٹ ورک ڈیزائن ہے جس پر جدید بڑے زبان کے ماڈل تعمیر ہوتے ہیں۔ یہ سلسلے کے الفاظ میں دور کے تعلقات بھی سمجھ لیتا ہے، اس لیے اردو جملوں میں سیاق و سباق بہتر پکڑتا ہے۔",
+      "url": "https://urduai.org/learn/transformer/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Transformer"
+      ]
+    },
+    {
+      "id": "learn/zero-shot-learning",
+      "type": "learn",
+      "title": "زیرو شاٹ لرننگ کیا ہے؟",
+      "description": "زیرو شاٹ لرننگ میں ماڈل بغیر اس کام کی خصوصی مثالوں کے نیا ہدف سمجھ لیتا ہے، صرف ہدایت سن کر۔ بڑے زبان کے ماڈلز اردو میں نئے فارمیٹ اسی طرح آزما سکتے ہیں۔",
+      "url": "https://urduai.org/learn/zero-shot-learning/",
+      "language": "ur",
+      "published_at": "2026-04-04T00:00:00.000Z",
+      "updated_at": null,
+      "last_verified": null,
+      "level": null,
+      "topics": [
+        "Zero-Shot Learning"
+      ]
+    },
+    {
+      "id": "courses/masterclass",
+      "type": "courses",
+      "title": "اے آئی ماسٹرکلاس",
+      "description": "مفت ابتدائی اے آئی کورس — ویڈیو اسباق، عملی مشقیں اور کوئزز۔",
+      "url": "https://urduai.org/courses/masterclass/",
+      "language": "ur",
+      "level": "ابتدائی",
+      "topics": [
+        "AI",
+        "beginner",
+        "free course",
+        "ChatGPT",
+        "Gemini",
+        "مصنوعی ذہانت"
+      ],
+      "availability": "available",
+      "price": 0,
+      "price_currency": "PKR",
+      "published_at": null,
+      "updated_at": null,
+      "last_verified": "2026-09-19T00:00:00.000Z"
+    }
+  ]
+}
