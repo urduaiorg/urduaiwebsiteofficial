@@ -1,0 +1,198 @@
+---
+import Base from '../../layouts/Base.astro';
+import ContentImage from '../../components/ContentImage.astro';
+import { getCollection } from 'astro:content';
+import { museResources, museVideos, museAudiences } from '../../data/muse-hub';
+import { publicationTime, formatUrduDate } from '../../utils/homepage-content.mjs';
+
+const title = 'میوز اردو میں سیکھیں: عملی گائیڈز، ویڈیوز اور کام کی مثالیں';
+const description = 'میٹا میوز کے بارے میں اردو گائیڈز، ویڈیوز اور خبریں ایک جگہ پڑھیں۔ اپنے کام کے مطابق مثال چنیں، دستیابی سمجھیں اور نتیجہ جانچنے کا طریقہ سیکھیں۔';
+const canonical = 'https://urduai.org/muse/';
+const [blogs, guides] = await Promise.all([getCollection('blog'), getCollection('guides')]);
+const resources = museResources.flatMap(resource => {
+  const entry = (resource.collection === 'blog' ? blogs : guides).find(entry => entry.id === resource.id);
+  if (!entry) throw new Error(`Missing Muse hub resource: ${resource.id}`);
+  if (entry.data.draft || publicationTime(entry) > Date.now()) return [];
+  return [{ ...resource, title: entry.data.title, description: 'note' in resource ? resource.note : entry.data.description,
+    href: `/${resource.collection}/${entry.id}/`, date: entry.data.date, published: publicationTime(entry) }];
+});
+const start = resources.filter(item => item.section === 'start');
+const documentaries = resources.filter(item => item.section === 'documentaries');
+const news = resources.filter(item => item.section === 'news').sort((a, b) => b.published - a.published);
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonical, inLanguage: 'ur',
+    mainEntity: { '@type': 'ItemList', itemListElement: resources.map((item, i) => ({ '@type': 'ListItem', position: i + 1, name: item.title, url: `https://urduai.org${item.href}` })) } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ہوم', item: 'https://urduai.org/' },
+    { '@type': 'ListItem', position: 2, name: 'میوز', item: canonical },
+  ] },
+];
+---
+<Base title={title} description={description} canonical={canonical} schema={schema} adsense={false}>
+  <div class="muse-hub">
+    <div class="hub-wrap">
+      <nav class="crumb" aria-label="بریڈکرمب"><a href="/">ہوم</a><span aria-hidden="true"> / </span><span aria-current="page">میوز سیکھیں</span></nav>
+      <header class="hub-hero">
+        <div>
+          <p class="eyebrow">اردو اے آئی کی میوز لائبریری</p>
+          <h1>میوز کو سمجھیں۔<br />اپنے کام سے آغاز کریں۔</h1>
+          <p class="lead">میٹا میوز ایک اے آئی ایجنٹ ہے جو اپنے ورچوئل کمپیوٹر پر کام کے مراحل انجام دے سکتا ہے۔ یہاں اس کا تعارف، ہماری عملی گائیڈز، ویڈیوز اور روزمرہ استعمال کی مثالیں ایک جگہ ملیں گی۔</p>
+          <div class="actions"><a class="primary" href="#start">پہلی بار آئے ہیں؟ یہاں سے شروع کریں</a><a href="#audiences">اپنے کام کی مثال چنیں ←</a></div>
+        </div>
+        <aside class="hero-note" aria-label="سیکھنے کا راستہ">
+          <span class="latin" lang="en" dir="ltr">MUSE / URDU AI</span>
+          <p>ایک کام منتخب کریں۔<br />نتیجہ مانگیں۔<br /><strong>خود جانچنا سیکھیں۔</strong></p>
+          <span>تعارف سے عملی استعمال تک</span>
+        </aside>
+      </header>
+      <aside class="availability">
+        <strong>پاکستان میں دستیابی پہلے دیکھیں</strong>
+        <p>میٹا کے 8 ستمبر 2026 کے اعلان میں آغاز امریکہ سے ہوا۔ پاکستان میں عام دستیابی کی تاریخ کی تصدیق ہمارے پاس نہیں۔ اپنے اکاؤنٹ کی رسائی، استعمال کی حد اور قیمت <a href="https://ai.meta.com/muse/">آفیشل ویب سائٹ</a> پر دیکھیں۔ طلبہ کے لیے: میوز کی عمر کی شرط کم از کم 18 سال ہے؛ کم عمر بچوں کے لیے استاد یا والدین مشق تیار کریں۔</p>
+        <a href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/">میٹا کا اعلان</a><span aria-hidden="true"> · </span><a href="https://muse.ai/terms">عمر اور استعمال کی شرائط</a>
+      </aside>
+      <nav class="section-nav" aria-label="میوز لائبریری کے حصے"><a href="#start">شروع کریں</a><a href="#audiences">آپ کے کام</a><a href="#documentaries">دستاویزی فلمیں</a><a href="#watch">ویڈیوز</a><a href="#news">خبریں</a></nav>
+
+      <section id="start" class="hub-section">
+        <p class="eyebrow">پہلا قدم</p><h2>پہلے سمجھیں، پھر ایک کام آزمائیں</h2>
+        <div class="learning-path">{start.map((item, i) => <article>
+          <span class="step" aria-hidden="true">0{i + 1}</span><span class="label">{item.label}</span>
+          <h3><a href={item.href}>{item.title}</a></h3><p>{item.description}</p><a class="read" href={item.href}>پڑھیں اور سیکھیں ←</a>
+        </article>)}</div>
+      </section>
+
+      <section id="audiences" class="hub-section">
+        <p class="eyebrow">آپ کی ضرورت</p><h2>آج کون سا کام آسان بنانا چاہتے ہیں؟</h2>
+        <p class="section-intro">یہ اپنے کام کی منصوبہ بندی کے لیے تجاویز ہیں؛ ان سب کو میوز پر الگ سے آزمایا نہیں گیا۔ پہلے ایک بار نتیجہ لے کر دیکھیں۔ روزانہ کام یا اطلاع کے لیے اپنے اکاؤنٹ میں دستیاب سہولت، اجازت اور وقت کی تصدیق کریں۔</p>
+        <div class="audience-filter" role="group" aria-label="اپنا شعبہ منتخب کریں" hidden>
+          <button type="button" data-audience="all" aria-pressed="true">سب کے لیے</button>
+          {museAudiences.map(a => <button type="button" data-audience={a.id} aria-pressed="false">{a.title}</button>)}
+        </div>
+        <p class="filter-status" role="status" aria-live="polite"></p>
+        <div class="audience-list">{museAudiences.map(a => <article class="audience" data-audience-panel={a.id}>
+          <div class="audience-heading"><h3>{a.title}</h3><p>{a.intro}</p></div>
+          <div>{a.tasks.map(task => <details><summary><span>{task.title}</span><span class="label">{task.kind}</span></summary>
+            <div class="task-body"><p><strong>کیا نتیجہ مانگیں؟ </strong>{task.result}</p><p><strong>کیا جانچیں؟ </strong>{task.check}</p><a href="/blog/meta-muse-real-use-cases-whatsapp-urdu/">کام دینے کی مثالیں پڑھیں ←</a></div>
+          </details>)}</div>
+        </article>)}</div>
+      </section>
+
+      <section id="documentaries" class="hub-section">
+        <p class="eyebrow">بڑی تصویر سمجھیں</p><h2>ایجنٹس، تعلیم اور روزگار: 2 دستاویزی فلمیں</h2>
+        <p class="section-intro">یہ فلمیں صرف میوز کے بارے میں نہیں؛ اے آئی ایجنٹس اور پاکستان میں ان کے اثرات کو سمجھنے کا راستہ ہیں۔ ویڈیو کے ساتھ تحریری مضمون بھی پڑھیں۔</p>
+        <div class="documentary-grid">{documentaries.map((item, index) => <article>
+          <a href={item.href}><ContentImage src={`/images/blog/${item.id}.png`} alt={item.title} width="1200" height="630" sizes="(max-width: 700px) calc(100vw - 36px), 550px" loading="lazy" /></a>
+          <span class="label">دستاویزی فلم · {index === 0 ? '12 منٹ 32 سیکنڈ' : '8 منٹ 10 سیکنڈ'}</span>
+          <h3><a href={item.href}>{item.title}</a></h3><p>{item.description}</p><a href={item.href}>فلم دیکھیں، مضمون پڑھیں ←</a>
+        </article>)}</div>
+      </section>
+
+      <section id="watch" class="hub-section">
+        <p class="eyebrow">دیکھ کر سیکھیں</p><h2>میوز کی ویڈیوز</h2>
+        <p class="section-intro">اردو اے آئی کی ویڈیو منتخب کریں۔ ویڈیو یوٹیوب پر کھلے گی؛ اس صفحے پر خود نہیں چلے گی۔</p>
+        <div class="video-grid">{museVideos.map(video => <article>
+          <a class="video-image" href={`https://www.youtube.com/watch?v=${video.id}`} aria-label={`${video.title} — یوٹیوب پر دیکھیں`}>
+            <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} alt={video.title} width="480" height="360" loading="lazy" />
+            <span class="play" aria-hidden="true">▶</span>
+          </a>
+          <span class="label">{video.label}</span><h3><a href={`https://www.youtube.com/watch?v=${video.id}`}>{video.title}</a></h3>
+          <p>{video.description}</p><time datetime={video.date}>{formatUrduDate(video.date)}</time>{video.duration && <span class="duration"> · <bdi>{video.duration}</bdi></span>}
+          <a class="video-reading" href={video.article}>متعلقہ تحریر پڑھیں ←</a>
+        </article>)}</div>
+      </section>
+
+      <section id="news" class="hub-section">
+        <p class="eyebrow">مزید جانیں</p><h2>میوز اور میٹا کی تازہ پیش رفت</h2>
+        <p class="section-intro">میوز ایجنٹ اور میٹا کے ماڈلز کی خبریں الگ مصنوعات سے متعلق ہو سکتی ہیں۔ ہر خبر کی تاریخ اور دستیابی کی تفصیل پڑھیں۔</p>
+        <div class="news-list">{news.map(item => <article><div><span class="label">{item.label}</span><time datetime={item.date}>{formatUrduDate(item.date)}</time></div><h3><a href={item.href}>{item.title}</a></h3><p>{item.description}</p></article>)}</div>
+      </section>
+      <aside class="next-step"><h2>اب آگے کیا سیکھیں؟</h2><p>اسکرین شاٹس والی عملی گائیڈ کھولیں اور ایک چھوٹے کام کا نتیجہ اپنی ہدایت سے ملا کر دیکھیں۔</p><a href="/guides/meta-muse-hands-on-video-carousel-documents-urdu/">میوز کی عملی گائیڈ پڑھیں ←</a></aside>
+    </div>
+  </div>
+</Base>
+
+<script>
+  const filter = document.querySelector<HTMLElement>('.audience-filter');
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-audience]')];
+  const panels = [...document.querySelectorAll<HTMLElement>('[data-audience-panel]')];
+  const status = document.querySelector<HTMLElement>('.filter-status');
+  if (filter) {
+    filter.hidden = false;
+    buttons.forEach(button => button.addEventListener('click', () => {
+      const selected = button.dataset.audience;
+      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      panels.forEach(panel => { panel.hidden = selected !== 'all' && panel.dataset.audiencePanel !== selected; });
+      if (status) status.textContent = selected === 'all' ? 'تمام شعبوں کی مثالیں دکھائی جا رہی ہیں۔' : `${button.textContent}: 3 مثالیں`;
+    }));
+  }
+</script>
+
+<style>
+  .muse-hub { background: #fdfaf4; color: #1a1207; }
+  .hub-wrap { max-width: 1160px; margin-inline: auto; padding: 1.5rem 1.25rem 4rem; }
+  .muse-hub a { color: #0e6b5e; text-underline-offset: .35em; }
+  .crumb, .eyebrow, .label, time { font-size: 17px; }
+  .crumb { color: #67573e; }
+  .hub-hero { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(240px, 1fr); gap: 3rem; align-items: center; padding-block: 2rem 2.5rem; }
+  .eyebrow { color: #745409; margin-block: 0 .8rem; }
+  h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); line-height: 2; margin-block: 0 1rem; }
+  h2 { font-size: 1.65rem; line-height: 2; margin-block: 0 1rem; }
+  h3 { font-size: 1.2rem; line-height: 2.2; margin-block: .5rem; }
+  p { line-height: 2.4; }
+  .lead { max-width: 42rem; }
+  .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-block-start: 1.5rem; }
+  .actions .primary { background: #0e6b5e; color: white; padding: .6rem 1rem; text-decoration: none; border-radius: 4px; }
+  .hero-note { border-block: 3px solid #b8860b; padding: 2rem; background: #f5f0e8; }
+  .hero-note p { font-size: 1.45rem; line-height: 2.5; }
+  .hero-note strong { color: #0e6b5e; }
+  .latin { font-family: Georgia, serif; font-size: 17px; }
+  .availability { border-inline-start: 3px solid #b8860b; background: #fdf4d8; padding: 1rem 1.3rem; }
+  .availability p { margin-block: .3rem; font-size: 17px; }
+  .availability a { font-size: 17px; }
+  .section-nav { display: flex; flex-wrap: wrap; gap: .5rem 2rem; padding-block: 1rem; border-block-end: 1px solid #e2d9c8; }
+  .hub-section { padding-block: 2.5rem; scroll-margin-block-start: 6rem; }
+  .hub-section + .hub-section { border-block-start: 1px solid #e2d9c8; }
+  .section-intro { max-width: 48rem; color: #3d3222; }
+  .learning-path { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 1.75rem; }
+  .learning-path article { padding-block: 1rem; border-block-start: 2px solid #c4b89a; }
+  .step { display: block; font: 2rem Georgia, serif; color: #85600c; margin-block-end: 1rem; }
+  .label { color: #67573e; }
+  .read { display: inline-block; margin-block-start: .5rem; }
+  .audience-filter { display: flex; flex-wrap: wrap; gap: .5rem; margin-block: 1.5rem .5rem; }
+  .audience-filter[hidden], .audience[hidden] { display: none; }
+  button { font: inherit; font-size: 17px; line-height: 2.4; padding: .25rem .85rem; border: 1px solid #c4b89a; border-radius: 4px; background: transparent; color: #3d3222; cursor: pointer; }
+  button[aria-pressed='true'] { background: #0e6b5e; color: white; border-color: #0e6b5e; }
+  a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #b8860b; outline-offset: 5px; }
+  .filter-status { font-size: 17px; margin-block: .5rem; }
+  .filter-status:empty { display: none; }
+  .audience { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,2fr); gap: 2rem; padding-block: 1.5rem; border-block-end: 1px solid #e2d9c8; }
+  .audience-heading p { color: #3d3222; }
+  details { border-block-end: 1px solid #e2d9c8; }
+  details:last-child { border: 0; }
+  summary { cursor: pointer; padding-block: .75rem; line-height: 2.4; }
+  summary .label { display: inline-block; margin-inline-start: .75rem; }
+  .task-body { padding: 0 1rem 1rem; background: #f5f0e8; }
+  .task-body p { padding-block-start: .5rem; margin-block: 0; }
+  .video-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem; }
+  .documentary-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 2rem; }
+  .documentary-grid :global(img) { display: block; width: 100%; height: auto; margin-block-end: 1rem; }
+  .video-reading { display: block; margin-block-start: .5rem; }
+  .duration { font-size: 17px; }
+  .video-image { display: block; position: relative; background: #1a1207; margin-block-end: .75rem; }
+  .video-image img { width: 100%; height: auto; aspect-ratio: 4/3; object-fit: contain; display: block; }
+  .play { position: absolute; inset-block-end: .75rem; inset-inline-end: .75rem; background: #0e6b5e; color: white; padding: .1rem .7rem; border-radius: 4px; font-family: sans-serif; }
+  .video-grid p { margin-block: .5rem; }
+  time { color: #67573e; }
+  .news-list article { border-block-end: 1px solid #e2d9c8; padding-block: 1rem; }
+  .news-list time { margin-inline-start: 1rem; }
+  .next-step { padding: 1.5rem; background: #f5f0e8; border-block-start: 3px solid #0e6b5e; }
+  @media (max-width: 700px) {
+    .hub-wrap { padding-inline: 1rem; }
+    .hub-hero, .learning-path, .audience, .video-grid, .documentary-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .hub-hero { padding-block: 1.5rem; }
+    .hero-note { padding: 1rem 1.3rem; }
+    .hero-note p { font-size: 1.2rem; margin-block: .5rem; }
+    .hub-section { padding-block: 2rem; }
+    .section-nav { gap: .5rem 1.2rem; }
+    h2 { font-size: 1.45rem; }
+  }
+</style>
