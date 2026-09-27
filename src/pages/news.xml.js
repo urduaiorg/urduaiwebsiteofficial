@@ -1,21 +1,15 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { newestPublished, publicationTime } from '../utils/homepage-content.mjs';
 
 export async function GET(context) {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
 
-  // Google News: filter to اے آئی اپڈیٹ category (news posts)
-  // Include last 30 days on launch to seed the feed; ongoing only last 48h qualify
-  // for Google News freshness, but keeping 30 days ensures indexing on new submission
-  const thirtyDaysAgo = new Date();
-  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-
-  const newsPosts = posts
-    .filter(p => {
-      const postDate = new Date(p.data.date);
-      return postDate >= thirtyDaysAgo;
-    })
-    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  // Preserve the existing RSS URL for subscribers. Google News uses the
+  // separate rolling-window /news-sitemap.php endpoint.
+  const now = Date.now();
+  const newsPosts = newestPublished(posts, now)
+    .filter(post => post.data.category === 'اے آئی اپڈیٹ' && publicationTime(post) >= now - 30 * 86400000)
     .slice(0, 1000);
 
   return rss({
@@ -25,7 +19,7 @@ export async function GET(context) {
     items: newsPosts.map(post => ({
       title: post.data.title,
       description: post.data.description,
-      pubDate: new Date(post.data.date),
+      pubDate: new Date(publicationTime(post)),
       link: `/blog/${post.id}/`,
       categories: [post.data.category],
       ...(post.data.image ? {

@@ -10,6 +10,7 @@ import RelatedTools from '../components/RelatedTools.astro';
 import InlineNewsletter from '../components/InlineNewsletter.astro';
 import { getToolsByNames } from '../data/tools';
 import legacyCommentsPayload from '../data/legacy-comments.json';
+import { articleDates } from '../utils/article-dates.mjs';
 
 export interface Props {
   title: string;
@@ -80,20 +81,22 @@ const legacyCommentsData = legacyCommentsPayload as {
 };
 
 // Date-only frontmatter should display as the same calendar day in every timezone.
-const dateParts = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+const dates = articleDates(date, publishedAt, last_updated);
+const displayDate = publishedAt ? new Date(publishedAt).toISOString().slice(0, 10) : date;
+const dateParts = displayDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
 const dateObj = dateParts
   ? new Date(Number(dateParts[1]), Number(dateParts[2]) - 1, Number(dateParts[3]))
-  : new Date(date);
+  : new Date(displayDate);
 const formattedDate = dateObj.toLocaleDateString('ur-PK', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
-const updatedParts = last_updated?.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-const updatedObj = last_updated
+const updatedParts = dates.updated?.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+const updatedObj = dates.updated
   ? updatedParts
     ? new Date(Number(updatedParts[1]), Number(updatedParts[2]) - 1, Number(updatedParts[3]))
-    : new Date(last_updated)
+    : new Date(dates.updated)
   : null;
 const formattedUpdatedDate = updatedObj?.toLocaleDateString('ur-PK', {
   year: 'numeric',
@@ -118,8 +121,8 @@ const articleSchema = {
   },
   "headline": title,
   "description": description,
-  "datePublished": publishedAt ?? date,
-  "dateModified": last_updated ?? date,
+  "datePublished": dates.published,
+  "dateModified": dates.modified,
   ...(articleKeywords.length > 0 ? { "keywords": articleKeywords } : {}),
   ...(isNewsPost ? {
     "articleSection": "اے آئی اپڈیٹ",
@@ -128,7 +131,7 @@ const articleSchema = {
   "author": author === 'اردو اے آئی ٹیم' ? {
     "@type": "Organization",
     "name": "اردو اے آئی",
-    "url": "https://urduai.org",
+    "url": "https://urduai.org/team/",
   } : {
     "@type": "Person",
     "name": author,
@@ -285,12 +288,12 @@ const combinedSchema = [
         </div>
         <span>{author}</span>
       </div>
-      <time datetime={date} class="article-header__date">
+      <time datetime={dates.published} class="article-header__date">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
         {formattedDate}
       </time>
-      {last_updated && formattedUpdatedDate && (
-        <time datetime={last_updated} class="article-header__date">
+      {dates.updated && formattedUpdatedDate && (
+        <time datetime={dates.updated} class="article-header__date">
           آخری جانچ: {formattedUpdatedDate}
         </time>
       )}
@@ -440,6 +443,7 @@ const combinedSchema = [
         <div class="author-card__info">
           <p class="author-card__name">{author}</p>
           <p class="author-card__bio">{authorBio}</p>
+          <p><a href={`${base}/editorial-policy/`}>ادارتی اصول اور تصحیح</a> · <a href={`${base}/team/`}>ہماری ٹیم</a></p>
           <div class="author-card__social">
             <a href="https://x.com/urduaiorg" rel="noopener" target="_blank">X</a>
             <a href="https://www.facebook.com/urduaiorg" rel="noopener" target="_blank">Facebook</a>

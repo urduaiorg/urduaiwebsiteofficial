@@ -15,5 +15,8 @@ export default defineConfig({
   markdown: { rehypePlugins: [contentHeadings] },
   // Consent-gated analytics runs on the main thread. Forwarding gtag or
   // dataLayer to an empty worker replaces the consent guard and loses events.
-  integrations: [sitemap({ filter: page => new URL(page).pathname !== '/covers/' }), staticBidi()],
+  integrations: [sitemap({
+    filter: page => new URL(page).pathname !== '/covers/',
+    customSitemaps: ['https://urduai.org/news-sitemap.php'],
+  }), staticBidi()],
 });
