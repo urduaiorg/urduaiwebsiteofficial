@@ -248,6 +248,19 @@ We write at the level of a newspaper column, not an academic paper. Urdu has a b
 
 ---
 
+## Event Coverage — Covers and Headlines
+
+Added 29 September 2026 following Qaisar’s editorial direction.
+
+- For conferences, keynotes, launch events and major announcement roundups, prefer a verified photograph of the actual event, speaker, stage or announcement screen. Next prefer an official product screenshot or announcement asset. Use a conceptual illustration only when documentary material is unavailable or cannot clearly explain the story.
+- A generic person using a laptop is not the default for event news. Human-centred storytelling remains appropriate when the article is about a person's experience or the effect on everyday life.
+- Preserve documentary photography: do not invent or redraw the speaker, stage, slide text, product names, logos, attendance or event setting. Keep the source photograph intact when composing the cover; use generated artwork only for clearly separate editorial design elements. Never describe generated scenes as event photographs.
+- Keep the premium UrduAI system: dark editorial fields, restrained topic color, thin rules, readable Nastaliq, safe margins, exact controlled `Urdu Ai` wordmark and 1200×630 export. A documentary cover can use more of the photograph when the event itself provides the strongest visual context; do not force a human/abstract 70/20/10 formula at the cost of authenticity.
+- Record the original image URL, photographer/rights credit where available, date and event identity. A photo supplied by Qaisar may be used as supplied material, but must not be labelled an official company image without verification. Preserve the original and distinguish reference photos from final approved covers.
+- Article headlines should name the event or company and the concrete announcements. Cover headlines should be short, factual and related to that event; pair a brief Urdu headline with the exact event name when that improves recognition. Avoid broad promises such as “AI will do everything” or claiming unreleased features are available.
+- Section headings should explain each announcement or group of related announcements, including access or device limits where material. Do not force every announcement into a separate article.
+- This event-specific rule takes priority over the general preference for a relatable human scene. All existing source verification, cover text, brand, mobile readability and publication checks still apply.
+
 ## Title Writing
 
 Titles follow this pattern: **[What] + [Specific detail] + [Why care]**
