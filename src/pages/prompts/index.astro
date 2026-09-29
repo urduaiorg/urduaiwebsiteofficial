@@ -34,6 +34,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       پہلی بار اے آئی استعمال کر رہے ہیں؟ <a href={`${base}/practice/`}>تین عملی مشقوں سے شروع کریں اور جواب جانچنا سیکھیں</a>۔
     </p>
 
+    <aside style="margin-block-end: var(--space-lg); padding: 1.25rem; background: var(--paper-warm); border-inline-start: 3px solid var(--teal);">
+      <h2><a href={`${base}/muse/prompts/`}>میوز پرامٹ لائبریری ←</a></h2>
+      <p>پاکستانی کاموں کے لیے اردو ہدایات: ملازمتیں، اسکالرشپس، کوئز، کاروبار، گھر اور دفتر۔ اپنا شعبہ چنیں، پرامٹ کاپی کریں اور نتیجہ جانچیں۔</p>
+    </aside>
+
     <div class="post-grid">
       {collections.map(c => (
         <article class="card">

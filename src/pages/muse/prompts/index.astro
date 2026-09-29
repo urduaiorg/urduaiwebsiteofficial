@@ -1,0 +1,211 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const prompts = (await getCollection('musePrompts', ({ data }) => !data.draft)).sort((a, b) => a.data.order - b.data.order);
+const audiences = [
+  ['schools', 'اسکول انتظامیہ'], ['business', 'چھوٹے کاروبار'], ['freelancers', 'فری لانسرز'],
+  ['government', 'سرکاری دفاتر'], ['students', 'طلبہ'], ['home', 'گھریلو خواتین'],
+];
+const title = 'میوز پرامٹ لائبریری: پاکستانی صارفین کے لیے اردو ہدایات';
+const description = 'میوز کے لیے اردو پرامٹس کاپی کریں: ملازمتیں، اسکالرشپس، روزانہ رپورٹ، کوئز، کاروبار اور گھر کے کام۔ ہر مثال کے ساتھ ضروری تیاری اور نتیجہ جانچنے کا طریقہ۔';
+const canonical = 'https://urduai.org/muse/prompts/';
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: canonical, inLanguage: 'ur',
+    mainEntity: { '@type': 'ItemList', numberOfItems: prompts.length, itemListElement: prompts.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.data.title, url: `${canonical}#${p.id}` })) } },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ہوم', item: 'https://urduai.org/' },
+    { '@type': 'ListItem', position: 2, name: 'میوز', item: 'https://urduai.org/muse/' },
+    { '@type': 'ListItem', position: 3, name: 'پرامٹ لائبریری', item: canonical },
+  ] },
+];
+---
+<Base title={title} description={description} canonical={canonical} schema={schema} adsense={true}>
+  <div class="library">
+    <nav class="crumb" aria-label="بریڈکرمب"><a href="/">ہوم</a> / <a href="/muse/">میوز</a> / <span aria-current="page">پرامٹ لائبریری</span></nav>
+    <header class="library-hero">
+      <div>
+        <p class="eyebrow">پاکستانی زندگی، کام کی اردو ہدایات</p>
+        <h1>میوز سے کیا کام لیں؟<br />یہاں سے آغاز کریں۔</h1>
+        <p>میوز پرامٹ لائبریری میں روزمرہ کاموں کے لیے تیار اردو ہدایات ہیں۔ اپنا کام چنیں، پرامٹ میں اپنی معلومات بھریں اور میوز (Muse) کو بھیجیں۔ ہر مثال کے ساتھ ضروری تیاری اور نتیجہ جانچنے کا طریقہ دیا گیا ہے۔</p>
+        <a class="primary" href="#browse">اپنے کام کا پرامٹ چنیں ↓</a>
+      </div>
+      <aside class="library-note"><span class="count">{prompts.length}</span><p>عملی پرامٹس · 6 شعبے</p><p>ایک چھوٹا کام آزمائیں۔<br />نتیجہ دیکھیں۔<br /><strong>پھر روزمرہ کا حصہ بنائیں۔</strong></p></aside>
+    </header>
+
+    <section class="start" aria-labelledby="start-title">
+      <h2 id="start-title">تین آسان قدم</h2>
+      <ol><li><strong>تیاری کریں:</strong> فائل یا ضروری ایپ کی رسائی چیک کریں۔ صرف وہ معلومات دیں جو اس کام کے لیے ضروری ہیں۔</li><li><strong>اپنی تفصیل بھریں:</strong> کاپی کیے گئے متن میں [قوسین] کی جگہ اپنا لنک، شہر، وقت یا مطلوبہ کام لکھیں۔</li><li><strong>پہلا نتیجہ جانچیں:</strong> مثال کے آخر میں دیا گیا چیک کریں۔ روزانہ کا کام اسی وقت مقرر کریں جب پہلا نتیجہ درست ہو۔</li></ol>
+      <p><a href="/blog/meta-muse-connectors-canva-github-drive-urdu/">کنیکٹر کیسے جوڑیں؟ مکمل اردو گائیڈ پڑھیں ←</a></p>
+    </section>
+
+    <details class="availability"><summary>دستیابی، مفت استعمال اور ان مثالوں کی حیثیت</summary>
+      <p>29 ستمبر 2026 کو میٹا کے اعلان میں میوز کی دستیابی امریکہ اور کینیڈا کے لیے بتائی گئی ہے؛ پاکستان میں عام دستیابی کی تصدیق نہیں۔ یہ لائبریری پاکستانی کاموں کی مثالیں دیتی ہے، پاکستان میں ہر اکاؤنٹ پر رسائی کی ضمانت نہیں۔ <a href="https://about.fb.com/news/2026/09/introducing-muse-small-business/">میٹا کا اعلان</a>۔</p>
+      <p>مفت استعمال کی حدود ہیں اور زیادہ استعمال کے لیے بامعاوضہ پلان بھی ہیں۔ کنیکٹر کی دوسری ایپ کی اپنی فیس ہو سکتی ہے۔ میوز کی عمر کی شرط 18 سال ہے۔ <a href="https://www.meta.com/help/subscriptions/1021145227643680/">پلان کی تفصیل</a> · <a href="https://muse.ai/terms">شرائط</a>۔</p>
+      <p><strong>تجویز کردہ</strong> کا مطلب: پرامٹ تیار ہے، مگر اس پورے کام کو ہم نے میوز اکاؤنٹ میں چلا کر نہیں جانچا۔ <strong>عملی جانچ شدہ</strong> مثال کے ساتھ جانچ کی تاریخ دی جائے گی۔ کنیکٹر، اجازت اور پلان کے فرق سے نتیجہ بدل سکتا ہے۔</p>
+      <p>میٹا کی رہنمائی میں روزانہ یا ہفتہ وار کام مقرر کرنے کی سہولت موجود ہے۔ اپنا وقت پاکستان کے لیے <bdi dir="ltr">Asia/Karachi</bdi> لکھیں اور میوز سے اگلی بار چلنے کی تصدیق لیں۔ ای میل آتے ہی کام شروع ہونا ہر کنیکٹر میں ثابت نہیں۔ <a href="https://www.meta.com/help/artificial-intelligence/1484325780075655/">شیڈول کی آفیشل رہنمائی</a>۔</p>
+    </details>
+
+    <section id="browse" aria-labelledby="browse-title">
+      <h2 id="browse-title">آپ کس کام میں مدد چاہتے ہیں؟</h2>
+      <div class="controls" hidden>
+        <label for="prompt-search">لفظ یا ایپ سے تلاش کریں</label>
+        <input id="prompt-search" type="search" placeholder="مثلاً ملازمت، کوئز، Canva، GitHub" autocomplete="off" />
+        <div class="filters" role="group" aria-label="اپنا شعبہ چنیں">
+          <button type="button" data-filter="all" aria-pressed="true">سب پرامٹس</button>
+          {audiences.map(([id, label]) => <button type="button" data-filter={id} aria-pressed="false">{label}</button>)}
+        </div>
+        <p class="results" role="status" aria-live="polite"></p>
+      </div>
+      <p class="testing-note">ان مثالوں کی حیثیت «تجویز کردہ» ہے۔ پہلے اپنے اکاؤنٹ میں ایک چھوٹا نتیجہ چیک کریں۔</p>
+      <div class="prompt-list">
+        {prompts.map(p => (
+          <article id={p.id} class="prompt" data-audiences={p.data.audiences.join(' ')} data-search={`${p.data.title} ${p.data.description} ${p.data.connectors.join(' ')} ${p.body}`}>
+            <div class="prompt-heading"><span class="number" aria-hidden="true">{String(p.data.order).padStart(2, '0')}</span><div>
+              <p class="meta">{audiences.filter(([id]) => p.data.audiences.includes(id as typeof p.data.audiences[number])).map(([, label]) => label).join(' · ')}</p>
+              <h3><a href={`#${p.id}`}>{p.data.title}</a></h3>
+              <p>{p.data.description}</p>
+              <span class="status-label">{p.data.status === 'tested' ? `عملی جانچ شدہ · ${p.data.tested_on}` : 'تجویز کردہ پرامٹ'}</span>
+              <p class="apps">کہاں استعمال کریں: میوز · {p.data.connectors.length ? <>متعلقہ ایپس: {p.data.connectors.map((name, i) => <>{i > 0 && '، '}<bdi dir="ltr">{name}</bdi></>)}</> : 'کنیکٹر ضروری نہیں'}</p>
+            </div></div>
+            <details class="prompt-details">
+              <summary>پرامٹ اور استعمال کا طریقہ کھولیں</summary>
+              <div class="prompt-content">
+                <p><strong>پہلے کیا چاہیے؟</strong> {p.data.requirements}</p>
+                <p class="replace">[قوسین] والی جگہ اپنی معلومات لکھیں۔</p>
+                <div class="prompt-text" id={`text-${p.id}`}>{p.body?.trim()}</div>
+                <div class="copy-row"><button type="button" class="copy" data-copy={`text-${p.id}`} hidden aria-label={`${p.data.title} — پرامٹ کاپی کریں`}>پرامٹ کاپی کریں</button><span class="copy-status" role="status" aria-live="polite"></span></div>
+                <p><strong>متوقع نتیجہ:</strong> {p.data.output}</p>
+                <p class="check"><strong>نتیجہ کیسے جانچیں؟</strong> {p.data.check}</p>
+                {p.data.sources.length > 0 && <p class="sources">اصل ذرائع: {p.data.sources.map((source, i) => <>{i > 0 && ' · '}<a href={source.url}>{source.title}</a></>)}</p>}
+                <a class="permalink" href={`#${p.id}`}>اس پرامٹ کا مستقل لنک</a>
+              </div>
+            </details>
+          </article>
+        ))}
+      </div>
+      <p class="empty" hidden>اس تلاش کا کوئی پرامٹ نہیں ملا۔ لفظ بدلیں یا تمام شعبے دیکھیں۔</p>
+    </section>
+    <p class="sources">ان ہدایات کو اردو اے آئی نے پاکستانی ضرورتوں کے لیے لکھا ہے۔ کچھ استعمالات کے انتخاب میں <a href="https://museatwork.app/">میوز ایٹ ورک (Muse at Work)</a> سے تحریک لی گئی ہے؛ متعلقہ مثالوں میں اس کا حوالہ موجود ہے۔ کسی ڈائریکٹری میں مثال موجود ہونا میوز میں اس کی عملی جانچ کا ثبوت نہیں۔</p>
+    <aside class="next"><h2>آپ کا اگلا کام کون سا ہے؟</h2><p>ایک پرامٹ چنیں اور پہلے چھوٹے نمونے پر آزمائیں۔ مزید سمجھنے کے لیے میوز کی گائیڈز اور ویڈیوز بھی دیکھیں۔</p><a href="/muse/">میوز کا مکمل سلسلہ ←</a> · <a href="/prompts/">دوسرے ٹولز کے اردو پرامٹس ←</a></aside>
+  </div>
+</Base>
+
+<script>
+  const library = document.querySelector<HTMLElement>('.library');
+  if (library) {
+    const controls = library.querySelector<HTMLElement>('.controls');
+    const search = library.querySelector<HTMLInputElement>('#prompt-search');
+    const buttons = [...library.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+    const entries = [...library.querySelectorAll<HTMLElement>('.prompt')];
+    const result = library.querySelector<HTMLElement>('.results');
+    const empty = library.querySelector<HTMLElement>('.empty');
+    let selected = 'all';
+    const normalize = (text: string) => text.toLocaleLowerCase().replace(/[يى]/g, 'ی').replace(/ك/g, 'ک').replace(/[\u064B-\u065F\u0670]/g, '').trim();
+    function filter() {
+      const words = normalize(search?.value ?? '').split(/\s+/).filter(Boolean);
+      let count = 0;
+      entries.forEach(entry => {
+        const matches = (selected === 'all' || entry.dataset.audiences?.split(' ').includes(selected)) && words.every(word => normalize(entry.dataset.search ?? '').includes(word));
+        entry.hidden = !matches;
+        if (matches) count++;
+      });
+      buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === selected)));
+      if (result) result.textContent = `${count} پرامٹس دکھائے جا رہے ہیں۔`;
+      if (empty) empty.hidden = count > 0;
+    }
+    if (controls) controls.hidden = false;
+    buttons.forEach(button => button.addEventListener('click', () => { selected = button.dataset.filter ?? 'all'; filter(); }));
+    search?.addEventListener('input', filter);
+    filter();
+    library.querySelectorAll<HTMLButtonElement>('[data-copy]').forEach(button => {
+      button.hidden = false;
+      button.addEventListener('click', async () => {
+        const text = document.getElementById(button.dataset.copy ?? '')?.textContent?.trim();
+        const status = button.parentElement?.querySelector<HTMLElement>('.copy-status');
+        if (!text || !status) return;
+        try {
+          await navigator.clipboard.writeText(text);
+          status.textContent = 'کاپی ہو گیا۔ قوسین والی جگہ اپنی تفصیل لکھیں۔';
+        } catch {
+          status.textContent = 'خودکار کاپی نہ ہو سکی۔ اوپر کا متن منتخب کر کے کاپی کریں۔';
+        }
+      });
+    });
+    function openLinkedPrompt() {
+      let id: string;
+      try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+      const entry = entries.find(item => item.id === id);
+      if (!entry) return;
+      selected = 'all';
+      if (search) search.value = '';
+      filter();
+      const details = entry.querySelector('details');
+      if (details) details.open = true;
+      entry.scrollIntoView({ block: 'start' });
+    }
+    window.addEventListener('hashchange', openLinkedPrompt);
+    openLinkedPrompt();
+  }
+</script>
+
+<style>
+  .library { max-width: 1100px; margin-inline: auto; padding: 1.5rem 1.25rem 4rem; color: #1a1207; background: #fdfaf4; }
+  .library a { color: #0e6b5e; text-underline-offset: .3em; }
+  .crumb, .eyebrow, .meta, .apps, .status-label, .results, .sources, .copy-status, .permalink, .testing-note { font-size: 17px; }
+  .library-hero { display: grid; grid-template-columns: minmax(0, 2fr) minmax(230px, 1fr); gap: 3rem; align-items: center; padding-block: 2rem; }
+  h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 2; margin-block: .5rem 1rem; }
+  h2 { font-size: 1.6rem; line-height: 2; margin-block: 0 1rem; }
+  h3 { font-size: 1.3rem; line-height: 2.2; margin-block: .25rem; }
+  p, li { line-height: 2.4; }
+  .eyebrow { color: #745409; }
+  .library-note { background: #f5f0e8; border-block: 3px solid #b8860b; padding: 1.5rem; }
+  .library-note p { margin-block: .6rem; }
+  .library-note strong { color: #0e6b5e; }
+  .count { font: 4rem Georgia, serif; color: #85600c; }
+  .primary, .copy { display: inline-block; background: #0e6b5e; color: white !important; border: 1px solid #0e6b5e; border-radius: 4px; padding: .4rem 1rem; text-decoration: none; }
+  .start { border-block: 1px solid #e2d9c8; padding-block: 1.5rem; }
+  ol { padding-inline-start: 1.6rem; }
+  li { padding-inline-start: .4rem; margin-block: .7rem; }
+  .availability { background: #fdf4d8; border-inline-start: 3px solid #b8860b; padding: .7rem 1.2rem; margin-block: 1.5rem 2.5rem; }
+  .availability p { font-size: 17px; }
+  summary { cursor: pointer; line-height: 2.4; padding-block: .5rem; }
+  #browse, .prompt { scroll-margin-block-start: 7rem; }
+  .controls { margin-block: 1.5rem; }
+  label { display: block; margin-block-end: .4rem; }
+  input { width: 100%; max-width: 38rem; box-sizing: border-box; padding: .55rem .8rem; border: 1px solid #c4b89a; background: white; border-radius: 4px; font: inherit; font-size: 17px; line-height: 2.4; color: #1a1207; }
+  .filters { display: flex; flex-wrap: wrap; gap: .6rem; margin-block-start: 1rem; }
+  button { font: inherit; font-size: 17px; line-height: 2.4; cursor: pointer; }
+  .filters button { border: 1px solid #c4b89a; border-radius: 4px; padding: .3rem .8rem; background: transparent; color: #3d3222; }
+  .filters button[aria-pressed='true'] { background: #0e6b5e; border-color: #0e6b5e; color: white; }
+  .prompt { border-block-start: 1px solid #c4b89a; padding-block: 1.5rem; }
+  .prompt-heading { display: grid; grid-template-columns: 3rem minmax(0,1fr); gap: 1rem; }
+  .number { font: 1.7rem Georgia, serif; color: #85600c; padding-block-start: .3rem; }
+  .meta { color: #67573e; margin-block: 0; }
+  .prompt-heading p { margin-block: .5rem; }
+  h3 a { text-decoration: none; }
+  h3 a:hover { text-decoration: underline; }
+  .status-label { display: inline-block; color: #67501e; background: #fdf4d8; padding: .15rem .6rem; border-radius: 3px; }
+  .prompt-details { margin-inline-start: 4rem; }
+  .prompt-details summary { color: #0e6b5e; }
+  .prompt-content { padding-block: .5rem; }
+  .replace { font-size: 17px; }
+  .prompt-text { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 2.6; padding: 1.25rem; background: #f5f0e8; border-inline-start: 3px solid #0e6b5e; user-select: text; }
+  .copy-row { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-block: 1rem; }
+  .check { border-block-start: 1px solid #e2d9c8; padding-block-start: 1rem; }
+  .next { border-block-start: 3px solid #0e6b5e; background: #f5f0e8; padding: 1.5rem; margin-block-start: 2rem; }
+  [hidden] { display: none !important; }
+  a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid #b8860b; outline-offset: 4px; }
+  @media (max-width: 700px) {
+    .library { padding-inline: 1rem; }
+    .library-hero { grid-template-columns: 1fr; gap: 1rem; }
+    .library-note { padding: 1rem; }
+    .library-note .count { font-size: 2.5rem; }
+    .library-note p { margin-block: .25rem; }
+    .prompt-heading { grid-template-columns: 2rem minmax(0,1fr); gap: .6rem; }
+    .prompt-details { margin-inline-start: 0; }
+    .prompt-text { padding: 1rem; }
+    h2 { font-size: 1.4rem; }
+    h3 { font-size: 1.2rem; }
+  }
+</style>

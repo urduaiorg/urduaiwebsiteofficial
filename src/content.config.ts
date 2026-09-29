@@ -153,4 +153,24 @@ const courses = defineCollection({
   }),
 });
 
-export const collections = { blog, guides, howto, prompts, learn, courses };
+const musePrompts = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/muse-prompts' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    order: z.number().int().positive(),
+    audiences: z.array(z.enum(['schools', 'business', 'freelancers', 'government', 'students', 'home'])).min(1),
+    connectors: z.array(z.string()),
+    requirements: z.string(),
+    output: z.string(),
+    check: z.string(),
+    sources: z.array(z.object({ title: z.string(), url: z.string().url() })).default([]),
+    status: z.enum(['suggested', 'tested']).default('suggested'),
+    tested_on: dateString.optional(),
+    draft: z.boolean().default(false),
+  }).refine(data => data.status !== 'tested' || Boolean(data.tested_on), {
+    message: 'Tested Muse prompts must include a test date.',
+  }),
+});
+
+export const collections = { blog, guides, howto, prompts, learn, courses, musePrompts };
