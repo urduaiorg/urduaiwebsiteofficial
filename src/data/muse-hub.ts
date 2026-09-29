@@ -1,6 +1,7 @@
 // Curated hub membership: source articles retain their URLs and publication dates.
 // Suggested tasks are editorial ideas, not claims of end-to-end product testing.
 export const museResources = [
+  { collection: 'blog', id: 'meta-muse-connectors-canva-github-drive-urdu', section: 'news', label: 'کنیکٹر گائیڈ' },
   { collection: 'blog', id: 'ai-agents-life-education-work-pakistan-documentary', section: 'documentaries', label: 'دستاویزی فلم', note: 'ایجنٹس، تعلیم اور بھروسے کے سوالات؛ فلم کے منتخب حصے اور تحقیق کے ساتھ۔' },
   { collection: 'blog', id: 'ai-jobs-pakistan-skills-documentary', section: 'documentaries', label: 'دستاویزی فلم', note: 'نوکری پر اثر اور نوکری ختم ہونے کا فرق؛ طلبہ اور فری لانسرز کے لیے عملی تیاری۔' },
   { collection: 'blog', id: 'meta-muse-personal-ai-agent-how-to-use-urdu', section: 'start', label: 'تعارف', note: 'میوز کیا ہے، کس طرح کام کرتا ہے اور آغاز کے وقت کیا دیکھنا چاہیے؟' },
