@@ -1,0 +1,8 @@
+name = "urduai-learning-api"
+main = "worker.mjs"
+account_id = "3a78ea3f00cfab78d0b8e5a51a6c25c0"
+compatibility_date = "2026-09-19"
+workers_dev = true
+preview_urls = false
+[observability]
+enabled = false
