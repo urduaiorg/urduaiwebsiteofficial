@@ -1,0 +1,42 @@
+{
+  "status": "approved-ready-to-deploy",
+  "build": "npm run build passed with article included (including postbuild)",
+  "cover": {
+    "method": "Built-in Imagegen, one generation and one targeted edit",
+    "dimensions": [
+      1200,
+      630
+    ],
+    "actual_asset_inspected": true,
+    "mobile_preview_width": 375,
+    "urdu_headline": "اے آئی کی ریاضی / ثبوت کی جانچ",
+    "wordmark": "Urdu Ai",
+    "plain_product_label": "OpenAI",
+    "visual_gate": "passed: exact Urdu, legible full size/mobile, labels within 50–60px safe margin, no invented logo"
+  },
+  "internal_links_checked": [
+    "/blog/openai-astra-ten-mathematics-advances-urdu/",
+    "/guides/schools-madaris-work-with-ai-urdu/"
+  ],
+  "source_urls": [
+    "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+    "https://github.com/openai/math",
+    "https://github.com/openai/math/blob/main/lean/README.md",
+    "https://lean-lang.org/learn/",
+    "https://agmai.org/general-sep29/"
+  ],
+  "review_date": "2026-10-06",
+  "proof_audit_performed": false,
+  "website_published": false,
+  "socials_published": false,
+  "numerals": "English digits 0–9 throughout article, FAQs and preview; user preference",
+  "published_at": "2026-10-07T05:02:54Z",
+  "publication_date": "2026-10-07",
+  "validation": {
+    "npm_test": "42 Node + 2 Python tests passed",
+    "article_date_tests": "3 passed",
+    "php_checks": "Local PHP unavailable; required checks will run in deployment workflow",
+    "article_html": "route, canonical URL, counts, publication timestamp, guide link, homepage and sitemap passed"
+  },
+  "cover_sha256": "e4aa41cbf1d8f53a64b52b8d14148da705cf9c3498d2c323e16bc713e3a0fe3e"
+}
