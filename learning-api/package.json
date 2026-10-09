@@ -1,0 +1,1 @@
+{"name":"urduai-learning-api","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test test.mjs","deploy":"npm run build && npm test && wrangler deploy"},"dependencies":{"js-yaml":"4.1.1"},"devDependencies":{"wrangler":"4.135.0"}}
