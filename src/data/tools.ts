@@ -520,7 +520,7 @@ export const tools: Tool[] = [
     pricingLabel: "مفت + ادا شدہ",
     pakistan: true,
     trending: true,
-    url: "https://flux1.ai",
+    url: "https://bfl.ai",
     guideUrl: null,
     color: "#2d3436",
     logo: "/images/tools/flux.png",
