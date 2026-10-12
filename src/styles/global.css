@@ -2418,6 +2418,21 @@ img {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 }
 
+.prose .prompt-box pre {
+  direction: inherit;
+  unicode-bidi: plaintext;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow: visible;
+}
+
 .prose .prompt-copy {
   position: absolute;
   top: 0.6rem;
