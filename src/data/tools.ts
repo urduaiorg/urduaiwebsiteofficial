@@ -21,6 +21,8 @@ export interface Tool {
   sourceUrl?: string;
   verifiedAt?: string;
   downloadLinks?: { label: string; url: string }[];
+  mobileLinksVerifiedAt?: string;
+  mobileNote?: string;
 }
 
 export const tools: Tool[] = [
@@ -39,9 +41,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/grok.png",
-    platformLabel: "ڈیسک ٹاپ اور آئی فون",
     sourceUrl: "https://x.ai/news/introducing-grok-bot",
     verifiedAt: "2026-09-10",
+    platformLabel: "ڈیسک ٹاپ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/grok-bot/id6794501026"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Google Flow",
@@ -57,10 +61,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/google-flow.png",
-    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
     sourceUrl: "https://labs.google/fx/tools/flow",
     verifiedAt: "2026-09-10",
-    downloadLinks: [{"label": "اینڈرائیڈ ایپ", "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.whisk"}, {"label": "آئی فون ایپ", "url": "https://apps.apple.com/pk/app/google-flow/id6751294549"}],
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/google-flow/id6751294549"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.whisk"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "DeepSeek",
@@ -76,9 +81,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/deepseek.ico",
-    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
     sourceUrl: "https://api-docs.deepseek.com/news/news250115/",
     verifiedAt: "2026-09-10",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/deepseek-ai-assistant/id6737597349"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.deepseek.chat"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Qwen Studio",
@@ -94,10 +101,12 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/qwen.png",
-    platformLabel: "ویب، موبائل اور کمپیوٹر",
     sourceUrl: "https://qwen.ai/qwenchat",
     verifiedAt: "2026-09-10",
     aliases: ["Qwen", "Qwen Chat", "کوین"],
+    platformLabel: "ویب، کمپیوٹر، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/qwen-studio-ask-qwen-know-more/id6743778442"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.qwenlm.chat.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Kimi",
@@ -113,9 +122,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/kimi.png",
-    platformLabel: "ویب",
     sourceUrl: "https://www.kimi.com/en/help/features/project",
     verifiedAt: "2026-09-10",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/kimi-kimi-k3-is-live/id6474233312"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.moonshot.kimichat"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Mistral Vibe",
@@ -131,10 +142,12 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/mistral.svg",
-    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
     sourceUrl: "https://mistral.ai/products/vibe/",
     verifiedAt: "2026-09-10",
     aliases: ["Le Chat", "Mistral", "لی چیٹ"],
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/vibe-by-mistral-ex-le-chat/id6740410176"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.mistral.chat"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Manus",
@@ -150,9 +163,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/manus.png",
-    platformLabel: "ویب؛ تفصیلی کام کے لیے کمپیوٹر بہتر ہے",
     sourceUrl: "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus",
     verifiedAt: "2026-09-10",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون؛ تفصیلی کام کے لیے کمپیوٹر بہتر ہے",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/manus-ai-agent-automation/id6740909540"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=tech.butterfly.app"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Codex",
@@ -204,9 +219,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/firefly.ico",
-    platformLabel: "ویب",
     sourceUrl: "https://www.adobe.com/products/firefly/plans.html",
     verifiedAt: "2026-09-10",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/adobe-firefly-ai-video-photo/id6742595426"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.adobe.firefly"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "CapCut",
@@ -222,9 +239,11 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/capcut.ico",
-    platformLabel: "ویب، موبائل اور کمپیوٹر",
     sourceUrl: "https://www.capcut.com/tools/video-editing-software",
     verifiedAt: "2026-09-10",
+    platformLabel: "ویب، کمپیوٹر، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/capcut-photo-video-editor/id1500855883"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "n8n",
@@ -295,6 +314,9 @@ export const tools: Tool[] = [
     guideUrl: "/how-to/how-to-make-chatgpt-your-personal-assistant/",
     color: "#10a37f",
     logo: "/images/tools/chatgpt.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/chatgpt/id6448311069"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Gemini",
@@ -310,6 +332,9 @@ export const tools: Tool[] = [
     guideUrl: "/how-to/how-to-use-gemini-in-urdu/",
     color: "#1d559f",
     logo: "/images/tools/gemini.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/google-gemini/id6477489729"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Google AI Studio",
@@ -340,6 +365,9 @@ export const tools: Tool[] = [
     guideUrl: "/how-to/how-to-use-claude-for-writing/",
     color: "#cc785c",
     logo: "/images/tools/claude.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/claude-by-anthropic/id6473753684"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.anthropic.claude"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Microsoft Copilot",
@@ -355,6 +383,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0078d4",
     logo: "/images/tools/copilot.png",
+    platformLabel: "ویب؛ Microsoft 365 والے Copilot کی موبائل ایپس",
+    downloadLinks: [{"label": "Copilot (Microsoft 365) · iOS · App Store", "url": "https://apps.apple.com/pk/app/microsoft-copilot/id541164041"}, {"label": "Copilot (Microsoft 365) · Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.officehubrow"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Grok",
@@ -370,6 +401,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#1a1a1a",
     logo: "/images/tools/grok.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/grok-ai-assistant/id6670324846"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.x.grok"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Meta AI",
@@ -385,6 +419,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0668E1",
     logo: "/images/tools/meta-ai.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/meta-ai/id1558240027"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.facebook.stella"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
 
   // ── تحقیق و تلاش ──────────────────────
@@ -402,6 +439,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#20808d",
     logo: "/images/tools/perplexity.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/perplexity-ai-search-chat/id1668000334"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.perplexity.app.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "NotebookLM",
@@ -417,6 +457,10 @@ export const tools: Tool[] = [
     guideUrl: "/how-to/how-to-use-googles-ai-notebook-lm-5-best-tips-for-getting-started/",
     color: "#1d559f",
     logo: "/images/tools/notebooklm.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/gemini-notebook/id6737527615"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"}],
+    mobileLinksVerifiedAt: "2026-10-11",
+    mobileNote: "اسٹور میں گوگل کی یہ آفیشل ایپ Gemini Notebook کے نام سے دکھائی دے سکتی ہے۔",
   },
   {
     name: "Consensus",
@@ -464,6 +508,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#6c5ce7",
     logo: "/images/tools/ideogram.png",
+    platformLabel: "ویب اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/ideogram-ai-image-generator/id6476790495"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Leonardo AI",
@@ -479,6 +526,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#8b5cf6",
     logo: "/images/tools/leonardo.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/leonardo-ai-image-generator/id1662773014"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.leonardo.leonardo"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Midjourney",
@@ -509,6 +559,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0078d4",
     logo: "/images/tools/ms-designer.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/microsoft-designer/id6448308247"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.microsoft.designer"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Flux",
@@ -541,6 +594,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#ff6b35",
     logo: "/images/tools/kling.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/kling-ai-ai-image-video-maker/id6738049229"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=kling.ai.video.chat"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Runway",
@@ -556,6 +612,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#1a1a2e",
     logo: "/images/tools/runway.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/runway-ai-image-video/id1665024375"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.runwayml.prod"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Luma Dream Machine",
@@ -571,6 +630,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#7c3aed",
     logo: "/images/tools/luma.png",
+    platformLabel: "ویب اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/luma-dream-machine/id6478852867"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Pika",
@@ -586,6 +648,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#ec4899",
     logo: "/images/tools/pika.png",
+    platformLabel: "ویب اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/ai-video-trend-by-pika/id6744712684"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "HeyGen",
@@ -601,6 +666,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#5b21b6",
     logo: "/images/tools/heygen.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/ai-video-generator-heygen/id6711356409"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.heygen.app"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Veo",
@@ -633,11 +701,12 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#f97316",
     logo: "/images/tools/elevenlabs.png",
-    platformLabel: "ویب",
     sourceUrl: "https://elevenlabs.io/music",
     verifiedAt: "2026-10-11",
     aliases: ["Eleven Music", "ElevenMusic", "الیون میوزک"],
-    downloadLinks: [{ label: "ElevenMusic ویب ایپ", url: "https://elevenmusic.io/" }],
+    platformLabel: "ویب؛ ElevenMusic کی آئی فون ایپ",
+    downloadLinks: [{"label": "ElevenMusic ویب ایپ", "url": "https://elevenmusic.io/"}, {"label": "ElevenMusic · iOS · App Store", "url": "https://apps.apple.com/pk/app/elevenmusic-create-ai-songs/id6755965224"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Google Flow Music",
@@ -653,10 +722,12 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#0e6b5e",
     logo: "/images/tools/google-flow.png",
-    platformLabel: "ویب",
     sourceUrl: "https://support.google.com/flow/answer/17083868?hl=en",
     verifiedAt: "2026-10-11",
     aliases: ["Flow Music", "فلو میوزک"],
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/google-flow-music/id6760315723"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.reuben"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "ElevenLabs",
@@ -672,6 +743,9 @@ export const tools: Tool[] = [
     guideUrl: "/how-to/urduai-workshop-how-to-make-youtube-podcasts-with-ai/",
     color: "#f97316",
     logo: "/images/tools/elevenlabs.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/elevenlabs-ai-voice-generator/id6743162587"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=io.elevenlabs.coreapp"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Suno AI",
@@ -687,6 +761,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#1DB954",
     logo: "/images/tools/suno.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/suno-songs-music-maker/id6480136315"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.suno.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Udio",
@@ -702,6 +779,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#e11d48",
     logo: "/images/tools/udio.png",
+    platformLabel: "ویب اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/udio-ai-music-maker-studio/id6511211165"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Murf AI",
@@ -734,6 +814,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#15c39a",
     logo: "/images/tools/grammarly.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/grammarly-ai-keyboard-voice/id1158877342"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.grammarly.android.keyboard"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "QuillBot",
@@ -749,6 +832,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#2e7d32",
     logo: "/images/tools/quillbot.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/quillbot-gen-ai-writing-tool/id6463116243"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.quillbot.mobile"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Copy.ai",
@@ -796,6 +882,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#7d2ae8",
     logo: "/images/tools/canva.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/canva-ai-video-photo-editor/id897446215"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.canva.editor"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Remove.bg",
@@ -811,6 +900,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#2d3436",
     logo: "/images/tools/removebg.png",
+    platformLabel: "ویب اور اینڈرائیڈ",
+    downloadLinks: [{"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=bg.remove.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Napkin AI",
@@ -858,6 +950,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#000000",
     logo: "/images/tools/v0.png",
+    platformLabel: "ویب اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/v0/id6745097949"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Bolt.new",
@@ -888,6 +983,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#e11d48",
     logo: "/images/tools/lovable.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/lovable-build-apps-with-ai/id6757471107"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=dev.lovable.build"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "GitHub Copilot",
@@ -903,6 +1001,10 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#24292e",
     logo: "/images/tools/github-copilot.png",
+    platformLabel: "ویب، کوڈ ایڈیٹر؛ موبائل پر GitHub کی ایپ",
+    downloadLinks: [{"label": "GitHub Mobile · iOS · App Store", "url": "https://apps.apple.com/pk/app/github/id1477376905"}, {"label": "GitHub Mobile · Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.github.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
+    mobileNote: "Copilot موبائل پر GitHub کی آفیشل ایپ کے اندر استعمال ہوتا ہے۔",
   },
   {
     name: "Replit AI",
@@ -918,6 +1020,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#f26207",
     logo: "/images/tools/replit.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/replit-vibe-code-with-ai-fast/id1614022293"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.replit.app"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
 
   // ── پریزنٹیشن ──────────────────────
@@ -935,6 +1040,10 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#6366f1",
     logo: "/images/tools/gamma.png",
+    platformLabel: "ویب؛ موبائل ایپس امریکہ اور کینیڈا میں",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/gamma-ai-slides-design/id6768404578"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=app.gamma.mobile"}],
+    mobileLinksVerifiedAt: "2026-10-11",
+    mobileNote: "موبائل ایپس فی الحال امریکہ اور کینیڈا میں دستیاب ہیں؛ پاکستان میں ویب سائٹ استعمال کریں۔",
   },
 
   // ── تعلیم ──────────────────────
@@ -952,6 +1061,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#14bf96",
     logo: "/images/tools/khan-academy.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/khan-academy/id469863705"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=org.khanacademy.android"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Duolingo",
@@ -967,6 +1079,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#58cc02",
     logo: "/images/tools/duolingo.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/duolingo-language-chess/id570060128"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.duolingo"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Quizlet AI",
@@ -982,6 +1097,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#4257b2",
     logo: "/images/tools/quizlet.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/quizlet-ai-powered-flashcards/id546473125"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.quizlet.quizletandroid"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
 
   // ── پیداواری ──────────────────────
@@ -999,6 +1117,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#1a1a1a",
     logo: "/images/tools/notion.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/notion-notes-tasks-ai/id1232780281"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=notion.id"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Otter.ai",
@@ -1014,6 +1135,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#3b82f6",
     logo: "/images/tools/otter.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/otter-transcribe-voice-notes/id1276437113"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=com.aisense.otter"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
   {
     name: "Fireflies.ai",
@@ -1029,6 +1153,9 @@ export const tools: Tool[] = [
     guideUrl: null,
     color: "#7c3aed",
     logo: "/images/tools/fireflies.png",
+    platformLabel: "ویب، اینڈرائیڈ اور آئی فون",
+    downloadLinks: [{"label": "iOS · App Store", "url": "https://apps.apple.com/pk/app/fireflies-ai-notetaker/id6463164203"}, {"label": "Android · Google Play", "url": "https://play.google.com/store/apps/details?id=ai.fireflies.mobile"}],
+    mobileLinksVerifiedAt: "2026-10-11",
   },
 ];
 

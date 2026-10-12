@@ -141,6 +141,9 @@ const toolsSchema = [
       <p class="tools-hero__sub">
         پاکستانی students، freelancers، job seekers اور small businesses کے لیے منتخب tools۔ اپنا کام چنیں، tool تلاش کریں اور متعلقہ اردو guide کھولیں۔
       </p>
+      <p class="tools-hero__sub">
+        موبائل ایپ کے لیے کارڈ پر App Store یا Google Play کا آفیشل لنک کھولیں۔ ایپ کی دستیابی آپ کے ملک، عمر اور ڈیوائس کے مطابق ہو سکتی ہے۔
+      </p>
       <nav class="tools-audiences" aria-label="کام کے حساب سے AI tools">
         {audienceShortcuts.map(item => (
           <a
@@ -275,10 +278,16 @@ const toolsSchema = [
           {tool.downloadLinks && (
             <div class="tool-card__downloads">
               {tool.downloadLinks.map(link => (
-                <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label} ←</a>
+                <a href={link.url} target="_blank" rel="noopener noreferrer" dir="auto" aria-label={`${tool.name} — ${link.label}`}>{link.label} ←</a>
               ))}
             </div>
           )}
+          {tool.mobileLinksVerifiedAt && (
+            <p class="tool-card__verified">
+              {'موبائل ایپس کے آفیشل لنکس · تصدیق: '}<time datetime={tool.mobileLinksVerifiedAt}>{tool.mobileLinksVerifiedAt}</time>
+            </p>
+          )}
+          {tool.mobileNote && <p class="tool-card__platform">{tool.mobileNote}</p>}
           {tool.sourceUrl && tool.verifiedAt && (
             <p class="tool-card__verified">
               <a href={tool.sourceUrl} target="_blank" rel="noopener noreferrer">آفیشل تفصیل</a>
@@ -340,7 +349,7 @@ const toolsSchema = [
 
     <!-- Last updated -->
     <p class="tools-updated">
-      نئی ایپس شامل کی گئیں: ۱۰ ستمبر ۲۰۲۶۔ ہر نئی ایپ کے کارڈ پر آفیشل تفصیل اور تصدیق کی تاریخ موجود ہے۔ قیمت، استعمال کی حد اور دستیابی بدل سکتی ہے۔ پاکستان کا نشان نہ ہونے کا مطلب ہے کہ مقامی دستیابی کی تصدیق باقی ہے۔
+      موبائل ایپس کے آفیشل لنکس کی تصدیق: 11 اکتوبر 2026۔ متعلقہ کارڈ پر تصدیق کی تاریخ موجود ہے۔ قیمت، استعمال کی حد اور دستیابی بدل سکتی ہے۔ پاکستان کا نشان ویب سروس کی دستیابی کے لیے ہے؛ موبائل ایپ کی دستیابی اپنے اسٹور میں دیکھیں۔
     </p>
 
     <section class="tools-faq" aria-labelledby="tools-faq-title">
