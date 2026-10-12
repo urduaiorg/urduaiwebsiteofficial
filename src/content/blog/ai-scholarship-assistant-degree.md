@@ -53,28 +53,9 @@ draft: false
 
 اے آئی سے کوئی بھی کام کروانے سے پہلے، اس سے یہ پوچھیں:
 
-<div class="prompt-box" dir="rtl">
-<pre>
-میں [کام کا نام، مثلاً: ایک چھوٹے بزنس کی ویب سائٹ بنانا] کرنا چاہتا ہوں۔
-اس کام کو کرنے سے پہلے مجھے سمجھاؤ:
-1. اس میں سیفٹی کے کون سے خطرے ہیں؟
-2. اگر کچھ غلط ہو جائے تو ذمہ داری (liability) کس کی ہوگی؟
-3. پاکستان میں اس کام کے قانونی پہلو کیا ہو سکتے ہیں؟
-4. مجھے یہ سب گہرائی سے سمجھنے کے لیے کیا پڑھنا چاہیے؟
-آسان اردو میں جواب دو، اور جہاں تم یقین سے نہیں کہہ سکتے، وہاں صاف بتاؤ۔
-</pre>
-</div>
+<div class="prompt-box" dir="rtl"><pre>میں [کام کا نام، مثلاً: ایک چھوٹے بزنس کی ویب سائٹ بنانا] کرنا چاہتا ہوں۔&#10;اس کام کو کرنے سے پہلے مجھے سمجھاؤ:&#10;1. اس میں سیفٹی کے کون سے خطرے ہیں؟&#10;2. اگر کچھ غلط ہو جائے تو ذمہ داری (liability) کس کی ہوگی؟&#10;3. پاکستان میں اس کام کے قانونی پہلو کیا ہو سکتے ہیں؟&#10;4. مجھے یہ سب گہرائی سے سمجھنے کے لیے کیا پڑھنا چاہیے؟&#10;آسان اردو میں جواب دو، اور جہاں تم یقین سے نہیں کہہ سکتے، وہاں صاف بتاؤ۔</pre></div>
 
-<div class="prompt-box" dir="ltr">
-<pre>
-Before I do [task, e.g. build a website for a small business], explain:
-1. What safety risks does this work carry?
-2. If something goes wrong, who is liable?
-3. What legal aspects might apply in Pakistan?
-4. What should I read to understand all of this in depth?
-Answer in simple Urdu, and say clearly where you are not sure.
-</pre>
-</div>
+<div class="prompt-box" dir="ltr"><pre>Before I do [task, e.g. build a website for a small business], explain:&#10;1. What safety risks does this work carry?&#10;2. If something goes wrong, who is liable?&#10;3. What legal aspects might apply in Pakistan?&#10;4. What should I read to understand all of this in depth?&#10;Answer in simple Urdu, and say clearly where you are not sure.</pre></div>
 
 ---
 
@@ -90,44 +71,9 @@ Answer in simple Urdu, and say clearly where you are not sure.
 
 اے آئی کی چیٹ میں جا کر سیدھا یہ لکھیں (بریکٹ میں اپنی معلومات ڈالیں):
 
-<div class="prompt-box" dir="rtl">
-<pre>
-یہ میری پروفائل ہے:
-- ڈگری: [BS Sociology / BS IT / BS Education]، [سال] میں ختم ہو رہی ہے
-- رزلٹ / CGPA: [مثلاً 3.4]
-- شہر: [شہر]، پاکستان
-- دلچسپی: [مضمون یا فیلڈ]
-- بجٹ: [مکمل اسکالرشپ چاہیے / جزوی بھی چلے گی]
+<div class="prompt-box" dir="rtl"><pre>یہ میری پروفائل ہے:&#10;- ڈگری: [BS Sociology / BS IT / BS Education]، [سال] میں ختم ہو رہی ہے&#10;- رزلٹ / CGPA: [مثلاً 3.4]&#10;- شہر: [شہر]، پاکستان&#10;- دلچسپی: [مضمون یا فیلڈ]&#10;- بجٹ: [مکمل اسکالرشپ چاہیے / جزوی بھی چلے گی]&#10;&#10;میرا اگلا گول یہ ہے کہ میں کسی بیرونِ ملک یونیورسٹی میں اسکالرشپ پر پڑھوں۔&#10;مجھے ابھی نہیں معلوم کہ مجھے کیا کرنا چاہیے، کون سے قدم لینے چاہئیں، اور کون سی اسکالرشپس یا پروگرام بہترین ہیں۔&#10;&#10;کیا تم میری مدد کر سکتے ہو؟ انٹرنیٹ پر چھان بین کرو، اور میری پروفائل کے حساب سے بتاؤ:&#10;1. دنیا کی کون سی یونیورسٹیاں میرے ریکارڈ اور رزلٹ کے حساب سے مجھے داخلہ دے سکتی ہیں؟&#10;2. کون سی اسکالرشپس میرے لیے موزوں ہیں؟ ہر ایک کا آفیشل لنک بھی دو۔&#10;3. ہر ایک کی آخری تاریخ (deadline) کیا ہے؟&#10;جو معلومات تم یقین سے نہیں جانتے، اس پر "تصدیق کریں" لکھو۔</pre></div>
 
-میرا اگلا گول یہ ہے کہ میں کسی بیرونِ ملک یونیورسٹی میں اسکالرشپ پر پڑھوں۔
-مجھے ابھی نہیں معلوم کہ مجھے کیا کرنا چاہیے، کون سے قدم لینے چاہئیں، اور کون سی اسکالرشپس یا پروگرام بہترین ہیں۔
-
-کیا تم میری مدد کر سکتے ہو؟ انٹرنیٹ پر چھان بین کرو، اور میری پروفائل کے حساب سے بتاؤ:
-1. دنیا کی کون سی یونیورسٹیاں میرے ریکارڈ اور رزلٹ کے حساب سے مجھے داخلہ دے سکتی ہیں؟
-2. کون سی اسکالرشپس میرے لیے موزوں ہیں؟ ہر ایک کا آفیشل لنک بھی دو۔
-3. ہر ایک کی آخری تاریخ (deadline) کیا ہے؟
-جو معلومات تم یقین سے نہیں جانتے، اس پر "تصدیق کریں" لکھو۔
-</pre>
-</div>
-
-<div class="prompt-box" dir="ltr">
-<pre>
-Here is my profile:
-- Degree: [BS Sociology / BS IT / BS Education], finishing in [year]
-- Result / CGPA: [e.g. 3.4]
-- City: [city], Pakistan
-- Interest: [subject or field]
-- Budget: [need a full scholarship / partial is fine]
-
-My next goal is to study abroad on a scholarship. I don't yet know what to do, which steps to take, or which scholarships or programmes are best.
-
-Can you help me? Search the internet and, based on my profile, tell me:
-1. Which universities worldwide could admit me with my record and results?
-2. Which scholarships fit me? Give the official link for each.
-3. What is each deadline?
-Mark anything you are not certain about as "verify".
-</pre>
-</div>
+<div class="prompt-box" dir="ltr"><pre>Here is my profile:&#10;- Degree: [BS Sociology / BS IT / BS Education], finishing in [year]&#10;- Result / CGPA: [e.g. 3.4]&#10;- City: [city], Pakistan&#10;- Interest: [subject or field]&#10;- Budget: [need a full scholarship / partial is fine]&#10;&#10;My next goal is to study abroad on a scholarship. I don't yet know what to do, which steps to take, or which scholarships or programmes are best.&#10;&#10;Can you help me? Search the internet and, based on my profile, tell me:&#10;1. Which universities worldwide could admit me with my record and results?&#10;2. Which scholarships fit me? Give the official link for each.&#10;3. What is each deadline?&#10;Mark anything you are not certain about as "verify".</pre></div>
 
 ---
 
@@ -143,27 +89,9 @@ Mark anything you are not certain about as "verify".
 
 ### کاپی کرنے والا پرامپٹ 3: اگلے قدم اور ٹائم لائن
 
-<div class="prompt-box" dir="rtl">
-<pre>
-ان یونیورسٹیوں اور اسکالرشپس کے لیے مجھے قدم بہ قدم پلان بنا دو:
-1. مجھے کون سے ٹیسٹ دینے ہوں گے (مثلاً IELTS) اور کب تک؟
-2. کون سے کاغذات چاہئیں (ڈگری کی HEC تصدیق، ٹرانسکرپٹ، سفارشی خطوط، SOP)؟
-3. داخلہ کس سیزن میں ہے (winter / summer / fall)؟
-4. آج سے لے کر درخواست جمع کرانے تک ہفتہ وار ٹائم لائن بنا دو۔
-ہر قدم کے لیے آفیشل ویب سائٹ کا لنک بھی دو تاکہ میں خود تصدیق کر سکوں۔
-</pre>
-</div>
+<div class="prompt-box" dir="rtl"><pre>ان یونیورسٹیوں اور اسکالرشپس کے لیے مجھے قدم بہ قدم پلان بنا دو:&#10;1. مجھے کون سے ٹیسٹ دینے ہوں گے (مثلاً IELTS) اور کب تک؟&#10;2. کون سے کاغذات چاہئیں (ڈگری کی HEC تصدیق، ٹرانسکرپٹ، سفارشی خطوط، SOP)؟&#10;3. داخلہ کس سیزن میں ہے (winter / summer / fall)؟&#10;4. آج سے لے کر درخواست جمع کرانے تک ہفتہ وار ٹائم لائن بنا دو۔&#10;ہر قدم کے لیے آفیشل ویب سائٹ کا لنک بھی دو تاکہ میں خود تصدیق کر سکوں۔</pre></div>
 
-<div class="prompt-box" dir="ltr">
-<pre>
-Make me a step-by-step plan for these universities and scholarships:
-1. Which tests do I need (e.g. IELTS), and by when?
-2. Which documents are needed (HEC degree attestation, transcripts, recommendation letters, SOP)?
-3. Which intake is it (winter / summer / fall)?
-4. Build a week-by-week timeline from today to submission.
-Give the official website for each step so I can verify it myself.
-</pre>
-</div>
+<div class="prompt-box" dir="ltr"><pre>Make me a step-by-step plan for these universities and scholarships:&#10;1. Which tests do I need (e.g. IELTS), and by when?&#10;2. Which documents are needed (HEC degree attestation, transcripts, recommendation letters, SOP)?&#10;3. Which intake is it (winter / summer / fall)?&#10;4. Build a week-by-week timeline from today to submission.&#10;Give the official website for each step so I can verify it myself.</pre></div>
 
 ---
 
@@ -179,25 +107,9 @@ Give the official website for each step so I can verify it myself.
 
 ### کاپی کرنے والا پرامپٹ 4: ریمائنڈرز اور اسکالرشپس پر نظر
 
-<div class="prompt-box" dir="rtl">
-<pre>
-اب میں یہ قدم ایک ایک کر کے کروں گا۔ تم میری مدد ایسے کرو:
-1. ہر قدم کی تاریخ سے پہلے مجھے ریمائنڈر دیتے رہنا۔
-2. اسکالرشپس کی آفیشل ویب سائٹس، یونیورسٹیوں کے صفحات اور دوسرے بھروسے والے ذرائع پر نظر رکھو، خاص طور پر وہ جو گوگل کے پہلے صفحے یا سوشل میڈیا پر نظر نہیں آتیں۔
-3. مجھے ہر ہفتے ایک اپڈیٹ دو: کون سی نئی اسکالرشپ آئی، کون سی میرے لیے بہترین ہے، اور کس کی آخری تاریخ قریب ہے۔
-ہر اسکالرشپ کے ساتھ آفیشل لنک ضرور دینا۔
-</pre>
-</div>
+<div class="prompt-box" dir="rtl"><pre>اب میں یہ قدم ایک ایک کر کے کروں گا۔ تم میری مدد ایسے کرو:&#10;1. ہر قدم کی تاریخ سے پہلے مجھے ریمائنڈر دیتے رہنا۔&#10;2. اسکالرشپس کی آفیشل ویب سائٹس، یونیورسٹیوں کے صفحات اور دوسرے بھروسے والے ذرائع پر نظر رکھو، خاص طور پر وہ جو گوگل کے پہلے صفحے یا سوشل میڈیا پر نظر نہیں آتیں۔&#10;3. مجھے ہر ہفتے ایک اپڈیٹ دو: کون سی نئی اسکالرشپ آئی، کون سی میرے لیے بہترین ہے، اور کس کی آخری تاریخ قریب ہے۔&#10;ہر اسکالرشپ کے ساتھ آفیشل لنک ضرور دینا۔</pre></div>
 
-<div class="prompt-box" dir="ltr">
-<pre>
-I will now do these steps one by one. Help me like this:
-1. Remind me before each step's date.
-2. Watch official scholarship websites, university pages and other reliable sources, especially ones that don't show up on Google's first page or on social media.
-3. Send me a weekly update: which new scholarships appeared, which fits me best, and which deadlines are close.
-Always include the official link for each scholarship.
-</pre>
-</div>
+<div class="prompt-box" dir="ltr"><pre>I will now do these steps one by one. Help me like this:&#10;1. Remind me before each step's date.&#10;2. Watch official scholarship websites, university pages and other reliable sources, especially ones that don't show up on Google's first page or on social media.&#10;3. Send me a weekly update: which new scholarships appeared, which fits me best, and which deadlines are close.&#10;Always include the official link for each scholarship.</pre></div>
 
 ---
 
@@ -207,23 +119,9 @@ Always include the official link for each scholarship.
 
 ### کاپی کرنے والا پرامپٹ 5: پراگریس چیک اور تیاری کے نوٹس
 
-<div class="prompt-box" dir="rtl">
-<pre>
-ہر ہفتے مجھ سے میری پراگریس پوچھو اور پلان سے ملاؤ:
-- اگر میں کسی قدم میں پیچھے ہوں تو صاف بتاؤ اور نیا پلان بناؤ۔
-- IELTS کی تیاری کے لیے مجھے ہر ہفتے مختصر نوٹس اور پریکٹس سوال بھیجو (Reading, Writing, Listening, Speaking)۔
-- ہر مہینے کے آخر میں بتاؤ کہ میں اپنے گول کے کتنا قریب ہوں۔
-</pre>
-</div>
+<div class="prompt-box" dir="rtl"><pre>ہر ہفتے مجھ سے میری پراگریس پوچھو اور پلان سے ملاؤ:&#10;- اگر میں کسی قدم میں پیچھے ہوں تو صاف بتاؤ اور نیا پلان بناؤ۔&#10;- IELTS کی تیاری کے لیے مجھے ہر ہفتے مختصر نوٹس اور پریکٹس سوال بھیجو (Reading, Writing, Listening, Speaking)۔&#10;- ہر مہینے کے آخر میں بتاؤ کہ میں اپنے گول کے کتنا قریب ہوں۔</pre></div>
 
-<div class="prompt-box" dir="ltr">
-<pre>
-Each week, ask me about my progress and compare it with the plan:
-- If I am behind on a step, say so plainly and make a new plan.
-- For IELTS preparation, send me short notes and practice questions every week (Reading, Writing, Listening, Speaking).
-- At the end of each month, tell me how close I am to my goal.
-</pre>
-</div>
+<div class="prompt-box" dir="ltr"><pre>Each week, ask me about my progress and compare it with the plan:&#10;- If I am behind on a step, say so plainly and make a new plan.&#10;- For IELTS preparation, send me short notes and practice questions every week (Reading, Writing, Listening, Speaking).&#10;- At the end of each month, tell me how close I am to my goal.</pre></div>
 
 ---
 
