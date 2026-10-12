@@ -10,7 +10,7 @@ tags:
   - Gemini Notebook
   - NotebookLM
   - AI Study Tools
-image: "/images/blog/notebooklm-gemini-notebook-new-features-october-2026-guide.png"
+image: "/images/blog/notebooklm-gemini-notebook-new-features-october-2026-guide-v2.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
