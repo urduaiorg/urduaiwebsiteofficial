@@ -10,7 +10,7 @@ tags:
   - Gemini 4 Argon
   - AI models
   - Google Antigravity
-image: "/images/blog/google-gemini-4-argon-global-launch-urdu.png"
+image: "/images/blog/google-gemini-4-argon-global-launch-urdu-v2.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
