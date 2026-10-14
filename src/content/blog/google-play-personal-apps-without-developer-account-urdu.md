@@ -10,7 +10,7 @@ tags:
   - Google AI Studio
   - Android apps
   - AI app creation
-image: "/images/blog/google-play-personal-apps-without-developer-account-urdu.png"
+image: "/images/blog/google-play-personal-apps-without-developer-account-urdu-v2.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
