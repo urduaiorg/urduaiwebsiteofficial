@@ -34,10 +34,6 @@ faq:
 
 واٹس ایپ (WhatsApp) نے **14 اکتوبر 2026** کو گیسٹ کالنگ متعارف کرائی ہے۔ اب واٹس ایپ اکاؤنٹ رکھنے والا شخص **کال لنک** بنا کر ایسے فرد کو بھی دعوت دے سکتا ہے جس کا واٹس ایپ اکاؤنٹ نہیں۔ مہمان اپنے **کمپیوٹر کے براؤزر** میں لنک کھولتا ہے، نام لکھتا ہے اور میزبان کی منظوری کے بعد کال میں شامل ہوتا ہے۔ [Meta کا اصل اعلان](https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/)
 
-![Meta کے واٹس ایپ کالنگ انٹرفیس میں پاکستانی لوگوں کے تصوراتی چہرے، کمپیوٹر براؤزر میں کال کا منظر](/images/blog/whatsapp-guest-calling-pakistani-editorial.jpg)
-
-*تصویر: [Meta کی اصل فیچر تصویر](/images/blog/whatsapp-guest-calling-meta-original.jpg) کی بنیاد پر Urdu Ai کی مقامی ترمیم۔ کال میں نظر آنے والے پاکستانی چہرے تصوراتی ہیں؛ یہ حقیقی صارفین کی تصویر یا ہماری لی ہوئی اسکرین شاٹ نہیں۔ کور میں فراہم کردہ مرکزی پورٹریٹ کے ساتھ اے آئی سے بنائے گئے دیگر چہرے اور گروپ کال کا تصوراتی منظر ہے۔ یہ WhatsApp کی اصل اسکرین شاٹ نہیں؛ 32 افراد کی حد [Meta کے اعلان](https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/) سے لی گئی ہے۔*
-
 پاکستان میں اس کا آسان مطلب یہ ہو سکتا ہے کہ آپ بیرونِ ملک کسی رشتے دار، آن لائن استاد یا کام کے ساتھی کو ایک کال لنک بھیجیں؛ اگر ان کے پاس واٹس ایپ اکاؤنٹ نہ ہو تو بھی وہ کمپیوٹر سے شامل ہو سکیں۔ **میزبان کے لیے واٹس ایپ اکاؤنٹ ضروری ہے۔** Meta نے پاکستان کے لیے الگ دستیابی کی تاریخ نہیں بتائی، اس لیے فیچر ہر اکاؤنٹ میں نظر آنے کا دعویٰ نہیں کیا جا سکتا۔
 
 [واٹس ایپ ویب پر براؤزر سے کال](https://urduai.org/blog/whatsapp-web-calling-new-features/) پہلے ہی متعارف ہو چکی تھی۔ اس بار **نئی بات بغیر اکاؤنٹ مہمان کی شمولیت** ہے۔
@@ -72,3 +68,5 @@ Meta نے پاکستان میں گیسٹ کالنگ کے اجرا کی الگ ت
 
 - [Meta Newsroom: Now You Can Invite Anyone to a WhatsApp Call — 14 October 2026](https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/)
 - [WhatsApp Blog: No Account Needed, No Cost, No Time Limit — 14 October 2026](https://blog.whatsapp.com/now-you-can-invite-anyone-to-a-whatsapp-call-no-account-needed-no-cost-no-time-limit)
+
+*تصویری وضاحت: سرورق میں کال کا منظر تصوراتی ہے، واٹس ایپ کی اصل اسکرین شاٹ نہیں۔*

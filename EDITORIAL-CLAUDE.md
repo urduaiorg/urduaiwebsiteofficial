@@ -134,6 +134,16 @@ Not every article needs all six. A short news update might be just 1 + 2 + 6. A 
 
 ---
 
+## Keep News Reader-First
+
+- Lead with the announcement, its practical meaning, and the next useful step. Explain unfamiliar features in plain Urdu so the reader can understand and use the news.
+- Keep production notes, image provenance, AI-generation disclosures, methodology, and repeated source explanations out of the opening and the main learning flow. Do not insert a large italic note below the lead or an image.
+- Cite a factual claim where it helps the reader check it. Do not repeat the same citation and caveat in a separate paragraph unless the distinction changes the meaning of the news.
+- If an image could reasonably be mistaken for an actual product screenshot or documentary photograph, add one concise, accurate disclosure at the end of the article. Omit other editorial notes that add no useful information. Keep detailed asset records in production files, not reader-facing copy.
+- Before publishing, read the page as a learner on a phone: remove repeated visuals, notes, and caveats that interrupt the answer without improving accuracy.
+
+---
+
 ## Factual Integrity — The Non-Negotiable Standard
 
 We may write less but our quality will never be compromised. Every claim in every article must be verifiable. A single factual error damages the trust of 250 million Urdu speakers who have nowhere else to turn for reliable AI information in their language.
