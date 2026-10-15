@@ -41,20 +41,13 @@ Two author profiles exist on urduai.org:
 
 ## How Urdu and English Mix
 
-Technical terms stay in English. Don't transliterate what doesn't need transliterating.
+Write complete, natural Urdu sentences. On first meaningful mention, give the familiar Urdu name followed by English for recognition: چیٹ جی پی ٹی (ChatGPT)، کلاڈ (Claude)، پرامپٹ انجینیئرنگ (prompt engineering). Afterwards, use the Urdu name consistently unless the exact English is needed to find a button, model version, file, or setting.
 
-**Natural:**
-> گوگل نے Veo 3.1 سے مفت ویڈیو جنریشن کا اعلان کیا۔
+Keep interface labels exactly as shown on screen, with an Urdu instruction around them: **فائل شامل کرنے کے لیے Upload دبائیں۔** Preserve exact model identifiers when their spelling or version matters. English keywords belong naturally in metadata and the first mention; do not repeat them throughout the copy merely for search.
 
-**Forced:**
-> گوگل نے وی ای او تھری پوائنٹ ون سے مفت ویڈیو جنریشن کا اعلان کیا۔
+Use familiar Urdu for ordinary prose: مسودہ، تجربہ، مہارت، نتیجہ، تصدیق کریں۔ Avoid strings such as "initial CV draft کو verify کریں" when "سی وی کے ابتدائی مسودے کی معلومات جانچیں" says it clearly. Familiar borrowed words such as فائل، ایپ، ویڈیو and اکاؤنٹ are welcome; do not replace them with obscure vocabulary.
 
-The rule: if a Pakistani would say the English word in conversation, keep it in English. Nobody says "مصنوعی ذہانت کی بات چیت کا نظام" when they mean ChatGPT.
-
-**When a concept is new,** explain it once in Urdu and then use the English term:
-> سیمولیشن ایجنٹس — یعنی ایسے AI ماڈلز جو حقیقی انسانوں کے رویوں کی نقل کرتے ہیں۔
-
-After that first explanation, just write "سیمولیشن ایجنٹس" without re-explaining.
+Explain an unfamiliar concept through what it does, then name it. For example: **اے آئی کو دی گئی ہدایت پرامپٹ کہلاتی ہے۔** Use **پرامپٹ** consistently. Keep English digits `0–9`, as required in AGENTS.md.
 
 ---
 
@@ -65,16 +58,16 @@ After that first explanation, just write "سیمولیشن ایجنٹس" without
 
 ---
 
-## The First Paragraph — AEO Rule
+## The First Paragraph — Answer the Reader
 
-The first paragraph of every article is written for AI extraction. Google AI Overviews, Bing Copilot, Perplexity — they all pull from this. Make it count.
+Write the opening for a person reading on a phone. It should answer the headline's main question, explain the practical consequence, and include the condition needed to understand that answer correctly. Clear, accurate prose also helps search; no wording guarantees extraction or ranking.
 
-**Structure:** Date or context + what happened + why it matters + one specific detail.
+For news, lead with the concrete change and who it affects. For a guide, lead with the task the reader can complete and what they need. For a concept, give a plain definition and an everyday example. Put the date where it clarifies timing; do not force every opening to start with a date or list every feature.
 
-**Example:**
-> گوگل نے 2 اپریل 2026 کو گوگل وِڈز میں تین بڑی اپڈیٹس کا اعلان کیا: Veo 3.1 سے مفت ویڈیو جنریشن، Lyria 3 سے AI میوزک بنانا، اور کسٹم اوتار جنہیں آپ ڈائریکٹر کی طرح کنٹرول کر سکتے ہیں۔ سب سے اہم بات — ہر گوگل اکاؤنٹ والے کو ماہانہ 10 مفت ویڈیوز ملیں گی۔
+**Illustrative guide opening:**
+> سی وی بنانے کے لیے پہلے اپنی تعلیم، تجربے اور مہارتوں کی معلومات جمع کریں۔ پھر چیٹ جی پی ٹی سے انہی معلومات کی بنیاد پر مسودہ تیار کروائیں۔ درخواست بھیجنے سے پہلے نام، تاریخیں اور تجربے کی تفصیل خود جانچیں۔
 
-Notice: no filler, no "آج ہم بات کریں گے" (today we'll discuss), no throat-clearing. Straight to the point.
+Make one clear promise. A short paragraph is usually enough; split it when background, benefits and conditions start competing for attention.
 
 **Never open with:**
 - "آج کی دنیا میں مصنوعی ذہانت..." (generic AI intro)
@@ -101,7 +94,7 @@ The difference: the first version has one short sentence, one long sentence with
 
 ## Section Headings
 
-Headings are questions the reader would naturally ask — not template labels.
+Headings should help readers find an answer or complete a task. Use a natural question or a specific action; not every heading needs to be a question. Prefer "اپنی پہلی فائل شامل کریں" to an abstract feature label when teaching a task.
 
 **Good:**
 > ## یہ کیسے کام کرتا ہے؟
@@ -123,7 +116,7 @@ The bad examples are template labels. They could appear in any article about any
 
 Don't follow this as a visible template. Bury it in the prose.
 
-1. **First paragraph** — What happened, why it matters, one specific detail (AEO)
+1. **First paragraph** — Answer the reader's main question and explain why it matters
 2. **Feature breakdown** — Each major feature gets 1-2 paragraphs. Urdu explanation + English term naturally mixed.
 3. **Audience relevance, when material** — Include Pakistan-specific access, price, payment, language, mobile use, policy, or practical consequences only when location changes the answer. Integrate it naturally; a separate local section is never compulsory.
 4. **How it works** — Brief mechanism or process. Not a technical whitepaper. Just enough for understanding.
@@ -142,11 +135,27 @@ Not every article needs all six. A short news update might be just 1 + 2 + 6. A 
 - If an image could reasonably be mistaken for an actual product screenshot or documentary photograph, add one concise, accurate disclosure at the end of the article. Omit other editorial notes that add no useful information. Keep detailed asset records in production files, not reader-facing copy.
 - Before publishing, read the page as a learner on a phone: remove repeated visuals, notes, and caveats that interrupt the answer without improving accuracy.
 
+## Teach One Useful Thing at a Time
+
+For guides and explainers, bring a useful example or first action near the beginning. A beginner should not have to read the whole feature catalogue before trying the basic task. Longer reference material can follow the quick start.
+
+Use the sequence **task → action → expected result → check → next step** where it fits. Show one completed example before offering many prompt variations. Explain what a usable answer looks like and how the reader can improve a weak one. Label invented examples as examples; claim a test or measured benefit only when it actually happened.
+
+Prefer one continuing scenario over a list of professions. Follow one teacher's lesson, one student's application, or one shop's message through the explanation. Add Pakistan-specific context when it changes the task or decision.
+
+Keep one main idea in each paragraph. Two or three sentences are a useful editing starting point, not a rigid limit. Split a sentence when it asks the reader to remember several conditions before reaching the verb. Use lists for steps and tables for genuine comparisons.
+
+State an important limitation beside the claim or action it qualifies. For example, a detector's negative result needs its interpretation beside the result. Consolidate repeated availability notes; place optional production detail at the end or in internal records. Removing repetition must not remove a condition that changes the meaning.
+
+Include an FAQ only for a distinct unresolved question. Do not repeat the definition under several keyword variants. End with one useful next action or a relevant next lesson; avoid several competing calls to action.
+
+See the [15 October 2026 writing review](docs/editorial/urdu-writing-review-2026-10-15.md) for observed examples, benchmark links, and the prioritized revision list. Its sample findings are editorial judgments, not audience research or a global publisher ranking.
+
 ---
 
 ## Factual Integrity — The Non-Negotiable Standard
 
-We may write less but our quality will never be compromised. Every claim in every article must be verifiable. A single factual error damages the trust of 250 million Urdu speakers who have nowhere else to turn for reliable AI information in their language.
+Every material factual claim must be traceable to evidence. Keep the research record detailed and the reader-facing explanation clear. Attribution should tell readers who knows or claims something without overwhelming the explanation.
 
 ### The Verification Rule
 
@@ -164,7 +173,7 @@ When writing about any AI tool, follow this order:
 
 1. **What it actually does well** — be specific, not promotional
 2. **What its real limits are** — free tier caps, quality gaps, language support gaps
-3. **What it costs** — in USD AND approximate PKR
+3. **What it costs** — when price affects the reader's decision; include approximate PKR only with a dated conversion
 4. **What it does NOT do** — prevent false expectations
 5. **Who it's actually best for** — not everyone, be specific
 
@@ -197,7 +206,7 @@ A gap in the article is acceptable. A factual error is not.
 
 Urdu Ai follows the same factual discipline as Reuters, AP, and BBC Urdu:
 
-- **Single-source claims get flagged** — if only one source says it, note that
+- **Attribute company claims naturally** — write "گوگل کے مطابق" where relevant and link the source. Seek independent evidence for disputed claims or performance judgments; routine announcements do not need a separate single-source warning.
 - **Official vs unofficial** — distinguish between company announcements and rumors
 - **Date everything** — "اپریل 2026 تک" tells the reader when this was accurate
 - **Corrections are immediate** — if we publish an error, we fix it the same day and note the correction
@@ -273,7 +282,7 @@ Added 29 September 2026 following Qaisar’s editorial direction.
 
 ## Title Writing
 
-Titles follow this pattern: **[What] + [Specific detail] + [Why care]**
+Give each title one clear promise: a specific announcement, task, or question. Include the product or concept where it helps recognition. Use a second clause only when it clarifies that same promise; move a separate argument or learning goal into a subheading or another article.
 
 **Examples:**
 > گوگل وِڈز میں مفت AI ویڈیو، میوزک اور اوتار — Veo 3.1 اور Lyria 3 کی طاقت
@@ -333,8 +342,10 @@ when the site rebuilds; do not hardcode a separate homepage summary.
 
 ## Content Types and Their Differences
 
+The lengths below are planning ranges, not minimums or search requirements. Stop when the reader's question is answered; do not add FAQs, warnings or background to reach a word count.
+
 ### Blog Post (اے آئی اپڈیٹ)
-News-driven. Something happened — we explain it. Short shelf life. 600-1200 words.
+News-driven. Something happened — we explain it. Short shelf life. A routine update may need only a few paragraphs; a substantial explainer may need 600-1200 words.
 Tone: Journalist reporting to a friend.
 
 ### Guide (گائیڈ)
@@ -436,26 +447,20 @@ visible "اردو اے آئی کا فیصلہ" heading. If it only repeats the s
 
 ---
 
-## The AI Detection Test
+## The Read-Aloud and Learning Check
 
-Before publishing, read the article out loud in Urdu. If any sentence sounds like it was translated from English, rewrite it. If any paragraph could be produced by asking ChatGPT "write about X in Urdu" — rewrite it.
+Read the draft aloud in Urdu. Rewrite awkward translation, unnecessary English, vague pronouns, repeated conclusions and phrases that do not advance the explanation. These are writing checks; they do not establish whether a human or AI wrote the text.
 
-Signs your writing will be flagged as AI:
-- Every sentence is the same length
-- Every paragraph starts with the topic word
-- Adjectives are stacked: "یہ ایک شاندار، حیرت انگیز، انقلابی قدم ہے"
-- The article says the same thing three different ways
-- There are no specific numbers, dates, or names
-- Every section ends with a motivational line
-- The word "انقلاب" appears more than once
+Before approving it, answer:
 
-Signs your writing feels human:
-- Sentences vary from 5 words to 30 words
-- You state a fact, then immediately add context or caveat
-- You use "لیکن" (but) to pivot, not "اس کے علاوہ" (in addition) to stack
-- You use a specific, believable scenario when an example genuinely helps
-- You have an opinion and state it plainly
-- Some paragraphs are two sentences. Some are five. The content decides.
+- Does the opening fulfil the title's promise?
+- Can a beginner explain the main idea in their own words?
+- In a guide, can the reader identify the first action, likely result and way to check it?
+- Is each necessary limitation stated at the useful point, with repetition removed?
+- Does the example teach something concrete without inventing a result or testimonial?
+- Are names, digits, Urdu grammar, headings and exact interface labels consistent?
+
+Use reader feedback when available: ask someone to explain the idea or attempt the task without coaching, and record where they become confused. Do not treat word counts, scroll depth or an automated readability score as proof that someone learned.
 
 ---
 
