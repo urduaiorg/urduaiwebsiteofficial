@@ -15,7 +15,7 @@ tags:
   - گیسٹ کالنگ
   - ویڈیو کال
   - ڈیجیٹل ٹولز
-image: "/images/blog/whatsapp-guest-calling-supplied-host-31-faces-cover.png"
+image: "/images/blog/whatsapp-guest-calling-integrated-image-cover.png"
 image_width: 1200
 image_height: 630
 author: "اردو اے آئی ٹیم"
